@@ -39,9 +39,9 @@ const portugueseResources = {
                         name: "Plataforma de Português Online",
                         url: "https://pptonline.acm.gov.pt/",
                         description: "Official Portuguese government learning platform",
-                        level: "A1-B2",
+                        level: "A1-B2 CEFR",
                         variant: "PT-PT",
-                        features: ["Government-sponsored", "Structured modules", "CEFR aligned"],
+                        features: ["Government-sponsored", "Structured modules"],
                         free: true
                     },
                     {
@@ -58,7 +58,7 @@ const portugueseResources = {
                         url: "https://www.loecsen.com/en/learn-portuguese",
                         description: "Essential vocabulary with voice recognition",
                         level: "Beginner",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Travel-focused", "Voice recognition tool"],
                         free: true
                     },
@@ -67,7 +67,7 @@ const portugueseResources = {
                         url: "https://alison.com/course/portuguese-for-beginners",
                         description: "Video-based beginner course",
                         level: "Beginner",
-                        variant: "General",
+                        variant: "General Portuguese",
                         features: ["Free certificate upon 80% completion"],
                         free: true
                     },
@@ -85,7 +85,7 @@ const portugueseResources = {
                         url: "https://cursa.app/free-courses-portuguese-online",
                         description: "Multiple courses with free certificates",
                         level: "Various",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Completely free including certificates"],
                         free: true
                     }
@@ -100,7 +100,7 @@ const portugueseResources = {
                         description: "Official Portuguese cultural institute",
                         level: "A1-C1",
                         variant: "PT-PT",
-                        features: ["Self-study options", "Official certification", "Cultural focus"],
+                        features: ["Self-study options", "Official certification"],
                         free: true
                     },
                     {
@@ -109,7 +109,7 @@ const portugueseResources = {
                         description: "Federal university courses",
                         level: "All levels",
                         variant: "PT-BR",
-                        features: ["325 free places", "University instruction", "International learners"],
+                        features: ["325 free places", "University instruction"],
                         free: true
                     },
                     {
@@ -118,7 +118,7 @@ const portugueseResources = {
                         description: "EU-backed A1 course",
                         level: "A1",
                         variant: "PT-PT",
-                        features: ["Structured curriculum", "Global access", "EU quality"],
+                        features: ["Structured curriculum", "Global access"],
                         free: true
                     },
                     {
@@ -139,7 +139,7 @@ const portugueseResources = {
                 category: "Textbooks and Educational Materials",
                 items: [
                     {
-                        name: "Português para principiantes",
+                        name: "Português para principiantes (U of Wisconsin)",
                         url: "https://wisc.pb.unizin.org/portuguese/",
                         description: "CC-licensed comprehensive textbook, 600+ pages",
                         level: "Beginner-Intermediate",
@@ -148,12 +148,12 @@ const portugueseResources = {
                         free: true
                     },
                     {
-                        name: "Conversa Brasileira",
+                        name: "Conversa Brasileira (UT Austin)",
                         url: "https://coerll.utexas.edu/coerll/materials/language/portuguese/",
                         description: "35 unscripted video scenarios with transcripts",
                         level: "Intermediate-Advanced",
                         variant: "PT-BR",
-                        features: ["Authentic conversations", "Complete transcriptions", "UT Austin"],
+                        features: ["Authentic conversations", "Complete transcriptions"],
                         free: true
                     },
                     {
@@ -161,8 +161,17 @@ const portugueseResources = {
                         url: "https://archive.org/details/portuguese-conversation-grammar",
                         description: "Historical grammar texts collection",
                         level: "Various",
-                        variant: "Classical",
+                        variant: "Classical Portuguese",
                         features: ["Public domain", "Multiple PDF files"],
+                        free: true
+                    },
+                    {
+                        name: "InfoBooks Collection",
+                        url: "https://www.infobooks.org/free-pdf-books/language-learning/portuguese/",
+                        description: "10+ specialized guides and materials",
+                        level: "All levels",
+                        variant: "Both variants",
+                        features: ["No registration required"],
                         free: true
                     },
                     {
@@ -172,74 +181,6 @@ const portugueseResources = {
                         level: "Beginner",
                         variant: "PT-BR",
                         features: ["Writing practice", "Systematic progression"],
-                        free: true
-                    },
-                    {
-                        name: "Rosa Estevens Children's Books",
-                        url: "https://rosaestevens.org/",
-                        description: "Complete reading scheme",
-                        level: "Beginner",
-                        variant: "PT-PT",
-                        features: ["Multiple levels", "PDF downloads", "Child-friendly"],
-                        free: true
-                    }
-                ]
-            },
-            {
-                category: "Literature and Reading Materials",
-                items: [
-                    {
-                        name: "Project Gutenberg Portuguese",
-                        url: "https://www.gutenberg.org/browse/languages/pt",
-                        description: "400+ classic works",
-                        level: "Intermediate-Advanced",
-                        variant: "PT-PT & PT-BR",
-                        features: ["Camões", "Eça de Queirós", "Machado de Assis"],
-                        free: true
-                    },
-                    {
-                        name: "Domínio Público (Brazil)",
-                        url: "http://www.dominiopublico.gov.br/",
-                        description: "180,000+ items digital library",
-                        level: "All levels",
-                        variant: "PT-BR",
-                        features: ["Texts", "Audio", "Videos", "Government repository"],
-                        free: true
-                    },
-                    {
-                        name: "Biblioteca Digital Camões",
-                        url: "http://cvc.instituto-camoes.pt/conhecer/biblioteca-digital-camoes/",
-                        description: "Portuguese culture repository",
-                        level: "All levels",
-                        variant: "PT-PT",
-                        features: ["Contemporary and classic works", "Cultural materials"],
-                        free: true
-                    },
-                    {
-                        name: "Storyglot",
-                        url: "https://storyglot.com/",
-                        description: "Modern immersive stories",
-                        level: "B1-B2",
-                        variant: "PT-PT",
-                        features: ["Audio included", "Engaging storylines"],
-                        free: true
-                    },
-                    {
-                        name: "Read Brazilian Portuguese",
-                        url: "https://readbrazilianportuguese.com/",
-                        description: "Adapted articles for learners",
-                        level: "Beginner-Intermediate",
-                        variant: "PT-BR",
-                        features: ["Bridge between easy and hard content"],
-                        free: true
-                    },
-                    {
-                        name: "Biblioteca Nacional Digital Brasil",
-                        url: "https://bndigital.bn.br/acervodigital/",
-                        description: "700,000+ historical files",
-                        level: "All levels",
-                        variant: "PT-BR",
-                        features: ["15th-20th century works", "National archive"],
                         free: true
                     }
                 ]
@@ -261,7 +202,7 @@ const portugueseResources = {
                         url: "https://cooljugator.com/pt",
                         description: "Thousands of verbs, 18 tenses",
                         level: "All levels",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Works offline", "Example sentences"],
                         free: true
                     },
@@ -270,7 +211,7 @@ const portugueseResources = {
                         url: "https://conjugator.reverso.net/conjugation-portuguese.html",
                         description: "Complete verb conjugation tool",
                         level: "All levels",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Reflexive forms", "Conjugation rules"],
                         free: true
                     },
@@ -284,6 +225,74 @@ const portugueseResources = {
                         free: true
                     }
                 ]
+            },
+            {
+                category: "Literature and Reading",
+                items: [
+                    {
+                        name: "Project Gutenberg Portuguese",
+                        url: "https://www.gutenberg.org/browse/languages/pt",
+                        description: "400+ classic works",
+                        level: "Intermediate-Advanced",
+                        variant: "Both variants",
+                        features: ["Camões", "Eça de Queirós", "Machado de Assis"],
+                        free: true
+                    },
+                    {
+                        name: "Domínio Público (Brazil)",
+                        url: "http://www.dominiopublico.gov.br/",
+                        description: "180,000+ items digital library",
+                        level: "All levels",
+                        variant: "PT-BR",
+                        features: ["Texts", "Audio", "Videos", "Completely free"],
+                        free: true
+                    },
+                    {
+                        name: "Biblioteca Digital Camões",
+                        url: "http://cvc.instituto-camoes.pt/conhecer/biblioteca-digital-camoes/",
+                        description: "Portuguese culture repository",
+                        level: "All levels",
+                        variant: "PT-PT",
+                        features: ["Contemporary and classic works"],
+                        free: true
+                    },
+                    {
+                        name: "Rosa Estevens Children's Books",
+                        url: "https://rosaestevens.org/",
+                        description: "Complete reading scheme",
+                        level: "Beginner",
+                        variant: "PT-PT",
+                        features: ["Multiple levels", "PDF downloads", "Free"],
+                        free: true
+                    },
+                    {
+                        name: "Storyglot",
+                        url: "https://storyglot.com/",
+                        description: "Modern immersive stories",
+                        level: "Intermediate B1-B2",
+                        variant: "PT-PT",
+                        features: ["Audio included", "Engaging storylines"],
+                        free: true
+                    },
+                    {
+                        name: "Biblioteca Nacional Digital Brasil",
+                        url: "https://bndigital.bn.br/acervodigital/",
+                        description: "700,000+ files",
+                        level: "All levels",
+                        variant: "PT-BR",
+                        features: ["15th-20th century works"],
+                        free: true
+                    },
+                    {
+                        name: "Read Brazilian Portuguese",
+                        url: "https://readbrazilianportuguese.com/",
+                        description: "Adapted articles for learners",
+                        level: "Beginner-Intermediate",
+                        variant: "PT-BR",
+                        features: ["Bridge between easy and hard content"],
+                        free: true
+                    }
+                ]
             }
         ],
 
@@ -292,7 +301,7 @@ const portugueseResources = {
                 category: "Podcasts",
                 items: [
                     {
-                        name: "Portuguese With Carla",
+                        name: "Portuguese With Carla Podcast",
                         url: "https://portuguesewithcarla.com/podcasts/",
                         description: "Weekly European Portuguese lessons",
                         level: "Beginner-Intermediate",
@@ -310,6 +319,15 @@ const portugueseResources = {
                         free: true
                     },
                     {
+                        name: "PortuguesePod101",
+                        url: "https://www.portuguesepod101.com/",
+                        description: "Comprehensive podcast course",
+                        level: "All levels",
+                        variant: "PT-BR",
+                        features: ["Some free content", "Structured lessons"],
+                        free: true
+                    },
+                    {
                         name: "BrazilianPodClass",
                         url: "https://podcasts.apple.com/us/podcast/learn-portuguese-brazilianpodclass/id261185732",
                         description: "573 episodes available",
@@ -324,7 +342,7 @@ const portugueseResources = {
                         description: "Life in Rio culture podcast",
                         level: "Intermediate",
                         variant: "PT-BR",
-                        features: ["Brazilian-American host duo", "Cultural focus"],
+                        features: ["Brazilian-American host duo"],
                         free: true
                     },
                     {
@@ -334,15 +352,6 @@ const portugueseResources = {
                         level: "All levels",
                         variant: "PT-PT",
                         features: ["950+ episodes with transcripts"],
-                        free: true
-                    },
-                    {
-                        name: "PortuguesePod101",
-                        url: "https://www.portuguesepod101.com/",
-                        description: "Comprehensive podcast course",
-                        level: "All levels",
-                        variant: "PT-BR",
-                        features: ["Some free content", "Structured lessons"],
                         free: true
                     }
                 ]
@@ -419,15 +428,6 @@ const portugueseResources = {
                         free: true
                     },
                     {
-                        name: "TV Brasil",
-                        url: "Online streaming",
-                        description: "Free Brazilian public television",
-                        level: "Intermediate-Advanced",
-                        variant: "PT-BR",
-                        features: ["Live streaming", "Educational content"],
-                        free: true
-                    },
-                    {
                         name: "RTP News",
                         url: "https://www.rtp.pt/",
                         description: "Portuguese public broadcaster news",
@@ -444,6 +444,15 @@ const portugueseResources = {
                         variant: "PT-BR",
                         features: ["Clear official Portuguese"],
                         free: true
+                    },
+                    {
+                        name: "TV Brasil",
+                        url: "Free streaming",
+                        description: "Free Brazilian public television",
+                        level: "Advanced",
+                        variant: "PT-BR",
+                        features: ["Public television content"],
+                        free: true
                     }
                 ]
             }
@@ -455,7 +464,7 @@ const portugueseResources = {
                 url: "https://www.duolingo.com/",
                 description: "Gamified language learning",
                 level: "All levels",
-                variant: "PT-BR",
+                variant: "PT-BR only",
                 features: ["Completely free core features"],
                 free: true
             },
@@ -464,7 +473,7 @@ const portugueseResources = {
                 url: "https://apps.ankiweb.net/",
                 description: "Spaced repetition flashcards",
                 level: "All levels",
-                variant: "PT-PT & PT-BR",
+                variant: "Both variants",
                 features: ["Desktop free", "Thousands of shared decks"],
                 free: true
             },
@@ -473,7 +482,7 @@ const portugueseResources = {
                 url: "https://www.hellotalk.com/",
                 description: "Language exchange app",
                 level: "All levels",
-                variant: "PT-PT & PT-BR",
+                variant: "Both variants",
                 features: ["Native speaker connections", "Free core features"],
                 free: true
             },
@@ -482,7 +491,7 @@ const portugueseResources = {
                 url: "Browser extension",
                 description: "Netflix/YouTube learning tool",
                 level: "All levels",
-                variant: "PT-PT & PT-BR",
+                variant: "Both variants",
                 features: ["Dual subtitles", "Dictionary"],
                 free: true
             },
@@ -491,21 +500,30 @@ const portugueseResources = {
                 url: "https://jointoucan.com/",
                 description: "Browser immersion extension",
                 level: "All levels",
-                variant: "PT-PT & PT-BR",
+                variant: "Both variants",
                 features: ["Replaces words while browsing"],
+                free: true
+            },
+            {
+                name: "TTS-Portuguese-Corpus",
+                url: "GitHub",
+                description: "Open source text-to-speech",
+                level: "Developer tool",
+                variant: "PT-BR",
+                features: ["CC BY 4.0 license"],
                 free: true
             }
         ],
 
         practice: [
             {
-                category: "Language Exchange",
+                category: "Language Exchange Platforms",
                 items: [
                     {
                         name: "MyLanguageExchange",
                         url: "https://www.mylanguageexchange.com/",
                         description: "Voice/video chat with native speakers",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Lesson plans", "AI tools"],
                         free: true
                     },
@@ -513,7 +531,7 @@ const portugueseResources = {
                         name: "Language.Exchange",
                         url: "https://en.language.exchange/language/PT-Portuguese/",
                         description: "Partner matching from 250 countries",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["100% free", "Text and video"],
                         free: true
                     },
@@ -521,7 +539,7 @@ const portugueseResources = {
                         name: "The Mixxer",
                         url: "https://www.language-exchanges.org/",
                         description: "University-hosted exchange",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Academic backing", "Non-profit"],
                         free: true
                     },
@@ -529,7 +547,7 @@ const portugueseResources = {
                         name: "Conversation Exchange",
                         url: "https://www.conversationexchange.com/",
                         description: "Face-to-face and online practice",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Multiple formats", "Free"],
                         free: true
                     },
@@ -537,20 +555,20 @@ const portugueseResources = {
                         name: "Tandem",
                         url: "https://tandem.net/",
                         description: "Mobile language exchange",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Largest community", "Free basic"],
                         free: true
                     }
                 ]
             },
             {
-                category: "Dictionaries and Tools",
+                category: "Dictionaries and Language Tools",
                 items: [
                     {
                         name: "Collins Portuguese Dictionary",
                         url: "https://www.collinsdictionary.com/dictionary/english-portuguese",
                         description: "English-Portuguese dictionary",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Pronunciations", "Examples", "Free"],
                         free: true
                     },
@@ -558,7 +576,7 @@ const portugueseResources = {
                         name: "WordReference",
                         url: "https://www.wordreference.com/enpt/",
                         description: "Comprehensive dictionary",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["User forums for context"],
                         free: true
                     },
@@ -590,20 +608,36 @@ const portugueseResources = {
                         name: "ttsMP3.com",
                         url: "https://ttsmp3.com/text-to-speech/Portuguese/",
                         description: "Text-to-speech converter",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Downloadable MP3", "Both variants"],
+                        free: true
+                    },
+                    {
+                        name: "FreeTTS",
+                        url: "https://freetts.com/text-to-speech/PortugueseTTS",
+                        description: "Text-to-speech tool",
+                        variant: "Both variants",
+                        features: ["No registration"],
+                        free: true
+                    },
+                    {
+                        name: "Cliptics",
+                        url: "https://cliptics.com/portuguese-text-to-speech-free",
+                        description: "TTS with 5,000 characters free",
+                        variant: "Both variants",
+                        features: ["5,000 characters free"],
                         free: true
                     }
                 ]
             },
             {
-                category: "OER and Academic Resources",
+                category: "Open Educational Resources",
                 items: [
                     {
                         name: "MERLOT Portuguese Collection",
                         url: "https://www.merlot.org/merlot/materials.htm?keywords=Portuguese+Language",
                         description: "Peer-reviewed educational resources",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Quality-assured materials"],
                         free: true
                     },
@@ -611,7 +645,7 @@ const portugueseResources = {
                         name: "University of Florida OER Guide",
                         url: "https://guides.uflib.ufl.edu/portuguesestudies/oer",
                         description: "Curated OER collection",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Links to multiple resources"],
                         free: true
                     },
@@ -619,16 +653,53 @@ const portugueseResources = {
                         name: "Bloom Library",
                         url: "https://bloomlibrary.org/#!/language:pt",
                         description: "Free Portuguese literacy books",
-                        variant: "PT-PT & PT-BR",
+                        variant: "Both variants",
                         features: ["Digital library", "Downloadable"],
                         free: true
                     },
                     {
                         name: "CPLP Resources",
                         url: "https://www.cplp.org/",
-                        description: "All Portuguese-speaking countries resources",
-                        variant: "PT-PT & PT-BR",
-                        features: ["Cultural materials", "Official content"],
+                        description: "All Portuguese-speaking countries",
+                        variant: "Both variants",
+                        features: ["Cultural materials"],
+                        free: true
+                    }
+                ]
+            },
+            {
+                category: "News and Authentic Content",
+                items: [
+                    {
+                        name: "UN News Portuguese",
+                        url: "https://news.un.org",
+                        description: "UN news in Portuguese",
+                        variant: "PT-BR",
+                        features: ["Brazilian Portuguese translations"],
+                        free: true
+                    },
+                    {
+                        name: "TSF Rádio Notícias",
+                        url: "Portuguese news radio",
+                        description: "Portuguese news radio",
+                        variant: "PT-PT",
+                        features: ["Advanced level content"],
+                        free: true
+                    },
+                    {
+                        name: "CBN Brazil",
+                        url: "Brazilian news radio",
+                        description: "Brazilian news radio",
+                        variant: "PT-BR",
+                        features: ["Advanced level content"],
+                        free: true
+                    },
+                    {
+                        name: "SIC Notícias",
+                        url: "Portuguese commercial TV",
+                        description: "Portuguese commercial TV",
+                        variant: "PT-PT",
+                        features: ["May need VPN"],
                         free: true
                     }
                 ]
