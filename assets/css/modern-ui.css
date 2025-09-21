@@ -1,0 +1,393 @@
+/* ===================================
+   Modern UI/UX Enhancements
+   =================================== */
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--primary-600) 0%, var(--primary-500) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 0 4px 20px rgba(94, 84, 142, 0.3);
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 30px rgba(94, 84, 142, 0.4);
+    background: linear-gradient(135deg, var(--primary-700) 0%, var(--primary-600) 100%);
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+/* Sticky Filter Tabs */
+.filter-tabs {
+    position: sticky;
+    top: 70px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    padding: 20px 0;
+    margin: -20px -20px 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.filter-tabs.scrolled {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.filter-tab {
+    position: relative;
+    padding: 10px 24px;
+    border: 2px solid var(--gray-200);
+    background: white;
+    border-radius: 100px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--gray-700);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.filter-tab:hover {
+    border-color: var(--primary-400);
+    color: var(--primary-600);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(94, 84, 142, 0.15);
+}
+
+.filter-tab.active {
+    background: linear-gradient(135deg, var(--primary-600) 0%, var(--primary-500) 100%);
+    border-color: transparent;
+    color: white;
+    box-shadow: 0 4px 15px rgba(94, 84, 142, 0.3);
+}
+
+/* Resource Card Animations */
+.resource-section {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.resource-section:nth-child(1) { animation-delay: 0.1s; }
+.resource-section:nth-child(2) { animation-delay: 0.2s; }
+.resource-section:nth-child(3) { animation-delay: 0.3s; }
+.resource-section:nth-child(4) { animation-delay: 0.4s; }
+.resource-section:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Enhanced Resource Items */
+.resource-item {
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.resource-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--primary-500) 0%, var(--primary-600) 100%);
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+}
+
+.resource-item:hover {
+    transform: translateX(8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary-200);
+}
+
+.resource-item:hover::before {
+    transform: scaleY(1);
+}
+
+/* Collapsible Sections */
+.resource-section-header {
+    cursor: pointer;
+    user-select: none;
+    padding: 16px 20px;
+    background: linear-gradient(135deg, var(--gray-50) 0%, white 100%);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s ease;
+}
+
+.resource-section-header:hover {
+    background: linear-gradient(135deg, var(--primary-50) 0%, white 100%);
+    transform: translateX(5px);
+}
+
+.resource-section-header.collapsed + .resource-items {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin: 0;
+}
+
+.resource-items {
+    max-height: 5000px;
+    opacity: 1;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Toggle Arrow */
+.section-toggle {
+    margin-left: auto;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.resource-section-header.collapsed .section-toggle {
+    transform: rotate(-90deg);
+}
+
+/* Search Box */
+.search-container {
+    position: sticky;
+    top: 140px;
+    z-index: 99;
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: fadeInUp 0.5s 0.3s ease forwards;
+}
+
+.search-box {
+    width: 100%;
+    padding: 16px 24px 16px 50px;
+    border: 2px solid var(--gray-200);
+    border-radius: 100px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.search-box:focus {
+    outline: none;
+    border-color: var(--primary-500);
+    box-shadow: 0 0 0 4px rgba(94, 84, 142, 0.1);
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+/* Count Animation */
+.resource-section-count {
+    background: var(--primary-100);
+    color: var(--primary-700);
+    padding: 4px 12px;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+/* Loading Skeleton */
+.skeleton {
+    background: linear-gradient(90deg, var(--gray-100) 0%, var(--gray-200) 50%, var(--gray-100) 100%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite;
+    border-radius: 8px;
+}
+
+@keyframes skeleton-loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+.skeleton-card {
+    height: 120px;
+    margin-bottom: 16px;
+}
+
+/* Progress Bar */
+.page-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 10000;
+    background: var(--gray-100);
+}
+
+.page-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-500) 0%, var(--accent-500) 100%);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+/* Keyboard Shortcuts Toast */
+.shortcuts-toast {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1001;
+}
+
+.shortcuts-toast.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.shortcut-key {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: 'Monaco', 'Courier New', monospace;
+    margin: 0 4px;
+}
+
+/* Mobile Enhancements */
+@media (max-width: 768px) {
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .filter-tabs {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 15px;
+        margin: -15px -15px 20px;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .filter-tab {
+        font-size: 0.9rem;
+        padding: 8px 18px;
+    }
+
+    .resource-item {
+        padding: 15px;
+    }
+
+    .resource-item:hover {
+        transform: none;
+    }
+
+    /* Touch-friendly tap targets */
+    a, button {
+        min-height: 44px;
+        min-width: 44px;
+    }
+}
+
+/* Accessibility Focus States */
+*:focus-visible {
+    outline: 3px solid var(--primary-500);
+    outline-offset: 2px;
+}
+
+.filter-tab:focus-visible,
+.back-to-top:focus-visible {
+    outline: 3px solid var(--primary-500);
+    outline-offset: 4px;
+}
+
+/* Dark Mode Support (System Preference) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-primary: #1a1a1a;
+        --text-primary: #e0e0e0;
+    }
+
+    .filter-tabs {
+        background: rgba(26, 26, 26, 0.95);
+    }
+
+    .filter-tab {
+        background: #2a2a2a;
+        border-color: #3a3a3a;
+        color: #e0e0e0;
+    }
+
+    .resource-item {
+        background: #2a2a2a;
+        border-color: #3a3a3a;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .back-to-top,
+    .filter-tabs,
+    .search-container,
+    .nav {
+        display: none !important;
+    }
+
+    .resource-section {
+        page-break-inside: avoid;
+    }
+}
