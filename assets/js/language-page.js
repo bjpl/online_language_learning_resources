@@ -51,7 +51,7 @@
         });
     }
 
-    // Special rendering for comprehensive resource structures (Dutch, Danish)
+    // Special rendering for comprehensive resource structures (Dutch, Danish, Portuguese)
     function renderComprehensiveResources(filter) {
         const container = document.getElementById('resources-container');
 
@@ -85,8 +85,10 @@
 
         if (filter === 'all' || filter === 'practice') {
             language.resources.practice?.forEach(category => {
-                const section = createComprehensiveSection(category.category, category.items, 'practice');
-                container.appendChild(section);
+                if (category && category.items && Array.isArray(category.items)) {
+                    const section = createComprehensiveSection(category.category, category.items, 'practice');
+                    container.appendChild(section);
+                }
             });
         }
     }
