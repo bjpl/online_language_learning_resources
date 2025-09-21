@@ -10,8 +10,7 @@ const languageData = {
     // Note: Only displaying languages with comprehensive resource collections
     // Additional languages (Spanish, French, Japanese, etc.) will be added as content is developed
 
-    /* Placeholder for future languages
-    french: {
+    /* Removed placeholder languages to prevent parsing issues
         name: "French",
         nativeName: "Français",
         flag: "🇫🇷",
@@ -216,7 +215,6 @@ const languageData = {
                 { name: "Alif Baa", author: "Brustad, Al-Batal, Al-Tonsi", description: "Introduction to Arabic letters and sounds" }
             ]
         }
-    },
     */
 
     dutch: {
