@@ -43,6 +43,7 @@ const languageData = {
         }
     },
 
+    // Portuguese placeholder - full data loaded from portuguese-data.js
     portuguese: {
         name: "Portuguese",
         nativeName: "Português",
@@ -60,9 +61,8 @@ const languageData = {
             courses: [
                 { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu/", description: "Complete university course", free: true },
                 { name: "Instituto Camões", url: "https://www.instituto-camoes.pt/", description: "Official Portuguese institute", free: true }
-            ],
-            // Practice section will be loaded from portuguese-data.js
-            practice: []
+            ]
+            // Note: No practice array here - will be added by portuguese-data.js
         }
     }
 };

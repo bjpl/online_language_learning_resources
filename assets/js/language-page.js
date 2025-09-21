@@ -7,10 +7,10 @@
 
     // Get language from URL parameters
     const urlParams = new URLSearchParams(window.location.search);
-    const langParam = urlParams.get('lang') || 'spanish';
+    const langParam = urlParams.get('lang') || 'dutch';
 
     // Get language data
-    const language = languageData[langParam] || languageData.spanish;
+    const language = languageData[langParam] || languageData.dutch;
 
     // Initialize page
     function init() {
