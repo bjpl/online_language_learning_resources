@@ -1,0 +1,36 @@
+# GitHub Pages Configuration
+# This file configures how GitHub Pages serves your site
+
+# Site settings
+title: Language Learning Hub
+description: A curated collection of language learning resources for polyglots and language enthusiasts
+url: https://bjpl.github.io
+baseurl: /online_language_learning_resources
+
+# Build settings
+theme: null  # We're using custom HTML/CSS/JS
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - package.json
+  - package-lock.json
+  - node_modules/
+
+# Include specific directories
+include:
+  - assets
+  - _layouts
+
+# Plugins (GitHub Pages supports these)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null

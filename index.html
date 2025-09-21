@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A curated collection of language learning resources for polyglots and language enthusiasts. Discover tools, apps, books, and communities for your language journey.">
+    <meta name="author" content="Language Learning Hub">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Language Learning Hub - Curated Resources for Every Journey">
+    <meta property="og:description" content="Discover the best tools, apps, and communities for learning languages">
+    <meta property="og:type" content="website">
+
+    <title>Language Learning Hub - Your Gateway to Linguistic Mastery</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" aria-label="Language Learning Hub Home">
+                <span class="logo-icon">🌍</span>
+                <span class="logo-text">Language Hub</span>
+            </a>
+
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="#languages" class="nav-link">Languages</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+                <li><a href="#methodology" class="nav-link">Methods</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="hero-pattern"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-subtitle">Your journey to</span>
+                <span class="hero-main">Linguistic Mastery</span>
+                <span class="hero-accent">starts here</span>
+            </h1>
+
+            <p class="hero-description">
+                A thoughtfully curated collection of language learning resources,
+                from beginner-friendly apps to advanced immersion techniques.
+            </p>
+
+            <!-- Quick Search -->
+            <div class="quick-search">
+                <input type="text"
+                       id="quick-search-input"
+                       class="search-input"
+                       placeholder="Search languages or resources..."
+                       aria-label="Quick search for languages or resources">
+                <button class="search-button" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="2"/>
+                        <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Popular Languages Pills -->
+            <div class="popular-languages">
+                <span class="popular-label">Popular:</span>
+                <div class="language-pills">
+                    <a href="#spanish" class="pill" data-lang="es">Español</a>
+                    <a href="#french" class="pill" data-lang="fr">Français</a>
+                    <a href="#japanese" class="pill" data-lang="ja">日本語</a>
+                    <a href="#german" class="pill" data-lang="de">Deutsch</a>
+                    <a href="#mandarin" class="pill" data-lang="zh">中文</a>
+                    <a href="#italian" class="pill" data-lang="it">Italiano</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span class="scroll-text">Explore</span>
+            <svg class="scroll-arrow" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Featured Languages Section -->
+    <section id="languages" class="section languages-section">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">
+                    <span class="title-accent">Choose Your</span>
+                    <span class="title-main">Language Adventure</span>
+                </h2>
+                <p class="section-description">
+                    Each language opens a door to new cultures, perspectives, and opportunities
+                </p>
+            </header>
+
+            <div class="languages-grid" id="languages-grid">
+                <!-- Language cards will be dynamically inserted here -->
+            </div>
+
+            <div class="section-cta">
+                <button class="btn btn-secondary" id="show-all-languages">
+                    View All Languages
+                    <svg width="20" height="20" viewBox="0 0 20 20">
+                        <path d="M5 10h10M10 5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resource Categories -->
+    <section id="resources" class="section resources-section">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">
+                    <span class="title-accent">Resources by</span>
+                    <span class="title-main">Learning Style</span>
+                </h2>
+                <p class="section-description">
+                    Find the perfect tools that match your learning preferences
+                </p>
+            </header>
+
+            <div class="resource-categories">
+                <article class="resource-card" data-category="apps">
+                    <div class="resource-icon">📱</div>
+                    <h3 class="resource-title">Mobile Apps</h3>
+                    <p class="resource-description">
+                        Learn on-the-go with interactive apps for vocabulary, grammar, and conversation practice
+                    </p>
+                    <a href="#" class="resource-link">Explore Apps →</a>
+                </article>
+
+                <article class="resource-card" data-category="books">
+                    <div class="resource-icon">📚</div>
+                    <h3 class="resource-title">Books & Textbooks</h3>
+                    <p class="resource-description">
+                        Traditional learning materials for structured, comprehensive language study
+                    </p>
+                    <a href="#" class="resource-link">Browse Books →</a>
+                </article>
+
+                <article class="resource-card" data-category="videos">
+                    <div class="resource-icon">🎬</div>
+                    <h3 class="resource-title">Videos & Courses</h3>
+                    <p class="resource-description">
+                        Visual learners rejoice with YouTube channels, online courses, and video lessons
+                    </p>
+                    <a href="#" class="resource-link">Watch & Learn →</a>
+                </article>
+
+                <article class="resource-card" data-category="podcasts">
+                    <div class="resource-icon">🎧</div>
+                    <h3 class="resource-title">Podcasts & Audio</h3>
+                    <p class="resource-description">
+                        Immerse yourself in authentic speech with podcasts, audiobooks, and music
+                    </p>
+                    <a href="#" class="resource-link">Start Listening →</a>
+                </article>
+
+                <article class="resource-card" data-category="communities">
+                    <div class="resource-icon">👥</div>
+                    <h3 class="resource-title">Communities</h3>
+                    <p class="resource-description">
+                        Connect with native speakers and fellow learners for practice and motivation
+                    </p>
+                    <a href="#" class="resource-link">Join Communities →</a>
+                </article>
+
+                <article class="resource-card" data-category="tools">
+                    <div class="resource-icon">🛠️</div>
+                    <h3 class="resource-title">Study Tools</h3>
+                    <p class="resource-description">
+                        Flashcards, dictionaries, and specialized tools to enhance your study sessions
+                    </p>
+                    <a href="#" class="resource-link">Get Tools →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="methodology" class="section methodology-section">
+        <div class="container">
+            <header class="section-header">
+                <h2 class="section-title">
+                    <span class="title-accent">Proven</span>
+                    <span class="title-main">Learning Methods</span>
+                </h2>
+                <p class="section-description">
+                    Discover effective techniques backed by research and polyglot experience
+                </p>
+            </header>
+
+            <div class="methods-grid">
+                <div class="method-card">
+                    <span class="method-number">01</span>
+                    <h3 class="method-title">Spaced Repetition</h3>
+                    <p class="method-description">
+                        Optimize memory retention by reviewing material at increasing intervals
+                    </p>
+                </div>
+
+                <div class="method-card">
+                    <span class="method-number">02</span>
+                    <h3 class="method-title">Immersion</h3>
+                    <p class="method-description">
+                        Surround yourself with the language through media, conversation, and daily use
+                    </p>
+                </div>
+
+                <div class="method-card">
+                    <span class="method-number">03</span>
+                    <h3 class="method-title">Comprehensible Input</h3>
+                    <p class="method-description">
+                        Focus on understanding messages just slightly above your current level
+                    </p>
+                </div>
+
+                <div class="method-card featured">
+                    <span class="method-number">★</span>
+                    <h3 class="method-title">Find Your Path</h3>
+                    <p class="method-description">
+                        The best method is the one you'll stick with. Experiment and personalize your approach
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="featured-quote">
+                <p class="quote-text">
+                    "A different language is a different vision of life."
+                </p>
+                <cite class="quote-author">— Federico Fellini</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title">About This Project</h4>
+                    <p class="footer-text">
+                        A passion project dedicated to making language learning accessible and enjoyable for everyone.
+                        Curated with care by language enthusiasts, for language enthusiasts.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#languages">Browse Languages</a></li>
+                        <li><a href="#resources">Resource Types</a></li>
+                        <li><a href="#methodology">Learning Methods</a></li>
+                        <li><a href="https://github.com/bjpl/online_language_learning_resources">GitHub</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Connect</h4>
+                    <p class="footer-text">
+                        Have a resource to suggest? Found an issue?
+                        <br>
+                        <a href="https://github.com/bjpl/online_language_learning_resources/issues" class="footer-link-inline">
+                            Let us know on GitHub
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2024 Language Learning Hub. Built with passion for polyglots worldwide.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

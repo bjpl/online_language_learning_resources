@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive language learning resources - apps, courses, books, podcasts, and communities">
+    <title>Language Resources - Language Learning Hub</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/language.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" role="navigation">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🌍</span>
+                <span class="logo-text">Language Hub</span>
+            </a>
+
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="index.html#languages" class="nav-link">Languages</a></li>
+                <li><a href="index.html#resources" class="nav-link">Resources</a></li>
+                <li><a href="index.html#methodology" class="nav-link">Methods</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Language Hero -->
+    <header class="language-hero" id="language-hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span id="breadcrumb-language">Language</span>
+            </div>
+            <div class="language-hero-content">
+                <span class="language-flag-large" id="language-flag">🌐</span>
+                <h1 class="language-title" id="language-title">Language Resources</h1>
+                <p class="language-native" id="language-native">Native Name</p>
+                <p class="language-description-hero" id="language-description">Description</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Resource Categories -->
+    <section class="section resources-detailed">
+        <div class="container">
+            <!-- Filter Tabs -->
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All Resources</button>
+                <button class="filter-tab" data-filter="courses">Courses</button>
+                <button class="filter-tab" data-filter="apps">Apps</button>
+                <button class="filter-tab" data-filter="books">Books</button>
+                <button class="filter-tab" data-filter="audio">Audio/Video</button>
+                <button class="filter-tab" data-filter="practice">Practice</button>
+            </div>
+
+            <!-- Resources Grid -->
+            <div id="resources-container" class="resources-grid-detailed">
+                <!-- Resources will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title">Navigate</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#languages">All Languages</a></li>
+                        <li><a href="https://github.com/bjpl/online_language_learning_resources">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2024 Language Learning Hub
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/dutch-data.js"></script>
+    <script src="assets/js/danish-data.js"></script>
+    <script src="assets/js/language-page.js"></script>
+</body>
+</html>
