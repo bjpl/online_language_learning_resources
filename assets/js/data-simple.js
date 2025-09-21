@@ -43,7 +43,6 @@ const languageData = {
         }
     },
 
-    // Portuguese placeholder - full data loaded from portuguese-data.js
     portuguese: {
         name: "Portuguese",
         nativeName: "Português",
@@ -55,14 +54,11 @@ const languageData = {
         highlights: ["Two major variants (PT-PT & PT-BR)", "Romance language roots", "Growing economic importance"],
         resources: {
             apps: [
-                { name: "Live Lingua", url: "https://www.livelingua.com/portuguese/courses", description: "15 courses with 686 audio files", free: true },
                 { name: "Duolingo", url: "https://www.duolingo.com/", description: "Gamified Brazilian Portuguese", free: true }
             ],
             courses: [
-                { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu/", description: "Complete university course", free: true },
-                { name: "Instituto Camões", url: "https://www.instituto-camoes.pt/", description: "Official Portuguese institute", free: true }
+                { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu/", description: "Complete university course", free: true }
             ]
-            // Note: No practice array here - will be added by portuguese-data.js
         }
     }
 };

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug: Compare Dutch vs Portuguese</title>
+    <style>
+        .comparison { display: flex; gap: 20px; }
+        .language-col { flex: 1; border: 1px solid #ccc; padding: 10px; }
+        .good { color: green; }
+        .bad { color: red; }
+        pre { background: #f0f0f0; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>Dutch vs Portuguese Structure Comparison</h1>
+
+    <div class="comparison">
+        <div class="language-col">
+            <h2>Dutch (Working)</h2>
+            <div id="dutch-output"></div>
+        </div>
+        <div class="language-col">
+            <h2>Portuguese (Broken)</h2>
+            <div id="portuguese-output"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/data-simple.js"></script>
+    <script src="assets/js/dutch-data.js"></script>
+    <script src="assets/js/danish-data.js"></script>
+    <script src="assets/js/portuguese-data.js"></script>
+
+    <script>
+        function analyzeLanguage(langName, outputId) {
+            const output = document.getElementById(outputId);
+            const lang = languageData[langName];
+
+            if (!lang) {
+                output.innerHTML = '<p class="bad">Language data not found!</p>';
+                return;
+            }
+
+            output.innerHTML = '<h3>Basic Info</h3>';
+            output.innerHTML += `<p>Name: ${lang.name || 'MISSING'}</p>`;
+            output.innerHTML += `<p>Resources type: ${typeof lang.resources}</p>`;
+
+            if (lang.resources) {
+                output.innerHTML += '<h3>Resources Structure</h3>';
+
+                // Check each resource category
+                ['courses', 'books', 'audio', 'apps', 'practice'].forEach(cat => {
+                    output.innerHTML += `<h4>${cat}:</h4>`;
+
+                    if (!lang.resources[cat]) {
+                        output.innerHTML += '<p class="bad">MISSING</p>';
+                    } else if (Array.isArray(lang.resources[cat])) {
+                        output.innerHTML += `<p>Array with ${lang.resources[cat].length} items</p>`;
+
+                        // Check structure of first item if exists
+                        if (lang.resources[cat].length > 0) {
+                            const firstItem = lang.resources[cat][0];
+                            output.innerHTML += '<p>First item structure:</p>';
+                            output.innerHTML += '<ul>';
+
+                            if (typeof firstItem === 'object' && firstItem !== null) {
+                                Object.keys(firstItem).forEach(key => {
+                                    const value = firstItem[key];
+                                    let valueType = typeof value;
+                                    if (Array.isArray(value)) {
+                                        valueType = `array[${value.length}]`;
+                                    }
+                                    output.innerHTML += `<li>${key}: ${valueType}</li>`;
+                                });
+
+                                // Special check for practice section
+                                if (cat === 'practice' && firstItem.items) {
+                                    output.innerHTML += '<li>First item in items:</li>';
+                                    if (firstItem.items[0]) {
+                                        output.innerHTML += '<ul>';
+                                        Object.keys(firstItem.items[0]).forEach(key => {
+                                            output.innerHTML += `<li>${key}: ${typeof firstItem.items[0][key]}</li>`;
+                                        });
+                                        output.innerHTML += '</ul>';
+                                    }
+                                }
+                            } else {
+                                output.innerHTML += `<li class="bad">Not an object: ${typeof firstItem}</li>`;
+                            }
+
+                            output.innerHTML += '</ul>';
+                        }
+                    } else {
+                        output.innerHTML += `<p class="bad">Not an array: ${typeof lang.resources[cat]}</p>`;
+                    }
+                });
+            }
+        }
+
+        // Analyze both languages
+        analyzeLanguage('dutch', 'dutch-output');
+        analyzeLanguage('portuguese', 'portuguese-output');
+
+        // Also log to console for deeper inspection
+        console.log('Dutch data:', languageData.dutch);
+        console.log('Portuguese data:', languageData.portuguese);
+
+        // Check practice section specifically
+        console.log('Dutch practice:', languageData.dutch?.resources?.practice);
+        console.log('Portuguese practice:', languageData.portuguese?.resources?.practice);
+    </script>
+</body>
+</html>
