@@ -95,6 +95,9 @@
 
     // Create comprehensive resource section
     function createComprehensiveSection(title, items, type) {
+        // Filter out undefined or invalid items
+        const validItems = items.filter(item => item && item.name);
+
         const section = document.createElement('div');
         section.className = 'resource-section';
         section.dataset.category = type;
@@ -105,10 +108,10 @@
             <div class="resource-section-header">
                 <span class="resource-section-icon">${icon}</span>
                 <h2 class="resource-section-title">${title}</h2>
-                <span class="resource-section-count">${items.length} resources</span>
+                <span class="resource-section-count">${validItems.length} resources</span>
             </div>
             <div class="resource-items">
-                ${items.map(item => createComprehensiveResourceItem(item)).join('')}
+                ${validItems.map(item => createComprehensiveResourceItem(item)).join('')}
             </div>
         `;
 
