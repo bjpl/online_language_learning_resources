@@ -36,8 +36,8 @@
         const container = document.getElementById('resources-container');
         container.innerHTML = '';
 
-        // Special handling for Dutch and Danish with their comprehensive structure
-        if (langParam === 'dutch' || langParam === 'danish') {
+        // Special handling for Dutch, Danish, and Portuguese with their comprehensive structure
+        if (langParam === 'dutch' || langParam === 'danish' || langParam === 'portuguese') {
             renderComprehensiveResources(filter);
             return;
         }
