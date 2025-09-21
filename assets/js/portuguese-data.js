@@ -638,6 +638,7 @@ const portugueseResources = {
 };
 
 // Add Portuguese to the main language data if it exists
+// This fully replaces any simplified version with comprehensive data
 if (typeof languageData !== 'undefined') {
     languageData.portuguese = portugueseResources;
 }
