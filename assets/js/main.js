@@ -142,7 +142,10 @@ const LanguageHub = (function() {
 
     // Render language cards
     function renderLanguages(showAll = false) {
-        const languages = Object.entries(languageData);
+        // Filter out placeholder comments and only show real language data
+        const languages = Object.entries(languageData).filter(([key, lang]) =>
+            lang && typeof lang === 'object' && lang.name
+        );
         const limit = showAll ? languages.length : 6;
         const filteredLanguages = state.searchTerm
             ? languages.filter(([key, lang]) =>
@@ -158,10 +161,7 @@ const LanguageHub = (function() {
             elements.languagesGrid.appendChild(card);
         });
 
-        // Update button text
-        if (elements.showAllBtn) {
-            elements.showAllBtn.textContent = showAll ? 'Show Less' : 'View All Languages';
-        }
+        // Button removed as we only show featured languages for now
     }
 
     // Create a language card element
@@ -260,12 +260,9 @@ const LanguageHub = (function() {
     // Get language key by language code
     function getLanguageKeyByCode(code) {
         const codeMap = {
-            'es': 'spanish',
-            'fr': 'french',
-            'ja': 'japanese',
-            'de': 'german',
-            'zh': 'mandarin',
-            'it': 'italian'
+            'nl': 'dutch',
+            'da': 'danish',
+            'pt': 'portuguese'
         };
         return codeMap[code] || code;
     }

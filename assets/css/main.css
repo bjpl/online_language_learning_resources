@@ -866,6 +866,16 @@ img {
     margin-top: var(--space-xl);
 }
 
+.coming-soon-notice {
+    color: var(--color-gray-700);
+    font-style: italic;
+    padding: var(--space-lg);
+    background: var(--color-gray-100);
+    border-radius: var(--radius-lg);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* ===================================
    Responsive Design
    =================================== */

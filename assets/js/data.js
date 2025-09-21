@@ -5,38 +5,12 @@
 // PATTERN: Data-driven architecture for easy content management
 // WHY: Separating data from presentation allows non-technical updates
 
+// Main language data - only includes languages with comprehensive resources
 const languageData = {
-    spanish: {
-        name: "Spanish",
-        nativeName: "Español",
-        flag: "🇪🇸",
-        learners: "559M",
-        speakers: "460M native",
-        difficulty: "Easy",
-        description: "The world's second most spoken language, Spanish opens doors to vibrant cultures across Spain and Latin America.",
-        highlights: ["Phonetic spelling", "Rich literature", "Growing importance in business"],
-        resources: {
-            apps: [
-                { name: "SpanishDict", url: "https://www.spanishdict.com/", description: "Comprehensive dictionary and conjugation tool", free: true },
-                { name: "Madrigal's Magic Key", url: "#", description: "Classic method focusing on cognates", free: false },
-                { name: "Busuu", url: "https://www.busuu.com/", description: "Structured lessons with native speaker feedback", free: false }
-            ],
-            podcasts: [
-                { name: "SpanishPod101", url: "https://www.spanishpod101.com/", description: "Structured lessons for all levels", free: true },
-                { name: "Coffee Break Spanish", url: "https://coffeebreaklanguages.com/", description: "Quick 15-minute lessons", free: true },
-                { name: "Duolingo Spanish Podcast", url: "https://podcast.duolingo.com/spanish", description: "Real stories from Latin America", free: true }
-            ],
-            communities: [
-                { name: "HelloTalk", url: "https://www.hellotalk.com/", description: "Chat with native speakers", free: true },
-                { name: "r/Spanish", url: "https://reddit.com/r/spanish", description: "Active Reddit community", free: true }
-            ],
-            books: [
-                { name: "Madrigal's Magic Key to Spanish", author: "Margarita Madrigal", description: "Time-tested method" },
-                { name: "Practice Makes Perfect Series", author: "Dorothy Richmond", description: "Comprehensive grammar practice" }
-            ]
-        }
-    },
+    // Note: Only displaying languages with comprehensive resource collections
+    // Additional languages (Spanish, French, Japanese, etc.) will be added as content is developed
 
+    /* Placeholder for future languages
     french: {
         name: "French",
         nativeName: "Français",
@@ -243,6 +217,7 @@ const languageData = {
             ]
         }
     },
+    */
 
     dutch: {
         name: "Dutch",
@@ -280,6 +255,27 @@ const languageData = {
             ],
             podcasts: [
                 { name: "Simple Danish Podcast", url: "https://denmarkandme.com/podcast/", description: "Clear Danish with transcripts", free: true }
+            ]
+        }
+    },
+
+    portuguese: {
+        name: "Portuguese",
+        nativeName: "Português",
+        flag: "🇵🇹🇧🇷",
+        learners: "35M",
+        speakers: "260M native",
+        difficulty: "Easy-Moderate",
+        description: "Gateway to Brazil's vibrant culture and Portugal's historic charm, with resources for both variants.",
+        highlights: ["Two major variants (PT-PT & PT-BR)", "Romance language roots", "Growing economic importance"],
+        resources: {
+            apps: [
+                { name: "Live Lingua", url: "https://www.livelingua.com/portuguese/courses", description: "15 courses with 686 audio files", free: true },
+                { name: "Duolingo", url: "https://www.duolingo.com/", description: "Gamified Brazilian Portuguese", free: true }
+            ],
+            courses: [
+                { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu/", description: "Complete university course", free: true },
+                { name: "Instituto Camões", url: "https://www.instituto-camoes.pt/", description: "Official Portuguese institute", free: true }
             ]
         }
     }

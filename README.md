@@ -13,17 +13,19 @@ A beautifully crafted, modern website that curates the best language learning re
 
 ## 🗣️ Currently Featured Languages
 
+We've curated comprehensive resource collections for:
+
+- **Dutch (Nederlands)** 🇳🇱 - 100+ free resources covering both Dutch and Flemish variants
+- **Danish (Dansk)** 🇩🇰 - 100+ resources including government programs and Nordic materials
+- **Portuguese (Português)** 🇵🇹🇧🇷 - 150+ resources for both European (PT-PT) and Brazilian (PT-BR) variants
+
+### Coming Soon
+We're actively building comprehensive collections for:
 - Spanish (Español) 🇪🇸
 - French (Français) 🇫🇷
-- Japanese (日本語) 🇯🇵
 - German (Deutsch) 🇩🇪
-- Mandarin Chinese (中文) 🇨🇳
 - Italian (Italiano) 🇮🇹
-- Dutch (Nederlands) 🇳🇱
-- Korean (한국어) 🇰🇷
-- Portuguese (Português) 🇧🇷
-- Russian (Русский) 🇷🇺
-- Arabic (العربية) 🇸🇦
+- And more!
 
 ## 🚀 Live Site
 
