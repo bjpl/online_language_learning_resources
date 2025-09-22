@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Filter Button Contrast Test</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/resources.css">
+    <style>
+        body {
+            padding: 40px;
+            background: #f5f5f5;
+        }
+        .test-section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testing Filter Button Contrast Fix</h1>
+
+    <div class="test-section">
+        <h2>Language Filters</h2>
+        <div class="language-filters">
+            <button class="lang-filter active" data-lang="all">
+                <span class="filter-icon">🌐</span>
+                All Languages (Active)
+            </button>
+            <button class="lang-filter" data-lang="dutch">
+                <span class="filter-icon">🇳🇱</span>
+                Dutch
+            </button>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Type Filters</h2>
+        <div class="type-filters">
+            <button class="type-filter active" data-type="all">
+                <span class="type-filter-icon">📋</span>
+                <span class="type-filter-label">All Types (Active)</span>
+            </button>
+            <button class="type-filter" data-type="courses">
+                <span class="type-filter-icon">🎓</span>
+                <span class="type-filter-label">Courses</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Expected Results:</h2>
+        <ul>
+            <li>Active buttons should have a <strong>purple background (#5B4E8C)</strong></li>
+            <li>Active button text should be <strong>white (#ffffff)</strong></li>
+            <li>Inactive buttons should have white background with gray/black text</li>
+            <li>All text should be clearly visible and readable</li>
+        </ul>
+    </div>
+
+    <script>
+        // Test dynamic class toggling
+        document.querySelectorAll('.lang-filter, .type-filter').forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active from siblings
+                const siblings = this.parentElement.querySelectorAll('button');
+                siblings.forEach(s => s.classList.remove('active'));
+                // Add active to clicked
+                this.classList.add('active');
+                console.log('Toggled active state on:', this.textContent);
+            });
+        });
+    </script>
+</body>
+</html>
