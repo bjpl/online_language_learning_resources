@@ -102,5 +102,26 @@ const languageData = {
                 { name: "BIPA Daring", url: "https://bipa.kemdikbud.go.id/", description: "Official government platform with 435 books", free: true }
             ]
         }
+    },
+
+    korean: {
+        name: "Korean",
+        nativeName: "한국어",
+        flag: "🇰🇷",
+        learners: "77M",
+        speakers: "80M native",
+        difficulty: "Hard",
+        description: "Known for its unique Hangul writing system and K-pop culture, Korean offers structured government resources and vibrant online communities.",
+        highlights: ["Scientific alphabet", "Rich honorific system", "K-culture immersion"],
+        resources: {
+            apps: [
+                { name: "Duolingo Korean", url: "https://www.duolingo.com/", description: "65 skills covering 2200+ words", free: true },
+                { name: "LingoDeer", url: "https://www.lingodeer.com/", description: "Designed specifically for Asian languages", free: true }
+            ],
+            courses: [
+                { name: "Talk To Me In Korean", url: "https://talktomeinkorean.com/", description: "1000+ free lessons with PDFs", free: true },
+                { name: "King Sejong Institute", url: "https://www.iksi.or.kr/", description: "Official government Korean education", free: true }
+            ]
+        }
     }
 };
