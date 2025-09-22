@@ -1,10 +1,11 @@
 // Finnish Language Learning Resources Data
-(function() {
+(function(global) {
     'use strict';
 
     const finnishData = {
         name: "Finnish",
         nativeName: "Suomi",
+        code: 'fi',
         flag: "🇫🇮",
         speakers: "5.5M",
         difficulty: "Hard",
@@ -575,7 +576,11 @@
         }
     };
 
-    // Make it available globally
-    window.languageData = window.languageData || {};
-    window.languageData.finnish = finnishData;
-})();
+    // Register Finnish data globally
+    if (typeof languageData !== 'undefined') {
+        languageData.finnish = finnishData;
+    } else {
+        global.languageData = { finnish: finnishData };
+    }
+
+})(window);
