@@ -650,6 +650,21 @@ img {
 .resource-title {
     font-size: var(--fs-h3);
     margin-bottom: var(--space-sm);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.resource-count {
+    font-size: 0.75rem;
+    background: var(--color-primary);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 500;
+    margin-left: auto;
+    white-space: nowrap;
 }
 
 .resource-description {

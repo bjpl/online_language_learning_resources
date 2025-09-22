@@ -36,6 +36,7 @@ const LanguageHub = (function() {
             renderLanguages();
             initializeAnimations();
             setupIntersectionObserver();
+            updateResourceCounts();
         }
     }
 
@@ -302,6 +303,81 @@ const LanguageHub = (function() {
         // Observe elements with animation classes
         document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right').forEach(el => {
             observer.observe(el);
+        });
+    }
+
+    // Update resource counts on homepage cards
+    function updateResourceCounts() {
+        // Check if we're on the homepage
+        const resourceCountElements = document.querySelectorAll('.resource-count[data-type]');
+        if (resourceCountElements.length === 0) return;
+
+        // Initialize resource counts
+        const resourceCounts = {
+            courses: 0,
+            apps: 0,
+            books: 0,
+            audio: 0,
+            practice: 0
+        };
+
+        // Count resources from each language
+        const languages = ['dutch', 'danish', 'portuguese'];
+
+        languages.forEach(langKey => {
+            if (typeof languageData !== 'undefined' && languageData[langKey]) {
+                const lang = languageData[langKey];
+                if (!lang.resources) return;
+
+                // Count courses
+                if (lang.resources.courses && Array.isArray(lang.resources.courses)) {
+                    lang.resources.courses.forEach(category => {
+                        if (category.items && Array.isArray(category.items)) {
+                            resourceCounts.courses += category.items.length;
+                        }
+                    });
+                }
+
+                // Count apps
+                if (lang.resources.apps && Array.isArray(lang.resources.apps)) {
+                    resourceCounts.apps += lang.resources.apps.length;
+                }
+
+                // Count books
+                if (lang.resources.books && Array.isArray(lang.resources.books)) {
+                    lang.resources.books.forEach(category => {
+                        if (category.items && Array.isArray(category.items)) {
+                            resourceCounts.books += category.items.length;
+                        }
+                    });
+                }
+
+                // Count audio
+                if (lang.resources.audio && Array.isArray(lang.resources.audio)) {
+                    lang.resources.audio.forEach(category => {
+                        if (category.items && Array.isArray(category.items)) {
+                            resourceCounts.audio += category.items.length;
+                        }
+                    });
+                }
+
+                // Count practice
+                if (lang.resources.practice && Array.isArray(lang.resources.practice)) {
+                    lang.resources.practice.forEach(category => {
+                        if (category.items && Array.isArray(category.items)) {
+                            resourceCounts.practice += category.items.length;
+                        }
+                    });
+                }
+            }
+        });
+
+        // Update the DOM with counts
+        resourceCountElements.forEach(element => {
+            const type = element.dataset.type;
+            if (resourceCounts[type] !== undefined) {
+                element.textContent = `(${resourceCounts[type]})`;
+            }
         });
     }
 
