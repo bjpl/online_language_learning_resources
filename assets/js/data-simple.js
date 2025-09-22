@@ -228,5 +228,26 @@ const languageData = {
                 { name: "InfoFinland.fi", url: "https://www.infofinland.fi/", description: "Government portal with resources", free: true }
             ]
         }
+    },
+
+    polish: {
+        name: "Polish",
+        nativeName: "Polski",
+        flag: "🇵🇱",
+        learners: "1M+",
+        speakers: "45M native",
+        difficulty: "Hard",
+        description: "A Slavic language with rich history, Polish offers exceptional free resources through government initiatives and EU funding. Poland leads globally in open educational resources.",
+        highlights: ["EU funding", "NAWA free courses", "2M+ digital objects"],
+        resources: {
+            apps: [
+                { name: "LingoHut", url: "https://www.lingohut.com/", description: "125+ free lessons, no registration", free: true },
+                { name: "Clozemaster", url: "https://www.clozemaster.com/", description: "10,000+ sentences yearly", free: true }
+            ],
+            courses: [
+                { name: "NAWA Summer Courses", url: "https://nawa.gov.pl/", description: "FREE with accommodation & meals", free: true },
+                { name: "University of Warsaw", url: "https://en.uw.edu.pl/", description: "30-hour free courses", free: true }
+            ]
+        }
     }
 };

@@ -5,19 +5,19 @@
 /* Language Filter Container - Two Row Layout */
 .language-filters {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 10px;
+    gap: 8px;
     padding: 8px;
     max-width: 100%;
     justify-content: center;
 }
 
-/* For larger screens, exactly 6 columns × 2 rows (12 buttons total) */
+/* For larger screens, exactly 7 columns × 2 rows (14 buttons capacity, 13 used) */
 @media (min-width: 1024px) {
     .language-filters {
-        grid-template-columns: repeat(6, minmax(130px, 1fr));
-        max-width: 1000px;
+        grid-template-columns: repeat(7, minmax(120px, 1fr));
+        max-width: 1100px;
         margin: 0 auto;
     }
 }
@@ -248,3 +248,4 @@
 .lang-filter[data-lang="japanese"] .filter-icon { color: #BC002D; }
 .lang-filter[data-lang="swedish"] .filter-icon { color: #006AA7; }
 .lang-filter[data-lang="finnish"] .filter-icon { color: #003580; }
+.lang-filter[data-lang="polish"] .filter-icon { color: #DC143C; }

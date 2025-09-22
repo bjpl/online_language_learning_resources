@@ -45,7 +45,7 @@
 
     // Aggregate resources from all languages
     function aggregateResources() {
-        const languages = ['dutch', 'danish', 'portuguese', 'italian', 'indonesian', 'korean', 'hindi', 'swahili', 'japanese', 'swedish', 'finnish'];
+        const languages = ['dutch', 'danish', 'portuguese', 'italian', 'indonesian', 'korean', 'hindi', 'swahili', 'japanese', 'swedish', 'finnish', 'polish'];
 
         languages.forEach(langKey => {
             const lang = languageData[langKey];
