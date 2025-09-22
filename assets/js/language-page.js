@@ -36,8 +36,8 @@
         const container = document.getElementById('resources-container');
         container.innerHTML = '';
 
-        // Special handling for Dutch, Danish, Portuguese, Italian, Indonesian, Korean, Hindi, and Swahili with their comprehensive structure
-        if (langParam === 'dutch' || langParam === 'danish' || langParam === 'portuguese' || langParam === 'italian' || langParam === 'indonesian' || langParam === 'korean' || langParam === 'hindi' || langParam === 'swahili') {
+        // Special handling for Dutch, Danish, Portuguese, Italian, Indonesian, Korean, Hindi, Swahili, and Japanese with their comprehensive structure
+        if (langParam === 'dutch' || langParam === 'danish' || langParam === 'portuguese' || langParam === 'italian' || langParam === 'indonesian' || langParam === 'korean' || langParam === 'hindi' || langParam === 'swahili' || langParam === 'japanese') {
             renderComprehensiveResources(filter);
             return;
         }

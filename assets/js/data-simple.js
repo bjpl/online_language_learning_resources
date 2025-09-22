@@ -165,5 +165,26 @@ const languageData = {
                 { name: 'FSI Swahili', url: 'https://www.fsi-language-courses.org/', description: 'US government comprehensive course', free: true }
             ]
         }
+    },
+
+    japanese: {
+        name: 'Japanese',
+        nativeName: '日本語',
+        flag: '🇯🇵',
+        learners: '3M+',
+        speakers: '125M native',
+        difficulty: 'Very Hard',
+        description: 'A unique language with three writing systems, Japanese offers exceptional free resources from official institutions and a vibrant community.',
+        highlights: ['Three scripts', 'Japan Foundation resources', 'Extensive free materials'],
+        resources: {
+            apps: [
+                { name: 'Anki', url: 'https://ankiweb.net/', description: 'SRS flashcards with Japanese community decks', free: true },
+                { name: 'WaniKani', url: 'https://www.wanikani.com/', description: 'Kanji learning with mnemonics (3 free levels)', free: false }
+            ],
+            courses: [
+                { name: 'JF Minato', url: 'https://minato-jf.jp/', description: 'Japan Foundation\'s official learning platform', free: true },
+                { name: 'Tae Kim\'s Guide', url: 'https://guidetojapanese.org/', description: 'Complete grammar guide from Japanese perspective', free: true }
+            ]
+        }
     }
 };
