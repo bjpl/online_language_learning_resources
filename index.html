@@ -141,13 +141,22 @@
             </header>
 
             <div class="resource-categories">
+                <article class="resource-card" data-category="courses">
+                    <div class="resource-icon">🎓</div>
+                    <h3 class="resource-title">Online Courses & Platforms</h3>
+                    <p class="resource-description">
+                        Structured learning paths with comprehensive curricula from beginner to advanced levels
+                    </p>
+                    <a href="resources.html" class="resource-link" onclick="localStorage.setItem('resourceFilter', 'courses')">Browse Courses →</a>
+                </article>
+
                 <article class="resource-card" data-category="apps">
                     <div class="resource-icon">📱</div>
-                    <h3 class="resource-title">Mobile Apps</h3>
+                    <h3 class="resource-title">Mobile Apps & Software</h3>
                     <p class="resource-description">
                         Learn on-the-go with interactive apps for vocabulary, grammar, and conversation practice
                     </p>
-                    <a href="#" class="resource-link">Explore Apps →</a>
+                    <a href="resources.html" class="resource-link" onclick="localStorage.setItem('resourceFilter', 'apps')">Explore Apps →</a>
                 </article>
 
                 <article class="resource-card" data-category="books">
@@ -156,43 +165,25 @@
                     <p class="resource-description">
                         Traditional learning materials for structured, comprehensive language study
                     </p>
-                    <a href="#" class="resource-link">Browse Books →</a>
+                    <a href="resources.html" class="resource-link" onclick="localStorage.setItem('resourceFilter', 'books')">Browse Books →</a>
                 </article>
 
-                <article class="resource-card" data-category="videos">
-                    <div class="resource-icon">🎬</div>
-                    <h3 class="resource-title">Videos & Courses</h3>
-                    <p class="resource-description">
-                        Visual learners rejoice with YouTube channels, online courses, and video lessons
-                    </p>
-                    <a href="#" class="resource-link">Watch & Learn →</a>
-                </article>
-
-                <article class="resource-card" data-category="podcasts">
+                <article class="resource-card" data-category="audio">
                     <div class="resource-icon">🎧</div>
-                    <h3 class="resource-title">Podcasts & Audio</h3>
+                    <h3 class="resource-title">Audio & Video Resources</h3>
                     <p class="resource-description">
-                        Immerse yourself in authentic speech with podcasts, audiobooks, and music
+                        Immerse yourself with podcasts, YouTube channels, audiobooks, and video lessons
                     </p>
-                    <a href="#" class="resource-link">Start Listening →</a>
+                    <a href="resources.html" class="resource-link" onclick="localStorage.setItem('resourceFilter', 'audio')">Watch & Listen →</a>
                 </article>
 
-                <article class="resource-card" data-category="communities">
-                    <div class="resource-icon">👥</div>
-                    <h3 class="resource-title">Communities</h3>
+                <article class="resource-card" data-category="practice">
+                    <div class="resource-icon">💬</div>
+                    <h3 class="resource-title">Practice & Language Exchange</h3>
                     <p class="resource-description">
-                        Connect with native speakers and fellow learners for practice and motivation
+                        Connect with native speakers and fellow learners for real conversation practice
                     </p>
-                    <a href="#" class="resource-link">Join Communities →</a>
-                </article>
-
-                <article class="resource-card" data-category="tools">
-                    <div class="resource-icon">🛠️</div>
-                    <h3 class="resource-title">Study Tools</h3>
-                    <p class="resource-description">
-                        Flashcards, dictionaries, and specialized tools to enhance your study sessions
-                    </p>
-                    <a href="#" class="resource-link">Get Tools →</a>
+                    <a href="resources.html" class="resource-link" onclick="localStorage.setItem('resourceFilter', 'practice')">Start Practicing →</a>
                 </article>
             </div>
         </div>

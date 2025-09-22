@@ -22,6 +22,22 @@
     function init() {
         aggregateResources();
         displayStatistics();
+
+        // Check for filter preference from homepage
+        const savedFilter = localStorage.getItem('resourceFilter');
+        if (savedFilter && savedFilter !== 'all') {
+            currentTypeFilter = savedFilter;
+            // Update active button
+            document.querySelectorAll('.type-filter').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.type === savedFilter) {
+                    btn.classList.add('active');
+                }
+            });
+            // Clear the saved filter
+            localStorage.removeItem('resourceFilter');
+        }
+
         renderAllResources();
         bindEventHandlers();
         initCollapsibleSections();
