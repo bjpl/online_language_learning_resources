@@ -5,30 +5,27 @@
 /* Language Filter Container - Two Row Layout */
 .language-filters {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
-    gap: 8px;
-    padding: 4px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    padding: 8px;
     max-width: 100%;
-    justify-content: start;
+    justify-content: center;
 }
 
-/* For larger screens, arrange in 2 rows with 6 items each */
+/* For larger screens, exactly 5 columns × 2 rows */
 @media (min-width: 1024px) {
     .language-filters {
-        grid-template-columns: repeat(6, max-content);
-        grid-template-rows: repeat(2, 1fr);
-    }
-
-    /* All Languages button spans 2 columns */
-    .lang-filter[data-lang="all"] {
-        grid-column: span 1;
+        grid-template-columns: repeat(5, minmax(140px, 1fr));
+        max-width: 900px;
+        margin: 0 auto;
     }
 }
 
 /* For medium screens, 4 columns */
 @media (min-width: 768px) and (max-width: 1023px) {
     .language-filters {
-        grid-template-columns: repeat(4, max-content);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -44,8 +41,9 @@
 .lang-filter {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 6px;
-    padding: 8px 14px;
+    padding: 10px 16px;
     border: 1.5px solid var(--gray-200);
     background: white;
     border-radius: 20px;
@@ -55,7 +53,8 @@
     transition: all 0.2s ease;
     cursor: pointer;
     white-space: nowrap;
-    flex-shrink: 0;
+    width: 100%;
+    min-width: 0;
 }
 
 .lang-filter:hover {
@@ -92,14 +91,14 @@
 /* Filter Group Container */
 .filter-group {
     display: flex;
-    align-items: start;
-    gap: 12px;
+    align-items: center;
+    gap: 16px;
     flex: 1;
 }
 
 .filter-group .filter-label {
     min-width: fit-content;
-    padding-top: 10px;
+    flex-shrink: 0;
 }
 
 /* Compact Mode for Mobile */
