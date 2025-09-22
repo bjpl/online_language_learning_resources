@@ -15,6 +15,7 @@
     };
 
     let currentLanguageFilter = 'all';
+    let currentTypeFilter = 'all';
     let currentView = 'grid';
 
     // Initialize
@@ -23,6 +24,7 @@
         displayStatistics();
         renderAllResources();
         bindEventHandlers();
+        initCollapsibleSections();
     }
 
     // Aggregate resources from all languages
@@ -125,9 +127,27 @@
 
     // Render all resources
     function renderAllResources() {
-        Object.keys(allResources).forEach(type => {
-            renderResourceType(type);
-        });
+        // Check if we should show specific type or all
+        if (currentTypeFilter === 'all') {
+            // Show all type sections
+            document.querySelectorAll('.type-section').forEach(section => {
+                section.style.display = '';
+            });
+            Object.keys(allResources).forEach(type => {
+                renderResourceType(type);
+            });
+        } else {
+            // Hide all sections first
+            document.querySelectorAll('.type-section').forEach(section => {
+                section.style.display = 'none';
+            });
+            // Show only selected type
+            const selectedSection = document.getElementById(`${currentTypeFilter}-section`);
+            if (selectedSection) {
+                selectedSection.style.display = '';
+                renderResourceType(currentTypeFilter);
+            }
+        }
     }
 
     // Render resources for a specific type
@@ -244,6 +264,34 @@
         `;
     }
 
+    // Initialize collapsible sections
+    function initCollapsibleSections() {
+        document.querySelectorAll('.type-header').forEach(header => {
+            // Add toggle arrow
+            const toggle = document.createElement('span');
+            toggle.className = 'type-toggle';
+            toggle.innerHTML = '▼';
+            header.appendChild(toggle);
+
+            // Click handler
+            header.addEventListener('click', () => {
+                header.classList.toggle('collapsed');
+
+                // Save state to localStorage
+                const typeTitle = header.querySelector('.type-title').textContent;
+                const isCollapsed = header.classList.contains('collapsed');
+                localStorage.setItem(`resources-section-${typeTitle}`, isCollapsed);
+            });
+
+            // Restore saved state
+            const typeTitle = header.querySelector('.type-title').textContent;
+            const savedState = localStorage.getItem(`resources-section-${typeTitle}`);
+            if (savedState === 'true') {
+                header.classList.add('collapsed');
+            }
+        });
+    }
+
     // Bind event handlers
     function bindEventHandlers() {
         // Language filters
@@ -256,6 +304,20 @@
 
                 // Update filter and re-render
                 currentLanguageFilter = filter.dataset.lang;
+                renderAllResources();
+            });
+        });
+
+        // Type filters
+        document.querySelectorAll('.type-filter').forEach(filter => {
+            filter.addEventListener('click', (e) => {
+                // Update active state
+                document.querySelectorAll('.type-filter').forEach(f =>
+                    f.classList.remove('active'));
+                filter.classList.add('active');
+
+                // Update filter and re-render
+                currentTypeFilter = filter.dataset.type;
                 renderAllResources();
             });
         });

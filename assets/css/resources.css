@@ -120,6 +120,48 @@
     font-size: 1.1rem;
 }
 
+/* Type Filters */
+.type-filters {
+    display: flex;
+    gap: 6px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.type-filter {
+    padding: 8px 12px;
+    background: white;
+    border: 1px solid var(--gray-200);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--gray-600);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    min-width: 40px;
+    justify-content: center;
+}
+
+.type-filter:hover {
+    border-color: var(--primary-300);
+    background: var(--primary-50);
+    transform: translateY(-1px);
+}
+
+.type-filter.active {
+    background: var(--primary-600);
+    border-color: var(--primary-600);
+    color: white;
+    box-shadow: 0 2px 8px rgba(94, 84, 142, 0.2);
+}
+
+.type-filter span {
+    font-size: 1rem;
+}
+
 /* View Toggle */
 .view-toggle {
     display: flex;
@@ -170,6 +212,13 @@
     padding-bottom: 20px;
     margin-bottom: 24px;
     border-bottom: 2px solid var(--gray-100);
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+.type-header:hover {
+    padding-left: 8px;
 }
 
 .type-icon {
@@ -184,13 +233,39 @@
 }
 
 .type-count {
-    margin-left: auto;
     background: var(--gray-100);
     color: var(--gray-600);
     padding: 4px 12px;
     border-radius: 12px;
     font-size: 0.85rem;
     font-weight: 500;
+    margin-left: auto;
+}
+
+/* Collapse Toggle Arrow */
+.type-toggle {
+    margin-left: 12px;
+    font-size: 0.9rem;
+    color: var(--gray-400);
+    transition: transform 0.3s ease;
+}
+
+.type-header.collapsed .type-toggle {
+    transform: rotate(-90deg);
+}
+
+/* Collapsed state */
+.type-header.collapsed {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.type-header.collapsed + .resources-grid {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin: 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Resources Grid */
@@ -409,6 +484,21 @@
 }
 
 /* Mobile Responsive */
+@media (max-width: 900px) {
+    .filter-section .container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .type-filters {
+        order: 3;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
 @media (max-width: 768px) {
     .hero-title {
         font-size: 2rem;
