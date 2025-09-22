@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Resources Page</title>
+</head>
+<body>
+    <h1>Testing Filter Button Issue</h1>
+
+    <script>
+        // Test what selectors are matching what
+        window.onload = function() {
+            console.log('=== Testing Selectors ===');
+
+            // Check what this selector finds
+            const test1 = document.querySelectorAll('[data-type]');
+            console.log('Elements with data-type:', test1.length, test1);
+
+            // Check specific selector
+            const test2 = document.querySelectorAll('.type-count[data-type]');
+            console.log('Elements with .type-count[data-type]:', test2.length, test2);
+
+            // Check filter buttons
+            const test3 = document.querySelectorAll('.type-filter[data-type]');
+            console.log('Filter buttons:', test3.length, test3);
+
+            // Check if something is wrong with the HTML structure
+            const test4 = document.querySelectorAll('.type-section .type-header .type-count');
+            console.log('Count badges in headers:', test4.length, test4);
+        };
+    </script>
+
+    <!-- Copy the actual HTML structure -->
+    <div class="type-filters">
+        <button class="type-filter active" data-type="all">
+            <span class="type-filter-icon">📋</span>
+            <span class="type-filter-label">All Types</span>
+        </button>
+        <button class="type-filter" data-type="courses">
+            <span class="type-filter-icon">🎓</span>
+            <span class="type-filter-label">Courses</span>
+        </button>
+    </div>
+
+    <div class="type-section" id="courses-section">
+        <div class="type-header">
+            <span class="type-icon">🎓</span>
+            <h2 class="type-title">Online Courses & Platforms</h2>
+            <span class="type-count" data-type="courses">0 resources</span>
+        </div>
+    </div>
+</body>
+</html>

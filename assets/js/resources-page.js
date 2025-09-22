@@ -153,7 +153,8 @@
     // Render resources for a specific type
     function renderResourceType(type) {
         const grid = document.getElementById(`${type}-grid`);
-        const count = document.querySelector(`.type-count[data-type="${type}"]`);
+        // IMPORTANT: Only select the count badge in the section header, NOT the filter buttons
+        const countElement = document.querySelector(`.type-section .type-header .type-count[data-type="${type}"]`);
 
         if (!grid) return;
 
@@ -163,9 +164,9 @@
             resources = resources.filter(r => r.language === currentLanguageFilter);
         }
 
-        // Update count
-        if (count) {
-            count.textContent = `${resources.length} resources`;
+        // Update count in section header only
+        if (countElement && countElement.classList.contains('type-count')) {
+            countElement.textContent = `${resources.length} resources`;
         }
 
         // Clear grid
