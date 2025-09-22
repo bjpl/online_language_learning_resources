@@ -120,16 +120,16 @@
 }
 
 .lang-filter.active {
-    background: #5e548e;
-    background: var(--primary-600);
-    border-color: #5e548e;
-    border-color: var(--primary-600);
+    background: #5e548e !important;
+    background: var(--primary-600) !important;
+    border-color: #5e548e !important;
+    border-color: var(--primary-600) !important;
     color: white !important;
 }
 
-.lang-filter.active .filter-icon {
+.lang-filter.active span {
     color: white !important;
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .filter-icon {
@@ -167,18 +167,17 @@
 }
 
 .type-filter.active {
-    background: #5e548e;
-    background: var(--primary-600);
-    border-color: #5e548e;
-    border-color: var(--primary-600);
+    background: #5e548e !important;
+    background: var(--primary-600) !important;
+    border-color: #5e548e !important;
+    border-color: var(--primary-600) !important;
     color: white !important;
     box-shadow: 0 4px 16px rgba(94, 84, 142, 0.25);
 }
 
-.type-filter.active .type-filter-icon,
-.type-filter.active .type-filter-label {
+.type-filter.active span {
     color: white !important;
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .type-filter-icon {
@@ -189,6 +188,18 @@
 .type-filter-label {
     font-size: 0.9rem;
     font-weight: 600;
+}
+
+/* Force white text on ALL active filter buttons - ABSOLUTE OVERRIDE */
+button.lang-filter.active,
+button.type-filter.active {
+    background-color: #5e548e !important;
+    color: #ffffff !important;
+}
+
+button.lang-filter.active *,
+button.type-filter.active * {
+    color: #ffffff !important;
 }
 
 /* View Toggle */
