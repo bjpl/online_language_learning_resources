@@ -123,5 +123,26 @@ const languageData = {
                 { name: "King Sejong Institute", url: "https://www.iksi.or.kr/", description: "Official government Korean education", free: true }
             ]
         }
+    },
+
+    hindi: {
+        name: "Hindi",
+        nativeName: "हिन्दी",
+        flag: "🇮🇳",
+        learners: "120M",
+        speakers: "600M+",
+        difficulty: "Hard",
+        description: "An Indo-Aryan language and the official language of India, Hindi opens doors to one of the world's largest economies and richest cultures.",
+        highlights: ["Devanagari script", "Government resources", "Bollywood immersion"],
+        resources: {
+            apps: [
+                { name: "Duolingo Hindi", url: "https://www.duolingo.com/", description: "Free Hindi course with gamified lessons", free: true },
+                { name: "LILA Hindi", url: "https://rajbhasha.gov.in/", description: "Government AI-based Hindi learning", free: true }
+            ],
+            courses: [
+                { name: "University of Texas Hindi", url: "https://www.laits.utexas.edu/orkelm/hindiscript/", description: "Interactive Devanagari script lessons", free: true },
+                { name: "SWAYAM Courses", url: "https://swayam.gov.in/", description: "195+ free government Hindi courses", free: true }
+            ]
+        }
     }
 };
