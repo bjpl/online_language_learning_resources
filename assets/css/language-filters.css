@@ -5,7 +5,7 @@
 /* Language Filter Container - Two Row Layout */
 .language-filters {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 10px;
     padding: 8px;
@@ -13,11 +13,11 @@
     justify-content: center;
 }
 
-/* For larger screens, exactly 5 columns × 2 rows */
+/* For larger screens, exactly 6 columns × 2 rows (12 buttons total) */
 @media (min-width: 1024px) {
     .language-filters {
-        grid-template-columns: repeat(5, minmax(140px, 1fr));
-        max-width: 900px;
+        grid-template-columns: repeat(6, minmax(130px, 1fr));
+        max-width: 1000px;
         margin: 0 auto;
     }
 }
