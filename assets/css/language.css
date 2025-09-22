@@ -86,9 +86,10 @@
 }
 
 .filter-tab.active {
-    background: var(--color-primary);
-    border-color: var(--color-primary);
-    color: var(--color-white);
+    background: #5B4E8C !important;
+    background-color: #5B4E8C !important;
+    border-color: #5B4E8C !important;
+    color: #ffffff !important;
 }
 
 /* Resources Grid - Detailed View */
@@ -358,4 +359,30 @@
 
 .empty-state-description {
     color: var(--color-gray-500);
+}
+
+/* CRITICAL FIX: Ensure proper contrast for active filter tabs */
+.filter-tab.active,
+button.filter-tab.active {
+    background: #5B4E8C !important;
+    background-color: #5B4E8C !important;
+    color: #ffffff !important;
+    border-color: #4a3f79 !important;
+}
+
+/* Ensure all child elements have white text */
+.filter-tab.active *,
+button.filter-tab.active * {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/* Hover state for active tabs */
+.filter-tab.active:hover,
+button.filter-tab.active:hover {
+    background: #6b5e9c !important;
+    background-color: #6b5e9c !important;
+    color: #ffffff !important;
+    border-color: #5B4E8C !important;
+    transform: translateY(-2px);
 }
