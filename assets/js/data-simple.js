@@ -60,5 +60,26 @@ const languageData = {
                 { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu/", description: "Complete university course", free: true }
             ]
         }
+    },
+
+    italian: {
+        name: "Italian",
+        nativeName: "Italiano",
+        flag: "🇮🇹",
+        learners: "20M",
+        speakers: "85M native",
+        difficulty: "Easy",
+        description: "The melodious language of art, cuisine, and history, Italian is one of the easiest languages for English speakers to learn.",
+        highlights: ["Musical pronunciation", "Rich cultural heritage", "Straightforward grammar"],
+        resources: {
+            apps: [
+                { name: "Duolingo Italian", url: "https://www.duolingo.com/", description: "51 units of comprehensive Italian", free: true },
+                { name: "Online Italian Club", url: "https://onlineitalianclub.com/", description: "Thousands of free exercises", free: true }
+            ],
+            courses: [
+                { name: "edX WellesleyX", url: "https://www.edx.org/", description: "University-level Italian course", free: true },
+                { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu/", description: "Italian with Mediterranean cooking", free: true }
+            ]
+        }
     }
 };
