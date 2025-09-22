@@ -120,9 +120,16 @@
 }
 
 .lang-filter.active {
+    background: #5e548e;
     background: var(--primary-600);
+    border-color: #5e548e;
     border-color: var(--primary-600);
-    color: white;
+    color: white !important;
+}
+
+.lang-filter.active .filter-icon {
+    color: white !important;
+    opacity: 1;
 }
 
 .filter-icon {
@@ -160,10 +167,18 @@
 }
 
 .type-filter.active {
-    background: linear-gradient(135deg, var(--primary-600) 0%, var(--primary-500) 100%);
+    background: #5e548e;
+    background: var(--primary-600);
+    border-color: #5e548e;
     border-color: var(--primary-600);
-    color: white;
+    color: white !important;
     box-shadow: 0 4px 16px rgba(94, 84, 142, 0.25);
+}
+
+.type-filter.active .type-filter-icon,
+.type-filter.active .type-filter-label {
+    color: white !important;
+    opacity: 1;
 }
 
 .type-filter-icon {
