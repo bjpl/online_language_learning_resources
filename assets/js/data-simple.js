@@ -186,5 +186,26 @@ const languageData = {
                 { name: 'Tae Kim\'s Guide', url: 'https://guidetojapanese.org/', description: 'Complete grammar guide from Japanese perspective', free: true }
             ]
         }
+    },
+
+    swedish: {
+        name: 'Swedish',
+        nativeName: 'Svenska',
+        flag: '🇸🇪',
+        learners: '2M+',
+        speakers: '10M native',
+        difficulty: 'Easy',
+        description: 'A North Germanic language with exceptional government support through free SFI programs and world-class public media resources.',
+        highlights: ['Free SFI programs', 'SVT Play streaming', 'Government support'],
+        resources: {
+            apps: [
+                { name: 'Duolingo Swedish', url: 'https://www.duolingo.com/', description: 'Complete free Swedish course with gamification', free: true },
+                { name: 'SVT Språkplay', url: 'https://sprakplay.svt.se/', description: 'Interactive TV with click-for-translation', free: true }
+            ],
+            courses: [
+                { name: 'Uppsala University', url: 'https://www.uu.se/', description: 'Free courses for international students', free: true },
+                { name: 'Svenska för alla', url: 'https://swedish-for-all.se/', description: 'Government-funded course for immigrants', free: true }
+            ]
+        }
     }
 };

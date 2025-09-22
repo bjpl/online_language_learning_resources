@@ -269,7 +269,8 @@ const LanguageHub = (function() {
             'ko': 'korean',
             'hi': 'hindi',
             'sw': 'swahili',
-            'ja': 'japanese'
+            'ja': 'japanese',
+            'sv': 'swedish'
         };
         return codeMap[code] || code;
     }
@@ -328,7 +329,7 @@ const LanguageHub = (function() {
         };
 
         // Count resources from each language
-        const languages = ['dutch', 'danish', 'portuguese', 'italian', 'indonesian', 'korean', 'hindi', 'swahili', 'japanese'];
+        const languages = ['dutch', 'danish', 'portuguese', 'italian', 'indonesian', 'korean', 'hindi', 'swahili', 'japanese', 'swedish'];
 
         languages.forEach(langKey => {
             if (typeof languageData !== 'undefined' && languageData[langKey]) {
