@@ -207,5 +207,26 @@ const languageData = {
                 { name: 'Svenska för alla', url: 'https://swedish-for-all.se/', description: 'Government-funded course for immigrants', free: true }
             ]
         }
+    },
+
+    finnish: {
+        name: "Finnish",
+        nativeName: "Suomi",
+        flag: "🇫🇮",
+        learners: "1M+",
+        speakers: "5.5M native",
+        difficulty: "Hard",
+        description: "The language of Finland, Finnish is a unique Uralic language known for its complex grammar and beautiful sound. Government-backed free resources are exceptionally comprehensive.",
+        highlights: ["Government support", "University courses", "YLE media"],
+        resources: {
+            apps: [
+                { name: "Duolingo Finnish", url: "https://www.duolingo.com/", description: "Gamified structured course", free: true },
+                { name: "FunEasyLearn", url: "https://www.funeasylearn.com/", description: "15,000 words through gameplay", free: true }
+            ],
+            courses: [
+                { name: "University of Helsinki", url: "http://tasteoffinnish.fi/", description: "Complete beginner course", free: true },
+                { name: "InfoFinland.fi", url: "https://www.infofinland.fi/", description: "Government portal with resources", free: true }
+            ]
+        }
     }
 };
