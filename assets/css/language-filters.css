@@ -2,36 +2,42 @@
    Language Filters - Elegant Scalable Design
    =================================== */
 
-/* Language Filter Container */
+/* Language Filter Container - Two Row Layout */
 .language-filters {
-    display: flex;
-    gap: 6px;
-    overflow-x: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
+    gap: 8px;
     padding: 4px;
-    margin: -4px;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
     max-width: 100%;
+    justify-content: start;
 }
 
-/* Hide scrollbar but keep functionality */
-.language-filters::-webkit-scrollbar {
-    height: 6px;
+/* For larger screens, arrange in 2 rows with 6 items each */
+@media (min-width: 1024px) {
+    .language-filters {
+        grid-template-columns: repeat(6, max-content);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    /* All Languages button spans 2 columns */
+    .lang-filter[data-lang="all"] {
+        grid-column: span 1;
+    }
 }
 
-.language-filters::-webkit-scrollbar-track {
-    background: var(--gray-100);
-    border-radius: 3px;
+/* For medium screens, 4 columns */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .language-filters {
+        grid-template-columns: repeat(4, max-content);
+    }
 }
 
-.language-filters::-webkit-scrollbar-thumb {
-    background: var(--gray-300);
-    border-radius: 3px;
-    transition: background 0.2s;
-}
-
-.language-filters::-webkit-scrollbar-thumb:hover {
-    background: var(--gray-400);
+/* For small screens, 3 columns */
+@media (max-width: 767px) {
+    .language-filters {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
 }
 
 /* Language Filter Buttons */
@@ -83,37 +89,17 @@
     border-color: var(--primary-600);
 }
 
-/* Scroll Indicators */
+/* Filter Group Container */
 .filter-group {
-    position: relative;
+    display: flex;
+    align-items: start;
+    gap: 12px;
+    flex: 1;
 }
 
-.filter-group::before,
-.filter-group::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 30px;
-    pointer-events: none;
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.filter-group::before {
-    left: 0;
-    background: linear-gradient(to right, white, transparent);
-}
-
-.filter-group::after {
-    right: 0;
-    background: linear-gradient(to left, white, transparent);
-}
-
-.filter-group.has-scroll-left::before,
-.filter-group.has-scroll-right::after {
-    opacity: 1;
+.filter-group .filter-label {
+    min-width: fit-content;
+    padding-top: 10px;
 }
 
 /* Compact Mode for Mobile */

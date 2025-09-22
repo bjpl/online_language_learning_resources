@@ -378,51 +378,19 @@
         });
     }
 
-    // Handle language filter scrolling
-    function initLanguageFilterScroll() {
+    // Initialize language filter layout (two-row grid)
+    function initLanguageFilterLayout() {
         const filterContainer = document.querySelector('.language-filters');
-        const filterGroup = document.querySelector('.filter-group');
 
-        if (!filterContainer || !filterGroup) return;
+        if (!filterContainer) return;
 
-        // Check scroll position and update indicators
-        function updateScrollIndicators() {
-            const scrollLeft = filterContainer.scrollLeft;
-            const scrollWidth = filterContainer.scrollWidth;
-            const clientWidth = filterContainer.clientWidth;
+        // Ensure all filters are visible in the two-row grid
+        const filters = filterContainer.querySelectorAll('.lang-filter');
 
-            // Add or remove classes based on scroll position
-            if (scrollLeft > 10) {
-                filterGroup.classList.add('has-scroll-left');
-            } else {
-                filterGroup.classList.remove('has-scroll-left');
-            }
-
-            if (scrollLeft < scrollWidth - clientWidth - 10) {
-                filterGroup.classList.add('has-scroll-right');
-            } else {
-                filterGroup.classList.remove('has-scroll-right');
-            }
-        }
-
-        // Update on scroll
-        filterContainer.addEventListener('scroll', updateScrollIndicators);
-
-        // Update on resize
-        window.addEventListener('resize', updateScrollIndicators);
-
-        // Initial check
-        setTimeout(updateScrollIndicators, 100);
-
-        // Ensure active language is visible
+        // Add visual feedback for active filter
         const activeFilter = filterContainer.querySelector('.lang-filter.active');
         if (activeFilter) {
-            // Scroll to center the active filter
-            const containerWidth = filterContainer.clientWidth;
-            const filterLeft = activeFilter.offsetLeft;
-            const filterWidth = activeFilter.offsetWidth;
-            const scrollTo = filterLeft - (containerWidth / 2) + (filterWidth / 2);
-            filterContainer.scrollLeft = Math.max(0, scrollTo);
+            activeFilter.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
     }
 
@@ -430,10 +398,10 @@
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', () => {
             init();
-            initLanguageFilterScroll();
+            initLanguageFilterLayout();
         });
     } else {
         init();
-        initLanguageFilterScroll();
+        initLanguageFilterLayout();
     }
 })();

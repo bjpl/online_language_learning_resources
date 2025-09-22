@@ -93,10 +93,7 @@
     letter-spacing: 0.5px;
 }
 
-.language-filters {
-    display: flex;
-    gap: 8px;
-}
+/* Removed - styles moved to language-filters.css */
 
 .lang-filter {
     padding: 8px 16px;
@@ -534,7 +531,6 @@ button.type-filter.active * {
         gap: 10px;
     }
 
-    .language-filters,
     .type-filters {
         justify-content: flex-start;
     }
@@ -563,10 +559,7 @@ button.type-filter.active * {
         gap: 20px;
     }
 
-    .language-filters {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+    /* Removed - handled in language-filters.css */
 
     .resources-grid {
         grid-template-columns: 1fr;

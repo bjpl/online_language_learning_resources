@@ -33,7 +33,7 @@ const LanguageHub = (function() {
         cacheElements();
         if (elementsExist()) {
             bindEvents();
-            renderLanguages();
+            renderLanguages(true); // Show all languages by default
             initializeAnimations();
             setupIntersectionObserver();
             updateResourceCounts();
