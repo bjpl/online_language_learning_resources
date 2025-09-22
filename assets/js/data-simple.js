@@ -126,22 +126,43 @@ const languageData = {
     },
 
     hindi: {
-        name: "Hindi",
-        nativeName: "हिन्दी",
-        flag: "🇮🇳",
-        learners: "120M",
-        speakers: "600M+",
-        difficulty: "Hard",
-        description: "An Indo-Aryan language and the official language of India, Hindi opens doors to one of the world's largest economies and richest cultures.",
-        highlights: ["Devanagari script", "Government resources", "Bollywood immersion"],
+        name: 'Hindi',
+        nativeName: 'हिन्दी',
+        flag: '🇮🇳',
+        learners: '120M',
+        speakers: '600M+',
+        difficulty: 'Hard',
+        description: 'An Indo-Aryan language and the official language of India, Hindi opens doors to one of the world\'s largest economies and richest cultures.',
+        highlights: ['Devanagari script', 'Government resources', 'Bollywood immersion'],
         resources: {
             apps: [
-                { name: "Duolingo Hindi", url: "https://www.duolingo.com/", description: "Free Hindi course with gamified lessons", free: true },
-                { name: "LILA Hindi", url: "https://rajbhasha.gov.in/", description: "Government AI-based Hindi learning", free: true }
+                { name: 'Duolingo Hindi', url: 'https://www.duolingo.com/', description: 'Free Hindi course with gamified lessons', free: true },
+                { name: 'LILA Hindi', url: 'https://rajbhasha.gov.in/', description: 'Government AI-based Hindi learning', free: true }
             ],
             courses: [
-                { name: "University of Texas Hindi", url: "https://www.laits.utexas.edu/orkelm/hindiscript/", description: "Interactive Devanagari script lessons", free: true },
-                { name: "SWAYAM Courses", url: "https://swayam.gov.in/", description: "195+ free government Hindi courses", free: true }
+                { name: 'University of Texas Hindi', url: 'https://www.laits.utexas.edu/orkelm/hindiscript/', description: 'Interactive Devanagari script lessons', free: true },
+                { name: 'SWAYAM Courses', url: 'https://swayam.gov.in/', description: '195+ free government Hindi courses', free: true }
+            ]
+        }
+    },
+
+    swahili: {
+        name: 'Swahili',
+        nativeName: 'Kiswahili',
+        flag: '🇹🇿🇰🇪',
+        learners: '50M',
+        speakers: '200M+',
+        difficulty: 'Easy',
+        description: 'The lingua franca of East Africa and an official African Union language, Swahili offers exceptional free resources through government initiatives.',
+        highlights: ['No tones', 'Latin script', 'Government support'],
+        resources: {
+            apps: [
+                { name: 'Duolingo Swahili', url: 'https://www.duolingo.com/', description: 'Peace Corps-developed free course', free: true },
+                { name: 'Language Transfer', url: 'https://www.languagetransfer.org/', description: 'Complete audio course with logic-based learning', free: true }
+            ],
+            courses: [
+                { name: 'Live Lingua Peace Corps', url: 'https://www.livelingua.com/courses/swahili', description: '3 courses with 146 audio files', free: true },
+                { name: 'FSI Swahili', url: 'https://www.fsi-language-courses.org/', description: 'US government comprehensive course', free: true }
             ]
         }
     }
