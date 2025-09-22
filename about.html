@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Language Learning Hub - A curated collection of language learning resources">
+    <title>About - Language Learning Hub</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/modern-ui-clean.css">
+    <style>
+        .about-hero {
+            background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-accent-light) 100%);
+            padding: 100px 0 80px;
+            text-align: center;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .about-section {
+            margin-bottom: 50px;
+        }
+
+        .about-section h2 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            color: var(--color-primary);
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--color-gray-700);
+            margin-bottom: 16px;
+        }
+
+        .about-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .about-section li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.05rem;
+            color: var(--color-gray-700);
+        }
+
+        .about-section li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--color-accent);
+            font-weight: bold;
+        }
+
+        .contribute-section {
+            background: var(--color-off-white);
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .github-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: var(--color-primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .github-link:hover {
+            background: var(--color-primary-dark);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" role="navigation">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-icon">🌍</span>
+                <span class="logo-text">Language Hub</span>
+            </a>
+
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="index.html#languages" class="nav-link">Languages</a></li>
+                <li><a href="resources.html" class="nav-link">All Resources</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Hero -->
+    <header class="about-hero">
+        <div class="container">
+            <h1 class="hero-title">About Language Learning Hub</h1>
+            <p class="hero-subtitle">A curated collection of quality language learning resources</p>
+        </div>
+    </header>
+
+    <!-- About Content -->
+    <main class="about-content">
+        <section class="about-section">
+            <h2>What is this?</h2>
+            <p>
+                Language Learning Hub is a carefully curated collection of language learning resources
+                for Dutch, Danish, and Portuguese. We've gathered the best apps, courses, books, audio
+                resources, and practice tools in one place to help you on your language learning journey.
+            </p>
+        </section>
+
+        <section class="about-section">
+            <h2>Why these languages?</h2>
+            <p>
+                We started with Dutch, Danish, and Portuguese because we believe in quality over quantity.
+                Each language collection has been thoughtfully assembled with resources that actually work,
+                rather than overwhelming learners with endless options.
+            </p>
+        </section>
+
+        <section class="about-section">
+            <h2>What you'll find here</h2>
+            <ul>
+                <li>Structured online courses and platforms</li>
+                <li>Mobile apps for learning on the go</li>
+                <li>Recommended books and textbooks</li>
+                <li>Audio and video resources for immersion</li>
+                <li>Language exchange and practice opportunities</li>
+            </ul>
+        </section>
+
+        <div class="contribute-section">
+            <h2>Open Source Project</h2>
+            <p>
+                This is an open source project. If you have suggestions for resources or want to
+                contribute, we'd love to hear from you!
+            </p>
+            <a href="https://github.com/bjpl/online_language_learning_resources" class="github-link" target="_blank">
+                View on GitHub
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title">Navigate</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#languages">Languages</a></li>
+                        <li><a href="resources.html">All Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 Language Learning Hub</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/modern-ui-clean.js"></script>
+</body>
+</html>
