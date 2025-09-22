@@ -1,0 +1,157 @@
+/* ===================================
+   Scalable Language Filters - Future-Proof Design
+   =================================== */
+
+/* Base container - uses CSS Grid with smart defaults */
+.language-filters {
+    display: grid;
+    gap: 8px;
+    padding: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    /* Default: Auto-fit with minimum button width */
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+
+    /* Smooth transitions for layout changes */
+    transition: all 0.3s ease;
+}
+
+/* For desktop: Optimal column counts based on language count */
+@media (min-width: 1024px) {
+    /* 1-6 languages: Single row */
+    .language-filters[data-language-count="6"],
+    .language-filters[data-language-count="5"],
+    .language-filters[data-language-count="4"] {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        max-width: 900px;
+    }
+
+    /* 7-12 languages: 6 columns, 2 rows */
+    .language-filters[data-language-count="12"],
+    .language-filters[data-language-count="11"],
+    .language-filters[data-language-count="10"],
+    .language-filters[data-language-count="9"],
+    .language-filters[data-language-count="8"],
+    .language-filters[data-language-count="7"] {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    /* 13-14 languages: 7 columns, 2 rows */
+    .language-filters[data-language-count="14"],
+    .language-filters[data-language-count="13"] {
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    /* 15-18 languages: 6 columns, 3 rows */
+    .language-filters[data-language-count="18"],
+    .language-filters[data-language-count="17"],
+    .language-filters[data-language-count="16"],
+    .language-filters[data-language-count="15"] {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    /* 19-24 languages: 6 columns, 4 rows */
+    .language-filters[data-language-count="24"],
+    .language-filters[data-language-count="23"],
+    .language-filters[data-language-count="22"],
+    .language-filters[data-language-count="21"],
+    .language-filters[data-language-count="20"],
+    .language-filters[data-language-count="19"] {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    /* 25+ languages: Scrollable with fixed height */
+    .language-filters[data-language-count="25"],
+    .language-filters[data-language-count="26"],
+    .language-filters[data-language-count="27"],
+    .language-filters[data-language-count="28"],
+    .language-filters[data-language-count="29"],
+    .language-filters[data-language-count="30"] {
+        max-height: 200px;
+        overflow-y: auto;
+        grid-template-columns: repeat(5, 1fr);
+
+        /* Custom scrollbar */
+        scrollbar-width: thin;
+        scrollbar-color: var(--primary-300) var(--gray-100);
+    }
+}
+
+/* Tablet: Responsive columns */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .language-filters {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Mobile: Compact layout */
+@media (max-width: 767px) {
+    .language-filters {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+
+    /* Ultra-compact mode for 20+ languages on mobile */
+    .language-filters[data-language-count="20"],
+    .language-filters[data-language-count="21"],
+    .language-filters[data-language-count="22"],
+    .language-filters[data-language-count="23"],
+    .language-filters[data-language-count="24"],
+    .language-filters[data-language-count="25"] {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Visual feedback for many languages */
+.language-filters.many-languages {
+    position: relative;
+}
+
+.language-filters.many-languages::after {
+    content: attr(data-language-info);
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    font-size: 0.75rem;
+    color: var(--gray-500);
+}
+
+/* Smooth button scaling */
+.lang-filter {
+    transition: all 0.2s ease;
+}
+
+/* When grid is crowded, make buttons slightly smaller */
+.language-filters[data-language-count="20"] .lang-filter,
+.language-filters[data-language-count="21"] .lang-filter,
+.language-filters[data-language-count="22"] .lang-filter,
+.language-filters[data-language-count="23"] .lang-filter,
+.language-filters[data-language-count="24"] .lang-filter,
+.language-filters[data-language-count="25"] .lang-filter {
+    padding: 6px 10px;
+    font-size: 0.82rem;
+}
+
+/* Accessibility: Focus visible for keyboard navigation */
+.lang-filter:focus-visible {
+    outline: 2px solid var(--primary-500);
+    outline-offset: 2px;
+}
+
+/* Optional: Group indicator for future regional grouping */
+.language-group-divider {
+    grid-column: 1 / -1;
+    height: 1px;
+    background: var(--gray-200);
+    margin: 4px 0;
+}
+
+.language-group-label {
+    grid-column: 1 / -1;
+    font-size: 0.75rem;
+    color: var(--gray-600);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 4px 0;
+}

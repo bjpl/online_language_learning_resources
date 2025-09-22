@@ -249,5 +249,26 @@ const languageData = {
                 { name: "University of Warsaw", url: "https://en.uw.edu.pl/", description: "30-hour free courses", free: true }
             ]
         }
+    },
+
+    vietnamese: {
+        name: "Vietnamese",
+        nativeName: "Tiếng Việt",
+        flag: "🇻🇳",
+        learners: "3M+",
+        speakers: "90M native",
+        difficulty: "Hard",
+        description: "A tonal language with unique script and rich cultural heritage, Vietnamese offers exceptional free resources through government initiatives and vibrant online communities.",
+        highlights: ["Six tones", "Latin-based script", "Growing economic importance"],
+        resources: {
+            apps: [
+                { name: "Duolingo Vietnamese", url: "https://www.duolingo.com/", description: "Complete free course with gamified lessons", free: true },
+                { name: "Drops", url: "https://languagedrops.com/", description: "5 minutes daily visual learning", free: true }
+            ],
+            courses: [
+                { name: "FSI Vietnamese", url: "https://www.fsi-language-courses.org/vietnamese/", description: "US government comprehensive course", free: true },
+                { name: "Learn Vietnamese with Annie", url: "https://www.youtube.com/c/LearnVietnamesewithAnnie", description: "200+ structured video lessons", free: true }
+            ]
+        }
     }
 };
