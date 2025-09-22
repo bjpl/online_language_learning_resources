@@ -81,5 +81,26 @@ const languageData = {
                 { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu/", description: "Italian with Mediterranean cooking", free: true }
             ]
         }
+    },
+
+    indonesian: {
+        name: "Indonesian",
+        nativeName: "Bahasa Indonesia",
+        flag: "🇮🇩",
+        learners: "45M",
+        speakers: "43M native, 270M+ total",
+        difficulty: "Easy",
+        description: "The lingua franca of Indonesia's 17,000+ islands, Indonesian is surprisingly easy to learn with simple grammar and no tones.",
+        highlights: ["No verb conjugations", "Latin alphabet", "Phonetic spelling"],
+        resources: {
+            apps: [
+                { name: "Duolingo Indonesian", url: "https://www.duolingo.com/", description: "Gamified lessons with speaking practice", free: true },
+                { name: "Ling App", url: "https://ling-app.com/", description: "Interactive lessons with cultural context", free: true }
+            ],
+            courses: [
+                { name: "Live Lingua Peace Corps", url: "https://www.livelingua.com/", description: "6 complete courses with 190 audio files", free: true },
+                { name: "BIPA Daring", url: "https://bipa.kemdikbud.go.id/", description: "Official government platform with 435 books", free: true }
+            ]
+        }
     }
 };

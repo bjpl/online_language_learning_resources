@@ -322,7 +322,7 @@ const LanguageHub = (function() {
         };
 
         // Count resources from each language
-        const languages = ['dutch', 'danish', 'portuguese', 'italian'];
+        const languages = ['dutch', 'danish', 'portuguese', 'italian', 'indonesian'];
 
         languages.forEach(langKey => {
             if (typeof languageData !== 'undefined' && languageData[langKey]) {
