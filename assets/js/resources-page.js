@@ -153,7 +153,7 @@
     // Render resources for a specific type
     function renderResourceType(type) {
         const grid = document.getElementById(`${type}-grid`);
-        const count = document.querySelector(`[data-type="${type}"]`);
+        const count = document.querySelector(`.type-count[data-type="${type}"]`);
 
         if (!grid) return;
 
