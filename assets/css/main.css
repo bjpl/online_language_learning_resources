@@ -511,12 +511,45 @@ img {
     margin: 0 auto;
 }
 
-/* Languages Grid */
+/* Languages Grid - Optimized for 10 languages */
 .languages-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--space-lg);
     margin-bottom: var(--space-xl);
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Optimal grid layouts for different screen sizes */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .languages-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .languages-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1440px) {
+    .languages-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Special layout for exactly 10 items on large screens */
+@media (min-width: 1200px) {
+    .languages-grid:has(.language-card:nth-child(10):last-child) {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .languages-grid:has(.language-card:nth-child(10):last-child) .language-card:nth-child(n+6) {
+        grid-column: span 1;
+    }
 }
 
 .language-card {

@@ -142,12 +142,13 @@ const LanguageHub = (function() {
     }
 
     // Render language cards
-    function renderLanguages(showAll = false) {
+    function renderLanguages(showAll = true) {
         // Filter out placeholder comments and only show real language data
         const languages = Object.entries(languageData).filter(([key, lang]) =>
             lang && typeof lang === 'object' && lang.name
         );
-        const limit = showAll ? languages.length : 6;
+        // Show all languages by default now that we have a curated collection
+        const limit = languages.length;
         const filteredLanguages = state.searchTerm
             ? languages.filter(([key, lang]) =>
                 lang.name.toLowerCase().includes(state.searchTerm.toLowerCase()) ||
@@ -161,8 +162,6 @@ const LanguageHub = (function() {
             const card = createLanguageCard(key, language, index);
             elements.languagesGrid.appendChild(card);
         });
-
-        // Button removed as we only show featured languages for now
     }
 
     // Create a language card element

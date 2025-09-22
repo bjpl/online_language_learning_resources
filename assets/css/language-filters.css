@@ -1,0 +1,264 @@
+/* ===================================
+   Language Filters - Elegant Scalable Design
+   =================================== */
+
+/* Language Filter Container */
+.language-filters {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding: 4px;
+    margin: -4px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+}
+
+/* Hide scrollbar but keep functionality */
+.language-filters::-webkit-scrollbar {
+    height: 6px;
+}
+
+.language-filters::-webkit-scrollbar-track {
+    background: var(--gray-100);
+    border-radius: 3px;
+}
+
+.language-filters::-webkit-scrollbar-thumb {
+    background: var(--gray-300);
+    border-radius: 3px;
+    transition: background 0.2s;
+}
+
+.language-filters::-webkit-scrollbar-thumb:hover {
+    background: var(--gray-400);
+}
+
+/* Language Filter Buttons */
+.lang-filter {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border: 1.5px solid var(--gray-200);
+    background: white;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--gray-700);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.lang-filter:hover {
+    border-color: var(--primary-300);
+    background: var(--primary-50);
+    color: var(--primary-700);
+    transform: translateY(-1px);
+}
+
+.lang-filter.active {
+    background: var(--primary-600);
+    border-color: var(--primary-600);
+    color: white;
+    box-shadow: 0 2px 8px rgba(91, 78, 140, 0.25);
+}
+
+.lang-filter .filter-icon {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+/* All Languages Button - Special Styling */
+.lang-filter[data-lang="all"] {
+    background: linear-gradient(135deg, var(--primary-50), var(--accent-50));
+    border-color: var(--primary-200);
+    font-weight: 600;
+}
+
+.lang-filter[data-lang="all"].active {
+    background: linear-gradient(135deg, var(--primary-600), var(--accent-600));
+    border-color: var(--primary-600);
+}
+
+/* Scroll Indicators */
+.filter-group {
+    position: relative;
+}
+
+.filter-group::before,
+.filter-group::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.filter-group::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+}
+
+.filter-group::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+}
+
+.filter-group.has-scroll-left::before,
+.filter-group.has-scroll-right::after {
+    opacity: 1;
+}
+
+/* Compact Mode for Mobile */
+@media (max-width: 768px) {
+    .filter-section {
+        padding: 20px 0;
+    }
+
+    .filter-row {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+    }
+
+    .filter-group {
+        width: 100%;
+    }
+
+    .filter-label {
+        font-size: 0.8rem;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .language-filters {
+        width: 100%;
+        padding: 8px 0;
+    }
+
+    .lang-filter {
+        padding: 7px 12px;
+        font-size: 0.82rem;
+    }
+
+    .lang-filter .filter-icon {
+        font-size: 1rem;
+    }
+
+    /* Show only flags on very small screens */
+    @media (max-width: 480px) {
+        .lang-filter {
+            padding: 8px;
+            min-width: 44px;
+            justify-content: center;
+        }
+
+        .lang-filter:not([data-lang="all"]) span:not(.filter-icon) {
+            display: none;
+        }
+
+        .lang-filter[data-lang="all"] {
+            padding: 8px 12px;
+        }
+
+        .lang-filter[data-lang="all"] span:not(.filter-icon) {
+            display: inline;
+        }
+    }
+}
+
+/* Type Filters - Similar Styling */
+.type-filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.type-filter {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border: 1.5px solid var(--gray-200);
+    background: white;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--gray-700);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.type-filter:hover {
+    border-color: var(--accent-300);
+    background: var(--accent-50);
+    color: var(--accent-700);
+    transform: translateY(-1px);
+}
+
+.type-filter.active {
+    background: var(--accent-600);
+    border-color: var(--accent-600);
+    color: white;
+    box-shadow: 0 2px 8px rgba(236, 72, 153, 0.25);
+}
+
+.type-filter-icon {
+    font-size: 1rem;
+}
+
+.type-filter-label {
+    font-weight: 500;
+}
+
+/* View Toggle */
+.view-toggle {
+    display: flex;
+    gap: 4px;
+    background: var(--gray-100);
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.view-btn {
+    padding: 6px 10px;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    color: var(--gray-600);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-btn:hover {
+    color: var(--gray-800);
+}
+
+.view-btn.active {
+    background: white;
+    color: var(--primary-600);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Language Badge Colors */
+.lang-filter[data-lang="dutch"] .filter-icon { color: #FF9500; }
+.lang-filter[data-lang="danish"] .filter-icon { color: #C8102E; }
+.lang-filter[data-lang="portuguese"] .filter-icon { color: #046A38; }
+.lang-filter[data-lang="italian"] .filter-icon { color: #009246; }
+.lang-filter[data-lang="indonesian"] .filter-icon { color: #FF0000; }
+.lang-filter[data-lang="korean"] .filter-icon { color: #003478; }
+.lang-filter[data-lang="hindi"] .filter-icon { color: #FF9933; }
+.lang-filter[data-lang="swahili"] .filter-icon { color: #00A859; }
+.lang-filter[data-lang="japanese"] .filter-icon { color: #BC002D; }
+.lang-filter[data-lang="swedish"] .filter-icon { color: #006AA7; }

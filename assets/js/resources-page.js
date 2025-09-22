@@ -378,10 +378,62 @@
         });
     }
 
+    // Handle language filter scrolling
+    function initLanguageFilterScroll() {
+        const filterContainer = document.querySelector('.language-filters');
+        const filterGroup = document.querySelector('.filter-group');
+
+        if (!filterContainer || !filterGroup) return;
+
+        // Check scroll position and update indicators
+        function updateScrollIndicators() {
+            const scrollLeft = filterContainer.scrollLeft;
+            const scrollWidth = filterContainer.scrollWidth;
+            const clientWidth = filterContainer.clientWidth;
+
+            // Add or remove classes based on scroll position
+            if (scrollLeft > 10) {
+                filterGroup.classList.add('has-scroll-left');
+            } else {
+                filterGroup.classList.remove('has-scroll-left');
+            }
+
+            if (scrollLeft < scrollWidth - clientWidth - 10) {
+                filterGroup.classList.add('has-scroll-right');
+            } else {
+                filterGroup.classList.remove('has-scroll-right');
+            }
+        }
+
+        // Update on scroll
+        filterContainer.addEventListener('scroll', updateScrollIndicators);
+
+        // Update on resize
+        window.addEventListener('resize', updateScrollIndicators);
+
+        // Initial check
+        setTimeout(updateScrollIndicators, 100);
+
+        // Ensure active language is visible
+        const activeFilter = filterContainer.querySelector('.lang-filter.active');
+        if (activeFilter) {
+            // Scroll to center the active filter
+            const containerWidth = filterContainer.clientWidth;
+            const filterLeft = activeFilter.offsetLeft;
+            const filterWidth = activeFilter.offsetWidth;
+            const scrollTo = filterLeft - (containerWidth / 2) + (filterWidth / 2);
+            filterContainer.scrollLeft = Math.max(0, scrollTo);
+        }
+    }
+
     // Initialize when DOM is ready
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener('DOMContentLoaded', () => {
+            init();
+            initLanguageFilterScroll();
+        });
     } else {
         init();
+        initLanguageFilterScroll();
     }
 })();
