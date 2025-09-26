@@ -85,6 +85,9 @@
         const headers = document.querySelectorAll('.resource-section-header');
 
         headers.forEach(header => {
+            // Skip if already initialized
+            if (header.querySelector('.section-toggle')) return;
+
             // Add arrow
             const toggle = document.createElement('span');
             toggle.className = 'section-toggle';
@@ -96,6 +99,9 @@
             });
         });
     }
+
+    // Expose globally for use in other modules
+    window.reinitCollapsible = initCollapsible;
 
     // Minimal Keyboard Shortcuts
     function initKeyboardShortcuts() {

@@ -38,6 +38,10 @@
         // Special handling for languages with comprehensive resource structure
         if (langParam === 'dutch' || langParam === 'danish' || langParam === 'portuguese' || langParam === 'italian' || langParam === 'indonesian' || langParam === 'korean' || langParam === 'hindi' || langParam === 'swahili' || langParam === 'japanese' || langParam === 'swedish' || langParam === 'finnish' || langParam === 'polish' || langParam === 'vietnamese') {
             renderComprehensiveResources(filter);
+            // Re-initialize collapsible functionality after rendering
+            if (typeof window.reinitCollapsible === 'function') {
+                window.reinitCollapsible();
+            }
             return;
         }
 
@@ -48,6 +52,11 @@
                 container.appendChild(section);
             }
         });
+
+        // Re-initialize collapsible functionality after rendering
+        if (typeof window.reinitCollapsible === 'function') {
+            window.reinitCollapsible();
+        }
     }
 
     // Special rendering for comprehensive resource structures (Dutch, Danish, Portuguese)
