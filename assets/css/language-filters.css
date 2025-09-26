@@ -11,6 +11,7 @@
     padding: 8px;
     max-width: 100%;
     justify-content: center;
+    overflow: visible !important;
 }
 
 /* For larger screens, exactly 7 columns × 2 rows (14 buttons capacity, 13 used) */
@@ -78,24 +79,29 @@
 
 /* All Languages Button - Special Styling */
 .lang-filter[data-lang="all"] {
-    background: linear-gradient(135deg, var(--primary-50), var(--accent-50));
-    border-color: var(--primary-200);
-    font-weight: 600;
-    min-width: 140px;
-    padding: 10px 18px;
+    background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;
+    border-color: var(--primary-200) !important;
+    font-weight: 600 !important;
+    min-width: 145px !important;
+    padding: 10px 20px !important;
+    width: auto !important;
+    overflow: visible !important;
 }
 
 .lang-filter[data-lang="all"].active {
-    background: linear-gradient(135deg, var(--primary-600), var(--accent-600));
-    border-color: var(--primary-600);
+    background: linear-gradient(135deg, var(--primary-600), var(--accent-600)) !important;
+    border-color: var(--primary-600) !important;
 }
 
 .lang-filter[data-lang="all"] .filter-icon {
-    margin-right: 2px;
+    margin-right: 4px !important;
+    flex-shrink: 0;
 }
 
 .lang-filter[data-lang="all"] span:not(.filter-icon) {
-    white-space: nowrap;
+    white-space: nowrap !important;
+    display: inline-block !important;
+    overflow: visible !important;
 }
 
 /* Filter Group Container */
