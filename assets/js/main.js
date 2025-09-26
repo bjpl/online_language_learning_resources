@@ -171,9 +171,21 @@ const LanguageHub = (function() {
         card.dataset.language = key;
         card.style.animationDelay = `${index * 100}ms`;
 
-        // Calculate resource count
-        const resourceCount = Object.values(language.resources || {})
-            .reduce((sum, category) => sum + (category?.length || 0), 0);
+        // Calculate resource count - handle comprehensive structure (courses/books/audio arrays with items)
+        let resourceCount = 0;
+        if (language.resources) {
+            Object.values(language.resources).forEach(category => {
+                if (Array.isArray(category)) {
+                    category.forEach(item => {
+                        if (item && item.items && Array.isArray(item.items)) {
+                            resourceCount += item.items.length;
+                        } else if (item && item.name) {
+                            resourceCount += 1;
+                        }
+                    });
+                }
+            });
+        }
 
         card.innerHTML = `
             <div class="language-header">
@@ -190,7 +202,7 @@ const LanguageHub = (function() {
                 </div>
             </div>
             <a href="language.html?lang=${key}" class="language-link">
-                Explore ${resourceCount}+ resources
+                Explore ${resourceCount} resources
                 <svg width="16" height="16" viewBox="0 0 16 16">
                     <path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
                 </svg>
