@@ -1,0 +1,2592 @@
+{
+  "summary": {
+    "total_important": 69,
+    "safe_to_remove": 0,
+    "requires_careful": 7,
+    "critical": 62,
+    "selector_conflicts": 105
+  },
+  "by_file": {
+    "assets/css/language-filters.css": {
+      "count": 25,
+      "declarations": [
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 14,
+          "selector": ".language-filters",
+          "property": "overflow",
+          "value": "visible",
+          "full_line": "overflow: visible !important;",
+          "context": "    max-width: 100%;\n    justify-content: center;\n    overflow: visible !important;\n}\n"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 82,
+          "selector": ".lang-filter[data-lang=\"all\"]",
+          "property": "background",
+          "value": "linear-gradient(135deg, var(--primary-50), var(--accent-50))",
+          "full_line": "background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;",
+          "context": "/* All Languages Button - Special Styling */\n.lang-filter[data-lang=\"all\"] {\n    background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;\n    border-color: var(--primary-200) !important;\n    color: var(--primary-700) !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 83,
+          "selector": ".lang-filter[data-lang=\"all\"]",
+          "property": "border-color",
+          "value": "var(--primary-200)",
+          "full_line": "border-color: var(--primary-200) !important;",
+          "context": ".lang-filter[data-lang=\"all\"] {\n    background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;\n    border-color: var(--primary-200) !important;\n    color: var(--primary-700) !important;\n    font-weight: 600 !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 84,
+          "selector": ".lang-filter[data-lang=\"all\"]",
+          "property": "color",
+          "value": "var(--primary-700)",
+          "full_line": "color: var(--primary-700) !important;",
+          "context": "    background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;\n    border-color: var(--primary-200) !important;\n    color: var(--primary-700) !important;\n    font-weight: 600 !important;\n    min-width: 145px !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 85,
+          "selector": ".lang-filter[data-lang=\"all\"]",
+          "property": "font-weight",
+          "value": "600",
+          "full_line": "font-weight: 600 !important;",
+          "context": "    border-color: var(--primary-200) !important;\n    color: var(--primary-700) !important;\n    font-weight: 600 !important;\n    min-width: 145px !important;\n    padding: 10px 20px !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 86,
+          "selector": ".lang-filter[data-lang=\"all\"]",
+          "property": "min-width",
+          "value": "145px",
+          "full_line": "min-width: 145px !important;",
+          "context": "    color: var(--primary-700) !important;\n    font-weight: 600 !important;\n    min-width: 145px !important;\n    padding: 10px 20px !important;\n    width: auto !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 87,
+          "selector": ".lang-filter[data-lang=\"all\"]",
+          "property": "padding",
+          "value": "10px 20px",
+          "full_line": "padding: 10px 20px !important;",
+          "context": "    font-weight: 600 !important;\n    min-width: 145px !important;\n    padding: 10px 20px !important;\n    width: auto !important;\n    overflow: visible !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 88,
+          "selector": ".lang-filter[data-lang=\"all\"]",
+          "property": "width",
+          "value": "auto",
+          "full_line": "width: auto !important;",
+          "context": "    min-width: 145px !important;\n    padding: 10px 20px !important;\n    width: auto !important;\n    overflow: visible !important;\n}"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 89,
+          "selector": ".lang-filter[data-lang=\"all\"]",
+          "property": "overflow",
+          "value": "visible",
+          "full_line": "overflow: visible !important;",
+          "context": "    padding: 10px 20px !important;\n    width: auto !important;\n    overflow: visible !important;\n}\n"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 93,
+          "selector": ".lang-filter[data-lang=\"all\"]:hover:not(.active)",
+          "property": "background",
+          "value": "linear-gradient(135deg, var(--primary-100), var(--accent-100))",
+          "full_line": "background: linear-gradient(135deg, var(--primary-100), var(--accent-100)) !important;",
+          "context": "\n.lang-filter[data-lang=\"all\"]:hover:not(.active) {\n    background: linear-gradient(135deg, var(--primary-100), var(--accent-100)) !important;\n    color: var(--primary-800) !important;\n}"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 94,
+          "selector": ".lang-filter[data-lang=\"all\"]:hover:not(.active)",
+          "property": "color",
+          "value": "var(--primary-800)",
+          "full_line": "color: var(--primary-800) !important;",
+          "context": ".lang-filter[data-lang=\"all\"]:hover:not(.active) {\n    background: linear-gradient(135deg, var(--primary-100), var(--accent-100)) !important;\n    color: var(--primary-800) !important;\n}\n"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 98,
+          "selector": ".lang-filter[data-lang=\"all\"].active",
+          "property": "background",
+          "value": "#5B4E8C",
+          "full_line": "background: #5B4E8C !important;",
+          "context": "\n.lang-filter[data-lang=\"all\"].active {\n    background: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: white !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 99,
+          "selector": ".lang-filter[data-lang=\"all\"].active",
+          "property": "border-color",
+          "value": "#5B4E8C",
+          "full_line": "border-color: #5B4E8C !important;",
+          "context": ".lang-filter[data-lang=\"all\"].active {\n    background: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: white !important;\n}"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 100,
+          "selector": ".lang-filter[data-lang=\"all\"].active",
+          "property": "color",
+          "value": "white",
+          "full_line": "color: white !important;",
+          "context": "    background: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: white !important;\n}\n"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 104,
+          "selector": ".lang-filter[data-lang=\"all\"].active:hover",
+          "property": "background",
+          "value": "#6b5e9c",
+          "full_line": "background: #6b5e9c !important;",
+          "context": "\n.lang-filter[data-lang=\"all\"].active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 105,
+          "selector": ".lang-filter[data-lang=\"all\"].active:hover",
+          "property": "background-color",
+          "value": "#6b5e9c",
+          "full_line": "background-color: #6b5e9c !important;",
+          "context": ".lang-filter[data-lang=\"all\"].active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;\n    color: white !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 106,
+          "selector": ".lang-filter[data-lang=\"all\"].active:hover",
+          "property": "border-color",
+          "value": "#5B4E8C",
+          "full_line": "border-color: #5B4E8C !important;",
+          "context": "    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;\n    color: white !important;\n}"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 107,
+          "selector": ".lang-filter[data-lang=\"all\"].active:hover",
+          "property": "color",
+          "value": "white",
+          "full_line": "color: white !important;",
+          "context": "    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;\n    color: white !important;\n}\n"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 112,
+          "selector": ".lang-filter[data-lang=\"all\"].active span",
+          "property": "color",
+          "value": "white",
+          "full_line": "color: white !important;",
+          "context": ".lang-filter[data-lang=\"all\"].active .filter-icon,\n.lang-filter[data-lang=\"all\"].active span {\n    color: white !important;\n}\n"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 116,
+          "selector": ".lang-filter[data-lang=\"all\"] .filter-icon",
+          "property": "margin-right",
+          "value": "4px",
+          "full_line": "margin-right: 4px !important;",
+          "context": "\n.lang-filter[data-lang=\"all\"] .filter-icon {\n    margin-right: 4px !important;\n    flex-shrink: 0;\n    color: inherit !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 118,
+          "selector": ".lang-filter[data-lang=\"all\"] .filter-icon",
+          "property": "color",
+          "value": "inherit",
+          "full_line": "color: inherit !important;",
+          "context": "    margin-right: 4px !important;\n    flex-shrink: 0;\n    color: inherit !important;\n}\n"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 122,
+          "selector": ".lang-filter[data-lang=\"all\"] span:not(.filter-icon)",
+          "property": "white-space",
+          "value": "nowrap",
+          "full_line": "white-space: nowrap !important;",
+          "context": "\n.lang-filter[data-lang=\"all\"] span:not(.filter-icon) {\n    white-space: nowrap !important;\n    display: inline-block !important;\n    overflow: visible !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 123,
+          "selector": ".lang-filter[data-lang=\"all\"] span:not(.filter-icon)",
+          "property": "display",
+          "value": "inline-block",
+          "full_line": "display: inline-block !important;",
+          "context": ".lang-filter[data-lang=\"all\"] span:not(.filter-icon) {\n    white-space: nowrap !important;\n    display: inline-block !important;\n    overflow: visible !important;\n    color: inherit !important;"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 124,
+          "selector": ".lang-filter[data-lang=\"all\"] span:not(.filter-icon)",
+          "property": "overflow",
+          "value": "visible",
+          "full_line": "overflow: visible !important;",
+          "context": "    white-space: nowrap !important;\n    display: inline-block !important;\n    overflow: visible !important;\n    color: inherit !important;\n}"
+        },
+        {
+          "file": "assets/css/language-filters.css",
+          "line": 125,
+          "selector": ".lang-filter[data-lang=\"all\"] span:not(.filter-icon)",
+          "property": "color",
+          "value": "inherit",
+          "full_line": "color: inherit !important;",
+          "context": "    display: inline-block !important;\n    overflow: visible !important;\n    color: inherit !important;\n}\n"
+        }
+      ]
+    },
+    "assets/css/resources.css": {
+      "count": 24,
+      "declarations": [
+        {
+          "file": "assets/css/resources.css",
+          "line": 120,
+          "selector": ".lang-filter.active",
+          "property": "background-color",
+          "value": "#5B4E8C",
+          "full_line": "background-color: #5B4E8C !important;",
+          "context": "\n.lang-filter.active {\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 121,
+          "selector": ".lang-filter.active",
+          "property": "border-color",
+          "value": "#5B4E8C",
+          "full_line": "border-color: #5B4E8C !important;",
+          "context": ".lang-filter.active {\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n}"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 122,
+          "selector": ".lang-filter.active",
+          "property": "color",
+          "value": "#ffffff",
+          "full_line": "color: #ffffff !important;",
+          "context": "    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n}\n"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 126,
+          "selector": ".lang-filter.active span",
+          "property": "color",
+          "value": "white",
+          "full_line": "color: white !important;",
+          "context": "\n.lang-filter.active span {\n    color: white !important;\n    opacity: 1 !important;\n}"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 127,
+          "selector": ".lang-filter.active span",
+          "property": "opacity",
+          "value": "1",
+          "full_line": "opacity: 1 !important;",
+          "context": ".lang-filter.active span {\n    color: white !important;\n    opacity: 1 !important;\n}\n"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 165,
+          "selector": ".type-filter.active",
+          "property": "background-color",
+          "value": "#5B4E8C",
+          "full_line": "background-color: #5B4E8C !important;",
+          "context": "\n.type-filter.active {\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 166,
+          "selector": ".type-filter.active",
+          "property": "border-color",
+          "value": "#5B4E8C",
+          "full_line": "border-color: #5B4E8C !important;",
+          "context": ".type-filter.active {\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n    box-shadow: 0 4px 16px rgba(91, 78, 140, 0.25);"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 167,
+          "selector": ".type-filter.active",
+          "property": "color",
+          "value": "#ffffff",
+          "full_line": "color: #ffffff !important;",
+          "context": "    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n    box-shadow: 0 4px 16px rgba(91, 78, 140, 0.25);\n}"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 172,
+          "selector": ".type-filter.active span",
+          "property": "color",
+          "value": "white",
+          "full_line": "color: white !important;",
+          "context": "\n.type-filter.active span {\n    color: white !important;\n    opacity: 1 !important;\n}"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 173,
+          "selector": ".type-filter.active span",
+          "property": "opacity",
+          "value": "1",
+          "full_line": "opacity: 1 !important;",
+          "context": ".type-filter.active span {\n    color: white !important;\n    opacity: 1 !important;\n}\n"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 189,
+          "selector": "button.type-filter.active",
+          "property": "background-color",
+          "value": "#5B4E8C",
+          "full_line": "background-color: #5B4E8C !important;",
+          "context": "button.lang-filter.active,\nbutton.type-filter.active {\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 190,
+          "selector": "button.type-filter.active",
+          "property": "color",
+          "value": "#ffffff",
+          "full_line": "color: #ffffff !important;",
+          "context": "button.type-filter.active {\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;\n}"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 191,
+          "selector": "button.type-filter.active",
+          "property": "border-color",
+          "value": "#5B4E8C",
+          "full_line": "border-color: #5B4E8C !important;",
+          "context": "    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;\n}\n"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 196,
+          "selector": "button.type-filter.active *",
+          "property": "color",
+          "value": "#ffffff",
+          "full_line": "color: #ffffff !important;",
+          "context": "button.lang-filter.active *,\nbutton.type-filter.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 197,
+          "selector": "button.type-filter.active *",
+          "property": "opacity",
+          "value": "1",
+          "full_line": "opacity: 1 !important;",
+          "context": "button.type-filter.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}\n"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 668,
+          "selector": "button.type-filter.active",
+          "property": "background",
+          "value": "#5B4E8C",
+          "full_line": "background: #5B4E8C !important;",
+          "context": "button.lang-filter.active,\nbutton.type-filter.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 669,
+          "selector": "button.type-filter.active",
+          "property": "background-color",
+          "value": "#5B4E8C",
+          "full_line": "background-color: #5B4E8C !important;",
+          "context": "button.type-filter.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border: 2px solid #4a3f79 !important;"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 670,
+          "selector": "button.type-filter.active",
+          "property": "color",
+          "value": "#ffffff",
+          "full_line": "color: #ffffff !important;",
+          "context": "    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border: 2px solid #4a3f79 !important;\n}"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 671,
+          "selector": "button.type-filter.active",
+          "property": "border",
+          "value": "2px solid #4a3f79",
+          "full_line": "border: 2px solid #4a3f79 !important;",
+          "context": "    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border: 2px solid #4a3f79 !important;\n}\n"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 682,
+          "selector": "button.type-filter.active *",
+          "property": "color",
+          "value": "#ffffff",
+          "full_line": "color: #ffffff !important;",
+          "context": "button.lang-filter.active *,\nbutton.type-filter.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 683,
+          "selector": "button.type-filter.active *",
+          "property": "opacity",
+          "value": "1",
+          "full_line": "opacity: 1 !important;",
+          "context": "button.type-filter.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}\n"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 691,
+          "selector": "button.type-filter.active:hover",
+          "property": "background",
+          "value": "#6b5e9c",
+          "full_line": "background: #6b5e9c !important;",
+          "context": "button.lang-filter.active:hover,\nbutton.type-filter.active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 692,
+          "selector": "button.type-filter.active:hover",
+          "property": "background-color",
+          "value": "#6b5e9c",
+          "full_line": "background-color: #6b5e9c !important;",
+          "context": "button.type-filter.active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;\n}"
+        },
+        {
+          "file": "assets/css/resources.css",
+          "line": 693,
+          "selector": "button.type-filter.active:hover",
+          "property": "border-color",
+          "value": "#5B4E8C",
+          "full_line": "border-color: #5B4E8C !important;",
+          "context": "    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;\n}"
+        }
+      ]
+    },
+    "assets/css/language.css": {
+      "count": 14,
+      "declarations": [
+        {
+          "file": "assets/css/language.css",
+          "line": 89,
+          "selector": ".filter-tab.active",
+          "property": "background",
+          "value": "#5B4E8C",
+          "full_line": "background: #5B4E8C !important;",
+          "context": "\n.filter-tab.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 90,
+          "selector": ".filter-tab.active",
+          "property": "background-color",
+          "value": "#5B4E8C",
+          "full_line": "background-color: #5B4E8C !important;",
+          "context": ".filter-tab.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 91,
+          "selector": ".filter-tab.active",
+          "property": "border-color",
+          "value": "#5B4E8C",
+          "full_line": "border-color: #5B4E8C !important;",
+          "context": "    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n}"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 92,
+          "selector": ".filter-tab.active",
+          "property": "color",
+          "value": "#ffffff",
+          "full_line": "color: #ffffff !important;",
+          "context": "    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n}\n"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 367,
+          "selector": "button.filter-tab.active",
+          "property": "background",
+          "value": "#5B4E8C",
+          "full_line": "background: #5B4E8C !important;",
+          "context": ".filter-tab.active,\nbutton.filter-tab.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 368,
+          "selector": "button.filter-tab.active",
+          "property": "background-color",
+          "value": "#5B4E8C",
+          "full_line": "background-color: #5B4E8C !important;",
+          "context": "button.filter-tab.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #4a3f79 !important;"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 369,
+          "selector": "button.filter-tab.active",
+          "property": "color",
+          "value": "#ffffff",
+          "full_line": "color: #ffffff !important;",
+          "context": "    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #4a3f79 !important;\n}"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 370,
+          "selector": "button.filter-tab.active",
+          "property": "border-color",
+          "value": "#4a3f79",
+          "full_line": "border-color: #4a3f79 !important;",
+          "context": "    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #4a3f79 !important;\n}\n"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 376,
+          "selector": "button.filter-tab.active *",
+          "property": "color",
+          "value": "#ffffff",
+          "full_line": "color: #ffffff !important;",
+          "context": ".filter-tab.active *,\nbutton.filter-tab.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 377,
+          "selector": "button.filter-tab.active *",
+          "property": "opacity",
+          "value": "1",
+          "full_line": "opacity: 1 !important;",
+          "context": "button.filter-tab.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}\n"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 383,
+          "selector": "button.filter-tab.active:hover",
+          "property": "background",
+          "value": "#6b5e9c",
+          "full_line": "background: #6b5e9c !important;",
+          "context": ".filter-tab.active:hover,\nbutton.filter-tab.active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    color: #ffffff !important;"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 384,
+          "selector": "button.filter-tab.active:hover",
+          "property": "background-color",
+          "value": "#6b5e9c",
+          "full_line": "background-color: #6b5e9c !important;",
+          "context": "button.filter-tab.active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 385,
+          "selector": "button.filter-tab.active:hover",
+          "property": "color",
+          "value": "#ffffff",
+          "full_line": "color: #ffffff !important;",
+          "context": "    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;\n    transform: translateY(-2px);"
+        },
+        {
+          "file": "assets/css/language.css",
+          "line": 386,
+          "selector": "button.filter-tab.active:hover",
+          "property": "border-color",
+          "value": "#5B4E8C",
+          "full_line": "border-color: #5B4E8C !important;",
+          "context": "    background-color: #6b5e9c !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;\n    transform: translateY(-2px);\n}"
+        }
+      ]
+    },
+    "assets/css/main.css": {
+      "count": 2,
+      "declarations": [
+        {
+          "file": "assets/css/main.css",
+          "line": 542,
+          "selector": ".languages-grid",
+          "property": "grid-template-columns",
+          "value": "repeat(3, 1fr)",
+          "full_line": "grid-template-columns: repeat(3, 1fr) !important;",
+          "context": "@media (min-width: 1024px) {\n    .languages-grid {\n        grid-template-columns: repeat(3, 1fr) !important;\n        max-width: 1100px;\n    }"
+        },
+        {
+          "file": "assets/css/main.css",
+          "line": 550,
+          "selector": ".languages-grid",
+          "property": "grid-template-columns",
+          "value": "repeat(3, 1fr)",
+          "full_line": "grid-template-columns: repeat(3, 1fr) !important;",
+          "context": "@media (min-width: 1440px) {\n    .languages-grid {\n        grid-template-columns: repeat(3, 1fr) !important;\n        max-width: 1200px;\n        gap: calc(var(--space-xl) * 1.2);"
+        }
+      ]
+    },
+    "assets/css/modern-ui.css": {
+      "count": 1,
+      "declarations": [
+        {
+          "file": "assets/css/modern-ui.css",
+          "line": 387,
+          "selector": ".nav",
+          "property": "display",
+          "value": "none",
+          "full_line": "display: none !important;",
+          "context": "    .search-container,\n    .nav {\n        display: none !important;\n    }\n"
+        }
+      ]
+    },
+    "assets/css/modern-ui-clean.css": {
+      "count": 3,
+      "declarations": [
+        {
+          "file": "assets/css/modern-ui-clean.css",
+          "line": 334,
+          "selector": ".filter-tabs",
+          "property": "background",
+          "value": "transparent",
+          "full_line": "background: transparent !important;",
+          "context": "/* Remove all dark/heavy styles */\n.filter-tabs {\n    background: transparent !important;\n    backdrop-filter: none !important;\n}"
+        },
+        {
+          "file": "assets/css/modern-ui-clean.css",
+          "line": 335,
+          "selector": ".filter-tabs",
+          "property": "backdrop-filter",
+          "value": "none",
+          "full_line": "backdrop-filter: none !important;",
+          "context": ".filter-tabs {\n    background: transparent !important;\n    backdrop-filter: none !important;\n}\n"
+        },
+        {
+          "file": "assets/css/modern-ui-clean.css",
+          "line": 339,
+          "selector": ".resource-section-header",
+          "property": "background",
+          "value": "transparent",
+          "full_line": "background: transparent !important;",
+          "context": "\n.resource-section-header {\n    background: transparent !important;\n}\n"
+        }
+      ]
+    }
+  },
+  "safe_removals": [],
+  "careful_handling": [
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 14,
+      "selector": ".language-filters",
+      "property": "overflow",
+      "value": "visible",
+      "full_line": "overflow: visible !important;",
+      "context": "    max-width: 100%;\n    justify-content: center;\n    overflow: visible !important;\n}\n"
+    },
+    {
+      "file": "assets/css/main.css",
+      "line": 542,
+      "selector": ".languages-grid",
+      "property": "grid-template-columns",
+      "value": "repeat(3, 1fr)",
+      "full_line": "grid-template-columns: repeat(3, 1fr) !important;",
+      "context": "@media (min-width: 1024px) {\n    .languages-grid {\n        grid-template-columns: repeat(3, 1fr) !important;\n        max-width: 1100px;\n    }"
+    },
+    {
+      "file": "assets/css/main.css",
+      "line": 550,
+      "selector": ".languages-grid",
+      "property": "grid-template-columns",
+      "value": "repeat(3, 1fr)",
+      "full_line": "grid-template-columns: repeat(3, 1fr) !important;",
+      "context": "@media (min-width: 1440px) {\n    .languages-grid {\n        grid-template-columns: repeat(3, 1fr) !important;\n        max-width: 1200px;\n        gap: calc(var(--space-xl) * 1.2);"
+    },
+    {
+      "file": "assets/css/modern-ui.css",
+      "line": 387,
+      "selector": ".nav",
+      "property": "display",
+      "value": "none",
+      "full_line": "display: none !important;",
+      "context": "    .search-container,\n    .nav {\n        display: none !important;\n    }\n"
+    },
+    {
+      "file": "assets/css/modern-ui-clean.css",
+      "line": 334,
+      "selector": ".filter-tabs",
+      "property": "background",
+      "value": "transparent",
+      "full_line": "background: transparent !important;",
+      "context": "/* Remove all dark/heavy styles */\n.filter-tabs {\n    background: transparent !important;\n    backdrop-filter: none !important;\n}"
+    },
+    {
+      "file": "assets/css/modern-ui-clean.css",
+      "line": 335,
+      "selector": ".filter-tabs",
+      "property": "backdrop-filter",
+      "value": "none",
+      "full_line": "backdrop-filter: none !important;",
+      "context": ".filter-tabs {\n    background: transparent !important;\n    backdrop-filter: none !important;\n}\n"
+    },
+    {
+      "file": "assets/css/modern-ui-clean.css",
+      "line": 339,
+      "selector": ".resource-section-header",
+      "property": "background",
+      "value": "transparent",
+      "full_line": "background: transparent !important;",
+      "context": "\n.resource-section-header {\n    background: transparent !important;\n}\n"
+    }
+  ],
+  "critical_items": [
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 82,
+      "selector": ".lang-filter[data-lang=\"all\"]",
+      "property": "background",
+      "value": "linear-gradient(135deg, var(--primary-50), var(--accent-50))",
+      "full_line": "background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;",
+      "context": "/* All Languages Button - Special Styling */\n.lang-filter[data-lang=\"all\"] {\n    background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;\n    border-color: var(--primary-200) !important;\n    color: var(--primary-700) !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 83,
+      "selector": ".lang-filter[data-lang=\"all\"]",
+      "property": "border-color",
+      "value": "var(--primary-200)",
+      "full_line": "border-color: var(--primary-200) !important;",
+      "context": ".lang-filter[data-lang=\"all\"] {\n    background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;\n    border-color: var(--primary-200) !important;\n    color: var(--primary-700) !important;\n    font-weight: 600 !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 84,
+      "selector": ".lang-filter[data-lang=\"all\"]",
+      "property": "color",
+      "value": "var(--primary-700)",
+      "full_line": "color: var(--primary-700) !important;",
+      "context": "    background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;\n    border-color: var(--primary-200) !important;\n    color: var(--primary-700) !important;\n    font-weight: 600 !important;\n    min-width: 145px !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 85,
+      "selector": ".lang-filter[data-lang=\"all\"]",
+      "property": "font-weight",
+      "value": "600",
+      "full_line": "font-weight: 600 !important;",
+      "context": "    border-color: var(--primary-200) !important;\n    color: var(--primary-700) !important;\n    font-weight: 600 !important;\n    min-width: 145px !important;\n    padding: 10px 20px !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 86,
+      "selector": ".lang-filter[data-lang=\"all\"]",
+      "property": "min-width",
+      "value": "145px",
+      "full_line": "min-width: 145px !important;",
+      "context": "    color: var(--primary-700) !important;\n    font-weight: 600 !important;\n    min-width: 145px !important;\n    padding: 10px 20px !important;\n    width: auto !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 87,
+      "selector": ".lang-filter[data-lang=\"all\"]",
+      "property": "padding",
+      "value": "10px 20px",
+      "full_line": "padding: 10px 20px !important;",
+      "context": "    font-weight: 600 !important;\n    min-width: 145px !important;\n    padding: 10px 20px !important;\n    width: auto !important;\n    overflow: visible !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 88,
+      "selector": ".lang-filter[data-lang=\"all\"]",
+      "property": "width",
+      "value": "auto",
+      "full_line": "width: auto !important;",
+      "context": "    min-width: 145px !important;\n    padding: 10px 20px !important;\n    width: auto !important;\n    overflow: visible !important;\n}"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 89,
+      "selector": ".lang-filter[data-lang=\"all\"]",
+      "property": "overflow",
+      "value": "visible",
+      "full_line": "overflow: visible !important;",
+      "context": "    padding: 10px 20px !important;\n    width: auto !important;\n    overflow: visible !important;\n}\n"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 93,
+      "selector": ".lang-filter[data-lang=\"all\"]:hover:not(.active)",
+      "property": "background",
+      "value": "linear-gradient(135deg, var(--primary-100), var(--accent-100))",
+      "full_line": "background: linear-gradient(135deg, var(--primary-100), var(--accent-100)) !important;",
+      "context": "\n.lang-filter[data-lang=\"all\"]:hover:not(.active) {\n    background: linear-gradient(135deg, var(--primary-100), var(--accent-100)) !important;\n    color: var(--primary-800) !important;\n}"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 94,
+      "selector": ".lang-filter[data-lang=\"all\"]:hover:not(.active)",
+      "property": "color",
+      "value": "var(--primary-800)",
+      "full_line": "color: var(--primary-800) !important;",
+      "context": ".lang-filter[data-lang=\"all\"]:hover:not(.active) {\n    background: linear-gradient(135deg, var(--primary-100), var(--accent-100)) !important;\n    color: var(--primary-800) !important;\n}\n"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 98,
+      "selector": ".lang-filter[data-lang=\"all\"].active",
+      "property": "background",
+      "value": "#5B4E8C",
+      "full_line": "background: #5B4E8C !important;",
+      "context": "\n.lang-filter[data-lang=\"all\"].active {\n    background: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: white !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 99,
+      "selector": ".lang-filter[data-lang=\"all\"].active",
+      "property": "border-color",
+      "value": "#5B4E8C",
+      "full_line": "border-color: #5B4E8C !important;",
+      "context": ".lang-filter[data-lang=\"all\"].active {\n    background: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: white !important;\n}"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 100,
+      "selector": ".lang-filter[data-lang=\"all\"].active",
+      "property": "color",
+      "value": "white",
+      "full_line": "color: white !important;",
+      "context": "    background: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: white !important;\n}\n"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 104,
+      "selector": ".lang-filter[data-lang=\"all\"].active:hover",
+      "property": "background",
+      "value": "#6b5e9c",
+      "full_line": "background: #6b5e9c !important;",
+      "context": "\n.lang-filter[data-lang=\"all\"].active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 105,
+      "selector": ".lang-filter[data-lang=\"all\"].active:hover",
+      "property": "background-color",
+      "value": "#6b5e9c",
+      "full_line": "background-color: #6b5e9c !important;",
+      "context": ".lang-filter[data-lang=\"all\"].active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;\n    color: white !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 106,
+      "selector": ".lang-filter[data-lang=\"all\"].active:hover",
+      "property": "border-color",
+      "value": "#5B4E8C",
+      "full_line": "border-color: #5B4E8C !important;",
+      "context": "    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;\n    color: white !important;\n}"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 107,
+      "selector": ".lang-filter[data-lang=\"all\"].active:hover",
+      "property": "color",
+      "value": "white",
+      "full_line": "color: white !important;",
+      "context": "    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;\n    color: white !important;\n}\n"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 112,
+      "selector": ".lang-filter[data-lang=\"all\"].active span",
+      "property": "color",
+      "value": "white",
+      "full_line": "color: white !important;",
+      "context": ".lang-filter[data-lang=\"all\"].active .filter-icon,\n.lang-filter[data-lang=\"all\"].active span {\n    color: white !important;\n}\n"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 116,
+      "selector": ".lang-filter[data-lang=\"all\"] .filter-icon",
+      "property": "margin-right",
+      "value": "4px",
+      "full_line": "margin-right: 4px !important;",
+      "context": "\n.lang-filter[data-lang=\"all\"] .filter-icon {\n    margin-right: 4px !important;\n    flex-shrink: 0;\n    color: inherit !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 118,
+      "selector": ".lang-filter[data-lang=\"all\"] .filter-icon",
+      "property": "color",
+      "value": "inherit",
+      "full_line": "color: inherit !important;",
+      "context": "    margin-right: 4px !important;\n    flex-shrink: 0;\n    color: inherit !important;\n}\n"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 122,
+      "selector": ".lang-filter[data-lang=\"all\"] span:not(.filter-icon)",
+      "property": "white-space",
+      "value": "nowrap",
+      "full_line": "white-space: nowrap !important;",
+      "context": "\n.lang-filter[data-lang=\"all\"] span:not(.filter-icon) {\n    white-space: nowrap !important;\n    display: inline-block !important;\n    overflow: visible !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 123,
+      "selector": ".lang-filter[data-lang=\"all\"] span:not(.filter-icon)",
+      "property": "display",
+      "value": "inline-block",
+      "full_line": "display: inline-block !important;",
+      "context": ".lang-filter[data-lang=\"all\"] span:not(.filter-icon) {\n    white-space: nowrap !important;\n    display: inline-block !important;\n    overflow: visible !important;\n    color: inherit !important;"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 124,
+      "selector": ".lang-filter[data-lang=\"all\"] span:not(.filter-icon)",
+      "property": "overflow",
+      "value": "visible",
+      "full_line": "overflow: visible !important;",
+      "context": "    white-space: nowrap !important;\n    display: inline-block !important;\n    overflow: visible !important;\n    color: inherit !important;\n}"
+    },
+    {
+      "file": "assets/css/language-filters.css",
+      "line": 125,
+      "selector": ".lang-filter[data-lang=\"all\"] span:not(.filter-icon)",
+      "property": "color",
+      "value": "inherit",
+      "full_line": "color: inherit !important;",
+      "context": "    display: inline-block !important;\n    overflow: visible !important;\n    color: inherit !important;\n}\n"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 120,
+      "selector": ".lang-filter.active",
+      "property": "background-color",
+      "value": "#5B4E8C",
+      "full_line": "background-color: #5B4E8C !important;",
+      "context": "\n.lang-filter.active {\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 121,
+      "selector": ".lang-filter.active",
+      "property": "border-color",
+      "value": "#5B4E8C",
+      "full_line": "border-color: #5B4E8C !important;",
+      "context": ".lang-filter.active {\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n}"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 122,
+      "selector": ".lang-filter.active",
+      "property": "color",
+      "value": "#ffffff",
+      "full_line": "color: #ffffff !important;",
+      "context": "    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n}\n"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 126,
+      "selector": ".lang-filter.active span",
+      "property": "color",
+      "value": "white",
+      "full_line": "color: white !important;",
+      "context": "\n.lang-filter.active span {\n    color: white !important;\n    opacity: 1 !important;\n}"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 127,
+      "selector": ".lang-filter.active span",
+      "property": "opacity",
+      "value": "1",
+      "full_line": "opacity: 1 !important;",
+      "context": ".lang-filter.active span {\n    color: white !important;\n    opacity: 1 !important;\n}\n"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 165,
+      "selector": ".type-filter.active",
+      "property": "background-color",
+      "value": "#5B4E8C",
+      "full_line": "background-color: #5B4E8C !important;",
+      "context": "\n.type-filter.active {\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 166,
+      "selector": ".type-filter.active",
+      "property": "border-color",
+      "value": "#5B4E8C",
+      "full_line": "border-color: #5B4E8C !important;",
+      "context": ".type-filter.active {\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n    box-shadow: 0 4px 16px rgba(91, 78, 140, 0.25);"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 167,
+      "selector": ".type-filter.active",
+      "property": "color",
+      "value": "#ffffff",
+      "full_line": "color: #ffffff !important;",
+      "context": "    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n    box-shadow: 0 4px 16px rgba(91, 78, 140, 0.25);\n}"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 172,
+      "selector": ".type-filter.active span",
+      "property": "color",
+      "value": "white",
+      "full_line": "color: white !important;",
+      "context": "\n.type-filter.active span {\n    color: white !important;\n    opacity: 1 !important;\n}"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 173,
+      "selector": ".type-filter.active span",
+      "property": "opacity",
+      "value": "1",
+      "full_line": "opacity: 1 !important;",
+      "context": ".type-filter.active span {\n    color: white !important;\n    opacity: 1 !important;\n}\n"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 189,
+      "selector": "button.type-filter.active",
+      "property": "background-color",
+      "value": "#5B4E8C",
+      "full_line": "background-color: #5B4E8C !important;",
+      "context": "button.lang-filter.active,\nbutton.type-filter.active {\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 190,
+      "selector": "button.type-filter.active",
+      "property": "color",
+      "value": "#ffffff",
+      "full_line": "color: #ffffff !important;",
+      "context": "button.type-filter.active {\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;\n}"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 191,
+      "selector": "button.type-filter.active",
+      "property": "border-color",
+      "value": "#5B4E8C",
+      "full_line": "border-color: #5B4E8C !important;",
+      "context": "    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;\n}\n"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 196,
+      "selector": "button.type-filter.active *",
+      "property": "color",
+      "value": "#ffffff",
+      "full_line": "color: #ffffff !important;",
+      "context": "button.lang-filter.active *,\nbutton.type-filter.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 197,
+      "selector": "button.type-filter.active *",
+      "property": "opacity",
+      "value": "1",
+      "full_line": "opacity: 1 !important;",
+      "context": "button.type-filter.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}\n"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 668,
+      "selector": "button.type-filter.active",
+      "property": "background",
+      "value": "#5B4E8C",
+      "full_line": "background: #5B4E8C !important;",
+      "context": "button.lang-filter.active,\nbutton.type-filter.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 669,
+      "selector": "button.type-filter.active",
+      "property": "background-color",
+      "value": "#5B4E8C",
+      "full_line": "background-color: #5B4E8C !important;",
+      "context": "button.type-filter.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border: 2px solid #4a3f79 !important;"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 670,
+      "selector": "button.type-filter.active",
+      "property": "color",
+      "value": "#ffffff",
+      "full_line": "color: #ffffff !important;",
+      "context": "    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border: 2px solid #4a3f79 !important;\n}"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 671,
+      "selector": "button.type-filter.active",
+      "property": "border",
+      "value": "2px solid #4a3f79",
+      "full_line": "border: 2px solid #4a3f79 !important;",
+      "context": "    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border: 2px solid #4a3f79 !important;\n}\n"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 682,
+      "selector": "button.type-filter.active *",
+      "property": "color",
+      "value": "#ffffff",
+      "full_line": "color: #ffffff !important;",
+      "context": "button.lang-filter.active *,\nbutton.type-filter.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 683,
+      "selector": "button.type-filter.active *",
+      "property": "opacity",
+      "value": "1",
+      "full_line": "opacity: 1 !important;",
+      "context": "button.type-filter.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}\n"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 691,
+      "selector": "button.type-filter.active:hover",
+      "property": "background",
+      "value": "#6b5e9c",
+      "full_line": "background: #6b5e9c !important;",
+      "context": "button.lang-filter.active:hover,\nbutton.type-filter.active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 692,
+      "selector": "button.type-filter.active:hover",
+      "property": "background-color",
+      "value": "#6b5e9c",
+      "full_line": "background-color: #6b5e9c !important;",
+      "context": "button.type-filter.active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;\n}"
+    },
+    {
+      "file": "assets/css/resources.css",
+      "line": 693,
+      "selector": "button.type-filter.active:hover",
+      "property": "border-color",
+      "value": "#5B4E8C",
+      "full_line": "border-color: #5B4E8C !important;",
+      "context": "    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    border-color: #5B4E8C !important;\n}"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 89,
+      "selector": ".filter-tab.active",
+      "property": "background",
+      "value": "#5B4E8C",
+      "full_line": "background: #5B4E8C !important;",
+      "context": "\n.filter-tab.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 90,
+      "selector": ".filter-tab.active",
+      "property": "background-color",
+      "value": "#5B4E8C",
+      "full_line": "background-color: #5B4E8C !important;",
+      "context": ".filter-tab.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 91,
+      "selector": ".filter-tab.active",
+      "property": "border-color",
+      "value": "#5B4E8C",
+      "full_line": "border-color: #5B4E8C !important;",
+      "context": "    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n}"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 92,
+      "selector": ".filter-tab.active",
+      "property": "color",
+      "value": "#ffffff",
+      "full_line": "color: #ffffff !important;",
+      "context": "    background-color: #5B4E8C !important;\n    border-color: #5B4E8C !important;\n    color: #ffffff !important;\n}\n"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 367,
+      "selector": "button.filter-tab.active",
+      "property": "background",
+      "value": "#5B4E8C",
+      "full_line": "background: #5B4E8C !important;",
+      "context": ".filter-tab.active,\nbutton.filter-tab.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 368,
+      "selector": "button.filter-tab.active",
+      "property": "background-color",
+      "value": "#5B4E8C",
+      "full_line": "background-color: #5B4E8C !important;",
+      "context": "button.filter-tab.active {\n    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #4a3f79 !important;"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 369,
+      "selector": "button.filter-tab.active",
+      "property": "color",
+      "value": "#ffffff",
+      "full_line": "color: #ffffff !important;",
+      "context": "    background: #5B4E8C !important;\n    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #4a3f79 !important;\n}"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 370,
+      "selector": "button.filter-tab.active",
+      "property": "border-color",
+      "value": "#4a3f79",
+      "full_line": "border-color: #4a3f79 !important;",
+      "context": "    background-color: #5B4E8C !important;\n    color: #ffffff !important;\n    border-color: #4a3f79 !important;\n}\n"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 376,
+      "selector": "button.filter-tab.active *",
+      "property": "color",
+      "value": "#ffffff",
+      "full_line": "color: #ffffff !important;",
+      "context": ".filter-tab.active *,\nbutton.filter-tab.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 377,
+      "selector": "button.filter-tab.active *",
+      "property": "opacity",
+      "value": "1",
+      "full_line": "opacity: 1 !important;",
+      "context": "button.filter-tab.active * {\n    color: #ffffff !important;\n    opacity: 1 !important;\n}\n"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 383,
+      "selector": "button.filter-tab.active:hover",
+      "property": "background",
+      "value": "#6b5e9c",
+      "full_line": "background: #6b5e9c !important;",
+      "context": ".filter-tab.active:hover,\nbutton.filter-tab.active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    color: #ffffff !important;"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 384,
+      "selector": "button.filter-tab.active:hover",
+      "property": "background-color",
+      "value": "#6b5e9c",
+      "full_line": "background-color: #6b5e9c !important;",
+      "context": "button.filter-tab.active:hover {\n    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 385,
+      "selector": "button.filter-tab.active:hover",
+      "property": "color",
+      "value": "#ffffff",
+      "full_line": "color: #ffffff !important;",
+      "context": "    background: #6b5e9c !important;\n    background-color: #6b5e9c !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;\n    transform: translateY(-2px);"
+    },
+    {
+      "file": "assets/css/language.css",
+      "line": 386,
+      "selector": "button.filter-tab.active:hover",
+      "property": "border-color",
+      "value": "#5B4E8C",
+      "full_line": "border-color: #5B4E8C !important;",
+      "context": "    background-color: #6b5e9c !important;\n    color: #ffffff !important;\n    border-color: #5B4E8C !important;\n    transform: translateY(-2px);\n}"
+    }
+  ],
+  "conflicts": {
+    ".language-filters": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 6
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 19
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 28
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 35
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 163
+      }
+    ],
+    "@media (min-width: 1024px)": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 18
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 540
+      }
+    ],
+    "@media (min-width: 768px) and (max-width: 1023px)": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 27
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 533
+      }
+    ],
+    "@media (max-width: 767px)": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 34
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 526
+      }
+    ],
+    ".lang-filter": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 42
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 168
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 179
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 98
+      }
+    ],
+    ".lang-filter:hover": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 61
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 113
+      }
+    ],
+    ".lang-filter.active": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 68
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 119
+      }
+    ],
+    ".lang-filter .filter-icon": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 75
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 173
+      }
+    ],
+    ".lang-filter[data-lang=\"all\"]": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 81
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 189
+      }
+    ],
+    ".lang-filter[data-lang=\"all\"] .filter-icon": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 115
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 199
+      }
+    ],
+    ".lang-filter[data-lang=\"all\"] span:not(.filter-icon)": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 121
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 194
+      }
+    ],
+    ".filter-group": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 129
+      },
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 153
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 82
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 604
+      }
+    ],
+    "@media (max-width: 768px)": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 142
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 618
+      },
+      {
+        "file": "assets/css/language.css",
+        "line": 298
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 932
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 310
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 306
+      }
+    ],
+    ".filter-section": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 143
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 60
+      }
+    ],
+    ".filter-row": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 147
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 76
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 598
+      }
+    ],
+    ".filter-label": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 157
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 88
+      }
+    ],
+    "@media (max-width: 480px)": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 178
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 652
+      }
+    ],
+    ".type-filters": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 206
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 135
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 609
+      }
+    ],
+    ".type-filter": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 212
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 141
+      }
+    ],
+    ".type-filter:hover": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 228
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 157
+      }
+    ],
+    ".type-filter.active": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 235
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 164
+      }
+    ],
+    ".type-filter-icon": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 242
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 176
+      }
+    ],
+    ".type-filter-label": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 246
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 181
+      }
+    ],
+    ".view-toggle": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 251
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 201
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 613
+      }
+    ],
+    ".view-btn": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 259
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 209
+      }
+    ],
+    ".view-btn:hover": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 272
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 222
+      }
+    ],
+    ".view-btn.active": [
+      {
+        "file": "assets/css/language-filters.css",
+        "line": 276
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 227
+      }
+    ],
+    ".hero-title": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 12
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 619
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 297
+      }
+    ],
+    ".hero-subtitle": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 21
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 301
+      }
+    ],
+    ".stats-bar": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 30
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 623
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 653
+      }
+    ],
+    ".stat": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 40
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 658
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 616
+      }
+    ],
+    ".stat-number": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 44
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 628
+      }
+    ],
+    ".stat-label": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 52
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 626
+      }
+    ],
+    ".filter-section .container": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 70
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 632
+      }
+    ],
+    "button.type-filter.active": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 188
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 667
+      }
+    ],
+    "button.type-filter.active *": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 195
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 681
+      }
+    ],
+    ".type-header": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 243
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 643
+      }
+    ],
+    ".type-title": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 263
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 647
+      }
+    ],
+    ".resources-grid": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 307
+      },
+      {
+        "file": "assets/css/resources.css",
+        "line": 639
+      }
+    ],
+    ".resource-card": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 320
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 660
+      }
+    ],
+    ".resource-card:hover": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 332
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 670
+      }
+    ],
+    ".resource-title": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 441
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 684
+      }
+    ],
+    ".resource-description": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 459
+      },
+      {
+        "file": "assets/css/language.css",
+        "line": 182
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 704
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 182
+      }
+    ],
+    ".resource-meta": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 485
+      },
+      {
+        "file": "assets/css/language.css",
+        "line": 187
+      }
+    ],
+    ".empty-state": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 540
+      },
+      {
+        "file": "assets/css/language.css",
+        "line": 343
+      }
+    ],
+    "0%, 100%": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 572
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 174
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 454
+      }
+    ],
+    "50%": [
+      {
+        "file": "assets/css/resources.css",
+        "line": 573
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 175
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 455
+      }
+    ],
+    ".language-native": [
+      {
+        "file": "assets/css/language.css",
+        "line": 49
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 605
+      }
+    ],
+    ".filter-tabs": [
+      {
+        "file": "assets/css/language.css",
+        "line": 63
+      },
+      {
+        "file": "assets/css/language.css",
+        "line": 307
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 49
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 318
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 365
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 49
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 307
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 333
+      }
+    ],
+    ".filter-tab": [
+      {
+        "file": "assets/css/language.css",
+        "line": 71
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 66
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 326
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 369
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 58
+      }
+    ],
+    ".filter-tab:hover": [
+      {
+        "file": "assets/css/language.css",
+        "line": 82
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 82
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 70
+      }
+    ],
+    ".filter-tab.active": [
+      {
+        "file": "assets/css/language.css",
+        "line": 88
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 89
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 76
+      }
+    ],
+    ".resource-section": [
+      {
+        "file": "assets/css/language.css",
+        "line": 102
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 97
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 390
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 115
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 301
+      }
+    ],
+    ".resource-section-header": [
+      {
+        "file": "assets/css/language.css",
+        "line": 110
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 151
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 119
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 338
+      }
+    ],
+    ".resource-section-icon": [
+      {
+        "file": "assets/css/language.css",
+        "line": 119
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 130
+      }
+    ],
+    ".resource-section-title": [
+      {
+        "file": "assets/css/language.css",
+        "line": 123
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 134
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 313
+      }
+    ],
+    ".resource-section-count": [
+      {
+        "file": "assets/css/language.css",
+        "line": 128
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 234
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 141
+      }
+    ],
+    ".resource-items": [
+      {
+        "file": "assets/css/language.css",
+        "line": 139
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 176
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 233
+      }
+    ],
+    ".resource-item": [
+      {
+        "file": "assets/css/language.css",
+        "line": 144
+      },
+      {
+        "file": "assets/css/language.css",
+        "line": 313
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 117
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 331
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 375
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 152
+      }
+    ],
+    ".resource-item:hover": [
+      {
+        "file": "assets/css/language.css",
+        "line": 154
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 140
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 335
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 161
+      }
+    ],
+    ".resource-name": [
+      {
+        "file": "assets/css/language.css",
+        "line": 167
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 166
+      }
+    ],
+    ".resource-badge": [
+      {
+        "file": "assets/css/language.css",
+        "line": 194
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 189
+      }
+    ],
+    ".resource-badge.free": [
+      {
+        "file": "assets/css/language.css",
+        "line": 205
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 198
+      }
+    ],
+    ".resource-badge.level": [
+      {
+        "file": "assets/css/language.css",
+        "line": 210
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 203
+      }
+    ],
+    ".resource-table": [
+      {
+        "file": "assets/css/language.css",
+        "line": 221
+      },
+      {
+        "file": "assets/css/language.css",
+        "line": 299
+      }
+    ],
+    ".resource-table table": [
+      {
+        "file": "assets/css/language.css",
+        "line": 226
+      },
+      {
+        "file": "assets/css/language.css",
+        "line": 303
+      }
+    ],
+    ".features-list": [
+      {
+        "file": "assets/css/language.css",
+        "line": 269
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 209
+      }
+    ],
+    "to": [
+      {
+        "file": "assets/css/language.css",
+        "line": 339
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 291
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 991
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 1003
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 1018
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 110
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 295
+      }
+    ],
+    ":root": [
+      {
+        "file": "assets/css/main.css",
+        "line": 6
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 360
+      }
+    ],
+    "html": [
+      {
+        "file": "assets/css/main.css",
+        "line": 83
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 6
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 6
+      }
+    ],
+    "body": [
+      {
+        "file": "assets/css/main.css",
+        "line": 89
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 1070
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 343
+      }
+    ],
+    "a": [
+      {
+        "file": "assets/css/main.css",
+        "line": 106
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 1075
+      }
+    ],
+    ".nav": [
+      {
+        "file": "assets/css/main.css",
+        "line": 126
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 386
+      }
+    ],
+    ".nav-menu": [
+      {
+        "file": "assets/css/main.css",
+        "line": 185
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 937
+      }
+    ],
+    ".nav-toggle": [
+      {
+        "file": "assets/css/main.css",
+        "line": 219
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 933
+      }
+    ],
+    ".hero": [
+      {
+        "file": "assets/css/main.css",
+        "line": 243
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 959
+      }
+    ],
+    "@keyframes fadeInUp": [
+      {
+        "file": "assets/css/main.css",
+        "line": 286
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 109
+      }
+    ],
+    "from": [
+      {
+        "file": "assets/css/main.css",
+        "line": 287
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 990
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 999
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 1014
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 291
+      }
+    ],
+    ".languages-grid": [
+      {
+        "file": "assets/css/main.css",
+        "line": 515
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 527
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 534
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 541
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 549
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 963
+      }
+    ],
+    ".resource-categories": [
+      {
+        "file": "assets/css/main.css",
+        "line": 654
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 967
+      }
+    ],
+    ".methods-grid": [
+      {
+        "file": "assets/css/main.css",
+        "line": 728
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 971
+      }
+    ],
+    ".footer": [
+      {
+        "file": "assets/css/main.css",
+        "line": 813
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 1066
+      }
+    ],
+    ".footer-content": [
+      {
+        "file": "assets/css/main.css",
+        "line": 819
+      },
+      {
+        "file": "assets/css/main.css",
+        "line": 975
+      }
+    ],
+    "@keyframes fadeIn": [
+      {
+        "file": "assets/css/main.css",
+        "line": 989
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 290
+      }
+    ],
+    ".skeleton": [
+      {
+        "file": "assets/css/main.css",
+        "line": 1025
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 245
+      }
+    ],
+    "0%": [
+      {
+        "file": "assets/css/main.css",
+        "line": 1037
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 253
+      }
+    ],
+    "100%": [
+      {
+        "file": "assets/css/main.css",
+        "line": 1038
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 254
+      }
+    ],
+    "*:focus-visible": [
+      {
+        "file": "assets/css/main.css",
+        "line": 1055
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 347
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 326
+      }
+    ],
+    "@media print": [
+      {
+        "file": "assets/css/main.css",
+        "line": 1061
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 382
+      }
+    ],
+    ".back-to-top": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 12
+      },
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 311
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 12
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 317
+      }
+    ],
+    ".back-to-top:hover": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 31
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 32
+      }
+    ],
+    ".back-to-top.visible": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 37
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 37
+      }
+    ],
+    ".back-to-top svg": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 42
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 42
+      }
+    ],
+    ".resource-section-header.collapsed + .resource-items": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 169
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 227
+      }
+    ],
+    ".section-toggle": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 183
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 216
+      }
+    ],
+    ".resource-section-header.collapsed .section-toggle": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 193
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 223
+      }
+    ],
+    ".search-container": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 198
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 83
+      }
+    ],
+    ".search-box": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 207
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 88
+      }
+    ],
+    ".search-box:focus": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 217
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 98
+      }
+    ],
+    ".search-icon": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 223
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 104
+      }
+    ],
+    ".page-progress": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 263
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 240
+      }
+    ],
+    ".page-progress-bar": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 273
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 250
+      }
+    ],
+    ".shortcuts-toast": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 281
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 258
+      }
+    ],
+    ".shortcuts-toast.visible": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 296
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 275
+      }
+    ],
+    ".shortcut-key": [
+      {
+        "file": "assets/css/modern-ui.css",
+        "line": 301
+      },
+      {
+        "file": "assets/css/modern-ui-clean.css",
+        "line": 280
+      }
+    ]
+  }
+}
