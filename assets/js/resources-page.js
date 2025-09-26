@@ -111,14 +111,10 @@
         let totalResources = 0;
         let freeResources = 0;
 
-        // Debug logging
-        console.log('Resource counts by type:');
-        Object.entries(allResources).forEach(([type, typeResources]) => {
-            console.log(`  ${type}: ${typeResources.length}`);
+        Object.values(allResources).forEach(typeResources => {
             totalResources += typeResources.length;
             freeResources += typeResources.filter(r => r.free).length;
         });
-        console.log('Total resources on page:', totalResources);
 
         // Animate counters
         animateCounter('total-resources', totalResources);

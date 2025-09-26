@@ -337,14 +337,11 @@ const LanguageHub = (function() {
                 const lang = languageData[langKey];
                 if (!lang.resources) return;
 
-                let langCounts = {courses: 0, apps: 0, books: 0, audio: 0, practice: 0};
-
                 // Count courses
                 if (lang.resources.courses && Array.isArray(lang.resources.courses)) {
                     lang.resources.courses.forEach(category => {
                         if (category.items && Array.isArray(category.items)) {
                             resourceCounts.courses += category.items.length;
-                            langCounts.courses += category.items.length;
                         }
                     });
                 }
@@ -352,7 +349,6 @@ const LanguageHub = (function() {
                 // Count apps
                 if (lang.resources.apps && Array.isArray(lang.resources.apps)) {
                     resourceCounts.apps += lang.resources.apps.length;
-                    langCounts.apps += lang.resources.apps.length;
                 }
 
                 // Count books
@@ -360,7 +356,6 @@ const LanguageHub = (function() {
                     lang.resources.books.forEach(category => {
                         if (category.items && Array.isArray(category.items)) {
                             resourceCounts.books += category.items.length;
-                            langCounts.books += category.items.length;
                         }
                     });
                 }
@@ -370,7 +365,6 @@ const LanguageHub = (function() {
                     lang.resources.audio.forEach(category => {
                         if (category.items && Array.isArray(category.items)) {
                             resourceCounts.audio += category.items.length;
-                            langCounts.audio += category.items.length;
                         }
                     });
                 }
@@ -380,20 +374,11 @@ const LanguageHub = (function() {
                     lang.resources.practice.forEach(category => {
                         if (category.items && Array.isArray(category.items)) {
                             resourceCounts.practice += category.items.length;
-                            langCounts.practice += category.items.length;
                         }
                     });
                 }
-
-                // Debug logging
-                const langTotal = langCounts.courses + langCounts.apps + langCounts.books + langCounts.audio + langCounts.practice;
-                console.log(`${langKey}: ${langTotal} resources`, langCounts);
             }
         });
-
-        // Calculate and log total
-        const total = resourceCounts.courses + resourceCounts.apps + resourceCounts.books + resourceCounts.audio + resourceCounts.practice;
-        console.log('Total resources:', total, resourceCounts);
 
         // Update the DOM with counts
         resourceCountElements.forEach(element => {
