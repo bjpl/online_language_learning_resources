@@ -41,14 +41,6 @@
                             features: ["No registration", "Audio recordings", "Government materials", "PDF downloads"]
                         },
                         {
-                            name: "LingoHut",
-                            url: "https://www.lingohut.com/en/l83/learn-polish",
-                            description: "125+ lessons completely free, no registration needed",
-                            level: "A1-B1",
-                            free: true,
-                            features: ["No registration", "125+ lessons", "Audio support", "Games included"]
-                        },
-                        {
                             name: "Alison Polish for Beginners",
                             url: "https://alison.com/course/polish-for-beginners",
                             description: "Comprehensive beginner course covering alphabet and grammar",
@@ -85,27 +77,11 @@
                             free: true,
                             features: ["Virtual tour format", "Comic panels", "Audio recordings", "Cultural immersion"]
                         },
-                        {
-                            name: "SEA-EU Language Exchange",
-                            url: "https://sea-eu.org/language-offers/",
-                            description: "European university alliance Polish courses",
-                            level: "Various",
-                            free: true,
-                            features: ["Virtual tandem", "Native speakers", "University support", "Cross-cultural exchange"]
-                        }
                     ]
                 },
                 {
                     category: "Government Programs",
                     items: [
-                        {
-                            name: "NAWA Summer Courses",
-                            url: "https://nawa.gov.pl/en/the-polish-language/nawa-summer-courses",
-                            description: "Government-funded intensive courses - COMPLETELY FREE",
-                            level: "A1-C2",
-                            free: true,
-                            features: ["Free accommodation", "Free meals", "2-4 weeks", "Materials included"]
-                        },
                         {
                             name: "NAVOICA Platform",
                             url: "https://navoica.pl/",
@@ -129,7 +105,7 @@
                     items: [
                         {
                             name: "Digital School Program",
-                            url: "https://www.scholaris.pl/",
+                            url: "https://zpe.gov.pl/scholaris?query=",
                             description: "World's first national open textbook initiative",
                             level: "K-12",
                             free: true,
@@ -143,14 +119,6 @@
                             free: true,
                             features: ["GNU License", "Community-edited", "Printable version", "Always updated"]
                         },
-                        {
-                            name: "OER Commons - Polish",
-                            url: "https://oercommons.org/",
-                            description: "Global OER repository with Polish materials",
-                            level: "Various",
-                            free: true,
-                            features: ["Open licensing", "Remixable content", "Quality assured", "Searchable"]
-                        }
                     ]
                 }
             ],
@@ -279,35 +247,11 @@
                             free: true,
                             features: ["Public domain", "Practical focus", "Complete grammar", "Usage examples"]
                         },
-                        {
-                            name: "Basic Polish: Grammar & Workbook",
-                            url: "https://languageadvisor.net/",
-                            description: "Grammar workbook by Dana Bielec",
-                            level: "Beginner",
-                            free: true,
-                            features: ["PDF download", "Exercises", "Answer keys", "Progressive lessons"]
-                        },
-                        {
-                            name: "Polish: Comprehensive Grammar",
-                            url: "https://languageadvisor.net/",
-                            description: "Systematic description by Iwona Sadowska",
-                            level: "Intermediate-Advanced",
-                            free: true,
-                            features: ["Academic approach", "Complete reference", "Linguistic analysis", "Examples"]
-                        }
                     ]
                 },
                 {
                     category: "Reading Materials",
                     items: [
-                        {
-                            name: "Lingua Polish Reading Texts",
-                            url: "https://lingua.com/polish/reading/",
-                            description: "Well-organized beginner reading texts",
-                            level: "A1-B1",
-                            free: true,
-                            features: ["Graded texts", "Comprehension questions", "Audio support", "Topic-based"]
-                        },
                         {
                             name: "Polski Daily PDF Exercises",
                             url: "https://polskidaily.eu/learn-polish-pdf/",
@@ -316,22 +260,6 @@
                             free: true,
                             features: ["PDF downloads", "Answer keys", "Interactive exercises", "Daily practice"]
                         },
-                        {
-                            name: "Selected Polish Tales",
-                            url: "https://www.gutenberg.org/",
-                            description: "Gutenberg collection by various authors",
-                            level: "Intermediate",
-                            free: true,
-                            features: ["Historical stories", "Classic authors", "Multiple formats", "Cultural insights"]
-                        },
-                        {
-                            name: "Polish Fairy Tales",
-                            url: "https://www.gutenberg.org/",
-                            description: "A.J. Gliński collection of traditional folklore",
-                            level: "Intermediate",
-                            free: true,
-                            features: ["Traditional folklore", "Cultural stories", "Illustrated versions", "Audio available"]
-                        }
                     ]
                 }
             ],
@@ -402,14 +330,6 @@
                             features: ["400+ episodes", "Transcripts", "Progressive difficulty", "Grammar explanations"]
                         },
                         {
-                            name: "Polish with John",
-                            url: "https://ioannesoculus.com",
-                            description: "Short ~4 minute episodes",
-                            level: "A2-B1",
-                            free: true,
-                            features: ["Bite-sized", "Daily vocabulary", "Clear speech", "Practical focus"]
-                        },
-                        {
                             name: "Super Easy Polish",
                             url: "https://easypolish.org/podcast",
                             description: "Bite-sized episodes for beginners",
@@ -476,14 +396,6 @@
                             features: ["Professional actors", "Classic literature", "Mobile apps", "Download option"]
                         },
                         {
-                            name: "LibriVox Polish",
-                            url: "https://librivox.org/",
-                            description: "Public domain books read by volunteers",
-                            level: "B2-C2",
-                            free: true,
-                            features: ["Volunteer readers", "Classic works", "Multiple formats", "No registration"]
-                        },
-                        {
                             name: "LoyalBooks Polish",
                             url: "https://www.loyalbooks.com/language/Polish",
                             description: "Free MP3 audiobooks",
@@ -500,22 +412,6 @@
                     category: "Language Exchange",
                     items: [
                         {
-                            name: "Tandem",
-                            url: "https://tandem.net/language-exchange/poland",
-                            description: "7,940 Polish speakers in Poland",
-                            level: "All levels",
-                            free: true,
-                            features: ["Video calls", "Text chat", "Voice messages", "Profile verification"]
-                        },
-                        {
-                            name: "HelloTalk",
-                            url: "https://www.hellotalk.com/",
-                            description: "Part of 30M+ user community",
-                            level: "All levels",
-                            free: true,
-                            features: ["Voice messages", "Corrections", "Moments feed", "Translation tools"]
-                        },
-                        {
                             name: "r/learnpolish",
                             url: "https://reddit.com/r/learnpolish",
                             description: "Active Reddit community for Polish learners",
@@ -531,43 +427,11 @@
                             free: true,
                             features: ["Email exchange", "Text chat", "Voice chat", "Lesson plans"]
                         },
-                        {
-                            name: "Language.Exchange",
-                            url: "https://en.language.exchange/language/PL-Polish/",
-                            description: "250 countries covered, interest-based matching",
-                            level: "All levels",
-                            free: true,
-                            features: ["Interest matching", "Global reach", "Various formats", "Safe platform"]
-                        },
-                        {
-                            name: "Learn Polish Discord",
-                            url: "Discord community",
-                            description: "Active Discord server with Polish classes and movie nights",
-                            level: "All levels",
-                            free: true,
-                            features: ["Polish classes", "Movie nights", "Voice channels", "Daily chat"]
-                        }
                     ]
                 },
                 {
                     category: "Language Tools",
                     items: [
-                        {
-                            name: "PONS Dictionary",
-                            url: "https://en.pons.com/translate/polish-english",
-                            description: "600,000+ words with audio",
-                            level: "All levels",
-                            free: true,
-                            features: ["Virtual keyboards", "Mobile apps", "Audio pronunciation", "Example sentences"]
-                        },
-                        {
-                            name: "Glosbe",
-                            url: "https://glosbe.com/pl/en",
-                            description: "Community-built dictionary with translation memory",
-                            level: "All levels",
-                            free: true,
-                            features: ["Translation memory", "Offline packs", "Community input", "Context examples"]
-                        },
                         {
                             name: "Cambridge Polish-English",
                             url: "https://dictionary.cambridge.org/us/dictionary/polish-english",
@@ -576,46 +440,6 @@
                             free: true,
                             features: ["Real examples", "Audio support", "Grammar notes", "Usage guides"]
                         },
-                        {
-                            name: "Cooljugator",
-                            url: "https://cooljugator.com/pl",
-                            description: "Complete verb conjugation tool",
-                            level: "All levels",
-                            free: true,
-                            features: ["All conjugations", "Search function", "Examples", "Mobile-friendly"]
-                        },
-                        {
-                            name: "Bab.la Conjugator",
-                            url: "https://en.bab.la/conjugation/polish/",
-                            description: "Comprehensive conjugation system",
-                            level: "All levels",
-                            free: true,
-                            features: ["All tenses", "Irregular verbs", "Examples", "Audio"]
-                        },
-                        {
-                            name: "TastingPoland Verb Tables",
-                            url: "https://www.tastingpoland.com/language/verb/",
-                            description: "474 fully conjugated Polish verbs",
-                            level: "All levels",
-                            free: true,
-                            features: ["474 verbs", "Complete tables", "Searchable", "Printable"]
-                        },
-                        {
-                            name: "Forvo Polish",
-                            url: "https://forvo.com/languages/pl/",
-                            description: "Native speaker pronunciation database",
-                            level: "All levels",
-                            free: true,
-                            features: ["Native speakers", "Multiple recordings", "Regional variants", "User ratings"]
-                        },
-                        {
-                            name: "PolishCorrector",
-                            url: "https://www.polishcorrector.com/",
-                            description: "Free grammar checker",
-                            level: "All levels",
-                            free: true,
-                            features: ["No registration", "Instant check", "Error explanations", "Suggestions"]
-                        }
                     ]
                 },
                 {
@@ -629,14 +453,6 @@
                             free: true,
                             features: ["Multiple games", "Audio support", "No registration", "Immediate feedback"]
                         },
-                        {
-                            name: "Polish Games on LingoHut",
-                            url: "https://www.lingohut.com/",
-                            description: "Interactive games integrated with lessons",
-                            level: "A1-B1",
-                            free: true,
-                            features: ["Multiple game types", "Progress tracking", "Audio support", "No registration"]
-                        }
                     ]
                 },
                 {

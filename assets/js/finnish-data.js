@@ -17,22 +17,6 @@
                     category: "University Courses",
                     items: [
                         {
-                            name: "A Taste of Finnish - University of Helsinki",
-                            url: "http://tasteoffinnish.fi/",
-                            description: "Complete 10-chapter beginner course with audio and exercises",
-                            level: "A1-A2",
-                            free: true,
-                            features: ["No registration required", "Mobile-friendly", "Cultural context", "Audio support"]
-                        },
-                        {
-                            name: "University of Helsinki Open University",
-                            url: "https://www.helsinki.fi/en/admissions-and-education/open-university",
-                            description: "Multiple structured Finnish courses from 1A through Media Finnish",
-                            level: "A1-B2",
-                            free: true,
-                            features: ["Free participation", "Optional credits", "Placement test", "Structured progression"]
-                        },
-                        {
                             name: "Aalto University Introductory Finnish",
                             url: "https://openlearning.aalto.fi/course/view.php?id=59",
                             description: "Self-study course for complete beginners",
@@ -83,14 +67,6 @@
                     category: "Open Educational Resources",
                     items: [
                         {
-                            name: "FSI Conversational Finnish",
-                            url: "https://www.livelingua.com/fsi/Fsi-ConversationalFinnish-Textbook.pdf",
-                            description: "700+ page comprehensive course from Foreign Service Institute",
-                            level: "A1-B2",
-                            free: true,
-                            features: ["14 units", "Pronunciation guides", "Cultural information", "Public domain"]
-                        },
-                        {
                             name: "Wikibooks Finnish Course",
                             url: "https://en.wikibooks.org/wiki/Finnish",
                             description: "Complete introductory course with exercises",
@@ -106,14 +82,6 @@
                             free: true,
                             features: ["CC BY-SA 4.0", "Open contributions", "PDF format", "Structured lessons"]
                         },
-                        {
-                            name: "FinnishPod101 Workbooks",
-                            url: "https://www.finnishpod101.com/finnish-workbooks/",
-                            description: "16+ printable PDF workbooks for beginners",
-                            level: "A1-A2",
-                            free: true,
-                            features: ["Free with registration", "Alphabet practice", "Writing exercises", "PDF downloads"]
-                        }
                     ]
                 },
                 {
@@ -255,30 +223,6 @@
                             free: true,
                             features: ["Multiple formats", "Audio versions", "Classic works", "Public domain"]
                         },
-                        {
-                            name: "Archive.org Finnish Collection",
-                            url: "https://archive.org/details/finnish-50-languages-4h-37-mins_202005",
-                            description: "Multiple textbooks including Leila White's grammar books",
-                            level: "Various",
-                            free: true,
-                            features: ["300+ page texts", "Workbooks included", "Public domain", "Downloadable"]
-                        },
-                        {
-                            name: "LibriVox Finnish",
-                            url: "https://librivox.org",
-                            description: "Public domain Finnish audiobooks",
-                            level: "B2-C2",
-                            free: true,
-                            features: ["Free audiobooks", "Kalevala included", "Volunteer readers", "MP3 downloads"]
-                        },
-                        {
-                            name: "International Children's Digital Library",
-                            url: "http://www.childrenslibrary.org/",
-                            description: "Limited Finnish children's books collection",
-                            level: "Ages 3-13",
-                            free: true,
-                            features: ["PDF downloads", "Personal use", "Children's literature", "Illustrated"]
-                        }
                     ]
                 },
                 {
@@ -316,27 +260,11 @@
                             free: true,
                             features: ["Organized playlists", "Subtitles", "24/7 stream", "Regular updates"]
                         },
-                        {
-                            name: "Finking Cap YouTube",
-                            url: "https://www.youtube.com/c/FinkingCap",
-                            description: "Grammar tutorials and spoken Finnish lessons",
-                            level: "A1-B2",
-                            free: true,
-                            features: ["Finnish/English subtitles", "Clear pronunciation", "Grammar focus", "Spoken Finnish"]
-                        }
                     ]
                 },
                 {
                     category: "Podcasts",
                     items: [
-                        {
-                            name: "Random Finnish Lesson",
-                            url: "https://randomfinnishlesson.blogspot.com",
-                            description: "Interviews and discussions at slower pace",
-                            level: "A2-B2",
-                            free: true,
-                            features: ["Transcripts available", "Blog support", "Spotify/Apple", "Slower pace"]
-                        }
                     ]
                 },
                 {
@@ -363,22 +291,6 @@
                 {
                     category: "Pronunciation",
                     items: [
-                        {
-                            name: "Forvo Finnish",
-                            url: "https://forvo.com/languages/fi/",
-                            description: "Native speaker pronunciation database",
-                            level: "All levels",
-                            free: true,
-                            features: ["User-contributed", "Quality ratings", "Large database", "Audio downloads"]
-                        },
-                        {
-                            name: "Finnish Text-to-Speech",
-                            url: "https://ttsmaker.com",
-                            description: "Free TTS services supporting Finnish",
-                            level: "All levels",
-                            free: true,
-                            features: ["MP3/WAV download", "Adjustable speed", "Multiple voices", "No registration"]
-                        }
                     ]
                 }
             ],
@@ -396,28 +308,12 @@
                             features: ["Weekly practice threads", "Discord server", "Native helpers", "Resource sharing"]
                         },
                         {
-                            name: "HelloTalk",
-                            url: "https://www.hellotalk.com/",
-                            description: "20+ million users supporting Finnish",
-                            level: "All levels",
-                            free: true,
-                            features: ["Text/voice/video", "Correction tools", "Moments feed", "Translation support"]
-                        },
-                        {
                             name: "Tandem Finland",
                             url: "https://tandem.net/language-exchange/finland",
                             description: "875 members in Finland for language exchange",
                             level: "All levels",
                             free: true,
                             features: ["AI grammar check", "Audio parties", "Profile verification", "Topic suggestions"]
-                        },
-                        {
-                            name: "ConversationExchange",
-                            url: "https://www.conversationexchange.com/",
-                            description: "Traditional language exchange since 2005",
-                            level: "All levels",
-                            free: true,
-                            features: ["Face-to-face", "Correspondence", "Chat options", "Search filters"]
                         },
                         {
                             name: "MyLanguageExchange",
@@ -427,43 +323,11 @@
                             free: true,
                             features: ["Lesson plans", "Games", "Translation tools", "Voice chat rooms"]
                         },
-                        {
-                            name: "InterPals",
-                            url: "https://www.interpals.net/",
-                            description: "33,432 Finnish language users for cultural exchange",
-                            level: "All levels",
-                            free: true,
-                            features: ["Email/postal/chat", "Cultural focus", "Photo sharing", "Forums"]
-                        }
                     ]
                 },
                 {
                     category: "Exercises and Tests",
                     items: [
-                        {
-                            name: "Sano suomeksi Exercises",
-                            url: "https://sanosuomeksi.com/en/exercises",
-                            description: "100+ online exercises with automatic checking",
-                            level: "A1-B2",
-                            free: true,
-                            features: ["Automatic checking", "Level-organized", "Topic-based", "Immediate feedback"]
-                        },
-                        {
-                            name: "Venla.info Exercises",
-                            url: "https://venla.info/exercises.html",
-                            description: "Interactive Hot Potatoes exercises",
-                            level: "All levels",
-                            free: true,
-                            features: ["14 lessons", "Listening dictation", "All verb types", "Self-checking"]
-                        },
-                        {
-                            name: "Tatoeba Finnish",
-                            url: "https://tatoeba.org/en",
-                            description: "Example sentences with translations",
-                            level: "All levels",
-                            free: true,
-                            features: ["Audio recordings", "Bulk downloads", "API available", "Community-contributed"]
-                        }
                     ]
                 },
                 {
@@ -476,54 +340,6 @@
                             level: "All levels",
                             free: true,
                             features: ["Audio pronunciations", "Inflection forms", "API available", "Etymology"]
-                        },
-                        {
-                            name: "Sanakirja.org",
-                            url: "https://www.sanakirja.org/",
-                            description: "Multilingual dictionary supporting 20+ languages",
-                            level: "All levels",
-                            free: true,
-                            features: ["AI translator", "600,000+ words", "Offline app", "Multiple languages"]
-                        },
-                        {
-                            name: "Glosbe Finnish",
-                            url: "https://glosbe.com/fi/en",
-                            description: "Community-built dictionary with context examples",
-                            level: "All levels",
-                            free: true,
-                            features: ["Parallel corpora", "Audio recordings", "API available", "Example sentences"]
-                        },
-                        {
-                            name: "Verbix",
-                            url: "https://www.verbix.com/languages/finnish",
-                            description: "Complete Finnish verb conjugation system",
-                            level: "All levels",
-                            free: true,
-                            features: ["All tenses/moods", "Dialectal forms", "API available", "Printable tables"]
-                        },
-                        {
-                            name: "Cooljugator",
-                            url: "https://cooljugator.com/fi",
-                            description: "Modern conjugation tool for verbs, nouns, adjectives",
-                            level: "All levels",
-                            free: true,
-                            features: ["Frequency lists", "Example sentences", "Mobile-friendly", "Quick search"]
-                        },
-                        {
-                            name: "Oikofix",
-                            url: "https://oikofix.com/?lang=en",
-                            description: "Free online spell and grammar checker",
-                            level: "All levels",
-                            free: true,
-                            features: ["Finnish/English/Sámi", "Three variants", "Grammar check", "Browser extension"]
-                        },
-                        {
-                            name: "TypeIt Finnish",
-                            url: "https://finnish.typeit.org/",
-                            description: "Browser-based Finnish typing tool",
-                            level: "All levels",
-                            free: true,
-                            features: ["Virtual keyboard", "Special characters", "Copy/paste", "No installation"]
                         },
                         {
                             name: "Language Bank of Finland",
@@ -545,14 +361,6 @@
                             level: "Academic",
                             free: true,
                             features: ["CC BY 4.0", "DOAJ indexed", "Scopus indexed", "Research articles"]
-                        },
-                        {
-                            name: "University of Helsinki Helda",
-                            url: "https://ethesis.helsinki.fi/en",
-                            description: "Digital dissertation repository",
-                            level: "Academic",
-                            free: true,
-                            features: ["Full-text access", "2012-present", "Open access", "Research database"]
                         },
                         {
                             name: "Theseus Repository",

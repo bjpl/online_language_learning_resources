@@ -32,7 +32,7 @@ languageData.korean = {
                     },
                     {
                         name: "Nuri-Sejong Institute Materials",
-                        url: "https://nuri.iksi.or.kr/front/page/etc/copyright/main.do",
+                        url: "https://nuri.iksi.or.kr/front/main/main.do",
                         description: "Downloadable textbooks, videos, and comics",
                         free: true,
                         level: "All levels",
@@ -127,14 +127,6 @@ languageData.korean = {
                         free: true,
                         level: "Absolute Beginner to Advanced",
                         features: ["Audio for every word/sentence", "Quizzes", "Mobile app", "20-30 vocab per lesson"]
-                    },
-                    {
-                        name: "KoreanClass101",
-                        url: "https://www.koreanclass101.com/",
-                        description: "Daily updated lessons with free tier",
-                        free: true,
-                        level: "Absolute Beginner to Advanced",
-                        features: ["1,500+ lessons", "PDF notes", "Cultural context"]
                     },
                     {
                         name: "GO! Billy Korean",
@@ -260,14 +252,6 @@ languageData.korean = {
                         features: ["Multiple formats (PDF, EPUB)", "22,910+ views"]
                     },
                     {
-                        name: "Korean Through Folktales (Portland State)",
-                        url: "https://pdx.edu/",
-                        description: "Cultural approach using traditional stories",
-                        free: true,
-                        level: "Elementary to Advanced",
-                        features: ["Cultural education", "1st-3rd year levels"]
-                    },
-                    {
                         name: "Sogang Korean Collection",
                         url: "https://archive.org/details/sogang-korean-students-books",
                         description: "Complete university series",
@@ -288,14 +272,6 @@ languageData.korean = {
             {
                 category: "Grammar Resources",
                 items: [
-                    {
-                        name: "KoreanClass101 Workbooks",
-                        url: "https://www.koreanclass101.com/korean-workbooks/",
-                        description: "16+ PDF workbooks",
-                        free: true,
-                        level: "Beginner",
-                        features: ["Alphabet", "Common words", "Three-part structure"]
-                    },
                     {
                         name: "Tammy Korean PDFs",
                         url: "https://learning-korean.com/pdf/",
@@ -382,14 +358,6 @@ languageData.korean = {
                         features: ["3-level structure", "English/Korean mix for beginners"]
                     },
                     {
-                        name: "KoreanClass101 Podcast",
-                        url: "https://www.koreanclass101.com/",
-                        description: "Daily updated comprehensive lessons",
-                        free: true,
-                        level: "Absolute Beginner to Advanced",
-                        features: ["1,500+ lessons", "PDF notes", "Cultural context"]
-                    },
-                    {
                         name: "SpongeMind Podcast",
                         url: "https://spongemind.org/",
                         description: "Bilingual episodes for learners",
@@ -417,14 +385,6 @@ languageData.korean = {
                         free: true,
                         level: "All levels",
                         features: ["Celebrity guests", "Street interviews", "Structured lessons"]
-                    },
-                    {
-                        name: "KoreanClass101",
-                        url: "https://www.youtube.com/user/koreanclass101",
-                        description: "Structured lessons with 1.5M+ subscribers",
-                        free: true,
-                        level: "Beginner to Advanced",
-                        features: ["30-day challenges", "Complete curriculum"]
                     },
                     {
                         name: "GO! Billy Korean",
@@ -456,14 +416,6 @@ languageData.korean = {
                 category: "Korean Media",
                 items: [
                     {
-                        name: "Korean Radio Apps",
-                        url: "https://play.google.com/",
-                        description: "100+ Korean radio stations",
-                        free: true,
-                        level: "Intermediate to Advanced",
-                        features: ["KBS, MBC, SBS", "Background listening", "Sleep timer"]
-                    },
-                    {
                         name: "KBS Cool FM",
                         url: "https://www.kbs.co.kr/",
                         description: "Popular Korean radio station",
@@ -488,14 +440,6 @@ languageData.korean = {
                 category: "Language Exchange",
                 items: [
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        description: "Largest language exchange app with 2M+ Korean users",
-                        free: true,
-                        level: "All levels",
-                        features: ["Real-time correction", "Moments feed", "Voice/video chat"]
-                    },
-                    {
                         name: "Let's Learn Korean Discord",
                         url: "https://discord.com/invite/MxVYDEE",
                         description: "Structured Discord server with 56,617+ members",
@@ -504,28 +448,12 @@ languageData.korean = {
                         features: ["Placement tests", "Mentors", "Korean-only channels"]
                     },
                     {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        description: "Language exchange app with 28,289+ in Korea",
-                        free: true,
-                        level: "All levels",
-                        features: ["Location search", "Tutor marketplace", "Verification system"]
-                    },
-                    {
                         name: "r/Korean",
                         url: "https://reddit.com/r/Korean",
                         description: "Reddit community with 100,000+ subscribers",
                         free: true,
                         level: "All levels",
                         features: ["Native speakers", "Weekly challenges", "Resource sharing"]
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        description: "Multi-format exchange platform",
-                        free: true,
-                        level: "All levels",
-                        features: ["Face-to-face", "Pen-pal", "Chat options", "Completely free"]
                     },
                     {
                         name: "HanE Discord",
@@ -593,14 +521,6 @@ languageData.korean = {
                         level: "All levels",
                         features: ["Official rankings", "Difficulty levels", "Excel format"]
                     },
-                    {
-                        name: "Forvo Korean",
-                        url: "https://forvo.com/",
-                        description: "Pronunciation dictionary",
-                        free: true,
-                        level: "All levels",
-                        features: ["Native speaker recordings", "Crowd-sourced", "Regional variants"]
-                    }
                 ]
             }
         ]

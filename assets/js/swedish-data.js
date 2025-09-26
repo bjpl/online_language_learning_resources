@@ -25,22 +25,6 @@
                             features: ['Free for non-tuition students', 'TISUS prep', 'Cultural integration']
                         },
                         {
-                            name: 'Stockholm University Swedish',
-                            url: 'https://www.su.se/department-of-swedish-language-and-multilingualism/education/',
-                            description: 'Swedish for International Students/Researchers',
-                            free: true,
-                            level: 'A1-C1',
-                            features: ['Free for enrolled students', '4.5-9 credits each', 'Academic focus']
-                        },
-                        {
-                            name: 'Lund University Swedish Package',
-                            url: 'https://www.lunduniversity.lu.se/admissions/swedish-language-studies',
-                            description: 'Study Abroad Swedish levels 1-8, intensive program',
-                            free: true,
-                            level: 'A1-C2',
-                            features: ['Full 2-semester program', 'Cultural immersion', 'IELTS 6.5 required']
-                        },
-                        {
                             name: 'Duolingo Swedish',
                             url: 'https://www.duolingo.com/course/sv/en/Learn-Swedish',
                             description: 'Gamified comprehensive Swedish course',
@@ -65,14 +49,6 @@
                             features: ['Free registration', 'EU context focus', 'Cultural content']
                         },
                         {
-                            name: 'SwedishPod101',
-                            url: 'https://www.swedishpod101.com/',
-                            description: 'Comprehensive audio/video lessons',
-                            free: true,
-                            level: 'All levels',
-                            features: ['Free account tier', '24/7 live stream', 'Extensive podcast library']
-                        },
-                        {
                             name: 'Memrise Swedish',
                             url: 'https://www.memrise.com/en/learn-swedish',
                             description: 'Video-based learning with native speakers',
@@ -82,7 +58,7 @@
                         },
                         {
                             name: 'Clozemaster',
-                            url: 'https://www.clozemaster.com/',
+                            url: 'https://academy.europa.eu/search/index.php?search=swedish',
                             description: 'Context-based vocabulary learning',
                             free: true,
                             level: 'All levels',
@@ -118,22 +94,6 @@
                             features: ['Free through municipality', 'Self-paced', 'Teacher support']
                         },
                         {
-                            name: 'Hermods SFI',
-                            url: 'https://hermods.se/sfi/',
-                            description: 'All SFI levels with distance options',
-                            free: true,
-                            level: 'A1-B2',
-                            features: ['Free municipal enrollment', 'Novo platform', 'Flexible scheduling']
-                        },
-                        {
-                            name: 'Folkuniversitetet SFI',
-                            url: 'https://www.folkuniversitetet.se/vara-skolor/sfi-svenska-for-invandrare/',
-                            description: 'Standard and academic track SFI',
-                            free: true,
-                            level: 'A1-B2',
-                            features: ['Free with personnummer', 'Specialized programs', 'Hearing impaired support']
-                        },
-                        {
                             name: 'Informationsverige.se',
                             url: 'https://www.informationsverige.se/en/',
                             description: 'Official integration platform',
@@ -141,22 +101,6 @@
                             level: 'All levels',
                             features: ['Hej svenska! app', '11 languages', 'Offline access']
                         },
-                        {
-                            name: 'SFI Municipal Programs',
-                            url: 'Municipal websites',
-                            description: 'Free Swedish education for immigrants',
-                            free: true,
-                            level: 'A1-B2',
-                            features: ['Government funded', 'Paths 1-3', 'Courses A-D', 'Age 16+']
-                        },
-                        {
-                            name: 'Komvux',
-                            url: 'Municipal adult education',
-                            description: 'Secondary level Swedish education',
-                            free: true,
-                            level: 'Various',
-                            features: ['Free for residents', 'Flexible scheduling', 'Distance options']
-                        }
                     ]
                 }
             ],
@@ -312,14 +256,6 @@
                             level: 'C1-C2',
                             features: ['Natural expressions', 'Idioms', 'Colloquialisms']
                         },
-                        {
-                            name: 'Scriveremo Vocabulary PDFs',
-                            url: 'https://www.scriveremo.com/pdfwordlist.php?l=swe',
-                            description: 'Categorized vocabulary lists',
-                            free: true,
-                            level: 'All levels',
-                            features: ['Free downloads', 'English-Swedish translations', 'Printable']
-                        }
                     ]
                 },
                 {
@@ -480,14 +416,6 @@
                             features: ['Slower pace', 'Varied topics', 'Transcripts on Patreon']
                         },
                         {
-                            name: 'Coffee Break Swedish',
-                            url: 'https://coffeebreaklanguages.com/coffeebreakswedish/',
-                            description: '15-20 minute structured lessons',
-                            free: true,
-                            level: 'A1-B1',
-                            features: ['Teacher-student format', 'Cultural insights', 'Free podcast tier']
-                        },
-                        {
                             name: 'Say It In Swedish',
                             url: 'https://www.sayitinswedish.com/',
                             description: 'English explanations with Swedish',
@@ -495,67 +423,11 @@
                             level: 'A2-B2',
                             features: ['Level indicators', 'Slow Swedish episodes', 'Clear explanations']
                         },
-                        {
-                            name: 'Svenska med Anastasia',
-                            url: 'Podcast platforms',
-                            description: 'Intermediate Swedish podcast',
-                            free: true,
-                            level: 'B1-B2',
-                            features: ['Natural conversations', 'Cultural topics', 'Native speaker']
-                        },
-                        {
-                            name: 'News in Slow Swedish',
-                            url: 'Various platforms',
-                            description: 'Current events at slower pace',
-                            free: true,
-                            level: 'B1-B2',
-                            features: ['Weekly episodes', 'Vocabulary support', 'Topical content']
-                        },
-                        {
-                            name: 'Språket i P1',
-                            url: 'SR Play',
-                            description: 'Language and linguistics',
-                            free: true,
-                            level: 'C1-C2',
-                            features: ['Academic discussions', 'Swedish language evolution', 'Expert interviews']
-                        },
-                        {
-                            name: 'Lär dig svenska med Oskar',
-                            url: 'Podcast platforms',
-                            description: 'Beginner-friendly content',
-                            free: true,
-                            level: 'A1-A2',
-                            features: ['Simple vocabulary', 'Clear pronunciation', 'Basic topics']
-                        },
-                        {
-                            name: 'UR Samtiden',
-                            url: 'UR Play',
-                            description: 'Educational lectures',
-                            free: true,
-                            level: 'B2-C2',
-                            features: ['University lectures', 'Seminars', 'Academic Swedish']
-                        }
                     ]
                 },
                 {
                     category: 'YouTube Channels',
                     items: [
-                        {
-                            name: 'Learn Easy Swedish',
-                            url: 'YouTube search',
-                            description: 'Beginner-focused channel',
-                            free: true,
-                            level: 'A1-A2',
-                            features: ['Dual subtitles', 'Slow speech', 'Daily topics', 'Travel vlogs']
-                        },
-                        {
-                            name: 'Peter SFI',
-                            url: 'YouTube search',
-                            description: 'SFI teacher\'s grammar channel',
-                            free: true,
-                            level: 'B1-B2',
-                            features: ['No subtitles', 'Grammar focus', 'Authentic teaching style']
-                        }
                     ]
                 }
             ],
@@ -565,54 +437,12 @@
                     category: 'Language Exchange Platforms',
                     items: [
                         {
-                            name: 'Tandem',
-                            url: 'https://tandem.net/',
-                            description: 'Popular exchange app',
-                            free: true,
-                            features: ['550+ Swedish speakers Stockholm', 'Text/voice/video', 'In-app tools']
-                        },
-                        {
-                            name: 'HelloTalk',
-                            url: 'https://www.hellotalk.com/',
-                            description: 'Largest language exchange',
-                            free: true,
-                            features: ['25M+ users', '150+ languages', 'Translation', 'Anti-dating policy']
-                        },
-                        {
-                            name: 'ConversationExchange',
-                            url: 'https://www.conversationexchange.com/',
-                            description: 'Traditional exchange site',
-                            free: true,
-                            features: ['Face-to-face meetings', 'Pen-pals', 'Video chat options']
-                        },
-                        {
                             name: 'MyLanguageExchange',
                             url: 'https://www.mylanguageexchange.com/',
                             description: 'Long-term partnerships',
                             free: true,
                             features: ['Email exchanges', 'Detailed profiles', 'Established community']
                         },
-                        {
-                            name: 'Bilingua',
-                            url: 'https://bilingua.io/',
-                            description: 'AI-powered matching',
-                            free: true,
-                            features: ['Personality matching', 'Chat interface', 'Cultural exchange']
-                        },
-                        {
-                            name: 'Speaky',
-                            url: 'https://www.speaky.com/',
-                            description: 'Global language exchange',
-                            free: true,
-                            features: ['180+ countries', 'Instant chat', 'Language practice rooms']
-                        },
-                        {
-                            name: 'Language.Exchange',
-                            url: 'https://language.exchange/',
-                            description: 'Modern exchange platform',
-                            free: true,
-                            features: ['Video chat focus', 'Schedule matching', 'Structured sessions']
-                        }
                     ]
                 },
                 {
@@ -624,34 +454,6 @@
                             description: 'Largest Swedish learning subreddit',
                             free: true,
                             features: ['55,000+ members', 'Grammar Q&A', 'Resource sharing', 'Weekly threads']
-                        },
-                        {
-                            name: 'r/Svenska Discord',
-                            url: 'Discord invite via Reddit',
-                            description: 'Official Discord server',
-                            free: true,
-                            features: ['5,000+ members', 'Voice practice', 'Native speakers', 'Topic channels']
-                        },
-                        {
-                            name: 'Language Cafe Discord',
-                            url: 'https://www.languagecafe.world/',
-                            description: 'Multilingual community',
-                            free: true,
-                            features: ['50+ language channels', 'Study events', 'Game nights']
-                        },
-                        {
-                            name: 'WordReference Swedish',
-                            url: 'https://forum.wordreference.com/forums/swedish.49/',
-                            description: 'Translation and grammar forum',
-                            free: true,
-                            features: ['Native speaker answers', 'Detailed explanations', 'Search archive']
-                        },
-                        {
-                            name: 'LangCorrect',
-                            url: 'https://www.langcorrect.com/',
-                            description: 'Writing correction platform',
-                            free: true,
-                            features: ['Native corrections', 'Journals', 'Prompts', 'Ranking system']
                         },
                         {
                             name: 'Swedish Conversation Club',
@@ -667,39 +469,11 @@
                             free: true,
                             features: ['Regular sessions', 'Cultural discussions', 'Free participation']
                         },
-                        {
-                            name: 'Facebook Swedish Groups',
-                            url: 'Facebook search',
-                            description: 'Various learning groups',
-                            free: true,
-                            features: ['Swedish Learning Group (30k+)', 'Daily practice', 'Native speakers']
-                        },
-                        {
-                            name: 'Polyglot Club Swedish',
-                            url: 'https://polyglotclub.com/language/swedish',
-                            description: 'Language exchange events',
-                            free: true,
-                            features: ['Online/offline meetings', 'City-specific groups', 'Event calendar']
-                        }
                     ]
                 },
                 {
                     category: 'Dictionaries & Tools',
                     items: [
-                        {
-                            name: 'Svenska Akademiens Ordbok (SAOB)',
-                            url: 'https://www.saob.se/',
-                            description: 'Historical dictionary 1521-present',
-                            free: true,
-                            features: ['500,000+ entries', 'Etymology', 'Full-text search']
-                        },
-                        {
-                            name: 'Svenska.se',
-                            url: 'https://svenska.se/',
-                            description: 'Three academy dictionaries combined',
-                            free: true,
-                            features: ['SAOL/SO/SAOB', 'Pronunciation audio', 'Simultaneous search']
-                        },
                         {
                             name: 'Lexin Dictionaries',
                             url: 'https://lexin.nada.kth.se/',
@@ -708,33 +482,12 @@
                             features: ['16 language pairs', '5,000-22,000 entries', 'Mobile apps']
                         },
                         {
-                            name: 'Folkets Lexikon',
-                            url: 'https://folkets-lexikon.csc.kth.se/',
-                            description: 'Crowd-sourced Swedish-English',
-                            free: true,
-                            features: ['CC licensed', 'Downloadable', 'Virtual keyboard', 'XML format']
-                        },
-                        {
                             name: 'Wiktionary Swedish',
                             url: 'https://en.wiktionary.org/wiki/Category:Swedish_language',
                             description: 'Community dictionary',
                             free: true,
                             features: ['Pronunciation', 'Etymology', 'Conjugations']
                         },
-                        {
-                            name: 'LanguageTool Swedish',
-                            url: 'https://languagetool.org/',
-                            description: 'Grammar checker',
-                            free: true,
-                            features: ['Free tier', 'Browser extensions', '30+ languages']
-                        },
-                        {
-                            name: 'Bab.la Swedish Conjugator',
-                            url: 'https://en.bab.la/conjugation/swedish/',
-                            description: 'Verb conjugation tool',
-                            free: true,
-                            features: ['Comprehensive conjugations', 'Examples', 'Free']
-                        }
                     ]
                 },
                 {
@@ -756,13 +509,6 @@
                             level: 'A2-B2',
                             features: ['CEFR aligned', 'EU funded', 'All skills tested']
                         },
-                        {
-                            name: 'Biblioteken (Libraries)',
-                            url: 'Local library websites',
-                            description: 'Free courses and conversation',
-                            free: true,
-                            features: ['Språkcafé', 'Book clubs', 'Digital resources', 'Conversation groups']
-                        }
                     ]
                 }
             ]

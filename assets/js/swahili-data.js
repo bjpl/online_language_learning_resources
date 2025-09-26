@@ -25,30 +25,6 @@
                             features: ['Streak system', 'Leaderboards', 'Mobile app', 'Writing exercises']
                         },
                         {
-                            name: 'Language Transfer',
-                            url: 'https://www.languagetransfer.org/courses',
-                            description: 'Complete audio course using Michel Thomas method',
-                            free: true,
-                            level: 'Beginner (A1-A2)',
-                            features: ['Logic-based learning', 'Downloadable files', 'Mobile app']
-                        },
-                        {
-                            name: 'Live Lingua',
-                            url: 'https://www.livelingua.com/courses/swahili',
-                            description: '3 Peace Corps courses with 146 audio files',
-                            free: true,
-                            level: 'Beginner to Intermediate',
-                            features: ['No sign-up required', 'Pronunciation tool', 'Downloadable PDFs']
-                        },
-                        {
-                            name: 'SwahiliPod101',
-                            url: 'https://www.swahilipod101.com/',
-                            description: 'Podcast-style lessons with cultural context',
-                            free: true,
-                            level: 'All levels',
-                            features: ['100+ free lessons', 'Mobile app', 'Vocabulary lists']
-                        },
-                        {
                             name: 'St. Lawrence University',
                             url: 'https://www.stlawu.edu/offices/world-languages-cultures-and-media/swahili-resources',
                             description: 'Curated resource directory from academic institution',
@@ -71,14 +47,6 @@
                             free: true,
                             level: 'All levels',
                             features: ['Spaced repetition', 'Native videos', 'Community courses']
-                        },
-                        {
-                            name: '50Languages Swahili',
-                            url: 'https://www.50languages.com/en/learn/phrasebook/sw/',
-                            description: 'Basic vocabulary and phrases course',
-                            free: true,
-                            level: 'Beginner',
-                            features: ['Native audio', 'Offline mode']
                         },
                         {
                             name: 'Busuu Swahili',
@@ -110,44 +78,12 @@
                             features: ['Professional terminology', 'Language standards', 'Technical vocabularies']
                         },
                         {
-                            name: 'University of Dar es Salaam IKS',
-                            url: 'https://www.udsm.ac.tz/',
-                            description: 'Dictionaries and linguistics research',
-                            free: true,
-                            level: 'Advanced',
-                            features: ['Research papers', 'Academic materials', 'Linguistics studies']
-                        },
-                        {
-                            name: 'Makerere University',
-                            url: 'https://mak.ac.ug/',
-                            description: 'Course materials and translation resources',
-                            free: true,
-                            level: 'University level',
-                            features: ['Academic courses', 'Translation tools']
-                        },
-                        {
                             name: 'East African Kiswahili Commission',
                             url: 'https://kiswahili.eac.int/',
                             description: 'Regional standardization and policy documents',
                             free: true,
                             level: 'Professional',
                             features: ['Language policies', 'Regional standards', 'Educational resources']
-                        },
-                        {
-                            name: 'University of Nairobi',
-                            url: 'https://kiswahili.uonbi.ac.ke/',
-                            description: '90,000+ research documents and theses',
-                            free: true,
-                            level: 'Academic',
-                            features: ['Research database', 'Academic theses', 'Open access']
-                        },
-                        {
-                            name: 'FSI Swahili Basic Course',
-                            url: 'https://www.fsi-language-courses.org/languages/Swahili/',
-                            description: 'US Foreign Service Institute comprehensive course',
-                            free: true,
-                            level: 'Beginner to Intermediate',
-                            features: ['Public domain', 'Complete curriculum', 'Audio files']
                         },
                         {
                             name: 'Peace Corps Kiswahili Manual',
@@ -257,14 +193,6 @@
                     category: 'Textbooks & Grammar Guides',
                     items: [
                         {
-                            name: 'FSI Swahili Basic Course',
-                            url: 'https://www.fsi-language-courses.org/languages/Swahili/Basic/FSI%20-%20Swahili%20Basic%20Course%20-%20Student%20Text.pdf',
-                            description: 'US Foreign Service Institute comprehensive course',
-                            free: true,
-                            level: 'Beginner to Intermediate',
-                            format: 'PDF'
-                        },
-                        {
                             name: 'Peace Corps Kiswahili Manual - Tanzania',
                             url: 'https://www.livelingua.com/course/peace-corps/Kiswahili_Language_Manual_-_Tanzania',
                             description: '76-lesson practical communication course',
@@ -286,14 +214,6 @@
                             description: 'Academic reference guide from ERIC database',
                             free: true,
                             level: 'Intermediate to Advanced',
-                            format: 'PDF'
-                        },
-                        {
-                            name: 'SwahiliPod101 Workbooks',
-                            url: 'https://www.swahilipod101.com/swahili-workbooks/',
-                            description: '16+ workbooks covering alphabet to writing practice',
-                            free: true,
-                            level: 'Beginner',
                             format: 'PDF'
                         },
                         {
@@ -366,14 +286,6 @@
                             features: ['Audio', 'Video', 'Text', 'Images']
                         },
                         {
-                            name: 'Maktaba.org',
-                            url: 'https://www.maktaba.org/browse/books/kiswahili',
-                            description: 'Educational platform with diverse content',
-                            free: true,
-                            level: 'Various',
-                            features: ['Poetry', 'Children\'s books', 'Textbooks']
-                        },
-                        {
                             name: 'African Books Collective',
                             url: 'https://ebooks.africanbookscollective.com/',
                             description: 'Scholarly and literary titles',
@@ -395,32 +307,11 @@
                     category: 'Dictionaries & Reference',
                     items: [
                         {
-                            name: 'AfricaLanguages Dictionary',
-                            url: 'https://africanlanguages.com/swahili/',
-                            description: '16,000+ entries, 36,000+ translations',
-                            free: true,
-                            features: ['Morphological search', 'Noun classes']
-                        },
-                        {
                             name: 'MobiTUKI Dictionary',
                             url: 'https://swahili-dictionary.com/swahili-english',
                             description: '14,000+ entries with idioms',
                             free: true,
                             features: ['Etymology', 'Verbal extensions']
-                        },
-                        {
-                            name: 'Verbix Conjugator',
-                            url: 'https://www.verbix.com/languages/swahili',
-                            description: 'Complete verb conjugation tool',
-                            free: true,
-                            features: ['All tenses covered']
-                        },
-                        {
-                            name: 'Swahili Cheat Sheet',
-                            url: 'https://www.swahilicheatsheet.com/',
-                            description: 'Grammar reference guide',
-                            free: true,
-                            features: ['Conjugations', 'Noun classes']
                         },
                         {
                             name: 'Sketch Engine Corpus',
@@ -429,13 +320,6 @@
                             free: false,
                             features: ['Frequency lists', 'Collocations']
                         },
-                        {
-                            name: 'Kamusi Project',
-                            url: 'https://kamusi.org/',
-                            description: 'Living dictionary project',
-                            free: true,
-                            features: ['Crowdsourced', 'Multiple dialects']
-                        }
                     ]
                 }
             ],
@@ -469,30 +353,6 @@
                             features: ['News', 'Documentaries']
                         },
                         {
-                            name: 'Language Transfer Podcast',
-                            url: 'Available on major podcast platforms',
-                            description: 'Complete audio course using Michel Thomas method',
-                            free: true,
-                            level: 'Beginner',
-                            features: ['Logic-based', 'Systematic approach']
-                        },
-                        {
-                            name: 'Five College World Languages',
-                            url: 'YouTube platform',
-                            description: '50-episode grammar series',
-                            free: true,
-                            level: 'Beginner-Intermediate',
-                            features: ['Academic instruction']
-                        },
-                        {
-                            name: 'TED Talks Swahili',
-                            url: 'https://www.ted.com/',
-                            description: '220,000+ translations including Swahili',
-                            free: true,
-                            level: 'Intermediate-Advanced',
-                            features: ['Interactive transcripts', 'Subtitles']
-                        },
-                        {
                             name: 'Deutsche Welle Swahili',
                             url: 'https://www.dw.com/sw/',
                             description: 'German international broadcaster in Swahili',
@@ -516,50 +376,11 @@
                             level: 'Intermediate',
                             features: ['News', 'Cultural exchange']
                         },
-                        {
-                            name: 'Narakeet TTS',
-                            url: 'https://www.narakeet.com/languages/swahili-text-to-speech/',
-                            description: 'Text-to-speech with 49 voices',
-                            free: true,
-                            features: ['Multiple formats', 'Free tier']
-                        }
                     ]
                 },
                 {
                     category: 'Podcasts',
                     items: [
-                        {
-                            name: 'SwahiliPod101',
-                            url: 'https://www.swahilipod101.com/swahili-podcast/',
-                            description: 'Comprehensive podcast series',
-                            free: true,
-                            level: 'All levels',
-                            features: ['100+ episodes', 'Transcripts']
-                        },
-                        {
-                            name: 'Language Transfer Complete Swahili',
-                            url: 'Spotify, Apple Podcasts',
-                            description: 'Complete thinking method course',
-                            free: true,
-                            level: 'Beginner',
-                            features: ['Systematic', 'No memorization']
-                        },
-                        {
-                            name: 'Swahili Talk',
-                            url: 'Various podcast platforms',
-                            description: 'Conversational Swahili practice',
-                            free: true,
-                            level: 'Intermediate',
-                            features: ['Native speakers', 'Cultural topics']
-                        },
-                        {
-                            name: 'Learn Swahili with Teacher Gladys',
-                            url: 'YouTube, Podcast platforms',
-                            description: 'Structured lessons from native teacher',
-                            free: true,
-                            level: 'Beginner',
-                            features: ['Clear explanations', 'Practice exercises']
-                        }
                     ]
                 }
             ],
@@ -568,20 +389,6 @@
                 {
                     category: 'Language Exchange Platforms',
                     items: [
-                        {
-                            name: 'HelloTalk',
-                            url: 'https://www.hellotalk.com/',
-                            description: 'Social language exchange with 40+ million users',
-                            free: true,
-                            features: ['150+ languages', 'Voice rooms', 'Corrections']
-                        },
-                        {
-                            name: 'Tandem',
-                            url: 'https://tandem.net/',
-                            description: 'Swipe-based matching for language partners',
-                            free: true,
-                            features: ['Video calls', 'Corrections', 'Millions of users']
-                        },
                         {
                             name: 'Reddit r/Swahili',
                             url: 'https://www.reddit.com/r/Swahili/',
@@ -603,81 +410,11 @@
                             free: true,
                             features: ['Long-term partnerships', 'Established platform']
                         },
-                        {
-                            name: 'Discord Swahili Servers',
-                            url: 'https://discord.gg/jxcVmHJ',
-                            description: 'Real-time chat communities',
-                            free: true,
-                            features: ['Voice channels', 'Text channels', 'Various communities']
-                        },
-                        {
-                            name: 'Telegram Groups',
-                            url: 'https://www.telegram-groups.com/swahili-telegram-group/',
-                            description: '99+ active Swahili messaging groups',
-                            free: true,
-                            features: ['Instant messaging', 'Native speakers', 'Learning groups']
-                        },
-                        {
-                            name: 'ConversationExchange',
-                            url: 'https://www.conversationexchange.com/',
-                            description: 'Find conversation partners',
-                            free: true,
-                            features: ['In-person meetings', 'Online practice', 'Email exchange']
-                        },
-                        {
-                            name: 'Speaky',
-                            url: 'https://www.speaky.com/',
-                            description: 'Instant language exchange',
-                            free: true,
-                            features: ['110+ languages', 'Instant matching', 'Text and voice']
-                        },
-                        {
-                            name: 'Bilingua',
-                            url: 'https://bilingua.io/',
-                            description: 'AI-powered matching',
-                            free: true,
-                            features: ['Smart matching', 'Personality-based pairing']
-                        }
                     ]
                 },
                 {
                     category: 'Writing & Grammar Practice',
                     items: [
-                        {
-                            name: 'Lang-8',
-                            url: 'https://lang-8.com/',
-                            description: 'Native speaker corrections for writing',
-                            free: true,
-                            features: ['Peer corrections', 'Journal writing']
-                        },
-                        {
-                            name: 'HiNative',
-                            url: 'https://hinative.com/',
-                            description: 'Q&A with native speakers',
-                            free: true,
-                            features: ['Quick responses', 'Audio recordings', 'Grammar help']
-                        },
-                        {
-                            name: 'Swahili Grammar Exercises',
-                            url: 'https://www.swahiligrammar.com/',
-                            description: 'Interactive grammar practice',
-                            free: true,
-                            features: ['Exercise sets', 'Answer keys', 'Progressive difficulty']
-                        },
-                        {
-                            name: 'Write in Swahili',
-                            url: 'https://www.google.com/inputtools/',
-                            description: 'Google Input Tools for Swahili',
-                            free: true,
-                            features: ['Transliteration', 'Virtual keyboard']
-                        },
-                        {
-                            name: 'Journaly',
-                            url: 'https://journaly.com/',
-                            description: 'Write journals and get feedback',
-                            free: true,
-                            features: ['Native corrections', 'Writing prompts']
-                        }
                     ]
                 },
                 {
@@ -697,27 +434,6 @@
                             free: false,
                             features: ['Various price points', 'Trial lessons']
                         },
-                        {
-                            name: 'Verbling',
-                            url: 'https://www.verbling.com/find-teachers/swahili',
-                            description: 'Live video lessons',
-                            free: false,
-                            features: ['Qualified teachers', 'Flexible scheduling']
-                        },
-                        {
-                            name: 'Wyzant',
-                            url: 'https://www.wyzant.com/',
-                            description: 'Local and online tutoring',
-                            free: false,
-                            features: ['Background-checked tutors', 'In-person options']
-                        },
-                        {
-                            name: 'TakeLessons',
-                            url: 'https://takelessons.com/',
-                            description: 'Swahili lessons with certified instructors',
-                            free: false,
-                            features: ['Progress tracking', 'Various formats']
-                        }
                     ]
                 }
             ]

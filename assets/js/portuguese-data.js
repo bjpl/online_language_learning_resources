@@ -18,35 +18,11 @@ const portugueseResources = {
                 category: "Online Courses and Platforms",
                 items: [
                     {
-                        name: "Live Lingua",
-                        url: "https://www.livelingua.com/portuguese/courses",
-                        description: "15 free courses with 38 ebooks and 686 audio files",
-                        level: "All levels",
-                        features: ["No sign-up required", "Downloadable PDFs and MP3s"],
-                        free: true
-                    },
-                    {
                         name: "MIT OpenCourseWare",
                         url: "https://ocw.mit.edu/courses/21g-801-portuguese-i-fall-2011/",
                         description: "Complete university-level Portuguese course",
                         level: "Beginner",
                         features: ["Full semester materials", "Assignments", "Reading lists"],
-                        free: true
-                    },
-                    {
-                        name: "Plataforma de Português Online",
-                        url: "https://pptonline.acm.gov.pt/",
-                        description: "Official Portuguese government learning platform",
-                        level: "A1-B2 CEFR",
-                        features: ["Government-sponsored", "Structured modules"],
-                        free: true
-                    },
-                    {
-                        name: "50LANGUAGES",
-                        url: "https://www.50languages.com/portuguese-br-for-free",
-                        description: "100 free lessons with practical dialogues",
-                        level: "Beginner-Intermediate",
-                        features: ["Mobile app available", "MP3 audio included"],
                         free: true
                     },
                     {
@@ -94,30 +70,6 @@ const portugueseResources = {
                         features: ["Cultural immersion", "Worldwide centers"],
                         free: true
                     },
-                    {
-                        name: "Brazilian Government Resources",
-                        url: "https://www.gov.br/mre/pt-br",
-                        description: "Ministry resources for Portuguese learners",
-                        level: "Various",
-                        features: ["Official materials", "Cultural content"],
-                        free: true
-                    },
-                    {
-                        name: "University of Texas Portuguese",
-                        url: "https://www.laits.utexas.edu/orkelm/",
-                        description: "Orlando Kelm's Portuguese materials",
-                        level: "Intermediate-Advanced",
-                        features: ["Academic quality", "Pronunciation guides"],
-                        free: true
-                    },
-                    {
-                        name: "Universidade de Coimbra",
-                        url: "https://www.uc.pt/fluc/ensino/cpe",
-                        description: "Portuguese courses from historic university",
-                        level: "All levels",
-                        features: ["PT-PT focus", "Academic certification"],
-                        free: false
-                    }
                 ]
             },
             {
@@ -172,27 +124,11 @@ const portugueseResources = {
                         free: true
                     },
                     {
-                        name: "Portuguese Lab Manual",
-                        url: "https://open.umn.edu/opentextbooks/textbooks/499",
-                        description: "University of Minnesota open textbook",
-                        level: "Beginner",
-                        features: ["Complete curriculum", "Free download"],
-                        free: true
-                    },
-                    {
                         name: "Português para Estrangeiros",
                         url: "https://www.portugues.com.br/",
                         description: "Portuguese for foreigners textbook",
                         level: "Beginner-Intermediate",
                         features: ["PT-BR focus", "Exercises included"],
-                        free: true
-                    },
-                    {
-                        name: "DLI Portuguese Language Course",
-                        url: "https://www.livelingua.com/dli/",
-                        description: "Defense Language Institute materials",
-                        level: "All levels",
-                        features: ["Military-grade", "Comprehensive"],
                         free: true
                     },
                     {
@@ -214,14 +150,6 @@ const portugueseResources = {
                         description: "Classic Brazilian literature",
                         level: "Advanced",
                         features: ["Public domain", "Cultural classics"],
-                        free: true
-                    },
-                    {
-                        name: "Fernando Pessoa Archive",
-                        url: "http://arquivopessoa.net/",
-                        description: "Portuguese poetry and prose",
-                        level: "Advanced",
-                        features: ["PT-PT literature", "Complete works"],
                         free: true
                     },
                     {
@@ -249,38 +177,6 @@ const portugueseResources = {
                 category: "Podcasts",
                 items: [
                     {
-                        name: "PortuguesePod101",
-                        url: "https://www.portuguesepod101.com/",
-                        description: "Comprehensive podcast series with 2,000+ lessons",
-                        level: "All levels",
-                        features: ["Structured curriculum", "Free registration"],
-                        free: true
-                    },
-                    {
-                        name: "Practice Portuguese Podcast",
-                        url: "https://www.practiceportuguese.com/podcast/",
-                        description: "European Portuguese podcast with transcripts",
-                        level: "Beginner-Intermediate",
-                        features: ["PT-PT focus", "Slow Portuguese option"],
-                        free: true
-                    },
-                    {
-                        name: "Portuguese Lab Podcast",
-                        url: "https://www.portugueselab.com/podcast",
-                        description: "Story-based learning podcast",
-                        level: "Intermediate",
-                        features: ["Engaging stories", "Natural speech"],
-                        free: true
-                    },
-                    {
-                        name: "Café Brasil Podcast",
-                        url: "https://cafebrasil.com.br/",
-                        description: "Brazilian culture and language",
-                        level: "Intermediate-Advanced",
-                        features: ["Cultural topics", "PT-BR"],
-                        free: true
-                    },
-                    {
                         name: "Todo Mundo Pod",
                         url: "https://www.todomundopod.com/",
                         description: "Portuguese conversations for learners",
@@ -301,14 +197,6 @@ const portugueseResources = {
             {
                 category: "YouTube Channels",
                 items: [
-                    {
-                        name: "Learn European Portuguese Online",
-                        url: "https://www.youtube.com/@LearnEuropeanPortugueseOnline",
-                        description: "PT-PT focused channel",
-                        level: "All levels",
-                        features: ["Regular uploads", "Clear explanations"],
-                        free: true
-                    },
                     {
                         name: "Portuguese With Leo",
                         url: "https://www.youtube.com/@PortugueseWithLeo",
@@ -438,22 +326,6 @@ const portugueseResources = {
                 category: "Language Exchange",
                 items: [
                     {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        description: "Connect with native Portuguese speakers",
-                        level: "All levels",
-                        features: ["Text/voice/video", "In-app tools", "Largest community"],
-                        free: true
-                    },
-                    {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        description: "Social language exchange",
-                        level: "All levels",
-                        features: ["Correction tools", "Translation features", "Moments feed"],
-                        free: true
-                    },
-                    {
                         name: "MyLanguageExchange",
                         url: "https://www.mylanguageexchange.com/",
                         description: "Voice/video chat with native speakers",
@@ -461,22 +333,6 @@ const portugueseResources = {
                         features: ["Lesson plans", "AI tools", "Safe environment"],
                         free: true
                     },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        description: "Face-to-face and online practice",
-                        level: "All levels",
-                        features: ["Local meetups", "Pen pals", "Video chat"],
-                        free: true
-                    },
-                    {
-                        name: "Speaky",
-                        url: "https://www.speaky.com/",
-                        description: "Global language exchange",
-                        level: "All levels",
-                        features: ["180+ countries", "Instant matching"],
-                        free: true
-                    }
                 ]
             },
             {
@@ -484,7 +340,7 @@ const portugueseResources = {
                 items: [
                     {
                         name: "italki",
-                        url: "https://www.italki.com/",
+                        url: "https://www.italki.com/en/teachers/portuguese",
                         description: "Professional tutors and community teachers",
                         level: "All levels",
                         features: ["1-on-1 lessons", "Flexible scheduling", "Both variants"],
@@ -492,65 +348,17 @@ const portugueseResources = {
                     },
                     {
                         name: "Preply",
-                        url: "https://preply.com/",
+                        url: "https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE",
                         description: "Online Portuguese tutors",
                         level: "All levels",
                         features: ["Personalized lessons", "Trial lessons"],
                         free: false
                     },
-                    {
-                        name: "Verbling",
-                        url: "https://www.verbling.com/",
-                        description: "Video lessons with native speakers",
-                        level: "All levels",
-                        features: ["Professional teachers", "Structured curriculum"],
-                        free: false
-                    },
-                    {
-                        name: "Cambly",
-                        url: "https://www.cambly.com/",
-                        description: "Instant tutoring",
-                        level: "All levels",
-                        features: ["No scheduling", "Native speakers"],
-                        free: false
-                    }
                 ]
             },
             {
                 category: "Writing Practice",
                 items: [
-                    {
-                        name: "Lang-8",
-                        url: "https://lang-8.com/",
-                        description: "Native speakers correct your writing",
-                        level: "All levels",
-                        features: ["Community corrections", "Journal format"],
-                        free: true
-                    },
-                    {
-                        name: "HiNative",
-                        url: "https://hinative.com/",
-                        description: "Q&A with native speakers",
-                        level: "All levels",
-                        features: ["Quick answers", "Audio recordings"],
-                        free: true
-                    },
-                    {
-                        name: "Journaly",
-                        url: "https://journaly.com/",
-                        description: "Writing feedback community",
-                        level: "All levels",
-                        features: ["Detailed corrections", "Progress tracking"],
-                        free: true
-                    },
-                    {
-                        name: "Write & Improve",
-                        url: "https://writeandimprove.com/",
-                        description: "AI-powered writing feedback",
-                        level: "All levels",
-                        features: ["Instant feedback", "Cambridge backing"],
-                        free: true
-                    }
                 ]
             },
             {
@@ -565,14 +373,6 @@ const portugueseResources = {
                         free: true
                     },
                     {
-                        name: "WordReference Forums",
-                        url: "https://forum.wordreference.com/forums/portuguese.21/",
-                        description: "Language questions and discussions",
-                        level: "All levels",
-                        features: ["Expert answers", "Grammar discussions"],
-                        free: true
-                    },
-                    {
                         name: "Portuguese Language Stack Exchange",
                         url: "https://portuguese.stackexchange.com/",
                         description: "Q&A for Portuguese learners",
@@ -580,14 +380,6 @@ const portugueseResources = {
                         features: ["Detailed answers", "Voting system"],
                         free: true
                     },
-                    {
-                        name: "Discord Portuguese Servers",
-                        url: "https://discord.com/",
-                        description: "Real-time chat communities",
-                        level: "All levels",
-                        features: ["Voice channels", "Text chat", "Events"],
-                        free: true
-                    }
                 ]
             }
         ]

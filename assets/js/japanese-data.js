@@ -25,14 +25,6 @@
                             features: ['Marugoto coursebook integration', 'Cultural activities', 'Global community features']
                         },
                         {
-                            name: 'Marugoto Plus',
-                            url: 'https://marugotoplus.jp/en/',
-                            description: 'Supplementary site for Marugoto coursebooks with grammar, vocabulary, kanji exercises',
-                            free: true,
-                            level: 'A1-A2',
-                            features: ['Challenge Drama videos', 'Cultural skits', 'Interactive practice']
-                        },
-                        {
                             name: 'Irodori: Japanese for Life in Japan',
                             url: 'https://www.irodori.jpf.go.jp/',
                             description: 'Free textbooks for daily life communication in Japan',
@@ -65,14 +57,6 @@
                             features: ['Free certificates', '5-hour certificate courses', '15-20 hour diplomas']
                         },
                         {
-                            name: 'FreeJapaneseLessons.com',
-                            url: 'https://freejapaneselessons.com/',
-                            description: '10-lesson course focusing on grammar basics',
-                            free: true,
-                            level: 'Beginner',
-                            features: ['Verb conjugation focus', 'Sentence structure emphasis']
-                        },
-                        {
                             name: 'Loecsen Japanese',
                             url: 'https://www.loecsen.com/en/learn-japanese',
                             description: 'Practical phrase-based course with audio',
@@ -88,22 +72,6 @@
                             level: 'All levels',
                             features: ['Basic free lessons', 'Community feedback', 'Speech recognition']
                         },
-                        {
-                            name: 'Erin\'s Challenge',
-                            url: 'Japan Foundation',
-                            description: 'Interactive video lessons with cultural content',
-                            free: true,
-                            level: 'Beginner',
-                            features: ['Skits', 'Cultural content', 'Multiple languages']
-                        },
-                        {
-                            name: 'Hirogaru',
-                            url: 'Japan Foundation site',
-                            description: 'Cultural topics with videos and articles',
-                            free: true,
-                            level: 'Intermediate',
-                            features: ['12 topics', 'Community comments', 'Visual learning']
-                        }
                     ]
                 },
                 {
@@ -124,14 +92,6 @@
                             free: true,
                             level: 'All levels',
                             features: ['Classical Japanese', 'Okinawan', 'Extensive examples']
-                        },
-                        {
-                            name: 'Wasabi Japanese',
-                            url: 'https://www.wasabi-jpn.com/',
-                            description: 'Professional teacher-created lessons',
-                            free: true,
-                            level: 'All levels',
-                            features: ['Balanced detail', 'JLPT-aligned content', 'Clear structure']
                         },
                         {
                             name: 'Maggie Sensei',
@@ -170,14 +130,6 @@
                             level: 'N5-N4',
                             features: ['Interactive PDFs', 'Answer keys', 'Topic-wise questions']
                         },
-                        {
-                            name: 'JapanesePod101 JLPT',
-                            url: 'https://www.japanesepod101.com/',
-                            description: 'JLPT preparation podcasts',
-                            free: true,
-                            level: 'N5-N1',
-                            features: ['Audio lessons', 'PDF supplements', 'Free basic access']
-                        }
                     ]
                 }
             ],
@@ -278,22 +230,6 @@
                             features: ['Free PDF download', 'Android/iOS apps', 'Creative Commons license']
                         },
                         {
-                            name: 'Beginning Japanese for Professionals',
-                            url: 'https://pdxscholar.library.pdx.edu/pdxopen/9',
-                            description: 'Business-focused textbook by Emiko Konomi',
-                            free: true,
-                            level: 'Beginner',
-                            features: ['Free PDF/Word/webbook', 'Workplace scenarios', 'CC BY license']
-                        },
-                        {
-                            name: 'Genki Textbooks',
-                            url: 'https://archive.org/details/Genki',
-                            description: 'Popular textbook series on Internet Archive',
-                            free: true,
-                            level: 'Beginner-Intermediate',
-                            features: ['Complete PDFs with bookmarks', 'Widely-used curriculum']
-                        },
-                        {
                             name: 'IRODORI Textbooks',
                             url: 'https://www.irodori.jpf.go.jp/en/',
                             description: 'Japan Foundation\'s practical Japanese series',
@@ -383,32 +319,11 @@
                             features: ['Kanji search by radicals', 'Example sentences', 'Free API']
                         },
                         {
-                            name: 'WWWJDIC',
-                            url: 'http://www.edrdg.org/cgi-bin/wwwjdic/wwwjdic',
-                            description: 'Jim Breen\'s comprehensive dictionary',
-                            free: true,
-                            features: ['Extensive word lists', 'Multiple search options', 'Academic standard']
-                        },
-                        {
                             name: 'Takoboto',
                             url: 'https://takoboto.jp/',
                             description: 'Online and app dictionary',
                             free: true,
                             features: ['Android/Web versions', 'Offline capability', 'Clean interface']
-                        },
-                        {
-                            name: 'Tangorin',
-                            url: 'https://tangorin.com/',
-                            description: 'Dictionary with example sentences',
-                            free: true,
-                            features: ['WWWJDIC data', 'Clean interface', 'Word lists feature']
-                        },
-                        {
-                            name: 'JapanDict',
-                            url: 'https://www.japandict.com/',
-                            description: 'Dictionary with stroke order animations',
-                            free: true,
-                            features: ['Verb conjugations', 'Kanji graphs', 'Visual learning']
                         },
                         {
                             name: 'Weblio',
@@ -417,20 +332,6 @@
                             free: true,
                             features: ['Japanese interface', 'Multiple dictionary sources', 'Professional grade']
                         },
-                        {
-                            name: 'Rikaichamp',
-                            url: 'Browser extension',
-                            description: 'Popup dictionary for browsers',
-                            free: true,
-                            features: ['Hover translations', 'Multiple language support', 'Instant access']
-                        },
-                        {
-                            name: 'Yomichan',
-                            url: 'Browser extension',
-                            description: 'Advanced popup dictionary',
-                            free: true,
-                            features: ['Anki integration', 'Custom dictionaries', 'Power user tool']
-                        }
                     ]
                 }
             ],
@@ -447,51 +348,11 @@
                             level: 'Beginner',
                             features: ['4-minute episodes', 'Natural speed', 'Patreon transcripts']
                         },
-                        {
-                            name: 'JapanesePod101',
-                            url: 'https://www.japanesepod101.com/',
-                            description: 'Comprehensive podcast-based learning',
-                            free: true,
-                            level: 'All levels',
-                            features: ['Free basic access', 'Structured curriculum', 'PDF materials']
-                        },
-                        {
-                            name: 'Learn Japanese Pod',
-                            url: 'Podcast platforms',
-                            description: 'Bilingual hosts teaching practical Japanese',
-                            free: true,
-                            level: 'Beginner-Intermediate',
-                            features: ['English explanations', 'Cultural topics', 'Clear teaching']
-                        },
-                        {
-                            name: 'Japanese with Teppei and Noriko',
-                            url: 'Podcast platforms',
-                            description: 'Conversational podcast between teachers',
-                            free: true,
-                            level: 'Intermediate',
-                            features: ['400+ episodes', 'Authentic conversations', 'Natural Japanese']
-                        },
-                        {
-                            name: 'Nihongo con Teppei Z',
-                            url: 'Podcast platforms',
-                            description: 'Intermediate version of popular podcast',
-                            free: true,
-                            level: 'Intermediate',
-                            features: ['Longer episodes', 'More complex topics', 'Natural speed']
-                        }
                     ]
                 },
                 {
                     category: 'Video Resources',
                     items: [
-                        {
-                            name: 'Japanese From Zero',
-                            url: 'YouTube',
-                            description: 'Comprehensive video course',
-                            free: true,
-                            level: 'Beginner',
-                            features: ['Free YouTube course', 'Community support', 'Structured lessons']
-                        },
                         {
                             name: 'Anime & Manga Learning',
                             url: 'https://anime-manga.jf.go.jp/en/',
@@ -500,30 +361,6 @@
                             level: 'All levels',
                             features: ['Character-specific language', 'Genre-based learning', 'Cultural context']
                         },
-                        {
-                            name: 'Comprehensible Japanese',
-                            url: 'YouTube',
-                            description: 'TPRS method videos',
-                            free: true,
-                            level: 'Beginner-Intermediate',
-                            features: ['Visual storytelling', 'No English', 'Gradual difficulty']
-                        },
-                        {
-                            name: 'Miku Real Japanese',
-                            url: 'YouTube',
-                            description: 'Real-life Japanese situations',
-                            free: true,
-                            level: 'Intermediate',
-                            features: ['Street interviews', 'Natural speech', 'Cultural insights']
-                        },
-                        {
-                            name: 'Dogen Japanese Phonetics',
-                            url: 'YouTube/Patreon',
-                            description: 'Pitch accent and pronunciation',
-                            free: false,
-                            level: 'All levels',
-                            features: ['Some free content', 'Professional phonetics', 'Native-like pronunciation']
-                        }
                     ]
                 }
             ],
@@ -533,39 +370,11 @@
                     category: 'Language Exchange & Community',
                     items: [
                         {
-                            name: 'HelloTalk',
-                            url: 'https://www.hellotalk.com/',
-                            description: 'Language exchange app with 18+ million users',
-                            free: true,
-                            features: ['Voice messages', 'Moments feature', 'Corrections']
-                        },
-                        {
-                            name: 'Tandem',
-                            url: 'https://tandem.net/',
-                            description: 'Video chat language exchange',
-                            free: true,
-                            features: ['4000+ Japanese speakers', 'In-app tools', 'Topic cards']
-                        },
-                        {
-                            name: 'ConversationExchange',
-                            url: 'https://www.conversationexchange.com/',
-                            description: 'Traditional exchange platform',
-                            free: true,
-                            features: ['Face-to-face options', 'Pen-pals', 'Long-term partners']
-                        },
-                        {
                             name: 'MyLanguageExchange',
                             url: 'https://www.mylanguageexchange.com/',
                             description: 'Email-based language exchanges',
                             free: true,
                             features: ['Detailed profiles', 'Long-term partnerships', 'Structured approach']
-                        },
-                        {
-                            name: 'r/LearnJapanese',
-                            url: 'Reddit',
-                            description: 'Reddit learning community',
-                            free: true,
-                            features: ['800k+ members', 'Daily questions', 'Resource sharing']
                         },
                         {
                             name: 'Minato Communities',
@@ -574,53 +383,11 @@
                             free: true,
                             features: ['Topic-focused groups', 'Global interaction', 'Official support']
                         },
-                        {
-                            name: 'WaniKani Community',
-                            url: 'https://community.wanikani.com/',
-                            description: 'Kanji learning forum',
-                            free: true,
-                            features: ['Scripts', 'Resources', 'Study logs']
-                        },
-                        {
-                            name: 'Discord Japanese Servers',
-                            url: 'Discord',
-                            description: 'Real-time chat communities',
-                            free: true,
-                            features: ['Voice chat', 'Study groups', 'Native speakers']
-                        }
                     ]
                 },
                 {
                     category: 'Writing & Kanji Practice',
                     items: [
-                        {
-                            name: 'Lang-8',
-                            url: 'https://lang-8.com/',
-                            description: 'Native speaker corrections for writing',
-                            free: true,
-                            features: ['Peer corrections', 'Journal format', 'Community feedback']
-                        },
-                        {
-                            name: 'HiNative',
-                            url: 'https://hinative.com/',
-                            description: 'Q&A with native speakers',
-                            free: true,
-                            features: ['Quick responses', 'Audio recordings', 'Grammar questions']
-                        },
-                        {
-                            name: 'Kanji Damage',
-                            url: 'http://www.kanjidamage.com/',
-                            description: 'Alternative kanji learning with humor',
-                            free: true,
-                            features: ['Mnemonics', 'Yo-mama jokes', '1700+ kanji']
-                        },
-                        {
-                            name: 'JLPT Kanji Lists',
-                            url: 'Various sites',
-                            description: 'JLPT-organized kanji study materials',
-                            free: true,
-                            features: ['Level-appropriate lists', 'Stroke order', 'Practice sheets']
-                        },
                         {
                             name: 'Kanji Koohii',
                             url: 'https://kanji.koohii.com/',
@@ -642,39 +409,18 @@
                     items: [
                         {
                             name: 'italki',
-                            url: 'https://www.italki.com/',
+                            url: 'https://www.italki.com/en/teachers/portuguese',
                             description: 'Professional teachers and community tutors',
                             free: false,
                             features: ['Trial lessons', 'Various price points', 'Certified teachers']
                         },
                         {
                             name: 'Preply',
-                            url: 'https://preply.com/',
+                            url: 'https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE',
                             description: 'One-on-one Japanese tutoring',
                             free: false,
                             features: ['Flexible scheduling', 'Trial lessons', 'All levels']
                         },
-                        {
-                            name: 'Verbling',
-                            url: 'https://www.verbling.com/',
-                            description: 'Live video lessons with native speakers',
-                            free: false,
-                            features: ['Professional teachers', 'Structured courses', 'Flexible times']
-                        },
-                        {
-                            name: 'Cafetalk',
-                            url: 'https://cafetalk.com/',
-                            description: 'Japanese platform for online lessons',
-                            free: false,
-                            features: ['Many Japanese teachers', 'Various subjects', 'Points system']
-                        },
-                        {
-                            name: 'Amazing Talker',
-                            url: 'https://amazingtalker.com/',
-                            description: 'Asian language focus platform',
-                            free: false,
-                            features: ['No contracts', 'Trial lessons', 'Transparent pricing']
-                        }
                     ]
                 }
             ]

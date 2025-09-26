@@ -46,7 +46,7 @@
                         },
                         {
                             name: "FSI Vietnamese Basic Course",
-                            url: "https://www.livelingua.com/fsi/",
+                            url: "https://www.livelingua.com/project/fsi/vietnamese",
                             description: "Government-developed systematic course",
                             level: "Beginner to Intermediate",
                             free: true,
@@ -82,36 +82,12 @@
                             features: ["Completely free", "Gamified", "Northern dialect", "Mobile app"]
                         },
                         {
-                            name: "LingoHut",
-                            url: "https://www.lingohut.com/en/l65/learn-vietnamese",
-                            description: "125 five-minute lessons",
-                            level: "Beginner to Conversational",
-                            free: true,
-                            features: ["No account needed", "Voice recordings", "Quick lessons", "Browser-based"]
-                        },
-                        {
-                            name: "Live Lingua",
-                            url: "https://www.livelingua.com/courses/Vietnamese",
-                            description: "6 comprehensive ebook/audio courses",
-                            level: "Beginner to Intermediate",
-                            free: true,
-                            features: ["No signup required", "FSI materials", "Audio included", "PDF downloads"]
-                        },
-                        {
                             name: "HowToVietnamese",
                             url: "https://howtovietnamese.com/",
                             description: "Southern dialect focused lessons",
                             level: "Beginner to Intermediate",
                             free: true,
                             features: ["Practical conversations", "Quality audio", "Southern accent", "Real-life focus"]
-                        },
-                        {
-                            name: "Learn Vietnamese Easy",
-                            url: "https://learnvietnameseeasy.com/vietnamese-pronunciation/",
-                            description: "14-lesson pronunciation course",
-                            level: "Beginner",
-                            free: true,
-                            features: ["Systematic tone training", "Alphabet training", "Clear explanations", "Audio support"]
                         },
                         {
                             name: "Loecsen",
@@ -126,38 +102,6 @@
                 {
                     category: "University Programs",
                     items: [
-                        {
-                            name: "ULIS-VNU Hanoi",
-                            url: "https://en.ulis.vnu.edu.vn/",
-                            description: "Intensive programs and study tours",
-                            level: "All levels",
-                            free: true,
-                            features: ["Official certification", "Cultural immersion", "Study tours", "Intensive format"]
-                        },
-                        {
-                            name: "Columbia University Vietnamese",
-                            url: "https://ealac.columbia.edu/program/language-programs/vietnamese/",
-                            description: "Four-year program materials",
-                            level: "University level",
-                            free: true,
-                            features: ["Diplomatic training standards", "Academic rigor", "Progressive curriculum", "Professional focus"]
-                        },
-                        {
-                            name: "ASU Vietnamese Program",
-                            url: "https://silc.asu.edu/vietnamese",
-                            description: "Elementary to advanced courses",
-                            level: "University level",
-                            free: true,
-                            features: ["Heritage speaker track", "Study abroad", "Online options", "Comprehensive program"]
-                        },
-                        {
-                            name: "NRCAL (CSU Fullerton)",
-                            url: "https://www.fullerton.edu/nrcal/virtual-language-program/",
-                            description: "Online classes for all ages",
-                            level: "All levels",
-                            free: true,
-                            features: ["Common Core integration", "Saturday classes", "All ages", "Virtual format"]
-                        }
                     ]
                 }
             ],
@@ -249,14 +193,6 @@
                             free: true,
                             features: ["Interactive features", "Subject categories", "School materials", "Grade-aligned"]
                         },
-                        {
-                            name: "UNICEF Global Digital Library",
-                            url: "Through UNICEF",
-                            description: "3,000+ books in Vietnamese",
-                            level: "Early grade",
-                            free: true,
-                            features: ["Sign language support", "Ethnic languages", "Children's books", "Inclusive materials"]
-                        }
                     ]
                 },
                 {
@@ -271,14 +207,6 @@
                             features: ["386 pages", "Authoritative source", "Complete grammar", "Academic reference"]
                         },
                         {
-                            name: "VietnamesePod101 Workbooks",
-                            url: "https://www.vietnamesepod101.com/vietnamese-workbooks/",
-                            description: "16+ downloadable PDF workbooks",
-                            level: "Beginner",
-                            free: true,
-                            features: ["Writing practice", "Alphabet training", "PDF format", "Printable"]
-                        },
-                        {
                             name: "EVBCorpus",
                             url: "https://github.com/qhungngo/EVBCorpus",
                             description: "20+ million word bilingual corpus",
@@ -286,14 +214,6 @@
                             free: true,
                             features: ["Sentence-aligned", "Research-oriented", "Bilingual", "Large corpus"]
                         },
-                        {
-                            name: "Reading A-Z Vietnamese",
-                            url: "https://www.readinga-z.com/worldlanguages/vietnamese/",
-                            description: "Graded K-5 reading materials",
-                            level: "Multiple levels",
-                            free: true,
-                            features: ["Clear complexity ratings", "Grade-aligned", "Progressive difficulty", "Educational focus"]
-                        }
                     ]
                 },
                 {
@@ -307,14 +227,6 @@
                             free: true,
                             features: ["Daily updates", "Bilingual features", "Current events", "Cultural content"]
                         },
-                        {
-                            name: "VietnamesePod101 Blog",
-                            url: "https://www.vietnamesepod101.com/blog/",
-                            description: "Language tips and cultural content",
-                            level: "Various",
-                            free: true,
-                            features: ["Audio/video support", "Cultural insights", "Language tips", "Regular updates"]
-                        }
                     ]
                 }
             ],
@@ -323,14 +235,6 @@
                 {
                     category: "YouTube Channels",
                     items: [
-                        {
-                            name: "VietnamesePod101",
-                            url: "https://www.youtube.com/channel/UCbnmwpaIq5Iq6XAg0S98m-A",
-                            description: "82.2K subscribers, professional lessons",
-                            level: "All levels",
-                            free: true,
-                            features: ["Slow speech", "Cultural context", "Subtitles", "Professional quality"]
-                        },
                         {
                             name: "Tieng Viet Oi",
                             url: "https://www.youtube.com/channel/UCBWZ4YRAivDHkIhNMs6iQ4A",
@@ -368,38 +272,6 @@
                 {
                     category: "Podcasts",
                     items: [
-                        {
-                            name: "VietnamesePod101 Podcast",
-                            url: "Apple Podcasts/Spotify",
-                            description: "Weekly audio lessons",
-                            level: "All levels",
-                            free: true,
-                            features: ["Cultural insights", "5-minute episodes", "Weekly updates", "Structured lessons"]
-                        },
-                        {
-                            name: "Go Vietnamese Podcast",
-                            url: "Apple Podcasts/Spotify",
-                            description: "Natural conversations and stories",
-                            level: "Intermediate",
-                            free: true,
-                            features: ["Free transcripts", "Cultural stories", "Natural speech", "Story-based"]
-                        },
-                        {
-                            name: "Learn Vietnamese with Annie Podcast",
-                            url: "Apple Podcasts",
-                            description: "YouTube content in podcast format",
-                            level: "All levels",
-                            free: true,
-                            features: ["Early patron access", "Q&A sessions", "Audio-only version", "Regular episodes"]
-                        },
-                        {
-                            name: "SVFF Vietnamese Podcast",
-                            url: "Various platforms",
-                            description: "Southern dialect focus",
-                            level: "All levels",
-                            free: true,
-                            features: ["Real-life conversations", "Quizzes", "Southern accent", "Interactive elements"]
-                        }
                     ]
                 },
                 {
@@ -413,14 +285,6 @@
                             free: true,
                             features: ["Live streaming", "DVR", "Free registration", "Multiple channels"]
                         },
-                        {
-                            name: "VOV Network",
-                            url: "Radio stations",
-                            description: "Official Vietnamese radio",
-                            level: "Intermediate to Advanced",
-                            free: true,
-                            features: ["News", "Talk shows", "Educational content", "Live broadcasts"]
-                        }
                     ]
                 }
             ],
@@ -429,30 +293,6 @@
                 {
                     category: "Language Exchange",
                     items: [
-                        {
-                            name: "HelloTalk",
-                            url: "https://www.hellotalk.com/",
-                            description: "18+ million users globally",
-                            level: "All levels",
-                            free: true,
-                            features: ["Voice/video calls", "Translation tools", "Free basic version", "Corrections"]
-                        },
-                        {
-                            name: "Tandem",
-                            url: "https://tandem.net/",
-                            description: "5,140+ Vietnamese members",
-                            level: "All levels",
-                            free: true,
-                            features: ["Swipe matching", "User reviews", "Professional focus", "Verification"]
-                        },
-                        {
-                            name: "ConversationExchange",
-                            url: "https://conversationexchange.com/",
-                            description: "Face-to-face and online exchange",
-                            level: "All levels",
-                            free: true,
-                            features: ["Multiple methods", "Completely free", "Global community", "Flexible format"]
-                        },
                         {
                             name: "Reddit r/Vietnamese",
                             url: "https://reddit.com/r/vietnamese",
@@ -470,14 +310,6 @@
                             features: ["Detailed matching", "Cultural focus", "Various formats", "Structured exchange"]
                         },
                         {
-                            name: "InterPals",
-                            url: "https://interpals.net/",
-                            description: "5+ million users",
-                            level: "All levels",
-                            free: true,
-                            features: ["Travel connections", "Cultural exchange", "Pen pals", "Global reach"]
-                        },
-                        {
                             name: "Hilokal",
                             url: "https://www.hilokal.com/en/speak/Vietnamese",
                             description: "Audio conversation practice",
@@ -491,28 +323,12 @@
                     category: "Dictionaries and Tools",
                     items: [
                         {
-                            name: "VDict",
-                            url: "https://vdict.com/",
-                            description: "9 dictionaries simultaneously",
-                            level: "All levels",
-                            free: true,
-                            features: ["Typo suggestions", "Machine translation", "Multiple sources", "Comprehensive"]
-                        },
-                        {
                             name: "Cambridge Vietnamese Dictionary",
                             url: "https://dictionary.cambridge.org/us/dictionary/english-vietnamese/",
                             description: "PASSWORD dictionary",
                             level: "All levels",
                             free: true,
                             features: ["Example sentences", "Bilingual approach", "Academic quality", "Audio pronunciation"]
-                        },
-                        {
-                            name: "Glosbe",
-                            url: "https://glosbe.com/en/vi",
-                            description: "Community-built dictionary",
-                            level: "All levels",
-                            free: true,
-                            features: ["Audio recordings", "Parallel corpora", "Community input", "Context examples"]
                         },
                         {
                             name: "Sketch Engine viTenTen",
@@ -542,14 +358,6 @@
                             level: "All levels",
                             free: true,
                             features: ["Emotional control", "Multiple voices", "AI quality", "Natural sound"]
-                        },
-                        {
-                            name: "GiongNoiAI",
-                            url: "https://giongnoiai.com/",
-                            description: "Vietnamese TTS service",
-                            level: "All levels",
-                            free: true,
-                            features: ["North accent", "Central accent", "South accent", "Free service"]
                         },
                         {
                             name: "Sapling Vietnamese",

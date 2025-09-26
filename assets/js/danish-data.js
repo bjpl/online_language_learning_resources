@@ -26,14 +26,6 @@ const danishResources = {
                         free: true
                     },
                     {
-                        name: "LingoHut",
-                        url: "https://www.lingohut.com/en/l101/learn-danish",
-                        description: "125 free lessons focusing on vocabulary and pronunciation",
-                        level: "A1-A2",
-                        features: ["No account required", "Audio pronunciations", "Visual learning"],
-                        free: true
-                    },
-                    {
                         name: "Alison - Danish for Beginners",
                         url: "https://alison.com/course/danish-for-beginners",
                         description: "Comprehensive beginner course with grammar and conversation",
@@ -47,14 +39,6 @@ const danishResources = {
                         description: "Travel-focused Danish course for essential expressions",
                         level: "A1",
                         features: ["Native speaker audio", "Voice recognition", "Practical phrases"],
-                        free: true
-                    },
-                    {
-                        name: "IELanguages.com",
-                        url: "https://www.ielanguages.com/danish.html",
-                        description: "Danish lessons with native speaker pronunciation",
-                        level: "A1",
-                        features: ["Native audio recordings", "Vocabulary with sample sentences"],
                         free: true
                     },
                     {
@@ -73,14 +57,6 @@ const danishResources = {
                         features: ["Alphabet teaching", "Pronunciation focus", "Audio examples"],
                         free: true
                     },
-                    {
-                        name: "50Languages Danish",
-                        url: "https://www.50languages.com/learn-danish-online-free",
-                        description: "100 free audio lessons with MP3 downloads",
-                        level: "A1-A2",
-                        features: ["Mobile apps", "European framework aligned", "Downloadable content"],
-                        free: true
-                    }
                 ]
             },
             {
@@ -166,27 +142,11 @@ const danishResources = {
                         features: ["H.C. Andersen works", "Historical texts", "Multiple formats"],
                         free: true
                     },
-                    {
-                        name: "Complete Danish Audio Resources",
-                        url: "https://library.teachyourself.com/id004325116/Complete-Danish-free-resources",
-                        description: "Professional audio companion for textbook",
-                        level: "A1-B1",
-                        features: ["High-quality audio files", "Pronunciation practice"],
-                        free: true
-                    }
                 ]
             },
             {
                 category: "Grammar Resources",
                 items: [
-                    {
-                        name: "Verbix Danish Conjugator",
-                        url: "http://www.verbix.com/languages/danish.shtml",
-                        description: "Complete Danish verb conjugation tool",
-                        level: "All levels",
-                        features: ["All tenses covered", "Search functionality", "Completely free"],
-                        free: true
-                    },
                     {
                         name: "Wikipedia Danish Grammar",
                         url: "https://en.wikipedia.org/wiki/Danish_grammar",
@@ -203,30 +163,6 @@ const danishResources = {
                         features: ["Gender system", "Verb conjugation", "Sentence structure"],
                         free: true
                     },
-                    {
-                        name: "Talkpal Grammar Exercises",
-                        url: "https://talkpal.ai/danish-grammar-exercises/",
-                        description: "Interactive grammar exercises for all topics",
-                        level: "A1-C1",
-                        features: ["Practice exercises", "Nouns, verbs, adjectives, tenses"],
-                        free: true
-                    },
-                    {
-                        name: "Bab.la Danish Conjugation",
-                        url: "https://en.bab.la/conjugation/danish/",
-                        description: "Danish verb conjugation with explanations",
-                        level: "All levels",
-                        features: ["Full conjugations", "Tense explanations", "Easy interface"],
-                        free: true
-                    },
-                    {
-                        name: "Cooljugator Danish",
-                        url: "https://cooljugator.com/da",
-                        description: "Verb conjugator with real examples",
-                        level: "All levels",
-                        features: ["Authentic examples for each tense", "Comprehensive coverage"],
-                        free: true
-                    }
                 ]
             },
             {
@@ -248,14 +184,6 @@ const danishResources = {
                         features: ["Free access", "No registration", "Authentic literary texts"],
                         free: true
                     },
-                    {
-                        name: "ADL (Arkiv for Dansk Litteratur)",
-                        url: "http://adl.dk/",
-                        description: "Archive of Danish literature",
-                        level: "Advanced",
-                        features: ["Classic Danish works", "Digitized texts"],
-                        free: true
-                    }
                 ]
             }
         ],
@@ -280,30 +208,6 @@ const danishResources = {
                         features: ["English-Danish word pairs", "Pauses for repetition"],
                         free: true
                     },
-                    {
-                        name: "Dansk i Ørerne",
-                        url: "Podcast platforms",
-                        description: "Weekly episodes by Danish teacher",
-                        level: "B1-B2",
-                        features: ["Short episodes", "Transcripts available"],
-                        free: true
-                    },
-                    {
-                        name: "Koen på Isen",
-                        url: "Podcast platforms",
-                        description: "Danish idioms and expressions explained",
-                        level: "A2-B2",
-                        features: ["Cultural insights", "Idiom explanations"],
-                        free: true
-                    },
-                    {
-                        name: "DanishClass101 Podcast",
-                        url: "Apple Podcasts, Spotify",
-                        description: "Structured lessons with cultural context",
-                        level: "A1-C1",
-                        features: ["Regular uploads", "Multiple difficulty levels"],
-                        free: true
-                    }
                 ]
             },
             {
@@ -470,22 +374,6 @@ const danishResources = {
                 category: "Language Exchange",
                 items: [
                     {
-                        name: "Tandem",
-                        url: "https://tandem.net/language-exchange/denmark",
-                        description: "Global language exchange app",
-                        level: "All levels",
-                        features: ["1,082+ Danish speakers", "Text/voice/video calls"],
-                        free: true
-                    },
-                    {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        description: "Social language exchange",
-                        level: "All levels",
-                        features: ["125+ languages", "Correction tools", "Translation features"],
-                        free: true
-                    },
-                    {
                         name: "MyLanguageExchange.com",
                         url: "https://www.mylanguageexchange.com/Search.asp?selCountry=27&selX13=true",
                         description: "Established exchange platform",
@@ -515,35 +403,11 @@ const danishResources = {
                         free: true
                     },
                     {
-                        name: "Dict.cc Danish-English",
-                        url: "https://daen.dict.cc/",
-                        description: "User-contributed bilingual dictionary",
-                        level: "All levels",
-                        features: ["Community-verified", "Vocabulary trainer", "Downloadable database"],
-                        free: true
-                    },
-                    {
-                        name: "Bab.la Danish Dictionary",
-                        url: "https://en.bab.la/dictionary/danish-english/",
-                        description: "Bilingual dictionary with phrases",
-                        level: "All levels",
-                        features: ["Multiple language pairs", "Example sentences"],
-                        free: true
-                    },
-                    {
                         name: "Cambridge Danish Dictionary",
                         url: "https://dictionary.cambridge.org/dictionary/english-danish/",
                         description: "Professional bilingual dictionary",
                         level: "All levels",
                         features: ["Academic-level accuracy", "Example sentences"],
-                        free: true
-                    },
-                    {
-                        name: "Forvo Danish",
-                        url: "https://forvo.com/languages/da/",
-                        description: "Pronunciation dictionary",
-                        level: "All levels",
-                        features: ["Native speaker audio", "User-contributed"],
                         free: true
                     },
                     {
@@ -568,14 +432,6 @@ const danishResources = {
                         free: true
                     },
                     {
-                        name: "UCL Danish Learning Objects",
-                        url: "https://www.ucl.ac.uk/arts-humanities/european-languages-culture/",
-                        description: "Interactive learning objects with authentic materials",
-                        level: "A1-B1",
-                        features: ["Immersive approach", "Danish songs", "Cultural materials"],
-                        free: true
-                    },
-                    {
                         name: "Danish Language Council",
                         url: "https://dsn.dk/organisation-og-lovgivning/about-the-danish-language-council/",
                         description: "Official linguistic authority",
@@ -583,14 +439,6 @@ const danishResources = {
                         features: ["Orthography dictionary", "Q&A database", "Research"],
                         free: true
                     },
-                    {
-                        name: "Nordic Council Resources",
-                        url: "https://www.norden.org/en/information/nordic-languages",
-                        description: "Nordic language cooperation",
-                        level: "All levels",
-                        features: ["Inter-Nordic comprehension programs"],
-                        free: true
-                    }
                 ]
             }
         ]

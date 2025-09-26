@@ -26,14 +26,6 @@ const dutchResources = {
                         free: true
                     },
                     {
-                        name: "TU Delft - Delft Dutch Course",
-                        url: "https://www.tudelft.nl/en/tpm/itav/education/dutch-courses/",
-                        description: "6-week self-study based on proven Delft Method",
-                        level: "Beginner (A1)",
-                        features: ["Completely free", "Interactive videos", "Speaking/writing assignments", "6-month access"],
-                        free: true
-                    },
-                    {
                         name: "EU Academy - My Dutch Course A1",
                         url: "https://academy.europa.eu/courses/my-dutch-course-a1",
                         description: "EU-provided free course for newcomers",
@@ -60,22 +52,6 @@ const dutchResources = {
                         description: "Comprehensive platform for integration exam prep",
                         level: "A1-B2",
                         features: ["Free", "Designed for inburgering/staatsexamen", "15 modules to A1"],
-                        free: true
-                    },
-                    {
-                        name: "Learn Dutch with Bart de Pau",
-                        url: "https://www.learndutch.org/",
-                        description: "Award-winning video courses with cultural content",
-                        level: "All levels",
-                        features: ["Extensive free video library", "Cultural immersion", "Online exercises"],
-                        free: true
-                    },
-                    {
-                        name: "Live Lingua",
-                        url: "https://www.livelingua.com/courses/dutch",
-                        description: "4 complete courses, 8 eBooks, 105 audio files",
-                        level: "Beginner-Intermediate",
-                        features: ["No sign-up required", "Downloadable materials"],
                         free: true
                     },
                     {
@@ -156,14 +132,6 @@ const dutchResources = {
                         free: true
                     },
                     {
-                        name: "Go Dutch!",
-                        url: "http://www.linguatextltd.com",
-                        description: "University textbook with Private Eye story",
-                        level: "University beginner",
-                        features: ["Free PDF and MP3 audio", "Narrative-based approach"],
-                        free: true
-                    },
-                    {
                         name: "Syntax of Dutch (7 volumes)",
                         url: "https://library.oapen.org/handle/20.500.12657/34457",
                         description: "Academic linguistic analysis series",
@@ -200,14 +168,6 @@ const dutchResources = {
                         features: ["Free PDF worksheets", "Comprehension questions"],
                         free: true
                     },
-                    {
-                        name: "Easy Dutch Reader",
-                        url: "https://lingualism.com/product/easy-dutch-reader/",
-                        description: "50+ short texts for beginners",
-                        level: "A1-A2",
-                        features: ["Free MP3 audio", "English translations", "Comprehension questions"],
-                        free: true
-                    }
                 ]
             }
         ],
@@ -216,22 +176,6 @@ const dutchResources = {
             {
                 category: "YouTube Channels",
                 items: [
-                    {
-                        name: "DutchPod101",
-                        url: "https://www.youtube.com/channel/UCY0BCa9cK",
-                        description: "Comprehensive lessons, grammar, vocabulary",
-                        level: "All levels",
-                        features: ["187K subscribers", "20 playlists", "3min-4hr videos"],
-                        free: true
-                    },
-                    {
-                        name: "Learn Dutch with Bart de Pau",
-                        url: "https://www.youtube.com/channel/UC2IYiaH8i",
-                        description: "Structured courses, 1000 most common words",
-                        level: "All levels",
-                        features: ["100K+ subscribers", "Cultural insights", "Clear teaching style"],
-                        free: true
-                    },
                     {
                         name: "Easy Dutch",
                         url: "https://www.easy-languages.org/easy-dutch",
@@ -254,14 +198,6 @@ const dutchResources = {
                 category: "Podcasts",
                 items: [
                     {
-                        name: "Learn Dutch with Lianne",
-                        url: "Apple Podcasts, Spotify",
-                        description: "100% Dutch content on culture/language",
-                        level: "Intermediate (A2+)",
-                        features: ["Bimonthly", "Full transcripts on website"],
-                        free: true
-                    },
-                    {
                         name: "Easy Dutch Podcast",
                         url: "https://www.easydutch.fm/",
                         description: "Authentic conversations",
@@ -269,35 +205,11 @@ const dutchResources = {
                         features: ["23-26 min episodes", "Transcripts for members"],
                         free: true
                     },
-                    {
-                        name: "Een Beetje Nederlands",
-                        url: "Podcast platforms",
-                        description: "Dutch history and culture",
-                        level: "Intermediate",
-                        features: ["12-30 min episodes", "Transcripts available"],
-                        free: true
-                    },
-                    {
-                        name: "Zeg het in het Nederlands",
-                        url: "Podcast platforms",
-                        description: "Wide topic range in slow Dutch",
-                        level: "Beginner-Intermediate",
-                        features: ["13-40 min episodes", "PDF transcripts on blog"],
-                        free: true
-                    }
                 ]
             },
             {
                 category: "TV and News",
                 items: [
-                    {
-                        name: "NOS Journaal in Makkelijke Taal",
-                        url: "NPO 1 television",
-                        description: "Simplified Dutch news",
-                        level: "Beginner-Intermediate",
-                        features: ["Daily 5PM", "Slower tempo", "Simpler vocabulary"],
-                        free: true
-                    },
                     {
                         name: "NOS Jeugdjournaal",
                         url: "https://jeugdjournaal.nl/",
@@ -373,30 +285,6 @@ const dutchResources = {
             {
                 category: "Language Exchange",
                 items: [
-                    {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        description: "Connect with native Dutch speakers",
-                        level: "All levels",
-                        features: ["4,242+ Dutch speakers", "Text/voice/video", "In-app tools"],
-                        free: true
-                    },
-                    {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        description: "Social media-style exchange",
-                        level: "All levels",
-                        features: ["18+ million users", "Moments feature", "Voice messages"],
-                        free: true
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        description: "Find language partners",
-                        level: "All levels",
-                        features: ["Face-to-face meetings", "Pen-pals", "Video chat"],
-                        free: true
-                    }
                 ]
             },
             {
@@ -437,14 +325,6 @@ const dutchResources = {
                         description: "Official Dutch word list, 400,000+ words",
                         level: "All levels",
                         features: ["BSD/CC license", "Approved by Dutch Language Union"],
-                        free: true
-                    },
-                    {
-                        name: "LanguageTool Dutch",
-                        url: "https://languagetool.org/spellchecking-dutch",
-                        description: "AI-powered grammar checker",
-                        level: "All levels",
-                        features: ["Free basic version", "Browser extensions"],
                         free: true
                     },
                     {

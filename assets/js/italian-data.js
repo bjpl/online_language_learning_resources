@@ -47,14 +47,6 @@ languageData.italian = {
                         features: ["Free core content", "4-week structured courses", "Audio resources"]
                     },
                     {
-                        name: "Online Italian Club",
-                        url: "https://onlineitalianclub.com/",
-                        description: "Thousands of exercises and lessons across all CEFR levels",
-                        free: true,
-                        level: "A1-C2",
-                        features: ["No registration needed", "Downloadable checklists", "Weekly news bulletins"]
-                    },
-                    {
                         name: "Language Transfer Italian",
                         url: "https://www.languagetransfer.org",
                         description: "Audio-based course focusing on thinking through language",
@@ -70,14 +62,6 @@ languageData.italian = {
                         level: "A1-B1",
                         features: ["Native speaker audio", "Cultural content", "Completely free"]
                     },
-                    {
-                        name: "Learn Italian Online",
-                        url: "https://www.learn-italian.net/",
-                        description: "100+ topics with 14 interactive games and structured testing",
-                        free: true,
-                        level: "A1-A2",
-                        features: ["Immediate feedback system", "Tablet compatible", "Interactive games"]
-                    }
                 ]
             },
             {
@@ -115,22 +99,6 @@ languageData.italian = {
                         level: "B1-C1",
                         features: ["Radio Arlecchino series", "Commedia dell'arte integration"]
                     },
-                    {
-                        name: "FSI Italian Courses",
-                        url: "https://www.fsi-language-courses.org/fsi-italian-language-courses/",
-                        description: "US government diplomatic training materials",
-                        free: true,
-                        level: "A1-B2",
-                        features: ["Public domain", "28+ hours audio", "880+ pages of content"]
-                    },
-                    {
-                        name: "Portale Integrazione Migranti",
-                        url: "https://integrazionemigranti.gov.it/en-gb/Dettaglio-approfondimento/id/53/Learn-Italian-Online",
-                        description: "Official Italian government integration portal",
-                        free: true,
-                        level: "All levels",
-                        features: ["Government-provided", "Integration focus", "Multiple resource types"]
-                    }
                 ]
             },
             {
@@ -307,14 +275,6 @@ languageData.italian = {
                         level: "A1-C2",
                         features: ["Free collaborative content", "Printable", "Continuously updated"]
                     },
-                    {
-                        name: "ItalianPod101 Workbooks",
-                        url: "https://www.italianpod101.com/italian-workbooks/",
-                        description: "Collection of 16+ free workbooks",
-                        free: true,
-                        level: "A1-A2",
-                        features: ["Answer keys included", "QR codes for audio", "Printable PDFs"]
-                    }
                 ]
             },
             {
@@ -385,14 +345,6 @@ languageData.italian = {
                 category: "Podcasts",
                 items: [
                     {
-                        name: "Coffee Break Italian",
-                        url: "https://coffeebreaklanguages.com/coffeebreakitalian/",
-                        description: "Popular podcast series with 15-20 minute structured lessons",
-                        free: true,
-                        level: "A1-B1",
-                        features: ["Free audio lessons", "All podcast platforms", "Seasonal progression"]
-                    },
-                    {
                         name: "Italy Made Easy Podcast",
                         url: "https://www.italymadeeasy.com/podcast",
                         description: "100% Italian content with slower speech",
@@ -400,14 +352,6 @@ languageData.italian = {
                         level: "A2-B2",
                         features: ["Free PDF transcripts", "Comprehension exercises", "Slow Italian"]
                     },
-                    {
-                        name: "LibriVox Italian",
-                        url: "https://librivox.org",
-                        description: "Free audiobooks in public domain",
-                        free: true,
-                        level: "B2-C2",
-                        features: ["Volunteer-recorded", "Multiple formats", "Offline access"]
-                    }
                 ]
             },
             {
@@ -459,14 +403,6 @@ languageData.italian = {
                 category: "TV & Radio",
                 items: [
                     {
-                        name: "RAI Scuola",
-                        url: "https://www.rai.it/raiscuola",
-                        description: "Italian public broadcasting education",
-                        free: true,
-                        level: "B1-C2",
-                        features: ["High-quality productions", "Documentaries", "Cultural focus"]
-                    },
-                    {
                         name: "RaiPlay",
                         url: "https://www.raiplay.it",
                         description: "On-demand Italian TV streaming",
@@ -491,38 +427,6 @@ languageData.italian = {
                 category: "Language Exchange",
                 items: [
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com",
-                        description: "Social language learning network",
-                        free: true,
-                        level: "All levels",
-                        features: ["Text/voice/video chat", "Translation tools", "Cultural exchange"]
-                    },
-                    {
-                        name: "Conversation Exchange",
-                        url: "https://www.conversationexchange.com",
-                        description: "Find Italian exchange partners worldwide",
-                        free: true,
-                        level: "All levels",
-                        features: ["Completely free", "Face-to-face/correspondence/chat", "Global partners"]
-                    },
-                    {
-                        name: "Language.Exchange",
-                        url: "https://en.language.exchange",
-                        description: "Free exchange platform",
-                        free: true,
-                        level: "All levels",
-                        features: ["100% free", "200+ languages", "30-minute exchanges"]
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://www.tandem.net",
-                        description: "Largest global language exchange",
-                        free: true,
-                        level: "All levels",
-                        features: ["Video/audio calls", "Correction tools", "34k+ Italian members"]
-                    },
-                    {
                         name: "MyLanguageExchange",
                         url: "https://www.mylanguageexchange.com",
                         description: "Safe effective practice community",
@@ -530,59 +434,11 @@ languageData.italian = {
                         level: "All levels",
                         features: ["Lesson plans", "Structured activities", "Safety focus"]
                     },
-                    {
-                        name: "Free Italian Conversation (Meetup)",
-                        url: "https://www.meetup.com/free-italian-conversation-online-classes-all-levels/",
-                        description: "Weekly online conversation classes",
-                        free: true,
-                        level: "All levels",
-                        features: ["Native teacher", "15 years experience", "Completely free"]
-                    }
                 ]
             },
             {
                 category: "Language Tools",
                 items: [
-                    {
-                        name: "WordReference Forums",
-                        url: "https://forum.wordreference.com",
-                        description: "Active Italian language forums",
-                        free: true,
-                        level: "All levels",
-                        features: ["Native speakers", "Grammar discussions", "Cultural context"]
-                    },
-                    {
-                        name: "Online Italian Club Conversations",
-                        url: "https://onlineitalianclub.com",
-                        description: "60+ dialogues with transcripts",
-                        free: true,
-                        level: "All levels",
-                        features: ["Native speakers", "Progressive difficulty", "No registration"]
-                    },
-                    {
-                        name: "Reverso Conjugator",
-                        url: "https://conjugator.reverso.net/conjugation-italian.html",
-                        description: "Complete Italian verb conjugation",
-                        free: true,
-                        level: "All levels",
-                        features: ["12,000+ verbs", "All tenses and moods", "Pronunciation guides"]
-                    },
-                    {
-                        name: "Italian-Verbs.com",
-                        url: "https://www.italian-verbs.com",
-                        description: "Comprehensive conjugator by Olivetti",
-                        free: true,
-                        level: "All levels",
-                        features: ["20,000+ verbs", "Mobile-friendly", "Completely free"]
-                    },
-                    {
-                        name: "Forvo",
-                        url: "https://forvo.com",
-                        description: "Pronunciation dictionary with native audio",
-                        free: true,
-                        level: "All levels",
-                        features: ["Multiple regional pronunciations", "User-contributed", "Free"]
-                    },
                     {
                         name: "PAISÀ Corpus",
                         url: "https://www.corpusitaliano.it/en/",
@@ -612,14 +468,6 @@ languageData.italian = {
                         level: "All levels",
                         features: ["No registration", "MP3 downloads", "Male/female voices"]
                     },
-                    {
-                        name: "Harper Grammar Checker",
-                        url: "https://writewithharper.com",
-                        description: "Open source grammar checker",
-                        free: true,
-                        level: "All levels",
-                        features: ["Privacy-focused", "No cloud processing", "Fast performance"]
-                    }
                 ]
             }
         ]
