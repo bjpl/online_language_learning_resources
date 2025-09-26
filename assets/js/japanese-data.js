@@ -8,66 +8,56 @@
         code: 'ja',
         flag: '🇯🇵',
         speakers: '125M native',
-        difficulty: 'Very Hard',
-        description: 'A unique language with three writing systems, Japanese offers exceptional free resources from official government institutions and a vibrant learning community.',
-
-        resources: {
+    resources: {
             courses: [
                 {
                     category: 'Online Courses & Learning Platforms',
                     items: [
                         {
                             name: 'JF Japanese e-Learning Minato',
-                            url: 'https://minato-jf.jp/',
-                            description: 'Japan Foundation\'s official platform with free self-study and tutor-support courses',
+                            url: 'https://minato-jf.jp/'
                             free: true,
                             level: 'A1-B1',
                             features: ['Marugoto coursebook integration', 'Cultural activities', 'Global community features']
                         },
                         {
                             name: 'Irodori: Japanese for Life in Japan',
-                            url: 'https://www.irodori.jpf.go.jp/',
-                            description: 'Free textbooks for daily life communication in Japan',
+                            url: 'https://www.irodori.jpf.go.jp/'
                             free: true,
                             level: 'A1-A2',
                             features: ['PDF downloads', 'Audio files', 'Practical everyday situations']
                         },
                         {
                             name: 'Duolingo Japanese',
-                            url: 'https://www.duolingo.com/course/ja/en/Learn-Japanese',
-                            description: 'Gamified learning with bite-sized lessons',
+                            url: 'https://www.duolingo.com/course/ja/en/Learn-Japanese'
                             free: true,
                             level: 'A1-B1',
                             features: ['Completely free with ads', 'Mobile apps', 'Spaced repetition']
                         },
                         {
                             name: 'MIT OpenCourseWare Japanese',
-                            url: 'https://ocw.mit.edu/courses/21g-501-japanese-i-fall-2019/',
-                            description: 'Complete university-level Japanese courses I-IV',
+                            url: 'https://ocw.mit.edu/courses/21g-501-japanese-i-fall-2019/'
                             free: true,
                             level: 'Beginner-Intermediate',
                             features: ['Full course materials', 'Lecture notes', 'Assignments', 'Free downloads']
                         },
                         {
                             name: 'Alison Japanese Courses',
-                            url: 'https://alison.com/tag/japanese-language',
-                            description: 'Certificate and diploma courses',
+                            url: 'https://alison.com/tag/japanese-language'
                             free: true,
                             level: 'All levels',
                             features: ['Free certificates', '5-hour certificate courses', '15-20 hour diplomas']
                         },
                         {
                             name: 'Loecsen Japanese',
-                            url: 'https://www.loecsen.com/en/learn-japanese',
-                            description: 'Practical phrase-based course with audio',
+                            url: 'https://www.loecsen.com/en/learn-japanese'
                             free: true,
                             level: 'Beginner',
                             features: ['No signup required', 'Pronunciation focus', 'Visual dictionary']
                         },
                         {
                             name: 'Busuu Japanese',
-                            url: 'https://www.busuu.com/en/course/learn-japanese-online',
-                            description: 'AI-powered learning platform',
+                            url: 'https://www.busuu.com/en/course/learn-japanese-online'
                             free: false,
                             level: 'All levels',
                             features: ['Basic free lessons', 'Community feedback', 'Speech recognition']
@@ -79,32 +69,28 @@
                     items: [
                         {
                             name: 'Tae Kim\'s Grammar Guide',
-                            url: 'https://guidetojapanese.org/learn/grammar',
-                            description: 'Comprehensive online grammar guide from Japanese perspective',
+                            url: 'https://guidetojapanese.org/learn/grammar'
                             free: true,
                             level: 'Beginner-Advanced',
                             features: ['Clear explanations', 'Logical progression', 'Mobile-friendly']
                         },
                         {
                             name: 'IMABI',
-                            url: 'https://imabi.org/',
-                            description: '450+ detailed grammar lessons with linguistic approach',
+                            url: 'https://imabi.org/'
                             free: true,
                             level: 'All levels',
                             features: ['Classical Japanese', 'Okinawan', 'Extensive examples']
                         },
                         {
                             name: 'Maggie Sensei',
-                            url: 'https://maggiesensei.com/',
-                            description: 'Fun, example-heavy grammar site',
+                            url: 'https://maggiesensei.com/'
                             free: true,
                             level: 'All levels',
                             features: ['Casual explanations', 'Cultural notes', 'Dog mascot']
                         },
                         {
                             name: 'Bunpro',
-                            url: 'https://bunpro.jp/',
-                            description: 'Grammar SRS platform',
+                            url: 'https://bunpro.jp/'
                             free: false,
                             level: 'All levels',
                             features: ['Free trial', 'Structured paths', 'Example sentences']
@@ -116,16 +102,14 @@
                     items: [
                         {
                             name: 'JLPT Sensei',
-                            url: 'https://jlptsensei.com/',
-                            description: 'Free JLPT study materials for all levels',
+                            url: 'https://jlptsensei.com/'
                             free: true,
                             level: 'N5-N1',
                             features: ['Grammar lists', 'Vocabulary', 'Practice tests']
                         },
                         {
                             name: 'Nihongo Library JLPT',
-                            url: 'https://nihongolibrary.com/',
-                            description: 'JLPT-focused materials with interactive PDFs',
+                            url: 'https://nihongolibrary.com/'
                             free: true,
                             level: 'N5-N4',
                             features: ['Interactive PDFs', 'Answer keys', 'Topic-wise questions']
@@ -136,50 +120,43 @@
 
             apps: [{
                     name: 'WaniKani',
-                    url: 'https://www.wanikani.com/',
-                    description: 'Kanji and vocabulary learning system',
+                    url: 'https://www.wanikani.com/'
                     free: false,
                     platform: 'Web, iOS, Android',
                     features: ['Free first 3 levels', 'Mnemonics', '2000+ kanji']
                 }, {
                     name: 'Drops Japanese',
-                    url: 'https://languagedrops.com/',
-                    description: 'Visual vocabulary learning',
+                    url: 'https://languagedrops.com/'
                     free: true,
                     platform: 'iOS, Android',
                     features: ['Free 5 minutes/day', 'Beautiful illustrations', 'Quick sessions']
                 }, {
                     name: 'Kanji Memory Hint',
-                    url: 'App stores',
-                    description: 'Japan Foundation\'s kanji learning apps',
+                    url: 'App stores'
                     free: true,
                     platform: 'iOS, Android',
                     features: ['Mnemonic pictures', 'Stroke order', 'Official resource']
                 }, {
                     name: 'Todaii/Easy Japanese News',
-                    url: 'App stores',
-                    description: 'News reading app with dictionary',
+                    url: 'App stores'
                     free: true,
                     platform: 'iOS, Android',
                     features: ['Daily articles', 'JLPT levels', 'Furigana toggle']
                 }, {
                     name: 'Renshuu',
-                    url: 'https://www.renshuu.org/',
-                    description: 'Comprehensive study platform',
+                    url: 'https://www.renshuu.org/'
                     free: true,
                     platform: 'Web, Mobile',
                     features: ['Free version available', 'Community features', 'Games']
                 }, {
                     name: 'Real Kana',
-                    url: 'https://realkana.com/',
-                    description: 'Hiragana/Katakana practice',
+                    url: 'https://realkana.com/'
                     free: true,
                     platform: 'Web',
                     features: ['Customizable drills', 'Font variations', 'No signup']
                 }, {
                     name: 'Kanji Study',
-                    url: 'Web/Apps',
-                    description: 'Comprehensive kanji learning tools',
+                    url: 'Web/Apps'
                     free: true,
                     platform: 'Various',
                     features: ['Stroke order', 'Mnemonics', 'Practice sheets']
@@ -192,32 +169,28 @@
                     items: [
                         {
                             name: 'Tae Kim\'s Guide to Japanese (PDF)',
-                            url: 'https://www.guidetojapanese.org/grammar_guide.pdf',
-                            description: 'Complete grammar guide PDF (353 pages)',
+                            url: 'https://www.guidetojapanese.org/grammar_guide.pdf'
                             free: true,
                             level: 'Beginner-Intermediate',
                             features: ['Free PDF download', 'Android/iOS apps', 'Creative Commons license']
                         },
                         {
                             name: 'IRODORI Textbooks',
-                            url: 'https://www.irodori.jpf.go.jp/en/',
-                            description: 'Japan Foundation\'s practical Japanese series',
+                            url: 'https://www.irodori.jpf.go.jp/en/'
                             free: true,
                             level: 'A1-A2',
                             features: ['Free PDFs', 'Audio files', 'Life-in-Japan focus']
                         },
                         {
                             name: 'Nihongo Library',
-                            url: 'https://nihongolibrary.com/',
-                            description: 'Free study materials and interactive PDFs',
+                            url: 'https://nihongolibrary.com/'
                             free: true,
                             level: 'N5-N4',
                             features: ['Grammar books', 'Vocabulary lists', 'JLPT practice with audio']
                         },
                         {
                             name: 'OER Commons Japanese',
-                            url: 'https://oercommons.org/browse?f.keyword=japanese',
-                            description: 'Collection of open educational resources',
+                            url: 'https://oercommons.org/browse?f.keyword=japanese'
                             free: true,
                             level: 'All levels',
                             features: ['Creative Commons materials', 'Educator-created content']
@@ -229,48 +202,42 @@
                     items: [
                         {
                             name: 'Aozora Bunko',
-                            url: 'https://www.aozora.gr.jp/',
-                            description: 'Japanese public domain literature (15,000+ works)',
+                            url: 'https://www.aozora.gr.jp/'
                             free: true,
                             level: 'Intermediate-Advanced',
                             features: ['Classic literature', 'Ruby text', 'Multiple formats']
                         },
                         {
                             name: 'NHK News Web Easy',
-                            url: 'https://www3.nhk.or.jp/news/easy/',
-                            description: 'Simplified Japanese news with furigana',
+                            url: 'https://www3.nhk.or.jp/news/easy/'
                             free: true,
                             level: 'Beginner-Intermediate',
                             features: ['Audio for articles', 'Updated daily', 'Dictionary tooltips']
                         },
                         {
                             name: 'Tadoku Free Books',
-                            url: 'https://tadoku.org/japanese/en/free-books-en/',
-                            description: 'Graded readers for extensive reading',
+                            url: 'https://tadoku.org/japanese/en/free-books-en/'
                             free: true,
                             level: 'All levels',
                             features: ['Level-appropriate stories', 'PDF downloads', 'YouTube versions']
                         },
                         {
                             name: 'Project Gutenberg Japanese',
-                            url: 'https://www.gutenberg.org/browse/languages/ja',
-                            description: 'Classic Japanese literature collection',
+                            url: 'https://www.gutenberg.org/browse/languages/ja'
                             free: true,
                             level: 'Advanced',
                             features: ['Hundreds of books', 'EPUB/Kindle formats']
                         },
                         {
                             name: 'Aozora Bunko Portal',
-                            url: 'https://www.aozora-bunko-portal.com/',
-                            description: 'Categorized Aozora texts by difficulty',
+                            url: 'https://www.aozora-bunko-portal.com/'
                             free: true,
                             level: 'All levels',
                             features: ['Vocabulary coverage levels', 'Reading recommendations']
                         },
                         {
                             name: 'NHK Easier',
-                            url: 'https://nhkeasier.com/',
-                            description: 'Alternative interface for NHK Easy News',
+                            url: 'https://nhkeasier.com/'
                             free: true,
                             level: 'Beginner-Intermediate',
                             features: ['Touch/hover dictionary', 'RSS feed', 'Clean interface']
@@ -282,22 +249,19 @@
                     items: [
                         {
                             name: 'Jisho.org',
-                            url: 'https://jisho.org/',
-                            description: 'Most popular online Japanese dictionary',
+                            url: 'https://jisho.org/'
                             free: true,
                             features: ['Kanji search by radicals', 'Example sentences', 'Free API']
                         },
                         {
                             name: 'Takoboto',
-                            url: 'https://takoboto.jp/',
-                            description: 'Online and app dictionary',
+                            url: 'https://takoboto.jp/'
                             free: true,
                             features: ['Android/Web versions', 'Offline capability', 'Clean interface']
                         },
                         {
                             name: 'Weblio',
-                            url: 'https://www.weblio.jp/',
-                            description: 'Comprehensive Japanese dictionary',
+                            url: 'https://www.weblio.jp/'
                             free: true,
                             features: ['Japanese interface', 'Multiple dictionary sources', 'Professional grade']
                         },
@@ -311,8 +275,7 @@
                     items: [
                         {
                             name: 'Nihongo con Teppei (Beginners)',
-                            url: 'https://nihongoconteppei.com/',
-                            description: 'Popular podcast for beginners (1400+ episodes)',
+                            url: 'https://nihongoconteppei.com/'
                             free: true,
                             level: 'Beginner',
                             features: ['4-minute episodes', 'Natural speed', 'Patreon transcripts']
@@ -324,8 +287,7 @@
                     items: [
                         {
                             name: 'Anime & Manga Learning',
-                            url: 'https://anime-manga.jf.go.jp/en/',
-                            description: 'Japan Foundation\'s anime/manga learning site',
+                            url: 'https://anime-manga.jf.go.jp/en/'
                             free: true,
                             level: 'All levels',
                             features: ['Character-specific language', 'Genre-based learning', 'Cultural context']
@@ -340,15 +302,13 @@
                     items: [
                         {
                             name: 'MyLanguageExchange',
-                            url: 'https://www.mylanguageexchange.com/',
-                            description: 'Email-based language exchanges',
+                            url: 'https://www.mylanguageexchange.com/'
                             free: true,
                             features: ['Detailed profiles', 'Long-term partnerships', 'Structured approach']
                         },
                         {
                             name: 'Minato Communities',
-                            url: 'https://minato-jf.jp/',
-                            description: 'Virtual learning communities',
+                            url: 'https://minato-jf.jp/'
                             free: true,
                             features: ['Topic-focused groups', 'Global interaction', 'Official support']
                         },
@@ -359,15 +319,13 @@
                     items: [
                         {
                             name: 'Kanji Koohii',
-                            url: 'https://kanji.koohii.com/',
-                            description: 'RTK-based kanji learning community',
+                            url: 'https://kanji.koohii.com/'
                             free: true,
                             features: ['Shared mnemonics', 'SRS system', 'Community stories']
                         },
                         {
                             name: 'Skritter',
-                            url: 'https://skritter.com/',
-                            description: 'Handwriting practice app',
+                            url: 'https://skritter.com/'
                             free: false,
                             features: ['Free trial', 'Stroke recognition', 'Muscle memory training']
                         }
@@ -378,15 +336,13 @@
                     items: [
                         {
                             name: 'italki',
-                            url: 'https://www.italki.com/en/teachers/portuguese',
-                            description: 'Professional teachers and community tutors',
+                            url: 'https://www.italki.com/en/teachers/portuguese'
                             free: false,
                             features: ['Trial lessons', 'Various price points', 'Certified teachers']
                         },
                         {
                             name: 'Preply',
-                            url: 'https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE',
-                            description: 'One-on-one Japanese tutoring',
+                            url: 'https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE'
                             free: false,
                             features: ['Flexible scheduling', 'Trial lessons', 'All levels']
                         },

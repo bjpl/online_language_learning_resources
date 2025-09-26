@@ -8,8 +8,6 @@ const portugueseResources = {
     flag: "🇵🇹🇧🇷",
     learners: "35M",
     speakers: "260M native",
-    difficulty: "Easy-Moderate",
-    description: "Spoken across four continents, Portuguese offers access to Brazil's vibrant culture and economy, Portugal's historic charm, and lusophone Africa. Available in European (PT-PT) and Brazilian (PT-BR) variants.",
     highlights: ["Romance language roots", "Two major variants", "Growing economic importance", "Musical language", "Colonial history"],
 
     resources: {
@@ -20,7 +18,6 @@ const portugueseResources = {
                     {
                         name: "MIT OpenCourseWare",
                         url: "https://ocw.mit.edu/courses/21g-801-portuguese-i-fall-2011/",
-                        description: "Complete university-level Portuguese course",
                         level: "Beginner",
                         features: ["Full semester materials", "Assignments", "Reading lists"],
                         free: true
@@ -28,7 +25,6 @@ const portugueseResources = {
                     {
                         name: "Loecsen",
                         url: "https://www.loecsen.com/en/learn-portuguese",
-                        description: "Essential vocabulary with voice recognition",
                         level: "Beginner",
                         features: ["Travel-focused", "Voice recognition tool"],
                         free: true
@@ -36,7 +32,6 @@ const portugueseResources = {
                     {
                         name: "Alison Portuguese",
                         url: "https://alison.com/course/portuguese-for-beginners",
-                        description: "Video-based beginner course",
                         level: "Beginner",
                         features: ["Free certificate upon 80% completion"],
                         free: true
@@ -44,7 +39,6 @@ const portugueseResources = {
                     {
                         name: "FutureLearn",
                         url: "https://www.futurelearn.com/courses/lets-learn-portuguese-language",
-                        description: "2-week university course",
                         level: "Beginner",
                         features: ["Free audit mode", "Universiti Malaya backing"],
                         free: true
@@ -52,7 +46,6 @@ const portugueseResources = {
                     {
                         name: "Cursa",
                         url: "https://cursa.app/free-courses-portuguese-online",
-                        description: "Multiple courses with free certificates",
                         level: "Various",
                         features: ["Completely free including certificates"],
                         free: true
@@ -65,7 +58,6 @@ const portugueseResources = {
                     {
                         name: "Instituto Camões",
                         url: "https://www.instituto-camoes.pt/en/activity-camoes/what-we-do/learn-portuguese",
-                        description: "Official Portuguese cultural institute",
                         level: "All levels",
                         features: ["Cultural immersion", "Worldwide centers"],
                         free: true
@@ -78,7 +70,6 @@ const portugueseResources = {
                     {
                         name: "Talk Portuguese (BBC)",
                         url: "https://www.bbc.co.uk/languages/portuguese/talk/",
-                        description: "BBC's Portuguese starter course",
                         level: "Beginner",
                         features: ["10 lessons", "Real-world situations"],
                         free: true
@@ -86,7 +77,6 @@ const portugueseResources = {
                     {
                         name: "European Portuguese Online",
                         url: "https://www.practiceportuguese.com/",
-                        description: "Focused on European Portuguese",
                         level: "All levels",
                         features: ["PT-PT specific", "Learning tools"],
                         free: false
@@ -94,7 +84,6 @@ const portugueseResources = {
                     {
                         name: "Semantica Portuguese",
                         url: "https://www.semantica-portuguese.com/",
-                        description: "Video-based immersion method",
                         level: "All levels",
                         features: ["Story-based learning", "Natural speech"],
                         free: false
@@ -102,7 +91,6 @@ const portugueseResources = {
                     {
                         name: "Portuguese Lab",
                         url: "https://www.portugueselab.com/",
-                        description: "Comprehensive online school",
                         level: "All levels",
                         features: ["Structured curriculum", "Progress tracking"],
                         free: false
@@ -118,7 +106,6 @@ const portugueseResources = {
                     {
                         name: "FSI Portuguese Courses",
                         url: "https://www.livelingua.com/fsi/FSI%20-%20Portuguese%20FAST%20-%20Student%20Text.pdf",
-                        description: "US State Department's comprehensive course",
                         level: "Beginner to Intermediate",
                         features: ["450+ pages", "Audio included", "Both variants"],
                         free: true
@@ -126,7 +113,6 @@ const portugueseResources = {
                     {
                         name: "Português para Estrangeiros",
                         url: "https://www.portugues.com.br/",
-                        description: "Portuguese for foreigners textbook",
                         level: "Beginner-Intermediate",
                         features: ["PT-BR focus", "Exercises included"],
                         free: true
@@ -134,7 +120,6 @@ const portugueseResources = {
                     {
                         name: "Portuguese Grammar Guide",
                         url: "https://www.portuguesepedia.com/",
-                        description: "Complete grammar reference",
                         level: "All levels",
                         features: ["Detailed explanations", "Examples"],
                         free: true
@@ -147,7 +132,6 @@ const portugueseResources = {
                     {
                         name: "Machado de Assis Works",
                         url: "https://www.dominiopublico.gov.br/",
-                        description: "Classic Brazilian literature",
                         level: "Advanced",
                         features: ["Public domain", "Cultural classics"],
                         free: true
@@ -155,7 +139,6 @@ const portugueseResources = {
                     {
                         name: "Project Gutenberg Portuguese",
                         url: "https://www.gutenberg.org/browse/languages/pt",
-                        description: "Free Portuguese ebooks",
                         level: "Intermediate-Advanced",
                         features: ["Classic literature", "Various formats"],
                         free: true
@@ -163,7 +146,6 @@ const portugueseResources = {
                     {
                         name: "Biblioteca Nacional Digital",
                         url: "http://bndigital.bn.gov.br/",
-                        description: "Brazilian National Library",
                         level: "All levels",
                         features: ["Historical documents", "Literature"],
                         free: true
@@ -179,7 +161,6 @@ const portugueseResources = {
                     {
                         name: "Todo Mundo Pod",
                         url: "https://www.todomundopod.com/",
-                        description: "Portuguese conversations for learners",
                         level: "Beginner-Intermediate",
                         features: ["Slow speech", "Transcripts"],
                         free: true
@@ -187,7 +168,6 @@ const portugueseResources = {
                     {
                         name: "Falar Português",
                         url: "https://www.rtp.pt/play/",
-                        description: "RTP's Portuguese learning podcast",
                         level: "All levels",
                         features: ["PT-PT", "Official broadcaster"],
                         free: true
@@ -200,7 +180,6 @@ const portugueseResources = {
                     {
                         name: "Portuguese With Leo",
                         url: "https://www.youtube.com/@PortugueseWithLeo",
-                        description: "European Portuguese lessons",
                         level: "Beginner-Intermediate",
                         features: ["Engaging style", "Practical topics"],
                         free: true
@@ -208,7 +187,6 @@ const portugueseResources = {
                     {
                         name: "Speaking Brazilian",
                         url: "https://www.youtube.com/@SpeakingBrazilian",
-                        description: "Brazilian Portuguese channel",
                         level: "All levels",
                         features: ["PT-BR focus", "Grammar explanations"],
                         free: true
@@ -216,7 +194,6 @@ const portugueseResources = {
                     {
                         name: "Portuguese Lab Academy",
                         url: "https://www.youtube.com/@portugueselab",
-                        description: "Comprehensive Portuguese lessons",
                         level: "All levels",
                         features: ["Both variants", "Structured lessons"],
                         free: true
@@ -229,7 +206,6 @@ const portugueseResources = {
                     {
                         name: "Lyrics Training Portuguese",
                         url: "https://lyricstraining.com/pt",
-                        description: "Learn through music",
                         level: "All levels",
                         features: ["Interactive", "Fun learning"],
                         free: true
@@ -237,7 +213,6 @@ const portugueseResources = {
                     {
                         name: "RTP Play",
                         url: "https://www.rtp.pt/play/",
-                        description: "Portuguese national TV",
                         level: "Intermediate-Advanced",
                         features: ["PT-PT content", "News and shows"],
                         free: true
@@ -245,7 +220,6 @@ const portugueseResources = {
                     {
                         name: "Globoplay",
                         url: "https://globoplay.globo.com/",
-                        description: "Brazilian TV and streaming",
                         level: "Intermediate-Advanced",
                         features: ["PT-BR content", "Telenovelas"],
                         free: false
@@ -264,7 +238,6 @@ const portugueseResources = {
                     {
                         name: "MyLanguageExchange",
                         url: "https://www.mylanguageexchange.com/",
-                        description: "Voice/video chat with native speakers",
                         level: "All levels",
                         features: ["Lesson plans", "AI tools", "Safe environment"],
                         free: true
@@ -277,7 +250,6 @@ const portugueseResources = {
                     {
                         name: "italki",
                         url: "https://www.italki.com/en/teachers/portuguese",
-                        description: "Professional tutors and community teachers",
                         level: "All levels",
                         features: ["1-on-1 lessons", "Flexible scheduling", "Both variants"],
                         free: false
@@ -285,7 +257,6 @@ const portugueseResources = {
                     {
                         name: "Preply",
                         url: "https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE",
-                        description: "Online Portuguese tutors",
                         level: "All levels",
                         features: ["Personalized lessons", "Trial lessons"],
                         free: false
@@ -303,7 +274,6 @@ const portugueseResources = {
                     {
                         name: "r/Portuguese (Reddit)",
                         url: "https://www.reddit.com/r/Portuguese/",
-                        description: "Active Portuguese learning community",
                         level: "All levels",
                         features: ["Daily practice", "Resource sharing", "Both variants"],
                         free: true
@@ -311,7 +281,6 @@ const portugueseResources = {
                     {
                         name: "Portuguese Language Stack Exchange",
                         url: "https://portuguese.stackexchange.com/",
-                        description: "Q&A for Portuguese learners",
                         level: "Intermediate-Advanced",
                         features: ["Detailed answers", "Voting system"],
                         free: true

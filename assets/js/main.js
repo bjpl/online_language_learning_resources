@@ -188,12 +188,7 @@ const LanguageHub = (function() {
                     <span class="stat-value">${language.speakers}</span>
                     <span class="stat-label">Speakers</span>
                 </div>
-                <div class="stat">
-                    <span class="stat-value">${language.difficulty}</span>
-                    <span class="stat-label">Difficulty</span>
-                </div>
             </div>
-            <p class="language-description">${language.description}</p>
             <a href="language.html?lang=${key}" class="language-link">
                 Explore ${resourceCount}+ resources
                 <svg width="16" height="16" viewBox="0 0 16 16">

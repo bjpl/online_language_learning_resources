@@ -25,7 +25,6 @@
         document.getElementById('language-flag').textContent = language.flag;
         document.getElementById('language-title').textContent = `${language.name} Learning Resources`;
         document.getElementById('language-native').textContent = language.nativeName;
-        document.getElementById('language-description').textContent = language.description;
 
         // Update page title
         document.title = `${language.name} Resources - Language Learning Hub`;
