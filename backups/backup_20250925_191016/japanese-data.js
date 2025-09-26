@@ -134,49 +134,80 @@
                 }
             ],
 
-            apps: [{
+            apps: [
+                {
+                    name: 'Anki',
+                    url: 'https://ankiweb.net/',
+                    description: 'Spaced repetition flashcard system',
+                    free: true,
+                    platform: 'All platforms',
+                    features: ['Customizable', 'Community decks', 'Proven effectiveness']
+                },
+                {
                     name: 'WaniKani',
                     url: 'https://www.wanikani.com/',
                     description: 'Kanji and vocabulary learning system',
                     free: false,
                     platform: 'Web, iOS, Android',
                     features: ['Free first 3 levels', 'Mnemonics', '2000+ kanji']
-                }, {
+                },
+                {
+                    name: 'Memrise',
+                    url: 'https://www.memrise.com/en/learn-japanese',
+                    description: 'Community-created Japanese courses',
+                    free: true,
+                    platform: 'iOS, Android, Web',
+                    features: ['Free basic version', 'Spaced repetition', 'Native speaker videos']
+                },
+                {
+                    name: 'Clozemaster',
+                    url: 'https://www.clozemaster.com/',
+                    description: 'Vocabulary learning in context',
+                    free: true,
+                    platform: 'Web, Mobile',
+                    features: ['Free 30 sentences/day', 'Gamified learning', 'Context-based']
+                },
+                {
                     name: 'Drops Japanese',
                     url: 'https://languagedrops.com/',
                     description: 'Visual vocabulary learning',
                     free: true,
                     platform: 'iOS, Android',
                     features: ['Free 5 minutes/day', 'Beautiful illustrations', 'Quick sessions']
-                }, {
+                },
+                {
                     name: 'Kanji Memory Hint',
                     url: 'App stores',
                     description: 'Japan Foundation\'s kanji learning apps',
                     free: true,
                     platform: 'iOS, Android',
                     features: ['Mnemonic pictures', 'Stroke order', 'Official resource']
-                }, {
+                },
+                {
                     name: 'Todaii/Easy Japanese News',
                     url: 'App stores',
                     description: 'News reading app with dictionary',
                     free: true,
                     platform: 'iOS, Android',
                     features: ['Daily articles', 'JLPT levels', 'Furigana toggle']
-                }, {
+                },
+                {
                     name: 'Renshuu',
                     url: 'https://www.renshuu.org/',
                     description: 'Comprehensive study platform',
                     free: true,
                     platform: 'Web, Mobile',
                     features: ['Free version available', 'Community features', 'Games']
-                }, {
+                },
+                {
                     name: 'Real Kana',
                     url: 'https://realkana.com/',
                     description: 'Hiragana/Katakana practice',
                     free: true,
                     platform: 'Web',
                     features: ['Customizable drills', 'Font variations', 'No signup']
-                }, {
+                },
+                {
                     name: 'Kanji Study',
                     url: 'Web/Apps',
                     description: 'Comprehensive kanji learning tools',

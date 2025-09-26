@@ -134,6 +134,22 @@ languageData.italian = {
                 features: ["100% free core content", "Mobile offline mode", "Speech recognition", "Stories feature"]
             },
             {
+                name: "Anki",
+                url: "https://apps.ankiweb.net",
+                description: "Open source spaced repetition flashcards",
+                free: true,
+                level: "A1-C2",
+                features: ["Customizable", "Sync across devices", "Extensive Italian decks"]
+            },
+            {
+                name: "HelloTalk",
+                url: "https://www.hellotalk.com",
+                description: "Language exchange with native speakers",
+                free: true,
+                level: "A1-C2",
+                features: ["Chat and voice calls", "Correction tools", "Moments feature"]
+            },
+            {
                 name: "Language Reactor",
                 url: "https://www.languagereactor.com",
                 description: "Dual subtitles for Netflix/YouTube",
@@ -197,7 +213,6 @@ languageData.italian = {
                 level: "All levels",
                 features: ["Browser extensions", "API access", "Style suggestions"]
             }
-        
         ],
 
         books: [

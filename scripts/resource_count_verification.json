@@ -1,0 +1,143 @@
+{
+  "total": 161,
+  "by_type": {
+    "courses": 25,
+    "apps": 99,
+    "books": 33,
+    "audio": 4,
+    "practice": 0
+  },
+  "by_language": {
+    "Dutch": {
+      "total": 0,
+      "breakdown": {
+        "courses": 0,
+        "apps": 0,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Danish": {
+      "total": 0,
+      "breakdown": {
+        "courses": 0,
+        "apps": 0,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Portuguese": {
+      "total": 0,
+      "breakdown": {
+        "courses": 0,
+        "apps": 0,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Italian": {
+      "total": 11,
+      "breakdown": {
+        "courses": 0,
+        "apps": 11,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Indonesian": {
+      "total": 9,
+      "breakdown": {
+        "courses": 0,
+        "apps": 9,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Korean": {
+      "total": 9,
+      "breakdown": {
+        "courses": 0,
+        "apps": 9,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Hindi": {
+      "total": 74,
+      "breakdown": {
+        "courses": 25,
+        "apps": 20,
+        "books": 25,
+        "audio": 4,
+        "practice": 0
+      }
+    },
+    "Swahili": {
+      "total": 19,
+      "breakdown": {
+        "courses": 0,
+        "apps": 11,
+        "books": 8,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Japanese": {
+      "total": 10,
+      "breakdown": {
+        "courses": 0,
+        "apps": 10,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Swedish": {
+      "total": 10,
+      "breakdown": {
+        "courses": 0,
+        "apps": 10,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Finnish": {
+      "total": 6,
+      "breakdown": {
+        "courses": 0,
+        "apps": 6,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Polish": {
+      "total": 6,
+      "breakdown": {
+        "courses": 0,
+        "apps": 6,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    },
+    "Vietnamese": {
+      "total": 7,
+      "breakdown": {
+        "courses": 0,
+        "apps": 7,
+        "books": 0,
+        "audio": 0,
+        "practice": 0
+      }
+    }
+  },
+  "timestamp": "2025-09-25"
+}

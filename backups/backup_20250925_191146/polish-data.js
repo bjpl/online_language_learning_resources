@@ -123,7 +123,48 @@
                 }
             ],
 
-            apps: [{
+            apps: [
+                {
+                    name: "Duolingo",
+                    url: "https://www.duolingo.com/",
+                    description: "Full course with ads, 43 units, 402 crowns",
+                    level: "A1-A2",
+                    free: true,
+                    features: ["Mobile app", "Web version", "Stories feature", "Leagues system"]
+                },
+                {
+                    name: "Clozemaster",
+                    url: "https://www.clozemaster.com/",
+                    description: "30 sentences/day free, 10,000+ sentences yearly",
+                    level: "A2-C1",
+                    free: true,
+                    features: ["Context learning", "Spaced repetition", "Grammar challenges", "Progress tracking"]
+                },
+                {
+                    name: "Memrise",
+                    url: "https://www.memrise.com/",
+                    description: "Basic vocabulary courses, Polish 1-7 series",
+                    level: "A1-B2",
+                    free: true,
+                    features: ["Video clips", "Native speakers", "Offline mode", "Community courses"]
+                },
+                {
+                    name: "Drops",
+                    url: "https://languagedrops.com/",
+                    description: "5 minutes daily free, 2,000+ words, 45+ topics",
+                    level: "A1-B1",
+                    free: true,
+                    features: ["Visual learning", "5-min sessions", "Minimalist design", "Topic-based"]
+                },
+                {
+                    name: "Anki",
+                    url: "https://ankiweb.net/",
+                    description: "Completely free flashcard system with Polish decks",
+                    level: "A1-C2",
+                    free: true,
+                    features: ["Thousands of decks", "Custom cards", "Spaced repetition", "Cross-platform"]
+                },
+                {
                     name: "LingoHut",
                     url: "https://www.lingohut.com/",
                     description: "125+ lessons completely free, browser-based",

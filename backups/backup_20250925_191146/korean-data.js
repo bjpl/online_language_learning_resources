@@ -158,12 +158,44 @@ languageData.korean = {
                 features: ["2200+ words", "Completely free core", "Mobile/web sync"]
             },
             {
+                name: "LingoDeer",
+                url: "https://www.lingodeer.com/",
+                description: "Korean-specific structure designed by language teachers",
+                free: true,
+                level: "Beginner to Intermediate (A1-B1)",
+                features: ["Asian language focus", "Detailed grammar explanations", "Offline mode"]
+            },
+            {
                 name: "Drops Korean",
                 url: "https://languagedrops.com/",
                 description: "Vocabulary-only focus with visual associations",
                 free: true,
                 level: "Beginner to Intermediate",
                 features: ["2700+ words", "150+ topics", "5 min daily free"]
+            },
+            {
+                name: "Memrise",
+                url: "https://www.memrise.com/",
+                description: "Native speaker videos with AI language partner",
+                free: true,
+                level: "Beginner to Intermediate",
+                features: ["Real content immersion", "Spaced repetition", "Community courses"]
+            },
+            {
+                name: "HelloTalk",
+                url: "https://www.hellotalk.com/",
+                description: "Language exchange with 2M+ Korean speakers",
+                free: true,
+                level: "All levels",
+                features: ["Translation tools", "Social feed", "Voice/video chat"]
+            },
+            {
+                name: "Anki",
+                url: "https://apps.ankiweb.net/",
+                description: "Flashcard system with Korean decks",
+                free: true,
+                level: "All levels",
+                features: ["Joseph's Korean 11K deck", "Spaced repetition", "Custom decks"]
             },
             {
                 name: "Naver Dictionary/Papago",
@@ -180,8 +212,15 @@ languageData.korean = {
                 free: true,
                 level: "All levels",
                 features: ["Step-by-step explanations", "Irregular verbs", "Offline capability"]
+            },
+            {
+                name: "Tandem",
+                url: "https://www.tandem.net/",
+                description: "Language exchange app with 28,289+ in Korea",
+                free: true,
+                level: "All levels",
+                features: ["Location search", "Tutor marketplace", "Video chat"]
             }
-        
         ],
 
         books: [

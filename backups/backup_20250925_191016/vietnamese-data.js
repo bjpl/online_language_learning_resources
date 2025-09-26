@@ -106,35 +106,56 @@
                 }
             ],
 
-            apps: [{
+            apps: [
+                {
+                    name: "Anki",
+                    url: "https://apps.ankiweb.net/",
+                    description: "Spaced repetition flashcards with Vietnamese decks",
+                    level: "All levels",
+                    free: true,
+                    features: ["Desktop free", "Community decks", "Spaced repetition", "Custom cards"]
+                },
+                {
                     name: "Drops Vietnamese",
                     url: "https://languagedrops.com/",
                     description: "Visual vocabulary learning",
                     level: "Beginner to Intermediate",
                     free: true,
                     features: ["5 minutes/day free", "Beautiful graphics", "Visual learning", "Topic-based"]
-                }, {
+                },
+                {
                     name: "Memrise Vietnamese",
                     url: "https://www.memrise.com/",
                     description: "Official course + community courses",
                     level: "Beginner to Intermediate",
                     free: true,
                     features: ["Native speaker videos", "Spaced repetition", "Community content", "Mobile app"]
-                }, {
+                },
+                {
                     name: "Vietnamese by Nemo",
                     url: "iOS/Android app stores",
                     description: "Essential phrases app",
                     level: "Beginner",
                     free: true,
                     features: ["Basic version free", "Offline capable", "Audio pronunciation", "Travel focus"]
-                }, {
+                },
+                {
+                    name: "Mondly",
+                    url: "https://www.mondly.com/",
+                    description: "AR/VR integration, chatbots",
+                    level: "Beginner to Advanced",
+                    free: true,
+                    features: ["Basic lessons free", "Speech recognition", "AR/VR features", "Chatbot practice"]
+                },
+                {
                     name: "Digital Dialects",
                     url: "https://www.digitaldialects.com/Vietnamese.htm",
                     description: "Browser-based vocabulary games",
                     level: "Beginner",
                     free: true,
                     features: ["Free vocabulary games", "Alphabet games", "No registration", "Immediate feedback"]
-                }, {
+                },
+                {
                     name: "UniKey",
                     url: "https://www.unikey.org/",
                     description: "Vietnamese input method",

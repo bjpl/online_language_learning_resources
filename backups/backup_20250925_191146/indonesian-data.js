@@ -142,12 +142,28 @@ languageData.indonesian = {
                 features: ["2600+ illustrated words", "100% free content", "5-minute sessions"]
             },
             {
+                name: "Anki",
+                url: "https://ankiweb.net/",
+                description: "Flashcard system with Indonesian decks",
+                free: true,
+                level: "All levels",
+                features: ["Spaced repetition", "Customizable", "Sync across devices"]
+            },
+            {
                 name: "Language Reactor",
                 url: "https://www.languagereactor.com/",
                 description: "Browser extension for video learning",
                 free: true,
                 level: "All levels",
                 features: ["Netflix/YouTube subtitles", "Popup dictionary", "Dual subtitles"]
+            },
+            {
+                name: "Readlang",
+                url: "https://readlang.com/",
+                description: "Click-to-translate reading",
+                free: true,
+                level: "All levels",
+                features: ["Flashcard creation", "Web reader", "Chrome extension"]
             },
             {
                 name: "Indonesian Keyboard",
@@ -173,7 +189,6 @@ languageData.indonesian = {
                 level: "All levels",
                 features: ["10 voices", "MP3 download", "Pitch control"]
             }
-        
         ],
 
         books: [

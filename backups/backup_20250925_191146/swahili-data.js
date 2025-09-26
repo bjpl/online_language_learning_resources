@@ -97,28 +97,88 @@
                 }
             ],
 
-            apps: [{
+            apps: [
+                {
+                    name: 'Duolingo',
+                    url: 'https://www.duolingo.com',
+                    description: 'Full gamified Swahili course',
+                    free: true,
+                    platform: 'iOS, Android, Web',
+                    features: ['Offline lessons', 'Streak system', 'Core course free']
+                },
+                {
+                    name: 'Memrise',
+                    url: 'https://www.memrise.com',
+                    description: 'Community-created Swahili flashcards',
+                    free: true,
+                    platform: 'iOS, Android, Web',
+                    features: ['Spaced repetition', 'Native videos', 'Community courses']
+                },
+                {
                     name: 'Anki Swahili Decks',
                     url: 'https://apps.ankiweb.net',
                     description: 'Various vocabulary sets (100-5000+ words)',
                     free: true,
                     platform: 'Desktop, Mobile',
                     features: ['SRS algorithm', 'Customizable', 'Desktop free']
-                }, {
+                },
+                {
+                    name: '50Languages',
+                    url: 'https://www.50languages.com',
+                    description: 'Basic Swahili vocabulary and phrases',
+                    free: true,
+                    platform: 'iOS, Android',
+                    features: ['Native audio', 'Offline mode']
+                },
+                {
+                    name: 'HelloTalk',
+                    url: 'https://www.hellotalk.com',
+                    description: 'Language exchange platform with 40+ million users',
+                    free: true,
+                    platform: 'iOS, Android',
+                    features: ['Text/voice/video chat', 'Corrections', '150+ languages']
+                },
+                {
+                    name: 'Tandem',
+                    url: 'https://tandem.net',
+                    description: 'Swipe-based language partner matching',
+                    free: true,
+                    platform: 'iOS, Android',
+                    features: ['Video calls', 'Corrections', 'Basic features free']
+                },
+                {
                     name: 'Language Transfer App',
                     url: 'https://www.languagetransfer.org',
                     description: 'Complete Swahili audio course app',
                     free: true,
                     platform: 'iOS, Android',
                     features: ['Michel Thomas method', 'Offline access', 'Logic-based']
-                }, {
+                },
+                {
+                    name: 'Google Translate',
+                    url: 'https://translate.google.com',
+                    description: 'Machine translation with Swahili support',
+                    free: true,
+                    platform: 'iOS, Android, Web',
+                    features: ['108 languages', 'Camera translation', 'Offline mode']
+                },
+                {
+                    name: 'Busuu',
+                    url: 'https://www.busuu.com',
+                    description: 'Structured Swahili lessons',
+                    free: false,
+                    platform: 'iOS, Android, Web',
+                    features: ['Native speaker feedback', 'Limited free tier']
+                },
+                {
                     name: 'Learn Swahili - Speak Language',
                     url: 'https://play.google.com/store',
                     description: 'Basic Swahili learning app',
                     free: true,
                     platform: 'Android',
                     features: ['Phrases', 'Vocabulary', 'Pronunciation']
-                }, {
+                },
+                {
                     name: 'Swahili Dictionary',
                     url: 'https://swahili-dictionary.com',
                     description: 'Mobile dictionary app',

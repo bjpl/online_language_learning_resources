@@ -206,98 +206,147 @@
             ],
 
             apps: [
-            {
+                {
+                    name: 'Duolingo',
+                    url: 'https://www.duolingo.com',
+                    description: 'Popular language learning app with Hindi course',
+                    free: true,
+                    platform: 'iOS, Android, Web'
+                },
+                {
                     name: 'Drops Hindi',
                     url: 'https://languagedrops.com',
                     description: 'Visual vocabulary builder for Hindi',
                     free: false,
                     platform: 'iOS, Android'
                 },
-            {
+                {
+                    name: 'HelloTalk',
+                    url: 'https://www.hellotalk.com',
+                    description: 'Language exchange app with Hindi speakers',
+                    free: true,
+                    platform: 'iOS, Android'
+                },
+                {
                     name: 'Simply Learn Hindi',
                     url: 'https://simplylearnapps.com',
                     description: 'Hindi phrasebook and learning app',
                     free: true,
                     platform: 'iOS, Android'
                 },
-            {
+                {
+                    name: 'Tandem',
+                    url: 'https://www.tandem.net',
+                    description: 'Language exchange with Hindi native speakers',
+                    free: true,
+                    platform: 'iOS, Android'
+                },
+                {
+                    name: 'Google Translate',
+                    url: 'https://translate.google.com',
+                    description: 'Translation app with Hindi support and offline mode',
+                    free: true,
+                    platform: 'iOS, Android, Web'
+                },
+                {
+                    name: 'Microsoft Translator',
+                    url: 'https://translator.microsoft.com',
+                    description: 'Multi-platform translator with Hindi',
+                    free: true,
+                    platform: 'iOS, Android, Web'
+                },
+                {
+                    name: 'Anki',
+                    url: 'https://apps.ankiweb.net',
+                    description: 'Flashcard app with shared Hindi decks',
+                    free: true,
+                    platform: 'iOS, Android, Desktop'
+                },
+                {
                     name: 'Clozemaster Hindi',
                     url: 'https://www.clozemaster.com',
                     description: 'Gamified Hindi learning through context',
                     free: true,
                     platform: 'iOS, Android, Web'
                 },
-            {
+                {
                     name: 'LingQ Hindi',
                     url: 'https://www.lingq.com',
                     description: 'Learn Hindi through reading and listening',
                     free: false,
                     platform: 'iOS, Android, Web'
                 },
-            {
+                {
+                    name: 'Beelinguapp',
+                    url: 'https://www.beelinguapp.com',
+                    description: 'Learn Hindi through bilingual stories',
+                    free: false,
+                    platform: 'iOS, Android'
+                },
+                {
                     name: 'Ling Hindi',
                     url: 'https://ling-app.com',
                     description: 'Gamified Hindi lessons and exercises',
                     free: false,
                     platform: 'iOS, Android'
                 },
-            {
+                {
                     name: 'Learn Hindi - Bhasha.io',
                     url: 'https://bhasha.io',
                     description: 'AI-powered Hindi learning app',
                     free: false,
                     platform: 'Web, Mobile'
                 },
-            {
+                {
                     name: 'Hindi Script Tutor',
                     url: 'https://play.google.com/store',
                     description: 'Learn to write Devanagari script',
                     free: true,
                     platform: 'Android'
                 },
-            {
+                {
                     name: 'Write It! Hindi',
                     url: 'https://apps.apple.com',
                     description: 'Practice writing Hindi characters',
                     free: true,
                     platform: 'iOS, Android'
                 },
-            {
+                {
                     name: 'Hindi Alphabet',
                     url: 'https://play.google.com/store',
                     description: 'Learn Devanagari alphabet basics',
                     free: true,
                     platform: 'Android'
                 },
-            {
+                {
                     name: 'Nemo Hindi',
                     url: 'https://www.nemoapps.com',
                     description: 'Essential Hindi words and phrases',
                     free: true,
                     platform: 'iOS, Android'
                 },
-            {
+                {
                     name: 'uTalk Hindi',
                     url: 'https://utalk.com',
                     description: 'Learn to speak Hindi with games',
                     free: false,
                     platform: 'iOS, Android'
                 },
-            {
+                {
                     name: 'Learn Hindi - MindSnacks',
                     url: 'https://www.mindsnacks.com',
                     description: 'Hindi learning through mini-games',
                     free: false,
                     platform: 'iOS'
                 },
-            {
+                {
                     name: 'Hindi by Spokenmate',
                     url: 'https://spokenmate.com',
                     description: 'Conversational Hindi practice',
                     free: false,
                     platform: 'iOS, Android'
                 }
-        ],
+            ],
 
             books: [
                 {

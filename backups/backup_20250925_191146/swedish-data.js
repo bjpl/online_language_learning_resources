@@ -105,14 +105,80 @@
                 }
             ],
 
-            apps: [{
+            apps: [
+                {
+                    name: 'Duolingo',
+                    url: 'https://www.duolingo.com/',
+                    description: 'Most popular language learning app',
+                    free: true,
+                    platform: 'Web/iOS/Android',
+                    features: ['Completely free core', 'Gamification', 'Offline mode']
+                },
+                {
+                    name: 'Memrise',
+                    url: 'https://www.memrise.com/',
+                    description: 'Video-based vocabulary learning',
+                    free: true,
+                    platform: 'Web/iOS/Android',
+                    features: ['Free tier', 'Native speaker videos', 'Spaced repetition']
+                },
+                {
                     name: 'Anki + Swedish Decks',
                     url: 'https://ankiweb.net/shared/decks?search=Swedish',
                     description: 'Flashcard system with shared decks',
                     free: true,
                     platform: 'All platforms',
                     features: ['Free', 'Thousands of shared decks', 'Customizable']
-                }, {
+                },
+                {
+                    name: 'Beelinguapp',
+                    url: 'https://beelinguapp.com/',
+                    description: 'Parallel text stories with audio',
+                    free: true,
+                    platform: 'iOS/Android',
+                    features: ['Free tier', 'Audiobooks', 'Karaoke-style reading']
+                },
+                {
+                    name: 'Clozemaster',
+                    url: 'https://www.clozemaster.com/',
+                    description: 'Context-based learning game',
+                    free: true,
+                    platform: 'Web/Mobile',
+                    features: ['Free 30 sentences/day', 'Gamified', 'Cloze deletion']
+                },
+                {
+                    name: 'LingQ',
+                    url: 'https://www.lingq.com/',
+                    description: 'Import and learn content',
+                    free: true,
+                    platform: 'All platforms',
+                    features: ['Free tier limited', 'Create lessons from any content']
+                },
+                {
+                    name: 'Drops',
+                    url: 'https://languagedrops.com/language/learn-swedish',
+                    description: 'Visual vocabulary builder',
+                    free: true,
+                    platform: 'iOS/Android',
+                    features: ['Free 5 min/day', 'Beautiful illustrations', 'Quick sessions']
+                },
+                {
+                    name: 'HelloTalk',
+                    url: 'https://www.hellotalk.com/',
+                    description: 'Language exchange app',
+                    free: true,
+                    platform: 'iOS/Android',
+                    features: ['25M+ users', 'Translation tools', 'Voice/video chat']
+                },
+                {
+                    name: 'Tandem',
+                    url: 'https://tandem.net/',
+                    description: 'Language partner matching',
+                    free: true,
+                    platform: 'iOS/Android',
+                    features: ['550+ Swedish speakers in Stockholm', 'Video calls', 'Corrections']
+                },
+                {
                     name: 'Hej svenska!',
                     url: 'Via Informationsverige.se',
                     description: 'Official government app',

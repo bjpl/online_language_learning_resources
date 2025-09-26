@@ -13,7 +13,9 @@ const languageData = {
         description: "The language of innovation and trade, Dutch opens doors to the Netherlands and Belgium's progressive societies.",
         highlights: ["Germanic roots", "Phonetic spelling", "Business language"],
         resources: {
-            apps: [{ name: "Duolingo Dutch", url: "https://www.duolingo.com/", description: "Complete free course from A1-B1", free: true }, { name: "NT2 TaalMenu", url: "https://nt2taalmenu.nl/", description: "Integration exam preparation", free: true }
+            apps: [
+                { name: "Duolingo Dutch", url: "https://www.duolingo.com/", description: "Complete free course from A1-B1", free: true },
+                { name: "NT2 TaalMenu", url: "https://nt2taalmenu.nl/", description: "Integration exam preparation", free: true }
             ],
             courses: [
                 { name: "University of Groningen MOOC", url: "https://www.futurelearn.com/courses/dutch", description: "Award-winning free course", free: true }
@@ -51,7 +53,9 @@ const languageData = {
         description: "Gateway to Brazil's vibrant culture and Portugal's historic charm, with resources for both variants.",
         highlights: ["Two major variants (PT-PT & PT-BR)", "Romance language roots", "Growing economic importance"],
         resources: {
-            apps: [],
+            apps: [
+                { name: "Duolingo", url: "https://www.duolingo.com/", description: "Gamified Brazilian Portuguese", free: true }
+            ],
             courses: [
                 { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu/", description: "Complete university course", free: true }
             ]

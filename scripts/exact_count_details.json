@@ -1,0 +1,172 @@
+{
+  "total": 32,
+  "by_type": {
+    "apps": 32,
+    "courses": 0,
+    "books": 0,
+    "audio": 0,
+    "practice": 0
+  },
+  "resources": [
+    {
+      "type": "apps",
+      "name": "Duolingo",
+      "file": "dutch-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "GroVo Danish",
+      "file": "danish-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Duolingo",
+      "file": "portuguese-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Duolingo Italian",
+      "file": "italian-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Duolingo App",
+      "file": "indonesian-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Duolingo Korean",
+      "file": "korean-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Duolingo",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Drops Hindi",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "HelloTalk",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Simply Learn Hindi",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Tandem",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Google Translate",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Microsoft Translator",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Anki",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Clozemaster Hindi",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "LingQ Hindi",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Beelinguapp",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Ling Hindi",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Learn Hindi - Bhasha.io",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Hindi Script Tutor",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Write It! Hindi",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Hindi Alphabet",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Nemo Hindi",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "uTalk Hindi",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Learn Hindi - MindSnacks",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Hindi by Spokenmate",
+      "file": "hindi-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Duolingo",
+      "file": "swahili-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Anki",
+      "file": "japanese-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Duolingo",
+      "file": "swedish-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Anki with Finnish Decks",
+      "file": "finnish-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Duolingo",
+      "file": "polish-data.js"
+    },
+    {
+      "type": "apps",
+      "name": "Anki",
+      "file": "vietnamese-data.js"
+    }
+  ]
+}

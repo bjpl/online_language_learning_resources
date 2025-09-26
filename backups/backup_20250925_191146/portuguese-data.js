@@ -255,6 +255,70 @@ const portugueseResources = {
         ],
 
         apps: [
+            {
+                name: "Duolingo",
+                url: "https://www.duolingo.com/",
+                description: "Gamified Brazilian Portuguese course",
+                level: "Beginner-Intermediate",
+                features: ["Mobile app", "Web version", "Stories feature"],
+                free: true
+            },
+            {
+                name: "Memrise",
+                url: "https://www.memrise.com/",
+                description: "Community-created Portuguese courses",
+                level: "All levels",
+                features: ["Spaced repetition", "Video clips", "Both variants"],
+                free: true
+            },
+            {
+                name: "Busuu",
+                url: "https://www.busuu.com/",
+                description: "Structured Portuguese course",
+                level: "A1-B2",
+                features: ["AI feedback", "Certificates", "Community"],
+                free: false
+            },
+            {
+                name: "Babbel",
+                url: "https://www.babbel.com/",
+                description: "Professional Portuguese courses",
+                level: "Beginner-Intermediate",
+                features: ["PT-BR focus", "Practical phrases"],
+                free: false
+            },
+            {
+                name: "Drops",
+                url: "https://languagedrops.com/",
+                description: "Visual vocabulary learning",
+                level: "Beginner",
+                features: ["5-minute sessions", "Visual learning"],
+                free: true
+            },
+            {
+                name: "LingQ",
+                url: "https://www.lingq.com/",
+                description: "Reading-focused app",
+                level: "All levels",
+                features: ["Import content", "Extensive library"],
+                free: false
+            },
+            {
+                name: "Mondly",
+                url: "https://www.mondly.com/",
+                description: "AR and VR language learning",
+                level: "All levels",
+                features: ["Innovative tech", "Both variants"],
+                free: false
+            },
+            {
+                name: "Pimsleur",
+                url: "https://www.pimsleur.com/",
+                description: "Audio-based method",
+                level: "All levels",
+                features: ["30-minute lessons", "Proven method"],
+                free: false
+            }
         ],
 
         practice: [

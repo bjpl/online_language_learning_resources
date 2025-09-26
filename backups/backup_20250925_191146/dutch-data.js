@@ -240,6 +240,38 @@ const dutchResources = {
 
         apps: [
             {
+                name: "Duolingo",
+                url: "https://www.duolingo.com/",
+                description: "Most popular language app",
+                level: "A1-B1",
+                features: ["Completely free core content", "Web/iOS/Android"],
+                free: true
+            },
+            {
+                name: "Memrise",
+                url: "https://www.memrise.com/en/learn-dutch",
+                description: "Native speaker videos, AI partner",
+                level: "All levels",
+                features: ["Free version available", "Spaced repetition"],
+                free: true
+            },
+            {
+                name: "Clozemaster",
+                url: "https://www.clozemaster.com/",
+                description: "Vocabulary in context",
+                level: "All levels",
+                features: ["Free 30 sentences/day", "Fill-in-the-blank format"],
+                free: true
+            },
+            {
+                name: "Drops",
+                url: "https://languagedrops.com/language/learn-dutch",
+                description: "Visual vocabulary learning",
+                level: "All levels",
+                features: ["Free 5 minutes/day", "Beautiful illustrations"],
+                free: true
+            },
+            {
                 name: "Anki + Dutch Decks",
                 url: "https://ankiweb.net/shared/decks?search=Dutch",
                 description: "Flashcard app with community decks",
@@ -247,7 +279,6 @@ const dutchResources = {
                 features: ["Free app", "Thousands of Dutch cards available"],
                 free: true
             }
-        
         ],
 
         practice: [

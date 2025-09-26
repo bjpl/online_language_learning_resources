@@ -20,7 +20,10 @@ const languageData = {
         description: "The language of love, diplomacy, and haute cuisine. French remains crucial in international relations and arts.",
         highlights: ["UN working language", "Rich cultural heritage", "Spoken on 5 continents"],
         resources: {
-            apps: [{ name: "TV5Monde", url: "https://apprendre.tv5monde.com/", description: "Learn with authentic French media", free: true }, { name: "Frantastique", url: "https://www.frantastique.com/", description: "Daily personalized lessons", free: false }, { name: "FluentU French", url: "https://www.fluentu.com/", description: "Learn through real videos", free: false }
+            apps: [
+                { name: "TV5Monde", url: "https://apprendre.tv5monde.com/", description: "Learn with authentic French media", free: true },
+                { name: "Frantastique", url: "https://www.frantastique.com/", description: "Daily personalized lessons", free: false },
+                { name: "FluentU French", url: "https://www.fluentu.com/", description: "Learn through real videos", free: false }
             ],
             podcasts: [
                 { name: "InnerFrench", url: "https://innerfrench.com/", description: "Intermediate French with Hugo", free: true },
@@ -69,7 +72,11 @@ const languageData = {
         description: "The language of engineering, philosophy, and classical music. Key to opportunities in Europe's economic powerhouse.",
         highlights: ["Logical grammar", "Compound words", "Business advantage"],
         resources: {
-            apps: [{ name: "Der Die Das", url: "#", description: "Master German articles", free: true }, { name: "Nicos Weg", url: "https://learngerman.dw.com/", description: "Deutsche Welle's video course", free: true }],
+            apps: [
+                { name: "Der Die Das", url: "#", description: "Master German articles", free: true },
+                { name: "Nicos Weg", url: "https://learngerman.dw.com/", description: "Deutsche Welle's video course", free: true },
+                { name: "Babbel", url: "https://www.babbel.com/", description: "Structured German courses", free: false }
+            ],
             podcasts: [
                 { name: "Slow German", url: "https://slowgerman.com/", description: "Clear, slow-paced German", free: true },
                 { name: "Coffee Break German", url: "https://coffeebreaklanguages.com/", description: "Quick daily lessons", free: true }
