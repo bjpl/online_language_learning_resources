@@ -89,7 +89,7 @@
     overflow: visible !important;
 }
 
-.lang-filter[data-lang="all"]:hover {
+.lang-filter[data-lang="all"]:hover:not(.active) {
     background: linear-gradient(135deg, var(--primary-100), var(--accent-100)) !important;
     color: var(--primary-800) !important;
 }
@@ -101,8 +101,9 @@
 }
 
 .lang-filter[data-lang="all"].active:hover {
-    background: #4a3f79 !important;
-    border-color: #4a3f79 !important;
+    background: #6b5e9c !important;
+    background-color: #6b5e9c !important;
+    border-color: #5B4E8C !important;
     color: white !important;
 }
 
