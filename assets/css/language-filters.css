@@ -95,8 +95,19 @@
 }
 
 .lang-filter[data-lang="all"].active {
-    background: linear-gradient(135deg, var(--primary-600), var(--accent-600)) !important;
-    border-color: var(--primary-600) !important;
+    background: #5B4E8C !important;
+    border-color: #5B4E8C !important;
+    color: white !important;
+}
+
+.lang-filter[data-lang="all"].active:hover {
+    background: #4a3f79 !important;
+    border-color: #4a3f79 !important;
+    color: white !important;
+}
+
+.lang-filter[data-lang="all"].active .filter-icon,
+.lang-filter[data-lang="all"].active span {
     color: white !important;
 }
 
