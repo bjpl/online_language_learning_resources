@@ -231,10 +231,6 @@
                 }
             </div>
 
-            <div class="resource-description">
-                ${resource.description}
-            </div>
-
             ${resource.features && resource.features.length > 0 ? `
                 <div class="resource-features">
                     ${resource.features.slice(0, 3).map(feature =>
