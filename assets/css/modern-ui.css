@@ -384,7 +384,7 @@ html {
     .filter-tabs,
     .search-container,
     .nav {
-        display: none !important;
+        display: none;
     }
 
     .resource-section {

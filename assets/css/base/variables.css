@@ -1,0 +1,116 @@
+/* ===================================
+   CSS Custom Properties - Design System
+   =================================== */
+
+:root {
+    /* Primary Color Scale */
+    --primary-50: #f5f3ff;
+    --primary-100: #ede9fe;
+    --primary-200: #ddd6fe;
+    --primary-300: #c4b5fd;
+    --primary-400: #a78bfa;
+    --primary-500: #8b5cf6;
+    --primary-600: #7c3aed;
+    --primary-700: #6d28d9;
+    --primary-800: #5b21b6;
+    --primary-900: #4c1d95;
+
+    /* Accent Color Scale */
+    --accent-50: #fdf2f8;
+    --accent-100: #fce7f3;
+    --accent-200: #fbcfe8;
+    --accent-300: #f9a8d4;
+    --accent-400: #f472b6;
+    --accent-500: #ec4899;
+    --accent-600: #db2777;
+    --accent-700: #be185d;
+    --accent-800: #9d174d;
+    --accent-900: #831843;
+
+    /* Gray Scale */
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+
+    /* Component Colors - All Languages Button */
+    --all-lang-inactive-bg: linear-gradient(135deg, var(--primary-50), var(--accent-50));
+    --all-lang-inactive-border: var(--primary-200);
+    --all-lang-inactive-color: var(--primary-700);
+    --all-lang-inactive-hover-bg: linear-gradient(135deg, var(--primary-100), var(--accent-100));
+    --all-lang-inactive-hover-color: var(--primary-800);
+
+    --all-lang-active-bg: #5B4E8C;
+    --all-lang-active-border: #5B4E8C;
+    --all-lang-active-color: #ffffff;
+    --all-lang-active-hover-bg: #6b5e9c;
+    --all-lang-active-hover-border: #5B4E8C;
+    --all-lang-active-hover-color: #ffffff;
+
+    /* Component Colors - Filters */
+    --filter-active-bg: #5B4E8C;
+    --filter-active-color: #ffffff;
+    --filter-active-border: #5B4E8C;
+    --filter-hover-bg: var(--primary-50);
+    --filter-hover-color: var(--primary-700);
+    --filter-hover-border: var(--primary-300);
+
+    /* Typography */
+    --font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-serif: 'Crimson Text', Georgia, 'Times New Roman', serif;
+
+    /* Font Weights */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Spacing Scale */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-2xl: 48px;
+    --spacing-3xl: 64px;
+
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-normal: 250ms ease;
+    --transition-slow: 350ms ease;
+
+    /* Z-index Scale */
+    --z-base: 0;
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-overlay: 300;
+    --z-modal: 400;
+    --z-toast: 500;
+    --z-tooltip: 600;
+
+    /* Breakpoints (for use in calc()) */
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+}

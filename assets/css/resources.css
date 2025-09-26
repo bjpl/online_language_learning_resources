@@ -2,6 +2,8 @@
    Resources Page Styles
    =================================== */
 
+@import './base/variables.css';
+
 /* Resources Hero */
 .resources-hero {
     background: linear-gradient(135deg, var(--primary-50) 0%, var(--accent-50) 100%);
@@ -116,15 +118,15 @@
     color: var(--primary-700);
 }
 
-.lang-filter.active {
-    background-color: #5B4E8C !important;
-    border-color: #5B4E8C !important;
-    color: #ffffff !important;
+.filter-section .language-filters .lang-filter.active {
+    background-color: var(--filter-active-bg);
+    border-color: var(--filter-active-border);
+    color: var(--filter-active-color);
 }
 
-.lang-filter.active span {
-    color: white !important;
-    opacity: 1 !important;
+.filter-section .language-filters .lang-filter.active span {
+    color: var(--filter-active-color);
+    opacity: 1;
 }
 
 .filter-icon {
@@ -161,16 +163,16 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.type-filter.active {
-    background-color: #5B4E8C !important;
-    border-color: #5B4E8C !important;
-    color: #ffffff !important;
+.filter-section .type-filters .type-filter.active {
+    background-color: var(--filter-active-bg);
+    border-color: var(--filter-active-border);
+    color: var(--filter-active-color);
     box-shadow: 0 4px 16px rgba(91, 78, 140, 0.25);
 }
 
-.type-filter.active span {
-    color: white !important;
-    opacity: 1 !important;
+.filter-section .type-filters .type-filter.active span {
+    color: var(--filter-active-color);
+    opacity: 1;
 }
 
 .type-filter-icon {
@@ -183,18 +185,18 @@
     font-weight: 600;
 }
 
-/* Force proper contrast on ALL active filter buttons */
-button.lang-filter.active,
-button.type-filter.active {
-    background-color: #5B4E8C !important;
-    color: #ffffff !important;
-    border-color: #5B4E8C !important;
+/* Ensure proper contrast on ALL active filter buttons */
+.filter-section button.lang-filter.active,
+.filter-section button.type-filter.active {
+    background-color: var(--filter-active-bg);
+    color: var(--filter-active-color);
+    border-color: var(--filter-active-border);
 }
 
-button.lang-filter.active *,
-button.type-filter.active * {
-    color: #ffffff !important;
-    opacity: 1 !important;
+.filter-section button.lang-filter.active *,
+.filter-section button.type-filter.active * {
+    color: var(--filter-active-color);
+    opacity: 1;
 }
 
 /* View Toggle */
@@ -660,35 +662,35 @@ button.type-filter.active * {
     }
 }
 
-/* CRITICAL FIX: Absolute override for active filter button contrast */
-.lang-filter.active,
-.type-filter.active,
-button.lang-filter.active,
-button.type-filter.active {
-    background: #5B4E8C !important;
-    background-color: #5B4E8C !important;
-    color: #ffffff !important;
-    border: 2px solid #4a3f79 !important;
+/* Active filter button styling with proper specificity */
+.filter-section .lang-filter.active,
+.filter-section .type-filter.active,
+.filter-section button.lang-filter.active,
+.filter-section button.type-filter.active {
+    background: var(--filter-active-bg);
+    background-color: var(--filter-active-bg);
+    color: var(--filter-active-color);
+    border: 2px solid #4a3f79;
 }
 
-.lang-filter.active span,
-.type-filter.active span,
-button.lang-filter.active span,
-button.type-filter.active span,
-.lang-filter.active *,
-.type-filter.active *,
-button.lang-filter.active *,
-button.type-filter.active * {
-    color: #ffffff !important;
-    opacity: 1 !important;
+.filter-section .lang-filter.active span,
+.filter-section .type-filter.active span,
+.filter-section button.lang-filter.active span,
+.filter-section button.type-filter.active span,
+.filter-section .lang-filter.active *,
+.filter-section .type-filter.active *,
+.filter-section button.lang-filter.active *,
+.filter-section button.type-filter.active * {
+    color: var(--filter-active-color);
+    opacity: 1;
 }
 
 /* Hover state for active buttons */
-.lang-filter.active:hover,
-.type-filter.active:hover,
-button.lang-filter.active:hover,
-button.type-filter.active:hover {
-    background: #6b5e9c !important;
-    background-color: #6b5e9c !important;
-    border-color: #5B4E8C !important;
+.filter-section .lang-filter.active:hover,
+.filter-section .type-filter.active:hover,
+.filter-section button.lang-filter.active:hover,
+.filter-section button.type-filter.active:hover {
+    background: #6b5e9c;
+    background-color: #6b5e9c;
+    border-color: var(--filter-active-border);
 }

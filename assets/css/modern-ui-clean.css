@@ -331,12 +331,12 @@ html {
 
 /* Remove all dark/heavy styles */
 .filter-tabs {
-    background: transparent !important;
-    backdrop-filter: none !important;
+    background: transparent ;
+    backdrop-filter: none ;
 }
 
 .resource-section-header {
-    background: transparent !important;
+    background: transparent ;
 }
 
 /* Keep everything light and airy */

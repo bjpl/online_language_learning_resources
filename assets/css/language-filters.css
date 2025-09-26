@@ -2,6 +2,8 @@
    Language Filters - Elegant Scalable Design
    =================================== */
 
+@import './base/variables.css';
+
 /* Language Filter Container - Two Row Layout */
 .language-filters {
     display: grid;
@@ -11,7 +13,7 @@
     padding: 8px;
     max-width: 100%;
     justify-content: center;
-    overflow: visible !important;
+    overflow: visible;
 }
 
 /* For larger screens, exactly 7 columns × 2 rows (14 buttons capacity, 13 used) */
@@ -78,51 +80,50 @@
 }
 
 /* All Languages Button - Special Styling */
-.lang-filter[data-lang="all"] {
-    background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;
-    border-color: var(--primary-200) !important;
-    color: var(--primary-700) !important;
-    font-weight: 600 !important;
-    min-width: 145px !important;
-    padding: 10px 20px !important;
-    width: auto !important;
-    overflow: visible !important;
+.filter-section .language-filters .lang-filter[data-lang="all"] {
+    background: var(--all-lang-inactive-bg);
+    border-color: var(--all-lang-inactive-border);
+    color: var(--all-lang-inactive-color);
+    font-weight: var(--font-weight-semibold);
+    min-width: 145px;
+    padding: 10px 20px;
+    width: auto;
+    overflow: visible;
 }
 
-.lang-filter[data-lang="all"]:hover:not(.active) {
-    background: linear-gradient(135deg, var(--primary-100), var(--accent-100)) !important;
-    color: var(--primary-800) !important;
+.filter-section .language-filters .lang-filter[data-lang="all"]:hover:not(.active) {
+    background: var(--all-lang-inactive-hover-bg);
+    color: var(--all-lang-inactive-hover-color);
 }
 
-.lang-filter[data-lang="all"].active {
-    background: #5B4E8C !important;
-    border-color: #5B4E8C !important;
-    color: white !important;
+.filter-section .language-filters .lang-filter[data-lang="all"].active {
+    background: var(--all-lang-active-bg);
+    border-color: var(--all-lang-active-border);
+    color: var(--all-lang-active-color);
 }
 
-.lang-filter[data-lang="all"].active:hover {
-    background: #6b5e9c !important;
-    background-color: #6b5e9c !important;
-    border-color: #5B4E8C !important;
-    color: white !important;
+.filter-section .language-filters .lang-filter[data-lang="all"].active:hover {
+    background: var(--all-lang-active-hover-bg);
+    border-color: var(--all-lang-active-hover-border);
+    color: var(--all-lang-active-hover-color);
 }
 
-.lang-filter[data-lang="all"].active .filter-icon,
-.lang-filter[data-lang="all"].active span {
-    color: white !important;
+.filter-section .language-filters .lang-filter[data-lang="all"].active .filter-icon,
+.filter-section .language-filters .lang-filter[data-lang="all"].active span {
+    color: var(--all-lang-active-color);
 }
 
-.lang-filter[data-lang="all"] .filter-icon {
-    margin-right: 4px !important;
+.filter-section .language-filters .lang-filter[data-lang="all"] .filter-icon {
+    margin-right: 4px;
     flex-shrink: 0;
-    color: inherit !important;
+    color: inherit;
 }
 
-.lang-filter[data-lang="all"] span:not(.filter-icon) {
-    white-space: nowrap !important;
-    display: inline-block !important;
-    overflow: visible !important;
-    color: inherit !important;
+.filter-section .language-filters .lang-filter[data-lang="all"] span:not(.filter-icon) {
+    white-space: nowrap;
+    display: inline-block;
+    overflow: visible;
+    color: inherit;
 }
 
 /* Filter Group Container */
