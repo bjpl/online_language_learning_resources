@@ -326,6 +326,7 @@ button.type-filter.active * {
     position: relative;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .resource-card:hover {
@@ -336,19 +337,19 @@ button.type-filter.active * {
 
 /* Language Badge */
 .language-badge {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 4px;
-    padding: 4px 10px;
+    padding: 3px 8px;
     background: var(--primary-50);
     border: 1px solid var(--primary-200);
     border-radius: 12px;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 600;
     color: var(--primary-700);
+    margin-bottom: 8px;
+    float: right;
+    clear: right;
 }
 
 .language-badge.dutch {
@@ -369,9 +370,72 @@ button.type-filter.active * {
     color: #c2185b;
 }
 
+.language-badge.italian {
+    background: #e3f2fd;
+    border-color: #90caf9;
+    color: #1565c0;
+}
+
+.language-badge.indonesian {
+    background: #fff3e0;
+    border-color: #ffcc80;
+    color: #e65100;
+}
+
+.language-badge.korean {
+    background: #f3e5f5;
+    border-color: #ce93d8;
+    color: #7b1fa2;
+}
+
+.language-badge.hindi {
+    background: #fff8e1;
+    border-color: #ffe082;
+    color: #f57c00;
+}
+
+.language-badge.swahili {
+    background: #e0f2f1;
+    border-color: #80cbc4;
+    color: #00695c;
+}
+
+.language-badge.japanese {
+    background: #fce4ec;
+    border-color: #f8bbd0;
+    color: #c2185b;
+}
+
+.language-badge.swedish {
+    background: #e1f5fe;
+    border-color: #81d4fa;
+    color: #0277bd;
+}
+
+.language-badge.finnish {
+    background: #e8eaf6;
+    border-color: #9fa8da;
+    color: #3949ab;
+}
+
+.language-badge.polish {
+    background: #ffebee;
+    border-color: #ef9a9a;
+    color: #c62828;
+}
+
+.language-badge.vietnamese {
+    background: #fff9c4;
+    border-color: #fff176;
+    color: #f57f17;
+}
+
 /* Card Content */
 .card-header {
     margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .resource-title {
@@ -379,9 +443,12 @@ button.type-filter.active * {
     font-weight: 600;
     color: var(--primary-600);
     text-decoration: none;
-    display: inline-block;
+    display: block;
     margin-bottom: 4px;
+    margin-right: 10px;
     transition: color 0.2s ease;
+    clear: left;
+    line-height: 1.4;
 }
 
 .resource-title:hover {
@@ -448,8 +515,16 @@ button.type-filter.active * {
 /* List View Styles */
 .resources-grid.list-view .resource-card {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
+}
+
+.resources-grid.list-view .language-badge {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    margin-bottom: 0;
+    float: none;
 }
 
 .resources-grid.list-view .card-header {
