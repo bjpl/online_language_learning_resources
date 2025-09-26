@@ -81,6 +81,7 @@
 .lang-filter[data-lang="all"] {
     background: linear-gradient(135deg, var(--primary-50), var(--accent-50)) !important;
     border-color: var(--primary-200) !important;
+    color: var(--primary-700) !important;
     font-weight: 600 !important;
     min-width: 145px !important;
     padding: 10px 20px !important;
@@ -88,20 +89,28 @@
     overflow: visible !important;
 }
 
+.lang-filter[data-lang="all"]:hover {
+    background: linear-gradient(135deg, var(--primary-100), var(--accent-100)) !important;
+    color: var(--primary-800) !important;
+}
+
 .lang-filter[data-lang="all"].active {
     background: linear-gradient(135deg, var(--primary-600), var(--accent-600)) !important;
     border-color: var(--primary-600) !important;
+    color: white !important;
 }
 
 .lang-filter[data-lang="all"] .filter-icon {
     margin-right: 4px !important;
     flex-shrink: 0;
+    color: inherit !important;
 }
 
 .lang-filter[data-lang="all"] span:not(.filter-icon) {
     white-space: nowrap !important;
     display: inline-block !important;
     overflow: visible !important;
+    color: inherit !important;
 }
 
 /* Filter Group Container */
