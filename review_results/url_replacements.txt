@@ -1,0 +1,160 @@
+=== URL REPLACEMENTS ===
+Total: 21 resources need URL updates
+============================================================
+
+
+## HINDI (5 replacements)
+----------------------------------------
+
+1. Mango Languages Hindi
+   OLD URL: https://mangolanguages.com/available-languages/learn-hindi/
+   NEW URL: https://mangolanguages.com/available-languages/hindi/
+   Category: Mango Languages Hindi
+   Line: 50
+
+2. Rosetta Stone Hindi
+   OLD URL: https://www.rosettastone.com/learn-hindi/
+   NEW URL: https://www.rosettastone.com/buy/learn-hindi/
+   Category: Rosetta Stone Hindi
+   Line: 58
+
+3. Mondly Hindi
+   OLD URL: https://www.mondly.com/learn-hindi-online
+   NEW URL: https://www.mondly.com/
+   Category: Mondly Hindi
+   Line: 88
+
+4. Memrise Hindi
+   OLD URL: https://www.memrise.com/courses/english/hindi/
+   NEW URL: https://www.memrise.com/en/learn-hindi
+   Category: Memrise Hindi
+   Line: 127
+
+5. Drops Hindi
+   OLD URL: https://languagedrops.com
+   NEW URL: https://languagedrops.com/language/learn-hindi
+   Category: Drops Hindi
+   Line: 402
+
+## INDONESIAN (2 replacements)
+----------------------------------------
+
+1. UKBI Testing
+   OLD URL: https://ukbi.kemdikbud.go.id/
+   NEW URL: https://www.lia.com.sg/ukbi/what-is-ukbi/
+   Category: UKBI Testing
+   Line: 137
+
+2. iPusnas
+   OLD URL: https://ipusnas.id/
+   NEW URL: https://www.perpusnas.go.id/
+   Category: iPusnas
+   Line: 242
+
+## ITALIAN (2 replacements)
+----------------------------------------
+
+1. Tandem
+   OLD URL: https://www.tandem.net
+   NEW URL: https://tandem.net/language-exchange/italy
+   Category: Tandem
+   Line: 409
+
+2. MyLanguageExchange
+   OLD URL: https://www.mylanguageexchange.com
+   NEW URL: https://www.mylanguageexchange.com/Learn/Italian.asp
+   Category: MyLanguageExchange
+   Line: 418
+
+## JAPANESE (1 replacements)
+----------------------------------------
+
+1. Anime & Manga Learning
+   OLD URL: https://anime-manga.jf.go.jp/en/
+   NEW URL: https://anime-manga.jp/
+   Category: Anime & Manga Learning
+   Line: 451
+
+## KOREAN (1 replacements)
+----------------------------------------
+
+1. Nuri-Sejong Institute Materials
+   OLD URL: https://nuri.iksi.or.kr/front/page/etc/copyright/main.do
+   NEW URL: https://nuri.iksi.or.kr/front/main/main.do
+   Category: Nuri-Sejong Institute Materials
+   Line: 35
+
+## POLISH (1 replacements)
+----------------------------------------
+
+1. Digital School Program
+   OLD URL: https://www.scholaris.pl/
+   NEW URL: https://zpe.gov.pl/scholaris?query=
+   Category: Digital School Program
+   Line: 133
+
+## PORTUGUESE (4 replacements)
+----------------------------------------
+
+1. MyLanguageExchange
+   OLD URL: https://www.mylanguageexchange.com/
+   NEW URL: https://www.mylanguageexchange.com/Learn/Portuguese.asp
+   Category: MyLanguageExchange
+   Line: 371
+
+2. italki
+   OLD URL: https://www.italki.com/
+   NEW URL: https://www.italki.com/en/teachers/portuguese
+   Category: italki
+   Line: 401
+
+3. Preply
+   OLD URL: https://preply.com/
+   NEW URL: https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE
+   Category: Preply
+   Line: 410
+
+4. Verbling
+   OLD URL: https://www.verbling.com/
+   NEW URL: https://www.verbling.com/find-teachers/portuguese?sort=magic
+   Category: Verbling
+   Line: 419
+
+## SWAHILI (1 replacements)
+----------------------------------------
+
+1. Memrise Swahili
+   OLD URL: https://www.memrise.com/courses/english/swahili/
+   NEW URL: https://www.memrise.com/en/learn-swahili
+   Category: Memrise Swahili
+   Line: 69
+
+## SWEDISH (2 replacements)
+----------------------------------------
+
+1. EU Academy - Learn Swedish with OLS
+   OLD URL: https://academy.europa.eu/
+   NEW URL: https://academy.europa.eu/search/index.php?search=swedish
+   Category: EU Academy - Learn Swedish with OLS
+   Line: 61
+
+2. Language.Exchange
+   OLD URL: https://language.exchange/
+   NEW URL: https://language.exchange/language/SV-Swedish/
+   Category: Language.Exchange
+   Line: 524
+
+## VIETNAMESE (2 replacements)
+----------------------------------------
+
+1. FSI Vietnamese Basic Course
+   OLD URL: https://www.livelingua.com/fsi/
+   NEW URL: https://www.livelingua.com/project/fsi/vietnamese
+   Category: FSI Vietnamese Basic Course
+   Line: 49
+
+2. MyLanguageExchange
+   OLD URL: https://mylanguageexchange.com/
+   NEW URL: https://mylanguageexchange.com/Learn/Vietnamese.asp
+   Category: MyLanguageExchange
+   Line: 388

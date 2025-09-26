@@ -1,0 +1,772 @@
+{
+  "timestamp": "2025-09-25T18:41:50.468161",
+  "dry_run": false,
+  "summary": {
+    "files_processed": 13,
+    "total_removals_found": 379,
+    "total_replacements_found": 26,
+    "unique_urls_to_remove": 547,
+    "unique_names_to_remove": 312,
+    "url_replacements": 33
+  },
+  "execution_stats": {
+    "files_modified": 7,
+    "removals_applied": 379,
+    "replacements_applied": 13,
+    "errors": 19
+  },
+  "changes_by_file": {
+    "danish-data.js": {
+      "removals": 19,
+      "replacements": 0,
+      "removal_details": [
+        {
+          "name": "50Languages Danish",
+          "url": "https://www.50languages.com/learn-danish-online-free"
+        },
+        {
+          "name": "IELanguages.com",
+          "url": "https://www.ielanguages.com/danish.html"
+        },
+        {
+          "name": "LingoHut",
+          "url": "https://www.lingohut.com/en/l101/learn-danish"
+        },
+        {
+          "name": "Complete Danish Audio Resources",
+          "url": "https://library.teachyourself.com/id004325116/Complete-Danish-free-resources"
+        },
+        {
+          "name": "Cooljugator Danish",
+          "url": "https://cooljugator.com/da"
+        },
+        {
+          "name": "Bab.la Danish Conjugation",
+          "url": "https://en.bab.la/conjugation/danish/"
+        },
+        {
+          "name": "Talkpal Grammar Exercises",
+          "url": "https://talkpal.ai/danish-grammar-exercises/"
+        },
+        {
+          "name": "Verbix Danish Conjugator",
+          "url": "http://www.verbix.com/languages/danish.shtml"
+        },
+        {
+          "name": "ADL (Arkiv for Dansk Litteratur)",
+          "url": "http://adl.dk/"
+        },
+        {
+          "name": "DanishClass101 Podcast",
+          "url": "Apple Podcasts, Spotify"
+        }
+      ],
+      "replacement_details": []
+    },
+    "dutch-data.js": {
+      "removals": 15,
+      "replacements": 0,
+      "removal_details": [
+        {
+          "name": "TU Delft - Delft Dutch Course",
+          "url": "https://www.tudelft.nl/en/tpm/itav/education/dutch-courses/"
+        },
+        {
+          "name": "Live Lingua",
+          "url": "https://www.livelingua.com/courses/dutch"
+        },
+        {
+          "name": "Learn Dutch with Bart de Pau",
+          "url": "https://www.learndutch.org/"
+        },
+        {
+          "name": "Go Dutch!",
+          "url": "http://www.linguatextltd.com"
+        },
+        {
+          "name": "Easy Dutch Reader",
+          "url": "https://lingualism.com/product/easy-dutch-reader/"
+        },
+        {
+          "name": "Learn Dutch with Bart de Pau",
+          "url": "https://www.youtube.com/channel/UC2IYiaH8i"
+        },
+        {
+          "name": "DutchPod101",
+          "url": "https://www.youtube.com/channel/UCY0BCa9cK"
+        },
+        {
+          "name": "Zeg het in het Nederlands",
+          "url": "Podcast platforms"
+        },
+        {
+          "name": "Een Beetje Nederlands",
+          "url": "Podcast platforms"
+        },
+        {
+          "name": "Learn Dutch with Lianne",
+          "url": "Apple Podcasts, Spotify"
+        }
+      ],
+      "replacement_details": []
+    },
+    "finnish-data.js": {
+      "removals": 24,
+      "replacements": 1,
+      "removal_details": [
+        {
+          "name": "University of Helsinki Open University",
+          "url": "https://www.helsinki.fi/en/admissions-and-education/open-university"
+        },
+        {
+          "name": "A Taste of Finnish - University of Helsinki",
+          "url": "http://tasteoffinnish.fi/"
+        },
+        {
+          "name": "FinnishPod101 Workbooks",
+          "url": "https://www.finnishpod101.com/finnish-workbooks/"
+        },
+        {
+          "name": "FSI Conversational Finnish",
+          "url": "https://www.livelingua.com/fsi/Fsi-ConversationalFinnish-Textbook.pdf"
+        },
+        {
+          "name": "International Children",
+          "url": "http://www.childrenslibrary.org/"
+        },
+        {
+          "name": "LibriVox Finnish",
+          "url": "https://librivox.org"
+        },
+        {
+          "name": "Archive.org Finnish Collection",
+          "url": "https://archive.org/details/finnish-50-languages-4h-37-mins_202005"
+        },
+        {
+          "name": "Finking Cap YouTube",
+          "url": "https://www.youtube.com/c/FinkingCap"
+        },
+        {
+          "name": "Random Finnish Lesson",
+          "url": "https://randomfinnishlesson.blogspot.com"
+        },
+        {
+          "name": "Finnish Text-to-Speech",
+          "url": "https://ttsmaker.com"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "MyLanguageExchange",
+          "old": "https://www.mylanguageexchange.com/",
+          "new": "https://www.mylanguageexchange.com/Learn/Portuguese.asp"
+        }
+      ]
+    },
+    "hindi-data.js": {
+      "removals": 81,
+      "replacements": 4,
+      "removal_details": [
+        {
+          "name": "Hindi Lessons LA",
+          "url": "https://hindilessonsla.com/"
+        },
+        {
+          "name": "Learning Hindi!",
+          "url": "https://www.learning-hindi.com/"
+        },
+        {
+          "name": "Brahmic Scripts Tutor",
+          "url": "https://brahmic.appspot.com/"
+        },
+        {
+          "name": "50Languages Hindi",
+          "url": "https://www.50languages.com/en/learn/phrasebook/hi/"
+        },
+        {
+          "name": "LingoHut Hindi",
+          "url": "https://www.lingohut.com/en/l82/learn-hindi"
+        },
+        {
+          "name": "ILanguages Hindi",
+          "url": "http://ilanguages.org/hindi.php"
+        },
+        {
+          "name": "Surface Languages Hindi",
+          "url": "https://www.surfacelanguages.com/language/Hindi.html"
+        },
+        {
+          "name": "MyLanguages Hindi",
+          "url": "http://mylanguages.org/hindi.php"
+        },
+        {
+          "name": "Learn101 Hindi",
+          "url": "http://learn101.org/hindi.php"
+        },
+        {
+          "name": "Hindi Language.info",
+          "url": "http://www.hindilanguage.info/"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "Memrise Hindi",
+          "old": "https://www.memrise.com/courses/english/hindi/",
+          "new": "https://www.memrise.com/en/learn-hindi"
+        },
+        {
+          "name": "Mondly Hindi",
+          "old": "https://www.mondly.com/learn-hindi-online",
+          "new": "https://www.mondly.com/"
+        },
+        {
+          "name": "Rosetta Stone Hindi",
+          "old": "https://www.rosettastone.com/learn-hindi/",
+          "new": "https://www.rosettastone.com/buy/learn-hindi/"
+        },
+        {
+          "name": "Mango Languages Hindi",
+          "old": "https://mangolanguages.com/available-languages/learn-hindi/",
+          "new": "https://mangolanguages.com/available-languages/hindi/"
+        }
+      ]
+    },
+    "indonesian-data.js": {
+      "removals": 32,
+      "replacements": 3,
+      "removal_details": [
+        {
+          "name": "50Languages",
+          "url": "https://www.50languages.com/indonesian-for-free"
+        },
+        {
+          "name": "Darmasiswa Scholarship",
+          "url": "https://darmasiswa.kemdikbud.go.id/"
+        },
+        {
+          "name": "SIBI Book System",
+          "url": "https://buku.kemdikbud.go.id/"
+        },
+        {
+          "name": "Rumah Belajar",
+          "url": "https://belajar.kemdikbud.go.id"
+        },
+        {
+          "name": "Badan Bahasa",
+          "url": "https://badanbahasa.kemdikbud.go.id/"
+        },
+        {
+          "name": "BIPA Daring",
+          "url": "https://bipa.kemdikbud.go.id/belajar_eng.php"
+        },
+        {
+          "name": "IndonesianPod101",
+          "url": "https://www.indonesianpod101.com/"
+        },
+        {
+          "name": "UI Scholar Hub",
+          "url": "https://scholarhub.ui.ac.id/"
+        },
+        {
+          "name": "Sneddon",
+          "url": "https://archive.org/"
+        },
+        {
+          "name": "PDF Language Lessons",
+          "url": "https://www.pdf-language-lessons.com/indonesian/"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "UKBI Testing",
+          "old": "https://ukbi.kemdikbud.go.id/",
+          "new": "https://www.lia.com.sg/ukbi/what-is-ukbi/"
+        },
+        {
+          "name": "iPusnas",
+          "old": "https://ipusnas.id/",
+          "new": "https://www.perpusnas.go.id/"
+        },
+        {
+          "name": "MyLanguageExchange",
+          "old": "https://www.mylanguageexchange.com/",
+          "new": "https://www.mylanguageexchange.com/Learn/Portuguese.asp"
+        }
+      ]
+    },
+    "italian-data.js": {
+      "removals": 19,
+      "replacements": 1,
+      "removal_details": [
+        {
+          "name": "Learn Italian Online",
+          "url": "https://www.learn-italian.net/"
+        },
+        {
+          "name": "Online Italian Club",
+          "url": "https://onlineitalianclub.com/"
+        },
+        {
+          "name": "Portale Integrazione Migranti",
+          "url": "https://integrazionemigranti.gov.it/en-gb/Dettaglio-approfondimento/id/53/Learn-Italian-Online"
+        },
+        {
+          "name": "FSI Italian Courses",
+          "url": "https://www.fsi-language-courses.org/fsi-italian-language-courses/"
+        },
+        {
+          "name": "ItalianPod101 Workbooks",
+          "url": "https://www.italianpod101.com/italian-workbooks/"
+        },
+        {
+          "name": "LibriVox Italian",
+          "url": "https://librivox.org"
+        },
+        {
+          "name": "Coffee Break Italian",
+          "url": "https://coffeebreaklanguages.com/coffeebreakitalian/"
+        },
+        {
+          "name": "RAI Scuola",
+          "url": "https://www.rai.it/raiscuola"
+        },
+        {
+          "name": "Free Italian Conversation (Meetup)",
+          "url": "https://www.meetup.com/free-italian-conversation-online-classes-all-levels/"
+        },
+        {
+          "name": "Tandem",
+          "url": "https://www.tandem.net"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "MyLanguageExchange",
+          "old": "https://www.mylanguageexchange.com",
+          "new": "https://www.mylanguageexchange.com/Learn/Italian.asp"
+        }
+      ]
+    },
+    "japanese-data.js": {
+      "removals": 34,
+      "replacements": 4,
+      "removal_details": [
+        {
+          "name": "Hirogaru",
+          "url": "Japan Foundation site"
+        },
+        {
+          "name": "Erin\\",
+          "url": "Japan Foundation"
+        },
+        {
+          "name": "FreeJapaneseLessons.com",
+          "url": "https://freejapaneselessons.com/"
+        },
+        {
+          "name": "Marugoto Plus",
+          "url": "https://marugotoplus.jp/en/"
+        },
+        {
+          "name": "Wasabi Japanese",
+          "url": "https://www.wasabi-jpn.com/"
+        },
+        {
+          "name": "JapanesePod101 JLPT",
+          "url": "https://www.japanesepod101.com/"
+        },
+        {
+          "name": "Genki Textbooks",
+          "url": "https://archive.org/details/Genki"
+        },
+        {
+          "name": "Beginning Japanese for Professionals",
+          "url": "https://pdxscholar.library.pdx.edu/pdxopen/9"
+        },
+        {
+          "name": "Yomichan",
+          "url": "Browser extension"
+        },
+        {
+          "name": "Rikaichamp",
+          "url": "Browser extension"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "Anime & Manga Learning",
+          "old": "https://anime-manga.jf.go.jp/en/",
+          "new": "https://anime-manga.jp/"
+        },
+        {
+          "name": "MyLanguageExchange",
+          "old": "https://www.mylanguageexchange.com/",
+          "new": "https://www.mylanguageexchange.com/Learn/Portuguese.asp"
+        },
+        {
+          "name": "Preply",
+          "old": "https://preply.com/",
+          "new": "https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE"
+        },
+        {
+          "name": "italki",
+          "old": "https://www.italki.com/",
+          "new": "https://www.italki.com/en/teachers/portuguese"
+        }
+      ]
+    },
+    "korean-data.js": {
+      "removals": 10,
+      "replacements": 1,
+      "removal_details": [
+        {
+          "name": "KoreanClass101",
+          "url": "https://www.koreanclass101.com/"
+        },
+        {
+          "name": "Korean Through Folktales (Portland State)",
+          "url": "https://pdx.edu/"
+        },
+        {
+          "name": "KoreanClass101 Workbooks",
+          "url": "https://www.koreanclass101.com/korean-workbooks/"
+        },
+        {
+          "name": "KoreanClass101 Podcast",
+          "url": "https://www.koreanclass101.com/"
+        },
+        {
+          "name": "KoreanClass101",
+          "url": "https://www.youtube.com/user/koreanclass101"
+        },
+        {
+          "name": "Korean Radio Apps",
+          "url": "https://play.google.com/"
+        },
+        {
+          "name": "ConversationExchange",
+          "url": "https://www.conversationexchange.com/"
+        },
+        {
+          "name": "Tandem",
+          "url": "https://tandem.net/"
+        },
+        {
+          "name": "HelloTalk",
+          "url": "https://www.hellotalk.com/"
+        },
+        {
+          "name": "Forvo Korean",
+          "url": "https://forvo.com/"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "Nuri-Sejong Institute Materials",
+          "old": "https://nuri.iksi.or.kr/front/page/etc/copyright/main.do",
+          "new": "https://nuri.iksi.or.kr/front/main/main.do"
+        }
+      ]
+    },
+    "polish-data.js": {
+      "removals": 23,
+      "replacements": 2,
+      "removal_details": [
+        {
+          "name": "LingoHut",
+          "url": "https://www.lingohut.com/en/l83/learn-polish"
+        },
+        {
+          "name": "SEA-EU Language Exchange",
+          "url": "https://sea-eu.org/language-offers/"
+        },
+        {
+          "name": "NAWA Summer Courses",
+          "url": "https://nawa.gov.pl/en/the-polish-language/nawa-summer-courses"
+        },
+        {
+          "name": "OER Commons - Polish",
+          "url": "https://oercommons.org/"
+        },
+        {
+          "name": "Polish: Comprehensive Grammar",
+          "url": "https://languageadvisor.net/"
+        },
+        {
+          "name": "Basic Polish: Grammar & Workbook",
+          "url": "https://languageadvisor.net/"
+        },
+        {
+          "name": "Polish Fairy Tales",
+          "url": "https://www.gutenberg.org/"
+        },
+        {
+          "name": "Selected Polish Tales",
+          "url": "https://www.gutenberg.org/"
+        },
+        {
+          "name": "Lingua Polish Reading Texts",
+          "url": "https://lingua.com/polish/reading/"
+        },
+        {
+          "name": "Polish with John",
+          "url": "https://ioannesoculus.com"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "Digital School Program",
+          "old": "https://www.scholaris.pl/",
+          "new": "https://zpe.gov.pl/scholaris?query="
+        },
+        {
+          "name": "MyLanguageExchange",
+          "old": "https://www.mylanguageexchange.com/",
+          "new": "https://www.mylanguageexchange.com/Learn/Portuguese.asp"
+        }
+      ]
+    },
+    "portuguese-data.js": {
+      "removals": 26,
+      "replacements": 3,
+      "removal_details": [
+        {
+          "name": "50LANGUAGES",
+          "url": "https://www.50languages.com/portuguese-br-for-free"
+        },
+        {
+          "name": "Plataforma de Portugu\u00eas Online",
+          "url": "https://pptonline.acm.gov.pt/"
+        },
+        {
+          "name": "Live Lingua",
+          "url": "https://www.livelingua.com/portuguese/courses"
+        },
+        {
+          "name": "Universidade de Coimbra",
+          "url": "https://www.uc.pt/fluc/ensino/cpe"
+        },
+        {
+          "name": "University of Texas Portuguese",
+          "url": "https://www.laits.utexas.edu/orkelm/"
+        },
+        {
+          "name": "Brazilian Government Resources",
+          "url": "https://www.gov.br/mre/pt-br"
+        },
+        {
+          "name": "DLI Portuguese Language Course",
+          "url": "https://www.livelingua.com/dli/"
+        },
+        {
+          "name": "Portuguese Lab Manual",
+          "url": "https://open.umn.edu/opentextbooks/textbooks/499"
+        },
+        {
+          "name": "Fernando Pessoa Archive",
+          "url": "http://arquivopessoa.net/"
+        },
+        {
+          "name": "Caf\u00e9 Brasil Podcast",
+          "url": "https://cafebrasil.com.br/"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "MyLanguageExchange",
+          "old": "https://www.mylanguageexchange.com/",
+          "new": "https://www.mylanguageexchange.com/Learn/Portuguese.asp"
+        },
+        {
+          "name": "Preply",
+          "old": "https://preply.com/",
+          "new": "https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE"
+        },
+        {
+          "name": "italki",
+          "old": "https://www.italki.com/",
+          "new": "https://www.italki.com/en/teachers/portuguese"
+        }
+      ]
+    },
+    "swahili-data.js": {
+      "removals": 38,
+      "replacements": 3,
+      "removal_details": [
+        {
+          "name": "50Languages Swahili",
+          "url": "https://www.50languages.com/en/learn/phrasebook/sw/"
+        },
+        {
+          "name": "SwahiliPod101",
+          "url": "https://www.swahilipod101.com/"
+        },
+        {
+          "name": "Live Lingua",
+          "url": "https://www.livelingua.com/courses/swahili"
+        },
+        {
+          "name": "Language Transfer",
+          "url": "https://www.languagetransfer.org/courses"
+        },
+        {
+          "name": "FSI Swahili Basic Course",
+          "url": "https://www.fsi-language-courses.org/languages/Swahili/"
+        },
+        {
+          "name": "University of Nairobi",
+          "url": "https://kiswahili.uonbi.ac.ke/"
+        },
+        {
+          "name": "Makerere University",
+          "url": "https://mak.ac.ug/"
+        },
+        {
+          "name": "University of Dar es Salaam IKS",
+          "url": "https://www.udsm.ac.tz/"
+        },
+        {
+          "name": "SwahiliPod101 Workbooks",
+          "url": "https://www.swahilipod101.com/swahili-workbooks/"
+        },
+        {
+          "name": "FSI Swahili Basic Course",
+          "url": "https://www.fsi-language-courses.org/languages/Swahili/Basic/FSI%20-%20Swahili%20Basic%20Course%20-%20Student%20Text.pdf"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "Memrise Swahili",
+          "old": "https://www.memrise.com/courses/english/swahili/",
+          "new": "https://www.memrise.com/en/learn-swahili"
+        },
+        {
+          "name": "MyLanguageExchange",
+          "old": "https://www.mylanguageexchange.com/",
+          "new": "https://www.mylanguageexchange.com/Learn/Portuguese.asp"
+        },
+        {
+          "name": "iTalki Community",
+          "old": "https://www.italki.com/",
+          "new": "https://www.italki.com/en/teachers/portuguese"
+        }
+      ]
+    },
+    "swedish-data.js": {
+      "removals": 34,
+      "replacements": 2,
+      "removal_details": [
+        {
+          "name": "SwedishPod101",
+          "url": "https://www.swedishpod101.com/"
+        },
+        {
+          "name": "Lund University Swedish Package",
+          "url": "https://www.lunduniversity.lu.se/admissions/swedish-language-studies"
+        },
+        {
+          "name": "Stockholm University Swedish",
+          "url": "https://www.su.se/department-of-swedish-language-and-multilingualism/education/"
+        },
+        {
+          "name": "Komvux",
+          "url": "Municipal adult education"
+        },
+        {
+          "name": "SFI Municipal Programs",
+          "url": "Municipal websites"
+        },
+        {
+          "name": "Folkuniversitetet SFI",
+          "url": "https://www.folkuniversitetet.se/vara-skolor/sfi-svenska-for-invandrare/"
+        },
+        {
+          "name": "Hermods SFI",
+          "url": "https://hermods.se/sfi/"
+        },
+        {
+          "name": "Scriveremo Vocabulary PDFs",
+          "url": "https://www.scriveremo.com/pdfwordlist.php?l=swe"
+        },
+        {
+          "name": "UR Samtiden",
+          "url": "UR Play"
+        },
+        {
+          "name": "L\u00e4r dig svenska med Oskar",
+          "url": "Podcast platforms"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "EU Academy - Learn Swedish with OLS",
+          "old": "https://academy.europa.eu/",
+          "new": "https://academy.europa.eu/search/index.php?search=swedish"
+        },
+        {
+          "name": "MyLanguageExchange",
+          "old": "https://www.mylanguageexchange.com/",
+          "new": "https://www.mylanguageexchange.com/Learn/Portuguese.asp"
+        }
+      ]
+    },
+    "vietnamese-data.js": {
+      "removals": 24,
+      "replacements": 2,
+      "removal_details": [
+        {
+          "name": "Learn Vietnamese Easy",
+          "url": "https://learnvietnameseeasy.com/vietnamese-pronunciation/"
+        },
+        {
+          "name": "Live Lingua",
+          "url": "https://www.livelingua.com/courses/Vietnamese"
+        },
+        {
+          "name": "LingoHut",
+          "url": "https://www.lingohut.com/en/l65/learn-vietnamese"
+        },
+        {
+          "name": "NRCAL (CSU Fullerton)",
+          "url": "https://www.fullerton.edu/nrcal/virtual-language-program/"
+        },
+        {
+          "name": "ASU Vietnamese Program",
+          "url": "https://silc.asu.edu/vietnamese"
+        },
+        {
+          "name": "Columbia University Vietnamese",
+          "url": "https://ealac.columbia.edu/program/language-programs/vietnamese/"
+        },
+        {
+          "name": "ULIS-VNU Hanoi",
+          "url": "https://en.ulis.vnu.edu.vn/"
+        },
+        {
+          "name": "UNICEF Global Digital Library",
+          "url": "Through UNICEF"
+        },
+        {
+          "name": "Reading A-Z Vietnamese",
+          "url": "https://www.readinga-z.com/worldlanguages/vietnamese/"
+        },
+        {
+          "name": "VietnamesePod101 Workbooks",
+          "url": "https://www.vietnamesepod101.com/vietnamese-workbooks/"
+        }
+      ],
+      "replacement_details": [
+        {
+          "name": "FSI Vietnamese Basic Course",
+          "old": "https://www.livelingua.com/fsi/",
+          "new": "https://www.livelingua.com/project/fsi/vietnamese"
+        },
+        {
+          "name": "MyLanguageExchange",
+          "old": "https://mylanguageexchange.com/",
+          "new": "https://mylanguageexchange.com/Learn/Vietnamese.asp"
+        }
+      ]
+    }
+  }
+}

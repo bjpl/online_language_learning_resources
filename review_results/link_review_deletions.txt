@@ -1,0 +1,1519 @@
+=== REMOVALS FROM LINK-REVIEW-RESULTS ===
+Total: 302 resources marked for removal
+============================================================
+
+
+## DANISH (17 removals)
+----------------------------------------
+
+1. IELanguages.com
+   URL: https://www.ielanguages.com/danish.html
+   Category: Online Courses and Platforms
+   Description: Danish lessons with native speaker pronunciation
+
+2. 50Languages Danish
+   URL: https://www.50languages.com/learn-danish-online-free
+   Category: Online Courses and Platforms
+   Description: 100 free audio lessons with MP3 downloads
+
+3. Learn Danish Offline Lite
+   URL: https://learn-danish-offline-lite.en.softonic.com/android
+   Description: 1,305 common Danish phrases offline
+
+4. FunEasyLearn Danish
+   URL: App stores
+   Description: 6,000 Danish words with images and audio
+
+5. Learn Danish (MetaLanguage)
+   URL: Google Play Store
+   Description: Simple Danish learning with offline access
+
+6. Clozemaster Danish
+   URL: https://www.clozemaster.com/blog/danish-tenses/
+   Description: Context-based learning
+
+7. Complete Danish Audio Resources
+   URL: https://library.teachyourself.com/id004325116/Complete-Danish-free-resources
+   Category: Textbooks and Educational Materials
+   Description: Professional audio companion for textbook
+
+8. Verbix Danish Conjugator
+   URL: http://www.verbix.com/languages/danish.shtml
+   Category: Grammar Resources
+   Description: Complete Danish verb conjugation tool
+
+9. Talkpal Grammar Exercises
+   URL: https://talkpal.ai/danish-grammar-exercises/
+   Category: Grammar Resources
+   Description: Interactive grammar exercises for all topics
+
+10. Bab.la Danish Conjugation
+   URL: https://en.bab.la/conjugation/danish/
+   Category: Grammar Resources
+   Description: Danish verb conjugation with explanations
+
+11. Cooljugator Danish
+   URL: https://cooljugator.com/da
+   Category: Grammar Resources
+   Description: Verb conjugator with real examples
+
+12. ADL (Arkiv for Dansk Litteratur)
+   URL: http://adl.dk/
+   Category: Literature and Reading
+   Description: Archive of Danish literature
+
+13. Dict.cc Danish-English
+   URL: https://daen.dict.cc/
+   Category: Dictionaries and Tools
+   Description: User-contributed bilingual dictionary
+
+14. Bab.la Danish Dictionary
+   URL: https://en.bab.la/dictionary/danish-english/
+   Category: Dictionaries and Tools
+   Description: Bilingual dictionary with phrases
+
+15. Forvo Danish
+   URL: https://forvo.com/languages/da/
+   Category: Dictionaries and Tools
+   Description: Pronunciation dictionary
+
+16. UCL Danish Learning Objects
+   URL: https://www.ucl.ac.uk/arts-humanities/european-languages-culture/
+   Category: OER and Academic Resources
+   Description: Interactive learning objects with authentic materials
+
+17. Nordic Council Resources
+   URL: https://www.norden.org/en/information/nordic-languages
+   Category: OER and Academic Resources
+   Description: Nordic language cooperation
+
+## DUTCH (11 removals)
+----------------------------------------
+
+1. Duolingo
+   URL: https://www.duolingo.com/
+   Description: Most popular language app
+
+2. Go Dutch!
+   URL: http://www.linguatextltd.com
+   Category: Grammar and Textbooks
+   Description: University textbook with Private Eye story
+
+3. Easy Dutch Reader
+   URL: https://lingualism.com/product/easy-dutch-reader/
+   Category: Reading Materials
+   Description: 50+ short texts for beginners
+
+4. DutchPod101
+   URL: https://www.youtube.com/channel/UCY0BCa9cK
+   Category: YouTube Channels
+   Description: Comprehensive lessons, grammar, vocabulary
+
+5. Learn Dutch with Bart de Pau
+   URL: https://www.youtube.com/channel/UC2IYiaH8i
+   Category: YouTube Channels
+   Description: Structured courses, 1000 most common words
+
+6. Learn Dutch with Lianne
+   URL: Apple Podcasts, Spotify
+   Category: Podcasts
+   Description: 100% Dutch content on culture/language
+
+7. Een Beetje Nederlands
+   URL: Podcast platforms
+   Category: Podcasts
+   Description: Dutch history and culture
+
+8. NOS Journaal in Makkelijke Taal
+   URL: NPO 1 television
+   Category: TV and News
+   Description: Simplified Dutch news
+
+9. HelloTalk
+   URL: https://www.hellotalk.com/
+   Category: Language Exchange
+   Description: Social media-style exchange
+
+10. ConversationExchange
+   URL: https://www.conversationexchange.com/
+   Category: Language Exchange
+   Description: Find language partners
+
+11. LanguageTool Dutch
+   URL: https://languagetool.org/spellchecking-dutch
+   Category: Tools and Dictionaries
+   Description: AI-powered grammar checker
+
+## FINNISH (22 removals)
+----------------------------------------
+
+1. University of Helsinki Open University
+   URL: https://www.helsinki.fi/en/admissions-and-education/open-university
+   Category: University Courses
+   Description: Multiple structured Finnish courses from 1A through Media Finnish
+
+2. FSI Conversational Finnish
+   URL: https://www.livelingua.com/fsi/Fsi-ConversationalFinnish-Textbook.pdf
+   Category: Open Educational Resources
+   Description: 700+ page comprehensive course from Foreign Service Institute
+
+3. FinnishPod101 Workbooks
+   URL: https://www.finnishpod101.com/finnish-workbooks/
+   Category: Open Educational Resources
+   Description: 16+ printable PDF workbooks for beginners
+
+4. Anki with Finnish Decks
+   URL: https://ankiweb.net
+   Description: Spaced repetition flashcard system with community decks
+
+5. FunEasyLearn Finnish
+   URL: https://www.funeasylearn.com/learn-finnish
+   Description: 15,000 words/phrases unlockable through gameplay
+
+6. Voikko
+   URL: https://voikko.puimula.org/
+   Description: Open-source spell checker and morphological analyzer
+
+7. Archive.org Finnish Collection
+   URL: https://archive.org/details/finnish-50-languages-4h-37-mins_202005
+   Category: Literature
+   Description: Multiple textbooks including Leila White's grammar books
+
+8. International Children's Digital Library
+   URL: http://www.childrenslibrary.org/
+   Category: Literature
+   Description: Limited Finnish children's books collection
+
+9. Finking Cap YouTube
+   URL: https://www.youtube.com/c/FinkingCap
+   Category: Video Lessons
+   Description: Grammar tutorials and spoken Finnish lessons
+
+10. Random Finnish Lesson
+   URL: https://randomfinnishlesson.blogspot.com
+   Category: Podcasts
+   Description: Interviews and discussions at slower pace
+
+11. Forvo Finnish
+   URL: https://forvo.com/languages/fi/
+   Category: Pronunciation
+   Description: Native speaker pronunciation database
+
+12. Finnish Text-to-Speech
+   URL: https://ttsmaker.com
+   Category: Pronunciation
+   Description: Free TTS services supporting Finnish
+
+13. Sano suomeksi Exercises
+   URL: https://sanosuomeksi.com/en/exercises
+   Category: Exercises and Tests
+   Description: 100+ online exercises with automatic checking
+
+14. Venla.info Exercises
+   URL: https://venla.info/exercises.html
+   Category: Exercises and Tests
+   Description: Interactive Hot Potatoes exercises
+
+15. Tatoeba Finnish
+   URL: https://tatoeba.org/en
+   Category: Exercises and Tests
+   Description: Example sentences with translations
+
+16. Sanakirja.org
+   URL: https://www.sanakirja.org/
+   Category: Language Tools
+   Description: Multilingual dictionary supporting 20+ languages
+
+17. Glosbe Finnish
+   URL: https://glosbe.com/fi/en
+   Category: Language Tools
+   Description: Community-built dictionary with context examples
+
+18. Verbix
+   URL: https://www.verbix.com/languages/finnish
+   Category: Language Tools
+   Description: Complete Finnish verb conjugation system
+
+19. Cooljugator
+   URL: https://cooljugator.com/fi
+   Category: Language Tools
+   Description: Modern conjugation tool for verbs, nouns, adjectives
+
+20. Oikofix
+   URL: https://oikofix.com/?lang=en
+   Category: Language Tools
+   Description: Free online spell and grammar checker
+
+21. TypeIt Finnish
+   URL: https://finnish.typeit.org/
+   Category: Language Tools
+   Description: Browser-based Finnish typing tool
+
+22. University of Helsinki Helda
+   URL: https://ethesis.helsinki.fi/en
+   Category: Academic Resources
+   Description: Digital dissertation repository
+
+## HINDI (73 removals)
+----------------------------------------
+
+1. University of Texas Austin - Hindi Script
+   URL: https://www.laits.utexas.edu/orkelm/hindiscript/index.html
+   Category: Online Courses & Platforms
+   Description: Interactive lessons on the Devanagari script used for Hindi
+
+2. Learn Hindi with HindiPod101
+   URL: https://www.hindipod101.com
+   Category: Online Courses & Platforms
+   Description: Comprehensive audio and video lessons for all levels
+
+3. Transparent Language Hindi
+   URL: https://www.transparent.com/learn-hindi/
+   Category: Online Courses & Platforms
+   Description: Comprehensive Hindi learning platform
+
+4. Learn Hindi Free
+   URL: http://www.learnhindifree.com/
+   Category: Online Courses & Platforms
+   Description: Basic Hindi lessons and resources
+
+5. HindiGym
+   URL: https://www.hindigym.com/
+   Category: Online Courses & Platforms
+   Description: Interactive Hindi learning exercises
+
+6. Hindi Language.info
+   URL: http://www.hindilanguage.info/
+   Category: Online Courses & Platforms
+   Description: Comprehensive Hindi learning resources
+
+7. Learn101 Hindi
+   URL: http://learn101.org/hindi.php
+   Category: Online Courses & Platforms
+   Description: Basic Hindi vocabulary and phrases
+
+8. MyLanguages Hindi
+   URL: http://mylanguages.org/hindi.php
+   Category: Online Courses & Platforms
+   Description: Hindi grammar, vocabulary, and phrases
+
+9. Surface Languages Hindi
+   URL: https://www.surfacelanguages.com/language/Hindi.html
+   Category: Online Courses & Platforms
+   Description: Basic Hindi phrases with audio
+
+10. ILanguages Hindi
+   URL: http://ilanguages.org/hindi.php
+   Category: Online Courses & Platforms
+   Description: Hindi vocabulary, phrases, and grammar lessons
+
+11. LingoHut Hindi
+   URL: https://www.lingohut.com/en/l82/learn-hindi
+   Category: Online Courses & Platforms
+   Description: 125 Hindi lessons with audio
+
+12. 50Languages Hindi
+   URL: https://www.50languages.com/en/learn/phrasebook/hi/
+   Category: Online Courses & Platforms
+   Description: Hindi phrasebook and basic lessons
+
+13. Brahmic Scripts Tutor
+   URL: https://brahmic.appspot.com/
+   Category: Online Courses & Platforms
+   Description: Learn Devanagari script interactively
+
+14. Learning Hindi!
+   URL: https://www.learning-hindi.com/
+   Category: Online Courses & Platforms
+   Description: Blog-style Hindi lessons and cultural insights
+
+15. Hindi Lessons LA
+   URL: https://hindilessonsla.com/
+   Category: Online Courses & Platforms
+   Description: Structured Hindi lessons with exercises
+
+16. LILA Hindi Prabodh
+   URL: https://rajbhasha.gov.in/en/lila-rajbhasha
+   Category: Government Resources
+   Description: Learn Indian Languages through Artificial Intelligence - Hindi
+
+17. Central Hindi Directorate Resources
+   URL: http://www.hindinideshalaya.nic.in/
+   Category: Government Resources
+   Description: Official Hindi teaching materials and resources
+
+18. Kendriya Hindi Sansthan
+   URL: http://www.khsindia.org/
+   Category: Government Resources
+   Description: Central Institute of Hindi - courses and materials
+
+19. Simply Learn Hindi
+   URL: https://simplylearnapps.com
+   Description: Hindi phrasebook and learning app
+
+20. Google Translate
+   URL: https://translate.google.com
+   Description: Translation app with Hindi support and offline mode
+
+21. Microsoft Translator
+   URL: https://translator.microsoft.com
+   Description: Multi-platform translator with Hindi
+
+22. LingQ Hindi
+   URL: https://www.lingq.com
+   Description: Learn Hindi through reading and listening
+
+23. Hindi Script Tutor
+   URL: https://play.google.com/store
+   Description: Learn to write Devanagari script
+
+24. Write It! Hindi
+   URL: https://apps.apple.com
+   Description: Practice writing Hindi characters
+
+25. Nemo Hindi
+   URL: https://www.nemoapps.com
+   Description: Essential Hindi words and phrases
+
+26. uTalk Hindi
+   URL: https://utalk.com
+   Description: Learn to speak Hindi with games
+
+27. Learn Hindi - MindSnacks
+   URL: https://www.mindsnacks.com
+   Description: Hindi learning through mini-games
+
+28. Hindi by Spokenmate
+   URL: https://spokenmate.com
+   Description: Conversational Hindi practice
+
+29. Shabdkosh Online Dictionary
+   URL: https://www.shabdkosh.com
+   Category: Dictionaries & Reference
+   Description: Free online Hindi-English dictionary
+
+30. Hindi English Expert Translator
+   URL: https://www.hindi-english.org
+   Category: Dictionaries & Reference
+   Description: Online translation and dictionary tool
+
+31. Kavita Kosh
+   URL: http://kavitakosh.org
+   Category: Reading Material
+   Description: Hindi poetry collection
+
+32. HindiPod101
+   URL: https://www.hindipod101.com/hindi-podcast/
+   Category: Podcasts
+   Description: Comprehensive Hindi learning podcast series
+
+33. Learn Hindi with Awal
+   URL: https://podcasts.apple.com/podcast/id1459552878
+   Category: Podcasts
+   Description: Hindi lessons through conversations
+
+34. Hindi Urdu Flagship
+   URL: https://hindiurduflagship.org/resources/podcasts/
+   Category: Podcasts
+   Description: Academic Hindi learning podcasts
+
+35. One Minute Hindi
+   URL: https://radiolingua.com/one-minute-hindi/
+   Category: Podcasts
+   Description: Quick daily Hindi lessons
+
+36. The Hindi Podcast
+   URL: https://thehindipodcast.com/
+   Category: Podcasts
+   Description: Stories and conversations in Hindi
+
+37. Kahaani Aur Hum
+   URL: https://ivmpodcasts.com/kahani-aur-hum
+   Category: Podcasts
+   Description: Hindi stories and narratives
+
+38. Urdunama
+   URL: https://www.urdunama.com
+   Category: Podcasts
+   Description: Hindi-Urdu language and culture podcast
+
+39. Spotify Hindi Podcasts
+   URL: https://open.spotify.com/genre/hindi-podcasts
+   Category: Podcasts
+   Description: Collection of Hindi podcasts on Spotify
+
+40. Awal
+   URL: https://www.youtube.com/c/LearnHindiwithAwal
+   Category: YouTube Channels
+   Description: Hindi lessons with clear explanations
+
+41. Hindi Lessons by Neha
+   URL: https://www.youtube.com/channel/UCQgGRVhZP6Qx_Gjm5cPzAUA
+   Category: YouTube Channels
+   Description: Structured Hindi lessons for beginners
+
+42. Learn Hindi Through English
+   URL: https://www.youtube.com/channel/UCfwa_zKl8-zC9rQDWnd8SbA
+   Category: YouTube Channels
+   Description: Hindi grammar and vocabulary lessons
+
+43. Hindi Gyan
+   URL: https://www.youtube.com/c/HindiGyan
+   Category: YouTube Channels
+   Description: Hindi language and grammar tutorials
+
+44. Learn Languages with Languagenut
+   URL: https://www.youtube.com/user/Languagenut
+   Category: YouTube Channels
+   Description: Basic Hindi lessons and pronunciation
+
+45. Rocket Languages Hindi
+   URL: https://www.youtube.com/user/RocketLanguages
+   Category: YouTube Channels
+   Description: Hindi learning tips and lessons
+
+46. Learn Hindi with Karishma
+   URL: https://www.youtube.com/channel/UCLNPLyoXCKY0YhJOZPX_jgg
+   Category: YouTube Channels
+   Description: Conversational Hindi lessons
+
+47. DLI Hindi Course
+   URL: https://www.livelingua.com/dli-hindi-course.php
+   Category: Audio Courses
+   Description: Defense Language Institute Hindi materials
+
+48. All India Radio
+   URL: http://www.newsonair.com/hindi.php
+   Category: Radio & Media
+   Description: Hindi radio broadcasts and news
+
+49. Red FM Hindi
+   URL: https://www.redfm.in
+   Category: Radio & Media
+   Description: Hindi entertainment radio
+
+50. Vividh Bharati
+   URL: http://air.gov.in/vividh-bharati
+   Category: Radio & Media
+   Description: Classical Hindi radio service
+
+51. Netflix Hindi Content
+   URL: https://www.netflix.com
+   Category: Radio & Media
+   Description: Hindi movies and shows with subtitles
+
+52. Amazon Prime Hindi
+   URL: https://www.primevideo.com
+   Category: Radio & Media
+   Description: Hindi content with subtitle options
+
+53. Hotstar
+   URL: https://www.hotstar.com
+   Category: Radio & Media
+   Description: Hindi movies, shows, and sports
+
+54. YouTube Hindi Movies
+   URL: https://www.youtube.com/channel/UCq-Cy3CK8oHgTJfRzcbyZGQ
+   Category: Radio & Media
+   Description: Free Hindi movies with subtitles
+
+55. Speaky
+   URL: https://www.speaky.com
+   Category: Language Exchange
+   Description: Global language exchange for Hindi
+
+56. HiNative
+   URL: https://hinative.com
+   Category: Language Exchange
+   Description: Ask native Hindi speakers questions
+
+57. Bilingua
+   URL: https://www.bilingua.io
+   Category: Language Exchange
+   Description: Hindi language exchange app
+
+58. The Mixxer
+   URL: https://www.language-exchanges.org
+   Category: Language Exchange
+   Description: Free language exchange for Hindi learners
+
+59. Discord Hindi Servers
+   URL: https://discord.com
+   Category: Language Exchange
+   Description: Hindi learning communities on Discord
+
+60. Hindi Language Learners Facebook
+   URL: https://www.facebook.com/groups/hindilanguagelearners
+   Category: Online Communities
+   Description: Facebook group for Hindi students
+
+61. Polyglot Club Hindi
+   URL: https://polyglotclub.com
+   Category: Online Communities
+   Description: Hindi practice with polyglots
+
+62. Hindi Learning WhatsApp Groups
+   URL: https://chat.whatsapp.com
+   Category: Online Communities
+   Description: Various WhatsApp groups for Hindi practice
+
+63. Telegram Hindi Learners
+   URL: https://telegram.org
+   Category: Online Communities
+   Description: Telegram channels for Hindi learning
+
+64. Lang-8
+   URL: https://lang-8.com
+   Category: Writing Practice
+   Description: Get your Hindi writing corrected by natives
+
+65. Journaly
+   URL: https://journaly.com
+   Category: Writing Practice
+   Description: Write journals in Hindi, get feedback
+
+66. Hindi Script Practice Sheets
+   URL: https://www.hindiworksheets.com
+   Category: Writing Practice
+   Description: Printable Devanagari writing practice
+
+67. Write in Hindi
+   URL: https://www.google.com/inputtools/try/
+   Category: Writing Practice
+   Description: Google Input Tools for Hindi typing
+
+68. Lipikaar Hindi Typing
+   URL: https://www.lipikaar.com
+   Category: Writing Practice
+   Description: Simple Hindi typing method
+
+69. TakeLessons Hindi
+   URL: https://takelessons.com/hindi
+   Category: Online Tutoring
+   Description: Hindi lessons online and locally
+
+70. Cambly
+   URL: https://www.cambly.com
+   Category: Online Tutoring
+   Description: On-demand Hindi conversation practice
+
+71. Hindi Games by Languages Online
+   URL: https://www.languagesonline.org.uk
+   Category: Games & Interactive
+   Description: Interactive Hindi exercises
+
+72. Influent Hindi
+   URL: https://playinfluent.com
+   Category: Games & Interactive
+   Description: 3D language learning game
+
+73. Hindi Crossword Puzzles
+   URL: https://www.lexisrex.com/Hindi-Crosswords
+   Category: Games & Interactive
+   Description: Hindi crossword puzzles online
+
+## INDONESIAN (27 removals)
+----------------------------------------
+
+1. 50Languages
+   URL: https://www.50languages.com/indonesian-for-free
+   Category: Complete Courses
+   Description: 100 free lessons with practical approach
+
+2. BIPA Daring
+   URL: https://bipa.kemdikbud.go.id/belajar_eng.php
+   Category: Government & Official Resources
+   Description: Official Ministry of Education BIPA platform
+
+3. Badan Bahasa
+   URL: https://badanbahasa.kemdikbud.go.id/
+   Category: Government & Official Resources
+   Description: Language Development Agency official site
+
+4. Rumah Belajar
+   URL: https://belajar.kemdikbud.go.id
+   Category: Government & Official Resources
+   Description: Ministry of Education LMS
+
+5. Darmasiswa Scholarship
+   URL: https://darmasiswa.kemdikbud.go.id/
+   Category: Government & Official Resources
+   Description: Government scholarship program info
+
+6. UI Scholar Hub
+   URL: https://scholarhub.ui.ac.id/
+   Category: University Resources
+   Description: University of Indonesia repository
+
+7. IndonesianPod101
+   URL: https://www.indonesianpod101.com/
+   Category: University Resources
+   Description: Audio/video lessons with free content
+
+8. Anki
+   URL: https://ankiweb.net/
+   Description: Flashcard system with Indonesian decks
+
+9. Indonesian Keyboard
+   URL: https://play.google.com/
+   Description: Mobile typing support
+
+10. Internet Archive Collection
+   URL: https://archive.org/details/indonesian-learning
+   Category: Free Textbooks
+   Description: 56 Indonesian learning materials
+
+11. IndonesianPod101 PDFs
+   URL: https://www.indonesianpod101.com/indonesian-workbooks/
+   Category: Free Textbooks
+   Description: 16+ practice workbooks
+
+12. Indonesian in 7 Days
+   URL: https://www.resourcefulindonesian.com/
+   Category: Free Textbooks
+   Description: Quick start guide
+
+13. PDF Language Lessons
+   URL: https://www.pdf-language-lessons.com/indonesian/
+   Category: Free Textbooks
+   Description: Downloadable worksheets
+
+14. Sneddon's Grammar (Archive)
+   URL: https://archive.org/
+   Category: Free Textbooks
+   Description: Academic grammar reference
+
+15. Internet Archive Books
+   URL: https://archive.org/details/kumpulan-berbagai-buku
+   Category: Digital Libraries
+   Description: Indonesian literature collection
+
+16. IndonesianPod101 YouTube
+   URL: https://www.youtube.com/IndonesianPod101
+   Category: YouTube Channels
+   Description: Comprehensive video lessons
+
+17. 5-Minute Indonesian
+   URL: https://www.youtube.com/
+   Category: YouTube Channels
+   Description: Daily conversations and slang
+
+18. Learning Indonesian Podcast
+   URL: https://podcasts.apple.com/
+   Category: Podcasts
+   Description: Shaun and Cici's course
+
+19. AudioBuku.com
+   URL: https://soundcloud.com/
+   Category: Podcasts
+   Description: Indonesian audiobooks
+
+20. Kompas.com
+   URL: https://go.kompas.com
+   Category: News & Media
+   Description: Major Indonesian newspaper
+
+21. Meet Indonesia Discord
+   URL: https://discord.com/invite/qamDwdU
+   Category: Language Exchange
+   Description: Discord community
+
+22. Indonesia Community Discord
+   URL: https://discord.com/invite/7DNS8J6
+   Category: Language Exchange
+   Description: Large Indonesian server
+
+23. Japanese-Indonesian Exchange
+   URL: https://discord.com/invite/jpid
+   Category: Language Exchange
+   Description: Bilingual exchange
+
+24. KBBI Web
+   URL: https://kbbi.web.id/
+   Category: Dictionaries & Tools
+   Description: Unofficial KBBI mirror
+
+25. Kamus.net
+   URL: https://www.kamus.net/
+   Category: Dictionaries & Tools
+   Description: World's largest English-Indonesian
+
+26. IndoDic
+   URL: https://www.indodic.com/
+   Category: Dictionaries & Tools
+   Description: Translation dictionary
+
+27. LanguageTool
+   URL: https://languagetool.org/
+   Category: Dictionaries & Tools
+   Description: Grammar checker
+
+## ITALIAN (17 removals)
+----------------------------------------
+
+1. Online Italian Club
+   URL: https://onlineitalianclub.com/
+   Category: Complete Courses
+   Description: Thousands of exercises and lessons across all CEFR levels
+
+2. Learn Italian Online
+   URL: https://www.learn-italian.net/
+   Category: Complete Courses
+   Description: 100+ topics with 14 interactive games and structured testing
+
+3. FSI Italian Courses
+   URL: https://www.fsi-language-courses.org/fsi-italian-language-courses/
+   Category: Open Educational Resources
+   Description: US government diplomatic training materials
+
+4. Portale Integrazione Migranti
+   URL: https://integrazionemigranti.gov.it/en-gb/Dettaglio-approfondimento/id/53/Learn-Italian-Online
+   Category: Open Educational Resources
+   Description: Official Italian government integration portal
+
+5. Anki
+   URL: https://apps.ankiweb.net
+   Description: Open source spaced repetition flashcards
+
+6. OpenTeacher
+   URL: https://openteacher.org
+   Description: Open source vocabulary trainer
+
+7. LanguageTool
+   URL: https://languagetool.org
+   Description: Grammar and spell checker for Italian
+
+8. ItalianPod101 Workbooks
+   URL: https://www.italianpod101.com/italian-workbooks/
+   Category: Free Textbooks
+   Description: Collection of 16+ free workbooks
+
+9. Coffee Break Italian
+   URL: https://coffeebreaklanguages.com/coffeebreakitalian/
+   Category: Podcasts
+   Description: Popular podcast series with 15-20 minute structured lessons
+
+10. RAI Scuola
+   URL: https://www.rai.it/raiscuola
+   Category: TV & Radio
+   Description: Italian public broadcasting education
+
+11. Language.Exchange
+   URL: https://en.language.exchange
+   Category: Language Exchange
+   Description: Free exchange platform
+
+12. Free Italian Conversation (Meetup)
+   URL: https://www.meetup.com/free-italian-conversation-online-classes-all-levels/
+   Category: Language Exchange
+   Description: Weekly online conversation classes
+
+13. Online Italian Club Conversations
+   URL: https://onlineitalianclub.com
+   Category: Language Tools
+   Description: 60+ dialogues with transcripts
+
+14. Reverso Conjugator
+   URL: https://conjugator.reverso.net/conjugation-italian.html
+   Category: Language Tools
+   Description: Complete Italian verb conjugation
+
+15. Italian-Verbs.com
+   URL: https://www.italian-verbs.com
+   Category: Language Tools
+   Description: Comprehensive conjugator by Olivetti
+
+16. Forvo
+   URL: https://forvo.com
+   Category: Language Tools
+   Description: Pronunciation dictionary with native audio
+
+17. Harper Grammar Checker
+   URL: https://writewithharper.com
+   Category: Text-to-Speech Tools
+   Description: Open source grammar checker
+
+## JAPANESE (20 removals)
+----------------------------------------
+
+1. Marugoto Plus
+   URL: https://marugotoplus.jp/en/
+   Category: Online Courses & Learning Platforms
+   Description: Supplementary site for Marugoto coursebooks with grammar, vocabulary, kanji exercises
+
+2. FreeJapaneseLessons.com
+   URL: https://freejapaneselessons.com/
+   Category: Online Courses & Learning Platforms
+   Description: 10-lesson course focusing on grammar basics
+
+3. Erin's Challenge
+   URL: Japan Foundation
+   Category: Online Courses & Learning Platforms
+   Description: Interactive video lessons with cultural content
+
+4. Hirogaru
+   URL: Japan Foundation site
+   Category: Online Courses & Learning Platforms
+   Description: Cultural topics with videos and articles
+
+5. Wasabi Japanese
+   URL: https://www.wasabi-jpn.com/
+   Category: Grammar Resources
+   Description: Professional teacher-created lessons
+
+6. JapanesePod101 JLPT
+   URL: https://www.japanesepod101.com/
+   Category: JLPT Preparation
+   Description: JLPT preparation podcasts
+
+7. Real Kana
+   URL: https://realkana.com/
+   Description: Hiragana/Katakana practice
+
+8. Kanji Study
+   URL: Web/Apps
+   Description: Comprehensive kanji learning tools
+
+9. Beginning Japanese for Professionals
+   URL: https://pdxscholar.library.pdx.edu/pdxopen/9
+   Category: Open Educational Textbooks
+   Description: Business-focused textbook by Emiko Konomi
+
+10. Genki Textbooks
+   URL: https://archive.org/details/Genki
+   Category: Open Educational Textbooks
+   Description: Popular textbook series on Internet Archive
+
+11. WWWJDIC
+   URL: http://www.edrdg.org/cgi-bin/wwwjdic/wwwjdic
+   Category: Dictionaries & Reference
+   Description: Jim Breen's comprehensive dictionary
+
+12. Tangorin
+   URL: https://tangorin.com/
+   Category: Dictionaries & Reference
+   Description: Dictionary with example sentences
+
+13. JapanDict
+   URL: https://www.japandict.com/
+   Category: Dictionaries & Reference
+   Description: Dictionary with stroke order animations
+
+14. Rikaichamp
+   URL: Browser extension
+   Category: Dictionaries & Reference
+   Description: Popup dictionary for browsers
+
+15. Japanese From Zero
+   URL: YouTube
+   Category: Video Resources
+   Description: Comprehensive video course
+
+16. WaniKani Community
+   URL: https://community.wanikani.com/
+   Category: Language Exchange & Community
+   Description: Kanji learning forum
+
+17. Discord Japanese Servers
+   URL: Discord
+   Category: Language Exchange & Community
+   Description: Real-time chat communities
+
+18. Kanji Damage
+   URL: http://www.kanjidamage.com/
+   Category: Writing & Kanji Practice
+   Description: Alternative kanji learning with humor
+
+19. JLPT Kanji Lists
+   URL: Various sites
+   Category: Writing & Kanji Practice
+   Description: JLPT-organized kanji study materials
+
+20. Amazing Talker
+   URL: https://amazingtalker.com/
+   Category: Online Tutoring
+   Description: Asian language focus platform
+
+## KOREAN (7 removals)
+----------------------------------------
+
+1. KoreanClass101
+   URL: https://www.koreanclass101.com/
+   Category: Structured Learning Platforms
+   Description: Daily updated lessons with free tier
+
+2. Anki
+   URL: https://apps.ankiweb.net/
+   Description: Flashcard system with Korean decks
+
+3. Naver Dictionary/Papago
+   URL: https://papago.naver.com/
+   Description: Comprehensive dictionary and translator
+
+4. Dongsa Verb Conjugator
+   URL: https://koreanverb.app/
+   Description: All Korean verb conjugations with explanations
+
+5. Korean Through Folktales (Portland State)
+   URL: https://pdx.edu/
+   Category: Open Textbooks
+   Description: Cultural approach using traditional stories
+
+6. KoreanClass101 Workbooks
+   URL: https://www.koreanclass101.com/korean-workbooks/
+   Category: Grammar Resources
+   Description: 16+ PDF workbooks
+
+7. Forvo Korean
+   URL: https://forvo.com/
+   Category: Dictionary & Tools
+   Description: Pronunciation dictionary
+
+## POLISH (16 removals)
+----------------------------------------
+
+1. LingoHut
+   URL: https://www.lingohut.com/en/l83/learn-polish
+   Category: Major Learning Platforms
+   Description: 125+ lessons completely free, no registration needed
+
+2. NAWA Summer Courses
+   URL: https://nawa.gov.pl/en/the-polish-language/nawa-summer-courses
+   Category: Government Programs
+   Description: Government-funded intensive courses - COMPLETELY FREE
+
+3. LingoHut
+   URL: https://www.lingohut.com/
+   Description: 125+ lessons completely free, browser-based
+
+4. Basic Polish: Grammar & Workbook
+   URL: https://languageadvisor.net/
+   Category: Textbooks and Grammar
+   Description: Grammar workbook by Dana Bielec
+
+5. Lingua Polish Reading Texts
+   URL: https://lingua.com/polish/reading/
+   Category: Reading Materials
+   Description: Well-organized beginner reading texts
+
+6. Selected Polish Tales
+   URL: https://www.gutenberg.org/
+   Category: Reading Materials
+   Description: Gutenberg collection by various authors
+
+7. Polish with John
+   URL: https://ioannesoculus.com
+   Category: Podcasts
+   Description: Short ~4 minute episodes
+
+8. LibriVox Polish
+   URL: https://librivox.org/
+   Category: Audiobooks
+   Description: Public domain books read by volunteers
+
+9. Learn Polish Discord
+   URL: Discord community
+   Category: Language Exchange
+   Description: Active Discord server with Polish classes and movie nights
+
+10. PONS Dictionary
+   URL: https://en.pons.com/translate/polish-english
+   Category: Language Tools
+   Description: 600,000+ words with audio
+
+11. Glosbe
+   URL: https://glosbe.com/pl/en
+   Category: Language Tools
+   Description: Community-built dictionary with translation memory
+
+12. Cooljugator
+   URL: https://cooljugator.com/pl
+   Category: Language Tools
+   Description: Complete verb conjugation tool
+
+13. Bab.la Conjugator
+   URL: https://en.bab.la/conjugation/polish/
+   Category: Language Tools
+   Description: Comprehensive conjugation system
+
+14. TastingPoland Verb Tables
+   URL: https://www.tastingpoland.com/language/verb/
+   Category: Language Tools
+   Description: 474 fully conjugated Polish verbs
+
+15. Forvo Polish
+   URL: https://forvo.com/languages/pl/
+   Category: Language Tools
+   Description: Native speaker pronunciation database
+
+16. PolishCorrector
+   URL: https://www.polishcorrector.com/
+   Category: Language Tools
+   Description: Free grammar checker
+
+## PORTUGUESE (19 removals)
+----------------------------------------
+
+1. Live Lingua
+   URL: https://www.livelingua.com/portuguese/courses
+   Category: Online Courses and Platforms
+   Description: 15 free courses with 38 ebooks and 686 audio files
+
+2. Plataforma de Português Online
+   URL: https://pptonline.acm.gov.pt/
+   Category: Online Courses and Platforms
+   Description: Official Portuguese government learning platform
+
+3. 50LANGUAGES
+   URL: https://www.50languages.com/portuguese-br-for-free
+   Category: Online Courses and Platforms
+   Description: 100 free lessons with practical dialogues
+
+4. Brazilian Government Resources
+   URL: https://www.gov.br/mre/pt-br
+   Category: Government and University Programs
+   Description: Ministry resources for Portuguese learners
+
+5. University of Texas Portuguese
+   URL: https://www.laits.utexas.edu/orkelm/
+   Category: Government and University Programs
+   Description: Orlando Kelm's Portuguese materials
+
+6. Universidade de Coimbra
+   URL: https://www.uc.pt/fluc/ensino/cpe
+   Category: Government and University Programs
+   Description: Portuguese courses from historic university
+
+7. Portuguese Lab Manual
+   URL: https://open.umn.edu/opentextbooks/textbooks/499
+   Category: Free Textbooks and Materials
+   Description: University of Minnesota open textbook
+
+8. Fernando Pessoa Archive
+   URL: http://arquivopessoa.net/
+   Category: Literature and Reading
+   Description: Portuguese poetry and prose
+
+9. PortuguesePod101
+   URL: https://www.portuguesepod101.com/
+   Category: Podcasts
+   Description: Comprehensive podcast series with 2,000+ lessons
+
+10. Practice Portuguese Podcast
+   URL: https://www.practiceportuguese.com/podcast/
+   Category: Podcasts
+   Description: European Portuguese podcast with transcripts
+
+11. Portuguese Lab Podcast
+   URL: https://www.portugueselab.com/podcast
+   Category: Podcasts
+   Description: Story-based learning podcast
+
+12. Café Brasil Podcast
+   URL: https://cafebrasil.com.br/
+   Category: Podcasts
+   Description: Brazilian culture and language
+
+13. Learn European Portuguese Online
+   URL: https://www.youtube.com/@LearnEuropeanPortugueseOnline
+   Category: YouTube Channels
+   Description: PT-PT focused channel
+
+14. Speaky
+   URL: https://www.speaky.com/
+   Category: Language Exchange
+   Description: Global language exchange
+
+15. Cambly
+   URL: https://www.cambly.com/
+   Category: Speaking Practice
+   Description: Instant tutoring
+
+16. Lang-8
+   URL: https://lang-8.com/
+   Category: Writing Practice
+   Description: Native speakers correct your writing
+
+17. HiNative
+   URL: https://hinative.com/
+   Category: Writing Practice
+   Description: Q&A with native speakers
+
+18. Journaly
+   URL: https://journaly.com/
+   Category: Writing Practice
+   Description: Writing feedback community
+
+19. Write & Improve
+   URL: https://writeandimprove.com/
+   Category: Writing Practice
+   Description: AI-powered writing feedback
+
+## SWAHILI (31 removals)
+----------------------------------------
+
+1. Language Transfer
+   URL: https://www.languagetransfer.org/courses
+   Category: Online Courses & Learning Platforms
+   Description: Complete audio course using Michel Thomas method
+
+2. SwahiliPod101
+   URL: https://www.swahilipod101.com/
+   Category: Online Courses & Learning Platforms
+   Description: Podcast-style lessons with cultural context
+
+3. 50Languages Swahili
+   URL: https://www.50languages.com/en/learn/phrasebook/sw/
+   Category: Online Courses & Learning Platforms
+   Description: Basic vocabulary and phrases course
+
+4. University of Dar es Salaam IKS
+   URL: https://www.udsm.ac.tz/
+   Category: Government & Institutional Resources
+   Description: Dictionaries and linguistics research
+
+5. Makerere University
+   URL: https://mak.ac.ug/
+   Category: Government & Institutional Resources
+   Description: Course materials and translation resources
+
+6. University of Nairobi
+   URL: https://kiswahili.uonbi.ac.ke/
+   Category: Government & Institutional Resources
+   Description: 90,000+ research documents and theses
+
+7. 50Languages
+   URL: https://www.50languages.com
+   Description: Basic Swahili vocabulary and phrases
+
+8. Swahili Dictionary
+   URL: https://swahili-dictionary.com
+   Description: Mobile dictionary app
+
+9. FSI Swahili Basic Course
+   URL: https://www.fsi-language-courses.org/languages/Swahili/Basic/FSI%20-%20Swahili%20Basic%20Course%20-%20Student%20Text.pdf
+   Category: Textbooks & Grammar Guides
+   Description: US Foreign Service Institute comprehensive course
+
+10. SwahiliPod101 Workbooks
+   URL: https://www.swahilipod101.com/swahili-workbooks/
+   Category: Textbooks & Grammar Guides
+   Description: 16+ workbooks covering alphabet to writing practice
+
+11. Maktaba.org
+   URL: https://www.maktaba.org/browse/books/kiswahili
+   Category: Digital Libraries & Reading Materials
+   Description: Educational platform with diverse content
+
+12. AfricaLanguages Dictionary
+   URL: https://africanlanguages.com/swahili/
+   Category: Dictionaries & Reference
+   Description: 16,000+ entries, 36,000+ translations
+
+13. Verbix Conjugator
+   URL: https://www.verbix.com/languages/swahili
+   Category: Dictionaries & Reference
+   Description: Complete verb conjugation tool
+
+14. Swahili Cheat Sheet
+   URL: https://www.swahilicheatsheet.com/
+   Category: Dictionaries & Reference
+   Description: Grammar reference guide
+
+15. Kamusi Project
+   URL: https://kamusi.org/
+   Category: Dictionaries & Reference
+   Description: Living dictionary project
+
+16. Language Transfer Podcast
+   URL: Available on major podcast platforms
+   Category: Audio & Video Resources
+   Description: Complete audio course using Michel Thomas method
+
+17. Five College World Languages
+   URL: YouTube platform
+   Category: Audio & Video Resources
+   Description: 50-episode grammar series
+
+18. TED Talks Swahili
+   URL: https://www.ted.com/
+   Category: Audio & Video Resources
+   Description: 220,000+ translations including Swahili
+
+19. Narakeet TTS
+   URL: https://www.narakeet.com/languages/swahili-text-to-speech/
+   Category: Audio & Video Resources
+   Description: Text-to-speech with 49 voices
+
+20. SwahiliPod101
+   URL: https://www.swahilipod101.com/swahili-podcast/
+   Category: Podcasts
+   Description: Comprehensive podcast series
+
+21. Language Transfer Complete Swahili
+   URL: Spotify, Apple Podcasts
+   Category: Podcasts
+   Description: Complete thinking method course
+
+22. Swahili Talk
+   URL: Various podcast platforms
+   Category: Podcasts
+   Description: Conversational Swahili practice
+
+23. Learn Swahili with Teacher Gladys
+   URL: YouTube, Podcast platforms
+   Category: Podcasts
+   Description: Structured lessons from native teacher
+
+24. Discord Swahili Servers
+   URL: https://discord.gg/jxcVmHJ
+   Category: Language Exchange Platforms
+   Description: Real-time chat communities
+
+25. Telegram Groups
+   URL: https://www.telegram-groups.com/swahili-telegram-group/
+   Category: Language Exchange Platforms
+   Description: 99+ active Swahili messaging groups
+
+26. Bilingua
+   URL: https://bilingua.io/
+   Category: Language Exchange Platforms
+   Description: AI-powered matching
+
+27. Swahili Grammar Exercises
+   URL: https://www.swahiligrammar.com/
+   Category: Writing & Grammar Practice
+   Description: Interactive grammar practice
+
+28. Write in Swahili
+   URL: https://www.google.com/inputtools/
+   Category: Writing & Grammar Practice
+   Description: Google Input Tools for Swahili
+
+29. Verbling
+   URL: https://www.verbling.com/find-teachers/swahili
+   Category: Online Tutoring
+   Description: Live video lessons
+
+30. Wyzant
+   URL: https://www.wyzant.com/
+   Category: Online Tutoring
+   Description: Local and online tutoring
+
+31. TakeLessons
+   URL: https://takelessons.com/
+   Category: Online Tutoring
+   Description: Swahili lessons with certified instructors
+
+## SWEDISH (23 removals)
+----------------------------------------
+
+1. Stockholm University Swedish
+   URL: https://www.su.se/department-of-swedish-language-and-multilingualism/education/
+   Category: University & Academic Courses
+   Description: Swedish for International Students/Researchers
+
+2. Lund University Swedish Package
+   URL: https://www.lunduniversity.lu.se/admissions/swedish-language-studies
+   Category: University & Academic Courses
+   Description: Study Abroad Swedish levels 1-8, intensive program
+
+3. SwedishPod101
+   URL: https://www.swedishpod101.com/
+   Category: University & Academic Courses
+   Description: Comprehensive audio/video lessons
+
+4. Hermods SFI
+   URL: https://hermods.se/sfi/
+   Category: Government SFI Programs
+   Description: All SFI levels with distance options
+
+5. SFI Municipal Programs
+   URL: Municipal websites
+   Category: Government SFI Programs
+   Description: Free Swedish education for immigrants
+
+6. Hej svenska!
+   URL: Via Informationsverige.se
+   Description: Official government app
+
+7. Scriveremo Vocabulary PDFs
+   URL: https://www.scriveremo.com/pdfwordlist.php?l=swe
+   Category: Open Educational Textbooks
+   Description: Categorized vocabulary lists
+
+8. Coffee Break Swedish
+   URL: https://coffeebreaklanguages.com/coffeebreakswedish/
+   Category: Podcasts
+   Description: 15-20 minute structured lessons
+
+9. News in Slow Swedish
+   URL: Various platforms
+   Category: Podcasts
+   Description: Current events at slower pace
+
+10. Språket i P1
+   URL: SR Play
+   Category: Podcasts
+   Description: Language and linguistics
+
+11. UR Samtiden
+   URL: UR Play
+   Category: Podcasts
+   Description: Educational lectures
+
+12. Learn Easy Swedish
+   URL: YouTube search
+   Category: YouTube Channels
+   Description: Beginner-focused channel
+
+13. r/Svenska Discord
+   URL: Discord invite via Reddit
+   Category: Online Communities
+   Description: Official Discord server
+
+14. Language Cafe Discord
+   URL: https://www.languagecafe.world/
+   Category: Online Communities
+   Description: Multilingual community
+
+15. WordReference Swedish
+   URL: https://forum.wordreference.com/forums/swedish.49/
+   Category: Online Communities
+   Description: Translation and grammar forum
+
+16. LangCorrect
+   URL: https://www.langcorrect.com/
+   Category: Online Communities
+   Description: Writing correction platform
+
+17. Facebook Swedish Groups
+   URL: Facebook search
+   Category: Online Communities
+   Description: Various learning groups
+
+18. Polyglot Club Swedish
+   URL: https://polyglotclub.com/language/swedish
+   Category: Online Communities
+   Description: Language exchange events
+
+19. Svenska Akademiens Ordbok (SAOB)
+   URL: https://www.saob.se/
+   Category: Dictionaries & Tools
+   Description: Historical dictionary 1521-present
+
+20. Svenska.se
+   URL: https://svenska.se/
+   Category: Dictionaries & Tools
+   Description: Three academy dictionaries combined
+
+21. Folkets Lexikon
+   URL: https://folkets-lexikon.csc.kth.se/
+   Category: Dictionaries & Tools
+   Description: Crowd-sourced Swedish-English
+
+22. Bab.la Swedish Conjugator
+   URL: https://en.bab.la/conjugation/swedish/
+   Category: Dictionaries & Tools
+   Description: Verb conjugation tool
+
+23. Biblioteken (Libraries)
+   URL: Local library websites
+   Category: Testing & Assessment
+   Description: Free courses and conversation
+
+## VIETNAMESE (19 removals)
+----------------------------------------
+
+1. LingoHut
+   URL: https://www.lingohut.com/en/l65/learn-vietnamese
+   Category: Online Platforms
+   Description: 125 five-minute lessons
+
+2. Learn Vietnamese Easy
+   URL: https://learnvietnameseeasy.com/vietnamese-pronunciation/
+   Category: Online Platforms
+   Description: 14-lesson pronunciation course
+
+3. ULIS-VNU Hanoi
+   URL: https://en.ulis.vnu.edu.vn/
+   Category: University Programs
+   Description: Intensive programs and study tours
+
+4. Columbia University Vietnamese
+   URL: https://ealac.columbia.edu/program/language-programs/vietnamese/
+   Category: University Programs
+   Description: Four-year program materials
+
+5. ASU Vietnamese Program
+   URL: https://silc.asu.edu/vietnamese
+   Category: University Programs
+   Description: Elementary to advanced courses
+
+6. NRCAL (CSU Fullerton)
+   URL: https://www.fullerton.edu/nrcal/virtual-language-program/
+   Category: University Programs
+   Description: Online classes for all ages
+
+7. Vietnamese by Nemo
+   URL: iOS/Android app stores
+   Description: Essential phrases app
+
+8. UniKey
+   URL: https://www.unikey.org/
+   Description: Vietnamese input method
+
+9. VietnamesePod101 Workbooks
+   URL: https://www.vietnamesepod101.com/vietnamese-workbooks/
+   Category: Textbooks and References
+   Description: 16+ downloadable PDF workbooks
+
+10. Reading A-Z Vietnamese
+   URL: https://www.readinga-z.com/worldlanguages/vietnamese/
+   Category: Textbooks and References
+   Description: Graded K-5 reading materials
+
+11. VietnamesePod101 Blog
+   URL: https://www.vietnamesepod101.com/blog/
+   Category: News and Current Events
+   Description: Language tips and cultural content
+
+12. VietnamesePod101
+   URL: https://www.youtube.com/channel/UCbnmwpaIq5Iq6XAg0S98m-A
+   Category: YouTube Channels
+   Description: 82.2K subscribers, professional lessons
+
+13. VietnamesePod101 Podcast
+   URL: Apple Podcasts/Spotify
+   Category: Podcasts
+   Description: Weekly audio lessons
+
+14. Learn Vietnamese with Annie Podcast
+   URL: Apple Podcasts
+   Category: Podcasts
+   Description: YouTube content in podcast format
+
+15. VOV Network
+   URL: Radio stations
+   Category: Media Resources
+   Description: Official Vietnamese radio
+
+16. InterPals
+   URL: https://interpals.net/
+   Category: Language Exchange
+   Description: 5+ million users
+
+17. VDict
+   URL: https://vdict.com/
+   Category: Dictionaries and Tools
+   Description: 9 dictionaries simultaneously
+
+18. Glosbe
+   URL: https://glosbe.com/en/vi
+   Category: Dictionaries and Tools
+   Description: Community-built dictionary
+
+19. GiongNoiAI
+   URL: https://giongnoiai.com/
+   Category: Text-to-Speech
+   Description: Vietnamese TTS service

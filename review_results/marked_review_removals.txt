@@ -1,0 +1,187 @@
+=== REMOVALS FROM MARKED-REVIEW-RESULTS ===
+Total: 30 resources marked for removal
+============================================================
+
+
+## DUTCH (1 removals)
+----------------------------------------
+
+1. TU Delft - Delft Dutch Course
+   URL: https://www.tudelft.nl/en/tpm/itav/education/dutch-courses/
+   Category: TU Delft - Delft Dutch Course
+   Line: 30
+
+## FINNISH (2 removals)
+----------------------------------------
+
+1. A Taste of Finnish - University of Helsinki
+   URL: http://tasteoffinnish.fi/
+   Category: A Taste of Finnish - University of Helsinki
+   Line: 21
+
+2. InterPals
+   URL: https://www.interpals.net/
+   Category: InterPals
+   Line: 372
+
+## HINDI (7 removals)
+----------------------------------------
+
+1. Babbel Hindi
+   URL: https://www.babbel.com
+   Category: Babbel Hindi
+   Line: 66
+
+2. Busuu Hindi
+   URL: https://www.busuu.com/en/hindi
+   Category: Busuu Hindi
+   Line: 96
+
+3. edX Hindi Courses
+   URL: https://www.edx.org/learn/hindi
+   Category: edX Hindi Courses
+   Line: 111
+
+4. FutureLearn Hindi
+   URL: https://www.futurelearn.com/subjects/language-courses/hindi
+   Category: FutureLearn Hindi
+   Line: 119
+
+5. Michel Thomas Hindi
+   URL: https://www.michelthomas.com
+   Category: Michel Thomas Hindi
+   Line: 779
+
+6. Superprof Hindi
+   URL: https://www.superprof.com/lessons/hindi/
+   Category: Superprof Hindi
+   Line: 1067
+
+7. Rype
+   URL: https://www.rypeapp.com
+   Category: Rype
+   Line: 1082
+
+## INDONESIAN (3 removals)
+----------------------------------------
+
+1. SIBI Book System
+   URL: https://buku.kemdikbud.go.id/
+   Category: SIBI Book System
+   Line: 128
+
+2. YLAI Graded Readers
+   URL: https://ylai.org/
+   Category: YLAI Graded Readers
+   Line: 283
+
+3. KBBI Official
+   URL: https://kbbi.kemdikbud.go.id/
+   Category: KBBI Official
+   Line: 499
+
+## ITALIAN (4 removals)
+----------------------------------------
+
+1. LibriVox Italian
+   URL: https://librivox.org
+   Category: LibriVox Italian
+   Line: 303
+
+2. HelloTalk
+   URL: https://www.hellotalk.com
+   Category: HelloTalk
+   Line: 383
+
+3. Conversation Exchange
+   URL: https://www.conversationexchange.com
+   Category: Conversation Exchange
+   Line: 392
+
+4. WordReference Forums
+   URL: https://forum.wordreference.com
+   Category: WordReference Forums
+   Line: 440
+
+## JAPANESE (3 removals)
+----------------------------------------
+
+1. Dogen Japanese Phonetics
+   URL: YouTube/Patreon
+   Category: Dogen Japanese Phonetics
+   Line: 476
+
+2. r/LearnJapanese
+   URL: Reddit
+   Category: r/LearnJapanese
+   Line: 521
+
+3. Cafetalk
+   URL: https://cafetalk.com/
+   Category: Cafetalk
+   Line: 623
+
+## POLISH (2 removals)
+----------------------------------------
+
+1. SEA-EU Language Exchange
+   URL: https://sea-eu.org/language-offers/
+   Category: SEA-EU Language Exchange
+   Line: 90
+
+2. OER Commons - Polish
+   URL: https://oercommons.org/
+   Category: OER Commons - Polish
+   Line: 150
+
+## PORTUGUESE (2 removals)
+----------------------------------------
+
+1. DLI Portuguese Language Course
+   URL: https://www.livelingua.com/dli/
+   Category: DLI Portuguese Language Course
+   Line: 192
+
+2. Discord Portuguese Servers
+   URL: https://discord.com/
+   Category: Discord Portuguese Servers
+   Line: 502
+
+## SWAHILI (2 removals)
+----------------------------------------
+
+1. FSI Swahili Basic Course
+   URL: https://www.fsi-language-courses.org/languages/Swahili/
+   Category: FSI Swahili Basic Course
+   Line: 147
+
+2. Tandem
+   URL: https://tandem.net/
+   Category: Tandem
+   Line: 496
+
+## SWEDISH (2 removals)
+----------------------------------------
+
+1. Folkuniversitetet SFI
+   URL: https://www.folkuniversitetet.se/vara-skolor/sfi-svenska-for-invandrare/
+   Category: Folkuniversitetet SFI
+   Line: 133
+
+2. Komvux
+   URL: Municipal adult education
+   Category: Komvux
+   Line: 159
+
+## VIETNAMESE (2 removals)
+----------------------------------------
+
+1. UNICEF Global Digital Library
+   URL: Through UNICEF
+   Category: UNICEF Global Digital Library
+   Line: 185
+
+2. ConversationExchange
+   URL: https://conversationexchange.com/
+   Category: ConversationExchange
+   Line: 371

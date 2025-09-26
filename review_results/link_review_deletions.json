@@ -1,0 +1,3022 @@
+[
+  {
+    "id": "dutch-apps-1758594485798-0.47289086590241014",
+    "name": "Duolingo",
+    "url": "https://www.duolingo.com/",
+    "description": "Most popular language app",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "dutch-books-1758594485798-0.6027609524066984",
+    "name": "Go Dutch!",
+    "url": "http://www.linguatextltd.com",
+    "description": "University textbook with Private Eye story",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": "Grammar and Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "dutch-books-1758594485798-0.30584285889836216",
+    "name": "Easy Dutch Reader",
+    "url": "https://lingualism.com/product/easy-dutch-reader/",
+    "description": "50+ short texts for beginners",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": "Reading Materials",
+    "type": "books"
+  },
+  {
+    "id": "dutch-audio-1758594485798-0.8109675837588818",
+    "name": "DutchPod101",
+    "url": "https://www.youtube.com/channel/UCY0BCa9cK",
+    "description": "Comprehensive lessons, grammar, vocabulary",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "dutch-audio-1758594485798-0.39351615509962634",
+    "name": "Learn Dutch with Bart de Pau",
+    "url": "https://www.youtube.com/channel/UC2IYiaH8i",
+    "description": "Structured courses, 1000 most common words",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "dutch-audio-1758594485798-0.8876431316090634",
+    "name": "Learn Dutch with Lianne",
+    "url": "Apple Podcasts, Spotify",
+    "description": "100% Dutch content on culture/language",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "dutch-audio-1758594485798-0.1363506891001579",
+    "name": "Een Beetje Nederlands",
+    "url": "Podcast platforms",
+    "description": "Dutch history and culture",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "dutch-audio-1758594485798-0.1528537479717581",
+    "name": "NOS Journaal in Makkelijke Taal",
+    "url": "NPO 1 television",
+    "description": "Simplified Dutch news",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": "TV and News",
+    "type": "audio"
+  },
+  {
+    "id": "dutch-practice-1758594485799-0.02015235411109484",
+    "name": "HelloTalk",
+    "url": "https://www.hellotalk.com/",
+    "description": "Social media-style exchange",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "dutch-practice-1758594485799-0.6793261876270082",
+    "name": "ConversationExchange",
+    "url": "https://www.conversationexchange.com/",
+    "description": "Find language partners",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "dutch-practice-1758594485799-0.6717410434219268",
+    "name": "LanguageTool Dutch",
+    "url": "https://languagetool.org/spellchecking-dutch",
+    "description": "AI-powered grammar checker",
+    "language": "dutch",
+    "language_name": "Dutch",
+    "category": "Tools and Dictionaries",
+    "type": "practice"
+  },
+  {
+    "id": "danish-courses-1758594485799-0.2665128378719508",
+    "name": "IELanguages.com",
+    "url": "https://www.ielanguages.com/danish.html",
+    "description": "Danish lessons with native speaker pronunciation",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Online Courses and Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "danish-courses-1758594485799-0.575432652201344",
+    "name": "50Languages Danish",
+    "url": "https://www.50languages.com/learn-danish-online-free",
+    "description": "100 free audio lessons with MP3 downloads",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Online Courses and Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "danish-apps-1758594485799-0.0020188717985211158",
+    "name": "Learn Danish Offline Lite",
+    "url": "https://learn-danish-offline-lite.en.softonic.com/android",
+    "description": "1,305 common Danish phrases offline",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "danish-apps-1758594485799-0.019304430946303297",
+    "name": "FunEasyLearn Danish",
+    "url": "App stores",
+    "description": "6,000 Danish words with images and audio",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "danish-apps-1758594485799-0.42936915490365735",
+    "name": "Learn Danish (MetaLanguage)",
+    "url": "Google Play Store",
+    "description": "Simple Danish learning with offline access",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "danish-apps-1758594485799-0.2956754146206718",
+    "name": "Clozemaster Danish",
+    "url": "https://www.clozemaster.com/blog/danish-tenses/",
+    "description": "Context-based learning",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "danish-books-1758594485799-0.03650549271049963",
+    "name": "Complete Danish Audio Resources",
+    "url": "https://library.teachyourself.com/id004325116/Complete-Danish-free-resources",
+    "description": "Professional audio companion for textbook",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Textbooks and Educational Materials",
+    "type": "books"
+  },
+  {
+    "id": "danish-books-1758594485799-0.4917946813374118",
+    "name": "Verbix Danish Conjugator",
+    "url": "http://www.verbix.com/languages/danish.shtml",
+    "description": "Complete Danish verb conjugation tool",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Grammar Resources",
+    "type": "books"
+  },
+  {
+    "id": "danish-books-1758594485799-0.16160507464188734",
+    "name": "Talkpal Grammar Exercises",
+    "url": "https://talkpal.ai/danish-grammar-exercises/",
+    "description": "Interactive grammar exercises for all topics",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Grammar Resources",
+    "type": "books"
+  },
+  {
+    "id": "danish-books-1758594485799-0.9077755595474152",
+    "name": "Bab.la Danish Conjugation",
+    "url": "https://en.bab.la/conjugation/danish/",
+    "description": "Danish verb conjugation with explanations",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Grammar Resources",
+    "type": "books"
+  },
+  {
+    "id": "danish-books-1758594485799-0.37007131408431815",
+    "name": "Cooljugator Danish",
+    "url": "https://cooljugator.com/da",
+    "description": "Verb conjugator with real examples",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Grammar Resources",
+    "type": "books"
+  },
+  {
+    "id": "danish-books-1758594485799-0.7209295214324345",
+    "name": "ADL (Arkiv for Dansk Litteratur)",
+    "url": "http://adl.dk/",
+    "description": "Archive of Danish literature",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Literature and Reading",
+    "type": "books"
+  },
+  {
+    "id": "danish-practice-1758594485799-0.522996470938638",
+    "name": "Dict.cc Danish-English",
+    "url": "https://daen.dict.cc/",
+    "description": "User-contributed bilingual dictionary",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Dictionaries and Tools",
+    "type": "practice"
+  },
+  {
+    "id": "danish-practice-1758594485799-0.2578223804494175",
+    "name": "Bab.la Danish Dictionary",
+    "url": "https://en.bab.la/dictionary/danish-english/",
+    "description": "Bilingual dictionary with phrases",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Dictionaries and Tools",
+    "type": "practice"
+  },
+  {
+    "id": "danish-practice-1758594485799-0.22565885878177494",
+    "name": "Forvo Danish",
+    "url": "https://forvo.com/languages/da/",
+    "description": "Pronunciation dictionary",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "Dictionaries and Tools",
+    "type": "practice"
+  },
+  {
+    "id": "danish-practice-1758594485799-0.922321998536497",
+    "name": "UCL Danish Learning Objects",
+    "url": "https://www.ucl.ac.uk/arts-humanities/european-languages-culture/",
+    "description": "Interactive learning objects with authentic materials",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "OER and Academic Resources",
+    "type": "practice"
+  },
+  {
+    "id": "danish-practice-1758594485799-0.15160809009630782",
+    "name": "Nordic Council Resources",
+    "url": "https://www.norden.org/en/information/nordic-languages",
+    "description": "Nordic language cooperation",
+    "language": "danish",
+    "language_name": "Danish",
+    "category": "OER and Academic Resources",
+    "type": "practice"
+  },
+  {
+    "id": "portuguese-courses-1758594485799-0.3257053749615906",
+    "name": "Live Lingua",
+    "url": "https://www.livelingua.com/portuguese/courses",
+    "description": "15 free courses with 38 ebooks and 686 audio files",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Online Courses and Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "portuguese-courses-1758594485799-0.28301689976924793",
+    "name": "Plataforma de Português Online",
+    "url": "https://pptonline.acm.gov.pt/",
+    "description": "Official Portuguese government learning platform",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Online Courses and Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "portuguese-courses-1758594485799-0.963598470661492",
+    "name": "50LANGUAGES",
+    "url": "https://www.50languages.com/portuguese-br-for-free",
+    "description": "100 free lessons with practical dialogues",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Online Courses and Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "portuguese-courses-1758594485799-0.6165838388470745",
+    "name": "Brazilian Government Resources",
+    "url": "https://www.gov.br/mre/pt-br",
+    "description": "Ministry resources for Portuguese learners",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Government and University Programs",
+    "type": "courses"
+  },
+  {
+    "id": "portuguese-courses-1758594485799-0.26948827316426205",
+    "name": "University of Texas Portuguese",
+    "url": "https://www.laits.utexas.edu/orkelm/",
+    "description": "Orlando Kelm's Portuguese materials",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Government and University Programs",
+    "type": "courses"
+  },
+  {
+    "id": "portuguese-courses-1758594485799-0.03302044678936278",
+    "name": "Universidade de Coimbra",
+    "url": "https://www.uc.pt/fluc/ensino/cpe",
+    "description": "Portuguese courses from historic university",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Government and University Programs",
+    "type": "courses"
+  },
+  {
+    "id": "portuguese-books-1758594485799-0.8030526019040574",
+    "name": "Portuguese Lab Manual",
+    "url": "https://open.umn.edu/opentextbooks/textbooks/499",
+    "description": "University of Minnesota open textbook",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Free Textbooks and Materials",
+    "type": "books"
+  },
+  {
+    "id": "portuguese-books-1758594485799-0.6360828312037126",
+    "name": "Fernando Pessoa Archive",
+    "url": "http://arquivopessoa.net/",
+    "description": "Portuguese poetry and prose",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Literature and Reading",
+    "type": "books"
+  },
+  {
+    "id": "portuguese-audio-1758594485799-0.6516020961409431",
+    "name": "PortuguesePod101",
+    "url": "https://www.portuguesepod101.com/",
+    "description": "Comprehensive podcast series with 2,000+ lessons",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "portuguese-audio-1758594485799-0.4686802749262776",
+    "name": "Practice Portuguese Podcast",
+    "url": "https://www.practiceportuguese.com/podcast/",
+    "description": "European Portuguese podcast with transcripts",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "portuguese-audio-1758594485799-0.9011048386834996",
+    "name": "Portuguese Lab Podcast",
+    "url": "https://www.portugueselab.com/podcast",
+    "description": "Story-based learning podcast",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "portuguese-audio-1758594485799-0.08340483474345761",
+    "name": "Café Brasil Podcast",
+    "url": "https://cafebrasil.com.br/",
+    "description": "Brazilian culture and language",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "portuguese-audio-1758594485799-0.4437155697620432",
+    "name": "Learn European Portuguese Online",
+    "url": "https://www.youtube.com/@LearnEuropeanPortugueseOnline",
+    "description": "PT-PT focused channel",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "portuguese-practice-1758594485799-0.7242417433475804",
+    "name": "Speaky",
+    "url": "https://www.speaky.com/",
+    "description": "Global language exchange",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "portuguese-practice-1758594485799-0.7453415168111303",
+    "name": "Cambly",
+    "url": "https://www.cambly.com/",
+    "description": "Instant tutoring",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Speaking Practice",
+    "type": "practice"
+  },
+  {
+    "id": "portuguese-practice-1758594485799-0.9945293286617962",
+    "name": "Lang-8",
+    "url": "https://lang-8.com/",
+    "description": "Native speakers correct your writing",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Writing Practice",
+    "type": "practice"
+  },
+  {
+    "id": "portuguese-practice-1758594485799-0.43691805521685356",
+    "name": "HiNative",
+    "url": "https://hinative.com/",
+    "description": "Q&A with native speakers",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Writing Practice",
+    "type": "practice"
+  },
+  {
+    "id": "portuguese-practice-1758594485799-0.875949338183897",
+    "name": "Journaly",
+    "url": "https://journaly.com/",
+    "description": "Writing feedback community",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Writing Practice",
+    "type": "practice"
+  },
+  {
+    "id": "portuguese-practice-1758594485799-0.6359683492246873",
+    "name": "Write & Improve",
+    "url": "https://writeandimprove.com/",
+    "description": "AI-powered writing feedback",
+    "language": "portuguese",
+    "language_name": "Portuguese",
+    "category": "Writing Practice",
+    "type": "practice"
+  },
+  {
+    "id": "italian-courses-1758594485800-0.596411246621948",
+    "name": "Online Italian Club",
+    "url": "https://onlineitalianclub.com/",
+    "description": "Thousands of exercises and lessons across all CEFR levels",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Complete Courses",
+    "type": "courses"
+  },
+  {
+    "id": "italian-courses-1758594485800-0.7428846562939457",
+    "name": "Learn Italian Online",
+    "url": "https://www.learn-italian.net/",
+    "description": "100+ topics with 14 interactive games and structured testing",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Complete Courses",
+    "type": "courses"
+  },
+  {
+    "id": "italian-courses-1758594485800-0.3878773856488441",
+    "name": "FSI Italian Courses",
+    "url": "https://www.fsi-language-courses.org/fsi-italian-language-courses/",
+    "description": "US government diplomatic training materials",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Open Educational Resources",
+    "type": "courses"
+  },
+  {
+    "id": "italian-courses-1758594485800-0.6088545210396165",
+    "name": "Portale Integrazione Migranti",
+    "url": "https://integrazionemigranti.gov.it/en-gb/Dettaglio-approfondimento/id/53/Learn-Italian-Online",
+    "description": "Official Italian government integration portal",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Open Educational Resources",
+    "type": "courses"
+  },
+  {
+    "id": "italian-apps-1758594485800-0.25613205439338305",
+    "name": "Anki",
+    "url": "https://apps.ankiweb.net",
+    "description": "Open source spaced repetition flashcards",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "italian-apps-1758594485800-0.8825058008737259",
+    "name": "OpenTeacher",
+    "url": "https://openteacher.org",
+    "description": "Open source vocabulary trainer",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "italian-apps-1758594485800-0.06689290175888718",
+    "name": "LanguageTool",
+    "url": "https://languagetool.org",
+    "description": "Grammar and spell checker for Italian",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "italian-books-1758594485800-0.1099842829205282",
+    "name": "ItalianPod101 Workbooks",
+    "url": "https://www.italianpod101.com/italian-workbooks/",
+    "description": "Collection of 16+ free workbooks",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Free Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "italian-audio-1758594485800-0.2066808798400831",
+    "name": "Coffee Break Italian",
+    "url": "https://coffeebreaklanguages.com/coffeebreakitalian/",
+    "description": "Popular podcast series with 15-20 minute structured lessons",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "italian-audio-1758594485800-0.5289801907234161",
+    "name": "RAI Scuola",
+    "url": "https://www.rai.it/raiscuola",
+    "description": "Italian public broadcasting education",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "TV & Radio",
+    "type": "audio"
+  },
+  {
+    "id": "italian-practice-1758594485800-0.8153624445661407",
+    "name": "Language.Exchange",
+    "url": "https://en.language.exchange",
+    "description": "Free exchange platform",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "italian-practice-1758594485800-0.211441547438468",
+    "name": "Free Italian Conversation (Meetup)",
+    "url": "https://www.meetup.com/free-italian-conversation-online-classes-all-levels/",
+    "description": "Weekly online conversation classes",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "italian-practice-1758594485800-0.776767983685179",
+    "name": "Online Italian Club Conversations",
+    "url": "https://onlineitalianclub.com",
+    "description": "60+ dialogues with transcripts",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "italian-practice-1758594485800-0.2515203822114679",
+    "name": "Reverso Conjugator",
+    "url": "https://conjugator.reverso.net/conjugation-italian.html",
+    "description": "Complete Italian verb conjugation",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "italian-practice-1758594485800-0.339739299809917",
+    "name": "Italian-Verbs.com",
+    "url": "https://www.italian-verbs.com",
+    "description": "Comprehensive conjugator by Olivetti",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "italian-practice-1758594485800-0.5176676358009334",
+    "name": "Forvo",
+    "url": "https://forvo.com",
+    "description": "Pronunciation dictionary with native audio",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "italian-practice-1758594485800-0.20741901455276213",
+    "name": "Harper Grammar Checker",
+    "url": "https://writewithharper.com",
+    "description": "Open source grammar checker",
+    "language": "italian",
+    "language_name": "Italian",
+    "category": "Text-to-Speech Tools",
+    "type": "practice"
+  },
+  {
+    "id": "indonesian-courses-1758594485800-0.21518632468610166",
+    "name": "50Languages",
+    "url": "https://www.50languages.com/indonesian-for-free",
+    "description": "100 free lessons with practical approach",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Complete Courses",
+    "type": "courses"
+  },
+  {
+    "id": "indonesian-courses-1758594485800-0.0867986232836877",
+    "name": "BIPA Daring",
+    "url": "https://bipa.kemdikbud.go.id/belajar_eng.php",
+    "description": "Official Ministry of Education BIPA platform",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Government & Official Resources",
+    "type": "courses"
+  },
+  {
+    "id": "indonesian-courses-1758594485800-0.11027330953138426",
+    "name": "Badan Bahasa",
+    "url": "https://badanbahasa.kemdikbud.go.id/",
+    "description": "Language Development Agency official site",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Government & Official Resources",
+    "type": "courses"
+  },
+  {
+    "id": "indonesian-courses-1758594485800-0.6502185982122073",
+    "name": "Rumah Belajar",
+    "url": "https://belajar.kemdikbud.go.id",
+    "description": "Ministry of Education LMS",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Government & Official Resources",
+    "type": "courses"
+  },
+  {
+    "id": "indonesian-courses-1758594485800-0.22826801688720466",
+    "name": "Darmasiswa Scholarship",
+    "url": "https://darmasiswa.kemdikbud.go.id/",
+    "description": "Government scholarship program info",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Government & Official Resources",
+    "type": "courses"
+  },
+  {
+    "id": "indonesian-courses-1758594485800-0.5225758727030094",
+    "name": "UI Scholar Hub",
+    "url": "https://scholarhub.ui.ac.id/",
+    "description": "University of Indonesia repository",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "University Resources",
+    "type": "courses"
+  },
+  {
+    "id": "indonesian-courses-1758594485800-0.44518109703581576",
+    "name": "IndonesianPod101",
+    "url": "https://www.indonesianpod101.com/",
+    "description": "Audio/video lessons with free content",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "University Resources",
+    "type": "courses"
+  },
+  {
+    "id": "indonesian-apps-1758594485800-0.6876931922751667",
+    "name": "Anki",
+    "url": "https://ankiweb.net/",
+    "description": "Flashcard system with Indonesian decks",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "indonesian-apps-1758594485800-0.3396072930666426",
+    "name": "Indonesian Keyboard",
+    "url": "https://play.google.com/",
+    "description": "Mobile typing support",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "indonesian-books-1758594485800-0.8135029961499615",
+    "name": "Internet Archive Collection",
+    "url": "https://archive.org/details/indonesian-learning",
+    "description": "56 Indonesian learning materials",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Free Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "indonesian-books-1758594485800-0.46554521486387057",
+    "name": "IndonesianPod101 PDFs",
+    "url": "https://www.indonesianpod101.com/indonesian-workbooks/",
+    "description": "16+ practice workbooks",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Free Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "indonesian-books-1758594485800-0.242343085685926",
+    "name": "Indonesian in 7 Days",
+    "url": "https://www.resourcefulindonesian.com/",
+    "description": "Quick start guide",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Free Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "indonesian-books-1758594485800-0.9664197547303583",
+    "name": "PDF Language Lessons",
+    "url": "https://www.pdf-language-lessons.com/indonesian/",
+    "description": "Downloadable worksheets",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Free Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "indonesian-books-1758594485800-0.6308995292151145",
+    "name": "Sneddon's Grammar (Archive)",
+    "url": "https://archive.org/",
+    "description": "Academic grammar reference",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Free Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "indonesian-books-1758594485800-0.8621579391866523",
+    "name": "Internet Archive Books",
+    "url": "https://archive.org/details/kumpulan-berbagai-buku",
+    "description": "Indonesian literature collection",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Digital Libraries",
+    "type": "books"
+  },
+  {
+    "id": "indonesian-audio-1758594485800-0.10880736285090531",
+    "name": "IndonesianPod101 YouTube",
+    "url": "https://www.youtube.com/IndonesianPod101",
+    "description": "Comprehensive video lessons",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "indonesian-audio-1758594485800-0.9697993371583029",
+    "name": "5-Minute Indonesian",
+    "url": "https://www.youtube.com/",
+    "description": "Daily conversations and slang",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "indonesian-audio-1758594485800-0.4316237553893064",
+    "name": "Learning Indonesian Podcast",
+    "url": "https://podcasts.apple.com/",
+    "description": "Shaun and Cici's course",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "indonesian-audio-1758594485800-0.2990393843095921",
+    "name": "AudioBuku.com",
+    "url": "https://soundcloud.com/",
+    "description": "Indonesian audiobooks",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "indonesian-audio-1758594485800-0.8640687022760539",
+    "name": "Kompas.com",
+    "url": "https://go.kompas.com",
+    "description": "Major Indonesian newspaper",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "News & Media",
+    "type": "audio"
+  },
+  {
+    "id": "indonesian-practice-1758594485800-0.10566924257217314",
+    "name": "Meet Indonesia Discord",
+    "url": "https://discord.com/invite/qamDwdU",
+    "description": "Discord community",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "indonesian-practice-1758594485800-0.07284631327727875",
+    "name": "Indonesia Community Discord",
+    "url": "https://discord.com/invite/7DNS8J6",
+    "description": "Large Indonesian server",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "indonesian-practice-1758594485800-0.06335871738545218",
+    "name": "Japanese-Indonesian Exchange",
+    "url": "https://discord.com/invite/jpid",
+    "description": "Bilingual exchange",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "indonesian-practice-1758594485800-0.2792125139569771",
+    "name": "KBBI Web",
+    "url": "https://kbbi.web.id/",
+    "description": "Unofficial KBBI mirror",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Dictionaries & Tools",
+    "type": "practice"
+  },
+  {
+    "id": "indonesian-practice-1758594485800-0.8857184214183769",
+    "name": "Kamus.net",
+    "url": "https://www.kamus.net/",
+    "description": "World's largest English-Indonesian",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Dictionaries & Tools",
+    "type": "practice"
+  },
+  {
+    "id": "indonesian-practice-1758594485800-0.3953215084264009",
+    "name": "IndoDic",
+    "url": "https://www.indodic.com/",
+    "description": "Translation dictionary",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Dictionaries & Tools",
+    "type": "practice"
+  },
+  {
+    "id": "indonesian-practice-1758594485800-0.27978922764249337",
+    "name": "LanguageTool",
+    "url": "https://languagetool.org/",
+    "description": "Grammar checker",
+    "language": "indonesian",
+    "language_name": "Indonesian",
+    "category": "Dictionaries & Tools",
+    "type": "practice"
+  },
+  {
+    "id": "korean-courses-1758594485800-0.9570472529080374",
+    "name": "KoreanClass101",
+    "url": "https://www.koreanclass101.com/",
+    "description": "Daily updated lessons with free tier",
+    "language": "korean",
+    "language_name": "Korean",
+    "category": "Structured Learning Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "korean-apps-1758594485800-0.9706721845092562",
+    "name": "Anki",
+    "url": "https://apps.ankiweb.net/",
+    "description": "Flashcard system with Korean decks",
+    "language": "korean",
+    "language_name": "Korean",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "korean-apps-1758594485800-0.955510605153379",
+    "name": "Naver Dictionary/Papago",
+    "url": "https://papago.naver.com/",
+    "description": "Comprehensive dictionary and translator",
+    "language": "korean",
+    "language_name": "Korean",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "korean-apps-1758594485800-0.4363635181281422",
+    "name": "Dongsa Verb Conjugator",
+    "url": "https://koreanverb.app/",
+    "description": "All Korean verb conjugations with explanations",
+    "language": "korean",
+    "language_name": "Korean",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "korean-books-1758594485800-0.7772831900051482",
+    "name": "Korean Through Folktales (Portland State)",
+    "url": "https://pdx.edu/",
+    "description": "Cultural approach using traditional stories",
+    "language": "korean",
+    "language_name": "Korean",
+    "category": "Open Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "korean-books-1758594485800-0.8373800951436143",
+    "name": "KoreanClass101 Workbooks",
+    "url": "https://www.koreanclass101.com/korean-workbooks/",
+    "description": "16+ PDF workbooks",
+    "language": "korean",
+    "language_name": "Korean",
+    "category": "Grammar Resources",
+    "type": "books"
+  },
+  {
+    "id": "korean-practice-1758594485800-0.1838751073556979",
+    "name": "Forvo Korean",
+    "url": "https://forvo.com/",
+    "description": "Pronunciation dictionary",
+    "language": "korean",
+    "language_name": "Korean",
+    "category": "Dictionary & Tools",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.20609225191148184",
+    "name": "University of Texas Austin - Hindi Script",
+    "url": "https://www.laits.utexas.edu/orkelm/hindiscript/index.html",
+    "description": "Interactive lessons on the Devanagari script used for Hindi",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.20409825755719557",
+    "name": "Learn Hindi with HindiPod101",
+    "url": "https://www.hindipod101.com",
+    "description": "Comprehensive audio and video lessons for all levels",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.8543301259326328",
+    "name": "Transparent Language Hindi",
+    "url": "https://www.transparent.com/learn-hindi/",
+    "description": "Comprehensive Hindi learning platform",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.840382518928525",
+    "name": "Learn Hindi Free",
+    "url": "http://www.learnhindifree.com/",
+    "description": "Basic Hindi lessons and resources",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.04526349191851731",
+    "name": "HindiGym",
+    "url": "https://www.hindigym.com/",
+    "description": "Interactive Hindi learning exercises",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.5162464456280784",
+    "name": "Hindi Language.info",
+    "url": "http://www.hindilanguage.info/",
+    "description": "Comprehensive Hindi learning resources",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.2286709504814698",
+    "name": "Learn101 Hindi",
+    "url": "http://learn101.org/hindi.php",
+    "description": "Basic Hindi vocabulary and phrases",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.6558970049235741",
+    "name": "MyLanguages Hindi",
+    "url": "http://mylanguages.org/hindi.php",
+    "description": "Hindi grammar, vocabulary, and phrases",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.09170034058050991",
+    "name": "Surface Languages Hindi",
+    "url": "https://www.surfacelanguages.com/language/Hindi.html",
+    "description": "Basic Hindi phrases with audio",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.39576477943604316",
+    "name": "ILanguages Hindi",
+    "url": "http://ilanguages.org/hindi.php",
+    "description": "Hindi vocabulary, phrases, and grammar lessons",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.47955341668523277",
+    "name": "LingoHut Hindi",
+    "url": "https://www.lingohut.com/en/l82/learn-hindi",
+    "description": "125 Hindi lessons with audio",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.5008771730723565",
+    "name": "50Languages Hindi",
+    "url": "https://www.50languages.com/en/learn/phrasebook/hi/",
+    "description": "Hindi phrasebook and basic lessons",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.39452431959911294",
+    "name": "Brahmic Scripts Tutor",
+    "url": "https://brahmic.appspot.com/",
+    "description": "Learn Devanagari script interactively",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.13729130945336887",
+    "name": "Learning Hindi!",
+    "url": "https://www.learning-hindi.com/",
+    "description": "Blog-style Hindi lessons and cultural insights",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.17508899125587818",
+    "name": "Hindi Lessons LA",
+    "url": "https://hindilessonsla.com/",
+    "description": "Structured Hindi lessons with exercises",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Courses & Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.5894090288707967",
+    "name": "LILA Hindi Prabodh",
+    "url": "https://rajbhasha.gov.in/en/lila-rajbhasha",
+    "description": "Learn Indian Languages through Artificial Intelligence - Hindi",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Government Resources",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.6240689590713342",
+    "name": "Central Hindi Directorate Resources",
+    "url": "http://www.hindinideshalaya.nic.in/",
+    "description": "Official Hindi teaching materials and resources",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Government Resources",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-courses-1758594485800-0.9377655143642456",
+    "name": "Kendriya Hindi Sansthan",
+    "url": "http://www.khsindia.org/",
+    "description": "Central Institute of Hindi - courses and materials",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Government Resources",
+    "type": "courses"
+  },
+  {
+    "id": "hindi-apps-1758594485800-0.3437682916979784",
+    "name": "Simply Learn Hindi",
+    "url": "https://simplylearnapps.com",
+    "description": "Hindi phrasebook and learning app",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "hindi-apps-1758594485800-0.3427785920854225",
+    "name": "Google Translate",
+    "url": "https://translate.google.com",
+    "description": "Translation app with Hindi support and offline mode",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "hindi-apps-1758594485800-0.12165802170386042",
+    "name": "Microsoft Translator",
+    "url": "https://translator.microsoft.com",
+    "description": "Multi-platform translator with Hindi",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "hindi-apps-1758594485800-0.18387620531555715",
+    "name": "LingQ Hindi",
+    "url": "https://www.lingq.com",
+    "description": "Learn Hindi through reading and listening",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "hindi-apps-1758594485800-0.9860355918145478",
+    "name": "Hindi Script Tutor",
+    "url": "https://play.google.com/store",
+    "description": "Learn to write Devanagari script",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "hindi-apps-1758594485800-0.8124081600006229",
+    "name": "Write It! Hindi",
+    "url": "https://apps.apple.com",
+    "description": "Practice writing Hindi characters",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "hindi-apps-1758594485800-0.4385999847477746",
+    "name": "Nemo Hindi",
+    "url": "https://www.nemoapps.com",
+    "description": "Essential Hindi words and phrases",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "hindi-apps-1758594485800-0.5264436063851415",
+    "name": "uTalk Hindi",
+    "url": "https://utalk.com",
+    "description": "Learn to speak Hindi with games",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "hindi-apps-1758594485800-0.7382187018591497",
+    "name": "Learn Hindi - MindSnacks",
+    "url": "https://www.mindsnacks.com",
+    "description": "Hindi learning through mini-games",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "hindi-apps-1758594485800-0.2540325455536335",
+    "name": "Hindi by Spokenmate",
+    "url": "https://spokenmate.com",
+    "description": "Conversational Hindi practice",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "hindi-books-1758594485800-0.7610906082904922",
+    "name": "Shabdkosh Online Dictionary",
+    "url": "https://www.shabdkosh.com",
+    "description": "Free online Hindi-English dictionary",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Dictionaries & Reference",
+    "type": "books"
+  },
+  {
+    "id": "hindi-books-1758594485800-0.06966445594600146",
+    "name": "Hindi English Expert Translator",
+    "url": "https://www.hindi-english.org",
+    "description": "Online translation and dictionary tool",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Dictionaries & Reference",
+    "type": "books"
+  },
+  {
+    "id": "hindi-books-1758594485800-0.6247735719365516",
+    "name": "Kavita Kosh",
+    "url": "http://kavitakosh.org",
+    "description": "Hindi poetry collection",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Reading Material",
+    "type": "books"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.5210171856506599",
+    "name": "HindiPod101",
+    "url": "https://www.hindipod101.com/hindi-podcast/",
+    "description": "Comprehensive Hindi learning podcast series",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.050959406229987625",
+    "name": "Learn Hindi with Awal",
+    "url": "https://podcasts.apple.com/podcast/id1459552878",
+    "description": "Hindi lessons through conversations",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.4761059258075274",
+    "name": "Hindi Urdu Flagship",
+    "url": "https://hindiurduflagship.org/resources/podcasts/",
+    "description": "Academic Hindi learning podcasts",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.9501674824415588",
+    "name": "One Minute Hindi",
+    "url": "https://radiolingua.com/one-minute-hindi/",
+    "description": "Quick daily Hindi lessons",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.3837128807389063",
+    "name": "The Hindi Podcast",
+    "url": "https://thehindipodcast.com/",
+    "description": "Stories and conversations in Hindi",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.8881893518422326",
+    "name": "Kahaani Aur Hum",
+    "url": "https://ivmpodcasts.com/kahani-aur-hum",
+    "description": "Hindi stories and narratives",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.7172202238725423",
+    "name": "Urdunama",
+    "url": "https://www.urdunama.com",
+    "description": "Hindi-Urdu language and culture podcast",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.01304364359835608",
+    "name": "Spotify Hindi Podcasts",
+    "url": "https://open.spotify.com/genre/hindi-podcasts",
+    "description": "Collection of Hindi podcasts on Spotify",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.9879806811332146",
+    "name": "Awal",
+    "url": "https://www.youtube.com/c/LearnHindiwithAwal",
+    "description": "Hindi lessons with clear explanations",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.38465178350332996",
+    "name": "Hindi Lessons by Neha",
+    "url": "https://www.youtube.com/channel/UCQgGRVhZP6Qx_Gjm5cPzAUA",
+    "description": "Structured Hindi lessons for beginners",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.9995942078819057",
+    "name": "Learn Hindi Through English",
+    "url": "https://www.youtube.com/channel/UCfwa_zKl8-zC9rQDWnd8SbA",
+    "description": "Hindi grammar and vocabulary lessons",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.5948499329677179",
+    "name": "Hindi Gyan",
+    "url": "https://www.youtube.com/c/HindiGyan",
+    "description": "Hindi language and grammar tutorials",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.56923828157066",
+    "name": "Learn Languages with Languagenut",
+    "url": "https://www.youtube.com/user/Languagenut",
+    "description": "Basic Hindi lessons and pronunciation",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.9448424770673304",
+    "name": "Rocket Languages Hindi",
+    "url": "https://www.youtube.com/user/RocketLanguages",
+    "description": "Hindi learning tips and lessons",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.4418428062746914",
+    "name": "Learn Hindi with Karishma",
+    "url": "https://www.youtube.com/channel/UCLNPLyoXCKY0YhJOZPX_jgg",
+    "description": "Conversational Hindi lessons",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.6580436856752881",
+    "name": "DLI Hindi Course",
+    "url": "https://www.livelingua.com/dli-hindi-course.php",
+    "description": "Defense Language Institute Hindi materials",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Audio Courses",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.6658287640307811",
+    "name": "All India Radio",
+    "url": "http://www.newsonair.com/hindi.php",
+    "description": "Hindi radio broadcasts and news",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Radio & Media",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.4273532533330776",
+    "name": "Red FM Hindi",
+    "url": "https://www.redfm.in",
+    "description": "Hindi entertainment radio",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Radio & Media",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.7536180705418427",
+    "name": "Vividh Bharati",
+    "url": "http://air.gov.in/vividh-bharati",
+    "description": "Classical Hindi radio service",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Radio & Media",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.8672017752244409",
+    "name": "Netflix Hindi Content",
+    "url": "https://www.netflix.com",
+    "description": "Hindi movies and shows with subtitles",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Radio & Media",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.5229433255124916",
+    "name": "Amazon Prime Hindi",
+    "url": "https://www.primevideo.com",
+    "description": "Hindi content with subtitle options",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Radio & Media",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.3949731958827509",
+    "name": "Hotstar",
+    "url": "https://www.hotstar.com",
+    "description": "Hindi movies, shows, and sports",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Radio & Media",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-audio-1758594485800-0.18302734200682458",
+    "name": "YouTube Hindi Movies",
+    "url": "https://www.youtube.com/channel/UCq-Cy3CK8oHgTJfRzcbyZGQ",
+    "description": "Free Hindi movies with subtitles",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Radio & Media",
+    "type": "audio"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.5122671482880671",
+    "name": "Speaky",
+    "url": "https://www.speaky.com",
+    "description": "Global language exchange for Hindi",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.5404672378979185",
+    "name": "HiNative",
+    "url": "https://hinative.com",
+    "description": "Ask native Hindi speakers questions",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.7055724944744535",
+    "name": "Bilingua",
+    "url": "https://www.bilingua.io",
+    "description": "Hindi language exchange app",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.01641399535823107",
+    "name": "The Mixxer",
+    "url": "https://www.language-exchanges.org",
+    "description": "Free language exchange for Hindi learners",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.26820574547868703",
+    "name": "Discord Hindi Servers",
+    "url": "https://discord.com",
+    "description": "Hindi learning communities on Discord",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.18381390027820999",
+    "name": "Hindi Language Learners Facebook",
+    "url": "https://www.facebook.com/groups/hindilanguagelearners",
+    "description": "Facebook group for Hindi students",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Communities",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.9122151890515331",
+    "name": "Polyglot Club Hindi",
+    "url": "https://polyglotclub.com",
+    "description": "Hindi practice with polyglots",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Communities",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.4032325446025079",
+    "name": "Hindi Learning WhatsApp Groups",
+    "url": "https://chat.whatsapp.com",
+    "description": "Various WhatsApp groups for Hindi practice",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Communities",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.11404500193092737",
+    "name": "Telegram Hindi Learners",
+    "url": "https://telegram.org",
+    "description": "Telegram channels for Hindi learning",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Communities",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.9644923291507341",
+    "name": "Lang-8",
+    "url": "https://lang-8.com",
+    "description": "Get your Hindi writing corrected by natives",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Writing Practice",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.08035002508151656",
+    "name": "Journaly",
+    "url": "https://journaly.com",
+    "description": "Write journals in Hindi, get feedback",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Writing Practice",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.8824245007441179",
+    "name": "Hindi Script Practice Sheets",
+    "url": "https://www.hindiworksheets.com",
+    "description": "Printable Devanagari writing practice",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Writing Practice",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.6735282251848056",
+    "name": "Write in Hindi",
+    "url": "https://www.google.com/inputtools/try/",
+    "description": "Google Input Tools for Hindi typing",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Writing Practice",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.0866821828483676",
+    "name": "Lipikaar Hindi Typing",
+    "url": "https://www.lipikaar.com",
+    "description": "Simple Hindi typing method",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Writing Practice",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.7437146106453097",
+    "name": "TakeLessons Hindi",
+    "url": "https://takelessons.com/hindi",
+    "description": "Hindi lessons online and locally",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Tutoring",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.23811043048053215",
+    "name": "Cambly",
+    "url": "https://www.cambly.com",
+    "description": "On-demand Hindi conversation practice",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Online Tutoring",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.38905043579569587",
+    "name": "Hindi Games by Languages Online",
+    "url": "https://www.languagesonline.org.uk",
+    "description": "Interactive Hindi exercises",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Games & Interactive",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.3930220547622927",
+    "name": "Influent Hindi",
+    "url": "https://playinfluent.com",
+    "description": "3D language learning game",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Games & Interactive",
+    "type": "practice"
+  },
+  {
+    "id": "hindi-practice-1758594485800-0.7523685383816406",
+    "name": "Hindi Crossword Puzzles",
+    "url": "https://www.lexisrex.com/Hindi-Crosswords",
+    "description": "Hindi crossword puzzles online",
+    "language": "hindi",
+    "language_name": "Hindi",
+    "category": "Games & Interactive",
+    "type": "practice"
+  },
+  {
+    "id": "swahili-courses-1758594485800-0.7146058437740062",
+    "name": "Language Transfer",
+    "url": "https://www.languagetransfer.org/courses",
+    "description": "Complete audio course using Michel Thomas method",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Online Courses & Learning Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "swahili-courses-1758594485800-0.7695983677642315",
+    "name": "SwahiliPod101",
+    "url": "https://www.swahilipod101.com/",
+    "description": "Podcast-style lessons with cultural context",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Online Courses & Learning Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "swahili-courses-1758594485800-0.6444666405299221",
+    "name": "50Languages Swahili",
+    "url": "https://www.50languages.com/en/learn/phrasebook/sw/",
+    "description": "Basic vocabulary and phrases course",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Online Courses & Learning Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "swahili-courses-1758594485800-0.5214020127583359",
+    "name": "University of Dar es Salaam IKS",
+    "url": "https://www.udsm.ac.tz/",
+    "description": "Dictionaries and linguistics research",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Government & Institutional Resources",
+    "type": "courses"
+  },
+  {
+    "id": "swahili-courses-1758594485800-0.17661380406667015",
+    "name": "Makerere University",
+    "url": "https://mak.ac.ug/",
+    "description": "Course materials and translation resources",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Government & Institutional Resources",
+    "type": "courses"
+  },
+  {
+    "id": "swahili-courses-1758594485800-0.4105922163417153",
+    "name": "University of Nairobi",
+    "url": "https://kiswahili.uonbi.ac.ke/",
+    "description": "90,000+ research documents and theses",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Government & Institutional Resources",
+    "type": "courses"
+  },
+  {
+    "id": "swahili-apps-1758594485800-0.36160471843317754",
+    "name": "50Languages",
+    "url": "https://www.50languages.com",
+    "description": "Basic Swahili vocabulary and phrases",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "swahili-apps-1758594485800-0.7700859084788413",
+    "name": "Swahili Dictionary",
+    "url": "https://swahili-dictionary.com",
+    "description": "Mobile dictionary app",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "swahili-books-1758594485800-0.7882122233177721",
+    "name": "FSI Swahili Basic Course",
+    "url": "https://www.fsi-language-courses.org/languages/Swahili/Basic/FSI%20-%20Swahili%20Basic%20Course%20-%20Student%20Text.pdf",
+    "description": "US Foreign Service Institute comprehensive course",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Textbooks & Grammar Guides",
+    "type": "books"
+  },
+  {
+    "id": "swahili-books-1758594485800-0.9216285755115136",
+    "name": "SwahiliPod101 Workbooks",
+    "url": "https://www.swahilipod101.com/swahili-workbooks/",
+    "description": "16+ workbooks covering alphabet to writing practice",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Textbooks & Grammar Guides",
+    "type": "books"
+  },
+  {
+    "id": "swahili-books-1758594485800-0.34192431499722464",
+    "name": "Maktaba.org",
+    "url": "https://www.maktaba.org/browse/books/kiswahili",
+    "description": "Educational platform with diverse content",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Digital Libraries & Reading Materials",
+    "type": "books"
+  },
+  {
+    "id": "swahili-books-1758594485800-0.8584217789304313",
+    "name": "AfricaLanguages Dictionary",
+    "url": "https://africanlanguages.com/swahili/",
+    "description": "16,000+ entries, 36,000+ translations",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Dictionaries & Reference",
+    "type": "books"
+  },
+  {
+    "id": "swahili-books-1758594485800-0.07105552236454027",
+    "name": "Verbix Conjugator",
+    "url": "https://www.verbix.com/languages/swahili",
+    "description": "Complete verb conjugation tool",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Dictionaries & Reference",
+    "type": "books"
+  },
+  {
+    "id": "swahili-books-1758594485800-0.8164050208343185",
+    "name": "Swahili Cheat Sheet",
+    "url": "https://www.swahilicheatsheet.com/",
+    "description": "Grammar reference guide",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Dictionaries & Reference",
+    "type": "books"
+  },
+  {
+    "id": "swahili-books-1758594485800-0.357291560748797",
+    "name": "Kamusi Project",
+    "url": "https://kamusi.org/",
+    "description": "Living dictionary project",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Dictionaries & Reference",
+    "type": "books"
+  },
+  {
+    "id": "swahili-audio-1758594485800-0.3051764736496767",
+    "name": "Language Transfer Podcast",
+    "url": "Available on major podcast platforms",
+    "description": "Complete audio course using Michel Thomas method",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Audio & Video Resources",
+    "type": "audio"
+  },
+  {
+    "id": "swahili-audio-1758594485800-0.142656868455035",
+    "name": "Five College World Languages",
+    "url": "YouTube platform",
+    "description": "50-episode grammar series",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Audio & Video Resources",
+    "type": "audio"
+  },
+  {
+    "id": "swahili-audio-1758594485800-0.5289615414315885",
+    "name": "TED Talks Swahili",
+    "url": "https://www.ted.com/",
+    "description": "220,000+ translations including Swahili",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Audio & Video Resources",
+    "type": "audio"
+  },
+  {
+    "id": "swahili-audio-1758594485800-0.055089960656034664",
+    "name": "Narakeet TTS",
+    "url": "https://www.narakeet.com/languages/swahili-text-to-speech/",
+    "description": "Text-to-speech with 49 voices",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Audio & Video Resources",
+    "type": "audio"
+  },
+  {
+    "id": "swahili-audio-1758594485800-0.5085361616281855",
+    "name": "SwahiliPod101",
+    "url": "https://www.swahilipod101.com/swahili-podcast/",
+    "description": "Comprehensive podcast series",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "swahili-audio-1758594485800-0.3723456042404576",
+    "name": "Language Transfer Complete Swahili",
+    "url": "Spotify, Apple Podcasts",
+    "description": "Complete thinking method course",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "swahili-audio-1758594485800-0.3753474793911252",
+    "name": "Swahili Talk",
+    "url": "Various podcast platforms",
+    "description": "Conversational Swahili practice",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "swahili-audio-1758594485800-0.6978516986389551",
+    "name": "Learn Swahili with Teacher Gladys",
+    "url": "YouTube, Podcast platforms",
+    "description": "Structured lessons from native teacher",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "swahili-practice-1758594485800-0.2570341231406016",
+    "name": "Discord Swahili Servers",
+    "url": "https://discord.gg/jxcVmHJ",
+    "description": "Real-time chat communities",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Language Exchange Platforms",
+    "type": "practice"
+  },
+  {
+    "id": "swahili-practice-1758594485800-0.22173996707105925",
+    "name": "Telegram Groups",
+    "url": "https://www.telegram-groups.com/swahili-telegram-group/",
+    "description": "99+ active Swahili messaging groups",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Language Exchange Platforms",
+    "type": "practice"
+  },
+  {
+    "id": "swahili-practice-1758594485800-0.598847579999183",
+    "name": "Bilingua",
+    "url": "https://bilingua.io/",
+    "description": "AI-powered matching",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Language Exchange Platforms",
+    "type": "practice"
+  },
+  {
+    "id": "swahili-practice-1758594485800-0.13922504087811882",
+    "name": "Swahili Grammar Exercises",
+    "url": "https://www.swahiligrammar.com/",
+    "description": "Interactive grammar practice",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Writing & Grammar Practice",
+    "type": "practice"
+  },
+  {
+    "id": "swahili-practice-1758594485800-0.13427921657970465",
+    "name": "Write in Swahili",
+    "url": "https://www.google.com/inputtools/",
+    "description": "Google Input Tools for Swahili",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Writing & Grammar Practice",
+    "type": "practice"
+  },
+  {
+    "id": "swahili-practice-1758594485800-0.14907235900113058",
+    "name": "Verbling",
+    "url": "https://www.verbling.com/find-teachers/swahili",
+    "description": "Live video lessons",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Online Tutoring",
+    "type": "practice"
+  },
+  {
+    "id": "swahili-practice-1758594485800-0.40830912109293704",
+    "name": "Wyzant",
+    "url": "https://www.wyzant.com/",
+    "description": "Local and online tutoring",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Online Tutoring",
+    "type": "practice"
+  },
+  {
+    "id": "swahili-practice-1758594485800-0.8740553671001886",
+    "name": "TakeLessons",
+    "url": "https://takelessons.com/",
+    "description": "Swahili lessons with certified instructors",
+    "language": "swahili",
+    "language_name": "Swahili",
+    "category": "Online Tutoring",
+    "type": "practice"
+  },
+  {
+    "id": "japanese-courses-1758594485800-0.7066001977837403",
+    "name": "Marugoto Plus",
+    "url": "https://marugotoplus.jp/en/",
+    "description": "Supplementary site for Marugoto coursebooks with grammar, vocabulary, kanji exercises",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Online Courses & Learning Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "japanese-courses-1758594485800-0.08716809716185903",
+    "name": "FreeJapaneseLessons.com",
+    "url": "https://freejapaneselessons.com/",
+    "description": "10-lesson course focusing on grammar basics",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Online Courses & Learning Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "japanese-courses-1758594485800-0.8762490937638676",
+    "name": "Erin's Challenge",
+    "url": "Japan Foundation",
+    "description": "Interactive video lessons with cultural content",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Online Courses & Learning Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "japanese-courses-1758594485800-0.8188834925123091",
+    "name": "Hirogaru",
+    "url": "Japan Foundation site",
+    "description": "Cultural topics with videos and articles",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Online Courses & Learning Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "japanese-courses-1758594485800-0.6715994526997442",
+    "name": "Wasabi Japanese",
+    "url": "https://www.wasabi-jpn.com/",
+    "description": "Professional teacher-created lessons",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Grammar Resources",
+    "type": "courses"
+  },
+  {
+    "id": "japanese-courses-1758594485800-0.2503515126854655",
+    "name": "JapanesePod101 JLPT",
+    "url": "https://www.japanesepod101.com/",
+    "description": "JLPT preparation podcasts",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "JLPT Preparation",
+    "type": "courses"
+  },
+  {
+    "id": "japanese-apps-1758594485800-0.12334021757665692",
+    "name": "Real Kana",
+    "url": "https://realkana.com/",
+    "description": "Hiragana/Katakana practice",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "japanese-apps-1758594485800-0.716847841090496",
+    "name": "Kanji Study",
+    "url": "Web/Apps",
+    "description": "Comprehensive kanji learning tools",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "japanese-books-1758594485800-0.17238710040771965",
+    "name": "Beginning Japanese for Professionals",
+    "url": "https://pdxscholar.library.pdx.edu/pdxopen/9",
+    "description": "Business-focused textbook by Emiko Konomi",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Open Educational Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "japanese-books-1758594485800-0.721404332255948",
+    "name": "Genki Textbooks",
+    "url": "https://archive.org/details/Genki",
+    "description": "Popular textbook series on Internet Archive",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Open Educational Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "japanese-books-1758594485800-0.03959549102902149",
+    "name": "WWWJDIC",
+    "url": "http://www.edrdg.org/cgi-bin/wwwjdic/wwwjdic",
+    "description": "Jim Breen's comprehensive dictionary",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Dictionaries & Reference",
+    "type": "books"
+  },
+  {
+    "id": "japanese-books-1758594485800-0.19204805096360378",
+    "name": "Tangorin",
+    "url": "https://tangorin.com/",
+    "description": "Dictionary with example sentences",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Dictionaries & Reference",
+    "type": "books"
+  },
+  {
+    "id": "japanese-books-1758594485800-0.7900743097645871",
+    "name": "JapanDict",
+    "url": "https://www.japandict.com/",
+    "description": "Dictionary with stroke order animations",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Dictionaries & Reference",
+    "type": "books"
+  },
+  {
+    "id": "japanese-books-1758594485800-0.37311538546755185",
+    "name": "Rikaichamp",
+    "url": "Browser extension",
+    "description": "Popup dictionary for browsers",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Dictionaries & Reference",
+    "type": "books"
+  },
+  {
+    "id": "japanese-audio-1758594485800-0.973969605601739",
+    "name": "Japanese From Zero",
+    "url": "YouTube",
+    "description": "Comprehensive video course",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Video Resources",
+    "type": "audio"
+  },
+  {
+    "id": "japanese-practice-1758594485800-0.48970668390334005",
+    "name": "WaniKani Community",
+    "url": "https://community.wanikani.com/",
+    "description": "Kanji learning forum",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Language Exchange & Community",
+    "type": "practice"
+  },
+  {
+    "id": "japanese-practice-1758594485800-0.4253408521950528",
+    "name": "Discord Japanese Servers",
+    "url": "Discord",
+    "description": "Real-time chat communities",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Language Exchange & Community",
+    "type": "practice"
+  },
+  {
+    "id": "japanese-practice-1758594485800-0.36941510567373315",
+    "name": "Kanji Damage",
+    "url": "http://www.kanjidamage.com/",
+    "description": "Alternative kanji learning with humor",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Writing & Kanji Practice",
+    "type": "practice"
+  },
+  {
+    "id": "japanese-practice-1758594485800-0.38871151570769225",
+    "name": "JLPT Kanji Lists",
+    "url": "Various sites",
+    "description": "JLPT-organized kanji study materials",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Writing & Kanji Practice",
+    "type": "practice"
+  },
+  {
+    "id": "japanese-practice-1758594485800-0.2996423771172624",
+    "name": "Amazing Talker",
+    "url": "https://amazingtalker.com/",
+    "description": "Asian language focus platform",
+    "language": "japanese",
+    "language_name": "Japanese",
+    "category": "Online Tutoring",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-courses-1758594485800-0.5702850634750589",
+    "name": "Stockholm University Swedish",
+    "url": "https://www.su.se/department-of-swedish-language-and-multilingualism/education/",
+    "description": "Swedish for International Students/Researchers",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "University & Academic Courses",
+    "type": "courses"
+  },
+  {
+    "id": "swedish-courses-1758594485800-0.13478045966192753",
+    "name": "Lund University Swedish Package",
+    "url": "https://www.lunduniversity.lu.se/admissions/swedish-language-studies",
+    "description": "Study Abroad Swedish levels 1-8, intensive program",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "University & Academic Courses",
+    "type": "courses"
+  },
+  {
+    "id": "swedish-courses-1758594485800-0.623760720882094",
+    "name": "SwedishPod101",
+    "url": "https://www.swedishpod101.com/",
+    "description": "Comprehensive audio/video lessons",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "University & Academic Courses",
+    "type": "courses"
+  },
+  {
+    "id": "swedish-courses-1758594485800-0.905836060666079",
+    "name": "Hermods SFI",
+    "url": "https://hermods.se/sfi/",
+    "description": "All SFI levels with distance options",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Government SFI Programs",
+    "type": "courses"
+  },
+  {
+    "id": "swedish-courses-1758594485800-0.3171071133109348",
+    "name": "SFI Municipal Programs",
+    "url": "Municipal websites",
+    "description": "Free Swedish education for immigrants",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Government SFI Programs",
+    "type": "courses"
+  },
+  {
+    "id": "swedish-apps-1758594485800-0.5342172707990704",
+    "name": "Hej svenska!",
+    "url": "Via Informationsverige.se",
+    "description": "Official government app",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "swedish-books-1758594485800-0.674027916287294",
+    "name": "Scriveremo Vocabulary PDFs",
+    "url": "https://www.scriveremo.com/pdfwordlist.php?l=swe",
+    "description": "Categorized vocabulary lists",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Open Educational Textbooks",
+    "type": "books"
+  },
+  {
+    "id": "swedish-audio-1758594485800-0.34218419748806306",
+    "name": "Coffee Break Swedish",
+    "url": "https://coffeebreaklanguages.com/coffeebreakswedish/",
+    "description": "15-20 minute structured lessons",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "swedish-audio-1758594485800-0.8834729178321448",
+    "name": "News in Slow Swedish",
+    "url": "Various platforms",
+    "description": "Current events at slower pace",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "swedish-audio-1758594485800-0.1742066446078967",
+    "name": "Språket i P1",
+    "url": "SR Play",
+    "description": "Language and linguistics",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "swedish-audio-1758594485800-0.25211469778816",
+    "name": "UR Samtiden",
+    "url": "UR Play",
+    "description": "Educational lectures",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "swedish-audio-1758594485800-0.8063463155357885",
+    "name": "Learn Easy Swedish",
+    "url": "YouTube search",
+    "description": "Beginner-focused channel",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.6066719642373601",
+    "name": "r/Svenska Discord",
+    "url": "Discord invite via Reddit",
+    "description": "Official Discord server",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Online Communities",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.06401062413375413",
+    "name": "Language Cafe Discord",
+    "url": "https://www.languagecafe.world/",
+    "description": "Multilingual community",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Online Communities",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.035307868148298116",
+    "name": "WordReference Swedish",
+    "url": "https://forum.wordreference.com/forums/swedish.49/",
+    "description": "Translation and grammar forum",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Online Communities",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.8809876885920875",
+    "name": "LangCorrect",
+    "url": "https://www.langcorrect.com/",
+    "description": "Writing correction platform",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Online Communities",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.5638849137680488",
+    "name": "Facebook Swedish Groups",
+    "url": "Facebook search",
+    "description": "Various learning groups",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Online Communities",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.2165664199584365",
+    "name": "Polyglot Club Swedish",
+    "url": "https://polyglotclub.com/language/swedish",
+    "description": "Language exchange events",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Online Communities",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.15969940005560102",
+    "name": "Svenska Akademiens Ordbok (SAOB)",
+    "url": "https://www.saob.se/",
+    "description": "Historical dictionary 1521-present",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Dictionaries & Tools",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.20369067056011858",
+    "name": "Svenska.se",
+    "url": "https://svenska.se/",
+    "description": "Three academy dictionaries combined",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Dictionaries & Tools",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.432822863993076",
+    "name": "Folkets Lexikon",
+    "url": "https://folkets-lexikon.csc.kth.se/",
+    "description": "Crowd-sourced Swedish-English",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Dictionaries & Tools",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.7119896824192232",
+    "name": "Bab.la Swedish Conjugator",
+    "url": "https://en.bab.la/conjugation/swedish/",
+    "description": "Verb conjugation tool",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Dictionaries & Tools",
+    "type": "practice"
+  },
+  {
+    "id": "swedish-practice-1758594485800-0.03036772288394063",
+    "name": "Biblioteken (Libraries)",
+    "url": "Local library websites",
+    "description": "Free courses and conversation",
+    "language": "swedish",
+    "language_name": "Swedish",
+    "category": "Testing & Assessment",
+    "type": "practice"
+  },
+  {
+    "id": "finnish-courses-1758594485800-0.23462813410599892",
+    "name": "University of Helsinki Open University",
+    "url": "https://www.helsinki.fi/en/admissions-and-education/open-university",
+    "description": "Multiple structured Finnish courses from 1A through Media Finnish",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "University Courses",
+    "type": "courses"
+  },
+  {
+    "id": "finnish-courses-1758594485800-0.4863888436004462",
+    "name": "FSI Conversational Finnish",
+    "url": "https://www.livelingua.com/fsi/Fsi-ConversationalFinnish-Textbook.pdf",
+    "description": "700+ page comprehensive course from Foreign Service Institute",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Open Educational Resources",
+    "type": "courses"
+  },
+  {
+    "id": "finnish-courses-1758594485800-0.8301641842796225",
+    "name": "FinnishPod101 Workbooks",
+    "url": "https://www.finnishpod101.com/finnish-workbooks/",
+    "description": "16+ printable PDF workbooks for beginners",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Open Educational Resources",
+    "type": "courses"
+  },
+  {
+    "id": "finnish-apps-1758594485800-0.5208772280866388",
+    "name": "Anki with Finnish Decks",
+    "url": "https://ankiweb.net",
+    "description": "Spaced repetition flashcard system with community decks",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "finnish-apps-1758594485800-0.1060700199418384",
+    "name": "FunEasyLearn Finnish",
+    "url": "https://www.funeasylearn.com/learn-finnish",
+    "description": "15,000 words/phrases unlockable through gameplay",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "finnish-apps-1758594485800-0.8146747856076494",
+    "name": "Voikko",
+    "url": "https://voikko.puimula.org/",
+    "description": "Open-source spell checker and morphological analyzer",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "finnish-books-1758594485800-0.5787187065262369",
+    "name": "Archive.org Finnish Collection",
+    "url": "https://archive.org/details/finnish-50-languages-4h-37-mins_202005",
+    "description": "Multiple textbooks including Leila White's grammar books",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Literature",
+    "type": "books"
+  },
+  {
+    "id": "finnish-books-1758594485800-0.22869162996779135",
+    "name": "International Children's Digital Library",
+    "url": "http://www.childrenslibrary.org/",
+    "description": "Limited Finnish children's books collection",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Literature",
+    "type": "books"
+  },
+  {
+    "id": "finnish-audio-1758594485800-0.6428384060052472",
+    "name": "Finking Cap YouTube",
+    "url": "https://www.youtube.com/c/FinkingCap",
+    "description": "Grammar tutorials and spoken Finnish lessons",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Video Lessons",
+    "type": "audio"
+  },
+  {
+    "id": "finnish-audio-1758594485800-0.9240301284599587",
+    "name": "Random Finnish Lesson",
+    "url": "https://randomfinnishlesson.blogspot.com",
+    "description": "Interviews and discussions at slower pace",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "finnish-audio-1758594485800-0.41472892880867196",
+    "name": "Forvo Finnish",
+    "url": "https://forvo.com/languages/fi/",
+    "description": "Native speaker pronunciation database",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Pronunciation",
+    "type": "audio"
+  },
+  {
+    "id": "finnish-audio-1758594485800-0.8726806825430925",
+    "name": "Finnish Text-to-Speech",
+    "url": "https://ttsmaker.com",
+    "description": "Free TTS services supporting Finnish",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Pronunciation",
+    "type": "audio"
+  },
+  {
+    "id": "finnish-practice-1758594485800-0.1877518065690783",
+    "name": "Sano suomeksi Exercises",
+    "url": "https://sanosuomeksi.com/en/exercises",
+    "description": "100+ online exercises with automatic checking",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Exercises and Tests",
+    "type": "practice"
+  },
+  {
+    "id": "finnish-practice-1758594485800-0.8255062528742765",
+    "name": "Venla.info Exercises",
+    "url": "https://venla.info/exercises.html",
+    "description": "Interactive Hot Potatoes exercises",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Exercises and Tests",
+    "type": "practice"
+  },
+  {
+    "id": "finnish-practice-1758594485800-0.9519309512495022",
+    "name": "Tatoeba Finnish",
+    "url": "https://tatoeba.org/en",
+    "description": "Example sentences with translations",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Exercises and Tests",
+    "type": "practice"
+  },
+  {
+    "id": "finnish-practice-1758594485800-0.6859190590370983",
+    "name": "Sanakirja.org",
+    "url": "https://www.sanakirja.org/",
+    "description": "Multilingual dictionary supporting 20+ languages",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "finnish-practice-1758594485800-0.22592514154672927",
+    "name": "Glosbe Finnish",
+    "url": "https://glosbe.com/fi/en",
+    "description": "Community-built dictionary with context examples",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "finnish-practice-1758594485800-0.9215459734505226",
+    "name": "Verbix",
+    "url": "https://www.verbix.com/languages/finnish",
+    "description": "Complete Finnish verb conjugation system",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "finnish-practice-1758594485800-0.14665683154630493",
+    "name": "Cooljugator",
+    "url": "https://cooljugator.com/fi",
+    "description": "Modern conjugation tool for verbs, nouns, adjectives",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "finnish-practice-1758594485800-0.17305519978640282",
+    "name": "Oikofix",
+    "url": "https://oikofix.com/?lang=en",
+    "description": "Free online spell and grammar checker",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "finnish-practice-1758594485800-0.8838119571960454",
+    "name": "TypeIt Finnish",
+    "url": "https://finnish.typeit.org/",
+    "description": "Browser-based Finnish typing tool",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "finnish-practice-1758594485800-0.3437235665438656",
+    "name": "University of Helsinki Helda",
+    "url": "https://ethesis.helsinki.fi/en",
+    "description": "Digital dissertation repository",
+    "language": "finnish",
+    "language_name": "Finnish",
+    "category": "Academic Resources",
+    "type": "practice"
+  },
+  {
+    "id": "polish-courses-1758594485800-0.929724773029828",
+    "name": "LingoHut",
+    "url": "https://www.lingohut.com/en/l83/learn-polish",
+    "description": "125+ lessons completely free, no registration needed",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Major Learning Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "polish-courses-1758594485800-0.8843368074628185",
+    "name": "NAWA Summer Courses",
+    "url": "https://nawa.gov.pl/en/the-polish-language/nawa-summer-courses",
+    "description": "Government-funded intensive courses - COMPLETELY FREE",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Government Programs",
+    "type": "courses"
+  },
+  {
+    "id": "polish-apps-1758594485800-0.016669597513829792",
+    "name": "LingoHut",
+    "url": "https://www.lingohut.com/",
+    "description": "125+ lessons completely free, browser-based",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "polish-books-1758594485800-0.2702644794353022",
+    "name": "Basic Polish: Grammar & Workbook",
+    "url": "https://languageadvisor.net/",
+    "description": "Grammar workbook by Dana Bielec",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Textbooks and Grammar",
+    "type": "books"
+  },
+  {
+    "id": "polish-books-1758594485800-0.8459728138270888",
+    "name": "Lingua Polish Reading Texts",
+    "url": "https://lingua.com/polish/reading/",
+    "description": "Well-organized beginner reading texts",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Reading Materials",
+    "type": "books"
+  },
+  {
+    "id": "polish-books-1758594485800-0.8990838295740716",
+    "name": "Selected Polish Tales",
+    "url": "https://www.gutenberg.org/",
+    "description": "Gutenberg collection by various authors",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Reading Materials",
+    "type": "books"
+  },
+  {
+    "id": "polish-audio-1758594485800-0.37801928898001536",
+    "name": "Polish with John",
+    "url": "https://ioannesoculus.com",
+    "description": "Short ~4 minute episodes",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "polish-audio-1758594485800-0.4920013390387381",
+    "name": "LibriVox Polish",
+    "url": "https://librivox.org/",
+    "description": "Public domain books read by volunteers",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Audiobooks",
+    "type": "audio"
+  },
+  {
+    "id": "polish-practice-1758594485800-0.5272058355698774",
+    "name": "Learn Polish Discord",
+    "url": "Discord community",
+    "description": "Active Discord server with Polish classes and movie nights",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "polish-practice-1758594485800-0.5637206818377699",
+    "name": "PONS Dictionary",
+    "url": "https://en.pons.com/translate/polish-english",
+    "description": "600,000+ words with audio",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "polish-practice-1758594485800-0.17977884341220984",
+    "name": "Glosbe",
+    "url": "https://glosbe.com/pl/en",
+    "description": "Community-built dictionary with translation memory",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "polish-practice-1758594485800-0.3734337048662908",
+    "name": "Cooljugator",
+    "url": "https://cooljugator.com/pl",
+    "description": "Complete verb conjugation tool",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "polish-practice-1758594485800-0.37763271027871914",
+    "name": "Bab.la Conjugator",
+    "url": "https://en.bab.la/conjugation/polish/",
+    "description": "Comprehensive conjugation system",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "polish-practice-1758594485800-0.0405606151157204",
+    "name": "TastingPoland Verb Tables",
+    "url": "https://www.tastingpoland.com/language/verb/",
+    "description": "474 fully conjugated Polish verbs",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "polish-practice-1758594485800-0.011219462384870038",
+    "name": "Forvo Polish",
+    "url": "https://forvo.com/languages/pl/",
+    "description": "Native speaker pronunciation database",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "polish-practice-1758594485800-0.826957429230509",
+    "name": "PolishCorrector",
+    "url": "https://www.polishcorrector.com/",
+    "description": "Free grammar checker",
+    "language": "polish",
+    "language_name": "Polish",
+    "category": "Language Tools",
+    "type": "practice"
+  },
+  {
+    "id": "vietnamese-courses-1758594485800-0.7036939576630316",
+    "name": "LingoHut",
+    "url": "https://www.lingohut.com/en/l65/learn-vietnamese",
+    "description": "125 five-minute lessons",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Online Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "vietnamese-courses-1758594485800-0.643726542684621",
+    "name": "Learn Vietnamese Easy",
+    "url": "https://learnvietnameseeasy.com/vietnamese-pronunciation/",
+    "description": "14-lesson pronunciation course",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Online Platforms",
+    "type": "courses"
+  },
+  {
+    "id": "vietnamese-courses-1758594485800-0.864006638842599",
+    "name": "ULIS-VNU Hanoi",
+    "url": "https://en.ulis.vnu.edu.vn/",
+    "description": "Intensive programs and study tours",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "University Programs",
+    "type": "courses"
+  },
+  {
+    "id": "vietnamese-courses-1758594485800-0.8774473514354445",
+    "name": "Columbia University Vietnamese",
+    "url": "https://ealac.columbia.edu/program/language-programs/vietnamese/",
+    "description": "Four-year program materials",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "University Programs",
+    "type": "courses"
+  },
+  {
+    "id": "vietnamese-courses-1758594485800-0.007843270927995416",
+    "name": "ASU Vietnamese Program",
+    "url": "https://silc.asu.edu/vietnamese",
+    "description": "Elementary to advanced courses",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "University Programs",
+    "type": "courses"
+  },
+  {
+    "id": "vietnamese-courses-1758594485800-0.2553311878330463",
+    "name": "NRCAL (CSU Fullerton)",
+    "url": "https://www.fullerton.edu/nrcal/virtual-language-program/",
+    "description": "Online classes for all ages",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "University Programs",
+    "type": "courses"
+  },
+  {
+    "id": "vietnamese-apps-1758594485800-0.23912850736825075",
+    "name": "Vietnamese by Nemo",
+    "url": "iOS/Android app stores",
+    "description": "Essential phrases app",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "vietnamese-apps-1758594485800-0.24088986688066572",
+    "name": "UniKey",
+    "url": "https://www.unikey.org/",
+    "description": "Vietnamese input method",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": null,
+    "type": "apps"
+  },
+  {
+    "id": "vietnamese-books-1758594485800-0.865565264391501",
+    "name": "VietnamesePod101 Workbooks",
+    "url": "https://www.vietnamesepod101.com/vietnamese-workbooks/",
+    "description": "16+ downloadable PDF workbooks",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Textbooks and References",
+    "type": "books"
+  },
+  {
+    "id": "vietnamese-books-1758594485800-0.6744886091229415",
+    "name": "Reading A-Z Vietnamese",
+    "url": "https://www.readinga-z.com/worldlanguages/vietnamese/",
+    "description": "Graded K-5 reading materials",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Textbooks and References",
+    "type": "books"
+  },
+  {
+    "id": "vietnamese-books-1758594485800-0.176203832422554",
+    "name": "VietnamesePod101 Blog",
+    "url": "https://www.vietnamesepod101.com/blog/",
+    "description": "Language tips and cultural content",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "News and Current Events",
+    "type": "books"
+  },
+  {
+    "id": "vietnamese-audio-1758594485801-0.46679086336420794",
+    "name": "VietnamesePod101",
+    "url": "https://www.youtube.com/channel/UCbnmwpaIq5Iq6XAg0S98m-A",
+    "description": "82.2K subscribers, professional lessons",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "YouTube Channels",
+    "type": "audio"
+  },
+  {
+    "id": "vietnamese-audio-1758594485801-0.04130303449061723",
+    "name": "VietnamesePod101 Podcast",
+    "url": "Apple Podcasts/Spotify",
+    "description": "Weekly audio lessons",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "vietnamese-audio-1758594485801-0.5903372649429217",
+    "name": "Learn Vietnamese with Annie Podcast",
+    "url": "Apple Podcasts",
+    "description": "YouTube content in podcast format",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Podcasts",
+    "type": "audio"
+  },
+  {
+    "id": "vietnamese-audio-1758594485801-0.4798079585296754",
+    "name": "VOV Network",
+    "url": "Radio stations",
+    "description": "Official Vietnamese radio",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Media Resources",
+    "type": "audio"
+  },
+  {
+    "id": "vietnamese-practice-1758594485801-0.24841698607550422",
+    "name": "InterPals",
+    "url": "https://interpals.net/",
+    "description": "5+ million users",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Language Exchange",
+    "type": "practice"
+  },
+  {
+    "id": "vietnamese-practice-1758594485801-0.7248092627546542",
+    "name": "VDict",
+    "url": "https://vdict.com/",
+    "description": "9 dictionaries simultaneously",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Dictionaries and Tools",
+    "type": "practice"
+  },
+  {
+    "id": "vietnamese-practice-1758594485801-0.7937407168183029",
+    "name": "Glosbe",
+    "url": "https://glosbe.com/en/vi",
+    "description": "Community-built dictionary",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Dictionaries and Tools",
+    "type": "practice"
+  },
+  {
+    "id": "vietnamese-practice-1758594485801-0.2534105795167101",
+    "name": "GiongNoiAI",
+    "url": "https://giongnoiai.com/",
+    "description": "Vietnamese TTS service",
+    "language": "vietnamese",
+    "language_name": "Vietnamese",
+    "category": "Text-to-Speech",
+    "type": "practice"
+  }
+]

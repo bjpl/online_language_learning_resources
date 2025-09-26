@@ -1,0 +1,71 @@
+{
+  "backup_id": "backup_20250925_184135",
+  "timestamp": "20250925_184135",
+  "files": [
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\danish-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\danish-data.js",
+      "checksum": "29bf9c9c00a819864a911487ebe4bf921bcf45fc33f162780a068cc0d387fb22"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\dutch-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\dutch-data.js",
+      "checksum": "c203fcdcc944be46f1817ab6f20e123aedac6ce0770a776cf9714a8603fc6570"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\finnish-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\finnish-data.js",
+      "checksum": "3773e00d2facedfa1e66d00e4ebfbb9ecffbd6aadccaf3a08e5cd7727facd9ce"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\hindi-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\hindi-data.js",
+      "checksum": "540e9c5e43551b475fa80857f4a1a8a47454f140af4bf8c55c01a9c23176e20b"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\indonesian-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\indonesian-data.js",
+      "checksum": "e391b3d6de7046e475c4f7a5ede8a4f56373bb4d45e0f4521721e963208348dc"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\italian-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\italian-data.js",
+      "checksum": "4e5881c5845e7e6c456ba1f2743a2198b7efe5aa31ff787ef33aa97454834464"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\japanese-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\japanese-data.js",
+      "checksum": "7eb7400f8766292bd0be1b0bc554797244d346831f76c8ba82166298a4de663d"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\korean-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\korean-data.js",
+      "checksum": "13aad1fdf078287f45575648bfe8002241a873e935716d07bed39fb4b369fe5d"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\polish-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\polish-data.js",
+      "checksum": "39e2751580d4f88dad72d55d6b04252baf5289e7cfd96240d46ad94f8bd40ee5"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\portuguese-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\portuguese-data.js",
+      "checksum": "b79d2c2b77aa01e93f9f65de39a127c84ec1c0233af3add517ccdf934faebf1e"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\swahili-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\swahili-data.js",
+      "checksum": "e749452da50c5abbe6cb65d02365edf4055ba6d00368765694e2c24c43d858dd"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\swedish-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\swedish-data.js",
+      "checksum": "2c3fd7b1bab96988e939cb19a018d07eadf1e080fc99bcaa01917c0aef439711"
+    },
+    {
+      "original": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\assets\\js\\vietnamese-data.js",
+      "backup": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_20250925_184135\\vietnamese-data.js",
+      "checksum": "244d8c267ce1dc773b6267cb3b89e65602b2bb0c2b1f76a6542ff0410901ef48"
+    }
+  ]
+}
