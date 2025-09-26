@@ -81,11 +81,21 @@
     background: linear-gradient(135deg, var(--primary-50), var(--accent-50));
     border-color: var(--primary-200);
     font-weight: 600;
+    min-width: 140px;
+    padding: 10px 18px;
 }
 
 .lang-filter[data-lang="all"].active {
     background: linear-gradient(135deg, var(--primary-600), var(--accent-600));
     border-color: var(--primary-600);
+}
+
+.lang-filter[data-lang="all"] .filter-icon {
+    margin-right: 2px;
+}
+
+.lang-filter[data-lang="all"] span:not(.filter-icon) {
+    white-space: nowrap;
 }
 
 /* Filter Group Container */
@@ -150,11 +160,17 @@
         }
 
         .lang-filter[data-lang="all"] {
-            padding: 8px 12px;
+            padding: 8px 14px;
+            min-width: 110px;
         }
 
         .lang-filter[data-lang="all"] span:not(.filter-icon) {
             display: inline;
+            font-size: 0.75rem;
+        }
+
+        .lang-filter[data-lang="all"] .filter-icon {
+            font-size: 0.95rem;
         }
     }
 }
