@@ -39,9 +39,12 @@
         if (langParam === 'dutch' || langParam === 'danish' || langParam === 'portuguese' || langParam === 'italian' || langParam === 'indonesian' || langParam === 'korean' || langParam === 'hindi' || langParam === 'swahili' || langParam === 'japanese' || langParam === 'swedish' || langParam === 'finnish' || langParam === 'polish' || langParam === 'vietnamese') {
             renderComprehensiveResources(filter);
             // Re-initialize collapsible functionality after rendering
-            if (typeof window.reinitCollapsible === 'function') {
-                window.reinitCollapsible();
-            }
+            // Use setTimeout to ensure DOM has updated
+            setTimeout(() => {
+                if (typeof window.reinitCollapsible === 'function') {
+                    window.reinitCollapsible();
+                }
+            }, 0);
             return;
         }
 
@@ -54,9 +57,11 @@
         });
 
         // Re-initialize collapsible functionality after rendering
-        if (typeof window.reinitCollapsible === 'function') {
-            window.reinitCollapsible();
-        }
+        setTimeout(() => {
+            if (typeof window.reinitCollapsible === 'function') {
+                window.reinitCollapsible();
+            }
+        }, 0);
     }
 
     // Special rendering for comprehensive resource structures (Dutch, Danish, Portuguese)
