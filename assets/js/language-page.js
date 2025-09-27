@@ -157,11 +157,11 @@
                     <div class="resource-name">
                         ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener">${item.name}</a>` : item.name}
                     </div>
-                    ${item.description ? `<span class="resource-description">${item.description}</span>` : ''}
+                    ${item.description ? `<div class="resource-description">${item.description}</div>` : ''}
                     ${item.features ? `
-                        <span class="features-list">
+                        <div class="features-list">
                             ${item.features.join(' | ')}
-                        </span>
+                        </div>
                     ` : ''}
                     <div class="resource-meta">
                         ${badges.join('')}
@@ -210,11 +210,11 @@
                         ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener">${item.name}</a>` : item.name}
                         ${author}
                     </div>
-                    ${item.description ? `<span class="resource-description">${item.description}</span>` : ''}
+                    ${item.description ? `<div class="resource-description">${item.description}</div>` : ''}
                     ${item.features ? `
-                        <span class="features-list">
+                        <div class="features-list">
                             ${item.features.join(' | ')}
-                        </span>
+                        </div>
                     ` : ''}
                     <div class="resource-meta">
                         ${badges.join('')}

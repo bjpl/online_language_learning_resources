@@ -184,8 +184,9 @@
 .resource-description {
     color: var(--color-gray-700);
     line-height: 1.6;
-    display: inline;
-    margin-right: 4px;
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .resource-meta {
@@ -273,8 +274,9 @@
 .features-list {
     font-size: var(--fs-small);
     color: var(--color-gray-700);
-    display: inline;
-    margin-left: 4px;
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 /* Resource Categories for Dutch */

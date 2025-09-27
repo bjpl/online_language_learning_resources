@@ -184,15 +184,9 @@ html {
     color: var(--gray-600);
     font-size: 0.95rem;
     line-height: 1.5;
-    display: inline;
-}
-
-.resource-description {
-    margin-right: 4px;
-}
-
-.features-list {
-    margin-left: 4px;
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .resource-badge {
