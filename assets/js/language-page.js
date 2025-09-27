@@ -36,7 +36,7 @@
         container.innerHTML = '';
 
         // Special handling for languages with comprehensive resource structure
-        const comprehensiveLanguages = ['dutch', 'danish', 'portuguese', 'italian', 'indonesian', 'korean', 'hindi', 'swahili', 'japanese', 'swedish', 'finnish', 'polish', 'vietnamese', 'wolof', 'tamil', 'bengali', 'kazakh', 'greek', 'latvian', 'marathi', 'persian', 'mongolian', 'navajo', 'ukrainian', 'irish', 'yoruba', 'slovak', 'afrikaans', 'arabic', 'bulgarian', 'burmese', 'estonian', 'french', 'german', 'malay', 'romanian', 'russian', 'serbian', 'spanish', 'tagalog', 'thai', 'lithuanian'];
+        const comprehensiveLanguages = ['dutch', 'danish', 'portuguese', 'italian', 'indonesian', 'korean', 'hindi', 'swahili', 'japanese', 'swedish', 'finnish', 'polish', 'vietnamese', 'wolof', 'tamil', 'bengali', 'kazakh', 'greek', 'latvian', 'marathi', 'persian', 'mongolian', 'navajo', 'ukrainian', 'signLanguage', 'irish', 'yoruba', 'slovak', 'afrikaans', 'arabic', 'bulgarian', 'burmese', 'estonian', 'french', 'german', 'malay', 'romanian', 'russian', 'serbian', 'spanish', 'tagalog', 'thai', 'lithuanian'];
 
         if (comprehensiveLanguages.includes(langParam)) {
             renderComprehensiveResources(filter);
