@@ -20,6 +20,7 @@
 
     // Initialize
     function init() {
+        populateLanguageDropdown();
         aggregateResources();
         displayStatistics();
 
@@ -43,9 +44,30 @@
         initCollapsibleSections();
     }
 
+    // Populate language dropdown with all available languages
+    function populateLanguageDropdown() {
+        const select = document.getElementById('language-select');
+        if (!select || !languageData) return;
+
+        // Get all languages from languageData and sort alphabetically
+        const languages = Object.keys(languageData).sort((a, b) => {
+            return languageData[a].name.localeCompare(languageData[b].name);
+        });
+
+        // Add each language as an option
+        languages.forEach(langKey => {
+            const lang = languageData[langKey];
+            const option = document.createElement('option');
+            option.value = langKey;
+            option.textContent = `${lang.flag} ${lang.name}`;
+            select.appendChild(option);
+        });
+    }
+
     // Aggregate resources from all languages
     function aggregateResources() {
-        const languages = ['dutch', 'danish', 'portuguese', 'italian', 'indonesian', 'korean', 'hindi', 'swahili', 'japanese', 'swedish', 'finnish', 'polish', 'vietnamese'];
+        // Use all languages from languageData instead of hardcoded list
+        const languages = Object.keys(languageData);
 
         languages.forEach(langKey => {
             const lang = languageData[langKey];
@@ -307,19 +329,15 @@
 
     // Bind event handlers
     function bindEventHandlers() {
-        // Language filters
-        document.querySelectorAll('.lang-filter').forEach(filter => {
-            filter.addEventListener('click', (e) => {
-                // Update active state
-                document.querySelectorAll('.lang-filter').forEach(f =>
-                    f.classList.remove('active'));
-                filter.classList.add('active');
-
+        // Language dropdown filter
+        const languageSelect = document.getElementById('language-select');
+        if (languageSelect) {
+            languageSelect.addEventListener('change', (e) => {
                 // Update filter and re-render
-                currentLanguageFilter = filter.dataset.lang;
+                currentLanguageFilter = e.target.value;
                 renderAllResources();
             });
-        });
+        }
 
         // Type filters
         document.querySelectorAll('.type-filter').forEach(filter => {

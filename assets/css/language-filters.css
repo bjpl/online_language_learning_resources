@@ -294,3 +294,65 @@
 .lang-filter[data-lang="finnish"] .filter-icon { color: #003580; }
 .lang-filter[data-lang="polish"] .filter-icon { color: #DC143C; }
 .lang-filter[data-lang="vietnamese"] .filter-icon { color: #FFCD00; }
+
+/* ===================================
+   Language Select Dropdown - Elegant Scalable Design for 48+ Languages
+   =================================== */
+
+.language-filter-container {
+    flex: 1;
+    max-width: 400px;
+}
+
+.language-select {
+    width: 100%;
+    padding: 10px 40px 10px 16px;
+    border: 1.5px solid var(--gray-300);
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--gray-700);
+    background-color: white;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23666' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.language-select:hover {
+    border-color: var(--primary-400);
+    background-color: var(--primary-50);
+}
+
+.language-select:focus {
+    outline: none;
+    border-color: var(--primary-600);
+    box-shadow: 0 0 0 3px rgba(91, 78, 140, 0.1);
+}
+
+.language-select option {
+    padding: 8px;
+    font-size: 0.95rem;
+}
+
+/* Make flags and text align nicely in dropdown */
+.language-select option {
+    font-family: inherit;
+}
+
+@media (max-width: 768px) {
+    .language-filter-container {
+        max-width: none;
+        width: 100%;
+    }
+
+    .language-select {
+        font-size: 0.9rem;
+        padding: 9px 36px 9px 14px;
+    }
+}

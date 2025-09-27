@@ -75,64 +75,12 @@
             <!-- First Row: Language Filters -->
             <div class="filter-row">
                 <div class="filter-group">
-                    <label class="filter-label">Language:</label>
-                    <div class="language-filters">
-                        <button class="lang-filter active" data-lang="all">
-                            <span class="filter-icon">🌐</span>
-                            All Languages
-                        </button>
-                        <button class="lang-filter" data-lang="dutch">
-                            <span class="filter-icon">🇳🇱</span>
-                            Dutch
-                        </button>
-                        <button class="lang-filter" data-lang="danish">
-                            <span class="filter-icon">🇩🇰</span>
-                            Danish
-                        </button>
-                        <button class="lang-filter" data-lang="portuguese">
-                            <span class="filter-icon">🇵🇹🇧🇷</span>
-                            Portuguese
-                        </button>
-                        <button class="lang-filter" data-lang="italian">
-                            <span class="filter-icon">🇮🇹</span>
-                            Italian
-                        </button>
-                        <button class="lang-filter" data-lang="indonesian">
-                            <span class="filter-icon">🇮🇩</span>
-                            Indonesian
-                        </button>
-                        <button class="lang-filter" data-lang="korean">
-                            <span class="filter-icon">🇰🇷</span>
-                            Korean
-                        </button>
-                        <button class="lang-filter" data-lang="hindi">
-                            <span class="filter-icon">🇮🇳</span>
-                            Hindi
-                        </button>
-                        <button class="lang-filter" data-lang="swahili">
-                            <span class="filter-icon">🇹🇿</span>
-                            Swahili
-                        </button>
-                        <button class="lang-filter" data-lang="japanese">
-                            <span class="filter-icon">🇯🇵</span>
-                            Japanese
-                        </button>
-                        <button class="lang-filter" data-lang="swedish">
-                            <span class="filter-icon">🇸🇪</span>
-                            Swedish
-                        </button>
-                        <button class="lang-filter" data-lang="finnish">
-                            <span class="filter-icon">🇫🇮</span>
-                            Finnish
-                        </button>
-                        <button class="lang-filter" data-lang="polish">
-                            <span class="filter-icon">🇵🇱</span>
-                            Polish
-                        </button>
-                        <button class="lang-filter" data-lang="vietnamese">
-                            <span class="filter-icon">🇻🇳</span>
-                            Vietnamese
-                        </button>
+                    <label class="filter-label" for="language-select">Language:</label>
+                    <div class="language-filter-container">
+                        <select id="language-select" class="language-select">
+                            <option value="all">🌐 All Languages</option>
+                            <!-- Options will be populated dynamically by JavaScript -->
+                        </select>
                     </div>
                 </div>
 
