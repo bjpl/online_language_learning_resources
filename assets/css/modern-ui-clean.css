@@ -179,11 +179,20 @@ html {
     color: var(--primary-700);
 }
 
-.resource-description {
+.resource-description,
+.features-list {
     color: var(--gray-600);
     font-size: 0.95rem;
     line-height: 1.5;
-    margin-bottom: 8px;
+    display: inline;
+}
+
+.resource-description {
+    margin-right: 4px;
+}
+
+.features-list {
+    margin-left: 4px;
 }
 
 .resource-badge {
@@ -203,13 +212,6 @@ html {
 .resource-badge.level {
     background: var(--gray-100);
     color: var(--gray-700);
-}
-
-/* Features List - Clean */
-.features-list {
-    color: var(--gray-500);
-    font-size: 0.9rem;
-    margin-top: 8px;
 }
 
 /* Collapsible Animation */
