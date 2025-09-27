@@ -20,49 +20,49 @@ const nepaliResources = {
                     {
                         name: "NepalGo",
                         url: "https://nepalgo.de/",
-                        description: "Complete structured learning program with 70+ progressive lessons covering Devanagari script, verb conjugations, honorifics, and active community Q&A for beginner to advanced learners.",
+                        features: ["Complete structured program", "70+ progressive lessons", "Devanagari script, verb conjugations, honorifics", "Active community Q&A"],
                         free: true,
                         level: "Beginner to Advanced"
                     },
                     {
                         name: "Live Lingua Project",
                         url: "https://www.livelingua.com/courses/Nepali",
-                        description: "4 complete courses, 3 ebooks, 27 audio files including Peace Corps materials and audio pronunciation tools. No sign-up required.",
+                        features: ["4 complete courses", "3 ebooks, 27 audio files", "Peace Corps materials included", "No sign-up required"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Peace Corps Nepali",
                         url: "https://www.livelingua.com/project/peace-corps/Nepali",
-                        description: "Professional-grade courses for volunteers with 40-lesson Basic Course in Spoken Nepali with audio, culturally authentic and public domain.",
+                        features: ["Professional-grade volunteer courses", "40-lesson Basic Course with audio", "Culturally authentic content", "Public domain materials"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "FSI Language Courses",
                         url: "https://www.fsi-language-courses.org/nepali/",
-                        description: "Foreign Service Institute's professional course with 600-1200 hours of study material using immersive conversation approach for C1 proficiency.",
+                        features: ["Foreign Service Institute course", "600-1200 hours study material", "Immersive conversation approach", "C1 proficiency target"],
                         free: true,
                         level: "Beginner to C1"
                     },
                     {
                         name: "Learn101.org",
                         url: "http://learn101.org/nepali.php",
-                        description: "Step-by-step lessons with audio pronunciation, alphabet, grammar rules, and vocabulary lists for beginners.",
+                        features: ["Step-by-step lessons", "Audio pronunciation guide", "Alphabet and grammar rules", "Vocabulary lists for beginners"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "UBC Open Educational Resources",
                         url: "https://oer.open.ubc.ca/introduction-to-the-nepali-language/",
-                        description: "Introduction to the Nepali Language university course, self-paced with Creative Commons license and community engagement focus.",
+                        features: ["University-level course", "Self-paced learning", "Creative Commons license", "Community engagement focus"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Mount Mania",
                         url: "https://www.mountmania.com/learn-nepali",
-                        description: "Essential phrases for daily life with downloadable PDF, phonetic pronunciation, and travel-focused content.",
+                        features: ["Essential daily phrases", "Downloadable PDF", "Phonetic pronunciation", "Travel-focused content"],
                         free: true,
                         level: "Beginner"
                     }
@@ -74,28 +74,28 @@ const nepaliResources = {
                     {
                         name: "Digital Himalaya Nepali Primer",
                         url: "https://www.digitalhimalaya.com/projectteam/turin/downloads/nepali_primer.pdf",
-                        description: "नेपाल & Nepali: A Beginner's Primer by Cornell faculty with 16 structured lessons, 225 pages, Peace Corps trainers' expertise.",
+                        features: ["Cornell faculty authored", "16 structured lessons", "225 pages comprehensive", "Peace Corps trainers' expertise"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Cornell University Collection",
                         url: "https://ecommons.cornell.edu/collections/c4fcbcd8-22b9-480e-8893-2b43003ca644",
-                        description: "~200 Nepal Government textbooks covering politics, linguistics, sociology, religious studies materials.",
+                        features: ["~200 Nepal Government textbooks", "Politics, linguistics, sociology", "Religious studies materials", "Academic-level content"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "UBC Nepali Resources",
                         url: "https://oer.open.ubc.ca/introduction-to-the-nepali-language/",
-                        description: "Canvas-based course by Binod Shrestha, CC BY-NC-SA 4.0 licensed, self-paced beginner course.",
+                        features: ["Canvas-based course", "By Binod Shrestha", "CC BY-NC-SA 4.0 licensed", "Self-paced beginner course"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Wisconsin Resource Guide",
                         url: "https://wisc.pb.unizin.org/lctlresources/chapter/nepali-language-resources/",
-                        description: "Comprehensive bibliography and evaluation with resource recommendations for self-learners at all levels.",
+                        features: ["Comprehensive bibliography", "Resource evaluation and recommendations", "Self-learner focused", "All proficiency levels"],
                         free: true,
                         level: "All Levels"
                     }
@@ -109,35 +109,35 @@ const nepaliResources = {
                     {
                         name: "Peace Corps Basic Course in Spoken Nepali",
                         url: "https://www.livelingua.com/peace-corps/Nepali/Basic-Course-in-Spoken-Nepali.pdf",
-                        description: "40-lesson comprehensive textbook with 400+ pages, Roman script for first 15 lessons, extensive vocabulary, completely free PDF.",
+                        features: ["40-lesson comprehensive textbook", "400+ pages content", "Roman script for first 15 lessons", "Extensive vocabulary included"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Nepali Grammar and Vocabulary",
                         url: "https://archive.org/download/nepaligrammarvoc0000turn/nepaligrammarvoc0000turn.pdf",
-                        description: "Rev. A. Turnbull's classic grammar (1887/1904) with 202 pages, complete grammar rules, pronunciation guide, public domain.",
+                        features: ["Rev. A. Turnbull's classic (1887/1904)", "202 pages grammar rules", "Complete pronunciation guide", "Public domain access"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "CDC Nepal Textbooks",
                         url: "https://moecdc.gov.np/",
-                        description: "Official government textbooks Classes 1-10 with direct PDF downloads, Nepali and English medium, completely free.",
+                        features: ["Official government textbooks", "Classes 1-10 coverage", "Nepali and English medium", "Direct PDF downloads"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "नेपाली व्याकरण (Nepali Grammar)",
                         url: "https://archive.org/details/20220406_20220406_0516",
-                        description: "Modern Nepali grammar in Devanagari, Library of Nepal publication, completely free.",
+                        features: ["Modern Nepali grammar", "Written in Devanagari", "Library of Nepal publication", "Comprehensive grammar coverage"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Srivastava Nepali Language",
                         url: "https://archive.org/details/srivastava-nepali-language-its-history-and-development-1962",
-                        description: "Historical and grammatical analysis (1962) with comprehensive historical linguistics, public domain.",
+                        features: ["Historical analysis (1962)", "Comprehensive historical linguistics", "Grammatical development", "Public domain scholarly work"],
                         free: true,
                         level: "Advanced"
                     }
@@ -149,49 +149,49 @@ const nepaliResources = {
                     {
                         name: "E-Pustakalaya",
                         url: "https://www.pustakalaya.org/en/",
-                        description: "Comprehensive digital library by OLE Nepal with 373+ entries, audio books, videos, and interactive software.",
+                        features: ["OLE Nepal digital library", "373+ entries collection", "Audio books and videos", "Interactive software included"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Internet Archive Nepali",
                         url: "https://archive.org/details/booksbylanguage_nepali",
-                        description: "Large collection of Nepali books including textbooks, literature, and religious texts, completely free.",
+                        features: ["Large book collection", "Textbooks and literature", "Religious texts included", "Completely free access"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Digital Himalaya Rare Books",
                         url: "https://www.digitalhimalaya.com/collections/rarebooks/",
-                        description: "50+ rare manuscripts and historical documents with free PDF downloads for academic purposes.",
+                        features: ["50+ rare manuscripts", "Historical documents", "Free PDF downloads", "Academic research focus"],
                         free: true,
                         level: "Academic"
                     },
                     {
                         name: "Nepal National Library",
                         url: "http://archive.nnl.gov.np/",
-                        description: "Government digital collections with DSpace repository and official publications, completely free.",
+                        features: ["Government digital collections", "DSpace repository system", "Official publications", "Free institutional access"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Bloom Library Nepali",
                         url: "https://bloomlibrary.org/#!/language:ne",
-                        description: "Children's books designed for literacy development, completely free.",
+                        features: ["Children's books collection", "Literacy development focus", "Age-appropriate content", "Free educational access"],
                         free: true,
                         level: "Children/Beginner"
                     },
                     {
                         name: "Thuprai Free E-books",
                         url: "https://thuprai.com/ebooks/free/",
-                        description: "Mix of Nepali and English literature with 25+ free e-books including classics, free with registration.",
+                        features: ["Nepali and English literature", "25+ free e-books", "Classic literature included", "Free with registration"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Nepali Wikipedia",
                         url: "https://ne.wikipedia.org",
-                        description: "29,418+ articles in Nepali for reading practice and cultural knowledge, completely free.",
+                        features: ["29,418+ articles in Nepali", "Reading practice resource", "Cultural knowledge base", "Community-edited content"],
                         free: true,
                         level: "All Levels"
                     }
@@ -205,42 +205,42 @@ const nepaliResources = {
                     {
                         name: "BBC Nepali Service",
                         url: "https://www.bbc.com/nepali",
-                        description: "Professional news broadcasts on 103 MHz with 55+ years broadcasting history and 6+ million audience for intermediate to advanced learners.",
+                        features: ["Professional news broadcasts", "103 MHz frequency", "55+ years broadcasting history", "6+ million audience reach"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Radio Nepal",
                         url: "https://radionepal.gov.np/",
-                        description: "National broadcaster since 1951 with 18 hours daily programming and regional broadcasts at all levels.",
+                        features: ["National broadcaster since 1951", "18 hours daily programming", "Regional broadcasts", "Government-supported content"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Hamro Patro Radio",
                         url: "https://www.hamropatro.com/radio",
-                        description: "Access to multiple Nepali FM stations at all levels, completely free.",
+                        features: ["Multiple Nepali FM stations", "Variety of programming", "Easy online access", "Live streaming available"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Learn Nepali with Rajan",
                         url: "https://www.youtube.com/",
-                        description: "Comprehensive video lessons with clear explanations and English subtitles for beginner to advanced learners.",
+                        features: ["Comprehensive video lessons", "Clear explanations", "English subtitles", "Beginner to advanced content"],
                         free: true,
                         level: "Beginner to Advanced"
                     },
                     {
                         name: "Nepali Bytes",
                         url: "https://www.youtube.com/",
-                        description: "Short, focused video lessons with bite-sized content on specific topics for beginners.",
+                        features: ["Short focused lessons", "Bite-sized content", "Specific topic coverage", "Beginner-friendly approach"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Nepali Ninja",
                         url: "https://www.youtube.com/",
-                        description: "Interactive learning approach with gamified exercises and quizzes at all levels.",
+                        features: ["Interactive learning approach", "Gamified exercises", "Quizzes and activities", "Multi-level content"],
                         free: true,
                         level: "All Levels"
                     }
@@ -252,28 +252,28 @@ const nepaliResources = {
                     {
                         name: "Nepali for beginners with Vipas",
                         url: "https://podcasts.apple.com/",
-                        description: "32+ weekly episodes with 5.0/5 rating, PDF resources via Patreon, Devanagari script focus for beginner to intermediate learners.",
+                        features: ["32+ weekly episodes", "5.0/5 rating", "PDF resources via Patreon", "Devanagari script focus"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "iSpeak Nepali",
                         url: "https://podcasts.apple.com/",
-                        description: "12+ episodes of contextual listening practice on everyday topics with transcripts available for high beginners and intermediate learners.",
+                        features: ["12+ episodes available", "Contextual listening practice", "Everyday topics coverage", "Transcripts available"],
                         free: true,
                         level: "High Beginner/Intermediate"
                     },
                     {
                         name: "Simple Stories in Nepali",
                         url: "https://podcasts.apple.com/",
-                        description: "Story-based learning with moral lessons and vocabulary building at all levels.",
+                        features: ["Story-based learning", "Moral lessons included", "Vocabulary building focus", "Cultural content"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Language Transfer Nepali",
                         url: "https://www.languagetransfer.org/",
-                        description: "Audio course series focused on understanding language structure at all levels.",
+                        features: ["Audio course series", "Language structure focus", "Understanding-based approach", "Systematic progression"],
                         free: true,
                         level: "All Levels"
                     }
@@ -287,28 +287,28 @@ const nepaliResources = {
                     {
                         name: "Nepali Shabdakosh Dictionary",
                         url: "https://play.google.com/store/apps/",
-                        description: "150,000+ words offline dictionary with three-way functionality, 500,000 baby names, rhymes, completely free for all levels.",
+                        features: ["150,000+ words offline", "Three-way functionality", "500,000 baby names", "Rhymes included"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "English Nepali Dictionary",
                         url: "https://play.google.com/store/apps/",
-                        description: "Bidirectional dictionary with OCR text extraction, voice search, and study tools, free with ads.",
+                        features: ["Bidirectional dictionary", "OCR text extraction", "Voice search capability", "Study tools included"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Anki Nepali Decks",
                         url: "https://ankiweb.net/",
-                        description: "Multiple flashcard decks including Nepali in Context deck with 22 chapters and audio included, completely free at all levels.",
+                        features: ["Multiple flashcard decks", "Nepali in Context deck", "22 chapters included", "Audio support"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Memrise Nepali",
                         url: "https://www.memrise.com/",
-                        description: "Gamified learning courses with community-created content and mnemonic techniques, free tier available for beginner to intermediate.",
+                        features: ["Gamified learning courses", "Community-created content", "Mnemonic techniques", "Free tier available"],
                         free: true,
                         level: "Beginner to Intermediate"
                     }
@@ -320,63 +320,63 @@ const nepaliResources = {
                     {
                         name: "Glosbe Dictionary",
                         url: "https://glosbe.com/en/ne",
-                        description: "Comprehensive bidirectional dictionary with context examples, audio, and parallel corpora at all levels, completely free.",
+                        features: ["Bidirectional dictionary", "Context examples", "Audio pronunciations", "Parallel corpora"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Shabdakosh",
                         url: "https://www.shabdakosh.com.np/",
-                        description: "26,218+ words database with synonyms, antonyms, and multiple interfaces, basic free features.",
+                        features: ["26,218+ words database", "Synonyms and antonyms", "Multiple interfaces", "Basic free features"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Wiktionary Nepali",
                         url: "https://en.wiktionary.org/wiki/Category:Nepali_language",
-                        description: "Community-edited dictionary with etymology, frequency lists, and Swadesh lists for intermediate to advanced learners.",
+                        features: ["Community-edited dictionary", "Etymology information", "Frequency lists", "Swadesh lists"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Easy Nepali Typing",
                         url: "https://www.easynepalityping.com/",
-                        description: "Google-powered transliteration with auto-save and fuzzy phonetic matching at all levels, completely free.",
+                        features: ["Google-powered transliteration", "Auto-save functionality", "Fuzzy phonetic matching", "Web-based tool"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Write Nepali",
                         url: "https://writenepali.com/",
-                        description: "Multiple typing tools including voice typing and Roman to Devanagari conversion, free version available.",
+                        features: ["Multiple typing tools", "Voice typing capability", "Roman to Devanagari conversion", "Free version available"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "PramukhIME",
                         url: "https://www.pramukhime.com/nepali/windows-application",
-                        description: "Windows typing software that works in MS Office and all Windows apps at all levels, completely free.",
+                        features: ["Windows typing software", "MS Office compatibility", "All Windows apps support", "Free download"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Google Translate Nepali",
                         url: "https://translate.google.com/",
-                        description: "Translation service with voice, image, and document translation at all levels, free up to 5000 characters.",
+                        features: ["Voice translation", "Image translation", "Document translation", "5000 character limit"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Saviskar Spell Checker",
                         url: "https://saviskar.com/services/nepali-spell-checker",
-                        description: "AI-driven spell checker with no content limits and punctuation checking at all levels, completely free.",
+                        features: ["AI-driven spell checking", "No content limits", "Punctuation checking", "Real-time correction"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Forvo Pronunciations",
                         url: "https://forvo.com/languages/ne",
-                        description: "Native speaker pronunciations with user-contributed audio database at all levels, completely free.",
+                        features: ["Native speaker pronunciations", "User-contributed audio", "Word pronunciation database", "Free audio access"],
                         free: true,
                         level: "All Levels"
                     }
@@ -390,42 +390,42 @@ const nepaliResources = {
                     {
                         name: "HelloTalk",
                         url: "https://www.hellotalk.com/",
-                        description: "18+ million users across 150+ languages with text/voice chat, translation tools, and moments feature. Free basic version.",
+                        features: ["18+ million users", "150+ languages supported", "Text/voice chat", "Translation tools and moments"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Tandem",
                         url: "https://tandem.net/",
-                        description: "Verified language partners with video calls, message correction, and review system. Free with verification.",
+                        features: ["Verified language partners", "Video call support", "Message correction", "Review system"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "MyLanguageExchange",
                         url: "https://www.mylanguageexchange.com/learn/nepali.asp",
-                        description: "Traditional exchange platform with email pen-pals, lesson plans, and long-term partnerships. Free registration.",
+                        features: ["Traditional exchange platform", "Email pen-pals", "Lesson plans included", "Long-term partnerships"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "ConversationExchange",
                         url: "https://www.conversationexchange.com",
-                        description: "Face-to-face and online exchange with in-person meetups option and flexible formats, completely free.",
+                        features: ["Face-to-face and online", "In-person meetups option", "Flexible formats", "Local community focus"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Speaky",
                         url: "https://www.speaky.com",
-                        description: "5 million users across 170+ languages with cultural exchange focus and voice messages, free account available.",
+                        features: ["5 million users", "170+ languages", "Cultural exchange focus", "Voice messages"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Reddit Communities",
                         url: "https://reddit.com/r/Nepal",
-                        description: "r/Nepal and r/Nepali forum-style discussions with native speaker help and resource sharing, completely free.",
+                        features: ["r/Nepal and r/Nepali forums", "Native speaker help", "Resource sharing", "Community discussions"],
                         free: true,
                         level: "All Levels"
                     }
@@ -437,35 +437,35 @@ const nepaliResources = {
                     {
                         name: "Nepal Academy",
                         url: "https://nepalacademy.gov.np/",
-                        description: "Official language standardization body with Pragya Nepali Brihat Shabdakosh (128k+ words) and mobile app, completely free.",
+                        features: ["Official language standardization", "Pragya Nepali Brihat Shabdakosh", "128k+ words dictionary", "Mobile app available"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Curriculum Development Centre Nepal",
                         url: "https://moecdc.gov.np/",
-                        description: "Official educational materials with E-Library containing textbooks and curriculum materials at all levels, completely free.",
+                        features: ["Official educational materials", "E-Library access", "Textbooks and curriculum", "Government-approved content"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Ministry of Education Nepal",
                         url: "https://moest.gov.np/",
-                        description: "Educational policy and curricula with government documents and language policies at all levels, completely free.",
+                        features: ["Educational policy documents", "Government curricula", "Language policies", "Official guidelines"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Sikkim Government",
                         url: "https://sikkim.gov.in/",
-                        description: "Nepali as official state language with educational materials and government documents in Nepali, completely free.",
+                        features: ["Nepali as official language", "Educational materials", "Government documents", "State-level support"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "SIL International Nepal",
                         url: "https://nepal.sil.org/",
-                        description: "420+ publications on Nepal languages with linguistic research and mobile dictionary apps, most materials free.",
+                        features: ["420+ language publications", "Linguistic research", "Mobile dictionary apps", "Academic resources"],
                         free: true,
                         level: "Academic"
                     }

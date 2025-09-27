@@ -20,49 +20,49 @@ const hungarianResources = {
                     {
                         name: "Live Lingua FSI Hungarian",
                         url: "https://www.livelingua.com/project/fsi/Hungarian",
-                        description: "Complete government-developed course originally for diplomats with downloadable materials, online recorder, no registration required for beginner to intermediate.",
+                        features: ["Government-developed diplomat course", "Downloadable materials included", "Online recorder tool", "No registration required"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "50languages/Goethe Verlag",
                         url: "https://www.50languages.com/hungarian-for-free",
-                        description: "100 structured lessons with native speaker audio available as web course, mobile app, and downloadable MP3s for A1-A2 learners.",
+                        features: ["100 structured lessons", "Native speaker audio", "Web course and mobile app", "Downloadable MP3s available"],
                         free: true,
                         level: "A1-A2"
                     },
                     {
                         name: "Loecsen Hungarian",
                         url: "https://www.loecsen.com/en/learn-hungarian",
-                        description: "Essential expressions for travelers and beginners with voice recognition technology and cultural context for A1 level.",
+                        features: ["Essential travel expressions", "Voice recognition technology", "Cultural context included", "A1 beginner focused"],
                         free: true,
                         level: "A1"
                     },
                     {
                         name: "HungarianPod101 Free Tier",
                         url: "https://www.hungarianpod101.com/welcome-to-free/",
-                        description: "Extensive audio/video lesson library with 7-day trial and selected permanent free lessons for absolute beginner to advanced.",
+                        features: ["Extensive audio/video library", "7-day trial access", "Permanent free lessons", "Absolute beginner to advanced"],
                         free: true,
                         level: "Absolute Beginner to Advanced"
                     },
                     {
                         name: "Duolingo Hungarian",
                         url: "https://www.duolingo.com/course/hu/en/Learn-Hungarian",
-                        description: "Gamified lessons with bite-sized exercises featuring completely free core access and speech recognition for beginner to intermediate.",
+                        features: ["Gamified bite-sized exercises", "Completely free core access", "Speech recognition included", "Beginner to intermediate levels"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Hungarotips",
                         url: "https://www.hungarotips.com/hungarian/",
-                        description: "Comprehensive lessons with cultural content since 1997 including quizzes, audio files, and cultural information for beginner to advanced.",
+                        features: ["Comprehensive lessons since 1997", "Cultural content included", "Quizzes and audio files", "Beginner to advanced levels"],
                         free: true,
                         level: "Beginner to Advanced"
                     },
                     {
                         name: "Stipendium Hungaricum Online",
                         url: "https://stipendiumhungaricum.hu/practice-your-hungarian/",
-                        description: "22-module online course for independent study with videos, quizzes, flashcards, and workplace scenarios for A1 level.",
+                        features: ["22-module online course", "Independent study format", "Videos, quizzes, flashcards", "Workplace scenarios included"],
                         free: true,
                         level: "A1"
                     }
@@ -76,49 +76,49 @@ const hungarianResources = {
                     {
                         name: "FSI Hungarian Basic Course",
                         url: "https://archive.org/details/Fsi-HungarianBasicCourse-StudentText",
-                        description: "Complete 2-volume course with 24 units featuring audio support, pronunciation training, and cultural notes for A1-B1.",
+                        features: ["Complete 2-volume course", "24 units with audio", "Pronunciation training included", "Cultural notes provided"],
                         free: true,
                         level: "A1-B1"
                     },
                     {
                         name: "Wikibooks Hungarian",
                         url: "https://en.wikibooks.org/wiki/Hungarian",
-                        description: "Free collaborative online textbook that is community-maintained with multiple formats available for A1-B1.",
+                        features: ["Free collaborative textbook", "Community-maintained content", "Multiple formats available", "A1-B1 level coverage"],
                         free: true,
                         level: "A1-B1"
                     },
                     {
                         name: "Hungarian Reference Grammar",
                         url: "http://www.hungarianreference.com/",
-                        description: "Complete online grammar reference with systematic coverage and search functionality for B1-C2 learners.",
+                        features: ["Complete grammar reference", "Systematic coverage approach", "Search functionality included", "B1-C2 level focus"],
                         free: true,
                         level: "B1-C2"
                     },
                     {
                         name: "Complete Practical Grammar (1853)",
                         url: "https://archive.org/details/completepractica00csinuoft",
-                        description: "Historical comprehensive grammar with 508 pages featuring exercises and literary selections for A2-C1.",
+                        features: ["Historical comprehensive grammar", "508 pages of content", "Exercises and literary selections", "A2-C1 level range"],
                         free: true,
                         level: "A2-C1"
                     },
                     {
                         name: "Simplified Grammar",
                         url: "https://archive.org/details/simplifiedgramma00singrich",
-                        description: "Concise introduction to Hungarian with 88 pages using simplified approach for A1-A2.",
+                        features: ["Concise introduction format", "88 pages of content", "Simplified learning approach", "A1-A2 beginner levels"],
                         free: true,
                         level: "A1-A2"
                     },
                     {
                         name: "Vékey's Grammar (1889)",
                         url: "https://archive.org/details/grammarofhungari00vkey",
-                        description: "Traditional grammar with poetry including vocabulary and poetry specimens for A2-B2.",
+                        features: ["Traditional grammar approach", "Poetry included", "Vocabulary specimens", "A2-B2 level coverage"],
                         free: true,
                         level: "A2-B2"
                     },
                     {
                         name: "Wikipedia Hungarian Grammar",
                         url: "https://en.wikipedia.org/wiki/Hungarian_grammar",
-                        description: "Comprehensive grammatical overview with academic reference quality for B1-C2 learners.",
+                        features: ["Comprehensive grammatical overview", "Academic reference quality", "B1-C2 level focus", "Wikipedia reliability"],
                         free: true,
                         level: "B1-C2"
                     }
@@ -130,63 +130,63 @@ const hungarianResources = {
                     {
                         name: "MEK (Hungarian Electronic Library)",
                         url: "https://mek.oszk.hu/indexeng.phtml",
-                        description: "11,000+ books, 220+ audiobooks, newspapers with full-text search and multiple formats including MP3 audiobooks at all levels.",
+                        features: ["11,000+ books available", "220+ audiobooks included", "Full-text search capability", "Multiple formats and MP3s"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Project Gutenberg Hungarian",
                         url: "https://www.gutenberg.org/browse/languages/hu",
-                        description: "200+ Hungarian classic works with multiple download formats that are public domain for intermediate-advanced learners.",
+                        features: ["200+ Hungarian classics", "Multiple download formats", "Public domain works", "Intermediate-advanced level"],
                         free: true,
                         level: "Intermediate-Advanced"
                     },
                     {
                         name: "Digitális Irodalmi Akadémia",
                         url: "https://dia.hu",
-                        description: "Contemporary Hungarian literature with 78+ authors featuring full-text search, manuscripts, and audio recordings for intermediate-advanced.",
+                        features: ["Contemporary literature collection", "78+ authors featured", "Full-text search available", "Manuscripts and audio recordings"],
                         free: true,
                         level: "Intermediate-Advanced"
                     },
                     {
                         name: "National Széchényi Library",
                         url: "https://oszk.hu/en/digital_library",
-                        description: "Historical documents, manuscripts, maps with copyright-compliant access and multilingual materials at all levels.",
+                        features: ["Historical documents and manuscripts", "Maps collection included", "Copyright-compliant access", "Multilingual materials available"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Easy Hungarian Magazine",
                         url: "https://www.easyhungarian.com/",
-                        description: "Magazine articles rewritten for learners with audio files, online exercises, and vocabulary lists for B1 level.",
+                        features: ["Articles rewritten for learners", "Audio files included", "Online exercises provided", "Vocabulary lists available"],
                         free: true,
                         level: "B1"
                     },
                     {
                         name: "FSI Graded Reader",
                         url: "https://www.livelingua.com/course/fsi/hungarian_-_graded_reader",
-                        description: "56 reading selections with audio featuring progressive difficulty and pronunciation tools for beginner-intermediate.",
+                        features: ["56 reading selections", "Audio accompaniment included", "Progressive difficulty levels", "Pronunciation tools provided"],
                         free: true,
                         level: "Beginner-Intermediate"
                     },
                     {
                         name: "Hungarian Kati News",
                         url: "https://www.hungariankati.com/",
-                        description: "Simplified news at multiple levels with vocabulary lists, audio exercises, and comprehension questions for beginner-intermediate.",
+                        features: ["Simplified news content", "Multiple difficulty levels", "Audio exercises included", "Comprehension questions provided"],
                         free: true,
                         level: "Beginner-Intermediate"
                     },
                     {
                         name: "Farkas Translations",
                         url: "https://farkastranslations.com/bilingual_books.php",
-                        description: "Bilingual parallel texts with sentence-aligned texts and e-book generator at all levels.",
+                        features: ["Bilingual parallel texts", "Sentence-aligned format", "E-book generator tool", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Hungaricana",
                         url: "https://hungaricana.hu/",
-                        description: "Comprehensive Hungarian cultural database with historical materials and cultural resources at all levels.",
+                        features: ["Comprehensive cultural database", "Historical materials included", "Cultural resources provided", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     }
@@ -200,56 +200,56 @@ const hungarianResources = {
                     {
                         name: "HungarianPod101 YouTube",
                         url: "https://www.youtube.com/user/HungarianPod101/videos",
-                        description: "Structured lessons, vocabulary, grammar with weekly updates featuring under 10-minute videos for beginner-advanced learners.",
+                        features: ["Structured lessons format", "Weekly content updates", "Under 10-minute videos", "Vocabulary and grammar focus"],
                         free: true,
                         level: "Beginner-Advanced"
                     },
                     {
                         name: "Hungarian Lesson with Zsuzsi",
                         url: "https://www.youtube.com/channel/UCRoQDAv2nDyCejTOuS9RbKg",
-                        description: "Basic Hungarian lessons with clear explanations and structured approach for beginner-intermediate.",
+                        features: ["Basic Hungarian lessons", "Clear explanations provided", "Structured learning approach", "Beginner-intermediate focus"],
                         free: true,
                         level: "Beginner-Intermediate"
                     },
                     {
                         name: "Hungarian National Film Archive",
                         url: "https://filmarchiv.hu/en/news/hungarian-classics-free-to-watch",
-                        description: "40+ classic films with English subtitles including literary adaptations and historical films for intermediate-advanced learners.",
+                        features: ["40+ classic films", "English subtitles included", "Literary adaptations featured", "Historical films available"],
                         free: true,
                         level: "Intermediate-Advanced"
                     },
                     {
                         name: "HungarianPod101 Podcast",
                         url: "https://podcasts.apple.com/us/podcast/learn-hungarian-hungarianpod101-com/id448503629",
-                        description: "Comprehensive audio lessons with PDF transcripts, mobile app, and offline downloads at all levels.",
+                        features: ["Comprehensive audio lessons", "PDF transcripts included", "Mobile app available", "Offline downloads supported"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Let's Learn Hungarian!",
                         url: "https://podcasts.apple.com/us/podcast/lets-learn-hungarian/id271212839",
-                        description: "Basic Hungarian with native speaker featuring 20 lessons with transcripts available for beginners.",
+                        features: ["Basic Hungarian focus", "Native speaker instruction", "20 lessons available", "Transcripts provided"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Hungarian with Sziszi",
                         url: "https://www.hungarianwithsziszi.com/podcast",
-                        description: "Natural speech patterns and colloquial language with PDF transcripts and vocabulary lists for A2-B2.",
+                        features: ["Natural speech patterns", "Colloquial language focus", "PDF transcripts included", "Vocabulary lists provided"],
                         free: true,
                         level: "A2-B2"
                     },
                     {
                         name: "LibriVox Hungarian",
                         url: "https://librivox.org/",
-                        description: "Public domain Hungarian audiobooks with 20,648+ titles featuring free download and streaming apps at all levels.",
+                        features: ["Public domain audiobooks", "20,648+ titles available", "Free download access", "Streaming apps supported"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Hungarian Audiobooks App",
                         url: "https://play.google.com/store/apps/details?id=com.murati.oszk.audiobook",
-                        description: "Hundreds of Hungarian classics with offline listening and Chromecast support for intermediate-advanced.",
+                        features: ["Hundreds of classics", "Offline listening capability", "Chromecast support included", "Intermediate-advanced level"],
                         free: true,
                         level: "Intermediate-Advanced"
                     }
@@ -263,70 +263,70 @@ const hungarianResources = {
                     {
                         name: "Duolingo Hungarian Course",
                         url: "https://www.duolingo.com/course/hu/en/Learn-Hungarian",
-                        description: "Gamified Hungarian course with 4 units and 78 topics including definite/indefinite conjugation practice for beginner-intermediate.",
+                        features: ["Gamified course format", "4 units, 78 topics", "Definite/indefinite conjugation practice", "Beginner-intermediate levels"],
                         free: true,
                         level: "Beginner-Intermediate"
                     },
                     {
                         name: "Drops Hungarian",
                         url: "https://apps.apple.com/us/app/learn-hungarian-language-fast/id1227950613",
-                        description: "Visual vocabulary learning with 5-minute daily sessions and word-image associations for beginner-intermediate.",
+                        features: ["Visual vocabulary learning", "5-minute daily sessions", "Word-image associations", "Beginner-intermediate focus"],
                         free: true,
                         level: "Beginner-Intermediate"
                     },
                     {
                         name: "Simply Learn Hungarian",
                         url: "https://play.google.com/store/apps/details?id=simply.learn.hungarian",
-                        description: "300+ phrases with native audio featuring spaced repetition and quiz system for beginners.",
+                        features: ["300+ phrases included", "Native audio recordings", "Spaced repetition system", "Quiz system integrated"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Language Reactor",
                         url: "https://www.languagereactor.com/",
-                        description: "Browser extension for Netflix/YouTube with dual subtitles, popup dictionary, and vocabulary saving at all levels.",
+                        features: ["Browser extension tool", "Netflix/YouTube integration", "Dual subtitles support", "Popup dictionary included"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Toucan Extension",
                         url: "https://jointoucan.com/",
-                        description: "Translates words while browsing for passive exposure to Hungarian vocabulary at all levels.",
+                        features: ["Translates while browsing", "Passive vocabulary exposure", "Background learning approach", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Cooljugator",
                         url: "https://cooljugator.com/hu",
-                        description: "Hungarian verb conjugator that handles definite/indefinite conjugations with examples at all levels.",
+                        features: ["Hungarian verb conjugator", "Definite/indefinite conjugations", "Examples provided", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Verbix",
                         url: "https://www.verbix.com/languages/hungarian",
-                        description: "Online verb conjugation covering 23 irregular verbs and verb particles at all levels.",
+                        features: ["Online verb conjugation", "23 irregular verbs", "Verb particles covered", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Digital Dialects Games",
                         url: "https://www.digitaldialects.com/Hungarian.htm",
-                        description: "Interactive games and flashcards with audio practice quizzes and vocabulary games for beginners.",
+                        features: ["Interactive games included", "Flashcards with audio", "Practice quizzes available", "Vocabulary games featured"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Anki Hungarian Decks",
                         url: "https://ankiweb.net/shared/info/1298664319",
-                        description: "Top 2000 Hungarian words deck with spaced repetition and customizable flashcards at all levels.",
+                        features: ["Top 2000 words deck", "Spaced repetition system", "Customizable flashcards", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "FunEasyLearn Hungarian",
                         url: "https://www.funeasylearn.com/learn-hungarian",
-                        description: "30 games with 15,000 words across 350 topic categories featuring hand-drawn illustrations for beginner-advanced.",
+                        features: ["30 learning games", "15,000 words included", "350 topic categories", "Hand-drawn illustrations"],
                         free: true,
                         level: "Beginner-Advanced"
                     }
@@ -338,63 +338,63 @@ const hungarianResources = {
                     {
                         name: "SZTAKI Szótár",
                         url: "https://szotar.sztaki.hu/en",
-                        description: "Multilingual Hungarian dictionary with 93,206 words and 208,926 translations, community-driven at all levels.",
+                        features: ["Multilingual dictionary format", "93,206 words included", "208,926 translations available", "Community-driven content"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "DictZone",
                         url: "https://dictzone.com/english-hungarian-dictionary/",
-                        description: "English-Hungarian dictionary with 500,000+ meaning pairs featuring audio pronunciation and IPA at all levels.",
+                        features: ["English-Hungarian dictionary", "500,000+ meaning pairs", "Audio pronunciation included", "IPA notation provided"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Szotar.net",
                         url: "https://www.szotar.net/",
-                        description: "Professional dictionary collection with 15 languages, 40+ dictionaries, and 2M+ entries at all levels.",
+                        features: ["Professional dictionary collection", "15 languages supported", "40+ dictionaries included", "2M+ entries available"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Magyar Értelmező Szótár",
                         url: "https://mek.oszk.hu/adatbazis/magyar-nyelv-ertelmezo-szotara/",
-                        description: "Monolingual explanatory dictionary with 60,000+ headwords and comprehensive definitions for advanced learners.",
+                        features: ["Monolingual explanatory dictionary", "60,000+ headwords", "Comprehensive definitions", "Advanced learner focus"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Forvo Hungarian",
                         url: "https://forvo.com/languages/hu/",
-                        description: "Pronunciation dictionary with native speaker recordings that are crowd-sourced at all levels.",
+                        features: ["Pronunciation dictionary", "Native speaker recordings", "Crowd-sourced content", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "HungarianReference.com",
                         url: "http://www.hungarianreference.com/",
-                        description: "Complete grammar reference written for English speakers with conjugation tables for B1-C2.",
+                        features: ["Complete grammar reference", "Written for English speakers", "Conjugation tables included", "B1-C2 level focus"],
                         free: true,
                         level: "B1-C2"
                     },
                     {
                         name: "Hungarian National Corpus",
                         url: "http://corpus.nytud.hu/mnsz/index_eng.html",
-                        description: "Linguistic corpus with 180+ million words and free query system for academic purposes.",
+                        features: ["Linguistic corpus tool", "180+ million words", "Free query system", "Academic research purposes"],
                         free: true,
                         level: "Academic"
                     },
                     {
                         name: "Sketch Engine Hungarian",
                         url: "https://www.sketchengine.eu/corpora-and-languages/hungarian-text-corpora/",
-                        description: "Corpus analysis tools with 3.4B words featuring collocations and terminology extraction for academic use.",
+                        features: ["Corpus analysis tools", "3.4B words database", "Collocations featured", "Terminology extraction capability"],
                         free: true,
                         level: "Academic"
                     },
                     {
                         name: "Wiktionary Hungarian",
                         url: "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Hungarian_wordlist",
-                        description: "Frequency lists with 5,000 most common words based on subtitles at all levels.",
+                        features: ["Frequency word lists", "5,000 most common words", "Subtitle-based data", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     }
@@ -408,49 +408,49 @@ const hungarianResources = {
                     {
                         name: "HelloTalk",
                         url: "https://www.hellotalk.com/",
-                        description: "Global language exchange app with translation tools, grammar correction, and voice-to-text at all levels.",
+                        features: ["Global language exchange", "Translation tools included", "Grammar correction feature", "Voice-to-text capability"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Tandem Budapest",
                         url: "https://tandem.net/language-exchange/hungary/budapest",
-                        description: "1,217+ members in Budapest with in-app correction and location-based search at all levels.",
+                        features: ["1,217+ Budapest members", "In-app correction feature", "Location-based search", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "ConversationExchange",
                         url: "https://www.conversationexchange.com/s_map/learn.php?language=Hungarian",
-                        description: "Face-to-face and online exchange with three exchange types and profile matching at all levels.",
+                        features: ["Face-to-face and online", "Three exchange types", "Profile matching system", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Speaky",
                         url: "https://www.speaky.com/",
-                        description: "5+ million language learners with virtual events and cultural exchange focus at all levels.",
+                        features: ["5+ million learners", "Virtual events hosted", "Cultural exchange focus", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "MyLanguageExchange",
                         url: "https://www.mylanguageexchange.com/Search.asp?selX3=27",
-                        description: "Email and chat exchange with structured learning guidelines at all levels.",
+                        features: ["Email and chat exchange", "Structured learning guidelines", "Established platform", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "r/hungarian Reddit",
                         url: "https://reddit.com/r/hungarian",
-                        description: "Main Hungarian learning subreddit with native speaker participation and resource sharing at all levels.",
+                        features: ["Main Hungarian subreddit", "Native speaker participation", "Resource sharing community", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "InterPals",
                         url: "https://www.interpals.net/app/langex",
-                        description: "54,195+ Hungarian speakers for cultural exchange and travel connections at all levels.",
+                        features: ["54,195+ Hungarian speakers", "Cultural exchange focus", "Travel connections available", "All skill levels"],
                         free: true,
                         level: "All Levels"
                     }
@@ -462,28 +462,28 @@ const hungarianResources = {
                     {
                         name: "Balassi Institute Budapest",
                         url: "https://balassieducation.hu/en/hungarian-language-courses/",
-                        description: "Free language courses in Budapest with morning/evening classes and ECL exam preparation for beginner-advanced.",
+                        features: ["Free courses in Budapest", "Morning/evening classes", "ECL exam preparation", "Beginner-advanced levels"],
                         free: true,
                         level: "Beginner-Advanced"
                     },
                     {
                         name: "Stipendium Hungaricum",
                         url: "https://stipendiumhungaricum.hu/practice-your-hungarian/",
-                        description: "Online course plus mandatory university programs with 22 modules online and 2-semester mandatory courses for A1-C2.",
+                        features: ["Online course available", "22 modules included", "2-semester mandatory courses", "A1-C2 level range"],
                         free: true,
                         level: "A1-C2"
                     },
                     {
                         name: "Erasmus+ Programs",
                         url: "https://erasmus-plus.ec.europa.eu/",
-                        description: "Student exchange with language support featuring €26.2 billion budget 2021-2027 at university level.",
+                        features: ["Student exchange program", "Language support included", "€26.2 billion budget 2021-2027", "University level focus"],
                         free: true,
                         level: "University Level"
                     },
                     {
                         name: "Balassi Institute Global",
                         url: "https://balassi.hu/",
-                        description: "26 branches in 24 countries with cultural centers and scholarship programs at all levels.",
+                        features: ["26 branches worldwide", "24 countries covered", "Cultural centers available", "Scholarship programs offered"],
                         free: true,
                         level: "All Levels"
                     }
