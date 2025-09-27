@@ -36,7 +36,7 @@
         container.innerHTML = '';
 
         // Special handling for languages with comprehensive resource structure
-        const comprehensiveLanguages = ['dutch', 'danish', 'dari', 'portuguese', 'italian', 'indonesian', 'korean', 'lao', 'hindi', 'hmong', 'swahili', 'japanese', 'swedish', 'finnish', 'flemish', 'polish', 'punjabi', 'quechua', 'vietnamese', 'wolof', 'tamil', 'telugu', 'bengali', 'kazakh', 'greek', 'guarani', 'latvian', 'marathi', 'persian', 'mongolian', 'navajo', 'nahuatl', 'pashto', 'ukrainian', 'urdu', 'signLanguage', 'irish', 'yoruba', 'slovak', 'afrikaans', 'arabic', 'bulgarian', 'burmese', 'chinese', 'cree', 'estonian', 'french', 'german', 'hausa', 'gujarati', 'malay', 'romanian', 'russian', 'serbian', 'spanish', 'tagalog', 'thai', 'lithuanian'];
+        const comprehensiveLanguages = ['dutch', 'danish', 'dari', 'portuguese', 'italian', 'indonesian', 'inuktitut', 'korean', 'lao', 'hindi', 'hmong', 'swahili', 'japanese', 'swedish', 'finnish', 'flemish', 'polish', 'punjabi', 'quechua', 'vietnamese', 'welsh', 'wolof', 'tamil', 'telugu', 'bengali', 'kazakh', 'greek', 'guarani', 'latvian', 'marathi', 'persian', 'mongolian', 'navajo', 'nahuatl', 'pashto', 'ukrainian', 'urdu', 'signLanguage', 'irish', 'yoruba', 'slovak', 'afrikaans', 'arabic', 'bulgarian', 'burmese', 'chinese', 'cree', 'croatian', 'estonian', 'french', 'german', 'hausa', 'gujarati', 'malay', 'romanian', 'russian', 'serbian', 'spanish', 'tagalog', 'thai', 'lithuanian'];
 
         if (comprehensiveLanguages.includes(langParam)) {
             renderComprehensiveResources(filter);
