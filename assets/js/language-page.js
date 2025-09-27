@@ -92,9 +92,21 @@
         }
 
         if (filter === 'all' || filter === 'apps') {
-            if (language.resources.apps) {
-                const section = createResourceSection('apps', language.resources.apps);
-                container.appendChild(section);
+            if (language.resources.apps && Array.isArray(language.resources.apps)) {
+                // Check if apps have nested structure (with category and items)
+                if (language.resources.apps.length > 0 && language.resources.apps[0].category && language.resources.apps[0].items) {
+                    // Comprehensive structure with categories
+                    language.resources.apps.forEach(category => {
+                        if (category && category.items && Array.isArray(category.items)) {
+                            const section = createComprehensiveSection(category.category, category.items, 'apps');
+                            container.appendChild(section);
+                        }
+                    });
+                } else {
+                    // Flat structure (old format)
+                    const section = createResourceSection('apps', language.resources.apps);
+                    container.appendChild(section);
+                }
             }
         }
 
