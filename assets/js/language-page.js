@@ -157,7 +157,7 @@
                     <div class="resource-name">
                         ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener">${item.name}</a>` : item.name}
                     </div>
-                    <div class="resource-description">${item.description}</div>
+                    ${item.description ? `<div class="resource-description">${item.description}</div>` : ''}
                     ${item.features ? `
                         <div class="features-list">
                             ${item.features.map(f => `• ${f}`).join(' ')}
@@ -210,7 +210,12 @@
                         ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener">${item.name}</a>` : item.name}
                         ${author}
                     </div>
-                    <div class="resource-description">${item.description}</div>
+                    ${item.description ? `<div class="resource-description">${item.description}</div>` : ''}
+                    ${item.features ? `
+                        <div class="features-list">
+                            ${item.features.map(f => `• ${f}`).join(' ')}
+                        </div>
+                    ` : ''}
                     <div class="resource-meta">
                         ${badges.join('')}
                     </div>
