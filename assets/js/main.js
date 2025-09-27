@@ -336,8 +336,8 @@ const LanguageHub = (function() {
             practice: 0
         };
 
-        // Count resources from each language
-        const languages = ['dutch', 'danish', 'portuguese', 'italian', 'indonesian', 'korean', 'hindi', 'swahili', 'japanese', 'swedish', 'finnish', 'polish', 'vietnamese'];
+        // Count resources from all languages
+        const languages = Object.keys(languageData);
 
         languages.forEach(langKey => {
             if (typeof languageData !== 'undefined' && languageData[langKey]) {

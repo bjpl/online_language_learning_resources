@@ -36,7 +36,9 @@
         container.innerHTML = '';
 
         // Special handling for languages with comprehensive resource structure
-        if (langParam === 'dutch' || langParam === 'danish' || langParam === 'portuguese' || langParam === 'italian' || langParam === 'indonesian' || langParam === 'korean' || langParam === 'hindi' || langParam === 'swahili' || langParam === 'japanese' || langParam === 'swedish' || langParam === 'finnish' || langParam === 'polish' || langParam === 'vietnamese') {
+        const comprehensiveLanguages = ['dutch', 'danish', 'portuguese', 'italian', 'indonesian', 'korean', 'hindi', 'swahili', 'japanese', 'swedish', 'finnish', 'polish', 'vietnamese', 'wolof', 'tamil', 'bengali', 'kazakh', 'greek', 'latvian', 'marathi', 'persian', 'mongolian', 'irish', 'afrikaans', 'arabic', 'bulgarian', 'burmese', 'estonian', 'french', 'german', 'malay', 'romanian', 'russian', 'serbian', 'spanish', 'tagalog', 'thai', 'lithuanian'];
+
+        if (comprehensiveLanguages.includes(langParam)) {
             renderComprehensiveResources(filter);
             // Re-initialize collapsible functionality after rendering
             // Use setTimeout to ensure DOM has updated
