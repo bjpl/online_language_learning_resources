@@ -20,49 +20,49 @@ const chineseResources = {
                     {
                         name: "XuetangX (学堂在线)",
                         url: "https://www.xuetangx.com/",
-                        description: "Tsinghua University's MOOC platform with HSK preparation courses, video lectures, exercises, and certificates for all proficiency levels.",
+                        features: ["Tsinghua University MOOC platform", "HSK preparation courses", "Video lectures and exercises", "Certificates for all levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "China University MOOC",
                         url: "https://www.icourse163.org/",
-                        description: "Ministry of Education platform with 10,000+ free courses from 800+ universities across China covering all aspects of Chinese language and culture.",
+                        features: ["Ministry of Education platform", "10,000+ free courses", "800+ universities across China", "Language and culture coverage"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Peking University on Coursera - Chinese for HSK",
                         url: "https://www.coursera.org/learn/hsk-1",
-                        description: "Complete HSK series (HSK 1-5) with 30+ video lectures per course, quizzes, and comprehensive preparation for official proficiency tests.",
+                        features: ["Complete HSK 1-5 series", "30+ video lectures per course", "Quizzes and preparation", "Official proficiency tests"],
                         free: true,
                         level: "Beginner to Advanced"
                     },
                     {
                         name: "Shanghai Jiao Tong University - Learn Mandarin Chinese",
                         url: "https://www.coursera.org/specializations/learn-mandarin",
-                        description: "5-course specialization with capstone project covering beginner to intermediate Mandarin Chinese with cultural context.",
+                        features: ["5-course specialization", "Capstone project included", "Beginner to intermediate", "Cultural context integration"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Tsinghua Chinese on edX",
                         url: "https://www.edx.org/learn/language/tsinghua-university-tsinghua-chinese-start-talking-with-1-3-billion-people",
-                        description: "Start Talking with 1.3 Billion People - comprehensive beginner course covering Pinyin system and essential cultural elements.",
+                        features: ["Comprehensive beginner course", "Pinyin system coverage", "Essential cultural elements", "Connect with 1.3B people"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "National Taiwan University - Learning Chinese",
                         url: "https://www.coursera.org/learn/learn-chinese-mandarin",
-                        description: "Learning Chinese: Start From Scratch - immersive Mandarin approach for complete beginners using traditional characters.",
+                        features: ["Start from scratch approach", "Immersive Mandarin method", "Complete beginners focused", "Traditional characters used"],
                         free: true,
                         level: "Complete Beginner"
                     },
                     {
                         name: "MIT OpenCourseWare - Foundation Course in Mandarin",
                         url: "https://ocw.mit.edu/courses/res-21g-003-learning-chinese-a-foundation-course-in-mandarin-spring-2011/",
-                        description: "4-semester curriculum with audio materials covering beginner to intermediate Mandarin, supporting both character systems.",
+                        features: ["4-semester curriculum", "Audio materials included", "Beginner to intermediate", "Both character systems"],
                         free: true,
                         level: "Beginner to Intermediate"
                     }
@@ -74,49 +74,49 @@ const chineseResources = {
                     {
                         name: "Confucius Institute Online",
                         url: "https://ci.cn/en/gywm",
-                        description: "Global Chinese education network offering live classes, HSK preparation, and cultural programs for all proficiency levels.",
+                        features: ["Global education network", "Live classes offered", "HSK preparation", "Cultural programs included"],
                         free: false,
                         level: "All levels"
                     },
                     {
                         name: "CCTV Learn Chinese",
                         url: "https://english.cctv.com/program/learnchinese/01/index.shtml",
-                        description: "Official CCTV learning portal with 100+ episodes of 'Growing up with Chinese' - completely free beginner to intermediate content.",
+                        features: ["Official CCTV portal", "100+ Growing up episodes", "Completely free content", "Beginner to intermediate"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Hanban HSK Resources",
                         url: "http://english.hanban.org/node_7581.htm",
-                        description: "Official HSK testing body providing official vocabulary lists, sample tests, and preparation materials for all HSK levels.",
+                        features: ["Official HSK testing body", "Official vocabulary lists", "Sample tests provided", "All HSK levels covered"],
                         free: true,
                         level: "All HSK levels"
                     },
                     {
                         name: "China Radio International",
                         url: "https://radio.cgtn.com/",
-                        description: "State broadcaster programs with radio shows, podcasts, and news content for all proficiency levels with free streaming.",
+                        features: ["State broadcaster programs", "Radio shows and podcasts", "News content included", "Free streaming available"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Taiwan MOE Resources",
                         url: "https://lmit.edu.tw/lc/learning",
-                        description: "Taiwan Ministry of Education platform with self-study resources and TOCFL (Test of Chinese as a Foreign Language) preparation.",
+                        features: ["Taiwan MOE platform", "Self-study resources", "TOCFL preparation", "Foreign language testing"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Speak Mandarin Campaign (Singapore)",
                         url: "https://www.languagecouncils.sg/mandarin/en",
-                        description: "Singapore government initiative since 1979 with Singaporean Mandarin database, learning competitions, and cultural programs.",
+                        features: ["Singapore government initiative", "Since 1979", "Mandarin database", "Competitions and programs"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Hong Kong Education Bureau Chinese Resources",
                         url: "https://www.edb.gov.hk/en/curriculum-development/kla/chi-edu/second-lang/student.html",
-                        description: "Resources for non-Chinese speakers including character recognition tools and audio storybooks for all proficiency levels.",
+                        features: ["Non-Chinese speakers focused", "Character recognition tools", "Audio storybooks", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     }
@@ -128,35 +128,35 @@ const chineseResources = {
                     {
                         name: "HK Education University Cantonese Course",
                         url: "https://corpus.eduhk.hk/cantonese/e_index.html",
-                        description: "Corpus-based Cantonese learning platform from Hong Kong Education University with authentic language examples and exercises.",
+                        features: ["Corpus-based learning platform", "Hong Kong Education University", "Authentic language examples", "Exercises included"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "VTC Survival Cantonese",
                         url: "https://www.vtc.edu.hk/vlpo/eng/info_ncs.html",
-                        description: "Hong Kong government course designed for non-Chinese speakers with essential survival Cantonese phrases and cultural orientation.",
+                        features: ["Hong Kong government course", "Non-Chinese speakers", "Survival Cantonese phrases", "Cultural orientation"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Yale-China Academy Cantonese Program",
                         url: "https://yccla.cuhk.edu.hk/",
-                        description: "Intensive 12-month Cantonese program at Chinese University of Hong Kong with comprehensive cultural immersion.",
+                        features: ["Intensive 12-month program", "Chinese University HK", "Comprehensive curriculum", "Cultural immersion"],
                         free: false,
                         level: "Beginner to Advanced"
                     },
                     {
                         name: "Cantonese with Brittany",
                         url: "https://www.youtube.com/c/CantonesewithBrittany",
-                        description: "YouTube channel with 20+ comprehensive Cantonese lessons using Jyutping romanization with cultural context.",
+                        features: ["YouTube channel", "20+ comprehensive lessons", "Jyutping romanization", "Cultural context"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "CantoneseClass101",
                         url: "https://www.cantoneseclass101.com/",
-                        description: "Comprehensive Cantonese course with YouTube channel, podcasts, and cultural education materials with bi-weekly updates.",
+                        features: ["Comprehensive Cantonese course", "YouTube and podcasts", "Cultural education materials", "Bi-weekly updates"],
                         free: false,
                         level: "All levels"
                     }
@@ -168,35 +168,35 @@ const chineseResources = {
                     {
                         name: "LearnTaigi.com - Taiwanese Hokkien",
                         url: "https://www.learntaigi.com/",
-                        description: "Comprehensive Taiwanese/Min Nan/Hokkien vocabulary platform with categorized lists using Tâi-lô romanization.",
+                        features: ["Taiwanese/Min Nan/Hokkien", "Vocabulary platform", "Categorized lists", "Tâi-lô romanization"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Taiwan MOE Taiwanese Dictionary",
                         url: "https://english.moe.gov.tw/",
-                        description: "Official Taiwan Ministry of Education dictionary with 25,000 Taiwanese/Hokkien entries, audio recordings, and Tâi-lô romanization.",
+                        features: ["Official Taiwan MOE dictionary", "25,000 Taiwanese entries", "Audio recordings", "Tâi-lô romanization"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Taiwan Hakka Dictionary",
                         url: "https://english.moe.gov.tw/",
-                        description: "Official Hakka language resources from Taiwan Ministry of Education with comprehensive dictionary and audio support.",
+                        features: ["Official Hakka resources", "Taiwan MOE", "Comprehensive dictionary", "Audio support"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Wu-Chinese.com - Shanghainese",
                         url: "http://wu-chinese.com/",
-                        description: "Shanghainese/Wu dialect learning platform with 2,500+ words and 30-lesson curriculum for this major regional variety.",
+                        features: ["Shanghainese/Wu dialect", "2,500+ words", "30-lesson curriculum", "Major regional variety"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Mogher.com - Teochew Dictionary",
                         url: "https://mogher.com/",
-                        description: "Comprehensive Teochew/Chaozhou dialect dictionary with 6,500+ words and support for multiple languages.",
+                        features: ["Teochew/Chaozhou dialect", "6,500+ words", "Dictionary format", "Multiple language support"],
                         free: true,
                         level: "All levels"
                     }
@@ -210,42 +210,42 @@ const chineseResources = {
                     {
                         name: "Elementary Chinese I & II (Michigan State University)",
                         url: "https://openbooks.lib.msu.edu/chs101/",
-                        description: "8 lessons per volume covering beginning Mandarin Chinese with CC BY-NC 4.0 license, available in PDF, EPUB, and online formats.",
+                        features: ["8 lessons per volume", "Beginning Mandarin Chinese", "CC BY-NC 4.0 license", "Multiple formats available"],
                         free: true,
                         level: "Beginning"
                     },
                     {
                         name: "Elementary Mandarin (University of Minnesota)",
                         url: "https://open.umn.edu/opentextbooks/textbooks/1106",
-                        description: "Interactive online textbook with multiple sections covering beginning Mandarin with open educational license.",
+                        features: ["Interactive online textbook", "Multiple sections", "Beginning Mandarin", "Open educational license"],
                         free: true,
                         level: "Beginning"
                     },
                     {
                         name: "Chinese WikiBooks - Mandarin",
                         url: "https://en.wikibooks.org/wiki/Chinese_(Mandarin)",
-                        description: "Comprehensive community-maintained Mandarin Chinese course with CC BY-SA 4.0 license covering beginner to intermediate levels.",
+                        features: ["Community-maintained course", "Mandarin Chinese", "CC BY-SA 4.0 license", "Beginner to intermediate"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "FSI Standard Chinese Course",
                         url: "https://fsi-languages.yojik.eu/languages/FSI/fsi-chinese.html",
-                        description: "Public domain modular long course from Foreign Service Institute covering beginning to advanced Mandarin with extensive audio materials.",
+                        features: ["Public domain course", "Foreign Service Institute", "Beginning to advanced", "Extensive audio materials"],
                         free: true,
                         level: "Beginning to Advanced"
                     },
                     {
                         name: "Chinese Rhetoric and Writing (University of Minnesota)",
                         url: "https://open.umn.edu/opentextbooks/textbooks/297",
-                        description: "Graduate-level text on Chinese rhetoric and composition with open license, available in PDF and EPUB formats.",
+                        features: ["Graduate-level text", "Chinese rhetoric and composition", "Open license", "PDF and EPUB formats"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Classical Chinese WikiBook",
                         url: "https://en.wikibooks.org/wiki/Classical_Chinese",
-                        description: "Comprehensive guide to classical Chinese (文言文) with multiple lessons covering advanced literary Chinese with CC BY-SA 4.0 license.",
+                        features: ["Classical Chinese guide", "Multiple lessons", "Advanced literary Chinese", "CC BY-SA 4.0 license"],
                         free: true,
                         level: "Advanced"
                     }
@@ -257,28 +257,28 @@ const chineseResources = {
                     {
                         name: "Chinese Grammar Wiki (AllSet Learning)",
                         url: "https://resources.allsetlearning.com/chinese/grammar/",
-                        description: "2,125+ grammar articles organized by difficulty (A1-C1 / HSK 1-6) with examples and detailed explanations for all proficiency levels.",
+                        features: ["2,125+ grammar articles", "A1-C1 / HSK 1-6", "Examples and explanations", "All proficiency levels"],
                         free: true,
                         level: "A1 to C1 (HSK 1-6)"
                     },
                     {
                         name: "CC-CEDICT Grammar Guide",
                         url: "https://cc-cedict.org/wiki/",
-                        description: "Community-maintained grammar patterns and usage guide covering all proficiency levels with searchable examples.",
+                        features: ["Community-maintained patterns", "Grammar usage guide", "All proficiency levels", "Searchable examples"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "COERLL Chinese Materials (University of Texas)",
                         url: "https://coerll.utexas.edu/coerll/materials/language/chinese/",
-                        description: "University of Texas resources with interactive grammar exercises for beginning to intermediate learners.",
+                        features: ["University of Texas resources", "Interactive grammar exercises", "Beginning to intermediate", "Learner focused"],
                         free: true,
                         level: "Beginning to Intermediate"
                     },
                     {
                         name: "MERLOT Chinese Materials",
                         url: "https://www.merlot.org/merlot/materials.htm?category=2446",
-                        description: "Peer-reviewed open educational resources for Chinese language with quality-assured content across various proficiency levels.",
+                        features: ["Peer-reviewed resources", "Open educational materials", "Quality-assured content", "Various proficiency levels"],
                         free: true,
                         level: "Various"
                     }
@@ -290,28 +290,28 @@ const chineseResources = {
                     {
                         name: "Mandarin Companion Graded Readers",
                         url: "https://mandarincompanion.com/",
-                        description: "34 graded novels (150-600 characters) adapting Western classics to Chinese context with strict vocabulary control.",
+                        features: ["34 graded novels", "150-600 characters", "Western classics adapted", "Strict vocabulary control"],
                         free: false,
                         level: "Beginner to Lower Intermediate"
                     },
                     {
                         name: "Chinese Breeze Graded Reader Series",
                         url: "https://www.cheng-tsui.com/browse/chinese-breeze",
-                        description: "60+ original Chinese stories graded from 300-3000 characters with cultural context and comprehension questions.",
+                        features: ["60+ original stories", "300-3000 characters graded", "Cultural context", "Comprehension questions"],
                         free: false,
                         level: "300-3000 characters"
                     },
                     {
                         name: "Chinese Graded Reader",
                         url: "https://chinesegradedreader.com/",
-                        description: "50+ HSK-leveled stories with strict vocabulary control aligned to HSK 1-6 standards, available for both character systems.",
+                        features: ["50+ HSK-leveled stories", "Strict vocabulary control", "HSK 1-6 aligned", "Both character systems"],
                         free: true,
                         level: "HSK 1-6"
                     },
                     {
                         name: "HSK Reading",
                         url: "https://hskreading.com/",
-                        description: "100+ articles graded by HSK level (1-6) with comprehension questions and audio support for listening practice.",
+                        features: ["100+ graded articles", "HSK level 1-6", "Comprehension questions", "Audio support included"],
                         free: true,
                         level: "HSK 1-6"
                     }
@@ -323,35 +323,35 @@ const chineseResources = {
                     {
                         name: "Chinese Text Project (ctext.org)",
                         url: "https://ctext.org/",
-                        description: "30,000+ pre-modern Chinese texts with 5 billion+ characters, English translations, and advanced search - the world's largest classical Chinese database.",
+                        features: ["30,000+ pre-modern texts", "5 billion+ characters", "English translations", "World's largest database"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Project Gutenberg Chinese Collection",
                         url: "https://www.gutenberg.org/browse/languages/zh",
-                        description: "100+ classical Chinese titles in multiple download formats (EPUB, Kindle, HTML, plain text) - all public domain.",
+                        features: ["100+ classical titles", "Multiple download formats", "EPUB, Kindle, HTML", "All public domain"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Internet Archive Chinese Books",
                         url: "https://archive.org/details/booksbylanguage_chinese",
-                        description: "1,000+ digitized Chinese books including historical texts, textbooks, and modern literature with full-text search.",
+                        features: ["1,000+ digitized books", "Historical texts included", "Modern literature", "Full-text search"],
                         free: true,
                         level: "Mixed levels"
                     },
                     {
                         name: "National Library of China Digital Collection",
                         url: "https://www.nlc.cn/enweb/",
-                        description: "32,000+ ancient books (60% digitized) including rare books and manuscripts from China's national collection.",
+                        features: ["32,000+ ancient books", "60% digitized", "Rare manuscripts", "China's national collection"],
                         free: true,
                         level: "Research level"
                     },
                     {
                         name: "Kangxi Dictionary Online",
                         url: "https://ctext.org/kangxi-zidian",
-                        description: "47,035 character entries from the authoritative Kangxi Dictionary (康熙字典) with free access and search functionality.",
+                        features: ["47,035 character entries", "Authoritative Kangxi Dictionary", "Free access", "Search functionality"],
                         free: true,
                         level: "Advanced"
                     }
@@ -363,14 +363,14 @@ const chineseResources = {
                     {
                         name: "JoJo Bilingual Learning Books",
                         url: "https://www.jojochinesebooks.com/",
-                        description: "Chinese-English parallel text books for early childhood learners with engaging stories and illustrations.",
+                        features: ["Chinese-English parallel text", "Early childhood learners", "Engaging stories", "Illustrations included"],
                         free: false,
                         level: "Early Childhood"
                     },
                     {
                         name: "Internet Archive Chinese Kids Books",
                         url: "https://archive.org/details/booksbylanguage_chinese",
-                        description: "365 bedtime stories with pinyin and other elementary-level Chinese books for children digitally accessible.",
+                        features: ["365 bedtime stories", "Pinyin included", "Elementary-level books", "Digital accessibility"],
                         free: true,
                         level: "Elementary"
                     }
@@ -384,56 +384,56 @@ const chineseResources = {
                     {
                         name: "ChinesePodTV",
                         url: "https://www.youtube.com/c/ChinesePodTV",
-                        description: "Thousands of situational lessons for all HSK levels with English/Chinese subtitles hosted by Fiona, covering practical daily conversations.",
+                        features: ["Thousands of lessons", "All HSK levels", "English/Chinese subtitles", "Practical daily conversations"],
                         free: true,
                         level: "All HSK levels"
                     },
                     {
                         name: "Yoyo Chinese",
                         url: "https://www.youtube.com/c/YoyoChinese",
-                        description: "200+ videos for beginner to intermediate learners with street interviews, live streams, and cultural content.",
+                        features: ["200+ videos", "Beginner to intermediate", "Street interviews", "Cultural content"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Mandarin Corner",
                         url: "https://www.mandarincorner.org/",
-                        description: "200+ immersive videos with little to no English, featuring street interviews and natural conversations for all proficiency levels.",
+                        features: ["200+ immersive videos", "Little to no English", "Street interviews", "Natural conversations"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "MandarinBean",
                         url: "https://mandarinbean.com/",
-                        description: "HSK-graded content (HSK 1-6+) with 5-10 minute videos available in both slow and normal speed with YouTube channel.",
+                        features: ["HSK-graded content", "5-10 minute videos", "Slow and normal speed", "YouTube channel"],
                         free: true,
                         level: "HSK 1-6+"
                     },
                     {
                         name: "Chinese Zero to Hero",
                         url: "https://www.youtube.com/c/ChineseZeroToHero",
-                        description: "Grammar-focused content for all HSK levels with organized playlists by proficiency level and comprehensive explanations.",
+                        features: ["Grammar-focused content", "All HSK levels", "Organized playlists", "Comprehensive explanations"],
                         free: true,
                         level: "All HSK levels"
                     },
                     {
                         name: "ChineseFor.Us",
                         url: "https://www.youtube.com/c/ChineseForUs",
-                        description: "College-style courses with 40-60 lesson series covering beginner to lower intermediate Mandarin Chinese.",
+                        features: ["College-style courses", "40-60 lesson series", "Beginner to lower intermediate", "Mandarin Chinese"],
                         free: true,
                         level: "Beginner to Lower Intermediate"
                     },
                     {
                         name: "Mandarin Click",
                         url: "https://www.youtube.com/c/MandarinClick",
-                        description: "Slow Chinese stories for HSK 1-4 with visual support using comprehensible input methodology.",
+                        features: ["Slow Chinese stories", "HSK 1-4 level", "Visual support", "Comprehensible input methodology"],
                         free: true,
                         level: "HSK 1-4"
                     },
                     {
                         name: "Everyday Chinese",
                         url: "https://www.youtube.com/c/EverydayChinese",
-                        description: "350K+ subscribers with content organized by HSK level (1-4) covering daily life situations and conversations.",
+                        features: ["350K+ subscribers", "HSK level 1-4", "Daily life situations", "Conversation focused"],
                         free: true,
                         level: "HSK 1-4"
                     }
@@ -445,42 +445,42 @@ const chineseResources = {
                     {
                         name: "ChinesePod Network",
                         url: "https://chinesepod.com/",
-                        description: "Free lesson playlist for beginner to advanced learners with PDF notes and exercises available on all major podcast platforms.",
+                        features: ["Free lesson playlist", "Beginner to advanced", "PDF notes included", "All podcast platforms"],
                         free: false,
                         level: "Beginner to Advanced"
                     },
                     {
                         name: "Slow Chinese Podcast",
                         url: "https://podcasts.apple.com/podcast/slow-chinese/id1234567890",
-                        description: "26+ episodes for HSK 3+ learners with clear narration by Mei, covering cultural topics and daily life at reduced speed.",
+                        features: ["26+ episodes", "HSK 3+ learners", "Clear narration", "Cultural topics"],
                         free: true,
                         level: "HSK 3+"
                     },
                     {
                         name: "Stories in Slow Chinese",
                         url: "https://podcasts.apple.com/podcast/stories-in-slow-chinese",
-                        description: "Daily storytime for intermediate learners with comprehension quizzes and cultural explanations.",
+                        features: ["Daily storytime", "Intermediate learners", "Comprehension quizzes", "Cultural explanations"],
                         free: true,
                         level: "Intermediate"
                     },
                     {
                         name: "BearTalk (狗熊有话说)",
                         url: "https://voice.beartalking.com/",
-                        description: "iTunes award-winning podcast for intermediate to advanced learners covering tech and productivity topics in natural Mandarin.",
+                        features: ["iTunes award-winning", "Intermediate to advanced", "Tech and productivity", "Natural Mandarin"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Haike Mandarin",
                         url: "https://haikemandarin.com/",
-                        description: "20-30 minute episodes in Taiwanese Mandarin featuring natural conversations for advanced learners on major podcast platforms.",
+                        features: ["20-30 minute episodes", "Taiwanese Mandarin", "Natural conversations", "Advanced learners"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Coffee Break Chinese",
                         url: "https://coffeebreaklanguages.com/chinese/",
-                        description: "40 beginner lessons with 15-20 minute episodes covering essential Mandarin phrases and grammar on multiple platforms.",
+                        features: ["40 beginner lessons", "15-20 minute episodes", "Essential phrases", "Grammar coverage"],
                         free: true,
                         level: "Beginner"
                     }
@@ -492,21 +492,21 @@ const chineseResources = {
                     {
                         name: "Cantonese Corner YouTube",
                         url: "https://www.youtube.com/c/CantoneseCorner",
-                        description: "Video course teaching Cantonese using Yale romanization with cultural context and practical conversations.",
+                        features: ["Video course", "Yale romanization", "Cultural context", "Practical conversations"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Chatty Cantonese Podcast",
                         url: "https://podcasts.apple.com/podcast/chatty-cantonese",
-                        description: "Cultural content for intermediate Cantonese learners with full transcripts available on Spotify and Apple Podcasts.",
+                        features: ["Cultural content", "Intermediate Cantonese", "Full transcripts", "Spotify and Apple"],
                         free: true,
                         level: "Intermediate"
                     },
                     {
                         name: "Mama Cheung Cooking",
                         url: "https://www.youtube.com/c/MamaCheungCooking",
-                        description: "Cooking channel featuring natural Cantonese conversations while demonstrating traditional Hong Kong recipes.",
+                        features: ["Cooking channel", "Natural Cantonese conversations", "Traditional recipes", "Hong Kong focused"],
                         free: true,
                         level: "Intermediate to Advanced"
                     }
@@ -518,35 +518,35 @@ const chineseResources = {
                     {
                         name: "Ximalaya (喜马拉雅)",
                         url: "https://www.ximalaya.com/",
-                        description: "Thousands of Chinese audiobooks for intermediate to advanced learners including Harry Potter, novels, and daily news broadcasts.",
+                        features: ["Thousands of audiobooks", "Intermediate to advanced", "Harry Potter included", "Daily news broadcasts"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "LibriVox Chinese Collection",
                         url: "https://librivox.org/",
-                        description: "Public domain Chinese classical literature with multiple narrators, suitable for advanced learners and scholars.",
+                        features: ["Public domain literature", "Multiple narrators", "Classical Chinese", "Advanced learners"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "TuneIn Chinese Radio",
                         url: "https://tunein.com/",
-                        description: "Live Chinese radio broadcasts including news, music, and talk shows from various Chinese-speaking regions.",
+                        features: ["Live radio broadcasts", "News and music", "Talk shows", "Chinese-speaking regions"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "CCTV Kids (少儿频道)",
                         url: "https://tv.cctv.com/kids/",
-                        description: "Daily educational shows for children aged 3-12 with proper Mandarin pronunciation and cultural content.",
+                        features: ["Daily educational shows", "Children aged 3-12", "Proper pronunciation", "Cultural content"],
                         free: true,
                         level: "Elementary"
                     },
                     {
                         name: "BabyBus (宝宝巴士)",
                         url: "https://www.youtube.com/c/BabyBus",
-                        description: "Educational songs and basic concepts for ages 2-6 with apps and YouTube content teaching fundamental Chinese.",
+                        features: ["Educational songs", "Ages 2-6", "Apps and YouTube", "Fundamental Chinese"],
                         free: true,
                         level: "Early Childhood"
                     }
@@ -558,21 +558,21 @@ const chineseResources = {
                     {
                         name: "VOA Chinese",
                         url: "https://www.voachinese.com/",
-                        description: "Daily international news in Chinese for intermediate to advanced learners with broadcasts and written articles.",
+                        features: ["Daily international news", "Intermediate to advanced", "Broadcasts included", "Written articles"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Chinese-Tools News",
                         url: "https://www.chinese-tools.com/news",
-                        description: "Hourly news updates with pinyin annotations for intermediate to advanced learners, covering current events.",
+                        features: ["Hourly news updates", "Pinyin annotations", "Intermediate to advanced", "Current events"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Chinese in Levels",
                         url: "https://chineseinlevels.com/",
-                        description: "Daily news articles in 3 difficulty levels (1000-3000 words) with controlled vocabulary for progressive learning.",
+                        features: ["Daily news articles", "3 difficulty levels", "1000-3000 words", "Controlled vocabulary"],
                         free: true,
                         level: "3 levels"
                     }
@@ -586,42 +586,42 @@ const chineseResources = {
                     {
                         name: "Pleco Chinese Dictionary",
                         url: "https://www.pleco.com/",
-                        description: "235,000+ entries with free CC-CEDICT, handwriting recognition, flashcards, and document reader supporting both character systems.",
+                        features: ["235,000+ entries", "Free CC-CEDICT", "Handwriting recognition", "Both character systems"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "MDBG Chinese Dictionary",
                         url: "https://www.mdbg.net/chinese/dictionary",
-                        description: "Complete free online dictionary with stroke order animations, radical search, and support for both simplified and traditional characters.",
+                        features: ["Complete free dictionary", "Stroke order animations", "Radical search", "Both character types"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Hanping Chinese Dictionary (Android)",
                         url: "https://hanpingchinese.com/",
-                        description: "Android dictionary with AnkiDroid integration, idioms database, and support for both character systems.",
+                        features: ["Android dictionary", "AnkiDroid integration", "Idioms database", "Both character systems"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "CC-CEDICT Open Source Dictionary",
                         url: "https://cc-cedict.org/",
-                        description: "110,000+ entries in community-maintained open source dictionary, downloadable and supporting both character systems.",
+                        features: ["110,000+ entries", "Community-maintained", "Open source", "Both character systems"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "ArchChinese Character Tools",
                         url: "https://www.archchinese.com/",
-                        description: "Character etymology, stroke worksheets generator, and detailed character information for both writing systems.",
+                        features: ["Character etymology", "Stroke worksheets generator", "Detailed character info", "Both writing systems"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "StrokeOrder.com",
                         url: "http://www.strokeorder.com/",
-                        description: "Animated stroke order demonstrations with handwriting recognition practice for both simplified and traditional characters.",
+                        features: ["Animated stroke order", "Handwriting recognition", "Practice included", "Both character types"],
                         free: true,
                         level: "All levels"
                     }
@@ -633,35 +633,35 @@ const chineseResources = {
                     {
                         name: "HelloChinese",
                         url: "https://www.hellochinese.cc/",
-                        description: "200+ game-based lessons for HSK 1-4 with speech recognition, covering reading, writing, listening, and speaking skills.",
+                        features: ["200+ game-based lessons", "HSK 1-4", "Speech recognition", "Four skills covered"],
                         free: true,
                         level: "HSK 1-4"
                     },
                     {
                         name: "Duolingo Chinese",
                         url: "https://www.duolingo.com/course/zh/en/Learn-Chinese",
-                        description: "Complete gamified Chinese course for beginners with streak system available on all platforms covering simplified characters.",
+                        features: ["Complete gamified course", "Beginner focused", "Streak system", "Simplified characters"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "AnkiDroid + Chinese Decks",
                         url: "https://ankidroid.org/",
-                        description: "Full access spaced repetition system with thousands of Chinese flashcard decks for all proficiency levels (Android/Web).",
+                        features: ["Spaced repetition system", "Thousands of decks", "All proficiency levels", "Android/Web platforms"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "ChineseSkill",
                         url: "https://www.chineseskill.com/",
-                        description: "500+ lessons for beginners with speaking assessment and gamified progression through fundamental Chinese skills.",
+                        features: ["500+ lessons", "Speaking assessment", "Gamified progression", "Fundamental skills"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Memrise Chinese Courses",
                         url: "https://www.memrise.com/courses/english/chinese/",
-                        description: "Video-based learning with user-created courses covering various proficiency levels available on all platforms.",
+                        features: ["Video-based learning", "User-created courses", "Various proficiency levels", "All platforms"],
                         free: true,
                         level: "Various"
                     }
@@ -673,35 +673,35 @@ const chineseResources = {
                     {
                         name: "The Chairman's Bao",
                         url: "https://www.thechairmansbao.com/",
-                        description: "9,500+ news lessons for HSK 1-6+ with daily updates and human-recorded audio for listening practice.",
+                        features: ["9,500+ news lessons", "HSK 1-6+", "Daily updates", "Human-recorded audio"],
                         free: false,
                         level: "HSK 1-6+"
                     },
                     {
                         name: "Du Chinese",
                         url: "https://duchinese.net/",
-                        description: "3,000+ articles and courses for HSK 1-6 with tap-to-translate functionality and Pleco integration.",
+                        features: ["3,000+ articles", "HSK 1-6", "Tap-to-translate", "Pleco integration"],
                         free: false,
                         level: "HSK 1-6"
                     },
                     {
                         name: "Chinese Reading Practice",
                         url: "https://chinesereadingpractice.com/",
-                        description: "100+ articles for HSK 2-6 with cultural context explanations and vocabulary support.",
+                        features: ["100+ articles", "HSK 2-6", "Cultural context", "Vocabulary support"],
                         free: true,
                         level: "HSK 2-6"
                     },
                     {
                         name: "TODAI Easy Chinese News",
                         url: "https://play.google.com/store/apps/details?id=link.life.todai.zh",
-                        description: "Daily news app for HSK 1-6 with color-coded vocabulary and OCR (optical character recognition) functionality.",
+                        features: ["Daily news app", "HSK 1-6", "Color-coded vocabulary", "OCR functionality"],
                         free: true,
                         level: "HSK 1-6"
                     },
                     {
                         name: "RealTime Mandarin Newsletter",
                         url: "https://www.realtimemandarin.com/",
-                        description: "Weekly newsletter for advanced learners (HSK 5-6+) covering internet slang, modern culture, and contemporary Chinese expressions.",
+                        features: ["Weekly newsletter", "Advanced learners", "Internet slang", "Contemporary expressions"],
                         free: true,
                         level: "Advanced (HSK 5-6+)"
                     }
@@ -713,28 +713,28 @@ const chineseResources = {
                     {
                         name: "Google Pinyin IME",
                         url: "https://chrome.google.com/webstore/detail/google-input-tools",
-                        description: "Chrome extension input method with fuzzy phonetic mapping for typing Chinese characters using pinyin.",
+                        features: ["Chrome extension", "Fuzzy phonetic mapping", "Chinese character typing", "Pinyin input"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Microsoft Chinese IME",
                         url: "https://www.microsoft.com/",
-                        description: "Windows built-in input method supporting both Pinyin and Wubi (shape-based) input systems for both character types.",
+                        features: ["Windows built-in", "Pinyin and Wubi", "Shape-based input", "Both character types"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "ChineseInput.net",
                         url: "http://chineseinput.net/",
-                        description: "Online typing tool requiring no installation for quick Chinese character input using pinyin romanization.",
+                        features: ["Online typing tool", "No installation required", "Quick character input", "Pinyin romanization"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Chinese-Tools IME",
                         url: "https://www.chinese-tools.com/tools/ime.html",
-                        description: "Web-based Chinese typing tool with no software installation required for both character systems.",
+                        features: ["Web-based typing tool", "No installation required", "Both character systems", "Easy access"],
                         free: true,
                         level: "All levels"
                     }
@@ -748,35 +748,35 @@ const chineseResources = {
                     {
                         name: "HelloTalk",
                         url: "https://www.hellotalk.com/",
-                        description: "18+ million users worldwide with text/voice/video exchange, correction tools, and social moments feature for language practice.",
+                        features: ["18+ million users", "Text/voice/video exchange", "Correction tools", "Social moments"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Tandem",
                         url: "https://www.tandem.net/",
-                        description: "Millions of language learners with swipe matching, professional tutors available, and group audio chat rooms.",
+                        features: ["Millions of learners", "Swipe matching", "Professional tutors", "Group audio chats"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "ConversationExchange",
                         url: "https://www.conversationexchange.com/",
-                        description: "Global reach with face-to-face meetups, correspondence, and online chat options for language exchange partners.",
+                        features: ["Global reach", "Face-to-face meetups", "Correspondence options", "Online chat"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "MyLanguageExchange",
                         url: "https://www.mylanguageexchange.com/",
-                        description: "Established since 2000 with AI speech recognition, translation features, and extensive Chinese learner community.",
+                        features: ["Established since 2000", "AI speech recognition", "Translation features", "Chinese learner community"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Language.Exchange",
                         url: "https://en.language.exchange/",
-                        description: "Growing community supporting 200+ languages with cultural exchange focus and Chinese learning resources.",
+                        features: ["Growing community", "200+ languages", "Cultural exchange focus", "Chinese learning resources"],
                         free: true,
                         level: "All levels"
                     }
@@ -788,42 +788,42 @@ const chineseResources = {
                     {
                         name: "Culture Yard HSK Resources",
                         url: "https://www.cultureyard.net/blog/hsk-exam-pdf-free-download",
-                        description: "Complete HSK 1-6 practice exams with MP3 audio files for all sections downloadable for offline study.",
+                        features: ["Complete HSK 1-6 exams", "MP3 audio files", "All sections covered", "Offline study"],
                         free: true,
                         level: "HSK 1-6"
                     },
                     {
                         name: "Mandarin Bean HSK Tests",
                         url: "https://mandarinbean.com/hsk-chinese-test-online/",
-                        description: "HSK 1-6 and new HSK 3.0 with 18 free mock tests online for comprehensive test preparation.",
+                        features: ["HSK 1-6 and 3.0", "18 free mock tests", "Online access", "Comprehensive preparation"],
                         free: true,
                         level: "HSK 1-6, new HSK 3.0"
                     },
                     {
                         name: "HSK Academy",
                         url: "https://hsk.academy/",
-                        description: "HSK 1-6 vocabulary lists, flashcards, and practice tests organized by level for systematic preparation.",
+                        features: ["HSK 1-6 vocabulary", "Flashcards included", "Practice tests", "Systematic preparation"],
                         free: true,
                         level: "HSK 1-6"
                     },
                     {
                         name: "ImproveMandarin HSK Practice",
                         url: "https://improvemandarin.com/hsk-practice-test/",
-                        description: "70+ official HSK practice tests for levels 1-6 with detailed answer explanations and scoring.",
+                        features: ["70+ official tests", "HSK levels 1-6", "Detailed explanations", "Scoring included"],
                         free: true,
                         level: "HSK 1-6"
                     },
                     {
                         name: "Panda Chinese Test Platform",
                         url: "https://pandachinese.online/en/",
-                        description: "Comprehensive test materials for HSK 1-9, HSKK (speaking), YCT (youth), and BCT (business Chinese).",
+                        features: ["HSK 1-9 materials", "HSKK speaking", "YCT youth", "BCT business"],
                         free: true,
                         level: "HSK 1-9, HSKK, YCT, BCT"
                     },
                     {
                         name: "China Education Center HSK Vocabulary",
                         url: "https://www.chinaeducenter.com/en/hsk/hskvocabulary.php",
-                        description: "Official vocabulary lists for both HSK 2.0 and new HSK 3.0 standards with downloadable resources.",
+                        features: ["Official vocabulary lists", "HSK 2.0 and 3.0", "Both standards", "Downloadable resources"],
                         free: true,
                         level: "HSK 2.0 and 3.0"
                     }
@@ -835,14 +835,14 @@ const chineseResources = {
                     {
                         name: "TOCFL Official Mock Tests",
                         url: "https://tocfl.edu.tw/",
-                        description: "Official Test of Chinese as a Foreign Language (Taiwan) mock tests covering all levels using traditional characters.",
+                        features: ["Official TOCFL tests", "Taiwan based", "All levels covered", "Traditional characters"],
                         free: true,
                         level: "All TOCFL levels"
                     },
                     {
                         name: "TOCFL Anki Deck",
                         url: "https://ankiweb.net/shared/info/956460973",
-                        description: "Comprehensive TOCFL vocabulary flashcard deck for spaced repetition study using traditional characters.",
+                        features: ["TOCFL vocabulary deck", "Spaced repetition", "Flashcard format", "Traditional characters"],
                         free: true,
                         level: "All levels"
                     }
@@ -854,28 +854,28 @@ const chineseResources = {
                     {
                         name: "Chinese-Tools Chengyu Dictionary",
                         url: "https://www.chinese-tools.com/chinese/chengyu/dictionary",
-                        description: "30,000+ Chinese idioms (成语) with English translations, examples, and cultural explanations for advanced learners.",
+                        features: ["30,000+ Chinese idioms", "English translations", "Examples included", "Cultural explanations"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "MOE Idiom Dictionary (Taiwan)",
                         url: "https://dict.idioms.moe.edu.tw/",
-                        description: "Official idiom dictionary with etymology and usage examples for advanced Chinese language study.",
+                        features: ["Official idiom dictionary", "Etymology included", "Usage examples", "Advanced study"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Paper Republic",
                         url: "https://paper-republic.org/",
-                        description: "Contemporary Chinese literature with translations and profiles of emerging Chinese writers for advanced readers.",
+                        features: ["Contemporary literature", "Translations included", "Writer profiles", "Advanced readers"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "GitHub HSK Frequency Lists",
                         url: "https://github.com/alyssabedard/chinese-hsk-and-frequency-lists",
-                        description: "11,092 words and 3,000 characters organized by frequency and HSK level for data-driven vocabulary study.",
+                        features: ["11,092 words", "3,000 characters", "Frequency organized", "Data-driven study"],
                         free: true,
                         level: "All HSK levels"
                     }

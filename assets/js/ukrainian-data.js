@@ -1,419 +1,616 @@
 const ukrainianResources = {
-    name: "Ukrainian",
-    nativeName: "Українська",
-    flag: "🇺🇦",
-    learners: "10M+",
-    speakers: "40M native",
-    highlights: [
+    "name": "Ukrainian",
+    "nativeName": "Українська",
+    "flag": "🇺🇦",
+    "learners": "10M+",
+    "speakers": "40M native",
+    "highlights": [
         "100+ comprehensive free resources",
         "Ukrainian Lessons Podcast: 240 episodes (largest community)",
         "SpeakUkraine: Official government platform (100 interactive lessons)",
         "Strong diaspora support (Canada, Harvard, Ukrainian Catholic University)"
     ],
-    resources: {
-        courses: [
+    "resources": {
+        "courses": [
             {
-                category: "Online Courses and Platforms",
-                items: [
+                "category": "Online Courses and Platforms",
+                "items": [
                     {
-                        name: "Open University UK - Introduction to Ukrainian",
-                        url: "https://www.open.edu/openlearn/languages/introduction-ukrainian-language-and-culture/content-section-overview",
-                        features: ["Comprehensive free short course with cultural context (beginner)","Free Statement of Participation certificate","community forum","designed for refugee hosts"],
-                        free: true
+                        "name": "Open University UK - Introduction to Ukrainian",
+                        "url": "https://www.open.edu/openlearn/languages/introduction-ukrainian-language-and-culture/content-section-overview",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Certificate available"
+                        ]
                     },
                     {
-                        name: "SpeakUkraine (Government Platform)",
-                        url: "https://ukr.lingva.ua/",
-                        features: ["Official Ukrainian government platform with 100 interactive lessons (A1-B2)","25 essential topics","gamified learning","created by psycholinguist Vitaliy Zubkov"],
-                        free: true
+                        "name": "SpeakUkraine (Government Platform)",
+                        "url": "https://ukr.lingva.ua/",
+                        "free": true,
+                        "features": [
+                            "A1-b2",
+                            "Interactive exercises",
+                            "Gamified exercises"
+                        ]
                     },
                     {
-                        name: "UkrainianCourse.com",
-                        url: "https://www.ukrainiancourse.com/free-ukrainian-courses/",
-                        features: ["'The best Ukrainian course in the world","100% free' (beginner-advanced)","30+ dialogues with audio","2+ hours professional audio","graded texts"],
-                        free: true
+                        "name": "UkrainianCourse.com",
+                        "url": "https://www.ukrainiancourse.com/free-ukrainian-courses/",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Audio exercises"
+                        ]
                     },
                     {
-                        name: "Ukrainian Lessons Podcast Platform",
-                        url: "https://www.ukrainianlessons.com/",
-                        features: ["Most popular resource with 240 episodes across 6 seasons (all levels)","Largest online Ukrainian learning community","blog with digital textbook content"],
-                        free: true
+                        "name": "Ukrainian Lessons Podcast Platform",
+                        "url": "https://www.ukrainianlessons.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support"
+                        ]
                     },
                     {
-                        name: "LingoHut Ukrainian",
-                        url: "https://www.lingohut.com/en/l83/learn-ukrainian",
-                        features: ["125 free online lessons for refugees and learners (beginner-intermediate)","5-minute lessons","interactive games","voice recording","homeschool-friendly"],
-                        free: true
+                        "name": "LingoHut Ukrainian",
+                        "url": "https://www.lingohut.com/en/l83/learn-ukrainian",
+                        "free": true,
+                        "features": [
+                            "125 free online lessons for refugees",
+                            "Beginner",
+                            "Interactive exercises"
+                        ]
                     },
                     {
-                        name: "50Languages Ukrainian Course",
-                        url: "https://www.50languages.com/ukrainian-for-free",
-                        features: ["Practical sentence-based learning with mobile support (all levels)","100 free lessons","MP3 audio files","Android/iPhone apps available"],
-                        free: true
+                        "name": "50Languages Ukrainian Course",
+                        "url": "https://www.50languages.com/ukrainian-for-free",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "Audio exercises"
+                        ]
                     },
                     {
-                        name: "Live Lingua Ukrainian",
-                        url: "https://www.livelingua.com/courses/ukrainian",
-                        features: ["2 complete Ukrainian courses with ebooks and audio (various levels)","No sign-up required","2 ebooks","19 audio files included"],
-                        free: true
+                        "name": "Live Lingua Ukrainian",
+                        "url": "https://www.livelingua.com/courses/ukrainian",
+                        "free": true,
+                        "features": [
+                            "2 complete Ukrainian courses with ebooks",
+                            "Audio exercises"
+                        ]
                     },
                     {
-                        name: "Ukrainian Catholic University Online",
-                        url: "https://studyukrainian.org.ua/courses/online-courses/",
-                        features: ["University courses via Skype/Zoom (all levels)","ECTS credits available","native instructors","free orientation lesson"],
-                        free: true
+                        "name": "Ukrainian Catholic University Online",
+                        "url": "https://studyukrainian.org.ua/courses/online-courses/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Skype platform"
+                        ]
                     }
                 ]
             }
         ],
-        books: [
+        "books": [
             {
-                category: "Open Educational Resources",
-                items: [
+                "category": "Open Educational Resources",
+                "items": [
                     {
-                        name: "Podorozhi UA",
-                        url: "https://podorozhiua.com/",
-                        features: ["Interactive digital textbook by University of Alberta (A1-A2)","CC BY-NC-ND 4.0 license","mobile-responsive","audio recordings","grammar reference"],
-                        free: true
+                        "name": "Podorozhi UA",
+                        "url": "https://podorozhiua.com/",
+                        "free": true,
+                        "features": [
+                            "A1-a2",
+                            "University platform",
+                            "Interactive exercises",
+                            "Cc by-nc-nd 4",
+                            "Audio exercises"
+                        ]
                     },
                     {
-                        name: "Ukrainian Language Education Centre (ULEC)",
-                        url: "https://www.ualberta.ca/en/canadian-institute-of-ukrainian-studies/centres-and-programs/ulec/",
-                        features: ["Free downloadable Budmo Series and other materials (elementary-high school)","Nova Series","Тут і там Series","linguistic principles-based"],
-                        free: true
+                        "name": "Ukrainian Language Education Centre (ULEC)",
+                        "url": "https://www.ualberta.ca/en/canadian-institute-of-ukrainian-studies/centres-and-programs/ulec/",
+                        "free": true,
+                        "features": [
+                            "Free downloadable Budmo Series",
+                            "Other materials"
+                        ]
                     },
                     {
-                        name: "Read Ukrainian!",
-                        url: "https://ukrainianlanguage.uk/read/unit01/page1-1.htm",
-                        features: ["Interactive reading course for beginners (beginner)","Interactive units","presentations","charts","exercises"],
-                        free: true
+                        "name": "Read Ukrainian!",
+                        "url": "https://ukrainianlanguage.uk/read/unit01/page1-1.htm",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Interactive exercises"
+                        ]
                     },
                     {
-                        name: "Dobra Forma Grammar Guide",
-                        url: "https://dobraforma.ku.edu/",
-                        features: ["Web-based Ukrainian grammar by University of Kansas (all levels)","Communication-focused grammar internalization"],
-                        free: true
+                        "name": "Dobra Forma Grammar Guide",
+                        "url": "https://dobraforma.ku.edu/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "University platform",
+                            "Grammar exercises",
+                            "Communication-focused grammar internalization"
+                        ]
                     },
                     {
-                        name: "Beginner's Ukrainian (Internet Archive)",
-                        url: "https://archive.org/details/beginnersukraini00poul",
-                        features: ["Classic textbook by Johannes Poulard (beginner)","Full PDF download available"],
-                        free: true
+                        "name": "Beginner's Ukrainian (Internet Archive)",
+                        "url": "https://archive.org/details/beginnersukraini00poul",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Johannes Poulard platform",
+                            "Full PDF download available"
+                        ]
                     },
                     {
-                        name: "Teach Yourself Ukrainian",
-                        url: "https://archive.org/details/teachyourselfukr00olen",
-                        features: ["Complete beginner course by Jim Dingley (beginner)","Free download","borrow","streaming"],
-                        free: true
+                        "name": "Teach Yourself Ukrainian",
+                        "url": "https://archive.org/details/teachyourselfukr00olen",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Jim Dingley platform",
+                            "Free download, borrow, streaming"
+                        ]
                     }
                 ]
             },
             {
-                category: "Reading Materials and Literature",
-                items: [
+                "category": "Reading Materials and Literature",
+                "items": [
                     {
-                        name: "Electronic Library of Ukrainian Literature (U of Toronto)",
-                        url: "https://tarnawsky.artsci.utoronto.ca/elul/Main-Eng.html",
-                        features: ["Academic collection of Ukrainian literature (all levels)","Both Ukrainian originals and English translations"],
-                        free: true
+                        "name": "Electronic Library of Ukrainian Literature (U of Toronto)",
+                        "url": "https://tarnawsky.artsci.utoronto.ca/elul/Main-Eng.html",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Both Ukrainian originals",
+                            "English translations"
+                        ]
                     },
                     {
-                        name: "Ukrainian Digital Library (UBI)",
-                        url: "https://ubi.org.ua/en/activity/ukra-nska-cifrova-biblioteka",
-                        features: ["Mobile-first digital library (all levels)","Android app","offline reading","up to 20 books simultaneously"],
-                        free: true
+                        "name": "Ukrainian Digital Library (UBI)",
+                        "url": "https://ubi.org.ua/en/activity/ukra-nska-cifrova-biblioteka",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "Reading exercises"
+                        ]
                     },
                     {
-                        name: "Library of Ukrainian Literature",
-                        url: "https://www.ukrlib.com.ua",
-                        features: ["Comprehensive online library (all levels)","Ukrainian and world literature","various formats"],
-                        free: true
+                        "name": "Library of Ukrainian Literature",
+                        "url": "https://www.ukrlib.com.ua",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Ukrainian",
+                            "World literature, various formats"
+                        ]
                     },
                     {
-                        name: "Librarius",
-                        url: "https://librarius.pro/",
-                        features: ["Modern smartphone library (all levels)","Children's books","fantasy","classics","mobile app"],
-                        free: true
+                        "name": "Librarius",
+                        "url": "https://librarius.pro/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app"
+                        ]
                     },
                     {
-                        name: "Stories with Clever Hedgehog",
-                        url: "https://www.ebooks4ukrkids.org/",
-                        features: ["Award-winning bilingual children's platform (beginner","ages 0-10)","Ukrainian-English","no ads","educational games"],
-                        free: true
+                        "name": "Stories with Clever Hedgehog",
+                        "url": "https://www.ebooks4ukrkids.org/",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Ukrainian-English, no ads, educational games"
+                        ]
                     },
                     {
-                        name: "BARABOOKA",
-                        url: "http://www.barabooka.com.ua/",
-                        features: ["Free children's books (beginner","ages 3-11)","PDF downloads","categorized by genre and theme"],
-                        free: true
+                        "name": "BARABOOKA",
+                        "url": "http://www.barabooka.com.ua/",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "PDF downloads, categorized by genre"
+                        ]
                     },
                     {
-                        name: "Ukrainian Wikipedia",
-                        url: "https://uk.wikipedia.org/",
-                        features: ["1,390,775+ articles (intermediate-advanced)","14th largest Wikipedia edition","extensive Ukrainian topics"],
-                        free: true
+                        "name": "Ukrainian Wikipedia",
+                        "url": "https://uk.wikipedia.org/",
+                        "free": true,
+                        "features": [
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "First Ukrainian Reader for Beginners",
-                        url: "https://www.audiolego.com/Ukrainian/FURv1/En/index.html",
-                        features: ["Bilingual Ukrainian-English texts (A1-A2)","Parallel translation","audio tracks with QR codes"],
-                        free: true
+                        "name": "First Ukrainian Reader for Beginners",
+                        "url": "https://www.audiolego.com/Ukrainian/FURv1/En/index.html",
+                        "free": true,
+                        "features": [
+                            "A1-a2",
+                            "Audio exercises",
+                            "Parallel translation, audio tracks with QR codes"
+                        ]
                     }
                 ]
             }
         ],
-        audio: [
+        "audio": [
             {
-                category: "Podcasts",
-                items: [
+                "category": "Podcasts",
+                "items": [
                     {
-                        name: "Ukrainian Lessons Podcast",
-                        url: "https://www.ukrainianlessons.com/thepodcast/",
-                        features: ["240 episodes across 6 seasons (all levels)","Apple Podcasts","Spotify","Audible","cultural notes"],
-                        free: true
+                        "name": "Ukrainian Lessons Podcast",
+                        "url": "https://www.ukrainianlessons.com/thepodcast/",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "5 Minute Ukrainian",
-                        url: "https://www.ukrainianlessons.com/fmu/",
-                        features: ["60 short episodes with real-life dialogues (beginner-intermediate)","Competency-based phrases","natural speed"],
-                        free: true
+                        "name": "5 Minute Ukrainian",
+                        "url": "https://www.ukrainianlessons.com/fmu/",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Competency-based phrases, natural speed"
+                        ]
                     },
                     {
-                        name: "Slow Ukrainian with Yevhen",
-                        url: "https://www.youtube.com/@slowukrainian/featured",
-                        features: ["4-10 minute episodes on diverse topics (pre-intermediate-advanced)","YouTube subtitles available"],
-                        free: true
+                        "name": "Slow Ukrainian with Yevhen",
+                        "url": "https://www.youtube.com/@slowukrainian/featured",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "YouTube subtitles available"
+                        ]
                     }
                 ]
             },
             {
-                category: "Audiobooks and Audio Content",
-                items: [
+                "category": "Audiobooks and Audio Content",
+                "items": [
                     {
-                        name: "Sluhay",
-                        url: "https://sluhay.com.ua/",
-                        features: ["100+ Ukrainian audiobooks (all levels)","Narrated by celebrities","classics and contemporary"],
-                        free: true
+                        "name": "Sluhay",
+                        "url": "https://sluhay.com.ua/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Narrated by celebrities, classics",
+                            "Contemporary"
+                        ]
                     },
                     {
-                        name: "UA: КАЗКИ (Ukrainian Public Radio)",
-                        url: "https://kazky.suspilne.media/60",
-                        features: ["Children's audio stories by famous musicians (beginner)","Radio stream or individual stories"],
-                        free: true
+                        "name": "UA: КАЗКИ (Ukrainian Public Radio)",
+                        "url": "https://kazky.suspilne.media/60",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Audio exercises",
+                            "Radio stream or individual stories"
+                        ]
                     },
                     {
-                        name: "4read.org",
-                        url: "https://4read.org/zarubizhna/",
-                        features: ["Free audiobooks of translated literature (all levels)","Classic works in Ukrainian translation"],
-                        free: true
+                        "name": "4read.org",
+                        "url": "https://4read.org/zarubizhna/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Classic works in Ukrainian translation"
+                        ]
                     },
                     {
-                        name: "Ukrainian Radio Stations (Streema)",
-                        url: "https://streema.com/radios/country/Ukraine",
-                        features: ["250+ Ukrainian radio stations (all levels)","News","music","cultural programming"],
-                        free: true
+                        "name": "Ukrainian Radio Stations (Streema)",
+                        "url": "https://streema.com/radios/country/Ukraine",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "News, music, cultural programming"
+                        ]
                     }
                 ]
             },
             {
-                category: "Video Resources",
-                items: [
+                "category": "Video Resources",
+                "items": [
                     {
-                        name: "Speak Ukrainian YouTube",
-                        url: "https://www.youtube.com/c/SpeakUkrainian",
-                        features: ["Grammar","vocabulary","cooking vlogs (all levels)","Cultural content through food"],
-                        free: true
+                        "name": "Speak Ukrainian YouTube",
+                        "url": "https://www.youtube.com/c/SpeakUkrainian",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Grammar exercises",
+                            "Cultural content through food"
+                        ]
                     }
                 ]
             },
             {
-                category: "Free TV and Films",
-                items: [
+                "category": "Free TV and Films",
+                "items": [
                     {
-                        name: "Zattoo",
-                        url: "https://zattoo.com/ua/en",
-                        features: ["Free Ukrainian TV streaming (all levels)","1+1","Inter","ICTV","Rada TV"],
-                        free: true
+                        "name": "Zattoo",
+                        "url": "https://zattoo.com/ua/en",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "UkrStream.TV",
-                        url: "https://ukrstream.tv/en/streams",
-                        features: ["Live Ukrainian TV channels (all levels)","News and cultural programming"],
-                        free: true
+                        "name": "UkrStream.TV",
+                        "url": "https://ukrstream.tv/en/streams",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Cultural programming"
+                        ]
                     },
                     {
-                        name: "Vivat.Live",
-                        url: "https://vivat.live/channels?lang=en",
-                        features: ["Ukrainian TV streaming (all levels)","Archive functionality","Smart TV compatible"],
-                        free: true
+                        "name": "Vivat.Live",
+                        "url": "https://vivat.live/channels?lang=en",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Archive functionality, Smart TV compatible"
+                        ]
                     },
                     {
-                        name: "Klassiki",
-                        url: "https://klassiki.online/ukrainian-films-with-english-subtitles/",
-                        features: ["Classic and contemporary films (advanced)","Works by Dovzhenko","Parajanov","Muratova"],
-                        free: true
+                        "name": "Klassiki",
+                        "url": "https://klassiki.online/ukrainian-films-with-english-subtitles/",
+                        "free": true,
+                        "features": [
+                            "Classic",
+                            "Advanced",
+                            "Dovzhenko platform",
+                            "Works by Dovzhenko, Parajanov, Muratova"
+                        ]
                     }
                 ]
             }
         ],
-        apps: [
+        "apps": [
             {
-                category: "Mobile Apps",
-                items: [
+                "category": "Mobile Apps",
+                "items": [
                     {
-                        name: "Duolingo Ukrainian",
-                        url: "https://www.duolingo.com/course/uk/en/Learn-Ukrainian",
-                        features: ["Gamified language learning (beginner-intermediate)","Mobile apps","scientifically proven methods","progress tracking"],
-                        free: true
+                        "name": "Duolingo Ukrainian",
+                        "url": "https://www.duolingo.com/course/uk/en/Learn-Ukrainian",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Gamified exercises",
+                            "Mobile app"
+                        ]
                     },
                     {
-                        name: "FunEasyLearn",
-                        url: "https://www.funeasylearn.com/learn-ukrainian",
-                        features: ["15,000 words across 350 topics (all levels)","30 learning games","hand-drawn illustrations","works offline"],
-                        free: true
+                        "name": "FunEasyLearn",
+                        "url": "https://www.funeasylearn.com/learn-ukrainian",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Ling App",
-                        url: "https://ling-app.com/",
-                        features: ["Interactive mini-games and AI chatbot (all levels)","10-minute lessons","cultural insights","conversation practice"],
-                        free: true
+                        "name": "Ling App",
+                        "url": "https://ling-app.com/",
+                        "free": true,
+                        "features": [
+                            "Interactive exercises",
+                            "Interactive mini-games",
+                            "All levels",
+                            "Conversation exercises"
+                        ]
                     }
                 ]
             },
             {
-                category: "Dictionaries and Tools",
-                items: [
+                "category": "Dictionaries and Tools",
+                "items": [
                     {
-                        name: "Slovnyk.ua",
-                        url: "https://slovnyk.ua/",
-                        features: ["Comprehensive monolingual Ukrainian dictionary (all levels)","Declension and conjugation tools","accentuation tool"],
-                        free: true
+                        "name": "Slovnyk.ua",
+                        "url": "https://slovnyk.ua/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Declension",
+                            "Conjugation tools, accentuation tool"
+                        ]
                     },
                     {
-                        name: "Cambridge English-Ukrainian Dictionary",
-                        url: "https://dictionary.cambridge.org/dictionary/english-ukrainian/",
-                        features: ["Professional bilingual dictionary (all levels)","High-quality translations","example sentences"],
-                        free: true
+                        "name": "Cambridge English-Ukrainian Dictionary",
+                        "url": "https://dictionary.cambridge.org/dictionary/english-ukrainian/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "High-quality translations, example sentences"
+                        ]
                     },
                     {
-                        name: "Glosbe Collaborative Dictionary",
-                        url: "https://glosbe.com/en/uk/",
-                        features: ["Community-based translations (all levels)","Translation memory","audio pronunciation","collaborative editing"],
-                        free: true
+                        "name": "Glosbe Collaborative Dictionary",
+                        "url": "https://glosbe.com/en/uk/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "Audio exercises"
+                        ]
                     },
                     {
-                        name: "Reverso English-Ukrainian",
-                        url: "https://dictionary.reverso.net/english-ukrainian/",
-                        features: ["Millions of words and phrases (all levels)","Contextual translations","specialized vocabulary"],
-                        free: true
+                        "name": "Reverso English-Ukrainian",
+                        "url": "https://dictionary.reverso.net/english-ukrainian/",
+                        "free": true,
+                        "features": [
+                            "Millions of words",
+                            "All levels",
+                            "Vocabulary exercises",
+                            "Contextual translations, specialized vocabulary"
+                        ]
                     },
                     {
-                        name: "Verbix Ukrainian Conjugator",
-                        url: "https://www.verbix.com/languages/ukrainian",
-                        features: ["Online verb conjugation (all levels)","All Ukrainian verb forms and tenses"],
-                        free: true
+                        "name": "Verbix Ukrainian Conjugator",
+                        "url": "https://www.verbix.com/languages/ukrainian",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "All Ukrainian verb forms",
+                            "Tenses"
+                        ]
                     },
                     {
-                        name: "Forvo Ukrainian",
-                        url: "https://forvo.com/languages/uk/",
-                        features: ["Native speaker pronunciations (all levels)","Audio by native speakers","extensive vocabulary"],
-                        free: true
+                        "name": "Forvo Ukrainian",
+                        "url": "https://forvo.com/languages/uk/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Native speaker content",
+                            "Audio exercises",
+                            "Audio by native speakers, extensive vocabulary"
+                        ]
                     },
                     {
-                        name: "TypeIt Ukrainian Keyboard",
-                        url: "https://ukrainian.typeit.org/",
-                        features: ["Virtual Ukrainian keyboard (all levels)","Phonetic layout","keyboard shortcuts"],
-                        free: true
+                        "name": "TypeIt Ukrainian Keyboard",
+                        "url": "https://ukrainian.typeit.org/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Phonetic layout, keyboard shortcuts"
+                        ]
                     },
                     {
-                        name: "LanguageTool (Open Source)",
-                        url: "https://languagetool.org/",
-                        features: ["Grammar and spell checker (all levels)","Free and open-source","browser extensions","works with Google Docs"],
-                        free: true
+                        "name": "LanguageTool (Open Source)",
+                        "url": "https://languagetool.org/",
+                        "free": true,
+                        "features": [
+                            "Grammar exercises",
+                            "All levels"
+                        ]
                     }
                 ]
             }
         ],
-        practice: [
+        "practice": [
             {
-                category: "Language Exchange",
-                items: [
+                "category": "Language Exchange",
+                "items": [
                     {
-                        name: "Tandem Language Exchange",
-                        url: "https://tandem.net/",
-                        features: ["Global language exchange app (all levels)","16,015+ Ukrainian members","text/voice/video","correction tools"],
-                        free: true
+                        "name": "Tandem Language Exchange",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "Video exercises"
+                        ]
                     },
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        features: ["40+ million users worldwide (all levels)","Translation features","voice rooms","live teaching events"],
-                        free: true
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "ConversationExchange.com",
-                        url: "https://www.conversationexchange.com/",
-                        features: ["Traditional language exchange platform (all levels)","Face-to-face","pen-pal","text/voice chat options"],
-                        free: true
+                        "name": "ConversationExchange.com",
+                        "url": "https://www.conversationexchange.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Face-to-face, pen-pal, text/voice chat options"
+                        ]
                     },
                     {
-                        name: "r/Ukrainian Reddit",
-                        url: "https://reddit.com/r/Ukrainian",
-                        features: ["Primary Ukrainian learning subreddit (all levels)","Grammar discussions","cultural insights","native speakers"],
-                        free: true
+                        "name": "r/Ukrainian Reddit",
+                        "url": "https://reddit.com/r/Ukrainian",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Grammar exercises"
+                        ]
                     },
                     {
-                        name: "Ukrainian Lessons Facebook",
-                        url: "https://www.facebook.com/ukrainianlessons/",
-                        features: ["Community connected to podcast (all levels)","9,527+ likes","regular updates from Anna Ohoiko"],
-                        free: true
+                        "name": "Ukrainian Lessons Facebook",
+                        "url": "https://www.facebook.com/ukrainianlessons/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "Anna Ohoiko platform",
+                            "9,527+ likes, regular updates from Anna Ohoiko"
+                        ]
                     },
                     {
-                        name: "ENGin Program",
-                        url: "https://www.enginprogram.org",
-                        features: ["Connects English speakers with Ukrainians (all levels)","Weekly video chats","structured matching","55,000+ connected"],
-                        free: true
+                        "name": "ENGin Program",
+                        "url": "https://www.enginprogram.org",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Video exercises"
+                        ]
                     },
                     {
-                        name: "italki Community",
-                        url: "https://www.italki.com",
-                        features: ["Language platform with community features (all levels)","Community Q&A","language partners","writing correction"],
-                        free: true
+                        "name": "italki Community",
+                        "url": "https://www.italki.com",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "Writing exercises"
+                        ]
                     }
                 ]
             },
             {
-                category: "Government and Institutions",
-                items: [
+                "category": "Government and Institutions",
+                "items": [
                     {
-                        name: "State Language Protection Commissioner",
-                        url: "https://mova-ombudsman.gov.ua/en/resources-to-help-foreigners-in-learning-ukrainian",
-                        features: ["Official Ukrainian government resource list (all levels)","Comprehensive resource compilation","official endorsement"],
-                        free: true
+                        "name": "State Language Protection Commissioner",
+                        "url": "https://mova-ombudsman.gov.ua/en/resources-to-help-foreigners-in-learning-ukrainian",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Ukrainian Institute",
-                        url: "https://ui.org.ua/en/sectors-en/language-2/",
-                        features: ["Cultural institute language resources (all levels)","Certification programs","university partnerships"],
-                        free: true
+                        "name": "Ukrainian Institute",
+                        "url": "https://ui.org.ua/en/sectors-en/language-2/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Certificate available",
+                            "Certification programs, university partnerships"
+                        ]
                     },
                     {
-                        name: "Canadian Institute of Ukrainian Studies",
-                        url: "https://www.ualberta.ca/en/canadian-institute-of-ukrainian-studies/index.html",
-                        features: ["Global leader in Ukrainian studies (all levels)","Largest collection outside Eastern Europe","fellowships"],
-                        free: true
+                        "name": "Canadian Institute of Ukrainian Studies",
+                        "url": "https://www.ualberta.ca/en/canadian-institute-of-ukrainian-studies/index.html",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Harvard Ukrainian Research Institute",
-                        url: "https://www.huri.harvard.edu/",
-                        features: ["Leading US center for Ukrainian studies (all levels)","Summer institute","extensive research resources"],
-                        free: true
+                        "name": "Harvard Ukrainian Research Institute",
+                        "url": "https://www.huri.harvard.edu/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Summer institute, extensive research resources"
+                        ]
                     },
                     {
-                        name: "Ukrainian Catholic University",
-                        url: "https://studyukrainian.org.ua/",
-                        features: ["Leading Ukrainian language provider (all levels)","ECTS credits","19 years operation","multiple intensity levels"],
-                        free: true
+                        "name": "Ukrainian Catholic University",
+                        "url": "https://studyukrainian.org.ua/",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     }
                 ]
             }
@@ -421,6 +618,4 @@ const ukrainianResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.ukrainian = ukrainianResources;
-}
+export default ukrainianResources;

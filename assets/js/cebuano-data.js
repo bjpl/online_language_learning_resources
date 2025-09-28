@@ -1,10 +1,10 @@
 const cebuanoResources = {
-    name: "Cebuano",
-    nativeName: "Binisaya / Sinugbuanong Binisaya",
-    flag: "🇵🇭",
-    learners: "5M+",
-    speakers: "27M native (Philippines - Cebu, Bohol, Eastern Negros, Leyte, parts of Mindanao)",
-    highlights: [
+    "name": "Cebuano",
+    "nativeName": "Binisaya / Sinugbuanong Binisaya",
+    "flag": "🇵🇭",
+    "learners": "5M+",
+    "speakers": "27M native (Philippines - Cebu, Bohol, Eastern Negros, Leyte, parts of Mindanao)",
+    "highlights": [
         "150+ free resources including Peace Corps materials with 600-1200 hours of comprehensive study content",
         "Cebuano Wikipedia: World's second-largest Wikipedia by article count with 6.1+ million articles",
         "Live Lingua FSI Cebuano: Complete professional-grade Foreign Service Institute courses with downloadable materials",
@@ -12,479 +12,643 @@ const cebuanoResources = {
         "Bloom Library: Free digital books in Cebuano for literacy development with children's educational materials",
         "Strong government support through DepEd Mother Tongue programs, University of San Carlos Cebuano Studies Center"
     ],
-    resources: {
-        courses: [
+    "resources": {
+        "courses": [
             {
-                category: "Online Courses and Learning Platforms",
-                items: [
+                "category": "Online Courses and Learning Platforms",
+                "items": [
                     {
-                        name: "Live Lingua - Free Cebuano Courses",
-                        url: "https://www.livelingua.com/courses/cebuano",
-                        features: ["2 complete Peace Corps courses", "Ebooks and audio included", "No registration required", "600-1200 hours content", "Pronunciation recorder tool"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "Live Lingua - Free Cebuano Courses",
+                        "url": "https://www.livelingua.com/courses/cebuano",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "2 complete free Cebuano courses with ebooks",
+                            "Audio exercises",
+                            "audio from US Peace Corps materials",
+                            "Pronunciation exercises"
+                        ]
                     },
                     {
-                        name: "Cebuano101 by Maestra Judy",
-                        url: "https://www.cebuano101.com/",
-                        features: ["Video lessons by native speaker", "YouTube-integrated platform", "Practical conversation focus", "Highly praised content", "Comprehensive instruction"],
-                        free: true,
-                        level: "Beginner to Advanced"
+                        "name": "Cebuano101 by Maestra Judy",
+                        "url": "https://www.cebuano101.com/",
+                        "free": true,
+                        "level": "Beginner to Advanced",
+                        "features": [
+                            "Video exercises",
+                            "Native speaker content"
+                        ]
                     },
                     {
-                        name: "FSI Language Courses - Cebuano",
-                        url: "https://www.fsi-language-courses.org/cebuano/",
-                        features: ["Professional-grade FSI courses", "Public domain materials", "Working proficiency focus", "600-1200 hours content", "Comprehensive B2-C1 level"],
-                        free: true,
-                        level: "Beginner to Advanced (B2-C1)"
+                        "name": "FSI Language Courses - Cebuano",
+                        "url": "https://www.fsi-language-courses.org/cebuano/",
+                        "description": "Professional-grade Foreign Service Institute language courses that are public domain, designed for professional working proficiency with 600-1200 hours of comprehensive material.",
+                        "free": true,
+                        "level": "Beginner to Advanced (B2-C1)"
                     },
                     {
-                        name: "Learn101.org Cebuano",
-                        url: "http://www.learn101.org/cebuano.php",
-                        features: ["Step-by-step lessons", "Alphabet and grammar coverage", "Audio content included", "No registration required", "Structured beginner progression"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Learn101.org Cebuano",
+                        "url": "http://www.learn101.org/cebuano.php",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Grammar exercises"
+                        ]
                     },
                     {
-                        name: "iLanguages.org Cebuano",
-                        url: "http://ilanguages.org/cebuano.php",
-                        features: ["Essential vocabulary and phrases", "Grammar with flashcards", "Vocabulary trainer included", "High-frequency word focus", "Completely free access"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "iLanguages.org Cebuano",
+                        "url": "http://ilanguages.org/cebuano.php",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Vocabulary exercises",
+                            "Beginner"
+                        ]
                     },
                     {
-                        name: "CebuanoLang",
-                        url: "https://cebuanolang.com/",
-                        features: ["Grammar-focused platform", "Comprehensive Cebuano grammar", "Structural approach methodology", "Only dedicated grammar platform", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "CebuanoLang",
+                        "url": "https://cebuanolang.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels",
+                            "Grammar exercises"
+                        ]
                     },
                     {
-                        name: "Digital Dialects Cebuano Games",
-                        url: "https://www.digitaldialects.com/Cebuano.htm",
-                        features: ["Free online vocabulary games", "Game-based learning approach", "Mobile-friendly interface", "Interactive exercises", "Beginner-focused content"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Digital Dialects Cebuano Games",
+                        "url": "https://www.digitaldialects.com/Cebuano.htm",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Vocabulary exercises",
+                            "Interactive exercises"
+                        ]
                     }
                 ]
             },
             {
-                category: "Open Educational Resources (OER)",
-                items: [
+                "category": "Open Educational Resources (OER)",
+                "items": [
                     {
-                        name: "Peace Corps Cebuano Language Packet",
-                        url: "https://www.livelingua.com/peace-corps/Cebuano/Cebuano%20Language%20Packet.pdf",
-                        features: ["Rapid training materials", "Phrases and vocabulary", "Public domain content", "Daily communication focus", "Glossary and cultural notes"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "Peace Corps Cebuano Language Packet",
+                        "url": "https://www.livelingua.com/peace-corps/Cebuano/Cebuano%20Language%20Packet.pdf",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Vocabulary exercises",
+                            "Cultural notes"
+                        ]
                     },
                     {
-                        name: "Peace Corps Cebuano Language Lessons",
-                        url: "https://www.livelingua.com/course/peace-corps/Cebuano_Language_Lessons",
-                        features: ["22 dialogue-based lessons", "Pattern drill exercises", "Audio-lingual method", "Everyday situations focus", "Cultural notes included"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Peace Corps Cebuano Language Lessons",
+                        "url": "https://www.livelingua.com/course/peace-corps/Cebuano_Language_Lessons",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Audio exercises"
+                        ]
                     },
                     {
-                        name: "Bloom Library - Cebuano Books",
-                        url: "https://bloomlibrary.org/#!/language:ceb",
-                        features: ["Free digital books", "Literacy development focus", "Children's book collection", "Educational materials", "Beginning reader friendly"],
-                        free: true,
-                        level: "Beginning Readers"
+                        "name": "Bloom Library - Cebuano Books",
+                        "url": "https://bloomlibrary.org/#!/language:ceb",
+                        "free": true,
+                        "level": "Beginning Readers",
+                        "features": [
+                            "Educational materials"
+                        ]
                     },
                     {
-                        name: "Sentro ng Wikang Filipino - UP Diliman",
-                        url: "https://sentrofilipino.upd.edu.ph/publikasyon/aklatang-bayan/online-downloadable-e-books/",
-                        features: ["Academic repository", "Downloadable PDF format", "Research works included", "Creative works collection", "Various skill levels"],
-                        free: true,
-                        level: "Various"
+                        "name": "Sentro ng Wikang Filipino - UP Diliman",
+                        "url": "https://sentrofilipino.upd.edu.ph/publikasyon/aklatang-bayan/online-downloadable-e-books/",
+                        "free": true,
+                        "level": "Various",
+                        "features": [
+                            "Academic focus at various levels"
+                        ]
                     }
                 ]
             }
         ],
-        books: [
+        "books": [
             {
-                category: "Textbooks and Grammar Guides",
-                items: [
+                "category": "Textbooks and Grammar Guides",
+                "items": [
                     {
-                        name: "Cebuano Grammar Notes (U of Hawaii)",
-                        url: "https://scholarspace.manoa.hawaii.edu/bitstreams/75449514-a5eb-487a-aa6b-7778680179e8/download",
-                        features: ["Comprehensive grammar reference", "Bunye et al. authorship", "In-depth linguistic analysis", "Phonology and morphology", "PDF download available"],
-                        free: true,
-                        level: "Intermediate to Advanced"
+                        "name": "Cebuano Grammar Notes (U of Hawaii)",
+                        "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/75449514-a5eb-487a-aa6b-7778680179e8/download",
+                        "free": true,
+                        "level": "Intermediate to Advanced",
+                        "features": [
+                            "Bunye platform",
+                            "Grammar exercises",
+                            "Comprehensive grammar reference by Bunye et al",
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "English-Bisaya Grammar (1904)",
-                        url: "https://www.gutenberg.org/ebooks/42026",
-                        features: ["Historical grammar guide", "28 structured lessons", "Pedro Jiménez authorship", "Multiple download formats", "Public domain text"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "English-Bisaya Grammar (1904)",
+                        "url": "https://www.gutenberg.org/ebooks/42026",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Beginner",
+                            "Pedro Jim platform",
+                            "Grammar exercises"
+                        ]
                     },
                     {
-                        name: "Ang Dila Natong Bisaya (1949)",
-                        url: "https://archive.org/details/AngDilaNatongBisaya",
-                        features: ["Native-written grammar", "Bishop Manuel Yap authorship", "Entirely in Cebuano", "66.3MB comprehensive reference", "Advanced/native speaker level"],
-                        free: true,
-                        level: "Advanced/Native Speakers"
+                        "name": "Ang Dila Natong Bisaya (1949)",
+                        "url": "https://archive.org/details/AngDilaNatongBisaya",
+                        "free": true,
+                        "level": "Advanced/Native Speakers",
+                        "features": [
+                            "Bishop Manuel Yap platform",
+                            "Grammar exercises",
+                            "Advanced"
+                        ]
                     },
                     {
-                        name: "A Dictionary of Cebuano Visayan",
-                        url: "https://www.gutenberg.org/ebooks/40074",
-                        features: ["John U. Wolff's dictionary", "25,000+ entries", "Language explanations included", "Multiple download formats", "1972 comprehensive edition"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "A Dictionary of Cebuano Visayan",
+                        "url": "https://www.gutenberg.org/ebooks/40074",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "John U",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Cebuano Grammar Notes (Academia.edu)",
-                        url: "https://www.academia.edu/10357981/Cebuano_Grammar_Notes",
-                        features: ["Scholarly linguistic analysis", "Technical grammar explanations", "Morphophonemic processes", "Academic research quality", "Advanced theoretical focus"],
-                        free: true,
-                        level: "Advanced/Academic"
+                        "name": "Cebuano Grammar Notes (Academia.edu)",
+                        "url": "https://www.academia.edu/10357981/Cebuano_Grammar_Notes",
+                        "free": true,
+                        "level": "Advanced/Academic",
+                        "features": [
+                            "Grammar exercises",
+                            "Advanced"
+                        ]
                     },
                     {
-                        name: "Learn Bisaya in 10 Days",
-                        url: "https://pdfcoffee.com/learn-bisaya-language-in-10-days-pdf-free.html",
-                        features: ["Quick-start learning guide", "Basic phrases included", "Common vocabulary focus", "PDF format ebook", "Beginner self-study"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Learn Bisaya in 10 Days",
+                        "url": "https://pdfcoffee.com/learn-bisaya-language-in-10-days-pdf-free.html",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Quick-start self-learning ebook with basic phrases",
+                            "Vocabulary exercises",
+                            "common vocabulary in PDF format for beginners"
+                        ]
                     }
                 ]
             },
             {
-                category: "Reading Materials and Literature",
-                items: [
+                "category": "Reading Materials and Literature",
+                "items": [
                     {
-                        name: "Cebuano Wikipedia",
-                        url: "https://ceb.wikipedia.org/",
-                        features: ["World's second-largest Wikipedia", "6.1+ million articles", "Extensive reference material", "Bot-generated content", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Cebuano Wikipedia",
+                        "url": "https://ceb.wikipedia.org/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "World's second-largest Wikipedia by article count with 6",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Project Gutenberg Cebuano",
-                        url: "https://www.gutenberg.org/ebooks/subject/12194",
-                        features: ["Free Cebuano literature", "Historical text collection", "Public domain materials", "Multiple download formats", "Various difficulty levels"],
-                        free: true,
-                        level: "Various"
+                        "name": "Project Gutenberg Cebuano",
+                        "url": "https://www.gutenberg.org/ebooks/subject/12194",
+                        "description": "Free Cebuano literature including historical texts that are public domain with multiple download formats at various levels.",
+                        "free": true,
+                        "level": "Various"
                     },
                     {
-                        name: "Banat (Philstar)",
-                        url: "https://www.philstar.com/banat",
-                        features: ["Cebuano-language tabloid", "Native news content", "Current events coverage", "Regular updates", "Intermediate-advanced reading"],
-                        free: true,
-                        level: "Intermediate to Advanced"
+                        "name": "Banat (Philstar)",
+                        "url": "https://www.philstar.com/banat",
+                        "free": true,
+                        "level": "Intermediate to Advanced",
+                        "features": [
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "SunStar Cebu",
-                        url: "https://www.sunstar.com.ph/cebu",
-                        features: ["Local Cebu news", "Bisaya sections included", "Mixed English/Bisaya content", "Regional news focus", "Intermediate level reading"],
-                        free: true,
-                        level: "Intermediate"
+                        "name": "SunStar Cebu",
+                        "url": "https://www.sunstar.com.ph/cebu",
+                        "free": true,
+                        "level": "Intermediate",
+                        "features": [
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "CDN Digital",
-                        url: "https://cebudailynews.inquirer.net/",
-                        features: ["Digital news portal", "Cebu-focused news", "2.5+ million followers", "Regular content updates", "Intermediate level reading"],
-                        free: true,
-                        level: "Intermediate"
+                        "name": "CDN Digital",
+                        "url": "https://cebudailynews.inquirer.net/",
+                        "free": true,
+                        "level": "Intermediate",
+                        "features": [
+                            "Digital news portal with Cebu-focused news",
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "Wikisource Cebuano",
-                        url: "https://wikisource.org/wiki/Category:Cebuano",
-                        features: ["Digital source library", "Historical documents", "Public domain texts", "Authentic materials", "Various difficulty levels"],
-                        free: true,
-                        level: "Various"
+                        "name": "Wikisource Cebuano",
+                        "url": "https://wikisource.org/wiki/Category:Cebuano",
+                        "free": true,
+                        "level": "Various",
+                        "features": [
+                            "Public domain texts at various levels"
+                        ]
                     }
                 ]
             }
         ],
-        audio: [
+        "audio": [
             {
-                category: "Audio and Video Resources",
-                items: [
+                "category": "Audio and Video Resources",
+                "items": [
                     {
-                        name: "Live Lingua Audio Courses",
-                        url: "https://www.livelingua.com/project/peace-corps/Cebuano",
-                        features: ["Comprehensive audio collection", "Downloadable MP3 files", "Online streaming available", "Pronunciation recorder", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Live Lingua Audio Courses",
+                        "url": "https://www.livelingua.com/project/peace-corps/Cebuano",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Audio exercises",
+                            "All levels",
+                            "Pronunciation exercises"
+                        ]
                     },
                     {
-                        name: "Forvo Pronunciation Dictionary",
-                        url: "https://forvo.com/languages/ceb/",
-                        features: ["Native speaker pronunciations", "Individual word recordings", "Crowd-sourced content", "Audio pronunciation guide", "All skill levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Forvo Pronunciation Dictionary",
+                        "url": "https://forvo.com/languages/ceb/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Native speaker content",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Learn101.org Cebuano Audio",
-                        url: "http://learn101.org/cebuano_audio.php",
-                        features: ["Audio lesson collection", "MP3 downloads available", "iPod/car compatible", "Portable learning", "Basic-intermediate content"],
-                        free: true,
-                        level: "Basic to Intermediate"
+                        "name": "Learn101.org Cebuano Audio",
+                        "url": "http://learn101.org/cebuano_audio.php",
+                        "free": true,
+                        "level": "Basic to Intermediate",
+                        "features": [
+                            "Intermediate",
+                            "Audio exercises"
+                        ]
                     }
                 ]
             },
             {
-                category: "Podcasts",
-                items: [
+                "category": "Podcasts",
+                "items": [
                     {
-                        name: "Learn to Speak Cebuano with John",
-                        url: "https://open.spotify.com/show/59aExSqQZV0TExLhokx6qo",
-                        features: ["Educational podcast series", "Bimonthly updates", "Grammar lesson focus", "Pronunciation guides", "Vocabulary building"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "Learn to Speak Cebuano with John",
+                        "url": "https://open.spotify.com/show/59aExSqQZV0TExLhokx6qo",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Grammar exercises",
+                            "Beginner",
+                            "Vocabulary exercises"
+                        ]
                     },
                     {
-                        name: "Learn Cebuano with THE MAESTRO",
-                        url: "https://www.podchaser.com/podcasts/learn-cebuano-with-the-maestro-1742002",
-                        features: ["63-episode series", "Worldwide learner focus", "Visayas dialects coverage", "Comprehensive content", "All skill levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Learn Cebuano with THE MAESTRO",
+                        "url": "https://www.podchaser.com/podcasts/learn-cebuano-with-the-maestro-1742002",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Barok and Takya Bisaya Podcast",
-                        url: "https://barokandtakya.com/",
-                        features: ["Native Cebuano talk show", "Authentic conversations", "Cultural discussions", "Regular updates since 2018", "Intermediate-advanced level"],
-                        free: true,
-                        level: "Intermediate to Advanced"
+                        "name": "Barok and Takya Bisaya Podcast",
+                        "url": "https://barokandtakya.com/",
+                        "free": true,
+                        "level": "Intermediate to Advanced",
+                        "features": [
+                            "Intermediate"
+                        ]
                     }
                 ]
             },
             {
-                category: "Radio and Streaming Resources",
-                items: [
+                "category": "Radio and Streaming Resources",
+                "items": [
                     {
-                        name: "Radio.org.ph Metro Cebu",
-                        url: "https://radio.org.ph/region/metro-cebu/",
-                        features: ["Radio stations directory", "Live streaming available", "Authentic local content", "Multiple station options", "Intermediate-advanced listening"],
-                        free: true,
-                        level: "Intermediate to Advanced"
+                        "name": "Radio.org.ph Metro Cebu",
+                        "url": "https://radio.org.ph/region/metro-cebu/",
+                        "free": true,
+                        "level": "Intermediate to Advanced",
+                        "features": [
+                            "Cebu radio stations directory with live streaming",
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "OnlineRadioBox Cebu",
-                        url: "https://onlineradiobox.com/ph/Cebu_City",
-                        features: ["Cebu City radio stations", "Multiple station choices", "Live streaming service", "Local programming", "Intermediate-advanced content"],
-                        free: true,
-                        level: "Intermediate to Advanced"
+                        "name": "OnlineRadioBox Cebu",
+                        "url": "https://onlineradiobox.com/ph/Cebu_City",
+                        "free": true,
+                        "level": "Intermediate to Advanced",
+                        "features": [
+                            "Cebu City radio stations with multiple stations",
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "Radio Garden Cebu",
-                        url: "https://radio.garden/visit/cebu-city/ggzJapSY/channels",
-                        features: ["Interactive radio map", "Visual interface", "Multiple station access", "Geographic visualization", "Intermediate-advanced listening"],
-                        free: true,
-                        level: "Intermediate to Advanced"
+                        "name": "Radio Garden Cebu",
+                        "url": "https://radio.garden/visit/cebu-city/ggzJapSY/channels",
+                        "free": true,
+                        "level": "Intermediate to Advanced",
+                        "features": [
+                            "Interactive exercises",
+                            "Interactive radio map with visual interface",
+                            "Intermediate"
+                        ]
                     }
                 ]
             }
         ],
-        apps: [
+        "apps": [
             {
-                category: "Apps and Software",
-                items: [
+                "category": "Apps and Software",
+                "items": [
                     {
-                        name: "Bluebird: Learn Cebuano",
-                        url: "https://apps.apple.com/us/app/bluebird-learn-cebuano/id1582591351",
-                        features: ["2,000+ pre-recorded lessons", "Hands-free learning mode", "Spaced repetition system", "2,000 high-frequency words", "Offline capability"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Bluebird: Learn Cebuano",
+                        "url": "https://apps.apple.com/us/app/bluebird-learn-cebuano/id1582591351",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Ling App - Cebuano",
-                        url: "https://ling-app.com/learn-language/cebuano/",
-                        features: ["Interactive language course", "Native speaker audio", "Dialog practice sessions", "Gamified learning", "7-day free trial"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Ling App - Cebuano",
+                        "url": "https://ling-app.com/learn-language/cebuano/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Interactive exercises",
+                            "Native speaker content",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "uTalk Classic - Learn Cebuano",
-                        url: "https://apps.apple.com/us/app/learn-cebuano-eurotalk/id1182330227",
-                        features: ["Essential words and phrases", "9 topic categories", "Native speaker pronunciation", "iOS-only app", "Beginner-focused content"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "uTalk Classic - Learn Cebuano",
+                        "url": "https://apps.apple.com/us/app/learn-cebuano-eurotalk/id1182330227",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Essential words",
+                            "Pronunciation exercises",
+                            "Native speaker content"
+                        ]
                     },
                     {
-                        name: "Anki with Cebuano Decks",
-                        url: "https://apps.ankiweb.net/",
-                        features: ["Open-source flashcard system", "Community-created decks", "Spaced repetition algorithm", "Cross-platform sync", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Anki with Cebuano Decks",
+                        "url": "https://apps.ankiweb.net/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Community support",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Gboard (Google Keyboard)",
-                        url: "https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin",
-                        features: ["Cebuano keyboard support", "Autocorrect functionality", "Voice typing", "Glide typing", "Translate integration"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Gboard (Google Keyboard)",
+                        "url": "https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
                     }
                 ]
             },
             {
-                category: "Dictionaries and Language Tools",
-                items: [
+                "category": "Dictionaries and Language Tools",
+                "items": [
                     {
-                        name: "Binisaya.com Dictionary",
-                        url: "https://www.binisaya.com/cebuano",
-                        features: ["Comprehensive online dictionary", "Community-driven content", "Forums and discussions", "Blog posts included", "Free web access"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Binisaya.com Dictionary",
+                        "url": "https://www.binisaya.com/cebuano",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Community support",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Cebuano Dictionary (PinoyDictionary)",
-                        url: "https://cebuano.pinoydictionary.com/",
-                        features: ["Philippines' largest dictionary", "Bidirectional search", "Alphabetical browsing", "Comprehensive entries", "All skill levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Cebuano Dictionary (PinoyDictionary)",
+                        "url": "https://cebuano.pinoydictionary.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Google Translate",
-                        url: "https://translate.google.com/",
-                        features: ["Machine translation tool", "Cebuano language support", "Camera translation", "Offline download", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Google Translate",
+                        "url": "https://translate.google.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "QuillBot Cebuano Translator",
-                        url: "https://quillbot.com/translate/english-to-cebuano",
-                        features: ["AI-powered translator", "5,000 character limit", "Context-aware translations", "Ad-free interface", "All skill levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "QuillBot Cebuano Translator",
+                        "url": "https://quillbot.com/translate/english-to-cebuano",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Lingvanex Translator",
-                        url: "https://lingvanex.com/translation/english-to-cebuano",
-                        features: ["Online translation service", "3,000 characters per request", "Privacy-focused design", "English-Cebuano support", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Lingvanex Translator",
+                        "url": "https://lingvanex.com/translation/english-to-cebuano",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Leipzig Corpora Collection",
-                        url: "https://corpora.uni-leipzig.de/en?corpusId=ceb_community_2017",
-                        features: ["Linguistic corpus database", "729,461 sentences", "10.6M tokens", "Downloadable dataset", "Academic research use"],
-                        free: true,
-                        level: "Academic"
+                        "name": "Leipzig Corpora Collection",
+                        "url": "https://corpora.uni-leipzig.de/en?corpusId=ceb_community_2017",
+                        "free": true,
+                        "level": "Academic",
+                        "features": [
+                            "Linguistic corpus database with 729,461 sentences, 10",
+                            "6M tokens,",
+                            "Downloadable dataset for academic use"
+                        ]
                     },
                     {
-                        name: "Wiktionary Cebuano Verbs",
-                        url: "https://en.wiktionary.org/wiki/Appendix:Cebuano_verbs",
-                        features: ["Conjugation patterns reference", "Comprehensive verb patterns", "Academic quality", "Detailed explanations", "Intermediate-advanced focus"],
-                        free: true,
-                        level: "Intermediate to Advanced"
+                        "name": "Wiktionary Cebuano Verbs",
+                        "url": "https://en.wiktionary.org/wiki/Appendix:Cebuano_verbs",
+                        "free": true,
+                        "level": "Intermediate to Advanced",
+                        "features": [
+                            "Intermediate"
+                        ]
                     }
                 ]
             }
         ],
-        practice: [
+        "practice": [
             {
-                category: "Language Exchange Platforms",
-                items: [
+                "category": "Language Exchange Platforms",
+                "items": [
                     {
-                        name: "MyLanguageExchange",
-                        url: "https://www.mylanguageexchange.com/Learn/Cebuano.asp",
-                        features: ["Structured language exchange", "Email pen pals", "Text/voice/video chat", "Expert-designed lesson plans", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "MyLanguageExchange",
+                        "url": "https://www.mylanguageexchange.com/Learn/Cebuano.asp",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Video exercises",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Tandem - Cebu City",
-                        url: "https://tandem.net/language-exchange/philippines/cebu-city",
-                        features: ["Mobile language exchange", "199 active Cebu members", "Review system", "Professional focus", "All skill levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Tandem - Cebu City",
+                        "url": "https://tandem.net/language-exchange/philippines/cebu-city",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Mobile app",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        features: ["Social language learning", "18+ million global users", "Translation tools", "Voice rooms", "Live events"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Mobile app",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        features: ["Traditional exchange platform", "Face-to-face meetups", "Correspondence options", "Text/voice chat", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "ConversationExchange",
+                        "url": "https://www.conversationexchange.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
                     }
                 ]
             },
             {
-                category: "Government and Institutional Resources",
-                items: [
+                "category": "Government and Institutional Resources",
+                "items": [
                     {
-                        name: "Komisyon sa Wikang Filipino",
-                        url: "https://kwf.gov.ph/",
-                        features: ["Official language commission", "Policy documents", "Research materials", "Online national dictionary", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Komisyon sa Wikang Filipino",
+                        "url": "https://kwf.gov.ph/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "DepEd Mother Tongue Materials",
-                        url: "https://www.deped.gov.ph/",
-                        features: ["K-3 educational materials", "Curriculum guides", "Official textbooks", "Teacher training materials", "Elementary level focus"],
-                        free: true,
-                        level: "Elementary"
+                        "name": "DepEd Mother Tongue Materials",
+                        "url": "https://www.deped.gov.ph/",
+                        "free": true,
+                        "level": "Elementary",
+                        "features": [
+                            "Teacher training materials at elementary level"
+                        ]
                     },
                     {
-                        name: "University of San Carlos Cebuano Studies Center",
-                        url: "https://www.cebuanostudiescenter.com/",
-                        features: ["Academic research center", "Research publications", "Library resources", "Digitized historical materials", "Academic focus"],
-                        free: true,
-                        level: "Academic"
+                        "name": "University of San Carlos Cebuano Studies Center",
+                        "url": "https://www.cebuanostudiescenter.com/",
+                        "free": true,
+                        "level": "Academic",
+                        "features": [
+                            "Digitized historical materials for academic purposes"
+                        ]
                     },
                     {
-                        name: "Cebu Normal University RILS",
-                        url: "https://cnu.edu.ph/",
-                        features: ["Research institute for language", "Graduate programs", "Research publications", "Regional center designation", "Academic study focus"],
-                        free: true,
-                        level: "Academic"
+                        "name": "Cebu Normal University RILS",
+                        "url": "https://cnu.edu.ph/",
+                        "free": true,
+                        "level": "Academic",
+                        "features": [
+                            "Regional center designation for academic study"
+                        ]
                     },
                     {
-                        name: "Philippine eLibrary",
-                        url: "https://www.elib.gov.ph/",
-                        features: ["Digital library consortium", "Union catalog", "Digitized Filipiniana materials", "Theses and dissertations", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Philippine eLibrary",
+                        "url": "https://www.elib.gov.ph/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Theses",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "National Library of Philippines",
-                        url: "https://web.nlp.gov.ph/",
-                        features: ["National digital collections", "Digitized Filipiniana materials", "Historical documents", "Cultural heritage materials", "All skill levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "National Library of Philippines",
+                        "url": "https://web.nlp.gov.ph/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
                     }
                 ]
             },
             {
-                category: "Community Forums and Social Media",
-                items: [
+                "category": "Community Forums and Social Media",
+                "items": [
                     {
-                        name: "Cebu Language Exchange Group",
-                        url: "https://www.facebook.com/groups/cebulanguageexchangegroup/",
-                        features: ["Facebook community", "In-person meetups", "Cultural sharing", "Language exchange", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Cebu Language Exchange Group",
+                        "url": "https://www.facebook.com/groups/cebulanguageexchangegroup/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Community support",
+                            "Facebook community with in-person meetups",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "The Cebuano Facebook",
-                        url: "https://www.facebook.com/TheCebuano/",
-                        features: ["Lifestyle and culture page", "101,000+ likes", "Event announcements", "Cultural content", "All skill levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "The Cebuano Facebook",
+                        "url": "https://www.facebook.com/TheCebuano/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Lifestyle",
+                            "Culture page with 101,000+ likes",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "CDN Digital Facebook",
-                        url: "https://www.facebook.com/cdndigital/",
-                        features: ["News community", "2.5+ million likes", "Active discussions", "Local news focus", "Intermediate level"],
-                        free: true,
-                        level: "Intermediate"
+                        "name": "CDN Digital Facebook",
+                        "url": "https://www.facebook.com/cdndigital/",
+                        "free": true,
+                        "level": "Intermediate",
+                        "features": [
+                            "Community support",
+                            "News community with 2",
+                            "5+ million likes",
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "Binisaya.com Forums",
-                        url: "https://www.binisaya.com/",
-                        features: ["Community forums", "Translation help", "Cultural information", "Active discussions", "All proficiency levels"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Binisaya.com Forums",
+                        "url": "https://www.binisaya.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Community support",
+                            "Community forums with translation help",
+                            "All levels"
+                        ]
                     }
                 ]
             }
@@ -492,6 +656,4 @@ const cebuanoResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.cebuano = cebuanoResources;
-}
+export default cebuanoResources;

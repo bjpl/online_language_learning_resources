@@ -19,70 +19,70 @@ const guaraniResources = {
                     {
                         name: "Maitei Platform",
                         url: "http://maitei.uni.edu.py/login",
-                        description: "Universidad Nacional de Itapúa virtual learning platform with gamified content - free platform funded by CONACYT (G. 493,300,000) with multimedia reactivos and communicative methodology",
+                        features: ["Virtual university learning platform", "Gamified multimedia content", "CONACYT funded (G. 493M)", "Communicative methodology approach"],
                         free: true,
                         level: "Multiple Levels"
                     },
                     {
                         name: "Live Lingua Project",
                         url: "https://www.livelingua.com/project/peace-corps/guarani",
-                        description: "US Peace Corps Guaraní materials with e-books, audio files, pronunciation practice - completely free with no registration required, downloadable content",
+                        features: ["US Peace Corps materials", "E-books and audio files", "Pronunciation practice included", "No registration required", "Downloadable content available"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "SPL Virtual Workshops",
                         url: "https://spl.gov.py/",
-                        description: "Guarani ñe'ẽ. Taller básico para hablar y escribir la lengua guaraní via Facebook Live Tuesdays 14:00-15:00 - free government workshops with certification after evaluation",
+                        features: ["Government Facebook Live workshops", "Basic speaking and writing", "Tuesdays 14:00-15:00 schedule", "Certification after evaluation"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Duolingo Guaraní Course",
                         url: "https://www.duolingo.com/course/gn/es/Learn-Guarani",
-                        description: "Bite-sized gamified lessons from Spanish base - free with optional premium, full mobile app compatibility",
+                        features: ["Bite-sized gamified lessons", "Spanish to Guaraní", "Mobile app compatible", "Optional premium features"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "UP Cursos Grátis (Brazil)",
                         url: "https://upcursosgratis.com.br/curso-online-gratis/guarany",
-                        description: "30-hour Brazilian course focusing on Tupi-Guaraní linguistic family - 24/7 access with PDF materials, optional certificate for R$ 59.90",
+                        features: ["30-hour Brazilian course", "Tupi-Guaraní linguistic focus", "24/7 access available", "PDF materials included", "Optional certificate R$ 59.90"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Anglo Cursos (Brazil)",
                         url: "https://anglocursos.com.br/cursos/de/educacao/a-lingua-tupi-guarani/gratis",
-                        description: "140-hour adjustable course on Tupi-Guaraní influence - free course with optional paid certificate, focuses on linguistic history",
+                        features: ["140-hour adjustable course", "Tupi-Guaraní influence study", "Linguistic history focus", "Optional paid certificate"],
                         free: true,
                         level: "Academic"
                     },
                     {
                         name: "UBA Laboratorio de Idiomas",
                         url: "https://idiomas.filo.uba.ar/es/guarani",
-                        description: "6-level program with cultural aspects and conversation practice - official UBA certification, quarterly courses, online and in-person",
+                        features: ["6-level structured program", "Cultural aspects included", "Conversation practice sessions", "Official UBA certification", "Online and in-person"],
                         free: false,
                         level: "All Levels"
                     },
                     {
                         name: "Complementar Cursos (Brazil)",
                         url: "https://complementarcursos.com.br/curso-online-gratis/guarany",
-                        description: "20-hour self-paced Brazilian course - lifetime access with optional certificate for R$ 69.90",
+                        features: ["20-hour self-paced course", "Brazilian course format", "Lifetime access included", "Optional certificate R$ 69.90"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "El Granel Cursos Cortos",
                         url: "https://www.elgranel.com/informacion-del-evento/cursos-cortos-de-guarani-online-2",
-                        description: "Short online courses with conversation practice - communicative approach with optional community visits, specialized teachers",
+                        features: ["Short online courses", "Conversation practice focus", "Communicative teaching approach", "Optional community visits", "Specialized Guaraní teachers"],
                         free: false,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Guarani.es Platform",
                         url: "https://guarani.es/",
-                        description: "Comprehensive e-learning declared of Educational Interest by Paraguay's MEC - 32 interactive lessons, 3 modalities, 1-year access",
+                        features: ["MEC Educational Interest declaration", "32 interactive lessons", "Three learning modalities", "One-year access period"],
                         free: false,
                         level: "All Levels"
                     }
@@ -94,42 +94,42 @@ const guaraniResources = {
                     {
                         name: "Academia de la Lengua Guaraní",
                         url: "https://spl.gov.py/es/academia-de-la-lengua-guarani/",
-                        description: "Paraguay's official language academy under Law 4251/10 with 30 members - standardizes orthography, grammar, and lexicology",
+                        features: ["Official language academy", "Law 4251/10 established", "30 member institution", "Standardizes orthography and grammar"],
                         free: true,
                         level: "Advanced/Academic"
                     },
                     {
                         name: "Secretaría de Políticas Lingüísticas",
                         url: "https://spl.gov.py/",
-                        description: "Paraguay's ministerial language secretariat - virtual workshops via Facebook Live, policy documents, educational materials",
+                        features: ["Ministerial language secretariat", "Facebook Live workshops", "Policy documents available", "Educational materials provided"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Paraguay Aprende",
                         url: "https://aprendizaje.mec.edu.py/aprendizaje/",
-                        description: "MEC digital learning platform - comprehensive K-12 educational resources with multimedia content and assessment tools",
+                        features: ["MEC digital platform", "K-12 educational resources", "Multimedia content included", "Assessment tools available"],
                         free: true,
                         level: "K-12"
                     },
                     {
                         name: "Corrientes Ministry Resources (Argentina)",
                         url: "https://www.mec.gob.ar/",
-                        description: "Argentine provincial education ministry - Law 5598/04 co-official status with mandatory Guaraní education and teacher training",
+                        features: ["Argentine provincial ministry", "Law 5598/04 co-official", "Mandatory Guaraní education", "Teacher training programs"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "UNIBOL Guaraní (Bolivia)",
                         url: "https://unibolguarani.edu.bo/",
-                        description: "Bolivia's indigenous university - full degrees in Guaraní covering Eastern/Western variants with productive entrepreneurship",
+                        features: ["Indigenous university degrees", "Eastern/Western Guaraní variants", "Productive entrepreneurship focus", "Full academic programs"],
                         free: false,
                         level: "University Level"
                     },
                     {
                         name: "FUNAI Projects (Brazil)",
                         url: "https://www.gov.br/funai/",
-                        description: "Brazil's indigenous foundation - community education with environmental recovery and cultural preservation, São Paulo funding",
+                        features: ["Indigenous foundation programs", "Community education focus", "Environmental recovery projects", "Cultural preservation initiatives", "São Paulo funding"],
                         free: true,
                         level: "Community Education"
                     }
@@ -143,42 +143,42 @@ const guaraniResources = {
                     {
                         name: "Gramática Guaraní (2020)",
                         url: "https://guaraniayvu.com/pdf/GramaticaGuarani.pdf",
-                        description: "Official 255+ page grammar by Academia de la Lengua Guaraní - complete coverage of phonetics, orthography, morphology, syntax under Creative Commons",
+                        features: ["Official 255+ page grammar", "Academia de la Lengua", "Complete linguistic coverage", "Creative Commons license"],
                         free: true,
                         level: "Comprehensive"
                     },
                     {
                         name: "Hablemos el Guaraní",
                         url: "https://acervo.socioambiental.org/sites/default/files/documents/GIL00007.pdf",
-                        description: "Complete 4-level course by Diego Ortiz, S.J. (CEPAG) - dialogues, exercises, vocabulary for each level in Spanish-Guaraní bilingual format",
+                        features: ["4-level complete course", "Diego Ortiz S.J. author", "Dialogues and exercises", "Spanish-Guaraní bilingual format"],
                         free: true,
                         level: "Beginner to Advanced"
                     },
                     {
                         name: "Avañe'ẽ del Taragui Dictionary",
                         url: "https://www.mec.gob.ar/descargas/Documentos/Educacion%20Intercultural%20Bilingue/GUARANI/avane-Diccionario-Guarani-Esp-Esp-Guarani.pdf",
-                        description: "147+ page bilingual dictionary from Corrientes Ministry of Education - based on 1950 Montevideo Convention orthography with ACHEGETY alphabet and cultural context",
+                        features: ["147+ page bilingual dictionary", "Corrientes Ministry source", "1950 Montevideo Convention", "ACHEGETY alphabet system", "Cultural context included"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Bolivia Guaraní Materials",
                         url: "https://web.ddechuquisaca.gob.bo/material-educativo-guarani/",
-                        description: "Chuquisaca educational materials for Guaraní revitalization - Currículo Regionalizado based on ƚvɨ Maraëɨ philosophy with multiple downloadable PDFs",
+                        features: ["Chuquisaca educational materials", "Guaraní revitalization focus", "ƚvɨ Maraëɨ philosophy", "Multiple downloadable PDFs"],
                         free: true,
                         level: "Teacher Training & K-12"
                     },
                     {
                         name: "Paraguay Incluye Resources",
                         url: "https://www.paraguayincluye.org/recursos/",
-                        description: "Pedagogical materials in Spanish and Guaraní - formal/non-formal education with child rights focus in universal format",
+                        features: ["Spanish-Guaraní pedagogical materials", "Formal/non-formal education", "Child rights focus", "Universal format design"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Peace Corps Materials",
                         url: "https://www.livelingua.com/project/peace-corps/guarani",
-                        description: "Complete US government-developed course - public domain with cultural notes, downloadable audio and PDFs",
+                        features: ["US government-developed course", "Public domain materials", "Cultural notes included", "Audio and PDFs"],
                         free: true,
                         level: "Beginner to Intermediate"
                     }
@@ -190,35 +190,35 @@ const guaraniResources = {
                     {
                         name: "Tesoro de la lengua guaraní (1639)",
                         url: "https://archive.org/details/tesorodelalengua00ruiz",
-                        description: "Antonio Ruiz de Montoya's foundational dictionary - public domain, first major lexical repository in multiple formats",
+                        features: ["Antonio Ruiz de Montoya", "Foundational 1639 dictionary", "First major lexical repository", "Multiple digital formats"],
                         free: true,
                         level: "Historical/Advanced"
                     },
                     {
                         name: "Vocabulario y Tesoro (1876)",
                         url: "https://archive.org/details/vocabularioyteso01ruiz",
-                        description: "2-volume bilingual historical dictionary - Part 1: Spanish-Guaraní, Part 2: Guaraní-Spanish in PDF and ePub",
+                        features: ["2-volume historical dictionary", "Spanish-Guaraní bilingual", "PDF and ePub", "1876 publication"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "El Guaraní Conquistado Y Reducido",
                         url: "https://archive.org/details/melia-bartomeu.-el-guarani-conquistado-y-reducido-1997",
-                        description: "Bartomeu Melià's historical and linguistic analysis - Attribution-NoDerivs 4.0 International license, comprehensive research",
+                        features: ["Bartomeu Melià analysis", "Historical linguistic research", "Attribution-NoDerivs 4.0 license", "Comprehensive academic study"],
                         free: true,
                         level: "Academic"
                     },
                     {
                         name: "Método práctico (1925)",
                         url: "https://dokumen.pub/metodo-practico-para-aprender-la-lengua-guarani-3-ed.html",
-                        description: "141-page practical learning method, 3rd edition - historical teaching method in PDF format",
+                        features: ["141-page practical method", "1925 3rd edition", "Historical teaching approach", "PDF format available"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "LÉXICO GUARANI MBYÁ",
                         url: "https://www.sil.org/resources/archives/72342",
-                        description: "SIL Brasil's Mbyá Guaraní-Portuguese lexicon from 2016 - comprehensive lexicon with grammar introduction for education",
+                        features: ["SIL Brasil lexicon", "Mbyá Guaraní-Portuguese", "2016 comprehensive edition", "Educational grammar introduction"],
                         free: true,
                         level: "All Levels"
                     }
@@ -230,21 +230,21 @@ const guaraniResources = {
                     {
                         name: "Portal Guaraní Literature",
                         url: "https://www.portalguarani.com/",
-                        description: "Traditional and contemporary Guaraní literature - cultural preservation focus with multiple authors",
+                        features: ["Traditional and contemporary literature", "Cultural preservation focus", "Multiple author collection"],
                         free: true,
                         level: "Various"
                     },
                     {
                         name: "Archive.org Guaraní Collection",
                         url: "https://archive.org/",
-                        description: "Historical texts and manuscripts - public domain works in multiple formats with searchable database",
+                        features: ["Historical texts collection", "Public domain manuscripts", "Multiple digital formats", "Searchable database interface"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Wikibooks Grammar",
                         url: "https://es.wikibooks.org/wiki/Guaraní/Gramática/Verbos_irregulares",
-                        description: "Comprehensive online grammar guide - community-maintained with detailed conjugation rules and free access",
+                        features: ["Comprehensive grammar guide", "Community-maintained content", "Detailed conjugation rules", "Free online access"],
                         free: true,
                         level: "All Levels"
                     }
@@ -258,21 +258,21 @@ const guaraniResources = {
                     {
                         name: "Clases de Guaraní",
                         url: "https://open.spotify.com/",
-                        description: "10 programs by Red Corrientes de Derechos Humanos - created during COVID-19, bilingual Spanish/Guaraní",
+                        features: ["10 educational programs", "Human rights organization", "COVID-19 creation period", "Bilingual Spanish/Guaraní"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Expresividad del idioma",
                         url: "https://www.ivoox.com/",
-                        description: "Episodes on Guaraní expressiveness by Camila Da Silva Del Valle - multi-episode series on linguistic features",
+                        features: ["Guaraní expressiveness episodes", "Camila Da Silva", "Multi-episode series", "Linguistic features focus"],
                         free: true,
                         level: "Intermediate"
                     },
                     {
                         name: "Radio Nacional Podcasts",
                         url: "https://www.radionacional.gov.py/",
-                        description: "Various Guaraní content podcasts - government-produced with educational focus",
+                        features: ["Government-produced podcasts", "Various Guaraní content", "Educational focus programming"],
                         free: true,
                         level: "All Levels"
                     }
@@ -284,21 +284,21 @@ const guaraniResources = {
                     {
                         name: "Gilda Ferreira YouTube",
                         url: "https://www.youtube.com/",
-                        description: "Grammar rules, word formation, conversation lessons - created during COVID-19 with viral international reach and Spanish subtitles",
+                        features: ["Grammar and conversation lessons", "COVID-19 creation period", "Viral international reach", "Spanish subtitles available"],
                         free: true,
                         level: "All Ages"
                     },
                     {
                         name: "David Galeano Olivera Channel",
                         url: "https://www.youtube.com/",
-                        description: "4+ chapters with 6-20 minute structured lessons - member of Ateneo de Lengua y Cultura Guaraní",
+                        features: ["4+ structured chapters", "6-20 minute lessons", "Ateneo member instructor", "Cultural organization backing"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Curso Guarani Videos",
                         url: "https://grunevi.com/curso-guarani-videos/",
-                        description: "Sequential lessons on alphabet, pronunciation, phrases - teaches oral vs. nasal vowels with clear explanations",
+                        features: ["Sequential alphabet lessons", "Pronunciation training focus", "Oral vs nasal vowels", "Clear teaching explanations"],
                         free: true,
                         level: "Beginner"
                     }
@@ -310,21 +310,21 @@ const guaraniResources = {
                     {
                         name: "Radio Nacional Paraguay",
                         url: "https://www.radionacional.gov.py/",
-                        description: "Public radio with Guaraní programming - online streaming with news and culture in Guaraní",
+                        features: ["Public radio programming", "Online streaming available", "Guaraní news coverage", "Cultural content focus"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Radio Guaraní FM 91.9",
                         url: "https://radioguarani.com.py/",
-                        description: "Music, news, entertainment in Guaraní - Google Play Store app available with national/international coverage",
+                        features: ["Music and entertainment", "Google Play app", "National/international coverage", "News in Guaraní"],
                         free: true,
                         level: "All Levels"
                     },
                     {
                         name: "Ayvu Marane'ÿ Channel",
                         url: "https://www.youtube.com/",
-                        description: "First 24-hour Guaraní TV with documentary and scientific-social programming - exclusively in Guaraní, directed by Mario Bogado",
+                        features: ["First 24-hour Guaraní TV", "Documentary programming focus", "Scientific-social content", "Mario Bogado direction"],
                         free: true,
                         level: "All Levels"
                     }
@@ -338,37 +338,37 @@ const guaraniResources = {
                     {
                         name: "Guarani Ayvu",
                         url: "https://play.google.com/store/apps/details?id=org.populistech",
-                        description: "Translation app with educational resources - 50,000+ downloads, Spanish-English-Guaraní, launched 2021",
+                        features: ["Translation app", "50,000+ downloads", "Spanish-English-Guaraní support", "2021 launch"],
                         free: true
                     },
                     {
                         name: "ArandukApp",
                         url: "https://play.google.com/store/",
-                        description: "Audio reproduction of Guaraní texts - SPL/GGG/FPUNA collaboration with texts by original authors",
+                        features: ["Audio text reproduction", "SPL/GGG/FPUNA collaboration", "Original author texts"],
                         free: true
                     },
                     {
                         name: "Guarani Boliviano",
                         url: "https://play.google.com/store/",
-                        description: "Dictionary for Bolivian Guaraní variant - Mingatics developer also offers other indigenous languages",
+                        features: ["Bolivian Guaraní dictionary", "Mingatics developer", "Indigenous language collection"],
                         free: true
                     },
                     {
                         name: "Duolingo Mobile",
                         url: "https://www.duolingo.com/",
-                        description: "Mobile version of web course - offline lessons with progress tracking and gamification",
+                        features: ["Mobile web course", "Offline lesson access", "Progress tracking system", "Gamification elements"],
                         free: true
                     },
                     {
                         name: "Kachibot",
                         url: "https://www.una.py/",
-                        description: "Educational robot with app teaching numbers, colors, foods, animals - interactive learning for children/foreigners, UNA student project",
+                        features: ["Educational robot app", "Numbers, colors, foods, animals", "Children/foreigner focus", "UNA student project"],
                         free: true
                     },
                     {
                         name: "Ñañe'ẽ Board Game App",
                         url: "https://www.boardgamegeek.com/",
-                        description: "Create phrases from individual words - physical board game + app with bilingual cards",
+                        features: ["Phrase creation game", "Physical board + app", "Bilingual card system"],
                         free: false
                     }
                 ]
@@ -379,49 +379,49 @@ const guaraniResources = {
                     {
                         name: "GuaraniAyvuWeb",
                         url: "https://guaraniayvu.org/",
-                        description: "Trilingual dictionary (Guaraní-Spanish-English) - audio pronunciation with extensive vocabulary and mobile responsive",
+                        features: ["Trilingual dictionary platform", "Audio pronunciation guide", "Extensive vocabulary database", "Mobile responsive design"],
                         free: true
                     },
                     {
                         name: "Glosbe Dictionary",
                         url: "https://glosbe.com/en/gn",
-                        description: "Multilingual dictionary platform - context examples with API available, community-based, picture dictionary",
+                        features: ["Multilingual dictionary platform", "Context examples provided", "API available", "Picture dictionary feature"],
                         free: true
                     },
                     {
                         name: "Google Translate",
                         url: "https://translate.google.com/",
-                        description: "Translation for 100+ languages - text/voice/image translation with API integration and mobile apps",
+                        features: ["100+ language support", "Text/voice/image translation", "API integration available", "Mobile app access"],
                         free: true
                     },
                     {
                         name: "Paraguay Gov Translator",
                         url: "https://www.paraguay.gov.py/traductor-guarani",
-                        description: "Official government translation tool - government-backed accuracy with Spanish-Guaraní focus",
+                        features: ["Official government tool", "Government-backed accuracy", "Spanish-Guaraní focus"],
                         free: true
                     },
                     {
                         name: "Keyman Guaraní Keyboard",
                         url: "https://keyman.com/keyboards/basic_kbdgn",
-                        description: "Professional keyboard layout - multi-platform support with full Unicode and free download",
+                        features: ["Professional keyboard layout", "Multi-platform support", "Full Unicode compatibility", "Free download"],
                         free: true
                     },
                     {
                         name: "COREGUAPA",
                         url: "https://spl.gov.py/",
-                        description: "Corpus of Reference of Current Paraguayan Guaraní - 19 digitized works with frequency studies, academic tool",
+                        features: ["Reference corpus tool", "19 digitized works", "Frequency studies included", "Academic research tool"],
                         free: true
                     },
                     {
                         name: "Wiktionary IPA",
                         url: "https://en.wiktionary.org/wiki/Category:Guaraní_terms_with_IPA_pronunciation",
-                        description: "303+ terms with IPA pronunciation - phonetic transcriptions with etymologies and usage examples",
+                        features: ["303+ IPA pronunciation terms", "Phonetic transcriptions provided", "Etymology information", "Usage examples included"],
                         free: true
                     },
                     {
                         name: "Forvo Pronunciation",
                         url: "https://forvo.com/languages/gn/",
-                        description: "Native speaker pronunciation dictionary - community-contributed with growing collection",
+                        features: ["Native speaker pronunciations", "Community-contributed content", "Growing collection"],
                         free: true
                     }
                 ]
@@ -434,25 +434,25 @@ const guaraniResources = {
                     {
                         name: "Centro de Trabalho Indigenista (Brazil)",
                         url: "https://trabalhoindigenista.org.br/povo-guarani/",
-                        description: "NGO working since 1978 - literacy programs and land rights from São Paulo to Espírito Santo",
+                        features: ["NGO since 1978", "Literacy programs focus", "Land rights advocacy", "São Paulo to Espírito Santo"],
                         free: true
                     },
                     {
                         name: "OPANÁ Chão Indígena",
                         url: "https://opana.fld.com.br/",
-                        description: "Avá Guaraní communities in Western Paraná - 3,000+ trees planted with agroecological systems, Itaipu Binacional support",
+                        features: ["Avá Guaraní communities", "3,000+ trees planted", "Agroecological systems focus", "Itaipu Binacional support"],
                         free: true
                     },
                     {
                         name: "Consejo de Capitanes Guaraníes (Bolivia)",
                         url: "https://www.ccch.org.bo/",
-                        description: "Community-based educational materials - intercultural, intracultural, depatriarchalizing education in Chuquisaca",
+                        features: ["Community-based education materials", "Intercultural approach", "Depatriarchalizing education", "Chuquisaca region focus"],
                         free: true
                     },
                     {
                         name: "Paraguay Incluye",
                         url: "https://www.paraguayincluye.org/recursos/",
-                        description: "Multi-organization civil society initiative - positive parenting, early stimulation, children's rights",
+                        features: ["Multi-organization civil initiative", "Positive parenting focus", "Early stimulation programs", "Children's rights advocacy"],
                         free: true
                     }
                 ]

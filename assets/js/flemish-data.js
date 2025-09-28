@@ -20,42 +20,42 @@ const flemishResources = {
                     {
                         name: "Goesting in Taal",
                         url: "https://www.goestingintaal.be/nl/",
-                        description: "Specialized platform teaching informal Flemish (tussentaal) rather than standard Dutch for B1+ intermediate learners with free 10-lesson email course and audio fragments.",
+                        features: ["Teaches informal Flemish tussentaal", "Free 10-lesson email course", "Audio fragments included", "B1+ intermediate level focus"],
                         free: true,
                         level: "B1+ (Intermediate)"
                     },
                     {
                         name: "NedBox",
                         url: "https://www.nedbox.be/",
-                        description: "KU Leuven's interactive platform with 500+ exercises using TV fragments and newspaper articles for A1-B1+ learners, completely free with mobile app and chatbot conversations, no registration required.",
+                        features: ["KU Leuven's interactive platform", "500+ exercises available", "TV fragments and articles", "Mobile app included", "No registration required"],
                         free: true,
                         level: "A1 to B1+"
                     },
                     {
                         name: "NedBox Alfa",
                         url: "https://www.nedbox.be/",
-                        description: "Special version of NedBox for low-literate learners with adapted exercises for literacy development in Flemish for beginners.",
+                        features: ["Special NedBox version", "Low-literate learner focus", "Adapted literacy exercises", "Beginner-friendly content"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "VDAB Online Learning",
                         url: "https://www.vdab.be/opleidingen/onlineleren",
-                        description: "Flemish government employment agency offering 300+ free courses for A1-B1+ including free Dutch grammar courses, sector-specific vocabulary, and professional Dutch.",
+                        features: ["Flemish government employment agency", "300+ free courses", "Grammar and vocabulary", "Professional Dutch included"],
                         free: true,
                         level: "A1 to B1+"
                     },
                     {
                         name: "Agentschap Integratie en Inburgering",
                         url: "https://www.integratie-inburgering.be/en",
-                        description: "Official Flemish government language guidance for all levels with free consultation, placement services, and language testing.",
+                        features: ["Official government language guidance", "Free consultation services", "Placement and testing", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Ik spreek Vlaams (Podcast Course)",
                         url: "https://podcasts.apple.com/us/podcast/ik-spreek-vlaams/id1479304922",
-                        description: "Beginner-friendly podcast series for learning Flemish with 10 episodes covering basics, available on all podcast platforms for A1-A2 level.",
+                        features: ["Beginner-friendly podcast series", "10 episodes covering basics", "Available on all platforms", "A1-A2 level focus"],
                         free: true,
                         level: "A1 to A2"
                     }
@@ -67,21 +67,21 @@ const flemishResources = {
                     {
                         name: "CVO Centers (Adult Education)",
                         url: "https://www.vlaanderen.be/",
-                        description: "Adult education centers throughout Flanders offering face-to-face, online, and blended courses for all levels with regional accessibility.",
+                        features: ["Adult education centers", "Face-to-face and online", "Blended course options", "Regional accessibility"],
                         free: false,
                         level: "All levels"
                     },
                     {
                         name: "University Language Centers",
                         url: "https://www.ugent.be/",
-                        description: "Academic Dutch courses at UGent, KU Leuven, and UAntwerpen for A1-C1 with some free resources available through university libraries.",
+                        features: ["Academic Dutch courses", "Three major universities", "A1-C1 proficiency levels", "Free library resources"],
                         free: false,
                         level: "A1 to C1"
                     },
                     {
                         name: "meemoo - Flemish Audiovisual Archive",
                         url: "https://meemoo.be/en",
-                        description: "Flemish audiovisual heritage archive with educational materials for teachers covering various proficiency levels.",
+                        features: ["Flemish audiovisual heritage archive", "Educational materials for teachers", "Various proficiency levels", "Cultural heritage focus"],
                         free: true,
                         level: "Various"
                     }
@@ -95,35 +95,35 @@ const flemishResources = {
                     {
                         name: "KlasCement",
                         url: "https://www.klascement.net/",
-                        description: "Official Flemish educational resources network with 20,000+ members offering free lesson materials, presentations, and exercises for all levels.",
+                        features: ["Official educational resources network", "20,000+ active members", "Free lesson materials", "Presentations and exercises"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Onderwijs Vlaanderen",
                         url: "https://onderwijs.vlaanderen.be/",
-                        description: "Flemish Ministry of Education resources including Het Archief voor Onderwijs with thousands of audio/video fragments for various proficiency levels.",
+                        features: ["Ministry of Education resources", "Het Archief voor Onderwijs", "Thousands of audio/video", "Various proficiency levels"],
                         free: true,
                         level: "Various"
                     },
                     {
                         name: "Wikibooks Dutch/Flemish Lesson",
                         url: "https://en.wikibooks.org/wiki/Dutch/Lesson_Flemish",
-                        description: "Open source lesson on Flemish vs. Standard Dutch for all levels with pronunciation guides, grammar differences, and Creative Commons license.",
+                        features: ["Flemish vs Standard Dutch", "Pronunciation guides included", "Grammar differences explained", "Creative Commons license"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "DBNL (Digital Library for Dutch Literature)",
                         url: "https://www.dbnl.org",
-                        description: "Digital library for Dutch and Flemish literature for advanced learners with historical texts, academic journals, and literary criticism.",
+                        features: ["Digital literature library", "Historical texts included", "Academic journals available", "Literary criticism resources"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Flandrica.be",
                         url: "http://flandrica.be",
-                        description: "Digital heritage library portal for intermediate to advanced learners with medieval manuscripts, historical books, and literary works.",
+                        features: ["Digital heritage library portal", "Medieval manuscripts included", "Historical books collection", "Literary works archive"],
                         free: true,
                         level: "Intermediate to Advanced"
                     }
@@ -135,42 +135,42 @@ const flemishResources = {
                     {
                         name: "BelgicaPress",
                         url: "https://www.belgicapress.be/?lang=NL",
-                        description: "Historical Belgian newspapers (1830-1970) for intermediate to advanced learners, full-text searchable via OCR, completely free access.",
+                        features: ["Historical Belgian newspapers", "1830-1970 time period", "Full-text OCR searchable", "Completely free access"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Letterenhuis",
                         url: "https://letterenhuis.be/en",
-                        description: "Literary archive of Flanders for advanced learners with 2 million letters/manuscripts and some digital materials available for free.",
+                        features: ["Literary archive of Flanders", "2 million letters/manuscripts", "Digital materials available", "Advanced learner focus"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Strips.be",
                         url: "https://strips.be/",
-                        description: "Digital comics platform for elementary to intermediate learners with 5 free albums and major Flemish series available.",
+                        features: ["Digital comics platform", "5 free albums", "Major Flemish series", "Elementary to intermediate"],
                         free: true,
                         level: "Elementary to Intermediate"
                     },
                     {
                         name: "Project Gutenberg Dutch",
                         url: "https://www.gutenberg.org/browse/languages/nl",
-                        description: "Public domain Flemish literary works for advanced learners with historical texts about Belgium and Flanders.",
+                        features: ["Public domain literary works", "Historical Belgian texts", "Flanders-focused content", "Advanced learner material"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "KBR Digital Collections",
                         url: "https://www.kbr.be/en/collections/digital-collections/",
-                        description: "Royal Library of Belgium digital resources for all levels with Belgica digital library, free with MyKBR account.",
+                        features: ["Royal Library digital resources", "Belgica digital library", "Free MyKBR account", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Erfgoedbibliotheek",
                         url: "https://consciencebibliotheek.be/en",
-                        description: "Heritage library of Flemish culture for all levels with 1.5 million volumes and some digital collections available.",
+                        features: ["Heritage library Flemish culture", "1.5 million volumes", "Digital collections available", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     }
@@ -184,42 +184,42 @@ const flemishResources = {
                     {
                         name: "VRT MAX",
                         url: "https://www.vrt.be/vrtmax/",
-                        description: "Free streaming platform with all VRT (Flemish public broadcaster) content for all levels including live radio, podcasts, TV replays, and educational content.",
+                        features: ["Free VRT streaming platform", "Live radio and podcasts", "TV replays available", "Educational content included"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Op z'n Vlaams Podcast",
                         url: "https://podcasts.apple.com/us/podcast/op-zn-vlaams/id1535159546",
-                        description: "Cultural/educational podcast in clear Flemish for B2-C1 learners with transcripts available for each episode.",
+                        features: ["Cultural/educational podcast", "Clear Flemish language", "B2-C1 learner focus", "Episode transcripts available"],
                         free: true,
                         level: "B2 to C1"
                     },
                     {
                         name: "Wablieft",
                         url: "https://www.wablieft.be/nl",
-                        description: "Simplified Flemish news publication for A2-B1 learners with clear language without jargon and some free online content.",
+                        features: ["Simplified Flemish news", "Clear language no jargon", "A2-B1 learner focus", "Free online content"],
                         free: true,
                         level: "A2 to B1"
                     },
                     {
                         name: "Ketnet",
                         url: "https://www.ketnet.be",
-                        description: "Children's educational content in Flemish for elementary level including Ketnet Junior (ages 0-6) and educational series.",
+                        features: ["Children's educational content", "Ketnet Junior ages 0-6", "Educational series included", "Elementary level focus"],
                         free: true,
                         level: "Elementary"
                     },
                     {
                         name: "VRT Podcasts",
                         url: "https://www.vrt.be/vrtnws/nl/luister/podcasts/",
-                        description: "Extensive podcast catalog from VRT for B2-C2 learners covering news, culture, and educational content in authentic Flemish.",
+                        features: ["Extensive VRT podcast catalog", "News and culture", "Educational content included", "Authentic Flemish language"],
                         free: true,
                         level: "B2 to C2"
                     },
                     {
                         name: "Radio 1 Podcasts",
                         url: "https://www.vrt.be/vrtmax/",
-                        description: "In-depth audio content and podcasts for C1-C2 learners covering culture, politics, science, and personal stories via VRT MAX.",
+                        features: ["In-depth audio content", "Culture politics science", "Personal stories included", "C1-C2 advanced level"],
                         free: true,
                         level: "C1 to C2"
                     }
@@ -233,49 +233,49 @@ const flemishResources = {
                     {
                         name: "Het Vlaams Woordenboek",
                         url: "https://www.vlaamswoordenboek.be/",
-                        description: "Collaborative dictionary with 38,224+ Flemish terms for all levels featuring user voting, example sentences from Belgian media.",
+                        features: ["Collaborative Flemish dictionary", "38,224+ terms available", "User voting system", "Belgian media examples"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Dialectloket",
                         url: "https://www.dialectloket.be/woord/",
-                        description: "Comprehensive dialect dictionary portal for all levels with access to WVD, WLD, WBD, and phonetic transcriptions.",
+                        features: ["Comprehensive dialect dictionary portal", "WVD WLD WBD access", "Phonetic transcriptions included", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "e-WVD",
                         url: "https://e-wvd.be/",
-                        description: "Electronic dialect dictionary from University of Ghent with 1,999,593+ entries for all levels.",
+                        features: ["University of Ghent dictionary", "1,999,593+ entries available", "Electronic dialect resource", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Team Taaladvies",
                         url: "https://www.vlaanderen.be/taaladvies",
-                        description: "Official Flemish government language advice for all levels via phone (078 15 20 25), email support, and clear language initiative.",
+                        features: ["Official government language advice", "Phone and email support", "Clear language initiative", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "ANW (Algemeen Nederlands Woordenboek)",
                         url: "https://anw.ivdnt.org/search",
-                        description: "Scholarly online dictionary including Flemish usage for advanced learners with 297,099+ entries and daily updates.",
+                        features: ["Scholarly online dictionary", "Flemish usage included", "297,099+ entries available", "Daily updates provided"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Van Dale Gratis",
                         url: "https://www.vandale.nl/pages/gratis-woordenboek/vlaams",
-                        description: "Limited free version with Flemish entries for all levels, reliable authority for basic vocabulary.",
+                        features: ["Limited free version", "Flemish entries included", "Reliable vocabulary authority", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Taaladvies.net",
                         url: "https://taaladvies.net/",
-                        description: "Multi-partner language advice portal for all levels with searchable database and expert responses.",
+                        features: ["Multi-partner advice portal", "Searchable database included", "Expert responses available", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     }
@@ -287,21 +287,21 @@ const flemishResources = {
                     {
                         name: "NedBox App",
                         url: "https://apps.apple.com/",
-                        description: "Mobile version of NedBox platform for A1-A2 learners with interactive city map and offline capability on iOS and Android.",
+                        features: ["Mobile NedBox platform", "Interactive city map", "Offline capability included", "iOS and Android"],
                         free: true,
                         level: "A1 to A2"
                     },
                     {
                         name: "VRT MAX App",
                         url: "https://apps.apple.com/",
-                        description: "Complete VRT content platform for all levels with live streaming and Chromecast support on iOS and Android.",
+                        features: ["Complete VRT content platform", "Live streaming included", "Chromecast support available", "iOS and Android"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "VRT Radio Apps",
                         url: "https://apps.apple.com/",
-                        description: "Radio 1 and Studio Brussel apps for various levels with live streaming and podcast access on iOS and Android.",
+                        features: ["Radio 1 Studio Brussel", "Live streaming included", "Podcast access available", "iOS and Android"],
                         free: true,
                         level: "Various"
                     }
@@ -313,14 +313,14 @@ const flemishResources = {
                     {
                         name: "Woordenboek VGT",
                         url: "https://woordenboek.vlaamsegebarentaal.be",
-                        description: "Flemish Sign Language dictionary for all levels with 10,025 video signs, searchable by keywords.",
+                        features: ["Flemish Sign Language dictionary", "10,025 video signs", "Keyword searchable interface", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "CVO Semper VGT Course",
                         url: "https://www.cvosemper.be/en/opleidingen/vakgebied/205/cursus-vlaamse-gebarentaal-vgt",
-                        description: "Comprehensive VGT training course for all levels with 120 teaching periods and community interaction.",
+                        features: ["Comprehensive VGT training course", "120 teaching periods", "Community interaction included", "All proficiency levels"],
                         free: false,
                         level: "All levels"
                     }
@@ -334,35 +334,35 @@ const flemishResources = {
                     {
                         name: "HelloTalk",
                         url: "https://www.hellotalk.com/",
-                        description: "Language exchange app with Flemish speakers for all levels, 40+ million users worldwide with text/voice/video and translation tools.",
+                        features: ["Language exchange app", "40+ million users worldwide", "Text voice video chat", "Translation tools included"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Tandem",
                         url: "https://www.tandem.net/",
-                        description: "Swipe-based language matching for all levels with voice/video calls, message correction, and user reviews.",
+                        features: ["Swipe-based language matching", "Voice and video calls", "Message correction feature", "User review system"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "ConversationExchange",
                         url: "https://www.conversationexchange.com/",
-                        description: "Traditional language exchange website for all levels with face-to-face meetings, pen-pals, and various chat options.",
+                        features: ["Traditional language exchange website", "Face-to-face meetings available", "Pen-pal connections included", "Various chat options"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "MyLanguageExchange",
                         url: "http://mylanguageexchange.com/",
-                        description: "Language exchange with AI tools for all levels featuring speech recognition, inline translation, and lesson plans.",
+                        features: ["Language exchange AI tools", "Speech recognition included", "Inline translation feature", "Lesson plans available"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Vlaamse Podcast Gids",
                         url: "https://vlaamsepodcasts.be/",
-                        description: "Directory of all Flemish podcasts covering various proficiency levels with complete listing across all topics.",
+                        features: ["Complete Flemish podcast directory", "Various proficiency levels", "All topics covered", "Comprehensive listing provided"],
                         free: true,
                         level: "Various"
                     }

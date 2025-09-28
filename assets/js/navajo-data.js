@@ -1,382 +1,556 @@
 const navajoResources = {
-    name: "Navajo",
-    nativeName: "Diné Bizaad",
-    flag: "🇺🇸",
-    learners: "200K+",
-    speakers: "170K native",
-    highlights: [
+    "name": "Navajo",
+    "nativeName": "Diné Bizaad",
+    "flag": "🇺🇸",
+    "learners": "200K+",
+    "speakers": "170K native",
+    "highlights": [
         "150+ free resources including Duolingo course",
         "1,000+ page authoritative grammar (Young & Morgan)",
         "60+ graded readers from UNM Digital Library",
         "KTNN 660 AM: 24/7 Navajo radio since 1986"
     ],
-    resources: {
-        courses: [
+    "resources": {
+        "courses": [
             {
-                category: "Online Courses and Platforms",
-                items: [
+                "category": "Online Courses and Platforms",
+                "items": [
                     {
-                        name: "Duolingo Navajo",
-                        url: "https://www.duolingo.com/course/nv/en/Learn-Navajo",
-                        features: ["Gamified bite-sized lessons with scientifically proven methods (beginner)","Completely free","mobile and web-based","speaking practice included"],
-                        free: true
+                        "name": "Duolingo Navajo",
+                        "url": "https://www.duolingo.com/course/nv/en/Learn-Navajo",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Gamified exercises",
+                            "Completely free, mobile",
+                            "Speaking exercises",
+                            "Web-based, speaking practice included"
+                        ]
                     },
                     {
-                        name: "Learn Navajo",
-                        url: "https://www.learnnavajo.com/",
-                        features: ["Free online resources with cultural notes","grammar","vocabulary (beginner-intermediate)","Systematic progression from alphabet to grammar","phonetic guides"],
-                        free: true
+                        "name": "Learn Navajo",
+                        "url": "https://www.learnnavajo.com/",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Grammar exercises"
+                        ]
                     },
                     {
-                        name: "Phoenix Indian Center",
-                        url: "https://phxindcenter.org/language-culture/",
-                        features: ["Free 5-week hybrid Diné Bizaad classes (beginning-advanced)","ANA grant funded","Tuesday evenings (Zoom)","Saturday afternoons (in-person)"],
-                        free: true
+                        "name": "Phoenix Indian Center",
+                        "url": "https://phxindcenter.org/language-culture/",
+                        "free": true,
+                        "features": [
+                            "Advanced"
+                        ]
                     },
                     {
-                        name: "UNM Navajo Program",
-                        url: "https://navajo.unm.edu/courses/",
-                        features: ["Comprehensive academic courses NAVA 1110-2130","includes Medical Navajo (all levels)","Research-based","corpus development","first language acquisition focus"],
-                        free: true
+                        "name": "UNM Navajo Program",
+                        "url": "https://navajo.unm.edu/courses/",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "NAU Navajo Language Guide",
-                        url: "https://libraryguides.nau.edu/Navajo",
-                        features: ["Comprehensive resource guide with phonetic instruction (all levels)","Free access","detailed IPA chart integration","cultural materials"],
-                        free: true
+                        "name": "NAU Navajo Language Guide",
+                        "url": "https://libraryguides.nau.edu/Navajo",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Navajo Word of the Day",
-                        url: "http://navajowotd.com/",
-                        features: ["Daily Navajo phrases with audio pronunciation (all levels)","Free daily content","simple format","audio included"],
-                        free: true
+                        "name": "Navajo Word of the Day",
+                        "url": "http://navajowotd.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Audio exercises",
+                            "Free daily content, simple format, audio included"
+                        ]
                     },
                     {
-                        name: "Navajo 101",
-                        url: "https://www.101languages.net/navajo/",
-                        features: ["Basic Navajo language information (beginner)","Completely free","simple accessible format"],
-                        free: true
+                        "name": "Navajo 101",
+                        "url": "https://www.101languages.net/navajo/",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Completely free, simple accessible format"
+                        ]
                     }
                 ]
             }
         ],
-        books: [
+        "books": [
             {
-                category: "Open Educational Resources",
-                items: [
+                "category": "Open Educational Resources",
+                "items": [
                     {
-                        name: "Diné bizaad: Speak, Read, Write Navajo",
-                        url: "https://archive.org/details/dinebizaadspeakr0000goos",
-                        features: ["Comprehensive introduction textbook by Goossen (beginning-intermediate)","Free PDF download","cultural context included"],
-                        free: true
+                        "name": "Diné bizaad: Speak, Read, Write Navajo",
+                        "url": "https://archive.org/details/dinebizaadspeakr0000goos",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Goossen platform",
+                            "Free PDF download, cultural context included"
+                        ]
                     },
                     {
-                        name: "The Navajo Language (Young & Morgan)",
-                        url: "https://archive.org/details/navajolanguagegr0000youn",
-                        features: ["Definitive 1,000+ page grammar reference with dictionary (advanced/reference)","THE authoritative reference work","fully free download"],
-                        free: true
+                        "name": "The Navajo Language (Young & Morgan)",
+                        "url": "https://archive.org/details/navajolanguagegr0000youn",
+                        "free": true,
+                        "features": [
+                            "Advanced",
+                            "Grammar exercises"
+                        ]
                     },
                     {
-                        name: "The Navajo Verb (Faltz)",
-                        url: "https://archive.org/details/the-navajo-verb-a-grammar",
-                        features: ["531-page comprehensive verb system analysis (advanced)","Detailed grammatical analysis for serious students"],
-                        free: true
+                        "name": "The Navajo Verb (Faltz)",
+                        "url": "https://archive.org/details/the-navajo-verb-a-grammar",
+                        "free": true,
+                        "features": [
+                            "Advanced"
+                        ]
                     },
                     {
-                        name: "Ken Hale Archive",
-                        url: "http://www.swarthmore.edu/SocSci/tfernal1/nla/halearch/halearch.htm",
-                        features: ["Situational Navajo (4 parts)","Interactional Navajo (3 parts)","linguistics materials (all levels)","Open access through Navajo Language Academy bequest"],
-                        free: true
+                        "name": "Ken Hale Archive",
+                        "url": "http://www.swarthmore.edu/SocSci/tfernal1/nla/halearch/halearch.htm",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "MIT Open Access Grammar Guide",
-                        url: "https://dspace.mit.edu/handle/1721.1/146292",
-                        features: ["Diné Bizaad Bitsisiléí Bóhoo'aah grammar guide (beginning-intermediate)","Academic open access","connects English and Navajo grammar"],
-                        free: true
+                        "name": "MIT Open Access Grammar Guide",
+                        "url": "https://dspace.mit.edu/handle/1721.1/146292",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Grammar exercises",
+                            "Academic open access, connects English",
+                            "Navajo grammar"
+                        ]
                     },
                     {
-                        name: "Analytical Lexicon of Navajo (Young)",
-                        url: "https://archive.org/details/analyticallexico0000youn",
-                        features: ["1,466-page comprehensive lexical analysis (advanced)","Complete vocabulary reference"],
-                        free: true
+                        "name": "Analytical Lexicon of Navajo (Young)",
+                        "url": "https://archive.org/details/analyticallexico0000youn",
+                        "free": true,
+                        "features": [
+                            "Advanced",
+                            "Vocabulary exercises",
+                            "Complete vocabulary reference"
+                        ]
                     }
                 ]
             },
             {
-                category: "Reading Materials and Literature",
-                items: [
+                "category": "Reading Materials and Literature",
+                "items": [
                     {
-                        name: "Coyote Stories (Roessel)",
-                        url: "https://archive.org/details/coyotestoriesofn0000roes",
-                        features: ["14 traditional Navajo legends featuring Coyote (intermediate)","Cultural storytelling","traditional narratives"],
-                        free: true
+                        "name": "Coyote Stories (Roessel)",
+                        "url": "https://archive.org/details/coyotestoriesofn0000roes",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Cultural storytelling, traditional narratives"
+                        ]
                     },
                     {
-                        name: "Navajo Wikipedia",
-                        url: "http://nv.wikipedia.org",
-                        features: ["Encyclopedia content in Navajo language (intermediate-advanced)","Extensive contemporary content","actively updated"],
-                        free: true
+                        "name": "Navajo Wikipedia",
+                        "url": "http://nv.wikipedia.org",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Extensive contemporary content, actively updated"
+                        ]
                     },
                     {
-                        name: "For Our Navajo People",
-                        url: "https://archive.org/details/forournavajopeop0000unse",
-                        features: ["Historical documents in Navajo (1900-1960) (advanced)","Primary source materials","historical context"],
-                        free: true
+                        "name": "For Our Navajo People",
+                        "url": "https://archive.org/details/forournavajopeop0000unse",
+                        "free": true,
+                        "features": [
+                            "Advanced",
+                            "Primary source materials, historical context"
+                        ]
                     },
                     {
-                        name: "Diné College Multimedia Library",
-                        url: "http://hooghan.dinecollege.edu/cdte/mmbooks/tsf/multimediabooks.htm",
-                        features: ["7 reading levels with audio","text","pictures (all levels)","Interactive multimedia format"],
-                        free: true
+                        "name": "Diné College Multimedia Library",
+                        "url": "http://hooghan.dinecollege.edu/cdte/mmbooks/tsf/multimediabooks.htm",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Reading exercises",
+                            "Interactive exercises",
+                            "Interactive multimedia format"
+                        ]
                     }
                 ]
             }
         ],
-        audio: [
+        "audio": [
             {
-                category: "Radio Stations",
-                items: [
+                "category": "Radio Stations",
+                "items": [
                     {
-                        name: "KTNN 660 AM",
-                        url: "https://www.ktnnonline.com/",
-                        features: ["'Voice of the Navajo Nation' 24/7 live radio (all levels)","Immersive listening","bilingual programming since 1986"],
-                        free: true
+                        "name": "KTNN 660 AM",
+                        "url": "https://www.ktnnonline.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Immersive exercises"
+                        ]
                     },
                     {
-                        name: "KNDN 960 AM",
-                        url: "https://radio.securenetsystems.net/cirrusencore/KNDN",
-                        features: ["'All Navajo All The Time' radio station (advanced)","Primarily Navajo language","broadcasting since 1957"],
-                        free: true
+                        "name": "KNDN 960 AM",
+                        "url": "https://radio.securenetsystems.net/cirrusencore/KNDN",
+                        "free": true,
+                        "features": [
+                            "Advanced"
+                        ]
                     }
                 ]
             },
             {
-                category: "Podcasts",
-                items: [
+                "category": "Podcasts",
+                "items": [
                     {
-                        name: "Hózhó Speaks Podcast",
-                        url: "https://podcasts.apple.com/us/podcast/hozho-speaks/id1601751891",
-                        features: ["Weekly bilingual podcast on language","culture","history (intermediate)","Native speaker Clayton Long","30-minute episodes"],
-                        free: true
+                        "name": "Hózhó Speaks Podcast",
+                        "url": "https://podcasts.apple.com/us/podcast/hozho-speaks/id1601751891",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Native speaker content",
+                            "Native speaker Clayton Long, 30-minute episodes"
+                        ]
                     },
                     {
-                        name: "Healthy Navajo K'é",
-                        url: "https://open.spotify.com/show/1IVmG5fwGBRJgXpA3LqYsS",
-                        features: ["Health information in Navajo (all levels)","50-minute episodes","community health focus"],
-                        free: true
+                        "name": "Healthy Navajo K'é",
+                        "url": "https://open.spotify.com/show/1IVmG5fwGBRJgXpA3LqYsS",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "50-minute episodes, community health focus"
+                        ]
                     },
                     {
-                        name: "Navajo Coyote Stories",
-                        url: "https://www.youtube.com/playlist?list=PLsD4IZcqZs-5O1ZteUh3tO-lDfuQv21Tm",
-                        features: ["Traditional storytelling playlist (intermediate-advanced)","Audio with pictures","traditional narratives"],
-                        free: true
+                        "name": "Navajo Coyote Stories",
+                        "url": "https://www.youtube.com/playlist?list=PLsD4IZcqZs-5O1ZteUh3tO-lDfuQv21Tm",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Audio exercises",
+                            "Audio with pictures, traditional narratives"
+                        ]
                     }
                 ]
             },
             {
-                category: "YouTube Channels",
-                items: [
+                "category": "YouTube Channels",
+                "items": [
                     {
-                        name: "Clayton Long YouTube",
-                        url: "https://www.youtube.com/user/claynez/videos",
-                        features: ["Navajo lessons and cultural stories (beginner-intermediate)","Native speaker instruction with storytelling"],
-                        free: true
+                        "name": "Clayton Long YouTube",
+                        "url": "https://www.youtube.com/user/claynez/videos",
+                        "free": true,
+                        "features": [
+                            "Navajo lessons",
+                            "Beginner",
+                            "Native speaker content",
+                            "Native speaker instruction with storytelling"
+                        ]
                     },
                     {
-                        name: "Daybreakwarrior YouTube",
-                        url: "http://www.youtube.com/user/daybreakwarrior",
-                        features: ["Navajo lessons","songs","cultural content (all levels)","Videos include Navajo captions and English subtitles"],
-                        free: true
+                        "name": "Daybreakwarrior YouTube",
+                        "url": "http://www.youtube.com/user/daybreakwarrior",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Videos include Navajo captions",
+                            "English subtitles"
+                        ]
                     },
                     {
-                        name: "Navajo Language Learning Series",
-                        url: "https://www.youtube.com/channel/UCNUVyLZuZbgNtt5ezD0hl_Q/videos",
-                        features: ["Technical instruction on articulation","tonality","diphthongs (beginner-intermediate)","Detailed pronunciation and phonetic instruction"],
-                        free: true
+                        "name": "Navajo Language Learning Series",
+                        "url": "https://www.youtube.com/channel/UCNUVyLZuZbgNtt5ezD0hl_Q/videos",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Pronunciation exercises",
+                            "Detailed pronunciation",
+                            "Phonetic instruction"
+                        ]
                     }
                 ]
             },
             {
-                category: "Audio Archives",
-                items: [
+                "category": "Audio Archives",
+                "items": [
                     {
-                        name: "Library of Congress Archives",
-                        url: "https://www.loc.gov/audio/?fa=language:navaho",
-                        features: ["Historic field recordings","ceremonial chants","stories (advanced)","Archival material from early 1900s onwards"],
-                        free: true
+                        "name": "Library of Congress Archives",
+                        "url": "https://www.loc.gov/audio/?fa=language:navaho",
+                        "free": true,
+                        "features": [
+                            "Advanced",
+                            "Archival material from early 1900s onwards"
+                        ]
                     }
                 ]
             }
         ],
-        apps: [
+        "apps": [
             {
-                category: "Mobile Apps",
-                items: [
+                "category": "Mobile Apps",
+                "items": [
                     {
-                        name: "Speak Navajo Volume 1",
-                        url: "https://apps.apple.com/us/app/speak-navajo-language-volume-1/id447377972",
-                        features: ["Word dictionary with sound files (beginner)","iOS only","created by enrolled tribal member"],
-                        free: true
+                        "name": "Speak Navajo Volume 1",
+                        "url": "https://apps.apple.com/us/app/speak-navajo-language-volume-1/id447377972",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "iOS only, created by enrolled tribal member"
+                        ]
                     },
                     {
-                        name: "Adoone'é",
-                        url: "https://apps.apple.com/us/app/adoonee/id6451286112",
-                        features: ["Navajo clan system navigation and K'é terms (all levels)","iOS and Android","interactive clan relationships"],
-                        free: true
+                        "name": "Adoone'é",
+                        "url": "https://apps.apple.com/us/app/adoonee/id6451286112",
+                        "free": true,
+                        "features": [
+                            "Navajo clan system navigation",
+                            "All levels",
+                            "Interactive exercises",
+                            "Android, interactive clan relationships"
+                        ]
                     },
                     {
-                        name: "Navajo Code Talkers Language",
-                        url: "https://apps.apple.com/us/app/navajo-code-talkers-language/id512295906",
-                        features: ["51 WWII Code Talker military words (all levels)","Historical context","authentic USMC-released words"],
-                        free: true
+                        "name": "Navajo Code Talkers Language",
+                        "url": "https://apps.apple.com/us/app/navajo-code-talkers-language/id512295906",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Historical context, authentic USMC-released words"
+                        ]
                     },
                     {
-                        name: "Navajo Toddler",
-                        url: "https://apps.apple.com/us/app/navajo-toddler/id466048210",
-                        features: ["Interactive flashcards for ages 2-9 (beginner)","Numbers","colors","body parts","animals"],
-                        free: true
+                        "name": "Navajo Toddler",
+                        "url": "https://apps.apple.com/us/app/navajo-toddler/id466048210",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Interactive exercises",
+                            "Numbers, colors, body parts, animals"
+                        ]
                     },
                     {
-                        name: "Navaho-Linguistics GitHub",
-                        url: "https://github.com/OJB-Quantum/Navaho-Linguistics",
-                        features: ["Open source linguistic materials (advanced)","Quantum technology terms","UTF-8 encoding tables"],
-                        free: true
+                        "name": "Navaho-Linguistics GitHub",
+                        "url": "https://github.com/OJB-Quantum/Navaho-Linguistics",
+                        "free": true,
+                        "features": [
+                            "Advanced",
+                            "Quantum technology terms, UTF-8 encoding tables"
+                        ]
                     }
                 ]
             },
             {
-                category: "Dictionaries and Tools",
-                items: [
+                "category": "Dictionaries and Tools",
+                "items": [
                     {
-                        name: "NavajoDictionary.com",
-                        url: "https://www.navajodictionary.com/",
-                        features: ["Searchable online dictionary (all levels)","Free","audio pronunciation","daily examples"],
-                        free: true
+                        "name": "NavajoDictionary.com",
+                        "url": "https://www.navajodictionary.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Audio exercises",
+                            "Free, audio pronunciation, daily examples"
+                        ]
                     },
                     {
-                        name: "LanguageGeek Keyboard",
-                        url: "https://www.languagegeek.com/dene/keyboards/keymap_dine.html",
-                        features: ["Free Navajo keyboard layout (all levels)","Windows/Mac","full Unicode support for diacritical marks"],
-                        free: true
+                        "name": "LanguageGeek Keyboard",
+                        "url": "https://www.languagegeek.com/dene/keyboards/keymap_dine.html",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Keyman Diné Bizaad Keyboard",
-                        url: "https://help.keyman.com/keyboard/dine_bizaad/current-version",
-                        features: ["Community-developed keyboard (all levels)","Free","Unicode-compliant","mobile compatible"],
-                        free: true
+                        "name": "Keyman Diné Bizaad Keyboard",
+                        "url": "https://help.keyman.com/keyboard/dine_bizaad/current-version",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "Free, Unicode-compliant, mobile compatible"
+                        ]
                     },
                     {
-                        name: "Diné Bizaad Text Editor",
-                        url: "https://chriscarey.com/navajo/dine-editor.html",
-                        features: ["Web-based Navajo text input (all levels)","Free","designed for ChromeBooks","tone mark support"],
-                        free: true
+                        "name": "Diné Bizaad Text Editor",
+                        "url": "https://chriscarey.com/navajo/dine-editor.html",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Free, designed for ChromeBooks, tone mark support"
+                        ]
                     },
                     {
-                        name: "Forvo.com Navajo",
-                        url: "http://www.forvo.com/languages/nv/",
-                        features: ["Navajo word pronunciation dictionary (all levels)","Native speaker pronunciations"],
-                        free: true
+                        "name": "Forvo.com Navajo",
+                        "url": "http://www.forvo.com/languages/nv/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Pronunciation exercises",
+                            "Native speaker content",
+                            "Native speaker pronunciations"
+                        ]
                     },
                     {
-                        name: "Omniglot Navajo",
-                        url: "https://www.omniglot.com/writing/navajo.htm",
-                        features: ["Comprehensive language information (all levels)","Writing system","pronunciation guide","linguistic details"],
-                        free: true
+                        "name": "Omniglot Navajo",
+                        "url": "https://www.omniglot.com/writing/navajo.htm",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Writing exercises"
+                        ]
                     }
                 ]
             }
         ],
-        practice: [
+        "practice": [
             {
-                category: "Language Exchange",
-                items: [
+                "category": "Language Exchange",
+                "items": [
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        features: ["Global language exchange with 18M+ users (all levels)","Free","supports Navajo","text/voice/video chat"],
-                        free: true
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Video exercises",
+                            "Free, supports Navajo, text/voice/video chat"
+                        ]
                     },
                     {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        features: ["Language exchange for serious learners (all levels)","Navajo supported","voice/video calls","user reviews"],
-                        free: true
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Video exercises",
+                            "Navajo supported, voice/video calls, user reviews"
+                        ]
                     },
                     {
-                        name: "Facebook Navajo Language Group",
-                        url: "https://www.facebook.com/groups/dinebizaad/",
-                        features: ["34,000+ member community (all levels)","Very active","main platform for Diné Bizaad learning"],
-                        free: true
+                        "name": "Facebook Navajo Language Group",
+                        "url": "https://www.facebook.com/groups/dinebizaad/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support"
+                        ]
                     },
                     {
-                        name: "r/Navajo Reddit",
-                        url: "https://old.reddit.com/r/Navajo/",
-                        features: ["Dedicated subreddit (all levels)","Community discussion of language and culture"],
-                        free: true
+                        "name": "r/Navajo Reddit",
+                        "url": "https://old.reddit.com/r/Navajo/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "Community discussion of language",
+                            "Culture"
+                        ]
                     },
                     {
-                        name: "Discord Native American Languages",
-                        url: "https://discord.gg/U3PyrYb",
-                        features: ["Native American languages server (all levels)","Focus on cultural preservation and learning"],
-                        free: true
+                        "name": "Discord Native American Languages",
+                        "url": "https://discord.gg/U3PyrYb",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Focus on cultural preservation",
+                            "Learning"
+                        ]
                     }
                 ]
             },
             {
-                category: "Government and Tribal Resources",
-                items: [
+                "category": "Government and Tribal Resources",
+                "items": [
                     {
-                        name: "Navajo Nation DODE",
-                        url: "https://navajonationdode.org/",
-                        features: ["Department of Diné Education official site (K-12 and teachers)","Proficiency testing ($25)","teacher certification"],
-                        free: true
+                        "name": "Navajo Nation DODE",
+                        "url": "https://navajonationdode.org/",
+                        "free": true,
+                        "features": [
+                            "Department of Diné Education official site (K-12",
+                            "Teachers)",
+                            "Certificate available",
+                            "Proficiency testing , teacher certification"
+                        ]
                     },
                     {
-                        name: "Diné College",
-                        url: "https://www.dinecollege.edu/academics/b-a-navajo-language/",
-                        features: ["B.A","in Navajo Language program (advanced)","First tribal college (1968)","requires Navajo proficiency for admission"],
-                        free: true
+                        "name": "Diné College",
+                        "url": "https://www.dinecollege.edu/academics/b-a-navajo-language/",
+                        "free": true,
+                        "features": [
+                            "Advanced"
+                        ]
                     },
                     {
-                        name: "Navajo Technical University",
-                        url: "https://www.navajotech.edu/",
-                        features: ["Ph.D","in Diné Culture and Language Sustainability (all levels)","Largest tribal college","first doctoral program in Diné language"],
-                        free: true
+                        "name": "Navajo Technical University",
+                        "url": "https://www.navajotech.edu/",
+                        "free": true,
+                        "features": [
+                            "in Diné Culture",
+                            "All levels"
+                        ]
                     },
                     {
-                        name: "Bureau of Indian Education",
-                        url: "https://www.bie.edu/",
-                        features: ["K-12 curriculum frameworks (K-12)","Serves 46,000+ students","cultural integration focus"],
-                        free: true
+                        "name": "Bureau of Indian Education",
+                        "url": "https://www.bie.edu/",
+                        "free": true,
+                        "features": [
+                            "K-12 curriculum frameworks"
+                        ]
                     },
                     {
-                        name: "Navajo Language Academy",
-                        url: "https://navajolanguageacademy.org/",
-                        features: ["Annual summer linguistics workshops (advanced/professional)","Founded by Kenneth Hale","NEH grant funding"],
-                        free: true
+                        "name": "Navajo Language Academy",
+                        "url": "https://navajolanguageacademy.org/",
+                        "free": true,
+                        "features": [
+                            "Advanced",
+                            "Kenneth Hale platform",
+                            "Founded by Kenneth Hale, NEH grant funding"
+                        ]
                     },
                     {
-                        name: "UNM Diné Language Teacher's Institute",
-                        url: "https://dlti.unm.edu/",
-                        features: ["Teacher training with paid tuition/stipends (teachers)","For Diné speakers with teaching background"],
-                        free: true
+                        "name": "UNM Diné Language Teacher's Institute",
+                        "url": "https://dlti.unm.edu/",
+                        "free": true,
+                        "features": [
+                            "Teacher training with paid tuition/stipends",
+                            "For Diné speakers with teaching background"
+                        ]
                     }
                 ]
             },
             {
-                category: "Academic Programs",
-                items: [
+                "category": "Academic Programs",
+                "items": [
                     {
-                        name: "Arizona State University",
-                        url: "https://americanindian.asu.edu/",
-                        features: ["American Indian Studies with Navajo language (undergraduate)","60+ Indigenous scholars on faculty"],
-                        free: true
+                        "name": "Arizona State University",
+                        "url": "https://americanindian.asu.edu/",
+                        "free": true,
+                        "features": [
+                            "American Indian Studies with Navajo language",
+                            "60+ Indigenous scholars on faculty"
+                        ]
                     },
                     {
-                        name: "University of Arizona",
-                        url: "https://linguistics.arizona.edu/ma-native-american-languages-linguistics",
-                        features: ["MA in Native American Languages & Linguistics (graduate)","Arizona Works Tuition Scholarship available"],
-                        free: true
+                        "name": "University of Arizona",
+                        "url": "https://linguistics.arizona.edu/ma-native-american-languages-linguistics",
+                        "free": true,
+                        "features": [
+                            "MA in Native American Languages & Linguistics",
+                            "Arizona Works Tuition Scholarship available"
+                        ]
                     }
                 ]
             }
@@ -384,6 +558,4 @@ const navajoResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.navajo = navajoResources;
-}
+export default navajoResources;

@@ -1,702 +1,942 @@
 const urduResources = {
-    name: "Urdu",
-    nativeName: "اردو",
-    flag: "🇵🇰",
-    learners: "1M+",
-    speakers: "230M (70M native + 160M second language)",
-    highlights: [
+    "name": "Urdu",
+    "nativeName": "اردو",
+    "flag": "🇵🇰",
+    "learners": "1M+",
+    "speakers": "230M (70M native + 160M second language)",
+    "highlights": [
         "422,000+ digitized texts across major platforms",
         "Rekhta Foundation: 100,000+ free ebooks and interactive learning tools",
         "Creative Commons textbooks from Michigan State and University of Minnesota",
         "NCPUL India: Government-sponsored comprehensive digital library",
         "Virtual University Pakistan: Complete open courseware with video lectures"
     ],
-    resources: {
-        courses: [
+    "resources": {
+        "courses": [
             {
-                category: "Major Learning Platforms",
-                items: [
+                "category": "Major Learning Platforms",
+                "items": [
                     {
-                        name: "Rekhta Learning",
-                        url: "https://rekhtalearning.com/",
-                        features: ["Non-profit comprehensive platform with 29,000+ active learners offering free certificates","live expert support","bite-sized lessons","script courses (Rasmul-Khat)","and poetry writing courses"],
-                        free: true,
-                        level: "Beginner to Advanced"
+                        "name": "Rekhta Learning",
+                        "url": "https://rekhtalearning.com/",
+                        "free": true,
+                        "level": "Beginner to Advanced",
+                        "features": [
+                            "Writing exercises",
+                            "Poetry writing courses"
+                        ]
                     },
                     {
-                        name: "LingoHut",
-                        url: "https://www.lingohut.com/en/l128/learn-urdu",
-                        features: ["125 free 5-minute lessons with voice recordings","designed specifically for immigrants and refugees","no registration required"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "LingoHut",
+                        "url": "https://www.lingohut.com/en/l128/learn-urdu",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Refugees, no registration required"
+                        ]
                     },
                     {
-                        name: "UrduPod101",
-                        url: "https://www.urdupod101.com/",
-                        features: ["Audio and video lessons with PDF notes","free lifetime account with weekly new lessons","voice-recording tools","and mobile app access"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "UrduPod101",
+                        "url": "https://www.urdupod101.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Audio exercises",
+                            "Video exercises",
+                            "Mobile app"
+                        ]
                     },
                     {
-                        name: "Urdu Seekhiye",
-                        url: "https://urduseekhiye.com/",
-                        features: ["Podcast and YouTube channel by Shireen featuring collaborative audio lessons","complete writing course","and new 2025 community feature"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "Urdu Seekhiye",
+                        "url": "https://urduseekhiye.com/",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Podcast",
+                            "Shireen platform",
+                            "Audio exercises",
+                            "Community support",
+                            "New 2025 community feature"
+                        ]
                     }
                 ]
             },
             {
-                category: "University MOOCs and Formal Courses",
-                items: [
+                "category": "University MOOCs and Formal Courses",
+                "items": [
                     {
-                        name: "SWAYAM Urdu Script Learning",
-                        url: "https://onlinecourses.swayam2.ac.in/nce19_sc27/preview",
-                        features: ["12-16 week NCERT course from Government of India initiative","free with optional paid certificate ($10-20 USD)"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "SWAYAM Urdu Script Learning",
+                        "url": "https://onlinecourses.swayam2.ac.in/nce19_sc27/preview",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Certificate available",
+                            "Government platform"
+                        ]
                     },
                     {
-                        name: "LUMS Beginning Urdu",
-                        url: "https://ces.lums.edu.pk/course-details.php?cid=128",
-                        features: ["10-week blended course from Pakistan covering four skills with cultural context and English medium instruction for complete beginners"],
-                        free: false,
-                        level: "Complete Beginner"
+                        "name": "LUMS Beginning Urdu",
+                        "url": "https://ces.lums.edu.pk/course-details.php?cid=128",
+                        "free": false,
+                        "level": "Complete Beginner",
+                        "features": [
+                            "Pakistan platform",
+                            "English medium instruction for complete beginners"
+                        ]
                     },
                     {
-                        name: "Virtual University Pakistan Open Courseware",
-                        url: "https://ocw.vu.edu.pk/",
-                        features: ["Complete open courseware with free video lectures and downloadable materials","no registration required for access"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Virtual University Pakistan Open Courseware",
+                        "url": "https://ocw.vu.edu.pk/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Video exercises",
+                            "Complete open courseware with free video lectures"
+                        ]
                     },
                     {
-                        name: "NUML Online Courses",
-                        url: "https://numl.edu.pk/olc",
-                        features: ["8-16 week certificate courses from Pakistan's National University of Modern Languages with digital certifications and global access"],
-                        free: false,
-                        level: "All Levels"
+                        "name": "NUML Online Courses",
+                        "url": "https://numl.edu.pk/olc",
+                        "free": false,
+                        "level": "All Levels",
+                        "features": [
+                            "Certificate available",
+                            "Pakistan platform",
+                            "Global access"
+                        ]
                     },
                     {
-                        name: "Allama Iqbal Open University",
-                        url: "https://www.aiou.edu.pk/department-urdu",
-                        features: ["Distance learning from Matriculation to PhD with Teaching Urdu to Foreigners program and comprehensive distance materials"],
-                        free: false,
-                        level: "All Levels"
+                        "name": "Allama Iqbal Open University",
+                        "url": "https://www.aiou.edu.pk/department-urdu",
+                        "free": false,
+                        "level": "All Levels",
+                        "features": [
+                            "Matriculation platform",
+                            "Comprehensive distance materials"
+                        ]
                     },
                     {
-                        name: "MANUU Hyderabad",
-                        url: "https://manuu.edu.in/",
-                        features: ["Central University offering B.A","to PhD programs","distance education","and SWAYAM MOOCs"],
-                        free: false,
-                        level: "University Level"
+                        "name": "MANUU Hyderabad",
+                        "url": "https://manuu.edu.in/",
+                        "free": false,
+                        "level": "University Level",
+                        "features": [
+                            "Central University offering B",
+                            "to PhD programs, distance education,",
+                            "SWAYAM MOOCs"
+                        ]
                     },
                     {
-                        name: "Jamia Millia Islamia Correspondence",
-                        url: "https://jmi.ac.in/urdu",
-                        features: ["Established university program with correspondence courses (₹500)","global access","and 143,000 book library"],
-                        free: false,
-                        level: "All Levels"
+                        "name": "Jamia Millia Islamia Correspondence",
+                        "url": "https://jmi.ac.in/urdu",
+                        "free": false,
+                        "level": "All Levels",
+                        "features": [
+                            "143,000 book library"
+                        ]
                     }
                 ]
             },
             {
-                category: "India - Government Institutions",
-                items: [
+                "category": "India - Government Institutions",
+                "items": [
                     {
-                        name: "NCPUL (National Council for Promotion of Urdu Language)",
-                        url: "http://urducouncil.nic.in/",
-                        features: ["Ministry of Education resource with 45+ online lessons","grammar tutorials","and e-library access","completely free with no registration"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "NCPUL (National Council for Promotion of Urdu Language)",
+                        "url": "http://urducouncil.nic.in/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Grammar exercises"
+                        ]
                     },
                     {
-                        name: "Urdu Academy Delhi",
-                        url: "https://urduacademydelhi.com/",
-                        features: ["NCT Delhi institution established 1981 offering Delhi University recognized certificates and calligraphy courses"],
-                        free: false,
-                        level: "All Levels"
+                        "name": "Urdu Academy Delhi",
+                        "url": "https://urduacademydelhi.com/",
+                        "free": false,
+                        "level": "All Levels",
+                        "features": [
+                            "Calligraphy courses"
+                        ]
                     }
                 ]
             }
         ],
-        books: [
+        "books": [
             {
-                category: "Creative Commons & Open Source Textbooks",
-                items: [
+                "category": "Creative Commons & Open Source Textbooks",
+                "items": [
                     {
-                        name: "Basic Urdu (Michigan State University)",
-                        url: "https://openbooks.lib.msu.edu/urdu/",
-                        features: ["CC BY-NC 4.0 interactive textbook with 8 thematic chapters","multiple download formats (EPUB","PDF","XML)","Chapter 1 focuses on script learning"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "Basic Urdu (Michigan State University)",
+                        "url": "https://openbooks.lib.msu.edu/urdu/",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Cc by-nc 4",
+                            "Interactive exercises"
+                        ]
                     },
                     {
-                        name: "Hindi-Urdu (University of Minnesota)",
-                        url: "https://open.lib.umn.edu/hindiurdu/",
-                        features: ["CC BY-NC 4.0 combined language learning textbook by four scholars","comprehensive approach from beginning to intermediate"],
-                        free: true,
-                        level: "Beginning to Intermediate"
+                        "name": "Hindi-Urdu (University of Minnesota)",
+                        "url": "https://open.lib.umn.edu/hindiurdu/",
+                        "free": true,
+                        "level": "Beginning to Intermediate",
+                        "features": [
+                            "Cc by-nc 4",
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "UT Austin Script Guide",
-                        url: "https://urdu.la.utexas.edu/wp-content/uploads/sites/10/2023/07/Urdu-Script-and-Pronunciation-UT-Urdu-OER.pdf",
-                        features: ["CC BY 4.0 comprehensive guide with detailed friendly/unfriendly letters explanation and pronunciation rules"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "UT Austin Script Guide",
+                        "url": "https://urdu.la.utexas.edu/wp-content/uploads/sites/10/2023/07/Urdu-Script-and-Pronunciation-UT-Urdu-OER.pdf",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Cc by 4",
+                            "Pronunciation exercises",
+                            "Pronunciation rules"
+                        ]
                     },
                     {
-                        name: "Zer o Zabar (Northwestern University)",
-                        url: "https://openbooks.library.northwestern.edu/zerozabar/",
-                        features: ["Script reading and writing introduction for post-beginners with first-year Hindi/Urdu familiarity"],
-                        free: true,
-                        level: "Post-Beginner"
+                        "name": "Zer o Zabar (Northwestern University)",
+                        "url": "https://openbooks.library.northwestern.edu/zerozabar/",
+                        "free": true,
+                        "level": "Post-Beginner",
+                        "features": [
+                            "Reading exercises",
+                            "Script reading",
+                            "Writing exercises"
+                        ]
                     }
                 ]
             },
             {
-                category: "Government Educational Resources",
-                items: [
+                "category": "Government Educational Resources",
+                "items": [
                     {
-                        name: "NCPUL E-Library",
-                        url: "https://www.urducouncil.nic.in/urdu-e-library",
-                        features: ["India's comprehensive digital library with PDF books","audio books","e-magazines","dictionaries","and encyclopedia"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "NCPUL E-Library",
+                        "url": "https://www.urducouncil.nic.in/urdu-e-library",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Audio exercises",
+                            "Encyclopedia"
+                        ]
                     },
                     {
-                        name: "NCERT Urdu Books",
-                        url: "https://www.ncertbooks.guru/ncert-urdu-books/",
-                        features: ["Classes 1-12 complete curriculum with free PDF downloads for all grades","government textbooks"],
-                        free: true,
-                        level: "Elementary to Secondary"
+                        "name": "NCERT Urdu Books",
+                        "url": "https://www.ncertbooks.guru/ncert-urdu-books/",
+                        "description": "Classes 1-12 complete curriculum with free PDF downloads for all grades - government textbooks",
+                        "free": true,
+                        "level": "Elementary to Secondary"
                     },
                     {
-                        name: "Pakistan Textbook Board Archive",
-                        url: "https://archive.org/details/PAKISTANITEXTBOOKS",
-                        features: ["FSC textbooks from all provinces including Federal","Punjab","Sindh","Balochistan","and KPK boards"],
-                        free: true,
-                        level: "Secondary Education"
+                        "name": "Pakistan Textbook Board Archive",
+                        "url": "https://archive.org/details/PAKISTANITEXTBOOKS",
+                        "free": true,
+                        "level": "Secondary Education",
+                        "features": [
+                            "KPK boards"
+                        ]
                     },
                     {
-                        name: "Khan Academy Urdu Grammar",
-                        url: "https://khansacademy.in/wp-content/uploads/2021/02/URDU-Grammar.pdf",
-                        features: ["Complete grammar guide PDF for educational use with English/Urdu instruction"],
-                        free: true,
-                        level: "Multiple Levels"
+                        "name": "Khan Academy Urdu Grammar",
+                        "url": "https://khansacademy.in/wp-content/uploads/2021/02/URDU-Grammar.pdf",
+                        "free": true,
+                        "level": "Multiple Levels",
+                        "features": [
+                            "Grammar exercises"
+                        ]
                     }
                 ]
             },
             {
-                category: "Archive.org Educational Materials",
-                items: [
+                "category": "Archive.org Educational Materials",
+                "items": [
                     {
-                        name: "Urdu Essential Grammar",
-                        url: "https://archive.org/details/UrduEssentialGrammer",
-                        features: ["Grammar rules and structures available in PDF","EPUB","and full text formats for beginning to intermediate learners"],
-                        free: true,
-                        level: "Beginning to Intermediate"
+                        "name": "Urdu Essential Grammar",
+                        "url": "https://archive.org/details/UrduEssentialGrammer",
+                        "free": true,
+                        "level": "Beginning to Intermediate",
+                        "features": [
+                            "Grammar exercises",
+                            "Grammar rules",
+                            "structures available in PDF, EPUB,",
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "Teach Yourself Urdu In Two Months",
-                        url: "https://archive.org/details/TeachYourselfUrduInTwoMonths",
-                        features: ["Self-study comprehensive grammar guide (83.4M file size)","complete course for beginners"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Teach Yourself Urdu In Two Months",
+                        "url": "https://archive.org/details/TeachYourselfUrduInTwoMonths",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Grammar exercises",
+                            "Self-study comprehensive grammar guide (83",
+                            "4M file size) - complete course for beginners"
+                        ]
                     },
                     {
-                        name: "Urdu Learning through English",
-                        url: "https://archive.org/details/UrduLearningThroughEnglish",
-                        features: ["Comprehensive guide for English speakers (88.5M file size) covering fundamentals to intermediate"],
-                        free: true,
-                        level: "Beginning"
+                        "name": "Urdu Learning through English",
+                        "url": "https://archive.org/details/UrduLearningThroughEnglish",
+                        "free": true,
+                        "level": "Beginning",
+                        "features": [
+                            "Comprehensive guide for English speakers (88",
+                            "Intermediate"
+                        ]
                     },
                     {
-                        name: "Complete Urdu by David Matthews",
-                        url: "https://archive.org/details/completeurdu0000matt",
-                        features: ["Textbook and audio course (393 pages + audio) covering A1 to B2 CEFR levels","borrowing available"],
-                        free: true,
-                        level: "A1 to B2 CEFR"
+                        "name": "Complete Urdu by David Matthews",
+                        "url": "https://archive.org/details/completeurdu0000matt",
+                        "free": true,
+                        "level": "A1 to B2 CEFR",
+                        "features": [
+                            "Textbook",
+                            "A1",
+                            "Audio exercises"
+                        ]
                     }
                 ]
             },
             {
-                category: "Digital Libraries and Authentic Literature",
-                items: [
+                "category": "Digital Libraries and Authentic Literature",
+                "items": [
                     {
-                        name: "Rekhta.org Ebooks",
-                        url: "https://www.rekhta.org/ebooks",
-                        features: ["100,000+ free Urdu ebooks spanning classical to contemporary works including poetry","drama","biographies","novels with annotations available"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Rekhta.org Ebooks",
+                        "url": "https://www.rekhta.org/ebooks",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Biographies",
+                            "Novels with annotations available"
+                        ]
                     },
                     {
-                        name: "Internet Archive Urdu Collection",
-                        url: "https://archive.org/details/booksbylanguage_urdu",
-                        features: ["32,000+ Urdu books from Digital Library of India with multiple collections (5.4G to 10.5G)","PDF downloads","and full-text search"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Internet Archive Urdu Collection",
+                        "url": "https://archive.org/details/booksbylanguage_urdu",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Digital Library platform",
+                            "4G to 10",
+                            "5G), PDF downloads,",
+                            "Full-text search"
+                        ]
                     },
                     {
-                        name: "Punjab University Library",
-                        url: "https://www.pulibrary.edu.pk/urdu.php",
-                        features: ["24,000+ manuscripts","largest collection in Pakistan covering Arabic","Persian","Urdu","and Turkish"],
-                        free: true,
-                        level: "Research-Oriented"
+                        "name": "Punjab University Library",
+                        "url": "https://www.pulibrary.edu.pk/urdu.php",
+                        "free": true,
+                        "level": "Research-Oriented",
+                        "features": [
+                            "Turkish"
+                        ]
                     },
                     {
-                        name: "HEC National Digital Library",
-                        url: "https://digitallibrary.edu.pk/",
-                        features: ["75,000+ electronic resources from Pakistan's Higher Education Commission"],
-                        free: true,
-                        level: "University Level"
+                        "name": "HEC National Digital Library",
+                        "url": "https://digitallibrary.edu.pk/",
+                        "free": true,
+                        "level": "University Level",
+                        "features": [
+                            "Pakistan platform"
+                        ]
                     },
                     {
-                        name: "UrduPoint Books",
-                        url: "https://www.urdupoint.com/books/",
-                        features: ["13+ genres including novels","history","Islamic books","autobiographies","health"],
-                        free: true,
-                        level: "General Audience"
+                        "name": "UrduPoint Books",
+                        "url": "https://www.urdupoint.com/books/",
+                        "free": true,
+                        "level": "General Audience",
+                        "features": [
+                            "13+ genres including novels",
+                            "History",
+                            "Islamic books",
+                            "Autobiographies"
+                        ]
                     },
                     {
-                        name: "KitabGhar",
-                        url: "https://kitaabghar.com/",
-                        features: ["Romantic novels","Imran Series crime thrillers","adventure stories in PDF format"],
-                        free: true,
-                        level: "Popular Fiction"
+                        "name": "KitabGhar",
+                        "url": "https://kitaabghar.com/",
+                        "free": true,
+                        "level": "Popular Fiction",
+                        "features": [
+                            "Romantic novels",
+                            "Imran Series crime thrillers",
+                            "adventure stories in PDF format"
+                        ]
                     },
                     {
-                        name: "Kutubistan",
-                        url: "https://kutubistan.blogspot.com/",
-                        features: ["Contemporary novels and Islamic books with regular updates and MediaFire download links"],
-                        free: true,
-                        level: "Mixed Levels"
+                        "name": "Kutubistan",
+                        "url": "https://kutubistan.blogspot.com/",
+                        "free": true,
+                        "level": "Mixed Levels",
+                        "features": [
+                            "Contemporary novels",
+                            "Islamic books with regular updates",
+                            "MediaFire download links"
+                        ]
                     },
                     {
-                        name: "Project Gutenberg Urdu",
-                        url: "https://www.gutenberg.org/ebooks/subject/32592",
-                        features: ["Classical translations and historical texts in EPUB and Kindle formats"],
-                        free: true,
-                        level: "Academic/Literary"
+                        "name": "Project Gutenberg Urdu",
+                        "url": "https://www.gutenberg.org/ebooks/subject/32592",
+                        "free": true,
+                        "level": "Academic/Literary",
+                        "features": [
+                            "Classical translations",
+                            "historical texts in EPUB",
+                            "Kindle formats"
+                        ]
                     },
                     {
-                        name: "Al-Qalam Institute Resources",
-                        url: "https://www.alqalaminstitute.org/resources/urdu-resources",
-                        features: ["Entry-level reading materials including First Steps series via Google Drive"],
-                        free: true,
-                        level: "Complete Beginner"
+                        "name": "Al-Qalam Institute Resources",
+                        "url": "https://www.alqalaminstitute.org/resources/urdu-resources",
+                        "free": true,
+                        "level": "Complete Beginner",
+                        "features": [
+                            "Google Drive platform",
+                            "Reading exercises"
+                        ]
                     }
                 ]
             },
             {
-                category: "Newspapers and Magazines",
-                items: [
+                "category": "Newspapers and Magazines",
+                "items": [
                     {
-                        name: "Daily Jang",
-                        url: "https://e.jang.com.pk/",
-                        features: ["Pakistan's most circulated Urdu daily covering current affairs with multiple editions"],
-                        free: true,
-                        level: "Intermediate+"
+                        "name": "Daily Jang",
+                        "url": "https://e.jang.com.pk/",
+                        "description": "Pakistan's most circulated Urdu daily covering current affairs with multiple editions",
+                        "free": true,
+                        "level": "Intermediate+"
                     },
                     {
-                        name: "Daily Express",
-                        url: "https://www.express.com.pk/",
-                        features: ["Major Pakistani newspaper with news","features","and opinion pieces"],
-                        free: true,
-                        level: "Intermediate+"
+                        "name": "Daily Express",
+                        "url": "https://www.express.com.pk/",
+                        "free": true,
+                        "level": "Intermediate+",
+                        "features": [
+                            "Major Pakistani newspaper with news, features,",
+                            "Opinion pieces"
+                        ]
                     },
                     {
-                        name: "Akhbar-e-Jehan",
-                        url: "https://akhbar-e-jehan.com/",
-                        features: ["58-year-old weekly magazine","ABC certified as largest circulated weekly"],
-                        free: false,
-                        level: "General Audience"
+                        "name": "Akhbar-e-Jehan",
+                        "url": "https://akhbar-e-jehan.com/",
+                        "free": false,
+                        "level": "General Audience",
+                        "features": [
+                            "Certificate available"
+                        ]
                     },
                     {
-                        name: "Akhbar Urdu Portal",
-                        url: "https://akhbarurdu.com/",
-                        features: ["Links to dozens of Indian Urdu newspapers with regional coverage across India"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "Akhbar Urdu Portal",
+                        "url": "https://akhbarurdu.com/",
+                        "description": "Links to dozens of Indian Urdu newspapers with regional coverage across India",
+                        "free": true,
+                        "level": "All Levels"
                     },
                     {
-                        name: "NCPUL Magazines",
-                        url: "https://www.urducouncil.nic.in/e-library/ncpul-magazines",
-                        features: ["Government literary magazines including quarterly criticism","children's","and women's magazines"],
-                        free: true,
-                        level: "Various"
+                        "name": "NCPUL Magazines",
+                        "url": "https://www.urducouncil.nic.in/e-library/ncpul-magazines",
+                        "free": true,
+                        "level": "Various",
+                        "features": [
+                            "Women's magazines"
+                        ]
                     }
                 ]
             }
         ],
-        audio: [
+        "audio": [
             {
-                category: "Dedicated Urdu Podcasts",
-                items: [
+                "category": "Dedicated Urdu Podcasts",
+                "items": [
                     {
-                        name: "UrduPod101 Podcast",
-                        url: "https://podcasts.apple.com/us/podcast/learn-urdu-urdupod101-com/id1078788972",
-                        features: ["100+ comprehensive lessons with PDF notes","transcripts","vocabulary lists","slowed audio","updated 2x weekly"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "UrduPod101 Podcast",
+                        "url": "https://podcasts.apple.com/us/podcast/learn-urdu-urdupod101-com/id1078788972",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Vocabulary exercises"
+                        ]
                     },
                     {
-                        name: "Urdu Seekhiye Podcast",
-                        url: "https://urduseekhiye.com/",
-                        features: ["20+ collaborative episodes under 30 minutes each","with community platform and live Q&A sessions"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "Urdu Seekhiye Podcast",
+                        "url": "https://urduseekhiye.com/",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Community support",
+                            "live Q&A sessions"
+                        ]
                     },
                     {
-                        name: "Urdu Aaj Kal",
-                        url: "https://www.spreaker.com/show/urdu-aaj-kal",
-                        features: ["Literature and language discussion with interviews featuring poets and writers","modern literature focus"],
-                        free: true,
-                        level: "Intermediate to Advanced"
+                        "name": "Urdu Aaj Kal",
+                        "url": "https://www.spreaker.com/show/urdu-aaj-kal",
+                        "free": true,
+                        "level": "Intermediate to Advanced",
+                        "features": [
+                            "Literature"
+                        ]
                     },
                     {
-                        name: "Doorbeen",
-                        url: "https://www.podcast.com/",
-                        features: ["Children's educational content with under 10-minute episodes on politics","science","and culture"],
-                        free: true,
-                        level: "Beginner-Friendly"
+                        "name": "Doorbeen",
+                        "url": "https://www.podcast.com/",
+                        "free": true,
+                        "level": "Beginner-Friendly",
+                        "features": [
+                            "Culture"
+                        ]
                     },
                     {
-                        name: "Urdu Adab",
-                        url: "https://www.podcast.com/",
-                        features: ["Short stories podcast with 15-minute average episodes covering various genres"],
-                        free: true,
-                        level: "Intermediate"
+                        "name": "Urdu Adab",
+                        "url": "https://www.podcast.com/",
+                        "description": "Short stories podcast with 15-minute average episodes covering various genres",
+                        "free": true,
+                        "level": "Intermediate"
                     },
                     {
-                        name: "SBS Urdu",
-                        url: "https://tunein.com/podcasts/World-News/SBS-Urdu-p414659/",
-                        features: ["News and cultural content with daily releases and music features for native speakers"],
-                        free: true,
-                        level: "Advanced"
+                        "name": "SBS Urdu",
+                        "url": "https://tunein.com/podcasts/World-News/SBS-Urdu-p414659/",
+                        "free": true,
+                        "level": "Advanced",
+                        "features": [
+                            "Cultural content with daily releases",
+                            "Music features for native speakers"
+                        ]
                     }
                 ]
             },
             {
-                category: "YouTube Learning Channels",
-                items: [
+                "category": "YouTube Learning Channels",
+                "items": [
                     {
-                        name: "UrduPod101 YouTube",
-                        url: "https://www.youtube.com/@UrduPod101",
-                        features: ["Professional video lessons with 158K subscribers covering grammar","vocabulary","cultural insights","and survival phrases"],
-                        free: true,
-                        level: "All Levels"
+                        "name": "UrduPod101 YouTube",
+                        "url": "https://www.youtube.com/@UrduPod101",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Video exercises",
+                            "Survival phrases"
+                        ]
                     },
                     {
-                        name: "Urdu With Zia",
-                        url: "https://www.youtube.com/@UrduWithZia",
-                        features: ["Most extensive collection with 2000+ videos","organized playlists","everyday vocabulary (some member-only content)"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "Urdu With Zia",
+                        "url": "https://www.youtube.com/@UrduWithZia",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Vocabulary exercises"
+                        ]
                     },
                     {
-                        name: "Urdu Academy Jakarta",
-                        url: "https://www.youtube.com/@urduacademyjakarta",
-                        features: ["Conversational instruction with 75.9K subscribers","106 videos covering grammar rules and sentence construction"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "Urdu Academy Jakarta",
+                        "url": "https://www.youtube.com/@urduacademyjakarta",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Conversational instruction with 75",
+                            "Grammar exercises",
+                            "9K subscribers, 106 videos covering grammar rules",
+                            "Sentence construction"
+                        ]
                     },
                     {
-                        name: "BBC Urdu",
-                        url: "https://www.youtube.com/@BBCUrdu",
-                        features: ["News and current affairs with professional pronunciation and daily uploads"],
-                        free: true,
-                        level: "Intermediate+"
+                        "name": "BBC Urdu",
+                        "url": "https://www.youtube.com/@BBCUrdu",
+                        "free": true,
+                        "level": "Intermediate+",
+                        "features": [
+                            "Pronunciation exercises",
+                            "Current affairs with professional pronunciation",
+                            "Daily uploads"
+                        ]
                     },
                     {
-                        name: "Urdu Kids",
-                        url: "https://www.youtube.com/@UrduKids",
-                        features: ["Children-focused content with 1.4M subscribers","massive educational entertainment library"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Urdu Kids",
+                        "url": "https://www.youtube.com/@UrduKids",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Children-focused content with 1"
+                        ]
                     }
                 ]
             },
             {
-                category: "Audio Courses and Resources",
-                items: [
+                "category": "Audio Courses and Resources",
+                "items": [
                     {
-                        name: "LingoHut Audio Lessons",
-                        url: "https://www.lingohut.com/en/l128/learn-urdu",
-                        features: ["125 × 5-minute lessons with voice recordings","no registration required","mobile-friendly interface"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "LingoHut Audio Lessons",
+                        "url": "https://www.lingohut.com/en/l128/learn-urdu",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Mobile app"
+                        ]
                     },
                     {
-                        name: "Complete Urdu Audio Course",
-                        url: "https://library.teachyourself.com/id004325096/Complete-Urdu",
-                        features: ["Professional course audio covering four skills","accessible via browser or app"],
-                        free: false,
-                        level: "Beginner to Intermediate"
+                        "name": "Complete Urdu Audio Course",
+                        "url": "https://library.teachyourself.com/id004325096/Complete-Urdu",
+                        "free": false,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Audio exercises",
+                            "Mobile app"
+                        ]
                     },
                     {
-                        name: "Learn101 MP3 Lessons",
-                        url: "http://learn101.org/urdu_audio.php",
-                        features: ["Downloadable audio lessons in MP3 format that work with any player"],
-                        free: true,
-                        level: "Beginner to Intermediate"
+                        "name": "Learn101 MP3 Lessons",
+                        "url": "http://learn101.org/urdu_audio.php",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Audio exercises"
+                        ]
                     },
                     {
-                        name: "Pimsleur Urdu Unit 1",
-                        url: "https://www.learnoutloud.com/Free-Audio-Video/Languages/Other-Languages/Urdu-Unit-1/41750",
-                        features: ["30-minute professional quality introduction sample to the Pimsleur method"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Pimsleur Urdu Unit 1",
+                        "url": "https://www.learnoutloud.com/Free-Audio-Video/Languages/Other-Languages/Urdu-Unit-1/41750",
+                        "description": "30-minute professional quality introduction sample to the Pimsleur method",
+                        "free": true,
+                        "level": "Beginner"
                     },
                     {
-                        name: "VOA Urdu",
-                        url: "https://www.urduvoa.com/",
-                        features: ["Educational radio programs with live streaming","cultural programming","and daily updates"],
-                        free: true,
-                        level: "Intermediate+"
+                        "name": "VOA Urdu",
+                        "url": "https://www.urduvoa.com/",
+                        "free": true,
+                        "level": "Intermediate+",
+                        "features": [
+                            "Daily updates"
+                        ]
                     }
                 ]
             }
         ],
-        apps: [
+        "apps": [
             {
-                category: "Online Dictionaries",
-                items: [
+                "category": "Online Dictionaries",
+                "items": [
                     {
-                        name: "Rekhta Dictionary",
-                        url: "https://rekhtadictionary.com/",
-                        features: ["Trilingual (Urdu-Hindi-English) with 350k+ words","etymologies","poetry examples","and word of the day"],
-                        free: true
+                        "name": "Rekhta Dictionary",
+                        "url": "https://rekhtadictionary.com/",
+                        "free": true,
+                        "features": [
+                            "Trilingual with 350k+ words, etymologies, poetry examples,",
+                            "Word of the day"
+                        ]
                     },
                     {
-                        name: "Platts Dictionary",
-                        url: "https://dsal.uchicago.edu/dictionaries/platts/",
-                        features: ["Classic 1884 dictionary with multiple scripts","University of Chicago sponsored","offline mobile app available"],
-                        free: true
+                        "name": "Platts Dictionary",
+                        "url": "https://dsal.uchicago.edu/dictionaries/platts/",
+                        "free": true,
+                        "features": [
+                            "Mobile app"
+                        ]
                     },
                     {
-                        name: "Cambridge Urdu Dictionary",
-                        url: "https://dictionary.cambridge.org/dictionary/english-urdu/",
-                        features: ["24,000+ real examples with CEFR level support and professional translations"],
-                        free: true
+                        "name": "Cambridge Urdu Dictionary",
+                        "url": "https://dictionary.cambridge.org/dictionary/english-urdu/",
+                        "free": true,
+                        "features": [
+                            "24,000+ real examples with CEFR level support",
+                            "Professional translations"
+                        ]
                     },
                     {
-                        name: "HamariWeb Dictionaries",
-                        url: "https://hamariweb.com/dictionaries/",
-                        features: ["Multi-language support including Urdu","English","Arabic","French","German"],
-                        free: true
+                        "name": "HamariWeb Dictionaries",
+                        "url": "https://hamariweb.com/dictionaries/",
+                        "free": true,
+                        "features": [
+                            "Spanish"
+                        ]
                     },
                     {
-                        name: "UrduPoint Dictionary",
-                        url: "https://www.urdupoint.com/dictionary/",
-                        features: ["Bidirectional translation with sentence translation and Roman Urdu support"],
-                        free: true
+                        "name": "UrduPoint Dictionary",
+                        "url": "https://www.urdupoint.com/dictionary/",
+                        "free": true,
+                        "features": [
+                            "Bidirectional translation with sentence translation",
+                            "Roman Urdu support"
+                        ]
                     }
                 ]
             },
             {
-                category: "Typing Tools and Keyboards",
-                items: [
+                "category": "Typing Tools and Keyboards",
+                "items": [
                     {
-                        name: "Easy Urdu Typing",
-                        url: "https://www.easyurdutyping.com/",
-                        features: ["English-to-Urdu transliteration with auto-save","email integration","and downloadable version for PC/Mac"],
-                        free: true
+                        "name": "Easy Urdu Typing",
+                        "url": "https://www.easyurdutyping.com/",
+                        "free": true,
+                        "features": [
+                            "downloadable version for PC/Mac"
+                        ]
                     },
                     {
-                        name: "Branah Keyboard",
-                        url: "https://www.branah.com/urdu",
-                        features: ["Virtual keyboard with mouse/keyboard input and layout toggle"],
-                        free: true
+                        "name": "Branah Keyboard",
+                        "url": "https://www.branah.com/urdu",
+                        "free": true,
+                        "features": [
+                            "Virtual keyboard with mouse/keyboard input",
+                            "Layout toggle"
+                        ]
                     },
                     {
-                        name: "Google Input Tools",
-                        url: "https://www.google.com/inputtools/try/",
-                        features: ["Multiple input methods with transliteration that works across websites","Chrome extension available"],
-                        free: true
+                        "name": "Google Input Tools",
+                        "url": "https://www.google.com/inputtools/try/",
+                        "free": true,
+                        "features": [
+                            "Chrome extension available"
+                        ]
                     },
                     {
-                        name: "UrduPoint Online Editor",
-                        url: "https://www.urdupoint.com/online-urdu-editor.html",
-                        features: ["InPage-style editor with Noori Nastaleeq font and copy/paste functionality"],
-                        free: true
+                        "name": "UrduPoint Online Editor",
+                        "url": "https://www.urdupoint.com/online-urdu-editor.html",
+                        "free": true,
+                        "features": [
+                            "InPage-style editor with Noori Nastaleeq font",
+                            "Copy/paste functionality"
+                        ]
                     },
                     {
-                        name: "Write-Urdu.com",
-                        url: "https://www.write-urdu.com/",
-                        features: ["English to Urdu typing with HTML editor functionality"],
-                        free: true
+                        "name": "Write-Urdu.com",
+                        "url": "https://www.write-urdu.com/",
+                        "free": true,
+                        "features": [
+                            "English to Urdu typing with HTML editor functionality"
+                        ]
                     }
                 ]
             },
             {
-                category: "Open-Source NLP Tools",
-                items: [
+                "category": "Open-Source NLP Tools",
+                "items": [
                     {
-                        name: "UrduHack",
-                        url: "https://github.com/urduhack/urduhack",
-                        features: ["Complete NLP pipeline with POS tagging","NER","sentiment analysis","MIT License Python library"],
-                        free: true
+                        "name": "UrduHack",
+                        "url": "https://github.com/urduhack/urduhack",
+                        "free": true,
+                        "features": [
+                            "Complete NLP pipeline with POS tagging",
+                            "sentiment analysis - MIT License Python library"
+                        ]
                     },
                     {
-                        name: "LughaatNLP",
-                        url: "https://github.com/MuhammadNoman76/LughaatNLP",
-                        features: ["First comprehensive preprocessing library with tokenization","lemmatization","and TTS/STT support"],
-                        free: true
+                        "name": "LughaatNLP",
+                        "url": "https://github.com/MuhammadNoman76/LughaatNLP",
+                        "free": true,
+                        "features": [
+                            "TTS/STT support"
+                        ]
                     },
                     {
-                        name: "Awesome Urdu",
-                        url: "https://github.com/urduhack/awesome-urdu",
-                        features: ["Curated resource list on GitHub with datasets","tools","and comprehensive collection"],
-                        free: true
+                        "name": "Awesome Urdu",
+                        "url": "https://github.com/urduhack/awesome-urdu",
+                        "free": true,
+                        "features": [
+                            "Curated resource list on GitHub with datasets, tools,",
+                            "Comprehensive collection"
+                        ]
                     },
                     {
-                        name: "NLP for Urdu",
-                        url: "https://github.com/anuragshas/nlp-for-urdu",
-                        features: ["State-of-the-art models including tokenizers","language models","and classifiers"],
-                        free: true
+                        "name": "NLP for Urdu",
+                        "url": "https://github.com/anuragshas/nlp-for-urdu",
+                        "free": true,
+                        "features": [
+                            "Classifiers"
+                        ]
                     },
                     {
-                        name: "Urdu Datasets",
-                        url: "https://github.com/mirfan899/Urdu",
-                        features: ["Dataset repository with POS","NER","sentiment datasets","and SpaCy model"],
-                        free: true
+                        "name": "Urdu Datasets",
+                        "url": "https://github.com/mirfan899/Urdu",
+                        "free": true,
+                        "features": [
+                            "Dataset repository with POS, NER, sentiment datasets,",
+                            "SpaCy model"
+                        ]
                     }
                 ]
             },
             {
-                category: "Mobile Learning Apps",
-                items: [
+                "category": "Mobile Learning Apps",
+                "items": [
                     {
-                        name: "Simply Learn Urdu",
-                        url: "https://simyasolutions.com/simply-learn-urdu/",
-                        features: ["300+ phrases with audio from native speakers","spaced repetition system","offline support"],
-                        free: true
+                        "name": "Simply Learn Urdu",
+                        "url": "https://simyasolutions.com/simply-learn-urdu/",
+                        "free": true,
+                        "features": [
+                            "Audio exercises"
+                        ]
                     },
                     {
-                        name: "Ling - Learn Urdu",
-                        url: "https://ling-app.com/learn-urdu/",
-                        features: ["Four skills coverage with mini-games","alphabet tracing","60+ UI languages","partial offline mode"],
-                        free: true
+                        "name": "Ling - Learn Urdu",
+                        "url": "https://ling-app.com/learn-urdu/",
+                        "free": true,
+                        "features": [
+                            "Four skills coverage with mini-games",
+                            "Alphabet tracing",
+                            "60+ UI languages",
+                            "Partial offline mode"
+                        ]
                     },
                     {
-                        name: "Learn Urdu 3000 Words",
-                        url: "https://play.google.com/store/apps/details?id=com.funeasylearnurdu",
-                        features: ["3000+ words in 32 categories with native audio","works in 32 languages","offline capable"],
-                        free: true
+                        "name": "Learn Urdu 3000 Words",
+                        "url": "https://play.google.com/store/apps/details?id=com.funeasylearnurdu",
+                        "free": true,
+                        "features": [
+                            "Audio exercises"
+                        ]
                     },
                     {
-                        name: "Urdu 101 - Learn to Write",
-                        url: "https://www.urdu101.com/",
-                        features: ["Alphabet learning with guided tracing and multiple difficulty modes","offline support"],
-                        free: true
+                        "name": "Urdu 101 - Learn to Write",
+                        "url": "https://www.urdu101.com/",
+                        "free": true,
+                        "features": [
+                            "Alphabet learning with guided tracing",
+                            "Multiple difficulty modes, offline support"
+                        ]
                     },
                     {
-                        name: "Dict Box",
-                        url: "https://play.google.com/store/apps/details?id=com.grandsons.dictbox",
-                        features: ["Multiple dictionaries with fast translations and web browser integration","offline mode"],
-                        free: true
+                        "name": "Dict Box",
+                        "url": "https://play.google.com/store/apps/details?id=com.grandsons.dictbox",
+                        "free": true,
+                        "features": [
+                            "Multiple dictionaries with fast translations",
+                            "Web browser integration, offline mode"
+                        ]
                     }
                 ]
             }
         ],
-        practice: [
+        "practice": [
             {
-                category: "Language Exchange Platforms",
-                items: [
+                "category": "Language Exchange Platforms",
+                "items": [
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        features: ["Native speaker connections with text/voice/video chat","transliteration support","125+ languages"],
-                        free: true
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "Video exercises",
+                            "Native speaker content"
+                        ]
                     },
                     {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        features: ["Millions of language partners with in-app corrections and video/audio calls"],
-                        free: true
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "Mobile app",
+                            "Video exercises",
+                            "Video/audio calls"
+                        ]
                     },
                     {
-                        name: "My Language Exchange",
-                        url: "http://mylanguageexchange.com/",
-                        features: ["Text and voice chat with lesson plans in a safe environment"],
-                        free: true
+                        "name": "My Language Exchange",
+                        "url": "http://mylanguageexchange.com/",
+                        "free": true,
+                        "features": [
+                            "Text and voice chat with lesson plans in a safe environment"
+                        ]
                     },
                     {
-                        name: "Language.Exchange",
-                        url: "https://language.exchange/language/UR-Urdu/",
-                        features: ["Location-based partner search with cultural exchange focus"],
-                        free: true
+                        "name": "Language.Exchange",
+                        "url": "https://language.exchange/language/UR-Urdu/",
+                        "free": true,
+                        "features": [
+                            "Location-based partner search with cultural exchange focus"
+                        ]
                     },
                     {
-                        name: "The Mixxer",
-                        url: "https://www.language-exchanges.org/",
-                        features: ["Virtual exchanges with Zoom/WhatsApp integration for structured practice"],
-                        free: true
+                        "name": "The Mixxer",
+                        "url": "https://www.language-exchanges.org/",
+                        "description": "Virtual exchanges with Zoom/WhatsApp integration for structured practice",
+                        "free": true
                     }
                 ]
             },
             {
-                category: "Cultural Institutions",
-                items: [
+                "category": "Cultural Institutions",
+                "items": [
                     {
-                        name: "Rekhta Foundation",
-                        url: "https://rekhtafoundation.org/",
-                        features: ["World's largest Urdu digital repository with 322,415+ ebooks","interactive tools","crosswords","Taqti poetry analysis","mobile apps"],
-                        free: true
+                        "name": "Rekhta Foundation",
+                        "url": "https://rekhtafoundation.org/",
+                        "free": true,
+                        "features": [
+                            "Interactive exercises",
+                            "Mobile app",
+                            "physical classes in Noida"
+                        ]
                     },
                     {
-                        name: "Iqbal Academy Pakistan",
-                        url: "https://www.iqbalcyberlibrary.net/",
-                        features: ["Government cultural institution with 2,746 holdings in 28 languages","Kuliyat-e-Iqbal Urdu app","complete works with translations"],
-                        free: true
+                        "name": "Iqbal Academy Pakistan",
+                        "url": "https://www.iqbalcyberlibrary.net/",
+                        "free": true,
+                        "features": [
+                            "Mobile app"
+                        ]
                     },
                     {
-                        name: "Anjuman Taraqqi-e-Urdu",
-                        url: "https://urdu.atup.org.pk/",
-                        features: ["Oldest Urdu organization (est","1886) with 2,000+ manuscripts","Qaumi Zaban monthly","Urdu Adab quarterly","600+ Indian branches"],
-                        free: true
+                        "name": "Anjuman Taraqqi-e-Urdu",
+                        "url": "https://urdu.atup.org.pk/",
+                        "free": true,
+                        "features": [
+                            "Oldest Urdu organization (est"
+                        ]
                     },
                     {
-                        name: "Ghalib Institute Delhi",
-                        url: "https://ghalib-institute.com/",
-                        features: ["Established 1965 with 20,733+ documents","rare manuscripts","Delhi University recognized courses","calligraphy training","Jahan-e-Ghalib journal"],
-                        free: false
+                        "name": "Ghalib Institute Delhi",
+                        "url": "https://ghalib-institute.com/",
+                        "free": false,
+                        "features": [
+                            "Established 1965 with 20",
+                            "733+ documents",
+                            "Rare manuscripts",
+                            "Delhi University recognized courses"
+                        ]
                     },
                     {
-                        name: "Osmania University Urdu Department",
-                        url: "http://arts.osmania.ac.in/DeptUrdu.php",
-                        features: ["First Urdu-medium university (1918) with historical collections and rich legacy resources"],
-                        free: false
+                        "name": "Osmania University Urdu Department",
+                        "url": "http://arts.osmania.ac.in/DeptUrdu.php",
+                        "free": false,
+                        "features": [
+                            "First Urdu-medium university with historical collections",
+                            "Rich legacy resources"
+                        ]
                     }
                 ]
             },
             {
-                category: "Pakistan Government Resources",
-                items: [
+                "category": "Pakistan Government Resources",
+                "items": [
                     {
-                        name: "Virtual University Open Courseware",
-                        url: "https://ocw.vu.edu.pk/",
-                        features: ["Completely free access to all materials","YouTube lectures","and DVDs available at cost"],
-                        free: true
+                        "name": "Virtual University Open Courseware",
+                        "url": "https://ocw.vu.edu.pk/",
+                        "free": true,
+                        "features": [
+                            "Completely free access to all materials, YouTube lectures,",
+                            "DVDs available at cost"
+                        ]
                     },
                     {
-                        name: "Allama Iqbal Open University",
-                        url: "https://www.aiou.edu.pk/department-urdu",
-                        features: ["Distance learning from Matriculation to PhD with Teaching Urdu to Foreigners program and Daftri Urdu course"],
-                        free: false
+                        "name": "Allama Iqbal Open University",
+                        "url": "https://www.aiou.edu.pk/department-urdu",
+                        "free": false,
+                        "features": [
+                            "Matriculation platform",
+                            "Daftri Urdu course"
+                        ]
                     },
                     {
-                        name: "FUUAST (Federal Urdu University)",
-                        url: "https://www.fuuastisb.edu.pk/",
-                        features: ["First university using Urdu as main instruction language with standard admission process"],
-                        free: false
+                        "name": "FUUAST (Federal Urdu University)",
+                        "url": "https://www.fuuastisb.edu.pk/",
+                        "description": "First university using Urdu as main instruction language with standard admission process",
+                        "free": false
                     },
                     {
-                        name: "NUML (National University of Modern Languages)",
-                        url: "https://numl.edu.pk/olc",
-                        features: ["8-16 week courses accepting global learners with digital certifications"],
-                        free: false
+                        "name": "NUML (National University of Modern Languages)",
+                        "url": "https://numl.edu.pk/olc",
+                        "description": "8-16 week courses accepting global learners with digital certifications",
+                        "free": false
                     }
                 ]
             }
@@ -704,6 +944,4 @@ const urduResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.urdu = urduResources;
-}
+export default urduResources;

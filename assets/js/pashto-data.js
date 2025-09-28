@@ -1,663 +1,984 @@
 const pashtoResources = {
-    name: "Pashto",
-    nativeName: "پښتو",
-    flag: "🇦🇫",
-    learners: "5M+",
-    speakers: "60M native",
-    highlights: [
+    "name": "Pashto",
+    "nativeName": "پښتو",
+    "flag": "🇦🇫",
+    "learners": "5M+",
+    "speakers": "60M native",
+    "highlights": [
         "200+ free resources across Afghanistan, Pakistan, diaspora",
         "IU CeLCAR: Complete certificate program (8 credit hours)",
         "576 digitized historical books (1871-1930) from NYU",
         "200,000+ documents in ACKU Digital Repository"
     ],
-    resources: {
-        courses: [
+    "resources": {
+        "courses": [
             {
-                category: "Online Pashto Courses and Learning Platforms",
-                items: [
+                "category": "Online Pashto Courses and Learning Platforms",
+                "items": [
                     {
-                        name: "Indiana University CeLCAR Pashto 101",
-                        url: "https://celcar.indiana.edu/current-projects/online-language-courses/online-language-pashto.html",
-                        features: ["Self-paced course covering alphabet","sound system","cultural materials (beginner)","Certificate of completion","8 credit hours intensive study"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Indiana University CeLCAR Pashto 101",
+                        "url": "https://celcar.indiana.edu/current-projects/online-language-courses/online-language-pashto.html",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Beginner",
+                            "Certificate available"
+                        ]
                     },
                     {
-                        name: "IU Expand Elementary Pashto",
-                        url: "https://expand.iu.edu/browse/celcar/courses/elementary-pashto-101",
-                        features: ["Summer intensive course through Indiana University (beginner)","Academic credit available"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "IU Expand Elementary Pashto",
+                        "url": "https://expand.iu.edu/browse/celcar/courses/elementary-pashto-101",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Beginner",
+                            "Academic credit available"
+                        ]
                     },
                     {
-                        name: "UNESCO Family Literacy Course",
-                        url: "https://www.uil.unesco.org/en/articles/launch-family-literacy-and-learning-course-pashto",
-                        features: ["Intergenerational literacy program for Afghan families (basic literacy)","10 hours self-paced","registration at learninghub.uil.unesco.org"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "UNESCO Family Literacy Course",
+                        "url": "https://www.uil.unesco.org/en/articles/launch-family-literacy-and-learning-course-pashto",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Intergenerational literacy program for Afghan families",
+                            "10 hours self-paced, registration at learninghub",
+                            "Unesco"
+                        ]
                     },
                     {
-                        name: "LinGo Play",
-                        url: "https://www.lingo-play.com/en/pashto-for-beginners-and-advanced/",
-                        features: ["600+ free courses with flashcards across themes (beginner-advanced)","100+ lessons per level","education to medicine topics"],
-                        free: true
+                        "name": "LinGo Play",
+                        "url": "https://www.lingo-play.com/en/pashto-for-beginners-and-advanced/",
+                        "free": true,
+                        "features": [
+                            "Beginner"
+                        ]
                     },
                     {
-                        name: "Hilokal",
-                        url: "https://www.hilokal.com/learn/pashto",
-                        features: ["Speaking-first approach with live practice rooms (all levels)","24/7 audio rooms","instant translation","Pashto dramas/songs"],
-                        free: true
+                        "name": "Hilokal",
+                        "url": "https://www.hilokal.com/learn/pashto",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Speaking exercises",
+                            "Audio exercises"
+                        ]
                     },
                     {
-                        name: "LEARN Afghan",
-                        url: "https://learnafghan.org/course-category/pashto/",
-                        features: ["Grades 1-12 curriculum with STEM subjects (K-12)","Offline tablet apps","web development","AI training"],
-                        free: true
+                        "name": "LEARN Afghan",
+                        "url": "https://learnafghan.org/course-category/pashto/",
+                        "free": true,
+                        "features": [
+                            "Grades 1-12 curriculum with STEM subjects",
+                            "Offline tablet apps, web development, AI training"
+                        ]
                     },
                     {
-                        name: "SOLAx WhatsApp Academy",
-                        url: "https://www.sola-afghanistan.org/introducing-solax",
-                        features: ["Daily asynchronous lessons via WhatsApp (secondary school)","Designed for Afghan girls globally"],
-                        free: true
+                        "name": "SOLAx WhatsApp Academy",
+                        "url": "https://www.sola-afghanistan.org/introducing-solax",
+                        "free": true,
+                        "features": [
+                            "Whats platform",
+                            "Designed for Afghan girls globally"
+                        ]
                     },
                     {
-                        name: "Mango Languages Pashto",
-                        url: "https://mangolanguages.com/available-languages/pashto/",
-                        features: ["Conversation-focused course (beginner)","Library card access","practical phrases"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Mango Languages Pashto",
+                        "url": "https://mangolanguages.com/available-languages/pashto/",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Beginner",
+                            "Conversation exercises",
+                            "Library card access, practical phrases"
+                        ]
                     },
                     {
-                        name: "50Languages Pashto",
-                        url: "https://www.50languages.com/en/learn/phrasebook/ps",
-                        features: ["100 lessons with audio files (beginner-intermediate)","MP3 downloads","vocabulary games"],
-                        free: true
+                        "name": "50Languages Pashto",
+                        "url": "https://www.50languages.com/en/learn/phrasebook/ps",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Audio exercises",
+                            "Vocabulary exercises",
+                            "MP3 downloads, vocabulary games"
+                        ]
                     }
                 ]
             }
         ],
-        books: [
+        "books": [
             {
-                category: "Open Educational Resources (OER) and Textbooks",
-                items: [
+                "category": "Open Educational Resources (OER) and Textbooks",
+                "items": [
                     {
-                        name: "Pashto Introductory Course (Saydee)",
-                        url: "https://oercommons.org/courseware/lesson/114783",
-                        features: ["Complete introductory textbook with exercises (ACTFL Novice High-Intermediate Low)","CC license","PDF/EPUB formats"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Pashto Introductory Course (Saydee)",
+                        "url": "https://oercommons.org/courseware/lesson/114783",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Intermediate",
+                            "CC license, PDF/EPUB formats"
+                        ]
                     },
                     {
-                        name: "Pashto Intermediate Course (Saydee)",
-                        url: "https://oercommons.org/courseware/lesson/114785",
-                        features: ["Continuation of introductory course (intermediate-intermediate high)","Language Mentors International"],
-                        free: true,
-                        level: "Intermediate"
+                        "name": "Pashto Intermediate Course (Saydee)",
+                        "url": "https://oercommons.org/courseware/lesson/114785",
+                        "free": true,
+                        "level": "Intermediate",
+                        "features": [
+                            "Intermediate",
+                            "Language Mentors International"
+                        ]
                     },
                     {
-                        name: "Pashto Advanced Teacher's Edition",
-                        url: "https://oercommons.org/courseware/lesson/114788",
-                        features: ["Comprehensive teaching materials (advanced)","Complete curriculum guide"],
-                        free: true,
-                        level: "Advanced"
+                        "name": "Pashto Advanced Teacher's Edition",
+                        "url": "https://oercommons.org/courseware/lesson/114788",
+                        "free": true,
+                        "level": "Advanced",
+                        "features": [
+                            "Advanced",
+                            "Complete curriculum guide"
+                        ]
                     },
                     {
-                        name: "Beginning Pashto Textbook (CAL)",
-                        url: "https://archive.org/details/ERIC_ED364085",
-                        features: ["379 pages covering oral and written Afghan Pashto (beginner)","ILR 2+ or 3 proficiency target"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Beginning Pashto Textbook (CAL)",
+                        "url": "https://archive.org/details/ERIC_ED364085",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "379 pages covering oral",
+                            "Beginner",
+                            "ILR 2+ or 3 proficiency target"
+                        ]
                     },
                     {
-                        name: "Reference Grammar of Pashto (CAL)",
-                        url: "https://archive.org/details/ERIC_ED399825",
-                        features: ["Comprehensive grammar coverage (beginning-intermediate)","Phonology","writing systems","complete grammar"],
-                        free: true
+                        "name": "Reference Grammar of Pashto (CAL)",
+                        "url": "https://archive.org/details/ERIC_ED399825",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Grammar exercises",
+                            "Writing exercises",
+                            "Phonology, writing systems, complete grammar"
+                        ]
                     },
                     {
-                        name: "Reference Grammar PDF Direct",
-                        url: "https://files.eric.ed.gov/fulltext/ED399825.pdf",
-                        features: ["Direct PDF download of grammar (beginning-intermediate)","Free download from ERIC"],
-                        free: true
+                        "name": "Reference Grammar PDF Direct",
+                        "url": "https://files.eric.ed.gov/fulltext/ED399825.pdf",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Grammar exercises",
+                            "Free download from ERIC"
+                        ]
                     },
                     {
-                        name: "Pashto: An Elementary Textbook",
-                        url: "https://archive.org/details/pashtoelementary0000inom",
-                        features: ["One year elementary instruction by Inomkhojayev (elementary)","Complete first-year curriculum"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Pashto: An Elementary Textbook",
+                        "url": "https://archive.org/details/pashtoelementary0000inom",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Inomkhojayev platform",
+                            "Complete first-year curriculum"
+                        ]
                     },
                     {
-                        name: "Traditional Pashto Grammar",
-                        url: "https://archive.org/details/PashtoGrammarYaniQawaidESarfONahvEZabanEAfghani-QaziMeerAhmadShahRizwaniPeshawari",
-                        features: ["Comprehensive traditional grammar reference (all levels)","Classical approach by Peshawari"],
-                        free: true
+                        "name": "Traditional Pashto Grammar",
+                        "url": "https://archive.org/details/PashtoGrammarYaniQawaidESarfONahvEZabanEAfghani-QaziMeerAhmadShahRizwaniPeshawari",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Grammar exercises",
+                            "Peshawari platform",
+                            "Classical approach by Peshawari"
+                        ]
                     },
                     {
-                        name: "DLI Pashto Rapport Course",
-                        url: "https://fieldsupport.dliflc.edu/products/pashto/pu_co/website/pashto.pdf",
-                        features: ["6-8 hours survival phrases and culture (basic)","Military deployment focus"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "DLI Pashto Rapport Course",
+                        "url": "https://fieldsupport.dliflc.edu/products/pashto/pu_co/website/pashto.pdf",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "6-8 hours survival phrases",
+                            "Culture",
+                            "Military deployment focus"
+                        ]
                     },
                     {
-                        name: "DLI Language Materials",
-                        url: "http://www.dliflc.edu/resources/lmds/",
-                        features: ["Defense Language Institute materials distribution (various)","Multiple format options"],
-                        free: true
+                        "name": "DLI Language Materials",
+                        "url": "http://www.dliflc.edu/resources/lmds/",
+                        "free": true,
+                        "features": [
+                            "Defense Language Institute materials distribution",
+                            "Multiple format options"
+                        ]
                     }
                 ]
             },
             {
-                category: "Free Pashto Books and Digital Libraries",
-                items: [
+                "category": "Free Pashto Books and Digital Libraries",
+                "items": [
                     {
-                        name: "Afghanistan Digital Library (NYU)",
-                        url: "https://afghanistandl.nyu.edu/",
-                        features: ["576 digitized books","documents","newspapers (1871-1930) (academic/advanced)","Historical materials","public domain"],
-                        free: true
+                        "name": "Afghanistan Digital Library (NYU)",
+                        "url": "https://afghanistandl.nyu.edu/",
+                        "free": true,
+                        "features": [
+                            "Advanced",
+                            "Historical materials, public domain"
+                        ]
                     },
                     {
-                        name: "ACKU Digital Repository",
-                        url: "https://afghandata.org/",
-                        features: ["200,000+ documents","190,000 digitized items (all levels)","Dupree Collection","extensive topics"],
-                        free: true
+                        "name": "ACKU Digital Repository",
+                        "url": "https://afghandata.org/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Dupree Collection, extensive topics"
+                        ]
                     },
                     {
-                        name: "ACKU Library",
-                        url: "https://acku.edu.af/library/",
-                        features: ["Afghanistan Center at Kabul University collection (academic)","Art","archaeology","education","poetry"],
-                        free: true
+                        "name": "ACKU Library",
+                        "url": "https://acku.edu.af/library/",
+                        "free": true,
+                        "features": [
+                            "Afghanistan Center at Kabul University collection",
+                            "Art, archaeology, education, poetry"
+                        ]
                     },
                     {
-                        name: "UN Nebraska Afghanistan Collection",
-                        url: "https://digitalcommons.unomaha.edu/daripashtobooks/",
-                        features: ["20,000+ titles","15% in Pashto/Dari (all levels)","Historical works","grade 1 textbooks"],
-                        free: true
+                        "name": "UN Nebraska Afghanistan Collection",
+                        "url": "https://digitalcommons.unomaha.edu/daripashtobooks/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Historical works, grade 1 textbooks"
+                        ]
                     },
                     {
-                        name: "Peshawar Library",
-                        url: "https://libraryofpeshawar.blogspot.com/",
-                        features: ["Poetry","short stories","religious texts PDFs (general-advanced)","Dr","Sahib Shah Sabir"],
-                        free: true
+                        "name": "Peshawar Library",
+                        "url": "https://libraryofpeshawar.blogspot.com/",
+                        "free": true,
+                        "features": [
+                            "Advanced",
+                            "Sahib Shah Sabir, Abdullah Jan Maghmoom"
+                        ]
                     },
                     {
-                        name: "Ketabona Digital Library",
-                        url: "https://ketabona.com/",
-                        features: ["Popular contemporary Pashto works (general)","Novel زه واده نه کوم with 26,000+ downloads"],
-                        free: true
+                        "name": "Ketabona Digital Library",
+                        "url": "https://ketabona.com/",
+                        "free": true,
+                        "features": [
+                            "Popular contemporary Pashto works",
+                            "Novel زه واده نه کوم with 26,000+ downloads"
+                        ]
                     },
                     {
-                        name: "Pashto Stories for Children",
-                        url: "https://archive.org/details/PashtoStoriesForChildern",
-                        features: ["Islamic stories in multiple formats (children)","Internet Archive hosted"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Pashto Stories for Children",
+                        "url": "https://archive.org/details/PashtoStoriesForChildern",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Islamic stories in multiple formats",
+                            "Internet Archive hosted"
+                        ]
                     },
                     {
-                        name: "World Stories",
-                        url: "https://worldstories.org.uk/lang/pashto",
-                        features: ["12 stories in Pashto (beginning readers)","International collection"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "World Stories",
+                        "url": "https://worldstories.org.uk/lang/pashto",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "12 stories in Pashto",
+                            "International collection"
+                        ]
                     },
                     {
-                        name: "Philipp Winterberg Books",
-                        url: "https://www.philippwinterberg.com/en/books_Pashto.php",
-                        features: ["Bilingual children's books (ages 3-7)","Free PDF downloads"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Philipp Winterberg Books",
+                        "url": "https://www.philippwinterberg.com/en/books_Pashto.php",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Bilingual children's books",
+                            "Free PDF downloads"
+                        ]
                     },
                     {
-                        name: "Diwaan-e-Rahman Baba",
-                        url: "https://archive.org/details/DewaanERahmanBabaPashtoPoetryBook",
-                        features: ["Classical poetry collection (advanced)","Famous Pashto poet's works"],
-                        free: true,
-                        level: "Advanced"
+                        "name": "Diwaan-e-Rahman Baba",
+                        "url": "https://archive.org/details/DewaanERahmanBabaPashtoPoetryBook",
+                        "free": true,
+                        "level": "Advanced",
+                        "features": [
+                            "Advanced",
+                            "Famous Pashto poet's works"
+                        ]
                     },
                     {
-                        name: "Global Digital Library",
-                        url: "https://digitallibrary.io/ps/",
-                        features: ["Storybooks in Northern/Southern dialects (children-intermediate)","Open-source content"],
-                        free: true
+                        "name": "Global Digital Library",
+                        "url": "https://digitallibrary.io/ps/",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Open-source content"
+                        ]
                     }
                 ]
             }
         ],
-        audio: [
+        "audio": [
             {
-                category: "YouTube Channels and Video Resources",
-                items: [
+                "category": "YouTube Channels and Video Resources",
+                "items": [
                     {
-                        name: "Learn Pashto YouTube",
-                        url: "https://www.youtube.com/user/LearnPashto",
-                        features: ["Step-by-step video lessons (beginner-intermediate)","Systematic curriculum"],
-                        free: true
+                        "name": "Learn Pashto YouTube",
+                        "url": "https://www.youtube.com/user/LearnPashto",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Video exercises",
+                            "Systematic curriculum"
+                        ]
                     },
                     {
-                        name: "Indiana CeLCAR Podcasts",
-                        url: "http://www.indiana.edu/~celcar/podcasts/pashto/rss.xml",
-                        features: ["Academic podcast series 2015-2018 (intermediate)","RSS feed available"],
-                        free: true,
-                        level: "Intermediate"
+                        "name": "Indiana CeLCAR Podcasts",
+                        "url": "http://www.indiana.edu/~celcar/podcasts/pashto/rss.xml",
+                        "free": true,
+                        "level": "Intermediate",
+                        "features": [
+                            "Intermediate",
+                            "RSS feed available"
+                        ]
                     }
                 ]
             },
             {
-                category: "Radio and Broadcasting",
-                items: [
+                "category": "Radio and Broadcasting",
+                "items": [
                     {
-                        name: "VOA Pashto",
-                        url: "https://www.voadeewanews.com/",
-                        features: ["Daily 30-minute news broadcasts (intermediate-advanced)","Current events immersion"],
-                        free: true
+                        "name": "VOA Pashto",
+                        "url": "https://www.voadeewanews.com/",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Current events immersion"
+                        ]
                     },
                     {
-                        name: "BBC Pashto",
-                        url: "http://www.bbc.com/pashto",
-                        features: ["Professional news programming (intermediate-advanced)","News and cultural content"],
-                        free: true
+                        "name": "BBC Pashto",
+                        "url": "http://www.bbc.com/pashto",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Cultural content"
+                        ]
                     },
                     {
-                        name: "Pashto Radio Toronto",
-                        url: "https://pashtoradio.ca",
-                        features: ["Diaspora community radio (all levels)","International Pashto content"],
-                        free: true
+                        "name": "Pashto Radio Toronto",
+                        "url": "https://pashtoradio.ca",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "International Pashto content"
+                        ]
                     },
                     {
-                        name: "Radio Azadi Pashto",
-                        url: "https://da.azadiradio.com/",
-                        features: ["RFE/RL Pashto service podcasts (intermediate-advanced)","Professional journalism"],
-                        free: true
+                        "name": "Radio Azadi Pashto",
+                        "url": "https://da.azadiradio.com/",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Professional journalism"
+                        ]
                     }
                 ]
             },
             {
-                category: "Podcasts for Pashto Learners",
-                items: [
+                "category": "Podcasts for Pashto Learners",
+                "items": [
                     {
-                        name: "Learn Pashto with Podcasts",
-                        url: "https://www.alexstrick.com/blog/pashto-podcasts",
-                        features: ["Curated podcast recommendations (various)","Expert selection guide"],
-                        free: true
+                        "name": "Learn Pashto with Podcasts",
+                        "url": "https://www.alexstrick.com/blog/pashto-podcasts",
+                        "free": true,
+                        "features": [
+                            "Curated podcast recommendations",
+                            "Expert selection guide"
+                        ]
                     },
                     {
-                        name: "SBS Pashto Podcasts",
-                        features: ["Australian news and culture (intermediate)","Diaspora focused"],
-                        free: true,
-                        level: "Intermediate"
+                        "name": "SBS Pashto Podcasts",
+                        "free": true,
+                        "level": "Intermediate",
+                        "features": [
+                            "Australian news",
+                            "Intermediate",
+                            "Diaspora focused"
+                        ]
                     }
                 ]
             }
         ],
-        apps: [
+        "apps": [
             {
-                category: "Dictionaries and Language Tools",
-                items: [
+                "category": "Dictionaries and Language Tools",
+                "items": [
                     {
-                        name: "ThePashto.com Dictionary",
-                        url: "https://www.thepashto.com/",
-                        features: ["Bidirectional Pashto-English dictionary (all levels)","Roman transliteration","phonetic keyboard"],
-                        free: true
+                        "name": "ThePashto.com Dictionary",
+                        "url": "https://www.thepashto.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Roman transliteration, phonetic keyboard"
+                        ]
                     },
                     {
-                        name: "Open Pashto-English Dictionary",
-                        url: "https://oped.univie.ac.at/",
-                        features: ["Academic dictionary with audio (all levels)","Austrian Academy funded through 2025"],
-                        free: true
+                        "name": "Open Pashto-English Dictionary",
+                        "url": "https://oped.univie.ac.at/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Audio exercises",
+                            "Austrian Academy funded through 2025"
+                        ]
                     },
                     {
-                        name: "Glosbe Dictionary",
-                        url: "https://glosbe.com/en/ps",
-                        features: ["Context examples with audio (all levels)","Translation memory","parallel corpora"],
-                        free: true
+                        "name": "Glosbe Dictionary",
+                        "url": "https://glosbe.com/en/ps",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Audio exercises",
+                            "Translation memory, parallel corpora"
+                        ]
                     },
                     {
-                        name: "LingDocs Dictionary",
-                        url: "https://dictionary.lingdocs.com/",
-                        features: ["Offline capable dictionary (all levels)","Verb conjugation","inflections"],
-                        free: true
+                        "name": "LingDocs Dictionary",
+                        "url": "https://dictionary.lingdocs.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Verb conjugation, inflections"
+                        ]
                     },
                     {
-                        name: "Qamosona Pashto Dictionary",
-                        url: "https://qamosona.com/",
-                        features: ["Comprehensive Pashto reference (all levels)","Multiple dialect support"],
-                        free: true
+                        "name": "Qamosona Pashto Dictionary",
+                        "url": "https://qamosona.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Multiple dialect support"
+                        ]
                     },
                     {
-                        name: "Lexilogos Pashto Keyboard",
-                        url: "https://www.lexilogos.com/keyboard/pashto.htm",
-                        features: ["Virtual keyboard with diacriticals (all levels)","Keyboard shortcuts support"],
-                        free: true
+                        "name": "Lexilogos Pashto Keyboard",
+                        "url": "https://www.lexilogos.com/keyboard/pashto.htm",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Keyboard shortcuts support"
+                        ]
                     },
                     {
-                        name: "Branah Pashto Keyboard",
-                        url: "https://www.branah.com/pashto",
-                        features: ["QWERTY toggle keyboard (all levels)","Easy switching"],
-                        free: true
+                        "name": "Branah Pashto Keyboard",
+                        "url": "https://www.branah.com/pashto",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Easy switching"
+                        ]
                     },
                     {
-                        name: "ThePashto Phonetic Keyboard",
-                        url: "https://www.thepashto.com/keyboard.php",
-                        features: ["Updated July 2025 (all levels)","Improved stroke handling"],
-                        free: true
+                        "name": "ThePashto Phonetic Keyboard",
+                        "url": "https://www.thepashto.com/keyboard.php",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Improved stroke handling"
+                        ]
                     },
                     {
-                        name: "Google Translate Pashto",
-                        url: "https://translate.google.com/",
-                        features: ["Text","document","image","speech translation (all levels)","Multiple input methods"],
-                        free: true
+                        "name": "Google Translate Pashto",
+                        "url": "https://translate.google.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Multiple input methods"
+                        ]
                     },
                     {
-                        name: "Lingvanex Translator",
-                        url: "https://lingvanex.com/translation/english-to-pashto",
-                        features: ["3000 character translations (all levels)","1000 daily requests free"],
-                        free: true
+                        "name": "Lingvanex Translator",
+                        "url": "https://lingvanex.com/translation/english-to-pashto",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "1000 daily requests free"
+                        ]
                     },
                     {
-                        name: "Jason's Verb Conjugator",
-                        url: "https://pashtools.com/verbconjugator",
-                        features: ["Rule-based conjugation tool (intermediate)","Beta version for regular verbs"],
-                        free: true,
-                        level: "Intermediate"
+                        "name": "Jason's Verb Conjugator",
+                        "url": "https://pashtools.com/verbconjugator",
+                        "free": true,
+                        "level": "Intermediate",
+                        "features": [
+                            "Intermediate",
+                            "Beta version for regular verbs"
+                        ]
                     }
                 ]
             },
             {
-                category: "Mobile Apps for Pashto Learning",
-                items: [
+                "category": "Mobile Apps for Pashto Learning",
+                "items": [
                     {
-                        name: "English Pashto Dictionary (Android)",
-                        url: "https://play.google.com/store/apps/details?id=com.dictionary.ps",
-                        features: ["OCR text extraction dictionary (all levels)","Offline mode","100,000+ words"],
-                        free: true
+                        "name": "English Pashto Dictionary (Android)",
+                        "url": "https://play.google.com/store/apps/details?id=com.dictionary.ps",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Offline mode, 100,000+ words"
+                        ]
                     },
                     {
-                        name: "Pashto Dictionary Pro (iOS)",
-                        url: "https://apps.apple.com/us/app/pashto-dictionary-pro/id525527994",
-                        features: ["User-expandable dictionary (all levels)","Journalism vocabulary included"],
-                        free: true
+                        "name": "Pashto Dictionary Pro (iOS)",
+                        "url": "https://apps.apple.com/us/app/pashto-dictionary-pro/id525527994",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Vocabulary exercises",
+                            "Journalism vocabulary included"
+                        ]
                     },
                     {
-                        name: "Pashto Dictionary & Translator",
-                        url: "https://apps.apple.com/us/app/pashto-dictionary-translator/id6446334830",
-                        features: ["Translation with examples (all levels)","Voice input support"],
-                        free: true
+                        "name": "Pashto Dictionary & Translator",
+                        "url": "https://apps.apple.com/us/app/pashto-dictionary-translator/id6446334830",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Voice input support"
+                        ]
                     },
                     {
-                        name: "Easy Pashto Keyboard",
-                        url: "https://play.google.com/store/apps/details?id=com.pakdata.easypashto",
-                        features: ["Predictive text keyboard (all levels)","Works across all apps"],
-                        free: true
+                        "name": "Easy Pashto Keyboard",
+                        "url": "https://play.google.com/store/apps/details?id=com.pakdata.easypashto",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Works across all apps"
+                        ]
                     },
                     {
-                        name: "Pashto Keyboard - پښتو کیبورډ",
-                        url: "https://play.google.com/store/apps/details?id=com.pashto.english.keyboard",
-                        features: ["Full Pashto typing support (all levels)","Multiple keyboard layouts"],
-                        free: true
+                        "name": "Pashto Keyboard - پښتو کیبورډ",
+                        "url": "https://play.google.com/store/apps/details?id=com.pashto.english.keyboard",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Multiple keyboard layouts"
+                        ]
                     },
                     {
-                        name: "Nemo Pashto",
-                        features: ["Daily phrase learning (beginner)","Offline capable"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Nemo Pashto",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Beginner",
+                            "Offline capable"
+                        ]
                     },
                     {
-                        name: "Drops: Learn Pashto",
-                        features: ["Visual vocabulary learning (beginner)","5 minutes daily free"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Drops: Learn Pashto",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Beginner",
+                            "Vocabulary exercises",
+                            "5 minutes daily free"
+                        ]
                     },
                     {
-                        name: "Memrise Pashto Courses",
-                        url: "https://www.memrise.com/courses/english/pashto/",
-                        features: ["Community-created courses (all levels)","Spaced repetition"],
-                        free: true
+                        "name": "Memrise Pashto Courses",
+                        "url": "https://www.memrise.com/courses/english/pashto/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "Spaced repetition"
+                        ]
                     },
                     {
-                        name: "AML Pashto App",
-                        url: "https://itunes.apple.com/us/app/amlpashto/id455614798?mt=8",
-                        features: ["Comprehensive language tutorials (all levels)","iOS app format"],
-                        free: true
+                        "name": "AML Pashto App",
+                        "url": "https://itunes.apple.com/us/app/amlpashto/id455614798?mt=8",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "iOS app format"
+                        ]
                     }
                 ]
             }
         ],
-        practice: [
+        "practice": [
             {
-                category: "Government and Institutional Resources",
-                items: [
+                "category": "Government and Institutional Resources",
+                "items": [
                     {
-                        name: "Afghanistan Ministry of Education",
-                        url: "https://moe.gov.af/en",
-                        features: ["Textbooks grades 1-12 (K-12)","Limited current access"],
-                        free: true
+                        "name": "Afghanistan Ministry of Education",
+                        "url": "https://moe.gov.af/en",
+                        "free": true,
+                        "features": [
+                            "Textbooks grades 1-12",
+                            "Limited current access"
+                        ]
                     },
                     {
-                        name: "Kabul University Pashto Dept",
-                        url: "https://ku.edu.af/index.php/en/faculty-language-and-literature-department-pashto",
-                        features: ["PhD program materials (university)","Some public materials"],
-                        free: true
+                        "name": "Kabul University Pashto Dept",
+                        "url": "https://ku.edu.af/index.php/en/faculty-language-and-literature-department-pashto",
+                        "free": true,
+                        "features": [
+                            "PhD program materials",
+                            "Some public materials"
+                        ]
                     },
                     {
-                        name: "Kabul Education University",
-                        url: "https://keu.edu.af/en/language-literature",
-                        features: ["Teacher training resources (university)","2,000 student program"],
-                        free: true
+                        "name": "Kabul Education University",
+                        "url": "https://keu.edu.af/en/language-literature",
+                        "free": true,
+                        "features": [
+                            "Teacher training resources",
+                            "2,000 student program"
+                        ]
                     },
                     {
-                        name: "U Peshawar Pashto Academy",
-                        url: "http://pashtoacademy.uop.edu.pk/",
-                        features: ["Research publications","dictionary projects (all levels)","Journal 'Pashto' since 1955"],
-                        free: true
+                        "name": "U Peshawar Pashto Academy",
+                        "url": "http://pashtoacademy.uop.edu.pk/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Journal 'Pashto' since 1955"
+                        ]
                     },
                     {
-                        name: "KP Education Department",
-                        url: "https://kpese.gov.pk/",
-                        features: ["KP textbooks classes I-XII (K-12)","Free PDF downloads"],
-                        free: true
+                        "name": "KP Education Department",
+                        "url": "https://kpese.gov.pk/",
+                        "free": true,
+                        "features": [
+                            "KP textbooks classes I-XII",
+                            "Free PDF downloads"
+                        ]
                     },
                     {
-                        name: "UNESCO FILL Course",
-                        url: "https://learninghub.uil.unesco.org/",
-                        features: ["Family literacy learning (basic)","10 hours self-paced"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "UNESCO FILL Course",
+                        "url": "https://learninghub.uil.unesco.org/",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Family literacy learning",
+                            "10 hours self-paced"
+                        ]
                     },
                     {
-                        name: "US Dept of Education",
-                        url: "https://www2.ed.gov/about/inits/ed/keeping-the-promise/educational-resources.html",
-                        features: ["Afghan refugee resources (all levels)","Keeping the Promise initiative"],
-                        free: true
+                        "name": "US Dept of Education",
+                        "url": "https://www2.ed.gov/about/inits/ed/keeping-the-promise/educational-resources.html",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Keeping the Promise initiative"
+                        ]
                     },
                     {
-                        name: "mEducation Alliance",
-                        url: "https://meducationalliance.org/afghan_kids_support_hub-digital_resources/",
-                        features: ["Darakht-e-Danesh Library (children)","Bilingual NABU stories"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "mEducation Alliance",
+                        "url": "https://meducationalliance.org/afghan_kids_support_hub-digital_resources/",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Darakht-e-Danesh Library",
+                            "Bilingual NABU stories"
+                        ]
                     }
                 ]
             },
             {
-                category: "University Pashto Programs",
-                items: [
+                "category": "University Pashto Programs",
+                "items": [
                     {
-                        name: "Indiana U CeLCAR Portal",
-                        url: "https://celcar.indiana.edu/materials/language-portal/pashto.html",
-                        features: ["Comprehensive resource portal (ACTFL Novice High-Intermediate Low)","Canvas modules 2015-2018"],
-                        free: true
+                        "name": "Indiana U CeLCAR Portal",
+                        "url": "https://celcar.indiana.edu/materials/language-portal/pashto.html",
+                        "free": true,
+                        "features": [
+                            "Intermediate",
+                            "Canvas modules 2015-2018"
+                        ]
                     },
                     {
-                        name: "U Pennsylvania Pashto",
-                        url: "https://www.southasia.upenn.edu/pashto",
-                        features: ["SAST-430/AMES-017/517 courses (beginning-advanced)","Non-registered enrollment available"],
-                        free: true
+                        "name": "U Pennsylvania Pashto",
+                        "url": "https://www.southasia.upenn.edu/pashto",
+                        "free": true,
+                        "features": [
+                            "Advanced",
+                            "Non-registered enrollment available"
+                        ]
                     },
                     {
-                        name: "UT Austin Summer Institute",
-                        url: "https://liberalarts.utexas.edu/mes/summer-language-institutes/pashto-summer-institute.html",
-                        features: ["Intensive summer program (beginner-intermediate)","Professional focus"],
-                        free: true
+                        "name": "UT Austin Summer Institute",
+                        "url": "https://liberalarts.utexas.edu/mes/summer-language-institutes/pashto-summer-institute.html",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Professional focus"
+                        ]
                     },
                     {
-                        name: "UCLA Islamic Manuscripts",
-                        url: "https://www.library.ucla.edu/about/programs/islamicate-initiative/",
-                        features: ["8,000+ volume collection (academic)","Digitization in progress"],
-                        free: true
+                        "name": "UCLA Islamic Manuscripts",
+                        "url": "https://www.library.ucla.edu/about/programs/islamicate-initiative/",
+                        "free": true,
+                        "features": [
+                            "8,000+ volume collection",
+                            "Digitization in progress"
+                        ]
                     },
                     {
-                        name: "U Iowa Resource Guide",
-                        url: "https://clcl.uiowa.edu/language-resources/pashto-language-and-culture-resources",
-                        features: ["Comprehensive links collection (all levels)","Dictionary and grammar resources"],
-                        free: true
+                        "name": "U Iowa Resource Guide",
+                        "url": "https://clcl.uiowa.edu/language-resources/pashto-language-and-culture-resources",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Dictionary",
+                            "Grammar exercises",
+                            "Grammar resources"
+                        ]
                     },
                     {
-                        name: "INALCO France",
-                        url: "https://www.inalco.fr/en/languages/pashto",
-                        features: ["Only European regular program (undergraduate-graduate)","Since 1966"],
-                        free: true
+                        "name": "INALCO France",
+                        "url": "https://www.inalco.fr/en/languages/pashto",
+                        "free": true,
+                        "features": [
+                            "Only European regular program",
+                            "Since 1966"
+                        ]
                     },
                     {
-                        name: "LSI London/Paris/Zurich",
-                        url: "https://www.lsi.edu/en/evening-classes/learn-pashto-in-london-new-york-paris-zurich",
-                        features: ["Evening classes in major cities (all levels)","Native speaker instruction"],
-                        free: true
+                        "name": "LSI London/Paris/Zurich",
+                        "url": "https://www.lsi.edu/en/evening-classes/learn-pashto-in-london-new-york-paris-zurich",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Native speaker content",
+                            "Native speaker instruction"
+                        ]
                     },
                     {
-                        name: "U Chicago SALRC",
-                        url: "http://salrc.uchicago.edu/workshops/sponsored/121203/resources/pashto_ronkin.htm",
-                        features: ["South Asia Language Resource Center (various)","Workshop materials"],
-                        free: true
+                        "name": "U Chicago SALRC",
+                        "url": "http://salrc.uchicago.edu/workshops/sponsored/121203/resources/pashto_ronkin.htm",
+                        "free": true,
+                        "features": [
+                            "South Asia Language Resource Center",
+                            "Workshop materials"
+                        ]
                     },
                     {
-                        name: "Georgetown University Press",
-                        url: "https://georgetownuniversitypresstextbooks.com/pashto/",
-                        features: ["Published textbooks with online resources (elementary-advanced)","Audio downloads available"],
-                        free: true
+                        "name": "Georgetown University Press",
+                        "url": "https://georgetownuniversitypresstextbooks.com/pashto/",
+                        "free": true,
+                        "features": [
+                            "Advanced",
+                            "Audio exercises",
+                            "Audio downloads available"
+                        ]
                     }
                 ]
             },
             {
-                category: "Community-Created and Open-Source Materials",
-                items: [
+                "category": "Community-Created and Open-Source Materials",
+                "items": [
                     {
-                        name: "Pashto Wikipedia",
-                        url: "https://ps.wikipedia.org/",
-                        features: ["19,232+ articles encyclopedia (all levels)","CC licensed","24,000+ users"],
-                        free: true
+                        "name": "Pashto Wikipedia",
+                        "url": "https://ps.wikipedia.org/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "CC licensed, 24,000+ users"
+                        ]
                     },
                     {
-                        name: "Pashto Quran Website",
-                        url: "https://github.com/mastermoo/pashto-quran",
-                        features: ["Religious texts with translations (all levels)","Live at quran.tolafghan.com"],
-                        free: true
+                        "name": "Pashto Quran Website",
+                        "url": "https://github.com/mastermoo/pashto-quran",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Live at quran",
+                            "Tolafghan"
+                        ]
                     },
                     {
-                        name: "Pashto NLP Resources",
-                        url: "https://github.com/csfacultynu/Pashto-NLP",
-                        features: ["Lexicons and annotated corpora (academic)","Nangarhar University project"],
-                        free: true
+                        "name": "Pashto NLP Resources",
+                        "url": "https://github.com/csfacultynu/Pashto-NLP",
+                        "free": true,
+                        "features": [
+                            "Lexicons",
+                            "Annotated corpora",
+                            "Nangarhar University project"
+                        ]
                     },
                     {
-                        name: "Worldly OCR Project",
-                        url: "https://github.com/mrychlik/worldly-ocr",
-                        features: ["OCR technology for Pashto (technical)","$75,000 NEH grant funded"],
-                        free: true
+                        "name": "Worldly OCR Project",
+                        "url": "https://github.com/mrychlik/worldly-ocr",
+                        "free": true,
+                        "features": [
+                            "OCR technology for Pashto",
+                            "$75,000 NEH grant funded"
+                        ]
                     },
                     {
-                        name: "Anki Pashto Dictionary Deck",
-                        url: "https://ankiweb.net/shared/info/339901712",
-                        features: ["Comprehensive vocabulary deck (all levels)","Spaced repetition"],
-                        free: true
+                        "name": "Anki Pashto Dictionary Deck",
+                        "url": "https://ankiweb.net/shared/info/339901712",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Vocabulary exercises",
+                            "Spaced repetition"
+                        ]
                     },
                     {
-                        name: "Learn to Read Pashto Deck",
-                        url: "https://ankiweb.net/shared/info/673579575",
-                        features: ["Reading focused flashcards (beginner)","Native speaker audio"],
-                        free: true,
-                        level: "Beginner"
+                        "name": "Learn to Read Pashto Deck",
+                        "url": "https://ankiweb.net/shared/info/673579575",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Beginner",
+                            "Reading exercises",
+                            "Audio exercises",
+                            "Native speaker content",
+                            "Native speaker audio"
+                        ]
                     },
                     {
-                        name: "Pashto Learning GitHub",
-                        url: "https://github.com/topics/pashto",
-                        features: ["Various open-source projects (technical)","Community contributions"],
-                        free: true
+                        "name": "Pashto Learning GitHub",
+                        "url": "https://github.com/topics/pashto",
+                        "free": true,
+                        "features": [
+                            "Various open-source projects",
+                            "Community support",
+                            "Community contributions"
+                        ]
                     },
                     {
-                        name: "Reddit r/Pashto",
-                        url: "https://www.reddit.com/r/pashto/",
-                        features: ["Community discussion forum (all levels)","Native speakers and learners"],
-                        free: true
+                        "name": "Reddit r/Pashto",
+                        "url": "https://www.reddit.com/r/pashto/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "Native speakers",
+                            "Learners"
+                        ]
                     },
                     {
-                        name: "Polyglot Club Pashto",
-                        url: "https://polyglotclub.com/language/central-pashto/forum",
-                        features: ["Forum and resource sharing (all levels)","Active community"],
-                        free: true
+                        "name": "Polyglot Club Pashto",
+                        "url": "https://polyglotclub.com/language/central-pashto/forum",
+                        "free": true,
+                        "features": [
+                            "Community support",
+                            "All levels",
+                            "Active community"
+                        ]
                     }
                 ]
             },
             {
-                category: "Language Exchange Platforms",
-                items: [
+                "category": "Language Exchange Platforms",
+                "items": [
                     {
-                        name: "MyLanguageExchange",
-                        url: "https://www.mylanguageexchange.com/",
-                        features: ["Global pen pal connections (all levels)","Email and chat options"],
-                        free: true
+                        "name": "MyLanguageExchange",
+                        "url": "https://www.mylanguageexchange.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Chat options"
+                        ]
                     },
                     {
-                        name: "Language.exchange",
-                        url: "https://en.language.exchange/language/PS-Pashto/",
-                        features: ["Modern exchange features (all levels)","Verified profiles"],
-                        free: true
+                        "name": "Language.exchange",
+                        "url": "https://en.language.exchange/language/PS-Pashto/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Verified profiles"
+                        ]
                     },
                     {
-                        name: "HelloTalk",
-                        features: ["Mobile language exchange (all levels)","Correction features"],
-                        free: true
+                        "name": "HelloTalk",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "Correction features"
+                        ]
                     },
                     {
-                        name: "Tandem",
-                        url: "https://www.tandem.net/",
-                        features: ["Video chat language exchange (all levels)","Structured conversations"],
-                        free: true
+                        "name": "Tandem",
+                        "url": "https://www.tandem.net/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Video exercises",
+                            "Structured conversations"
+                        ]
                     },
                     {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        features: ["Face-to-face and online (all levels)","Local meetup options"],
-                        free: true
+                        "name": "ConversationExchange",
+                        "url": "https://www.conversationexchange.com/",
+                        "free": true,
+                        "features": [
+                            "Face-to-face",
+                            "All levels",
+                            "Local meetup options"
+                        ]
                     },
                     {
-                        name: "Speaky",
-                        url: "https://www.speaky.com/",
-                        features: ["Browser-based exchange (all levels)","Instant matching"],
-                        free: true
+                        "name": "Speaky",
+                        "url": "https://www.speaky.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Instant matching"
+                        ]
                     },
                     {
-                        name: "Bilingua",
-                        features: ["AI-matched partners (all levels)","Personality matching"],
-                        free: true
+                        "name": "Bilingua",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Personality matching"
+                        ]
                     },
                     {
-                        name: "UniLang Forum",
-                        url: "https://forum.unilang.org/viewtopic.php?t=25794",
-                        features: ["Community lesson series (all levels)","Collaborative development"],
-                        free: true
+                        "name": "UniLang Forum",
+                        "url": "https://forum.unilang.org/viewtopic.php?t=25794",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "Collaborative development"
+                        ]
                     },
                     {
-                        name: "InterPals",
-                        url: "https://www.interpals.net/",
-                        features: ["Pen pal and language exchange (all levels)","Long-term connections"],
-                        free: true
+                        "name": "InterPals",
+                        "url": "https://www.interpals.net/",
+                        "free": true,
+                        "features": [
+                            "Pen pal",
+                            "All levels",
+                            "Long-term connections"
+                        ]
                     },
                     {
-                        name: "Lingoglobe",
-                        url: "https://www.lingoglobe.com/",
-                        features: ["Free language exchange (all levels)","Simple interface"],
-                        free: true
+                        "name": "Lingoglobe",
+                        "url": "https://www.lingoglobe.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Simple interface"
+                        ]
                     }
                 ]
             }
@@ -665,6 +986,4 @@ const pashtoResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.pashto = pashtoResources;
-}
+export default pashtoResources;
