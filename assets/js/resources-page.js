@@ -138,8 +138,20 @@
             freeResources += typeResources.filter(r => r.free).length;
         });
 
+        // Count unique languages
+        const uniqueLanguages = new Set();
+        Object.values(allResources).forEach(typeResources => {
+            typeResources.forEach(resource => {
+                if (resource.language) {
+                    uniqueLanguages.add(resource.language);
+                }
+            });
+        });
+        const totalLanguages = uniqueLanguages.size;
+
         // Animate counters
         animateCounter('total-resources', totalResources);
+        animateCounter('total-languages', totalLanguages);
         animateCounter('free-resources', freeResources);
     }
 
