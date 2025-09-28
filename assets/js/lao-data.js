@@ -621,4 +621,6 @@ const laoResources = {
     }
 };
 
-export default laoResources;
+if (typeof languageData !== 'undefined') {
+    languageData.lao = laoResources;
+}

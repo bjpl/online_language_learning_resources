@@ -616,4 +616,6 @@ const mongolianResources = {
     }
 };
 
-export default mongolianResources;
+if (typeof languageData !== 'undefined') {
+    languageData.mongolian = mongolianResources;
+}

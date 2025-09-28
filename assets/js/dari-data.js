@@ -661,4 +661,6 @@ const dariResources = {
     }
 };
 
-export default dariResources;
+if (typeof languageData !== 'undefined') {
+    languageData.dari = dariResources;
+}

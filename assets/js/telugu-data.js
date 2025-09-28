@@ -825,4 +825,6 @@ const teluguResources = {
     }
 };
 
-export default teluguResources;
+if (typeof languageData !== 'undefined') {
+    languageData.telugu = teluguResources;
+}

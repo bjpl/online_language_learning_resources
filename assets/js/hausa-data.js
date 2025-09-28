@@ -644,4 +644,6 @@ const hausaResources = {
     }
 };
 
-export default hausaResources;
+if (typeof languageData !== 'undefined') {
+    languageData.hausa = hausaResources;
+}

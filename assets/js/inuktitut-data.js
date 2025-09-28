@@ -702,4 +702,6 @@ const inuktitutResources = {
     }
 };
 
-export default inuktitutResources;
+if (typeof languageData !== 'undefined') {
+    languageData.inuktitut = inuktitutResources;
+}

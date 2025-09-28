@@ -706,4 +706,6 @@ const welshResources = {
     }
 };
 
-export default welshResources;
+if (typeof languageData !== 'undefined') {
+    languageData.welsh = welshResources;
+}

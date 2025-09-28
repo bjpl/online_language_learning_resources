@@ -534,4 +534,6 @@ const signLanguageResources = {
     }
 };
 
-export default signLanguageResources;
+if (typeof languageData !== 'undefined') {
+    languageData.signlanguage = signLanguageResources;
+}

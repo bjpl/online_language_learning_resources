@@ -726,4 +726,6 @@ const yorubaResources = {
     }
 };
 
-export default yorubaResources;
+if (typeof languageData !== 'undefined') {
+    languageData.yoruba = yorubaResources;
+}

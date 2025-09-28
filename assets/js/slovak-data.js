@@ -415,4 +415,6 @@ const slovakResources = {
     }
 };
 
-export default slovakResources;
+if (typeof languageData !== 'undefined') {
+    languageData.slovak = slovakResources;
+}

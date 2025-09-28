@@ -641,4 +641,6 @@ const nepaliResources = {
     }
 };
 
-export default nepaliResources;
+if (typeof languageData !== 'undefined') {
+    languageData.nepali = nepaliResources;
+}

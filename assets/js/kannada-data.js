@@ -586,4 +586,6 @@ const kannadaResources = {
     }
 };
 
-export default kannadaResources;
+if (typeof languageData !== 'undefined') {
+    languageData.kannada = kannadaResources;
+}

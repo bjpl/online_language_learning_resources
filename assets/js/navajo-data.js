@@ -558,4 +558,6 @@ const navajoResources = {
     }
 };
 
-export default navajoResources;
+if (typeof languageData !== 'undefined') {
+    languageData.navajo = navajoResources;
+}

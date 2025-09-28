@@ -846,4 +846,6 @@ const hmongResources = {
     }
 };
 
-export default hmongResources;
+if (typeof languageData !== 'undefined') {
+    languageData.hmong = hmongResources;
+}

@@ -1012,4 +1012,6 @@ const punjabiResources = {
     }
 };
 
-export default punjabiResources;
+if (typeof languageData !== 'undefined') {
+    languageData.punjabi = punjabiResources;
+}

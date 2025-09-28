@@ -618,4 +618,6 @@ const ukrainianResources = {
     }
 };
 
-export default ukrainianResources;
+if (typeof languageData !== 'undefined') {
+    languageData.ukrainian = ukrainianResources;
+}

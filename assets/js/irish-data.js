@@ -544,4 +544,6 @@ const irishResources = {
     }
 };
 
-export default irishResources;
+if (typeof languageData !== 'undefined') {
+    languageData.irish = irishResources;
+}

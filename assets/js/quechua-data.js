@@ -510,4 +510,6 @@ const quechuaResources = {
     }
 };
 
-export default quechuaResources;
+if (typeof languageData !== 'undefined') {
+    languageData.quechua = quechuaResources;
+}

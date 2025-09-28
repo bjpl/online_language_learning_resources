@@ -796,4 +796,6 @@ const gujaratiResources = {
     }
 };
 
-export default gujaratiResources;
+if (typeof languageData !== 'undefined') {
+    languageData.gujarati = gujaratiResources;
+}

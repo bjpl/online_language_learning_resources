@@ -656,4 +656,6 @@ const cebuanoResources = {
     }
 };
 
-export default cebuanoResources;
+if (typeof languageData !== 'undefined') {
+    languageData.cebuano = cebuanoResources;
+}

@@ -731,4 +731,6 @@ const croatianResources = {
     }
 };
 
-export default croatianResources;
+if (typeof languageData !== 'undefined') {
+    languageData.croatian = croatianResources;
+}

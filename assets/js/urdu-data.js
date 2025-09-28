@@ -944,4 +944,6 @@ const urduResources = {
     }
 };
 
-export default urduResources;
+if (typeof languageData !== 'undefined') {
+    languageData.urdu = urduResources;
+}

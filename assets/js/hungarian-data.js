@@ -674,4 +674,6 @@ const hungarianResources = {
     }
 };
 
-export default hungarianResources;
+if (typeof languageData !== 'undefined') {
+    languageData.hungarian = hungarianResources;
+}

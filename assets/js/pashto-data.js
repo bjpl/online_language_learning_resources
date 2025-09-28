@@ -986,4 +986,6 @@ const pashtoResources = {
     }
 };
 
-export default pashtoResources;
+if (typeof languageData !== 'undefined') {
+    languageData.pashto = pashtoResources;
+}
