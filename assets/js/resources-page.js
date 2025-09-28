@@ -138,16 +138,8 @@
             freeResources += typeResources.filter(r => r.free).length;
         });
 
-        // Count unique languages
-        const uniqueLanguages = new Set();
-        Object.values(allResources).forEach(typeResources => {
-            typeResources.forEach(resource => {
-                if (resource.language) {
-                    uniqueLanguages.add(resource.language);
-                }
-            });
-        });
-        const totalLanguages = uniqueLanguages.size;
+        // Count total languages from languageData (includes all languages, not just those with resources)
+        const totalLanguages = languageData ? Object.keys(languageData).length : 0;
 
         // Animate counters
         animateCounter('total-resources', totalResources);
