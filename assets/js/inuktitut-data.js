@@ -20,56 +20,56 @@ const inuktitutResources = {
                     {
                         name: "Tusaalanga.ca",
                         url: "https://tusaalanga.ca/",
-                        description: "Most comprehensive Inuktitut learning platform by Pirurvik Centre with 20 lessons covering 5 dialects, thousands of audio files, and mobile app for beginner to intermediate.",
+                        features: ["20 lessons across 5 dialects", "Thousands of audio files", "Mobile app available", "Beginner to intermediate levels"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Nunatsiavut Tusaalanga",
                         url: "https://nunatsiavut.tusaalanga.ca/",
-                        description: "Specialized version for Labrador Inuttitut dialect with extensive glossary, dialogues, and grammar for multiple levels.",
+                        features: ["Labrador Inuttitut dialect focus", "Extensive glossary included", "Dialogues and grammar", "Multiple learning levels"],
                         free: true,
                         level: "Multiple levels"
                     },
                     {
                         name: "Pirurvik Centre",
                         url: "https://www.pirurvik.ca",
-                        description: "Institute of Inuktut higher learning for all levels with some free resources and professional certification available.",
+                        features: ["Higher learning institute", "Professional certification available", "Some free resources", "All learning levels"],
                         free: false,
                         level: "All levels"
                     },
                     {
                         name: "Nunavut Arctic College",
                         url: "https://www.arcticcollege.com/",
-                        description: "Territory-wide college programs at multiple levels with 25 Community Learning Centers across Nunavut.",
+                        features: ["Territory-wide college programs", "25 Community Learning Centers", "Multiple program levels", "Across all Nunavut"],
                         free: false,
                         level: "Multiple levels"
                     },
                     {
                         name: "Memorial University Resources",
                         url: "https://soundcloud.com/",
-                        description: "Let's Speak Inuktitut audio project for beginners available on SoundCloud with 150+ words with syllable breakdown.",
+                        features: ["150+ words with audio", "Syllable breakdown included", "Available on SoundCloud", "Beginner-focused audio project"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "University of Washington Canadian Studies",
                         url: "https://jsis.washington.edu/canada/inuktitut-resources/",
-                        description: "US university Inuktut program at academic level with resource compilation and FLAS fellowships.",
+                        features: ["US university program", "Academic level instruction", "Resource compilation available", "FLAS fellowships offered"],
                         free: false,
                         level: "Academic"
                     },
                     {
                         name: "ITK Online Learning Resources",
                         url: "https://www.itk.ca/online-learning-resources/",
-                        description: "National Inuit organization resource directory for all levels with compilation of various learning tools.",
+                        features: ["National Inuit organization", "Resource directory compilation", "Various learning tools", "All skill levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Queen's University Library",
                         url: "https://guides.library.queensu.ca/indigenous-languages/inuktitut",
-                        description: "Academic resource collection for all levels with curated collection of learning materials.",
+                        features: ["Academic resource collection", "Curated learning materials", "University-quality resources", "All skill levels"],
                         free: true,
                         level: "All levels"
                     }
@@ -81,49 +81,49 @@ const inuktitutResources = {
                     {
                         name: "Government of Nunavut Language Training",
                         url: "https://www.gov.nu.ca/en/employment-training-and-career-development/language-training",
-                        description: "Professional language courses in Nunavut region with Pirurvik Foundation courses and employee training.",
+                        features: ["Professional language courses", "Pirurvik Foundation partnership", "Employee training programs", "Nunavut region focus"],
                         free: false,
                         level: "Professional"
                     },
                     {
                         name: "Government of NWT Resources",
                         url: "https://www.ece.gov.nt.ca/en/inuktitut",
-                        description: "Educational materials in Northwest Territories with basic phrases, vocabulary, and cultural context.",
+                        features: ["Northwest Territories materials", "Basic phrases vocabulary", "Cultural context included", "Government educational resources"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Kativik Ilisarniliriniq",
                         url: "https://www.kativik.qc.ca/",
-                        description: "Nunavik school board in Northern Quebec with Nunavik-IcE platform and parent resources.",
+                        features: ["Nunavik school board", "Northern Quebec region", "Nunavik-IcE platform", "Parent resources available"],
                         free: true,
                         level: "K-12"
                     },
                     {
                         name: "Inuit Tapiriit Kanatami",
                         url: "https://www.itk.ca/projects/inuktut/",
-                        description: "National Inuit organization pan-Canadian resources with unified orthography and digital library.",
+                        features: ["Pan-Canadian Inuit resources", "Unified orthography system", "Digital library access", "National organization support"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Nunavut Arctic College Culture Programs",
                         url: "https://www.arcticcollege.com/culture",
-                        description: "Post-secondary programs in Nunavut including Interpreter/Translator program and Inuit Studies.",
+                        features: ["Post-secondary programs", "Interpreter/Translator certification", "Inuit Studies courses", "Nunavut college system"],
                         free: false,
                         level: "Post-secondary"
                     },
                     {
                         name: "Ilisimatusarfik (University of Greenland)",
                         url: "https://uk.uni.gl/",
-                        description: "University of Greenland Kalaallisut programs with translation studies.",
+                        features: ["University of Greenland", "Kalaallisut language programs", "Translation studies focus", "Academic degree programs"],
                         free: false,
                         level: "University"
                     },
                     {
                         name: "Memorial University Linguistics",
                         url: "https://www.mun.ca/linguistics/",
-                        description: "Academic programs in Newfoundland with InukBook project and TEPL certificate.",
+                        features: ["Newfoundland academic programs", "InukBook project included", "TEPL certificate offered", "Memorial University linguistics"],
                         free: false,
                         level: "Academic"
                     }
@@ -137,49 +137,49 @@ const inuktitutResources = {
                     {
                         name: "Inuktut Reference Grammar (2018)",
                         url: "https://uqausiit.ca/sites/default/files/2018-09/Grammar%20Book_Aug2018_download.pdf",
-                        description: "119-page comprehensive grammar guide for intermediate to advanced learners, bilingual with syllabics and Roman orthography.",
+                        features: ["119-page comprehensive grammar", "Bilingual text format", "Syllabics and Roman orthography", "Intermediate to advanced"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Grammar Inuktut by F.W. Peacock",
                         url: "https://dai.mun.ca/pdfs/fwpeacock/GrammarInuktut.pdf",
-                        description: "Complete grammar textbook at comprehensive level from Memorial University digital archive.",
+                        features: ["Complete grammar textbook", "Memorial University archive", "Comprehensive level content", "Digital format available"],
                         free: true,
                         level: "Comprehensive"
                     },
                     {
                         name: "Grammatical Fundamentals (1901)",
                         url: "https://archive.org/details/bp_986748",
-                        description: "384-page historical grammar at academic/historical level for Western Alaska dialect, public domain.",
+                        features: ["384-page historical grammar", "Western Alaska dialect", "Academic historical level", "Public domain text"],
                         free: true,
                         level: "Academic/Historical"
                     },
                     {
                         name: "Inuktitut 125 Lessons 1-6",
                         url: "https://archive.org/details/hypercard_inuktitut-125-lessons-1-6",
-                        description: "Arctic College course materials for beginning to intermediate with structured lessons by Mallon and Kublu.",
+                        features: ["Arctic College materials", "Structured lesson format", "Mallon and Kublu authors", "Beginning to intermediate"],
                         free: true,
                         level: "Beginning to Intermediate"
                     },
                     {
                         name: "Government of Nunavut Curriculum",
                         url: "https://www.gov.nu.ca/education/curriculum/curriculum-database/inuktitut-language-arts-k-0",
-                        description: "K-4 curriculum materials for elementary level with Uqalimaariuqsaniq reading program.",
+                        features: ["K-4 curriculum materials", "Elementary level focus", "Uqalimaariuqsaniq reading program", "Government of Nunavut"],
                         free: true,
                         level: "Elementary"
                     },
                     {
                         name: "IUT Publications",
                         url: "https://www.taiguusiliuqtiit.ca/en/resources/publications",
-                        description: "Grammar handbooks and references for all levels with ICI writing system guides.",
+                        features: ["Grammar handbooks references", "ICI writing system guides", "All skill levels", "Multiple publication formats"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Uqausiit Database",
                         url: "https://uqausiit.ca/",
-                        description: "Language database and resource center for all levels with searchable word database and morpheme explanations.",
+                        features: ["Searchable word database", "Morpheme explanations included", "Language resource center", "All learning levels"],
                         free: true,
                         level: "All levels"
                     }
@@ -191,49 +191,49 @@ const inuktitutResources = {
                     {
                         name: "QIA Free Inuktut Books",
                         url: "https://www.qia.ca/free-inuktut-books/",
-                        description: "20+ free digital books for children and beginners including wildlife guides, traditional stories, and cultural books.",
+                        features: ["20+ free digital books", "Wildlife guides included", "Traditional stories collection", "Children and beginners"],
                         free: true,
                         level: "Children/Beginner"
                     },
                     {
                         name: "Inhabit Media Collection",
                         url: "https://inhabitbooks.com/collections/inuktitut",
-                        description: "Inuit-owned publishing company for all levels with children's books, traditional stories, and educational materials.",
+                        features: ["Inuit-owned publishing company", "Children's books available", "Traditional stories collection", "Educational materials included"],
                         free: false,
                         level: "All levels"
                     },
                     {
                         name: "Inuvialuit Digital Library",
                         url: "https://inuvialuitdigitallibrary.ca/",
-                        description: "Regional digital library for all levels with cultural resources, oral histories, and mixed media.",
+                        features: ["Regional digital library", "Cultural resources collection", "Oral histories archived", "Mixed media format"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Eastern Arctic Inuktitut Bible",
                         url: "https://www.bible.com/versions/455-eaib-",
-                        description: "Complete Bible translation for intermediate to advanced learners, translated entirely by native speakers in syllabics.",
+                        features: ["Complete Bible translation", "Native speaker translators", "Syllabics text format", "Intermediate to advanced"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Labrador Inuttitut Heritage Bible",
                         url: "https://www.bible.com/versions/803-lihb08-",
-                        description: "Complete Bible in Labrador dialect for intermediate to advanced, historical translation dating back to 1771.",
+                        features: ["Complete Labrador dialect Bible", "Historical 1771 translation", "Intermediate to advanced", "Heritage biblical text"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Internet Archive Inuktitut Collection",
                         url: "https://archive.org/",
-                        description: "Historical texts and dictionaries in various levels, digitized books and educational resources.",
+                        features: ["Historical texts dictionaries", "Digitized books collection", "Educational resources archive", "Various skill levels"],
                         free: true,
                         level: "Various"
                     },
                     {
                         name: "Inhabit Education Books",
                         url: "https://inhabiteducationbooks.com/collections/inuktitut",
-                        description: "Educational leveled readers for Levels 1-18 with structured reading progression.",
+                        features: ["Leveled readers program", "Levels 1-18 progression", "Structured reading system", "Educational publishing focus"],
                         free: false,
                         level: "Levels 1-18"
                     }
@@ -247,42 +247,42 @@ const inuktitutResources = {
                     {
                         name: "Ilinniarutit TV",
                         url: "https://ilinniarutit.ca/listen-and-learn/",
-                        description: "Educational video platform for all levels with syllabics phonics videos, vocabulary, and traditional songs.",
+                        features: ["Educational video platform", "Syllabics phonics videos", "Vocabulary instruction included", "Traditional songs collection"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "CBC North Igalaaq",
                         url: "https://www.cbc.ca/north/features/indigenous-radio/",
-                        description: "Daily Inuktitut news for intermediate to advanced learners, weeknights 6 PM ET/4 PM MT.",
+                        features: ["Daily Inuktitut news", "Weeknights 6 PM ET", "Intermediate to advanced", "CBC North programming"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Inuit Broadcasting Corporation",
                         url: "https://inuitbroadcasting.ca/",
-                        description: "First Indigenous-language TV network for all levels with Takuginai children's series and live discussions.",
+                        features: ["First Indigenous TV network", "Takuginai children's series", "Live discussion programming", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Isuma TV",
                         url: "https://www.isuma.tv/language/inuktitut",
-                        description: "Indigenous online TV network for various levels with films, documentaries, and cultural programming.",
+                        features: ["Indigenous online TV", "Films and documentaries", "Cultural programming focus", "Various skill levels"],
                         free: true,
                         level: "Various"
                     },
                     {
                         name: "APTN Languages",
                         url: "https://www.aptntv.ca/",
-                        description: "Aboriginal television network for all levels with Anaana's Tent and Hockey Night in Inuktitut.",
+                        features: ["Aboriginal television network", "Anaana's Tent programming", "Hockey Night Inuktitut", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Uvagut TV",
                         url: "https://www.uvagut.tv/",
-                        description: "24/7 Inuktut television channel for all levels, launched 2021, entirely in Inuktitut.",
+                        features: ["24/7 Inuktut television", "Launched 2021", "Entirely Inuktitut content", "All learning levels"],
                         free: true,
                         level: "All levels"
                     }
@@ -294,42 +294,42 @@ const inuktitutResources = {
                     {
                         name: "CBC Inuit Unikkaangit",
                         url: "https://www.cbc.ca/listen/",
-                        description: "Historical stories from archives for all levels, hosted by Mary Powder focused on cultural preservation.",
+                        features: ["Historical archive stories", "Mary Powder hosted", "Cultural preservation focus", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Let's Speak Inuktitut",
                         url: "https://soundcloud.com/",
-                        description: "150+ words and phrases for beginners, partnership with Memorial University.",
+                        features: ["150+ words phrases", "Beginner level focus", "Memorial University partnership", "Audio learning format"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Inuktitut Ilinniaqta",
                         url: "https://soundcloud.com/user-228726774",
-                        description: "Audio lessons for beginner to intermediate in South Baffin dialect with helpful phrases.",
+                        features: ["South Baffin dialect", "Audio lesson format", "Helpful phrases included", "Beginner to intermediate"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "CBC Sinnaksautit",
                         url: "https://www.cbc.ca/listen/",
-                        description: "Traditional storytelling by elders for all levels with pure Inuktitut content via CBC North Radio.",
+                        features: ["Traditional elder storytelling", "Pure Inuktitut content", "CBC North Radio", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "CBC Tausunni",
                         url: "https://www.cbc.ca/listen/",
-                        description: "Stories about Inuit culture for all levels, Inuktitut only programming via CBC North Radio.",
+                        features: ["Inuit culture stories", "Inuktitut only programming", "CBC North Radio", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "CBC Tuttavik",
                         url: "https://www.cbc.ca/listen/",
-                        description: "Nunavik-focused program for all levels with regional Inuktitut content via CBC North Radio.",
+                        features: ["Nunavik-focused programming", "Regional Inuktitut content", "CBC North Radio", "All learning levels"],
                         free: true,
                         level: "All levels"
                     }
@@ -343,56 +343,56 @@ const inuktitutResources = {
                     {
                         name: "Tusaalanga iOS App",
                         url: "https://itunes.apple.com/ca/app/tusaalanga/id491243426",
-                        description: "Mobile learning app for all levels with 5 dialects and romanized to syllabic converter.",
+                        features: ["Mobile learning app", "5 dialects supported", "Romanized syllabic converter", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Inuktut Naqittautit Keyboard",
                         url: "https://apps.apple.com/",
-                        description: "Syllabic keyboard for all users by Pirurvik Centre on iOS and Android.",
+                        features: ["Syllabic keyboard app", "Pirurvik Centre developed", "iOS and Android", "All user levels"],
                         free: true,
                         level: "All users"
                     },
                     {
                         name: "Inuktitut Keyboard (Mangiok)",
                         url: "https://apps.apple.com/ca/app/inuktitut/id1643431241",
-                        description: "iOS keyboard for all users with color-coded keys and predictive text.",
+                        features: ["iOS keyboard app", "Color-coded key layout", "Predictive text feature", "All user levels"],
                         free: true,
                         level: "All users"
                     },
                     {
                         name: "Makittagait",
                         url: "https://apps.apple.com/",
-                        description: "Word matching game for children and beginners with progressive difficulty in Nunavik dialect on iOS.",
+                        features: ["Word matching game", "Progressive difficulty levels", "Nunavik dialect focus", "Children and beginners"],
                         free: true,
                         level: "Children/Beginner"
                     },
                     {
                         name: "iNaqittaq",
                         url: "https://apps.apple.com/",
-                        description: "Inuktitut keyboard for all users with IBM Selectric layout, Unicode-compliant on iOS.",
+                        features: ["IBM Selectric layout", "Unicode-compliant keyboard", "iOS platform app", "All user levels"],
                         free: true,
                         level: "All users"
                     },
                     {
                         name: "Singuistics",
                         url: "https://apps.apple.com/",
-                        description: "Song-based learning for all levels with traditional and original songs on mobile app stores.",
+                        features: ["Song-based learning method", "Traditional and original songs", "Mobile app available", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Uqalimaarluk",
                         url: "https://apps.apple.com/",
-                        description: "Storytelling app for all levels, partnership with Nunavut Literacy Council on mobile app stores.",
+                        features: ["Storytelling app platform", "Nunavut Literacy Council", "Mobile app stores", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Uqausiit Pinnguarutiit",
                         url: "https://apps.apple.com/",
-                        description: "Interactive preschool app for early learners, Government of Nunavut app on iTunes and Android.",
+                        features: ["Interactive preschool app", "Government of Nunavut", "iTunes and Android", "Early learner focus"],
                         free: true,
                         level: "Early learners"
                     }
@@ -404,91 +404,91 @@ const inuktitutResources = {
                     {
                         name: "Tusaalanga Glossary",
                         url: "https://tusaalanga.ca/glossary",
-                        description: "Interactive online glossary for all levels with syllabics and Roman orthography.",
+                        features: ["Interactive online glossary", "Syllabics and Roman", "Multiple orthography support", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Uqausiit Database",
                         url: "https://uqausiit.ca/",
-                        description: "Comprehensive linguistic database for all levels with morphological analysis and grammar explanations.",
+                        features: ["Comprehensive linguistic database", "Morphological analysis included", "Grammar explanations provided", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Glosbe English-Inuktitut",
                         url: "https://glosbe.com/en/iu",
-                        description: "Community-based dictionary for all levels with multimedia support and crowdsourced content.",
+                        features: ["Community-based dictionary", "Multimedia content support", "Crowdsourced entries", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Lexilogos Inuktitut",
                         url: "https://www.lexilogos.com/english/inuktitut_dictionary.htm",
-                        description: "Language resource portal for all levels with links to multiple dictionaries.",
+                        features: ["Language resource portal", "Multiple dictionary links", "Comprehensive reference tool", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Labrador Virtual Museum Dictionary",
                         url: "http://www.labradorvirtualmuseum.ca/english-inuttut.htm",
-                        description: "Regional dictionary for all levels with A-Z entries in Nunatsiavut dialect.",
+                        features: ["Regional Nunatsiavut dictionary", "A-Z alphabetical entries", "Dialect-specific content", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Microsoft Translator",
                         url: "https://www.bing.com/translator",
-                        description: "AI-powered translator for all levels supporting syllabics (2021) and Inuinnaqtun (2022).",
+                        features: ["AI-powered translation", "Syllabics support 2021", "Inuinnaqtun support 2022", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Google Translate",
                         url: "https://translate.google.ca/",
-                        description: "AI translator for all levels, first Indigenous Canadian language added (2024).",
+                        features: ["AI translation service", "First Indigenous Canadian language", "Added support 2024", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Uqailaut Analyzer",
                         url: "https://www.inuktitutcomputing.ca/Uqailaut/info.php",
-                        description: "Morphological analyzer for advanced learners, analyzes 95% of frequent words.",
+                        features: ["Morphological word analyzer", "95% frequent word coverage", "Advanced learner tool", "Linguistic analysis focus"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Syllabics.net Converter",
                         url: "https://www.syllabics.net/convert/inuktitut",
-                        description: "Bidirectional converter for all levels with Qaliujaaqpait-Qaniujaaqpait conversion.",
+                        features: ["Bidirectional orthography converter", "Qaliujaaqpait-Qaniujaaqpait systems", "Two-way conversion tool", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Pirurvik Converter",
                         url: "https://kiputtijjut.pirurvik.ca/",
-                        description: "Syllabics-Roman converter for all levels, privacy-focused with no data saved.",
+                        features: ["Syllabics-Roman converter", "Privacy-focused design", "No data saved", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "ITK Qaliujaaqpait Converter",
                         url: "https://www.itk.ca/projects/inuktut-qaliujaaqpait-converter/",
-                        description: "Unified orthography converter for all levels, converts between regional orthographies.",
+                        features: ["Unified orthography converter", "Regional orthography support", "Cross-dialect conversion", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Lexilogos Keyboard",
                         url: "https://www.lexilogos.com/keyboard/inuktitut.htm",
-                        description: "Virtual keyboard for all levels with online Qaniujaaqpait input.",
+                        features: ["Virtual keyboard interface", "Online Qaniujaaqpait input", "Web-based typing tool", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Keyman Keyboard",
                         url: "https://keyman.com/keyboards/fv_eastern_canadian_inuktitut",
-                        description: "Mobile keyboard for all levels, FirstVoices keyboard for iOS and Android.",
+                        features: ["Mobile keyboard app", "FirstVoices integration", "iOS and Android", "All learning levels"],
                         free: true,
                         level: "All levels"
                     }
@@ -502,21 +502,21 @@ const inuktitutResources = {
                     {
                         name: "Nunatsiaq News",
                         url: "https://nunatsiaq.com/",
-                        description: "Newspaper of record for intermediate to advanced learners, 50 years in operation with bilingual content.",
+                        features: ["Newspaper of record", "50 years operation", "Bilingual content available", "Intermediate to advanced"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "CBC North Indigenous",
                         url: "https://www.cbc.ca/north/",
-                        description: "Broadcasting services for all levels with multiple daily programs in Inuktitut.",
+                        features: ["Broadcasting services network", "Multiple daily programs", "Inuktitut programming focus", "All learning levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "APTN",
                         url: "https://www.aptntv.ca/",
-                        description: "Indigenous television for all levels with national coverage and APTN lumi streaming.",
+                        features: ["Indigenous television network", "National coverage area", "APTN lumi streaming", "All learning levels"],
                         free: true,
                         level: "All levels"
                     }

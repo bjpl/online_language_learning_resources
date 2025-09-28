@@ -18,47 +18,47 @@ const dariResources = {
                     {
                         name: "Indiana University CeLCAR",
                         url: "https://celcar.indiana.edu/current-projects/online-language-courses/online-language-dari.html",
-                        description: "Comprehensive Canvas-based online Dari course (beginner). Uses Rahman Arman's textbook, task-oriented activities, cultural integration",
+                        features: ["Canvas-based online course", "Rahman Arman's textbook", "Task-oriented activities", "Cultural integration"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "RAPPORT Dari Course (DLI)",
                         url: "https://rapport.dliflc.edu/rapport-Dari/home/toc.html",
-                        description: "Pre-deployment language training (beginner). Military terms, cultural info, free registration required",
+                        features: ["Pre-deployment language training", "Military terms", "Cultural info", "Free registration required"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "GLOSS (DLI)",
                         url: "https://gloss.dliflc.edu/",
-                        description: "297+ downloadable Dari lessons (intermediate-advanced, ILR 1-4). MP3 audio + PDF text, authentic materials, free registration",
+                        features: ["297+ downloadable lessons", "ILR 1-4 levels", "MP3 audio + PDF text", "Authentic materials", "Free registration"],
                         free: true
                     },
                     {
                         name: "Yojik DLI Materials",
                         url: "https://fsi-languages.yojik.eu/languages/DLI/DLI-Dari.html",
-                        description: "Complete 3-semester DLI course (beginner-intermediate). 2,104 audio files, 9,552 pages instruction",
+                        features: ["Complete 3-semester DLI course", "2,104 audio files", "9,552 pages instruction"],
                         free: true
                     },
                     {
                         name: "World Schoolbooks",
                         url: "https://worldschoolbooks.com/",
-                        description: "Interactive web and mobile app (beginner). 10 min free daily, games, alphabet section, native audio",
+                        features: ["Interactive web and mobile app", "10 min free daily", "Games and alphabet section", "Native audio"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Learn101.org",
                         url: "http://learn101.org/dari.php",
-                        description: "Step-by-step structured lessons (beginner). Audio pronunciation, free full access",
+                        features: ["Step-by-step structured lessons", "Audio pronunciation", "Free full access"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "International Assistance Mission",
                         url: "https://www.iam-afghanistan.org/lcp/online-resources/",
-                        description: "Reading and writing exercises (beginner-intermediate). TV shows, children's books for practice",
+                        features: ["Reading and writing exercises", "TV shows", "Children's books for practice"],
                         free: true
                     }
                 ]
@@ -71,33 +71,33 @@ const dariResources = {
                     {
                         name: "Language Mentors International OER",
                         url: "https://oercommons.org/courseware/lesson/114778",
-                        description: "Complete textbook series Student & Teacher editions (beginner-advanced). PDF/EPUB, proficiency-based, Creative Commons",
+                        features: ["Complete textbook series", "Student & Teacher editions", "PDF/EPUB formats", "Proficiency-based", "Creative Commons"],
                         free: true
                     },
                     {
                         name: "OER Commons Dari Collection",
                         url: "https://oercommons.org/courseware/lesson/114774",
-                        description: "Comprehensive coursework materials (beginner-advanced). Critical thinking integration, Bloom's Taxonomy",
+                        features: ["Comprehensive coursework materials", "Critical thinking integration", "Bloom's Taxonomy"],
                         free: true
                     },
                     {
                         name: "Peace Corps Materials (1966)",
                         url: "https://files.eric.ed.gov/fulltext/ED131692.pdf",
-                        description: "Historical intermediate textbook (intermediate). 8 units, romanized script, cultural context",
+                        features: ["Historical intermediate textbook", "8 units", "Romanized script", "Cultural context"],
                         free: true,
                         level: "Intermediate"
                     },
                     {
                         name: "DLI Dari Basic Course",
                         url: "https://archive.org/details/Dari1a",
-                        description: "Basic communication course (beginner). Audio recordings, cultural context",
+                        features: ["Basic communication course", "Audio recordings", "Cultural context"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Live Lingua DLI Collection",
                         url: "https://www.livelingua.com/dli/",
-                        description: "Public domain DLI materials (all levels). Audio lessons, military/civilian contexts",
+                        features: ["Public domain DLI materials", "Audio lessons", "Military/civilian contexts"],
                         free: true
                     }
                 ]
@@ -108,37 +108,37 @@ const dariResources = {
                     {
                         name: "Conversational Dari (ERIC/DLI)",
                         url: "https://archive.org/details/ERIC_ED067955",
-                        description: "25-lesson conversational course (beginner-intermediate). 392 pages, pronunciation drills, cultural material",
+                        features: ["25-lesson conversational course", "392 pages", "Pronunciation drills", "Cultural material"],
                         free: true
                     },
                     {
                         name: "Dari Dictionary & Phrasebook (Awde)",
                         url: "https://archive.org/details/daridarienglishe00awde",
-                        description: "Comprehensive dictionary with grammar (all levels). 5,000 entries, cultural info, both scripts",
+                        features: ["Comprehensive dictionary with grammar", "5,000 entries", "Cultural info", "Both scripts"],
                         free: true
                     },
                     {
                         name: "Afghanistan School Textbooks",
                         url: "https://archive.org/details/11-dari",
-                        description: "Official Afghan curriculum Classes 11-12 (high school). Persian script, authentic Afghan content",
+                        features: ["Official Afghan curriculum", "Classes 11-12", "Persian script", "Authentic Afghan content"],
                         free: true
                     },
                     {
                         name: "IAM Workbook (2nd Edition)",
                         url: "https://www.iam-afghanistan.org/lcp/downloads/workbook-2nd-edition.pdf",
-                        description: "Reading and writing workbook (beginner-intermediate). Practical exercises, cultural context",
+                        features: ["Reading and writing workbook", "Practical exercises", "Cultural context"],
                         free: true
                     },
                     {
                         name: "Dari-English Dictionary (Bulkin)",
                         url: "https://archive.org/details/darienglishengli0000bulk_2edi",
-                        description: "731-page comprehensive dictionary (all levels). Bidirectional format",
+                        features: ["731-page comprehensive dictionary", "Bidirectional format"],
                         free: true
                     },
                     {
                         name: "Swiss Bay Linguistics Pack",
                         url: "https://theswissbay.ch/pdf/Books/Linguistics/Mega linguistics pack/Indo-European/Iranian/",
-                        description: "Beginner's Dari textbook (beginner). PDF download available",
+                        features: ["Beginner's Dari textbook", "PDF download available"],
                         free: true,
                         level: "Beginner"
                     }
@@ -150,40 +150,40 @@ const dariResources = {
                     {
                         name: "mEducation Alliance Collection",
                         url: "https://meducationalliance.org/afghan_kids_support_hub-digital_resources/",
-                        description: "132 Dari books for children Grades 1-3 (beginner). Early grade reading, culturally appropriate",
+                        features: ["132 Dari books for children", "Grades 1-3", "Early grade reading", "Culturally appropriate"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Global Digital Library",
                         url: "https://digitallibrary.io/",
-                        description: "UNESCO-supported children's materials (beginner). Mobile-friendly, printable",
+                        features: ["UNESCO-supported children's materials", "Mobile-friendly", "Printable"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Afghanistan Centre (ACKU)",
                         url: "https://afghandata.org/",
-                        description: "Extensive Afghan primary sources (all levels). Historical texts, newspapers, academic materials",
+                        features: ["Extensive Afghan primary sources", "Historical texts", "Newspapers", "Academic materials"],
                         free: true
                     },
                     {
                         name: "UNO Afghanistan Collection",
                         url: "https://digitalcommons.unomaha.edu/daripashtobooks/",
-                        description: "20,000+ title collection (advanced). Historical texts, literature, government documents",
+                        features: ["20,000+ title collection", "Historical texts", "Literature", "Government documents"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Library of Congress Persian",
                         url: "https://www.loc.gov/collections/persian-language-rare-materials/",
-                        description: "Historical manuscripts and books (advanced). 10th century onwards, multilingual archives",
+                        features: ["Historical manuscripts and books", "10th century onwards", "Multilingual archives"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Hoopoe Books",
-                        description: "12 illustrated Afghan folk tales (beginner-intermediate). Bilingual editions, teacher guides, audio versions. Available through libraries",
+                        features: ["12 illustrated Afghan folk tales", "Bilingual editions", "Teacher guides", "Audio versions", "Available through libraries"],
                         free: true
                     }
                 ]
@@ -196,46 +196,46 @@ const dariResources = {
                     {
                         name: "TOLO TV YouTube",
                         url: "https://www.youtube.com/channel/UCqhY2i3JiRK0mZIUXP0CoQw",
-                        description: "Afghan TV content in Dari (all levels). News, entertainment, cultural programming",
+                        features: ["Afghan TV content in Dari", "News", "Entertainment", "Cultural programming"],
                         free: true
                     },
                     {
                         name: "BamyanTV",
                         url: "https://www.youtube.com/user/Amumedia2014",
-                        description: "Afghan news and shows (intermediate-advanced). Current events, discussions",
+                        features: ["Afghan news and shows", "Current events", "Discussions"],
                         free: true
                     },
                     {
                         name: "Farsi Poetry Channel",
                         url: "https://www.youtube.com/channel/UCN1JcZo9nKMV3-xk373EEJQ",
-                        description: "Literary texts in Afghan Dari accent (intermediate-advanced). On-screen text, read-along format",
+                        features: ["Literary texts in Afghan accent", "On-screen text", "Read-along format"],
                         free: true
                     },
                     {
                         name: "BBC World Service Dari",
-                        description: "Professional news broadcasts (intermediate-advanced). Reliable journalism, analysis. Available on TuneIn, phonostar",
+                        features: ["Professional news broadcasts", "Reliable journalism", "Analysis", "Available on TuneIn"],
                         free: true
                     },
                     {
                         name: "VOA Dari Service",
-                        description: "News and cultural programming (all levels). Multiple platforms available. VOA mobile apps, SoundCloud",
+                        features: ["News and cultural programming", "Multiple platforms available", "VOA mobile apps", "SoundCloud"],
                         free: true
                     },
                     {
                         name: "Afghan Live TV",
                         url: "https://afghanlive.tv/",
-                        description: "Multiple Afghan channels streaming (all levels). 24/7 streaming, authentic content",
+                        features: ["Multiple Afghan channels streaming", "24/7 streaming", "Authentic content"],
                         free: true
                     },
                     {
                         name: "BBC Dars Educational",
-                        description: "Educational program for ages 11-16 (beginner-intermediate). Simplified content for learning. BBC platforms",
+                        features: ["Educational program for ages 11-16", "Simplified content for learning", "BBC platforms"],
                         free: true
                     },
                     {
                         name: "DLI Audio Collections",
                         url: "https://fsi-languages.yojik.eu/languages/DLI/Dari/",
-                        description: "Comprehensive audio lessons (all levels). Thousands of audio files with transcripts",
+                        features: ["Comprehensive audio lessons", "Thousands of audio files", "Transcripts included"],
                         free: true
                     }
                 ]
@@ -248,37 +248,37 @@ const dariResources = {
                     {
                         name: "Glosbe English-Dari",
                         url: "https://glosbe.com/en/prs",
-                        description: "Bilingual dictionary with context (all levels). Audio, example sentences, TTS, Persian script",
+                        features: ["Bilingual dictionary with context", "Audio", "Example sentences", "TTS", "Persian script"],
                         free: true
                     },
                     {
                         name: "Lexilogos Dari Portal",
                         url: "https://www.lexilogos.com/english/dari_dictionary.htm",
-                        description: "Dictionary resource hub (all levels). Links multiple dictionaries, keyboard access",
+                        features: ["Dictionary resource hub", "Links multiple dictionaries", "Keyboard access"],
                         free: true
                     },
                     {
                         name: "Wilson Dari Dictionary",
                         url: "https://www.webonary.org/dari/",
-                        description: "Searchable online dictionary (all levels). Search by script or romanization",
+                        features: ["Searchable online dictionary", "Search by script", "Romanization support"],
                         free: true
                     },
                     {
                         name: "OFoundation Digital Dictionary",
                         url: "https://ofoundation.nl/digital-dari-dictionary/",
-                        description: "Community-driven dictionary (all levels). 38,945+ words, Afghan dialect focus",
+                        features: ["Community-driven dictionary", "38,945+ words", "Afghan dialect focus"],
                         free: true
                     },
                     {
                         name: "ATS Group Resources",
                         url: "https://www.ats-group.net/dictionaries/dictionary-english-dari.html",
-                        description: "PDF dictionaries and phrasebooks (all levels). Medical, legal specialized terms",
+                        features: ["PDF dictionaries and phrasebooks", "Medical terms", "Legal specialized terms"],
                         free: true
                     },
                     {
                         name: "Easy Hindi Typing Dari",
                         url: "https://www.easyhindityping.com/dari-to-english-translation",
-                        description: "Translation with TTS (all levels). 5,000 character limit, unlimited use",
+                        features: ["Translation with TTS", "5,000 character limit", "Unlimited use"],
                         free: true
                     }
                 ]
@@ -289,31 +289,31 @@ const dariResources = {
                     {
                         name: "Lexilogos Persian Keyboard",
                         url: "https://www.lexilogos.com/keyboard/persian.htm",
-                        description: "Online virtual keyboard (all levels). Diacritical marks, copy/paste",
+                        features: ["Online virtual keyboard", "Diacritical marks", "Copy/paste"],
                         free: true
                     },
                     {
                         name: "ATS Group Dari Keyboard",
                         url: "https://www.ats-group.net/keyboard/dari.html",
-                        description: "Virtual Dari keyboard (all levels). 32-letter support, installation guides",
+                        features: ["Virtual Dari keyboard", "32-letter support", "Installation guides"],
                         free: true
                     },
                     {
                         name: "Branah Farsi Keyboard",
                         url: "https://www.branah.com/farsi",
-                        description: "Online keyboard with advanced features (all levels). QWERTY toggle, ZWJ/ZWNJ support",
+                        features: ["Online keyboard", "QWERTY toggle", "ZWJ/ZWNJ support"],
                         free: true
                     },
                     {
                         name: "Easy Persian Typing",
                         url: "https://www.easypersiantyping.com/",
-                        description: "Transliteration tool (all levels). Type English, get Persian script",
+                        features: ["Transliteration tool", "Type English", "Get Persian script"],
                         free: true
                     },
                     {
                         name: "Jahanshiri Phonetic Keyboard",
                         url: "https://www.jahanshiri.ir/keyboard/phonetic/en/",
-                        description: "Downloadable Windows keyboard (all levels). Phonetic mapping, Windows XP-11",
+                        features: ["Downloadable Windows keyboard", "Phonetic mapping", "Windows XP-11"],
                         free: true
                     }
                 ]
@@ -324,42 +324,42 @@ const dariResources = {
                     {
                         name: "LinGo Play",
                         url: "https://play.google.com/store/apps/details?id=com.lingo.play.dari",
-                        description: "Gamified learning app (all levels). 5,172 flashcards, 600+ lessons, multiplayer",
+                        features: ["Gamified learning app", "5,172 flashcards", "600+ lessons", "Multiplayer"],
                         free: true
                     },
                     {
                         name: "Pimsleur Dari Persian",
                         url: "https://www.pimsleur.com/learn-dari-persian/",
-                        description: "Audio-focused method (beginner-intermediate). 7-day free trial, voice coach AI, offline mode",
+                        features: ["Audio-focused method", "7-day free trial", "Voice coach AI", "Offline mode"],
                         free: true
                     },
                     {
                         name: "Dari M(A)L",
-                        description: "Learning games and tests (beginner). Free app, self-paced. iOS App Store",
+                        features: ["Learning games and tests", "Free app", "Self-paced", "iOS App Store"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "English to Dari Translator",
-                        description: "Bidirectional translation (all levels). Voice recognition, offline mode, free with ads. iOS App Store",
+                        features: ["Bidirectional translation", "Voice recognition", "Offline mode", "Free with ads"],
                         free: true
                     },
                     {
                         name: "Learn Dari - EuroTalk",
                         url: "https://apps.apple.com/us/app/learn-dari-eurotalk/id358396269",
-                        description: "9 essential topics (beginner). Paid app, works offline",
+                        features: ["9 essential topics", "Paid app", "Works offline"],
                         level: "Beginner"
                     },
                     {
                         name: "Anki with Dari Decks",
                         url: "https://ankiweb.net/shared/decks",
-                        description: "Spaced repetition flashcards (all levels). Free software, customizable, sync across devices",
+                        features: ["Spaced repetition flashcards", "Free software", "Customizable", "Sync across devices"],
                         free: true
                     },
                     {
                         name: "17 Minute Languages",
                         url: "https://www.17-minute-languages.com/en/learn-dari/",
-                        description: "450 essential words/phrases (beginner). Paid course, 10-year access, all platforms",
+                        features: ["450 essential words/phrases", "Paid course", "10-year access", "All platforms"],
                         level: "Beginner"
                     }
                 ]
@@ -372,38 +372,38 @@ const dariResources = {
                     {
                         name: "Afghan Ministry of Education",
                         url: "https://moe.gov.af/en",
-                        description: "Official educational resources (all levels). Policy documents, announcements in Dari/Pashto",
+                        features: ["Official educational resources", "Policy documents", "Announcements in Dari/Pashto"],
                         free: true
                     },
                     {
                         name: "US Dept of Education Afghan Resources",
                         url: "https://www2.ed.gov/about/inits/ed/keeping-the-promise/",
-                        description: "Keeping the Promise Initiative (beginner). Flashcards, cultural orientation materials",
+                        features: ["Keeping the Promise Initiative", "Flashcards", "Cultural orientation materials"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "WISLI Wisconsin",
                         url: "https://wisli.wisc.edu/languages/learn-dari/",
-                        description: "8-week intensive program info (all levels). Virtual/in-person formats available",
+                        features: ["8-week intensive program info", "Virtual/in-person formats available"],
                         free: true
                     },
                     {
                         name: "San Diego State LARC",
                         url: "https://larc.sdsu.edu/darilarc/",
-                        description: "4-8 week intensive programs (beginner-intermediate). STARTALK summer programs",
+                        features: ["4-8 week intensive programs", "STARTALK summer programs"],
                         free: true
                     },
                     {
                         name: "Middle East Institute Guide",
                         url: "https://www.mei.edu/education/oman-library/resource-guides/dari-language",
-                        description: "Comprehensive resource directory (all levels). Curated learning materials list",
+                        features: ["Comprehensive resource directory", "Curated learning materials list"],
                         free: true
                     },
                     {
                         name: "USAHello Afghan Resource Center",
                         url: "https://usahello.org/afghan-resource-center/",
-                        description: "Resources for Afghan evacuees (all levels). FindHello app, cultural orientation",
+                        features: ["Resources for Afghan evacuees", "FindHello app", "Cultural orientation"],
                         free: true
                     }
                 ]
@@ -414,31 +414,31 @@ const dariResources = {
                     {
                         name: "HelloTalk",
                         url: "https://www.hellotalk.com/",
-                        description: "Major exchange app, 18M+ users (all levels). Dari available, text/voice/video, free basic version",
+                        features: ["Major exchange app", "18M+ users", "Dari available", "Text/voice/video", "Free basic version"],
                         free: true
                     },
                     {
                         name: "Tandem",
                         url: "https://tandem.net/",
-                        description: "Professional exchange platform (all levels). Dari among 300+ languages, user verification",
+                        features: ["Professional exchange platform", "Dari among 300+ languages", "User verification"],
                         free: true
                     },
                     {
                         name: "ConversationExchange",
                         url: "https://www.conversationexchange.com/",
-                        description: "Web-based exchange since 2005 (all levels). Persian speakers (limited Dari specific), free",
+                        features: ["Web-based exchange since 2005", "Persian speakers", "Limited Dari specific", "Free"],
                         free: true
                     },
                     {
                         name: "Network of Afghan Diaspora (NADOE)",
                         url: "https://nadoe.eu/",
-                        description: "European Afghan network (all levels). Cultural training, workshops",
+                        features: ["European Afghan network", "Cultural training", "Workshops"],
                         free: true
                     },
                     {
                         name: "Afghan Diaspora Network",
                         url: "https://afghandiaspora.org/",
-                        description: "Global diaspora platform (all levels). Community networking, knowledge sharing",
+                        features: ["Global diaspora platform", "Community networking", "Knowledge sharing"],
                         free: true
                     }
                 ]

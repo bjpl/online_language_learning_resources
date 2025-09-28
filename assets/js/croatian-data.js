@@ -20,56 +20,56 @@ const croatianResources = {
                     {
                         name: "Croaticum A1 Course",
                         url: "https://a1.ffzg.unizg.hr/",
-                        description: "Free comprehensive online course by University of Zagreb for A1 beginners with 80 units of 45 minutes each, interface in Croatian/English/Spanish, permanently free.",
+                        features: ["University of Zagreb course", "80 units of 45 minutes", "A1 beginner level", "Croatian/English/Spanish interface", "Permanently free access"],
                         free: true,
                         level: "A1 Beginner"
                     },
                     {
                         name: "Croaticum A2 Course",
                         url: "https://a2.ffzg.unizg.hr/",
-                        description: "Free comprehensive online course by University of Zagreb for A2 elementary with 80 units of 45 minutes each, interface in Croatian/English/Spanish, permanently free.",
+                        features: ["University of Zagreb course", "80 units of 45 minutes", "A2 elementary level", "Croatian/English/Spanish interface", "Permanently free access"],
                         free: true,
                         level: "A2 Elementary"
                     },
                     {
                         name: "HR4EU E-Learning Portal",
                         url: "https://www.hr4eu.hr/",
-                        description: "EU-funded comprehensive e-learning platform for all levels with 5 courses: Beginner, Intermediate, Advanced, Business Croatian, and Croatian for Students.",
+                        features: ["EU-funded e-learning platform", "5 comprehensive courses", "Beginner to Business Croatian", "Croatian for Students", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "University of Zagreb HiT-1",
                         url: "https://www.unizg.hr/homepage/learn-croatian/e-learning-course-of-croatian/",
-                        description: "Beginner e-learning with live instruction for A1 with 24 guided hours via video and certificate upon completion.",
+                        features: ["Live video instruction", "24 guided hours", "A1 beginner level", "Certificate upon completion", "University of Zagreb"],
                         free: true,
                         level: "A1 Beginner"
                     },
                     {
                         name: "LingoHut",
                         url: "https://www.lingohut.com/en/l97/learn-croatian",
-                        description: "Free platform with 125 Croatian lessons for beginner to intermediate, no registration required with native speaker audio and games.",
+                        features: ["125 Croatian lessons", "No registration required", "Native speaker audio", "Interactive games", "Beginner to intermediate"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "StudyCroatian",
                         url: "https://studycroatian.com/",
-                        description: "Interactive online learning platform for all levels with structured progression, interactive exercises, and progress tracking.",
+                        features: ["Interactive learning platform", "Structured progression system", "Interactive exercises", "Progress tracking", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Central State Office Courses",
                         url: "https://hrvatiizvanrh.gov.hr/programs-and-projects/free-a1-and-a2-level-online-croatian-language-courses/2462",
-                        description: "Government-funded courses for diaspora at A1-A2 levels, free for Croatian diaspora with 24 guided hours.",
+                        features: ["Government-funded courses", "Croatian diaspora focus", "A1-A2 levels", "24 guided hours", "Free for diaspora"],
                         free: true,
                         level: "A1 to A2"
                     },
                     {
                         name: "CEHAS University of Split",
                         url: "https://cehas.hr/en/programmes/",
-                        description: "Online real-time classes for A1-C2 with 5-15 participants per class and ECTS credits available.",
+                        features: ["Real-time online classes", "A1-C2 levels", "5-15 participants per class", "ECTS credits available", "University of Split"],
                         free: false,
                         level: "A1 to C2"
                     }
@@ -81,49 +81,49 @@ const croatianResources = {
                     {
                         name: "Institute for Croatian Language",
                         url: "http://ihjj.hr/",
-                        description: "Central language authority for all levels with multiple specialized portals and tools.",
+                        features: ["Central language authority", "Multiple specialized portals", "Language tools", "All proficiency levels", "Official institution"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Croatian Grammar Portal",
                         url: "https://gramatika.hr/",
-                        description: "Official grammar resource for all levels with comprehensive normative grammar.",
+                        features: ["Official grammar resource", "Comprehensive normative grammar", "All proficiency levels", "Authoritative reference", "Online portal"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Croatian Orthography",
                         url: "https://pravopis.hr/",
-                        description: "Official spelling guide for all levels with authoritative spelling rules.",
+                        features: ["Official spelling guide", "Authoritative spelling rules", "All proficiency levels", "Croatian orthography", "Government approved"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Language Advisory Service",
                         url: "http://jezicni-savjetnik.hr/",
-                        description: "Language advice portal for all levels with expert language guidance.",
+                        features: ["Expert language guidance", "Language advice portal", "All proficiency levels", "Professional consultation", "Official support"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Better Croatian",
                         url: "https://bolje.hr/",
-                        description: "Language improvement portal for all levels with writing improvement tips.",
+                        features: ["Writing improvement tips", "Language enhancement portal", "All proficiency levels", "Better Croatian usage", "Practical guidance"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Croatian for Schools",
                         url: "https://hrvatski.hr/",
-                        description: "School language resources for student levels with educational materials.",
+                        features: ["School language resources", "Educational materials", "Student-focused content", "Curriculum support", "Academic resources"],
                         free: true,
                         level: "Student levels"
                     },
                     {
                         name: "Digital Treasury",
                         url: "https://riznica.ihjj.hr/",
-                        description: "Croatian language treasury for advanced learners with historical language resources.",
+                        features: ["Croatian language treasury", "Historical language resources", "Advanced learners", "Cultural heritage", "Digital archive"],
                         free: true,
                         level: "Advanced"
                     }
@@ -137,49 +137,49 @@ const croatianResources = {
                     {
                         name: "Basic Croatian (v0.24)",
                         url: "http://www.alvsmith.com/uploads/1/2/0/7/12072695/basic_croatian_v_0.24.pdf",
-                        description: "Comprehensive 300-page PDF textbook for beginner to intermediate with complete grammar, pronunciation, dialects, and colloquial language.",
+                        features: ["300-page PDF textbook", "Complete grammar guide", "Pronunciation and dialects", "Colloquial language", "Beginner to intermediate"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Easy Croatian (Revision 47)",
                         url: "https://archive.org/details/easycroatian_r47",
-                        description: "Colloquial approach textbook for beginner to intermediate available in PDF, EPUB, and full text formats.",
+                        features: ["Colloquial approach textbook", "Multiple formats available", "PDF and EPUB", "Beginner to intermediate", "Archive.org hosted"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Hrvatska školska gramatika",
                         url: "http://gramatika.hr/",
-                        description: "Online interactive grammar resource for all levels with 10,000+ entries and systematic grammar rules.",
+                        features: ["Interactive grammar resource", "10,000+ entries", "Systematic grammar rules", "All proficiency levels", "Online access"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Hrvatski pravopis",
                         url: "https://pravopis.hr/",
-                        description: "Official Croatian orthography for all levels, official spelling guide regularly updated.",
+                        features: ["Official Croatian orthography", "Regularly updated", "Spelling guide", "All proficiency levels", "Government standard"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Hrvatski za početnike 1",
                         url: "https://pdfcoffee.com/hrvatski-za-pocetnike-1-prirucnik-pdf-free.html",
-                        description: "Croatian university textbook for A1-A2 with 20 units including dialogues, exercises, and dictionary.",
+                        features: ["University textbook", "20 units included", "Dialogues and exercises", "Dictionary included", "A1-A2 levels"],
                         free: true,
                         level: "A1 to A2"
                     },
                     {
                         name: "PDF Language Lessons",
                         url: "https://www.pdf-language-lessons.com/croatian/croatian-pdf-lessons/",
-                        description: "7+ beginner PDF lessons for beginners with top phrases, vocabulary lists, and printable worksheets.",
+                        features: ["7+ PDF lessons", "Top phrases included", "Vocabulary lists", "Printable worksheets", "Beginner level"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "Croaticum Audio Materials",
                         url: "https://croaticum.ffzg.unizg.hr/?page_id=1632",
-                        description: "Free audio for official textbooks covering A1-C1 with audio downloads for all proficiency levels.",
+                        features: ["Official textbook audio", "A1-C1 coverage", "Audio downloads", "All proficiency levels", "University of Zagreb"],
                         free: true,
                         level: "A1 to C1"
                     }
@@ -191,42 +191,42 @@ const croatianResources = {
                     {
                         name: "NSK Digital Library",
                         url: "https://digitalna.nsk.hr/",
-                        description: "Croatian National Library digital collections for mixed levels with books, manuscripts, newspapers, maps, and music.",
+                        features: ["National Library collections", "Books and manuscripts", "Newspapers and maps", "Music archives", "Mixed difficulty levels"],
                         free: true,
                         level: "Mixed levels"
                     },
                     {
                         name: "BEK - Free Electronic Books",
                         url: "https://elektronickeknjige.com/",
-                        description: "194+ contemporary Croatian titles for intermediate to advanced with modern Croatian authors in multiple formats.",
+                        features: ["194+ contemporary titles", "Modern Croatian authors", "Multiple formats", "Intermediate to advanced", "Free electronic books"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Croatian Learner News",
                         url: "https://www.lets-learn.eu/croatian/news",
-                        description: "Simplified news with translations for beginner to intermediate with vocabulary explanations, comprehension questions, and 2-3 articles weekly.",
+                        features: ["Simplified news articles", "Vocabulary explanations", "Comprehension questions", "2-3 weekly articles", "Translation support"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Croatian Wikisource",
                         url: "https://hr.wikisource.org/",
-                        description: "Classic Croatian literature and folk tales for intermediate to advanced with 66+ folk tales and historical documents.",
+                        features: ["Classic Croatian literature", "66+ folk tales", "Historical documents", "Intermediate to advanced", "Wikisource platform"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Archive.org Croatian",
                         url: "https://archive.org/details/booksbylanguage_croatian",
-                        description: "Historical books and materials for mixed levels with free downloads in multiple formats.",
+                        features: ["Historical books", "Multiple formats", "Free downloads", "Mixed difficulty levels", "Archive.org platform"],
                         free: true,
                         level: "Mixed levels"
                     },
                     {
                         name: "Croatian Folk Tales",
                         url: "https://hr.wikisource.org/wiki/Kategorija:Hrvatske_narodne_priče",
-                        description: "66+ traditional stories for intermediate learners showcasing traditional Croatian folklore.",
+                        features: ["66+ traditional stories", "Croatian folklore", "Intermediate level", "Cultural heritage", "Traditional narratives"],
                         free: true,
                         level: "Intermediate"
                     }
@@ -240,63 +240,63 @@ const croatianResources = {
                     {
                         name: "Let's Learn Croatian YouTube",
                         url: "https://youtube.com/c/LetsLearnCroatian",
-                        description: "Language lessons with culture for all levels with regular episodes and interactive teaching.",
+                        features: ["Language and culture lessons", "Regular episodes", "Interactive teaching", "All proficiency levels", "YouTube channel"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Easy Croatian YouTube",
                         url: "https://www.youtube.com/",
-                        description: "Street interviews and real conversations for beginner to intermediate with authentic language and subtitles available.",
+                        features: ["Street interviews", "Real conversations", "Authentic language", "Subtitles available", "Beginner to intermediate"],
                         free: true,
                         level: "Beginner to Intermediate"
                     },
                     {
                         name: "Let's Learn Croatian Podcast",
                         url: "https://www.letslearncroatian.com/podcast",
-                        description: "150+ episodes for all levels with cultural insights and transcripts available.",
+                        features: ["150+ podcast episodes", "Cultural insights", "Transcripts available", "All proficiency levels", "Regular content"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Easy Croatian - SBS",
                         url: "https://podcasts.apple.com/",
-                        description: "News in simple Croatian for A1-A2 with weekly episodes, transcripts, and quizzes.",
+                        features: ["Simple Croatian news", "Weekly episodes", "Transcripts included", "Quizzes available", "A1-A2 levels"],
                         free: true,
                         level: "A1 to A2"
                     },
                     {
                         name: "HRT Radio",
                         url: "https://radio.hrt.hr/",
-                        description: "Croatian national radio for advanced learners with HR1, HR2, HR3 plus 8 regional stations.",
+                        features: ["Croatian national radio", "HR1, HR2, HR3", "8 regional stations", "Advanced learners", "Live streaming"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "HRT Television",
                         url: "https://www.hrt.hr/",
-                        description: "Croatian TV online for all levels with HRT 1-4 and subtitles via Teletext 888.",
+                        features: ["Croatian TV online", "HRT 1-4 channels", "Teletext 888 subtitles", "All proficiency levels", "Live streaming"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "LibriVox Croatian",
                         url: "https://librivox.club/language/Croatian",
-                        description: "Free Croatian audiobooks for intermediate to advanced with classic literature and MP3 downloads.",
+                        features: ["Free Croatian audiobooks", "Classic literature", "MP3 downloads", "Intermediate to advanced", "LibriVox platform"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "Forvo Croatian",
                         url: "https://forvo.com/languages/hr/",
-                        description: "Pronunciation dictionary for all levels with native speaker pronunciations.",
+                        features: ["Pronunciation dictionary", "Native speaker audio", "All proficiency levels", "Audio recordings", "Online platform"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Professor Balthazar",
                         url: "https://www.youtube.com/",
-                        description: "Classic Croatian animation for beginners with 59 episodes and clear narration.",
+                        features: ["Classic Croatian animation", "59 episodes", "Clear narration", "Beginner friendly", "YouTube available"],
                         free: true,
                         level: "Beginner"
                     }
@@ -310,56 +310,56 @@ const croatianResources = {
                     {
                         name: "Glosbe Dictionary",
                         url: "https://glosbe.com/en/hr",
-                        description: "Community-based dictionary for all levels with context examples, audio, images, and parallel corpora.",
+                        features: ["Community-based dictionary", "Context examples", "Audio and images", "Parallel corpora", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Dict.cc Croatian",
                         url: "https://enhr.dict.cc/",
-                        description: "Community-contributed vocabulary for all levels with vocabulary trainer, offline database, and user verification.",
+                        features: ["Community-contributed vocabulary", "Vocabulary trainer", "Offline database", "User verification", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Hrvatski jezični portal",
                         url: "https://hjp.znanje.hr/",
-                        description: "Official Croatian language portal for all levels with etymology and official resources.",
+                        features: ["Official language portal", "Etymology information", "Official resources", "All proficiency levels", "Government approved"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "CroDict",
                         url: "https://www.crodict.com/en/verbs/croatian",
-                        description: "38,089 conjugated verbs and 91,600 declined nouns for all levels with AI grammar assistant 'Jagoda' and API available.",
+                        features: ["38,089 conjugated verbs", "91,600 declined nouns", "AI assistant Jagoda", "API available", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Ispravi.me",
                         url: "https://ispravi.me/",
-                        description: "Croatian spell checker for all levels with academic-quality spell checking.",
+                        features: ["Croatian spell checker", "Academic-quality checking", "All proficiency levels", "Online tool", "Writing assistance"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Verbix Croatian",
                         url: "https://www.verbix.com/languages/croatian",
-                        description: "Verb conjugation tool for all levels with systematic conjugation patterns.",
+                        features: ["Verb conjugation tool", "Systematic patterns", "All proficiency levels", "Online platform", "Grammar support"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Lingea Dictionary",
                         url: "https://www.dict.com/croatian-english",
-                        description: "Professional dictionary for all levels with 2.2M entries and 49,400 translations.",
+                        features: ["Professional dictionary", "2.2M entries", "49,400 translations", "All proficiency levels", "Comprehensive coverage"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Croatian Terminology Database",
                         url: "https://nazivlje.hr/",
-                        description: "Official terminology for advanced learners with specialized terminology database.",
+                        features: ["Official terminology database", "Specialized vocabulary", "Advanced learners", "Professional terms", "Government approved"],
                         free: true,
                         level: "Advanced"
                     }
@@ -371,35 +371,35 @@ const croatianResources = {
                     {
                         name: "Mondly Croatian",
                         url: "https://apps.apple.com/",
-                        description: "Daily lessons with speech recognition for all levels with free basic version, AR/VR lessons, and professional voice actors on iOS and Android.",
+                        features: ["Daily lessons", "Speech recognition", "AR/VR lessons", "Professional voice actors", "iOS and Android"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Nemo Croatian",
                         url: "https://apps.apple.com/us/app/croatian-by-nemo/id635604093",
-                        description: "Progressive word introduction for all levels with Apple Watch compatible, speech studio, and offline functionality.",
+                        features: ["Progressive word introduction", "Apple Watch compatible", "Speech studio", "Offline functionality", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "FunEasyLearn",
                         url: "https://www.funeasylearn.com/learn-croatian",
-                        description: "15,000 words and phrases for all levels with 30 games, 350 topics, and business version.",
+                        features: ["15,000 words and phrases", "30 interactive games", "350 topics", "Business version", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Simply Learn Croatian",
                         url: "https://play.google.com/store/",
-                        description: "300+ phrases and words for beginners with native speaker recordings, offline capable, and spaced repetition on Google Play and App Store.",
+                        features: ["300+ phrases and words", "Native speaker recordings", "Offline capable", "Spaced repetition", "Google Play and App Store"],
                         free: true,
                         level: "Beginner"
                     },
                     {
                         name: "DinoLingo Croatian",
                         url: "https://www.dinolingo.com/learn-croatian-for-kids/",
-                        description: "Children's Croatian learning for children 2-14 with complete immersion method and progress tracking.",
+                        features: ["Children's Croatian learning", "Ages 2-14", "Complete immersion method", "Progress tracking", "Kid-friendly interface"],
                         free: true,
                         level: "Children 2-14"
                     }
@@ -411,14 +411,14 @@ const croatianResources = {
                     {
                         name: "Sapling Croatian",
                         url: "https://sapling.ai/lang/croatian",
-                        description: "Online spell checking for all levels with browser extensions and API available.",
+                        features: ["Online spell checking", "Browser extensions", "API available", "All proficiency levels", "Writing assistance"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "CroDict Spell Check",
                         url: "https://www.crodict.com/en/spell-check",
-                        description: "Multi-language correction for all levels supporting 20+ languages with one-click correction.",
+                        features: ["Multi-language correction", "20+ languages supported", "One-click correction", "All proficiency levels", "CroDict platform"],
                         free: true,
                         level: "All levels"
                     }
@@ -432,35 +432,35 @@ const croatianResources = {
                     {
                         name: "HelloTalk",
                         url: "https://www.hellotalk.com/",
-                        description: "Language exchange app for all levels with 30M+ users, built-in correction tools, and voice/video chat.",
+                        features: ["Language exchange app", "30M+ users", "Built-in correction tools", "Voice/video chat", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Tandem",
                         url: "https://tandem.net/",
-                        description: "Language exchange with matching for all levels with voice/video calls, user reviews, and professional tutoring option.",
+                        features: ["Language exchange matching", "Voice/video calls", "User reviews", "Professional tutoring option", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "The Mixxer",
                         url: "https://www.language-exchanges.org/",
-                        description: "Skype-based exchange for all levels with free platform, speaking focus, and blog posting.",
+                        features: ["Skype-based exchange", "Free platform", "Speaking focus", "Blog posting", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Croatian subreddit",
                         url: "https://www.reddit.com/r/croatian/",
-                        description: "Learning community for all levels with native speaker help and shared resources.",
+                        features: ["Learning community", "Native speaker help", "Shared resources", "All proficiency levels", "Reddit platform"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Readlang Croatian",
                         url: "https://readlang.com/hr/library",
-                        description: "Text import tool for all levels with one-click translation and flashcards.",
+                        features: ["Text import tool", "One-click translation", "Flashcards creation", "All proficiency levels", "Reading practice"],
                         free: true,
                         level: "All levels"
                     }
@@ -472,21 +472,21 @@ const croatianResources = {
                     {
                         name: "HRT International",
                         url: "https://glashrvatske.hrt.hr/en",
-                        description: "International Croatian service for intermediate to advanced with multiple language options.",
+                        features: ["International Croatian service", "Multiple language options", "Intermediate to advanced", "HRT platform", "Global reach"],
                         free: true,
                         level: "Intermediate to Advanced"
                     },
                     {
                         name: "HRTi Streaming",
                         url: "https://hrti.hrt.hr",
-                        description: "Croatian TV streaming for all levels with some subtitles, mobile app, and 72-hour catch-up.",
+                        features: ["Croatian TV streaming", "Some subtitles available", "Mobile app", "72-hour catch-up", "All proficiency levels"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Slobodna Dalmacija",
                         url: "https://slobodnadalmacija.hr",
-                        description: "Dalmatian regional news for advanced learners with regional dialect exposure.",
+                        features: ["Dalmatian regional news", "Regional dialect exposure", "Advanced learners", "Local perspective", "Current events"],
                         free: true,
                         level: "Advanced"
                     }
@@ -498,28 +498,28 @@ const croatianResources = {
                     {
                         name: "Croatian Studies Foundation",
                         url: "https://www.croatianstudiesfoundation.com.au/",
-                        description: "Australian academic center for advanced learners with research publications and cultural programs.",
+                        features: ["Australian academic center", "Research publications", "Cultural programs", "Advanced learners", "Croatian studies"],
                         free: true,
                         level: "Advanced"
                     },
                     {
                         name: "Croatian School Melbourne",
                         url: "https://www.croatianschoolmelbourne.org.au/",
-                        description: "Australian community school for Prep-Year 10 accredited by Community Languages Victoria.",
+                        features: ["Australian community school", "Prep-Year 10", "Community Languages Victoria", "Accredited program", "Melbourne based"],
                         free: false,
                         level: "Prep to Year 10"
                     },
                     {
                         name: "Croatian Ethnic Institute",
                         url: "http://www.croatian-ethnic-institute.org",
-                        description: "US educational resources for all levels with Saturday school materials, Chicago-based.",
+                        features: ["US educational resources", "Saturday school materials", "Chicago-based", "All proficiency levels", "Ethnic institute"],
                         free: true,
                         level: "All levels"
                     },
                     {
                         name: "Croatian Fraternal Union",
                         url: "https://cfu.org/",
-                        description: "US Croatian organization for all levels with educational programs and Zajedničar newsletter.",
+                        features: ["US Croatian organization", "Educational programs", "Zajedničar newsletter", "All proficiency levels", "Fraternal union"],
                         free: true,
                         level: "All levels"
                     }
