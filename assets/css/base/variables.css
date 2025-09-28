@@ -1,77 +1,149 @@
 /* ===================================
-   CSS Custom Properties - Design System
+   Language Learning Hub - Design System Variables
+   Based on Style Guide v1.0.0
    =================================== */
 
 :root {
-    /* Primary Color Scale - Slate (Sophisticated Dark Blue-Grey) */
-    --primary-50: #f8fafc;
-    --primary-100: #f1f5f9;
-    --primary-200: #e2e8f0;
-    --primary-300: #cbd5e1;
-    --primary-400: #94a3b8;
-    --primary-500: #64748b;
-    --primary-600: #475569;
-    --primary-700: #334155;
-    --primary-800: #1e293b;
-    --primary-900: #0f172a;
+    /* ===================================
+       COLOR SYSTEM
+       =================================== */
 
-    /* Accent Color Scale */
-    --accent-50: #fdf2f8;
-    --accent-100: #fce7f3;
-    --accent-200: #fbcfe8;
-    --accent-300: #f9a8d4;
-    --accent-400: #f472b6;
-    --accent-500: #ec4899;
-    --accent-600: #db2777;
-    --accent-700: #be185d;
-    --accent-800: #9d174d;
-    --accent-900: #831843;
+    /* Primary Colors - Purple (Wisdom & Learning) */
+    --color-primary: #5B4E8C;
+    --color-primary-light: #7B6EAC;
+    --color-primary-dark: #3B2E6C;
+    --primary-50: #F5F3F7;
+    --primary-100: #EBE7F0;
+    --primary-200: #D7CFE1;
+    --primary-300: #C3B7D2;
+    --primary-400: #9F8FBC;
+    --primary-500: #7B6EAC;
+    --primary-600: #5B4E8C;
+    --primary-700: #4A3E7C;
+    --primary-800: #3B2E6C;
+    --primary-900: #2C1E5C;
 
-    /* Gray Scale */
-    --gray-50: #f9fafb;
-    --gray-100: #f3f4f6;
-    --gray-200: #e5e7eb;
-    --gray-300: #d1d5db;
-    --gray-400: #9ca3af;
-    --gray-500: #6b7280;
-    --gray-600: #4b5563;
-    --gray-700: #374151;
-    --gray-800: #1f2937;
-    --gray-900: #111827;
+    /* Accent Colors - Golden (Achievement & Success) */
+    --color-accent: #E8B04B;
+    --color-accent-light: #F0C66B;
+    --color-accent-dark: #C89A3B;
+    --accent-50: #FFF9E6;
+    --accent-100: #FFF3CD;
+    --accent-200: #FFE79B;
+    --accent-300: #FFDB69;
+    --accent-400: #F0C66B;
+    --accent-500: #E8B04B;
+    --accent-600: #C89A3B;
+    --accent-700: #A8842B;
+    --accent-800: #886E1B;
+    --accent-900: #68580B;
 
-    /* Component Colors - All Languages Button */
-    --all-lang-inactive-bg: linear-gradient(135deg, var(--primary-50), var(--accent-50));
-    --all-lang-inactive-border: var(--primary-200);
-    --all-lang-inactive-color: var(--primary-700);
-    --all-lang-inactive-hover-bg: linear-gradient(135deg, var(--primary-100), var(--accent-100));
-    --all-lang-inactive-hover-color: var(--primary-800);
+    /* Secondary Colors - Teal (Growth & Progress) */
+    --color-secondary: #4A8B8C;
+    --color-secondary-light: #6AAAAC;
+    --color-secondary-dark: #2A6B6C;
+    --secondary-50: #E6F7F7;
+    --secondary-100: #CDEFF0;
+    --secondary-200: #9BDFE0;
+    --secondary-300: #6AAAAC;
+    --secondary-400: #5A9A9C;
+    --secondary-500: #4A8B8C;
+    --secondary-600: #3A7B7C;
+    --secondary-700: #2A6B6C;
+    --secondary-800: #1A5B5C;
+    --secondary-900: #0A4B4C;
 
-    --all-lang-active-bg: #475569;
-    --all-lang-active-border: #475569;
-    --all-lang-active-color: #ffffff;
-    --all-lang-active-hover-bg: #334155;
-    --all-lang-active-hover-border: #475569;
-    --all-lang-active-hover-color: #ffffff;
+    /* Neutral Colors */
+    --color-dark: #1A1625;
+    --color-dark-soft: #2D2838;
+    --color-gray-900: #3F3A4B;
+    --color-gray-800: #4F495B;
+    --color-gray-700: #5E5869;
+    --color-gray-600: #6B6574;
+    --color-gray-500: #8E8896;
+    --color-gray-400: #AEA8B6;
+    --color-gray-300: #C4BFC9;
+    --color-gray-200: #D8D4DD;
+    --color-gray-100: #F0EEF2;
+    --color-gray-50: #F7F6F9;
+    --color-white: #FFFFFF;
+    --color-off-white: #FAF9FB;
 
-    /* Component Colors - Filters */
-    --filter-active-bg: #475569;
-    --filter-active-color: #ffffff;
-    --filter-active-border: #475569;
+    /* Semantic Colors */
+    --color-success: #52C41A;
+    --color-success-light: #73D13D;
+    --color-warning: #FAAD14;
+    --color-warning-light: #FFC53D;
+    --color-error: #F5222D;
+    --color-error-light: #FF4D4F;
+    --color-info: #1890FF;
+    --color-info-light: #40A9FF;
+
+    /* Component-Specific Colors */
+    --filter-active-bg: var(--color-primary);
+    --filter-active-color: var(--color-white);
+    --filter-active-border: var(--color-primary);
     --filter-hover-bg: var(--primary-50);
     --filter-hover-color: var(--primary-700);
     --filter-hover-border: var(--primary-300);
 
-    /* Typography */
-    --font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    --font-serif: 'Crimson Text', Georgia, 'Times New Roman', serif;
+    --all-lang-inactive-bg: linear-gradient(135deg, var(--primary-50), var(--accent-50));
+    --all-lang-inactive-border: var(--color-gray-200);
+    --all-lang-inactive-color: var(--color-gray-700);
+    --all-lang-active-bg: var(--color-primary);
+    --all-lang-active-border: var(--color-primary);
+    --all-lang-active-color: var(--color-white);
+
+    /* ===================================
+       TYPOGRAPHY
+       =================================== */
+
+    /* Font Families */
+    --font-display: 'Crimson Text', serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+
+    /* Font Sizes - Fluid Typography */
+    --fs-hero: clamp(2.5rem, 5vw + 1rem, 4.5rem);   /* 40px → 72px */
+    --fs-h1: clamp(2rem, 4vw + 1rem, 3.5rem);       /* 32px → 56px */
+    --fs-h2: clamp(1.75rem, 3vw + 0.5rem, 2.5rem);  /* 28px → 40px */
+    --fs-h3: clamp(1.25rem, 2vw + 0.5rem, 1.75rem); /* 20px → 28px */
+    --fs-h4: clamp(1.125rem, 1.5vw + 0.5rem, 1.5rem); /* 18px → 24px */
+    --fs-body: clamp(1rem, 1vw + 0.75rem, 1.125rem);/* 16px → 18px */
+    --fs-small: 0.875rem;                            /* 14px */
+    --fs-tiny: 0.75rem;                              /* 12px */
 
     /* Font Weights */
-    --font-weight-normal: 400;
-    --font-weight-medium: 500;
-    --font-weight-semibold: 600;
-    --font-weight-bold: 700;
+    --fw-light: 300;
+    --fw-normal: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
 
-    /* Spacing Scale */
+    /* Line Heights */
+    --lh-tight: 1.2;      /* Headlines */
+    --lh-normal: 1.6;     /* Body text */
+    --lh-relaxed: 1.8;    /* Long-form content */
+
+    /* Letter Spacing */
+    --ls-tight: -0.02em;
+    --ls-normal: 0;
+    --ls-wide: 0.025em;
+    --ls-wider: 0.05em;
+
+    /* ===================================
+       SPACING SCALE
+       =================================== */
+
+    --space-xs: 0.5rem;   /* 8px */
+    --space-sm: 1rem;     /* 16px */
+    --space-md: 1.5rem;   /* 24px */
+    --space-lg: 2rem;     /* 32px */
+    --space-xl: 3rem;     /* 48px */
+    --space-2xl: 4.5rem;  /* 72px */
+    --space-3xl: 6rem;    /* 96px */
+
+    /* Legacy spacing (for compatibility) */
     --spacing-xs: 4px;
     --spacing-sm: 8px;
     --spacing-md: 16px;
@@ -80,25 +152,53 @@
     --spacing-2xl: 48px;
     --spacing-3xl: 64px;
 
-    /* Border Radius */
-    --radius-sm: 4px;
-    --radius-md: 8px;
-    --radius-lg: 12px;
-    --radius-xl: 16px;
-    --radius-full: 9999px;
+    /* ===================================
+       LAYOUT
+       =================================== */
 
-    /* Shadows */
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --container-max: 1200px;
+    --container-padding: clamp(1rem, 5vw, 2rem);
+    --container-wide: 1600px;
 
-    /* Transitions */
-    --transition-fast: 150ms ease;
+    /* ===================================
+       BORDER RADIUS
+       =================================== */
+
+    --radius-sm: 0.375rem;  /* 6px - Badges, small buttons */
+    --radius-md: 0.625rem;  /* 10px - Cards, inputs */
+    --radius-lg: 1rem;      /* 16px - Large cards */
+    --radius-xl: 1.5rem;    /* 24px - Hero sections */
+    --radius-full: 9999px;  /* Circular */
+
+    /* ===================================
+       SHADOWS
+       =================================== */
+
+    --shadow-sm: 0 2px 4px rgba(26, 22, 37, 0.08);
+    --shadow-md: 0 4px 12px rgba(26, 22, 37, 0.12);
+    --shadow-lg: 0 8px 24px rgba(26, 22, 37, 0.16);
+    --shadow-xl: 0 16px 48px rgba(26, 22, 37, 0.24);
+
+    /* Colored Shadows */
+    --shadow-primary: 0 4px 12px rgba(91, 78, 140, 0.25);
+    --shadow-accent: 0 4px 12px rgba(232, 176, 75, 0.25);
+    --shadow-secondary: 0 4px 12px rgba(74, 139, 140, 0.25);
+
+    /* ===================================
+       TRANSITIONS
+       =================================== */
+
+    --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 600ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Legacy transitions */
     --transition-normal: 250ms ease;
-    --transition-slow: 350ms ease;
 
-    /* Z-index Scale */
+    /* ===================================
+       Z-INDEX SCALE
+       =================================== */
+
     --z-base: 0;
     --z-dropdown: 100;
     --z-sticky: 200;
@@ -107,10 +207,24 @@
     --z-toast: 500;
     --z-tooltip: 600;
 
-    /* Breakpoints (for use in calc()) */
+    /* ===================================
+       BREAKPOINTS (for reference)
+       =================================== */
+
     --breakpoint-sm: 480px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 1024px;
     --breakpoint-xl: 1280px;
     --breakpoint-2xl: 1536px;
+}
+
+/* ===================================
+   DARK MODE (Future Enhancement)
+   =================================== */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark mode tokens would go here */
+        /* Currently not implemented */
+    }
 }
