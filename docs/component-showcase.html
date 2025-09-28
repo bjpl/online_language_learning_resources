@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Hub - Design System Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Primary Colors - Purple (Wisdom) */
+            --color-primary: #5B4E8C;
+            --color-primary-light: #7B6EAC;
+            --color-primary-dark: #3B2E6C;
+            --primary-50: #F5F3F7;
+
+            /* Accent Colors - Golden (Achievement) */
+            --color-accent: #E8B04B;
+            --color-accent-light: #F0C66B;
+            --accent-50: #FFF9E6;
+
+            /* Secondary Colors - Teal (Growth) */
+            --color-secondary: #4A8B8C;
+            --color-secondary-light: #6AAAAC;
+
+            /* Neutrals */
+            --color-dark: #1A1625;
+            --color-gray-900: #3F3A4B;
+            --color-gray-700: #5E5869;
+            --color-gray-500: #8E8896;
+            --color-gray-300: #C4BFC9;
+            --color-gray-200: #D8D4DD;
+            --color-gray-100: #F0EEF2;
+            --color-white: #FFFFFF;
+            --color-off-white: #FAF9FB;
+
+            /* Typography */
+            --font-display: 'Crimson Text', serif;
+            --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+            /* Spacing */
+            --spacing-xs: 4px;
+            --spacing-sm: 8px;
+            --spacing-md: 16px;
+            --spacing-lg: 24px;
+            --spacing-xl: 32px;
+            --spacing-2xl: 48px;
+
+            /* Radius */
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+
+            /* Shadows */
+            --shadow-sm: 0 2px 4px rgba(26, 22, 37, 0.08);
+            --shadow-md: 0 4px 12px rgba(26, 22, 37, 0.12);
+            --shadow-lg: 0 8px 24px rgba(26, 22, 37, 0.16);
+            --shadow-xl: 0 16px 48px rgba(26, 22, 37, 0.24);
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--color-off-white);
+            color: var(--color-dark);
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        .header {
+            background: var(--color-white);
+            border-bottom: 2px solid var(--color-gray-100);
+            padding: var(--spacing-lg) var(--spacing-2xl);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .header-content {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .header h1 {
+            font-family: var(--font-display);
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--color-dark);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .header-subtitle {
+            font-size: 14px;
+            color: var(--color-gray-700);
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--primary-50);
+            color: var(--color-primary);
+            padding: 4px 12px;
+            border-radius: var(--radius-sm);
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        /* Navigation & Search */
+        .nav-bar {
+            display: flex;
+            gap: var(--spacing-md);
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .search-container {
+            flex: 1;
+            min-width: 300px;
+            max-width: 500px;
+            position: relative;
+        }
+
+        .global-search {
+            width: 100%;
+            padding: var(--spacing-sm) 36px var(--spacing-sm) 40px;
+            border: 2px solid var(--color-gray-200);
+            border-radius: var(--radius-lg);
+            font-size: 14px;
+            transition: all 0.2s;
+            background: var(--color-gray-100);
+        }
+
+        .global-search:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(91, 78, 140, 0.1);
+            background: white;
+        }
+
+        .global-search.filtering {
+            border-color: var(--color-secondary);
+            background: #E8F9E0;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: var(--spacing-md);
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--color-gray-500);
+        }
+
+        .search-clear {
+            position: absolute;
+            right: var(--spacing-md);
+            top: 50%;
+            transform: translateY(-50%);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--color-gray-500);
+            color: white;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 18px;
+            transition: all 0.2s;
+        }
+
+        .search-clear:hover {
+            background: var(--color-primary);
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .quick-nav {
+            display: flex;
+            gap: var(--spacing-sm);
+        }
+
+        .quick-nav-btn {
+            padding: var(--spacing-sm) var(--spacing-md);
+            border: 2px solid var(--color-gray-200);
+            border-radius: var(--radius-md);
+            background: var(--color-white);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--color-gray-700);
+            text-decoration: none;
+        }
+
+        .quick-nav-btn:hover {
+            border-color: var(--color-primary);
+            color: var(--color-primary);
+            background: var(--primary-50);
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: 4px;
+            background: var(--color-gray-100);
+            padding: 4px;
+            border-radius: var(--radius-md);
+        }
+
+        .view-btn {
+            padding: 6px 12px;
+            border: none;
+            border-radius: var(--radius-sm);
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--color-gray-700);
+        }
+
+        .view-btn.active {
+            background: var(--color-white);
+            color: var(--color-dark);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Filter Status */
+        .filter-status {
+            position: fixed;
+            top: 150px;
+            right: var(--spacing-xl);
+            background: var(--color-secondary);
+            color: white;
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            font-size: 14px;
+            font-weight: 500;
+            z-index: 98;
+            opacity: 0;
+            transform: translateX(20px);
+            transition: all 0.3s;
+        }
+
+        .filter-status.show {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: var(--spacing-2xl);
+        }
+
+        .section {
+            margin-bottom: 64px;
+        }
+
+        .section-header {
+            margin-bottom: var(--spacing-xl);
+            padding-bottom: var(--spacing-lg);
+            border-bottom: 2px solid var(--color-gray-100);
+        }
+
+        .section-header h2 {
+            font-family: var(--font-display);
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--color-dark);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .section-header p {
+            font-size: 16px;
+            color: var(--color-gray-700);
+        }
+
+        /* Component Sections */
+        .component-section {
+            background: var(--color-white);
+            border: 2px solid var(--color-gray-100);
+            border-radius: var(--radius-xl);
+            padding: var(--spacing-xl);
+            margin-bottom: var(--spacing-xl);
+            transition: opacity 0.3s;
+        }
+
+        .component-section.no-matches {
+            opacity: 0.3;
+            pointer-events: none;
+        }
+
+        .component-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--spacing-lg);
+            padding-bottom: var(--spacing-md);
+            border-bottom: 1px solid var(--color-gray-100);
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .component-header:hover {
+            color: var(--color-primary);
+        }
+
+        .component-title {
+            font-family: var(--font-display);
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--color-dark);
+        }
+
+        .component-header:hover .component-title {
+            color: var(--color-primary);
+        }
+
+        .component-meta {
+            font-size: 14px;
+            color: var(--color-gray-700);
+        }
+
+        .component-count {
+            background: var(--color-gray-100);
+            padding: 4px 12px;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            color: var(--color-dark);
+            font-size: 14px;
+        }
+
+        .expand-icon {
+            font-size: 24px;
+            color: var(--color-gray-500);
+            transition: transform 0.3s;
+            margin-left: var(--spacing-md);
+        }
+
+        .expanded .expand-icon {
+            transform: rotate(180deg);
+        }
+
+        .component-variants {
+            display: none;
+            margin-top: var(--spacing-lg);
+        }
+
+        .expanded .component-variants {
+            display: block;
+        }
+
+        /* Variant Grid */
+        .variant-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: var(--spacing-lg);
+        }
+
+        .variant-card {
+            background: var(--color-gray-100);
+            border: 2px solid var(--color-gray-200);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        .variant-card.hidden {
+            display: none !important;
+        }
+
+        .variant-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--color-primary);
+        }
+
+        .variant-preview {
+            padding: var(--spacing-lg);
+            background: white;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .variant-info {
+            padding: var(--spacing-sm) var(--spacing-md);
+            background: var(--color-gray-100);
+        }
+
+        .variant-name {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--color-gray-700);
+            text-align: center;
+        }
+
+        /* Category Badges */
+        .category-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: var(--radius-sm);
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-atoms { background: var(--primary-50); color: var(--color-primary); }
+        .badge-molecules { background: #E8F9E0; color: var(--color-secondary); }
+        .badge-organisms { background: var(--accent-50); color: var(--color-accent); }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: var(--spacing-xl);
+            right: var(--spacing-xl);
+            width: 56px;
+            height: 56px;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: var(--shadow-xl);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .back-to-top.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .back-to-top:hover {
+            background: var(--color-primary-light);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                padding: var(--spacing-md) var(--spacing-lg);
+            }
+
+            .nav-bar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .search-container {
+                min-width: 100%;
+                max-width: 100%;
+            }
+
+            .container {
+                padding: var(--spacing-lg);
+            }
+
+            .variant-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Sample Components (Inline Examples) */
+        .sample-btn {
+            padding: 12px 24px;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: var(--radius-md);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .sample-btn:hover {
+            background: var(--color-primary-light);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .sample-badge {
+            padding: 4px 12px;
+            background: var(--primary-50);
+            color: var(--color-primary);
+            border-radius: var(--radius-sm);
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .sample-card {
+            background: white;
+            border: 1px solid var(--color-gray-100);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-lg);
+            box-shadow: var(--shadow-sm);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-content">
+            <div class="header-top">
+                <div>
+                    <h1>Language Learning Hub Design System <span class="badge">v1.0.0</span></h1>
+                    <p class="header-subtitle">Complete component library and design tokens</p>
+                </div>
+                <div class="view-toggle">
+                    <button class="view-btn active" onclick="expandAll()">Expand All</button>
+                    <button class="view-btn" onclick="collapseAll()">Collapse All</button>
+                </div>
+            </div>
+            <div class="nav-bar">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input
+                        type="text"
+                        class="global-search"
+                        id="globalSearch"
+                        placeholder="Filter components (button, card, purple, hover...)"
+                        oninput="filterAllComponents(event)"
+                    >
+                    <span class="search-clear" id="searchClear" onclick="clearSearch()">×</span>
+                </div>
+                <div class="quick-nav">
+                    <a href="#atoms-section" class="quick-nav-btn">🔵 Atoms</a>
+                    <a href="#molecules-section" class="quick-nav-btn">🟢 Molecules</a>
+                    <a href="#organisms-section" class="quick-nav-btn">🟣 Organisms</a>
+                    <a href="../index.html" class="quick-nav-btn">🏠 Back to Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Atoms Section -->
+        <section class="section" id="atoms-section">
+            <div class="section-header">
+                <h2><span class="category-badge badge-atoms">Atoms</span> Basic Building Blocks</h2>
+                <p>Fundamental UI elements - buttons, badges, inputs, icons</p>
+            </div>
+
+            <!-- Buttons -->
+            <div class="component-section">
+                <div class="component-header" onclick="toggleSection(this)">
+                    <div>
+                        <div class="component-title">🔘 Buttons</div>
+                        <div class="component-meta">Interactive buttons in multiple sizes and states</div>
+                    </div>
+                    <span class="component-count">12 variants</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="component-variants">
+                    <div class="variant-grid" id="buttons-grid">
+                        <div class="variant-card" data-name="primary button">
+                            <div class="variant-preview">
+                                <button class="sample-btn">Primary Button</button>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Primary Button</div>
+                            </div>
+                        </div>
+                        <div class="variant-card" data-name="secondary button">
+                            <div class="variant-preview">
+                                <button class="sample-btn" style="background: var(--color-secondary)">Secondary Button</button>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Secondary Button</div>
+                            </div>
+                        </div>
+                        <div class="variant-card" data-name="accent button golden">
+                            <div class="variant-preview">
+                                <button class="sample-btn" style="background: var(--color-accent); color: var(--color-dark)">Accent Button</button>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Accent Button</div>
+                            </div>
+                        </div>
+                        <div class="variant-card" data-name="ghost button">
+                            <div class="variant-preview">
+                                <button class="sample-btn" style="background: transparent; border: 2px solid var(--color-primary); color: var(--color-primary)">Ghost Button</button>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Ghost Button</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Badges -->
+            <div class="component-section">
+                <div class="component-header" onclick="toggleSection(this)">
+                    <div>
+                        <div class="component-title">🏷️ Badges</div>
+                        <div class="component-meta">Status indicators and tags</div>
+                    </div>
+                    <span class="component-count">6 variants</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="component-variants">
+                    <div class="variant-grid">
+                        <div class="variant-card" data-name="free badge">
+                            <div class="variant-preview">
+                                <span class="sample-badge" style="background: #E8F9E0; color: #52C41A">Free</span>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Free Badge</div>
+                            </div>
+                        </div>
+                        <div class="variant-card" data-name="paid badge">
+                            <div class="variant-preview">
+                                <span class="sample-badge" style="background: var(--accent-50); color: var(--color-accent)">Paid</span>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Paid Badge</div>
+                            </div>
+                        </div>
+                        <div class="variant-card" data-name="new badge">
+                            <div class="variant-preview">
+                                <span class="sample-badge" style="background: var(--primary-50); color: var(--color-primary)">New</span>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">New Badge</div>
+                            </div>
+                        </div>
+                        <div class="variant-card" data-name="level badge">
+                            <div class="variant-preview">
+                                <span class="sample-badge">A1-B2</span>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Level Badge</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Fields -->
+            <div class="component-section">
+                <div class="component-header" onclick="toggleSection(this)">
+                    <div>
+                        <div class="component-title">📝 Input Fields</div>
+                        <div class="component-meta">Form inputs and search fields</div>
+                    </div>
+                    <span class="component-count">4 variants</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="component-variants">
+                    <div class="variant-grid">
+                        <div class="variant-card" data-name="text input field">
+                            <div class="variant-preview">
+                                <input type="text" placeholder="Text input" style="width: 100%; padding: 8px 12px; border: 2px solid var(--color-gray-200); border-radius: var(--radius-md); font-family: var(--font-body);">
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Text Input</div>
+                            </div>
+                        </div>
+                        <div class="variant-card" data-name="search input field">
+                            <div class="variant-preview">
+                                <input type="search" placeholder="Search..." style="width: 100%; padding: 8px 32px 8px 12px; border: 2px solid var(--color-gray-200); border-radius: var(--radius-md); font-family: var(--font-body); background: var(--color-gray-100);">
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Search Input</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Molecules Section -->
+        <section class="section" id="molecules-section">
+            <div class="section-header">
+                <h2><span class="category-badge badge-molecules">Molecules</span> Compound Components</h2>
+                <p>Groups of atoms working together - cards, filters, stat boxes</p>
+            </div>
+
+            <!-- Language Card -->
+            <div class="component-section">
+                <div class="component-header" onclick="toggleSection(this)">
+                    <div>
+                        <div class="component-title">🌍 Language Card</div>
+                        <div class="component-meta">Complete language presentation card</div>
+                    </div>
+                    <span class="component-count">3 variants</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="component-variants">
+                    <div class="variant-grid">
+                        <div class="variant-card" data-name="language card dutch">
+                            <div class="variant-preview">
+                                <div class="sample-card">
+                                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+                                        <span style="font-size: 32px;">🇳🇱</span>
+                                        <div>
+                                            <h3 style="font-family: var(--font-display); margin: 0;">Dutch</h3>
+                                            <p style="color: var(--color-gray-700); font-size: 14px; margin: 0;">Nederlands</p>
+                                        </div>
+                                    </div>
+                                    <p style="font-size: 14px; color: var(--color-gray-700);">23M speakers • 100+ resources</p>
+                                </div>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Language Card</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resource Card -->
+            <div class="component-section">
+                <div class="component-header" onclick="toggleSection(this)">
+                    <div>
+                        <div class="component-title">📚 Resource Card</div>
+                        <div class="component-meta">Individual resource display card</div>
+                    </div>
+                    <span class="component-count">2 variants</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="component-variants">
+                    <div class="variant-grid">
+                        <div class="variant-card" data-name="resource card">
+                            <div class="variant-preview">
+                                <div class="sample-card">
+                                    <div style="background: var(--primary-50); color: var(--color-primary); padding: 4px 8px; border-radius: var(--radius-sm); display: inline-block; font-size: 11px; font-weight: 600; margin-bottom: 8px;">🇳🇱 Dutch</div>
+                                    <h4 style="font-family: var(--font-display); margin: 0 0 8px 0;">Duolingo</h4>
+                                    <div style="font-size: 12px; color: var(--color-gray-700); margin-bottom: 8px;">
+                                        Gamified learning • Mobile app • Community
+                                    </div>
+                                    <div style="display: flex; gap: 6px;">
+                                        <span class="sample-badge" style="background: #E8F9E0; color: #52C41A; font-size: 10px;">Free</span>
+                                        <span class="sample-badge" style="font-size: 10px;">A1-B2</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Resource Card</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stat Box -->
+            <div class="component-section">
+                <div class="component-header" onclick="toggleSection(this)">
+                    <div>
+                        <div class="component-title">📊 Stat Box</div>
+                        <div class="component-meta">Metric display component</div>
+                    </div>
+                    <span class="component-count">4 variants</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="component-variants">
+                    <div class="variant-grid">
+                        <div class="variant-card" data-name="stat box">
+                            <div class="variant-preview">
+                                <div style="text-align: center;">
+                                    <div style="font-size: 32px; font-weight: 700; color: var(--color-primary); margin-bottom: 4px;">2031</div>
+                                    <div style="font-size: 12px; color: var(--color-gray-500); text-transform: uppercase; letter-spacing: 0.5px;">Total Resources</div>
+                                </div>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Stat Box</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Organisms Section -->
+        <section class="section" id="organisms-section">
+            <div class="section-header">
+                <h2><span class="category-badge badge-organisms">Organisms</span> Complex Layouts</h2>
+                <p>Full sections composed of molecules and atoms - navigation, hero, grids</p>
+            </div>
+
+            <!-- Navigation Bar -->
+            <div class="component-section">
+                <div class="component-header" onclick="toggleSection(this)">
+                    <div>
+                        <div class="component-title">🧭 Navigation Bar</div>
+                        <div class="component-meta">Main site navigation with logo and menu</div>
+                    </div>
+                    <span class="component-count">2 variants</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="component-variants">
+                    <div class="variant-grid">
+                        <div class="variant-card" data-name="navigation bar">
+                            <div class="variant-preview">
+                                <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; background: white; border: 1px solid var(--color-gray-100); border-radius: var(--radius-md);">
+                                    <div style="display: flex; align-items: center; gap: 8px; font-weight: 600;">
+                                        <span>🌍</span>
+                                        <span style="background: linear-gradient(135deg, var(--color-primary), var(--color-secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Language Hub</span>
+                                    </div>
+                                    <div style="display: flex; gap: 16px; font-size: 14px; color: var(--color-gray-700);">
+                                        <span>Languages</span>
+                                        <span>Resources</span>
+                                        <span>About</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Navigation Bar</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <div class="component-section">
+                <div class="component-header" onclick="toggleSection(this)">
+                    <div>
+                        <div class="component-title">🎭 Hero Section</div>
+                        <div class="component-meta">Large hero banner with title and search</div>
+                    </div>
+                    <span class="component-count">1 variant</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="component-variants">
+                    <div class="variant-grid">
+                        <div class="variant-card" data-name="hero section">
+                            <div class="variant-preview">
+                                <div style="background: linear-gradient(135deg, var(--primary-50) 0%, var(--accent-50) 100%); padding: 40px; text-align: center; border-radius: var(--radius-lg);">
+                                    <h1 style="font-family: var(--font-display); font-size: 36px; margin: 0 0 16px 0;">Linguistic Mastery</h1>
+                                    <p style="color: var(--color-gray-700); margin: 0 0 20px 0;">A curated collection of language learning resources</p>
+                                    <input type="search" placeholder="Search languages..." style="padding: 12px 40px 12px 16px; border: 2px solid var(--color-gray-200); border-radius: var(--radius-lg); width: 100%; max-width: 400px; background: white;">
+                                </div>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Hero Section</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resource Grid -->
+            <div class="component-section">
+                <div class="component-header" onclick="toggleSection(this)">
+                    <div>
+                        <div class="component-title">📋 Resource Grid</div>
+                        <div class="component-meta">Responsive grid layout for resource cards</div>
+                    </div>
+                    <span class="component-count">2 variants</span>
+                    <span class="expand-icon">▼</span>
+                </div>
+                <div class="component-variants">
+                    <div class="variant-grid">
+                        <div class="variant-card" data-name="resource grid layout">
+                            <div class="variant-preview">
+                                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;">
+                                    <div class="sample-card" style="padding: 12px; font-size: 12px;">Card 1</div>
+                                    <div class="sample-card" style="padding: 12px; font-size: 12px;">Card 2</div>
+                                    <div class="sample-card" style="padding: 12px; font-size: 12px;">Card 3</div>
+                                    <div class="sample-card" style="padding: 12px; font-size: 12px;">Card 4</div>
+                                </div>
+                            </div>
+                            <div class="variant-info">
+                                <div class="variant-name">Resource Grid</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" onclick="scrollToTop()">↑</button>
+
+    <!-- Filter Status -->
+    <div class="filter-status" id="filterStatus"></div>
+
+    <script>
+        // Toggle Section
+        function toggleSection(header) {
+            const section = header.parentElement;
+            section.classList.toggle('expanded');
+        }
+
+        // Expand All
+        function expandAll() {
+            document.querySelectorAll('.component-section').forEach(section => {
+                section.classList.add('expanded');
+            });
+            document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+
+        // Collapse All
+        function collapseAll() {
+            document.querySelectorAll('.component-section').forEach(section => {
+                section.classList.remove('expanded');
+            });
+            document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+
+        // Global Filter
+        let searchTimeout;
+        const globalSearchInput = document.getElementById('globalSearch');
+        const searchClearBtn = document.getElementById('searchClear');
+        const filterStatusEl = document.getElementById('filterStatus');
+
+        function filterAllComponents(event) {
+            clearTimeout(searchTimeout);
+            const query = event.target.value.toLowerCase().trim();
+
+            searchClearBtn.style.display = query ? 'flex' : 'none';
+
+            if (!query) {
+                clearAllFilters();
+                return;
+            }
+
+            searchTimeout = setTimeout(() => {
+                applyGlobalFilter(query);
+            }, 150);
+        }
+
+        function applyGlobalFilter(query) {
+            let visibleCount = 0;
+            let totalCards = 0;
+
+            // Expand all sections
+            document.querySelectorAll('.component-section').forEach(section => {
+                section.classList.add('expanded');
+            });
+
+            // Filter cards
+            document.querySelectorAll('.variant-card').forEach(card => {
+                totalCards++;
+                const searchText = (card.dataset.name || card.textContent || '').toLowerCase();
+
+                if (searchText.includes(query)) {
+                    card.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+
+            // Dim sections with no matches
+            document.querySelectorAll('.component-section').forEach(section => {
+                const visibleInSection = section.querySelectorAll('.variant-card:not(.hidden)').length;
+                if (visibleInSection === 0) {
+                    section.classList.add('no-matches');
+                } else {
+                    section.classList.remove('no-matches');
+                }
+            });
+
+            globalSearchInput.classList.add('filtering');
+            showFilterStatus(visibleCount, totalCards, query);
+        }
+
+        function clearAllFilters() {
+            globalSearchInput.classList.remove('filtering');
+            filterStatusEl.classList.remove('show');
+
+            document.querySelectorAll('.variant-card').forEach(card => {
+                card.classList.remove('hidden');
+            });
+
+            document.querySelectorAll('.component-section').forEach(section => {
+                section.classList.remove('no-matches');
+            });
+        }
+
+        function clearSearch() {
+            globalSearchInput.value = '';
+            searchClearBtn.style.display = 'none';
+            clearAllFilters();
+        }
+
+        function showFilterStatus(visible, total, query) {
+            filterStatusEl.textContent = `Showing ${visible} of ${total} components matching "${query}"`;
+            filterStatusEl.classList.add('show');
+
+            setTimeout(() => {
+                filterStatusEl.classList.remove('show');
+            }, 3000);
+        }
+
+        // Back to Top
+        const backToTopBtn = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = document.querySelector(anchor.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
