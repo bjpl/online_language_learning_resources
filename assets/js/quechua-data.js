@@ -508,7 +508,70 @@ const quechuaResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Habla Quechua",
+                        "url": "https://play.google.com/store/",
+                        "free": true,
+                        "features": [
+                            "Audio exercises",
+                            "Mobile app"
+                        ]
+                    },
+                {
+                        "name": "uTalk Classic - Learn Quechua",
+                        "url": "https://play.google.com/store/",
+                        "free": false,
+                        "features": [
+                            "Beginner"
+                        ]
+                    },
+                {
+                        "name": "Quechua Basic Phrases",
+                        "url": "https://play.google.com/store/",
+                        "free": true,
+                        "features": [
+                            "Audio exercises"
+                        ]
+                    },
+                {
+                        "name": "SimiDic",
+                        "url": "https://play.google.com/store/",
+                        "free": true,
+                        "features": [
+                            "Mobile app",
+                            "Mapuche"
+                        ]
+                    },
+                {
+                        "name": "Google Translate",
+                        "url": "https://translate.google.com/",
+                        "description": "Machine translation for Quechua added 2022 - supports 100+ language pairs",
+                        "free": true
+                    },
+                {
+                        "name": "Anki",
+                        "url": "https://apps.ankiweb.net/",
+                        "free": true,
+                        "features": [
+                            "Free desktop"
+                        ]
+                    },
+                {
+                        "name": "Memrise Community",
+                        "url": "https://community-courses.memrise.com/",
+                        "free": true,
+                        "features": [
+                            "User-created Quechua courses with visual learning",
+                            "Gamification - free basic version"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

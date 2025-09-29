@@ -619,7 +619,81 @@ const laoResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Simply Learn Lao (iOS)",
+                        "url": "https://apps.apple.com/us/app/simply-learn-lao/id1290068696",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Audio exercises",
+                            "Offline capability, spaced repetition"
+                        ]
+                    },
+                {
+                        "name": "Simply Learn Lao (Android)",
+                        "url": "https://play.google.com/store/apps/details?id=simply.learn.lao",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Mobile app",
+                            "Flashcards, quiz mode"
+                        ]
+                    },
+                {
+                        "name": "Ling - Learn Lao (Android)",
+                        "url": "https://play.google.com/store/apps/details?id=com.simyasolutions.ling.lo",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Interactive exercises",
+                            "Mini-games, chatbot exercises"
+                        ]
+                    },
+                {
+                        "name": "Lao Keyboard MPT (iOS)",
+                        "url": "https://apps.apple.com/us/app/lao-keyboard-mpt/id928378069",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "4-row layouts"
+                        ]
+                    },
+                {
+                        "name": "Lao Keyboard (Android)",
+                        "url": "https://play.google.com/store/apps/details?id=com.lao.keyboard.lao.language.keyboard.app",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "1000+ emojis, offline, auto-correction"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "Translation tools, voice messages, 18M+ users"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Video exercises",
+                            "User review system, video chat"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

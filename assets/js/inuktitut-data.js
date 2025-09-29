@@ -700,7 +700,103 @@ const inuktitutResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Tusaalanga iOS App",
+                        "url": "https://itunes.apple.com/ca/app/tusaalanga/id491243426",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "Romanized to syllabic converter"
+                        ]
+                    },
+                {
+                        "name": "Inuktut Naqittautit Keyboard",
+                        "url": "https://apps.apple.com/",
+                        "free": true,
+                        "level": "All users",
+                        "features": [
+                            "Pirurvik Centre platform",
+                            "Android"
+                        ]
+                    },
+                {
+                        "name": "Inuktitut Keyboard (Mangiok)",
+                        "url": "https://apps.apple.com/ca/app/inuktitut/id1643431241",
+                        "free": true,
+                        "level": "All users",
+                        "features": [
+                            "iOS keyboard for all users with color-coded keys",
+                            "Predictive text"
+                        ]
+                    },
+                {
+                        "name": "Makittagait",
+                        "url": "https://apps.apple.com/",
+                        "free": true,
+                        "level": "Children/Beginner",
+                        "features": [
+                            "Word matching game for children"
+                        ]
+                    },
+                {
+                        "name": "iNaqittaq",
+                        "url": "https://apps.apple.com/",
+                        "free": true,
+                        "level": "All users",
+                        "features": [
+                            "Inuktitut keyboard for all users with IBM Selectric layout",
+                            "Unicode-compliant on iOS."
+                        ]
+                    },
+                {
+                        "name": "Singuistics",
+                        "url": "https://apps.apple.com/",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels",
+                            "Mobile app"
+                        ]
+                    },
+                {
+                        "name": "Uqalimaarluk",
+                        "url": "https://apps.apple.com/",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels",
+                            "Mobile app"
+                        ]
+                    },
+                {
+                        "name": "Uqausiit Pinnguarutiit",
+                        "url": "https://apps.apple.com/",
+                        "free": true,
+                        "level": "Early learners",
+                        "features": [
+                            "Interactive exercises",
+                            "Mobile app",
+                            "Android"
+                        ]
+                    },
+                {
+                        "name": "Google Translate",
+                        "url": "https://translate.google.ca/",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

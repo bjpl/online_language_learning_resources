@@ -413,7 +413,22 @@ const slovakResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Tandem Language Exchange",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

@@ -639,7 +639,83 @@ const nepaliResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Nepali Shabdakosh Dictionary",
+                        "url": "https://play.google.com/store/apps/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "English Nepali Dictionary",
+                        "url": "https://play.google.com/store/apps/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Study tools, free with ads"
+                        ]
+                    },
+                {
+                        "name": "Anki Nepali Decks",
+                        "url": "https://ankiweb.net/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels",
+                            "Audio exercises"
+                        ]
+                    },
+                {
+                        "name": "Memrise Nepali",
+                        "url": "https://www.memrise.com/",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Gamified exercises",
+                            "Community support",
+                            "Beginner"
+                        ]
+                    },
+                {
+                        "name": "Google Translate Nepali",
+                        "url": "https://translate.google.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Translation service with voice, image,",
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Moments feature",
+                            "Free basic version"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Video exercises",
+                            "Review system",
+                            "Free with verification"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

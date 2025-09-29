@@ -1010,7 +1010,89 @@ const punjabiResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "VIRASAT Audiobooks App",
+                        "url": "https://play.google.com/store/apps/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "10,000+ Punjabi audiobooks including fiction, non-fiction,",
+                            "Poetry"
+                        ]
+                    },
+                {
+                        "name": "Ling App Punjabi",
+                        "url": "https://ling-app.com/",
+                        "free": true,
+                        "features": [
+                            "Gamified exercises",
+                            "Gamified learning with chatbots, grammar notes,",
+                            "Cultural context"
+                        ]
+                    },
+                {
+                        "name": "Memrise Punjabi Courses",
+                        "url": "https://app.memrise.com/",
+                        "free": true,
+                        "features": [
+                            "Community support",
+                            "Vocabulary exercises"
+                        ]
+                    },
+                {
+                        "name": "Anki Punjabi Decks",
+                        "url": "https://ankiweb.net/",
+                        "free": true,
+                        "features": [
+                            "2,000+ flashcard decks, open source with offline capability"
+                        ]
+                    },
+                {
+                        "name": "Smart Sikhi Learn Gurmukhi",
+                        "url": "https://apps.apple.com/",
+                        "free": true,
+                        "features": [
+                            "Certificate available",
+                            "Mobile app",
+                            "iOS learning app with certificate system",
+                            "300+ words"
+                        ]
+                    },
+                {
+                        "name": "Google Translate",
+                        "url": "https://translate.google.com/",
+                        "free": true,
+                        "features": [
+                            "AI translation supporting both scripts with voice",
+                            "Image translation"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "Video exercises",
+                            "18+ million users globally with voice/video chat",
+                            "Text correction features"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "10+ million users with verified profiles",
+                            "Swipe matching system"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

@@ -642,7 +642,97 @@ const hausaResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Memrise Hausa",
+                        "url": "https://www.memrise.com/en-us/learn-hausa",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "AI-powered lessons with videos from native speakers",
+                            "Spaced repetition"
+                        ]
+                    },
+                {
+                        "name": "Learn Hausa Language Offline",
+                        "url": "https://play.google.com/store/",
+                        "free": true,
+                        "features": [
+                            "Mobile app"
+                        ]
+                    },
+                {
+                        "name": "Bluebird Hausa",
+                        "url": "https://play.google.com/store/apps/details?id=com.pronunciatorllc.bluebird.hausa",
+                        "free": true,
+                        "features": [
+                            "2,000 pre-recorded lessons with hands-free learning",
+                            "Pronunciation exercises",
+                            "Pronunciation analysis"
+                        ]
+                    },
+                {
+                        "name": "Learn Hausa by Yasiga ICTHub",
+                        "url": "https://play.google.com/store/",
+                        "free": true,
+                        "features": [
+                            "Pronunciation exercises",
+                            "Emergency phrases"
+                        ]
+                    },
+                {
+                        "name": "English Hausa Dictionary",
+                        "url": "https://play.google.com/store/",
+                        "free": true,
+                        "features": [
+                            "Mobile app",
+                            "Offline dictionary app with OCR text extraction",
+                            "Two-way translation"
+                        ]
+                    },
+                {
+                        "name": "BBC News Hausa",
+                        "url": "https://play.google.com/store/",
+                        "free": true,
+                        "features": [
+                            "Mobile app",
+                            "Radio streaming"
+                        ]
+                    },
+                {
+                        "name": "Hausa Novel Lite",
+                        "url": "https://play.google.com/store/",
+                        "free": true,
+                        "features": [
+                            "Audio exercises",
+                            "Digital Hausa literature with audio versions",
+                            "Continuous updates"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "Video exercises",
+                            "Translation tools"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "300+ languages with vetted users",
+                            "Professional tutoring option"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

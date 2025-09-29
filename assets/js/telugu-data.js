@@ -823,7 +823,23 @@ const teluguResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Video exercises",
+                            "Voice/video, translation tools"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

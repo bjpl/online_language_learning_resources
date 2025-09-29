@@ -616,7 +616,52 @@ const ukrainianResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Duolingo Ukrainian",
+                        "url": "https://www.duolingo.com/course/uk/en/Learn-Ukrainian",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Gamified exercises",
+                            "Mobile app"
+                        ]
+                    },
+                {
+                        "name": "Ling App",
+                        "url": "https://ling-app.com/",
+                        "free": true,
+                        "features": [
+                            "Interactive exercises",
+                            "Interactive mini-games",
+                            "All levels",
+                            "Conversation exercises"
+                        ]
+                    },
+                {
+                        "name": "Tandem Language Exchange",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "Video exercises"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

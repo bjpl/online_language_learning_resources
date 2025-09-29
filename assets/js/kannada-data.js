@@ -584,7 +584,99 @@ const kannadaResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Learn Kannada SmartApp",
+                        "url": "https://play.google.com/store/apps/details?id=app.learnkannada.com.learnkannadakannadakali",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Grammar exercises",
+                            "Mobile app",
+                            "Streak tracking"
+                        ]
+                    },
+                {
+                        "name": "Simply Learn Kannada",
+                        "url": "https://apps.apple.com/us/app/simply-learn-kannada/id1270074277",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "offline functionality for iOS/Mac compatible devices"
+                        ]
+                    },
+                {
+                        "name": "Anki",
+                        "url": "https://apps.ankiweb.net/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "Ling Learn Kannada",
+                        "url": "https://play.google.com/store/apps/details?id=com.simyasolutions.ling.kn",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "Kannada Baruthe",
+                        "url": "https://play.google.com/store/apps/",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Interactive exercises",
+                            "Offline access for beginners"
+                        ]
+                    },
+                {
+                        "name": "English Kannada Dictionary",
+                        "url": "https://play.google.com/store/apps/details?id=com.dictionary.kn",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "Shabdkosh Dictionary",
+                        "url": "https://apps.apple.com/us/app/kannada-english-dictionary/id1498782721",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Pronunciation exercises",
+                            "Conversation exercises",
+                            "AI conversation assistance"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

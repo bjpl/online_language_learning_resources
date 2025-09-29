@@ -672,7 +672,96 @@ const hungarianResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Duolingo Hungarian",
+                        "url": "https://www.duolingo.com/course/hu/en/Learn-Hungarian",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Gamified exercises",
+                            "Beginner"
+                        ]
+                    },
+                {
+                        "name": "Hungarian Audiobooks App",
+                        "url": "https://play.google.com/store/apps/details?id=com.murati.oszk.audiobook",
+                        "free": true,
+                        "level": "Intermediate-Advanced",
+                        "features": [
+                            "Listening exercises",
+                            "Intermediate"
+                        ]
+                    },
+                {
+                        "name": "Duolingo Hungarian Course",
+                        "url": "https://www.duolingo.com/course/hu/en/Learn-Hungarian",
+                        "free": true,
+                        "level": "Beginner-Intermediate",
+                        "features": [
+                            "Gamified exercises",
+                            "Gamified Hungarian course with 4 units",
+                            "Beginner"
+                        ]
+                    },
+                {
+                        "name": "Drops Hungarian",
+                        "url": "https://apps.apple.com/us/app/learn-hungarian-language-fast/id1227950613",
+                        "free": true,
+                        "level": "Beginner-Intermediate",
+                        "features": [
+                            "Vocabulary exercises",
+                            "Beginner"
+                        ]
+                    },
+                {
+                        "name": "Simply Learn Hungarian",
+                        "url": "https://play.google.com/store/apps/details?id=simply.learn.hungarian",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Audio exercises",
+                            "Quiz system for beginners"
+                        ]
+                    },
+                {
+                        "name": "Anki Hungarian Decks",
+                        "url": "https://ankiweb.net/shared/info/1298664319",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Top 2000 Hungarian words deck with spaced repetition",
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Grammar exercises",
+                            "Mobile app",
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "Tandem Budapest",
+                        "url": "https://tandem.net/language-exchange/hungary/budapest",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Mobile app",
+                            "1,217+ members in Budapest with in-app correction",
+                            "All levels"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

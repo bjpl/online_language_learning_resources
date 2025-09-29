@@ -844,7 +844,53 @@ const hmongResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "HmongPhrases",
+                        "url": "https://apps.apple.com/us/app/hmongphrases/id479437001",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Beginner",
+                            "Mobile app",
+                            "Both dialects, 4,000+ downloads"
+                        ]
+                    },
+                {
+                        "name": "Memrise Hmong Courses",
+                        "url": "https://www.memrise.com/",
+                        "free": true,
+                        "features": [
+                            "Community support",
+                            "Community-created flashcard sets",
+                            "Audio exercises",
+                            "High-frequency words with audio"
+                        ]
+                    },
+                {
+                        "name": "Google Translate",
+                        "url": "https://translate.google.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Profile verification, reference system"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

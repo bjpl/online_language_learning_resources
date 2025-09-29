@@ -654,7 +654,92 @@ const cebuanoResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Bluebird: Learn Cebuano",
+                        "url": "https://apps.apple.com/us/app/bluebird-learn-cebuano/id1582591351",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "Ling App - Cebuano",
+                        "url": "https://ling-app.com/learn-language/cebuano/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Interactive exercises",
+                            "Native speaker content",
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "uTalk Classic - Learn Cebuano",
+                        "url": "https://apps.apple.com/us/app/learn-cebuano-eurotalk/id1182330227",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Essential words",
+                            "Pronunciation exercises",
+                            "Native speaker content"
+                        ]
+                    },
+                {
+                        "name": "Anki with Cebuano Decks",
+                        "url": "https://apps.ankiweb.net/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Community support",
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "Gboard (Google Keyboard)",
+                        "url": "https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "Google Translate",
+                        "url": "https://translate.google.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "Tandem - Cebu City",
+                        "url": "https://tandem.net/language-exchange/philippines/cebu-city",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Mobile app",
+                            "All levels"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Mobile app",
+                            "All levels"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

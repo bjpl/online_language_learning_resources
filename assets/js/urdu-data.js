@@ -942,7 +942,49 @@ const urduResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Learn Urdu 3000 Words",
+                        "url": "https://play.google.com/store/apps/details?id=com.funeasylearnurdu",
+                        "free": true,
+                        "features": [
+                            "Audio exercises"
+                        ]
+                    },
+                {
+                        "name": "Dict Box",
+                        "url": "https://play.google.com/store/apps/details?id=com.grandsons.dictbox",
+                        "free": true,
+                        "features": [
+                            "Multiple dictionaries with fast translations",
+                            "Web browser integration, offline mode"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "Video exercises",
+                            "Native speaker content"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "Mobile app",
+                            "Video exercises",
+                            "Video/audio calls"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

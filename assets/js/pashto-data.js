@@ -984,7 +984,141 @@ const pashtoResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "SOLAx WhatsApp Academy",
+                        "url": "https://www.sola-afghanistan.org/introducing-solax",
+                        "free": true,
+                        "features": [
+                            "Whats platform",
+                            "Designed for Afghan girls globally"
+                        ]
+                    },
+                {
+                        "name": "DLI Pashto Rapport Course",
+                        "url": "https://fieldsupport.dliflc.edu/products/pashto/pu_co/website/pashto.pdf",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "6-8 hours survival phrases",
+                            "Culture",
+                            "Military deployment focus"
+                        ]
+                    },
+                {
+                        "name": "Google Translate Pashto",
+                        "url": "https://translate.google.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Multiple input methods"
+                        ]
+                    },
+                {
+                        "name": "English Pashto Dictionary (Android)",
+                        "url": "https://play.google.com/store/apps/details?id=com.dictionary.ps",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Offline mode, 100,000+ words"
+                        ]
+                    },
+                {
+                        "name": "Pashto Dictionary Pro (iOS)",
+                        "url": "https://apps.apple.com/us/app/pashto-dictionary-pro/id525527994",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Vocabulary exercises",
+                            "Journalism vocabulary included"
+                        ]
+                    },
+                {
+                        "name": "Pashto Dictionary & Translator",
+                        "url": "https://apps.apple.com/us/app/pashto-dictionary-translator/id6446334830",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Voice input support"
+                        ]
+                    },
+                {
+                        "name": "Easy Pashto Keyboard",
+                        "url": "https://play.google.com/store/apps/details?id=com.pakdata.easypashto",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Works across all apps"
+                        ]
+                    },
+                {
+                        "name": "Pashto Keyboard - پښتو کیبورډ",
+                        "url": "https://play.google.com/store/apps/details?id=com.pashto.english.keyboard",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Multiple keyboard layouts"
+                        ]
+                    },
+                {
+                        "name": "Memrise Pashto Courses",
+                        "url": "https://www.memrise.com/courses/english/pashto/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Community support",
+                            "Spaced repetition"
+                        ]
+                    },
+                {
+                        "name": "AML Pashto App",
+                        "url": "https://itunes.apple.com/us/app/amlpashto/id455614798?mt=8",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "iOS app format"
+                        ]
+                    },
+                {
+                        "name": "Anki Pashto Dictionary Deck",
+                        "url": "https://ankiweb.net/shared/info/339901712",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Vocabulary exercises",
+                            "Spaced repetition"
+                        ]
+                    },
+                {
+                        "name": "Learn to Read Pashto Deck",
+                        "url": "https://ankiweb.net/shared/info/673579575",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "Beginner",
+                            "Reading exercises",
+                            "Audio exercises",
+                            "Native speaker content",
+                            "Native speaker audio"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://www.tandem.net/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Video exercises",
+                            "Structured conversations"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

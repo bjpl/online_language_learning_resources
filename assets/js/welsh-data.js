@@ -704,7 +704,53 @@ const welshResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Duolingo Welsh",
+                        "url": "https://www.duolingo.com/course/cy/en/Learn-Welsh",
+                        "free": true,
+                        "level": "Beginner to Intermediate",
+                        "features": [
+                            "Beginner"
+                        ]
+                    },
+                {
+                        "name": "Ap Geiriaduron",
+                        "url": "https://apps.apple.com/",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels",
+                            "Bangor University platform",
+                            "Mobile app",
+                            "Android"
+                        ]
+                    },
+                {
+                        "name": "Anki Welsh Decks",
+                        "url": "https://ankiweb.net/shared/decks/welsh",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels",
+                            "Mobile app"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

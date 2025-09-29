@@ -724,7 +724,90 @@ const yorubaResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Bluebird Learn Yoruba",
+                        "url": "https://play.google.com/store/apps/details?id=com.pronunciatorllc.bluebird.yoruba",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Interactive exercises"
+                        ]
+                    },
+                {
+                        "name": "Yoruba101",
+                        "url": "https://apps.apple.com/us/app/yoruba101-for-iphone/id659868341",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Interactive exercises",
+                            "Mobile app",
+                            "Games, child-friendly, tone marks supported"
+                        ]
+                    },
+                {
+                        "name": "Memrise Yoruba",
+                        "url": "https://www.memrise.com/en-us/learn-yoruba",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Native speaker content"
+                        ]
+                    },
+                {
+                        "name": "Drops Yoruba",
+                        "url": "https://languagedrops.com/language/learn-yoruba",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Vocabulary exercises",
+                            "5-minute daily sessions, game-based"
+                        ]
+                    },
+                {
+                        "name": "Yoruba Keyboard (iOS)",
+                        "url": "https://apps.apple.com/us/app/yoruba-keyboard/id960869460",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Full tone mark support, privacy-focused"
+                        ]
+                    },
+                {
+                        "name": "Yoruba Keyboard (Android)",
+                        "url": "https://play.google.com/store/apps/details?id=com.yoruba.english.keyboard.yorubakeyboard",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Voice typing, spell check, TTS"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "Video exercises",
+                            "Video chat, in-app corrections, interest matching"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

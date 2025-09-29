@@ -794,7 +794,59 @@ const gujaratiResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "LingQ",
+                        "url": "https://www.lingq.com/en/learn-gujarati-online/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "You platform"
+                        ]
+                    },
+                {
+                        "name": "Memrise Gujarati",
+                        "url": "https://app.memrise.com/courses/english-us/gujarati/",
+                        "free": true,
+                        "level": "Various Levels",
+                        "features": [
+                            "Vocabulary exercises",
+                            "Community support"
+                        ]
+                    },
+                {
+                        "name": "Anki Gujarati Decks",
+                        "url": "https://ankiweb.net/",
+                        "free": true,
+                        "level": "All Levels",
+                        "features": [
+                            "Community support"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "Video exercises"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "Tinder of language exchange - free with Pro version",
+                            "Swipe-based matching",
+                            "User reviews"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

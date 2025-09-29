@@ -659,7 +659,61 @@ const dariResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "LinGo Play",
+                        "url": "https://play.google.com/store/apps/details?id=com.lingo.play.dari",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Gamified exercises",
+                            "Mobile app",
+                            "5,172 flashcards, 600+ lessons, multiplayer"
+                        ]
+                    },
+                {
+                        "name": "Learn Dari - EuroTalk",
+                        "url": "https://apps.apple.com/us/app/learn-dari-eurotalk/id358396269",
+                        "level": "Beginner",
+                        "features": [
+                            "Beginner",
+                            "Paid app, works offline"
+                        ]
+                    },
+                {
+                        "name": "Anki with Dari Decks",
+                        "url": "https://ankiweb.net/shared/decks",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Free software, customizable, sync across devices"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "Video exercises"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Dari among 300+ languages, user verification"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

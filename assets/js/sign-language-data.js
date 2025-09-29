@@ -532,7 +532,30 @@ const signLanguageResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "The ASL App",
+                        "url": "https://theaslapp.com/",
+                        "free": true,
+                        "features": [
+                            "All levels",
+                            "Deaf platform"
+                        ]
+                    },
+                {
+                        "name": "Spread the Sign App",
+                        "url": "http://www.spreadthesign.com",
+                        "free": true,
+                        "features": [
+                            "All levels"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

@@ -614,7 +614,48 @@ const mongolianResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Simply Learn Mongolian",
+                        "url": "https://play.google.com/store/apps/details?id=simply.learn.mongolian",
+                        "free": true,
+                        "features": [
+                            "Audio exercises"
+                        ]
+                    },
+                {
+                        "name": "WordPower Mongolian",
+                        "url": "https://apps.apple.com/us/app/learn-mongolian-free-wordpower/id301302397",
+                        "free": true,
+                        "features": [
+                            "Vocabulary exercises",
+                            "Daily vocabulary",
+                            "Top 100 words"
+                        ]
+                    },
+                {
+                        "name": "Memrise Mongolian",
+                        "url": "https://www.memrise.com/en/learn-mongolian",
+                        "free": true,
+                        "features": [
+                            "AI-powered with native videos"
+                        ]
+                    },
+                {
+                        "name": "StudyMongolian Anki Decks",
+                        "url": "http://www.studymongolian.net/resources/anki-flashcards/",
+                        "free": true,
+                        "features": [
+                            "Vocabulary exercises",
+                            "Multiple vocabulary decks for Anki"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

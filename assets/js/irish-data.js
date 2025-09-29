@@ -542,7 +542,23 @@ const irishResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Duolingo Irish",
+                        "url": "https://www.duolingo.com/course/ga/en/Learn-Irish",
+                        "free": true,
+                        "features": [
+                            "Beginner",
+                            "Gamified exercises",
+                            "Free with ads, mobile app, streak tracking"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {

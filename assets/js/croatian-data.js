@@ -729,7 +729,70 @@ const croatianResources = {
             }
         ]
     },
-    apps: []
+    apps: [
+        {
+            category: "Mobile Apps & Software",
+            items: [
+                {
+                        "name": "Mondly Croatian",
+                        "url": "https://apps.apple.com/",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels",
+                            "professional voice actors on iOS",
+                            "Android"
+                        ]
+                    },
+                {
+                        "name": "Nemo Croatian",
+                        "url": "https://apps.apple.com/us/app/croatian-by-nemo/id635604093",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels",
+                            "Offline functionality"
+                        ]
+                    },
+                {
+                        "name": "Simply Learn Croatian",
+                        "url": "https://play.google.com/store/",
+                        "free": true,
+                        "level": "Beginner",
+                        "features": [
+                            "300+ phrases",
+                            "Native speaker content",
+                            "spaced repetition on Google Play",
+                            "Mobile app",
+                            "App Store"
+                        ]
+                    },
+                {
+                        "name": "HelloTalk",
+                        "url": "https://www.hellotalk.com/",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels",
+                            "Mobile app",
+                            "Video exercises",
+                            "Voice/video chat"
+                        ]
+                    },
+                {
+                        "name": "Tandem",
+                        "url": "https://tandem.net/",
+                        "free": true,
+                        "level": "All levels",
+                        "features": [
+                            "All levels",
+                            "Video exercises",
+                            "Professional tutoring option"
+                        ]
+                    }
+            ]
+        }
+    ]
 };
 
 if (typeof languageData !== 'undefined') {
