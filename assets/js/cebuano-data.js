@@ -653,7 +653,8 @@ const cebuanoResources = {
                 ]
             }
         ]
-    }
+    },
+    apps: []
 };
 
 if (typeof languageData !== 'undefined') {

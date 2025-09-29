@@ -793,7 +793,8 @@ const gujaratiResources = {
                 ]
             }
         ]
-    }
+    },
+    apps: []
 };
 
 if (typeof languageData !== 'undefined') {

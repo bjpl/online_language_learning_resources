@@ -5,6 +5,7 @@ const tamilResources = {
     learners: "5M+",
     speakers: "75M native",
     highlights: ["UNESCO Classical Language (2004)", "One of world's oldest languages (3rd century BCE)", "Official in India, Sri Lanka, Singapore", "Strong government support across 5 countries"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const tamilResources = {
                         url: "https://www.tamilvu.org/coresite/html/cwsylcrl.htm",
                         level: "All levels",
                         features: ["Government of Tamil Nadu official platform", "Classes 1-12 structured certificate programs", "Free certification with online/offline exams", "12-month courses per level"],
-                        free: true,
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "Ling Tamil",
-                        url: "https://play.google.com/store/apps/details?id=com.simyasolutions.ling.ta",
-                        level: "All levels",
-                        features: ["200+ lessons", "Speech recognition", "Offline mode", "Comprehensive curriculum"]
+                        free: true
                     },
                     {
                         name: "University of Chicago Tamil Course",
@@ -149,6 +141,13 @@ const tamilResources = {
                         url: "https://shs.hal.science/halshs-01892342v2/file/CI137_GrammarOldTamil.pdf",
                         level: "Advanced/Academic",
                         features: ["220+ pages by Eva Wilden", "Complete morphology and syntax", "Classical Tamil grammar", "Comprehensive indexed reference"],
+                        free: true
+                    },
+                    {
+                        name: "Reference Grammar of Spoken Tamil",
+                        url: "https://archive.org/",
+                        level: "Intermediate to Advanced",
+                        features: ["Modern spoken Tamil focus", "Harold F. Schiffman", "Cambridge University Press", "Available via academic libraries"],
                         free: true
                     },
                     {
@@ -315,9 +314,48 @@ const tamilResources = {
                         level: "All levels",
                         features: ["Systematic Tamil lessons", "By Sandeep Sarah", "6-26 minute episodes", "Grammar and tenses focus"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "Learn Tamil with Nithya",
+                        url: "https://podcasts.apple.com/",
+                        level: "All levels",
+                        features: ["Conversational Tamil focus", "Real-life scenarios", "Guest speakers", "Practical application"],
+                        free: true
+                    },
+                    {
+                        name: "Learn Tamil Quickly",
+                        url: "https://podcasts.apple.com/",
+                        level: "Beginner",
+                        features: ["100+ lessons", "Basic vocabulary focus", "Bite-sized lessons", "Interactive segments with quizzes"],
+                        free: true
+                    },
+                    {
+                        name: "Tamil Language and Culture",
+                        url: "https://podcasts.apple.com/",
+                        level: "Beginner-friendly",
+                        features: ["Language with cultural insights", "Native speaker interviews", "Festivals and traditions", "Cultural context"],
+                        free: true
+                    },
+                    {
+                        name: "Learn Tamil with Me",
+                        url: "https://open.spotify.com/",
+                        level: "Complete beginner",
+                        features: ["Personal learning journey by Aamna", "7-month fluency goal", "Daily episodes", "Beginner perspective"],
+                        free: true
+                    }
+                ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "Ling Tamil",
+                        url: "https://play.google.com/store/apps/details?id=com.simyasolutions.ling.ta",
+                        level: "All levels",
+                        features: ["200+ lessons", "Speech recognition", "Offline mode", "Comprehensive curriculum"],
                         free: true
                     },
                     {
@@ -325,6 +363,13 @@ const tamilResources = {
                         url: "https://apps.apple.com/us/app/tamil-by-nemo/id635605226",
                         level: "Beginner to Intermediate",
                         features: ["Pronunciation and conversation focus", "Speech Studio", "Apple Watch support", "Native speaker audio"],
+                        free: true
+                    },
+                    {
+                        name: "Learn Tamil through English",
+                        url: "https://play.google.com/store/apps/",
+                        level: "Beginner",
+                        features: ["800+ words, 550+ sentences", "Audio support", "No script learning required", "English speakers focused"],
                         free: true
                     },
                     {
@@ -422,6 +467,13 @@ const tamilResources = {
                         url: "https://www.hilokal.com/en/speak/Tamil",
                         level: "All levels",
                         features: ["Live audio chatrooms", "Drop-in audio rooms", "Free access", "Practice with native speakers"],
+                        free: true
+                    },
+                    {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["Text/voice chat", "Translation tools", "Correction features", "Tamil transliteration support"],
                         free: true
                     },
                     {

@@ -843,7 +843,8 @@ const hmongResources = {
                 ]
             }
         ]
-    }
+    },
+    apps: []
 };
 
 if (typeof languageData !== 'undefined') {

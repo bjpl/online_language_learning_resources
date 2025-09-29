@@ -613,7 +613,8 @@ const mongolianResources = {
                 ]
             }
         ]
-    }
+    },
+    apps: []
 };
 
 if (typeof languageData !== 'undefined') {

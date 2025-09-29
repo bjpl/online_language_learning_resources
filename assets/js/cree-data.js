@@ -22,15 +22,7 @@ const creeResources = {
                         url: "https://lessons.eastcree.atlas-ling.ca",
                         features: ["Interactive multimedia lessons", "East Cree dialects coverage", "Text-to-speech functionality", "Verb conjugators included", "Syllabics support"],
                         free: true,
-                        level: "Beginner to Intermediate",
-        apps: [
-            {
-                category: "Digital Tools and Apps",
-                items: [
-                    {
-                        name: "itwêwina Plains Cree Dictionary",
-                        url: "https://itwewina.altlab.app/",
-                        features: ["Interactive online dictionary", "Plains Cree focus", "Morphological analysis", "Native speaker audio", "Syllabics support"]
+                        level: "Beginner to Intermediate"
                     },
                     {
                         name: "52 Weeks of Cree",
@@ -202,12 +194,27 @@ const creeResources = {
                         level: "All levels"
                     },
                     {
+                        name: "Northern East Cree Bible",
+                        url: "https://apps.apple.com/",
+                        features: ["Complete Bible translation", "East Cree language", "Syllabics and Roman orthography", "Mobile app available", "Digital text format"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
                         name: "Alfred Reading Series",
                         url: "https://www.strongnations.com/",
                         features: ["5-book children's series", "Plains Cree and Michif", "Illustrated content", "Multilingual support", "Young reader focus"],
                         free: true,
                         level: "Children"
-                    }]
+                    },
+                    {
+                        name: "Historical Cree Texts",
+                        url: "https://archive.org",
+                        features: ["Digitized historical materials", "1850s-1900s period", "Various dialects", "Research level content", "Linguistic analysis"],
+                        free: true,
+                        level: "Research level"
+                    }
+                ]
             },
             {
                 category: "Syllabics Learning Resources",
@@ -269,6 +276,13 @@ const creeResources = {
                         level: "Advanced"
                     },
                     {
+                        name: "Cree Minute with BillieRose",
+                        url: "https://www.youtube.com/",
+                        features: ["Short educational videos", "1-3 minute duration", "Rock Cree dialect", "YouTube platform", "WHEAT Institute support"],
+                        free: true,
+                        level: "Beginner"
+                    },
+                    {
                         name: "NFB Cree Films",
                         url: "https://www.nfb.ca/indigenous-cinema/",
                         features: ["Documentary films", "Various Cree dialects", "Historical recordings", "Subtitles included", "Language learning focus"],
@@ -284,7 +298,15 @@ const creeResources = {
                     }
                 ]
             }
-        ],,
+        ],
+        apps: [
+            {
+                category: "Digital Tools and Apps",
+                items: [
+                    {
+                        name: "itwêwina Plains Cree Dictionary",
+                        url: "https://itwewina.altlab.app/",
+                        features: ["Interactive online dictionary", "Plains Cree focus", "Morphological analysis", "Native speaker audio", "Syllabics support"],
                         free: true,
                         level: "All levels"
                     },
@@ -292,6 +314,20 @@ const creeResources = {
                         name: "FirstVoices Keyboards",
                         url: "https://www.firstvoices.com/",
                         features: ["100+ Indigenous language keyboards", "All Cree dialects", "Full syllabics support", "iOS and Android", "FirstVoices platform"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
+                        name: "KTCEA Elders Speak App",
+                        url: "https://apps.apple.com/",
+                        features: ["900+ Elder-spoken words", "Plains Cree focus", "50+ word categories", "Interactive quizzes", "Apple and Google stores"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
+                        name: "nēhinawēwin App",
+                        url: "https://apps.apple.com/",
+                        features: ["N-dialect Swampy Cree", "Audio vocabulary", "Searchable categories", "Syllabics conversion", "iOS platform"],
                         free: true,
                         level: "All levels"
                     },
@@ -308,7 +344,15 @@ const creeResources = {
                         features: ["Medical glossary", "Interactive diagrams", "East Cree focus", "Conversation app", "Specialized vocabulary"],
                         free: true,
                         level: "All levels"
-                    }]
+                    },
+                    {
+                        name: "Cree Dictionary Mobile",
+                        url: "https://play.google.com/store/",
+                        features: ["English-Cree translation app", "Plains and Woodland Cree", "Built-in keyboards", "Syllabics converter", "iOS/Android platforms"],
+                        free: true,
+                        level: "All levels"
+                    }
+                ]
             },
             {
                 category: "Dictionaries and Language Tools",
@@ -359,6 +403,13 @@ const creeResources = {
                         name: "Language.exchange - Cree",
                         url: "https://en.language.exchange/language/CR-Cree/",
                         features: ["Global language exchange", "10+ active Cree speakers", "Mixed dialects", "Conversation practice", "All levels welcome"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
+                        name: "Learn Cree Facebook Groups",
+                        url: "https://www.facebook.com/",
+                        features: ["Multiple Facebook groups", "Various Cree dialects", "Community discussions", "Learning support", "All levels"],
                         free: true,
                         level: "All levels"
                     },

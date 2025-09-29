@@ -5,6 +5,7 @@ const bulgarianResources = {
     learners: "500K+",
     speakers: "8M native",
     highlights: ["First Slavic written language", "Cyrillic alphabet (30 letters)", "EU official language", "Rich cultural heritage"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const bulgarianResources = {
                         url: "https://www.livelingua.com/courses/bulgarian",
                         level: "Multiple levels",
                         features: ["8 US Peace Corps courses", "36 ebooks", "126 audio files", "100% free", "No registration required", "Professional audio"],
-                        free: true,
-        apps: [
-            {
-                category: "Language Tools and Dictionaries",
-                items: [
-                    {
-                        name: "PONS Bulgarian-English",
-                        url: "https://en.pons.com/translate/bulgarian-english",
-                        level: "All levels",
-                        features: ["Comprehensive bilingual dictionary", "300,000+ words", "Audio pronunciation"]
+                        free: true
                     },
                     {
                         name: "Bulgaro",
@@ -259,7 +251,17 @@ const bulgarianResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Language Tools and Dictionaries",
+                items: [
+                    {
+                        name: "PONS Bulgarian-English",
+                        url: "https://en.pons.com/translate/bulgarian-english",
+                        level: "All levels",
+                        features: ["Comprehensive bilingual dictionary", "300,000+ words", "Audio pronunciation"],
                         free: true
                     },
                     {
@@ -317,7 +319,15 @@ const bulgarianResources = {
                         level: "All levels",
                         features: ["Comprehensive language reference", "Etymology", "Pronunciation", "Usage"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "LanguageTool",
+                        url: "https://languagetool.org/",
+                        level: "All levels",
+                        features: ["Grammar and spell checker", "Browser extensions", "Multiple platforms"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Specialized Resources",
@@ -401,6 +411,13 @@ const bulgarianResources = {
                         free: true
                     },
                     {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["Mobile language exchange", "20M+ users", "Real-time translation"],
+                        free: true
+                    },
+                    {
                         name: "Tandem",
                         url: "https://tandem.net/language-exchange/bulgaria/sofia",
                         level: "All levels",
@@ -420,7 +437,15 @@ const bulgarianResources = {
                         level: "Intermediate to Advanced",
                         features: ["Grammar-focused discussions", "Expert linguistic answers"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "BlaBla Language Exchange Bulgaria",
+                        url: "https://www.facebook.com/",
+                        level: "All levels",
+                        features: ["Sofia-based language events", "1,365+ members", "Free events"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Government and Institutional Resources",
@@ -458,6 +483,13 @@ const bulgarianResources = {
                         url: "https://www.absa-association.org/",
                         level: "All levels",
                         features: ["Directory of Bulgarian schools", "Global Seal of Biliteracy certification"],
+                        free: true
+                    },
+                    {
+                        name: "Erasmus+ OLS Bulgarian",
+                        url: "https://academy.europa.eu/",
+                        level: "Beginner",
+                        features: ["EU-funded Bulgarian course", "Free for EU citizens"],
                         free: true
                     },
                     {

@@ -18,14 +18,7 @@
                             url: "https://openlearning.aalto.fi/course/view.php?id=59",
                             level: "A1",
                             free: true,
-                            features: ["Self-paced", "Additional resources", "Comprehensive introduction"],
-        apps: [
-                {
-                    name: "FunEasyLearn Finnish",
-                    url: "https://www.funeasylearn.com/learn-finnish",
-                    level: "A1-C1",
-                    free: true,
-                    features: ["11 learning games", "Hand-drawn illustrations", "Offline access", "Topic-based"]
+                            features: ["Self-paced", "Additional resources", "Comprehensive introduction"]
                         }
                     ]
                 },
@@ -78,7 +71,8 @@
                             level: "Beginner",
                             free: true,
                             features: ["CC BY-SA 4.0", "Open contributions", "PDF format", "Structured lessons"]
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: "Government Resources",
@@ -114,6 +108,21 @@
                     ]
                 }
             ],
+
+            apps: [
+                {
+                    name: "Anki with Finnish Decks",
+                    url: "https://ankiweb.net",
+                    level: "A1-C2",
+                    free: true,
+                    features: ["Community decks", "Full offline", "Customizable", "Cross-platform sync"]
+                },
+                {
+                    name: "FunEasyLearn Finnish",
+                    url: "https://www.funeasylearn.com/learn-finnish",
+                    level: "A1-C1",
+                    free: true,
+                    features: ["11 learning games", "Hand-drawn illustrations", "Offline access", "Topic-based"]
                 },
                 {
                     name: "Drops Finnish",
@@ -144,6 +153,7 @@
                     features: ["Karaoke mode", "Multiple difficulties", "100% free", "Popular songs"]
                 }
             ],
+
             books: [
                 {
                     category: "Easy Reading",
@@ -187,7 +197,8 @@
                             level: "Advanced",
                             free: true,
                             features: ["Multiple formats", "Audio versions", "Classic works", "Public domain"]
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: "Digital Libraries",
@@ -220,7 +231,8 @@
                             level: "A1-C2",
                             free: true,
                             features: ["Organized playlists", "Subtitles", "24/7 stream", "Regular updates"]
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: "Podcasts",
@@ -270,7 +282,15 @@
                             level: "All levels",
                             free: true,
                             features: ["AI grammar check", "Audio parties", "Profile verification", "Topic suggestions"]
-                        }]
+                        },
+                        {
+                            name: "MyLanguageExchange",
+                            url: "https://www.mylanguageexchange.com/",
+                            level: "All levels",
+                            free: true,
+                            features: ["Lesson plans", "Games", "Translation tools", "Voice chat rooms"]
+                        },
+                    ]
                 },
                 {
                     category: "Exercises and Tests",

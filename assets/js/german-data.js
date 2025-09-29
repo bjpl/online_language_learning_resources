@@ -5,6 +5,7 @@ const germanResources = {
     learners: "15.4M",
     speakers: "134M native",
     highlights: ["Most spoken native language in EU", "Business and academic powerhouse", "Rich cultural heritage", "Gateway to DACH region"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const germanResources = {
                         url: "https://learngerman.dw.com/",
                         level: "A1-C1",
                         features: ["Completely free", "Mobile apps", "Nico's Weg video series", "Placement test", "Offline materials"],
-                        free: true,
-        apps: [
-            {
-                category: "Apps, Software and Language Tools",
-                items: [
-                    {
-                        name: "DW Learn German App",
-                        url: "https://learngerman.dw.com/en/overview",
-                        level: "A1-B2",
-                        features: ["Completely free", "No ads", "4.3+ rating", "1M+ downloads"]
+                        free: true
                     },
                     {
                         name: "Goethe Institute Practice Portal",
@@ -274,7 +266,24 @@ const germanResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Apps, Software and Language Tools",
+                items: [
+                    {
+                        name: "DW Learn German App",
+                        url: "https://learngerman.dw.com/en/overview",
+                        level: "A1-B2",
+                        features: ["Completely free", "No ads", "4.3+ rating", "1M+ downloads"],
+                        free: true
+                    },
+                    {
+                        name: "LibreLingo",
+                        url: "https://librelingo.app/",
+                        level: "All levels",
+                        features: ["Open-source platform", "AGPL-3.0 license", "Community-driven", "Experimental"],
                         free: true
                     },
                     {
@@ -282,6 +291,20 @@ const germanResources = {
                         url: "https://dict.leo.org/german-english/",
                         level: "All levels",
                         features: ["840,000 entries", "Free", "Verb tables", "Vocabulary trainer", "Forum"],
+                        free: true
+                    },
+                    {
+                        name: "Anki",
+                        url: "https://apps.ankiweb.net/",
+                        level: "All levels",
+                        features: ["Flashcard app", "Free (except iOS)", "Thousands of shared German decks"],
+                        free: true
+                    },
+                    {
+                        name: "LanguageTool",
+                        url: "https://languagetool.org/",
+                        level: "All levels",
+                        features: ["Grammar and spell checker", "Free tier (10,000 characters)", "Browser extensions"],
                         free: true
                     },
                     {
@@ -314,6 +337,20 @@ const germanResources = {
                 category: "Language Exchange and Communities",
                 items: [
                     {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["Millions of users", "Text/voice/video", "Correction tools", "Free core features"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://tandem.net/",
+                        level: "All levels",
+                        features: ["49,000+ German members", "Sophisticated matching", "Free basic plan"],
+                        free: true
+                    },
+                    {
                         name: "r/German",
                         url: "https://reddit.com/r/German",
                         level: "All levels",
@@ -325,6 +362,13 @@ const germanResources = {
                         url: "https://discord.com/invite/german",
                         level: "All levels",
                         features: ["195,000+ members", "Voice/text channels", "Real-time practice", "Lessons"],
+                        free: true
+                    },
+                    {
+                        name: "ConversationExchange",
+                        url: "https://www.conversationexchange.com/",
+                        level: "All levels",
+                        features: ["Traditional language exchange", "Completely free", "Face-to-face or online options"],
                         free: true
                     },
                     {

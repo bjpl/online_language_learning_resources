@@ -5,6 +5,7 @@ const burmeseResources = {
     learners: "1M+",
     speakers: "33M native",
     highlights: ["Official language of Myanmar", "Tibeto-Burman language family", "Unique circular script", "Rich Buddhist heritage"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const burmeseResources = {
                         url: "https://www.parami.edu.mm/post/parami-cultivating-thought-leadership-through-burmese-language-program",
                         level: "College-level",
                         features: ["Semester-long critical thinking course", "40 study groups", "20 instructors, 600 students", "Humanities/philosophy focus", "16-week program"],
-                        free: true,
-        apps: [
-            {
-                category: "Apps and Software Tools",
-                items: [
-                    {
-                        name: "Ling App",
-                        url: "https://ling-app.com/blog/burmese-language-app/",
-                        level: "All levels",
-                        features: ["Comprehensive mobile learning", "Writing practice", "Chatbot", "200+ lessons", "7-day free trial"]
+                        free: true
                     },
                     {
                         name: "SOAS Burmese Beginners",
@@ -347,9 +339,41 @@ const burmeseResources = {
                         level: "Various",
                         features: ["Multiple stations (Cherry FM, Padamyar FM)", "Free online radio", "Mobile apps"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "Kenneth Wong YouTube",
+                        url: "https://www.youtube.com/",
+                        level: "Beginning-Intermediate",
+                        features: ["Grammar and vocabulary videos", "UC Berkeley/UCLA instructor"],
+                        free: true
+                    },
+                    {
+                        name: "Cherry's Myanmar Lab",
+                        url: "https://www.youtube.com/",
+                        level: "Various",
+                        features: ["Vocabulary and listening practice", "Focus on vocabulary building"],
+                        free: true
+                    }
+                ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Apps and Software Tools",
+                items: [
+                    {
+                        name: "Ling App",
+                        url: "https://ling-app.com/blog/burmese-language-app/",
+                        level: "All levels",
+                        features: ["Comprehensive mobile learning", "Writing practice", "Chatbot", "200+ lessons", "7-day free trial"],
+                        free: true
+                    },
+                    {
+                        name: "uTalk Burmese",
+                        url: "https://utalk.com/",
+                        level: "All levels",
+                        features: ["2,000+ words in 60+ topics", "Native speaker audio", "Games", "Offline access"],
                         free: true
                     },
                     {
@@ -578,6 +602,13 @@ const burmeseResources = {
                         url: "https://disboard.org/server/851855598928134145",
                         level: "All levels",
                         features: ["Dedicated Discord server", "Native English speakers", "Script learning"],
+                        free: true
+                    },
+                    {
+                        name: "Language Learning Discord",
+                        url: "https://discord.com/invite/language-learning-community-634078414332231681",
+                        level: "All levels",
+                        features: ["Multi-language server", "27,464 members", "Burmese channel"],
                         free: true
                     },
                     {

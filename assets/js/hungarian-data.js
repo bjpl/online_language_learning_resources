@@ -671,7 +671,8 @@ const hungarianResources = {
                 ]
             }
         ]
-    }
+    },
+    apps: []
 };
 
 if (typeof languageData !== 'undefined') {

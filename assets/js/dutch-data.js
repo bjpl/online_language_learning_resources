@@ -9,6 +9,7 @@ const dutchResources = {
     learners: "5M",
     speakers: "24M native",
     highlights: ["Germanic roots similar to English", "Phonetic spelling", "Business and trade language", "Gateway to Europe"],
+
     resources: {
         courses: [
             {
@@ -19,13 +20,7 @@ const dutchResources = {
                         url: "https://www.futurelearn.com/courses/dutch",
                         level: "Beginner (A1)",
                         features: ["Completely free", "Cultural videos", "Interactive community", "Offered 3x yearly"],
-                        free: true,
-        apps: [
-            {
-                name: "Anki + Dutch Decks",
-                url: "https://ankiweb.net/shared/decks?search=Dutch",
-                level: "All levels",
-                features: ["Free app", "Thousands of Dutch cards available"]
+                        free: true
                     },
                     {
                         name: "EU Academy - My Dutch Course A1",
@@ -142,12 +137,20 @@ const dutchResources = {
                         free: true
                     },
                     {
+                        name: "DBNL - Digital Library for Dutch Literature",
+                        url: "https://www.dbnl.org/",
+                        level: "All levels",
+                        features: ["5 million+ pages", "1,000 fundamental works", "Full-text search"],
+                        free: true
+                    },
+                    {
                         name: "Lingua.com Dutch Reading",
                         url: "https://lingua.com/dutch/reading/",
                         level: "Beginner (A1-A2)",
                         features: ["Free PDF worksheets", "Comprehension questions"],
                         free: true
-                    }]
+                    },
+                ]
             }
         ],
 
@@ -180,7 +183,8 @@ const dutchResources = {
                         level: "Intermediate-Advanced",
                         features: ["23-26 min episodes", "Transcripts for members"],
                         free: true
-                    }]
+                    },
+                ]
             },
             {
                 category: "TV and News",
@@ -208,7 +212,14 @@ const dutchResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                name: "Anki + Dutch Decks",
+                url: "https://ankiweb.net/shared/decks?search=Dutch",
+                level: "All levels",
+                features: ["Free app", "Thousands of Dutch cards available"],
                 free: true
             }
         

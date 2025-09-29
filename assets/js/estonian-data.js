@@ -5,6 +5,7 @@ const estonianResources = {
     learners: "1M+",
     speakers: "1.1M native",
     highlights: ["Official EU language", "Digital society pioneer", "Finno-Ugric language family", "Strong government support"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const estonianResources = {
                         url: "https://www.keeleklikk.ee/",
                         level: "A1-B2",
                         features: ["Government-funded official course", "16 comprehensive units", "5,500+ exercises", "Completely free", "Mobile responsive"],
-                        free: true,
-        apps: [
-            {
-                category: "Mobile Apps and Software",
-                items: [
-                    {
-                        name: "Speakly",
-                        url: "https://www.speakly.me/",
-                        level: "A1-C1",
-                        features: ["Estonian-specific course", "4,000+ vocabulary items", "Statistics-based learning", "Free basic tier"]
+                        free: true
                     },
                     {
                         name: "University of Tartu - Estonian for Beginners",
@@ -285,9 +277,27 @@ const estonianResources = {
                         level: "Intermediate-Advanced",
                         features: ["Classical literature recordings", "Public domain audiobooks", "National Library collection", "Downloadable"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "Spotify Estonian Language Playlists",
+                        url: "https://open.spotify.com/",
+                        level: "All levels",
+                        features: ["Estonian music", "Podcast content", "Language learning playlists", "Free tier available"],
+                        free: true
+                    }
+                ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Mobile Apps and Software",
+                items: [
+                    {
+                        name: "Speakly",
+                        url: "https://www.speakly.me/",
+                        level: "A1-C1",
+                        features: ["Estonian-specific course", "4,000+ vocabulary items", "Statistics-based learning", "Free basic tier"],
                         free: true
                     },
                     {
@@ -309,6 +319,13 @@ const estonianResources = {
                         url: "https://languagedrops.com/language/learn-estonian/",
                         level: "Beginner-Intermediate",
                         features: ["Visual vocabulary learning", "2,500+ words", "5 min/day free tier", "Gamified"],
+                        free: true
+                    },
+                    {
+                        name: "Anki with Estonian Decks",
+                        url: "https://ankiweb.net/",
+                        level: "All levels",
+                        features: ["Spaced repetition", "Community-created decks", "Desktop/Android free", "Customizable"],
                         free: true
                     },
                     {
@@ -388,6 +405,27 @@ const estonianResources = {
                 category: "Language Exchange and Community",
                 items: [
                     {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["Connect with Estonian natives", "Text/voice/video chat", "Translation tools", "Free basic tier"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://www.tandem.net/",
+                        level: "All levels",
+                        features: ["Language exchange app", "Estonian native speakers", "Verified profiles", "Free version"],
+                        free: true
+                    },
+                    {
+                        name: "ConversationExchange",
+                        url: "https://www.conversationexchange.com/",
+                        level: "All levels",
+                        features: ["Find Estonian language partners", "Email, chat, or in-person", "Completely free", "Established community"],
+                        free: true
+                    },
+                    {
                         name: "r/Eesti (Reddit)",
                         url: "https://www.reddit.com/r/Eesti/",
                         level: "All levels",
@@ -400,7 +438,15 @@ const estonianResources = {
                         level: "All levels",
                         features: ["Learning community", "Resource sharing", "Native speaker support", "Active moderation"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "Discord Estonian Language Servers",
+                        url: "https://discord.com/",
+                        level: "All levels",
+                        features: ["Real-time chat", "Voice channels", "Language learning events", "Community support"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Government and Institutional Resources",

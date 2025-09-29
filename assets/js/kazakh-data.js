@@ -5,6 +5,7 @@ const kazakhResources = {
     learners: "500K+",
     speakers: "12M native",
     highlights: ["Active Cyrillic → Latin script transition (by 2031)", "Strong government support (Otandastar Foundation)", "Turkic language family", "Official language of Kazakhstan"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const kazakhResources = {
                         url: "https://oq.gov.kz/en/p-learning",
                         level: "All levels",
                         features: ["Official Kazakhstan government courses", "Free enrollment", "WhatsApp contact: +8 701 000 1404", "31 classrooms in 12 countries", "Government backing"],
-                        free: true,
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "LinGo Play",
-                        url: "https://www.lingo-play.com/en/learn-kazakh-language/",
-                        level: "All levels",
-                        features: ["Gamified mobile learning", "iOS and Android support", "Leaderboards included", "Offline support", "Interactive games"]
+                        free: true
                     },
                     {
                         name: "Live Lingua Project",
@@ -124,6 +116,13 @@ const kazakhResources = {
                 category: "Textbooks and Grammar Guides",
                 items: [
                     {
+                        name: "Peace Corps Manual",
+                        url: "https://archive.org/",
+                        level: "Beginner to Intermediate",
+                        features: ["171-page competency-based course", "Phonology and grammar coverage", "Cultural notes included", "Exercises throughout", "ERIC_ED402757"],
+                        free: true
+                    },
+                    {
                         name: "Colloquial Kazakh",
                         url: "https://archive.org/details/colloquialkazakh0000bata",
                         level: "Beginner",
@@ -190,7 +189,15 @@ const kazakhResources = {
                         level: "All levels",
                         features: ["1 million records from 13 libraries", "Historical texts collection", "Digital archive", "Comprehensive coverage"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "Internet Archive Kazakh Collection",
+                        url: "https://archive.org/",
+                        level: "All levels",
+                        features: ["Various Kazakh language books", "OCR processed texts", "Searchable content", "Public domain materials"],
+                        free: true
+                    }
+                ]
             }
         ],
 
@@ -203,6 +210,20 @@ const kazakhResources = {
                         url: "https://kazakhlanguage.kz/",
                         level: "Beginner to Intermediate",
                         features: ["Comprehensive video courses since 2017", "48+ lessons with PDF exercises", "YouTube channel included", "Lifetime access", "Most popular instructor"],
+                        free: true
+                    },
+                    {
+                        name: "Learn Qazaq YouTube",
+                        url: "https://www.youtube.com/",
+                        level: "Beginner",
+                        features: ["Full beginner course", "40+ minute lessons", "Pronunciation focus", "Step-by-step progression"],
+                        free: true
+                    },
+                    {
+                        name: "Speak In Kazakh",
+                        url: "https://www.youtube.com/",
+                        level: "All levels",
+                        features: ["816k subscribers channel", "6.3k+ videos available", "Language and culture content", "Extensive library"],
                         free: true
                     },
                     {
@@ -220,6 +241,13 @@ const kazakhResources = {
                         free: true
                     },
                     {
+                        name: "Easy Languages Kazakh",
+                        url: "https://www.youtube.com/",
+                        level: "Intermediate",
+                        features: ["Street interviews with subtitles", "Authentic conversations", "Real-world Kazakh", "Cultural insights"],
+                        free: true
+                    },
+                    {
                         name: "Colloquial Kazakh Audio",
                         url: "https://routledgetextbooks.com/textbooks/colloquial/language/kazakh.php",
                         level: "Beginner",
@@ -231,10 +259,61 @@ const kazakhResources = {
             {
                 category: "Podcasts",
                 items: [
-                    
+                    {
+                        name: "Kazakh language with Zhannur",
+                        url: "https://podcasts.apple.com/",
+                        level: "Beginner to Upper Intermediate",
+                        features: ["Two-level podcast system", "18+ episodes available", "Slow and natural speed options", "Popular instructor"],
+                        free: true
+                    },
+                    {
+                        name: "SynapseLingo Learn Kazakh",
+                        url: "https://podcasts.apple.com/",
+                        level: "All levels",
+                        features: ["Interactive course with stories", "AI-supported learning", "Celebrity themes", "Engaging format"],
+                        free: true
+                    },
+                    {
+                        name: "Qazaqsha Sөilem",
+                        url: "https://podcasts.apple.com/",
+                        level: "All levels",
+                        features: ["Grammar and practical dialogues", "Native speaker interviews", "Conversation practice", "Cultural content"],
+                        free: true
+                    },
+                    {
+                        name: "Qazaqstan Tarihy",
+                        url: "https://podcasts.apple.com/",
+                        level: "Intermediate to Advanced",
+                        features: ["Historical content in Kazakh", "Cultural immersion", "Advanced vocabulary", "Historical context"],
+                        free: true
+                    },
+                    {
+                        name: "Balalar Үshin",
+                        url: "https://podcasts.apple.com/",
+                        level: "Children/Beginners",
+                        features: ["Children's stories and songs", "Simple language focus", "Interactive elements", "Family-friendly"],
+                        free: true
+                    }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "LinGo Play",
+                        url: "https://www.lingo-play.com/en/learn-kazakh-language/",
+                        level: "All levels",
+                        features: ["Gamified mobile learning", "iOS and Android support", "Leaderboards included", "Offline support", "Interactive games"],
+                        free: true
+                    },
+                    {
+                        name: "50Languages App",
+                        url: "https://play.google.com/store/apps/",
+                        level: "Beginner to Intermediate",
+                        features: ["100 lessons mobile version", "Full offline functionality", "Audio support", "iOS/Android available"],
                         free: true
                     },
                     {
@@ -249,6 +328,13 @@ const kazakhResources = {
                         url: "https://soyle.kz/",
                         level: "All levels",
                         features: ["ISSAI-developed AI tool", "Speech recognition", "Speech synthesis", "Translation features", "Cutting-edge technology"],
+                        free: true
+                    },
+                    {
+                        name: "Kitap.kz App",
+                        url: "https://play.google.com/store/apps/",
+                        level: "All levels",
+                        features: ["Digital library app", "Audiobooks included", "Offline reading support", "3,899+ books access"],
                         free: true
                     },
                     {
@@ -328,10 +414,31 @@ const kazakhResources = {
                 category: "Language Exchange Platforms",
                 items: [
                     {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["40+ million users globally", "Text/voice/video chat", "Correction tools included", "Free basic features"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://tandem.net/",
+                        level: "All levels",
+                        features: ["9,626+ users in Kazakhstan", "Quality-focused matching", "Review system included", "Global community"],
+                        free: true
+                    },
+                    {
                         name: "Language.Exchange",
                         url: "https://en.language.exchange/language/KK-Kazakh/",
                         level: "All levels",
                         features: ["250+ countries represented", "200+ languages support", "Detailed user profiles", "Completely free"],
+                        free: true
+                    },
+                    {
+                        name: "ConversationExchange",
+                        url: "https://www.conversationexchange.com/",
+                        level: "All levels",
+                        features: ["Web-based exchange platform", "Face-to-face meetups option", "Pen-pals feature", "Free access"],
                         free: true
                     },
                     {

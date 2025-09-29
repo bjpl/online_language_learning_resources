@@ -24,14 +24,7 @@ languageData.korean = {
                         url: "https://www.iksi.or.kr/lms/main/about.do",
                         free: true,
                         level: "Introductory to Advanced (1-6)",
-                        features: ["Mobile/PC compatible", "Culture courses included", "24/7 availability"],
-        apps: [
-            {
-                name: "Naver Dictionary/Papago",
-                url: "https://papago.naver.com/",
-                free: true,
-                level: "All levels",
-                features: ["14 languages", "OCR", "Offline mode", "Honorific understanding"]
+                        features: ["Mobile/PC compatible", "Culture courses included", "24/7 availability"]
                     },
                     {
                         name: "Nuri-Sejong Institute Materials",
@@ -137,6 +130,28 @@ languageData.korean = {
                 ]
             }
         ],
+
+        apps: [
+            {
+                name: "Duolingo Korean",
+                url: "https://www.duolingo.com/",
+                free: true,
+                level: "Beginner to Lower-intermediate",
+                features: ["2200+ words", "Completely free core", "Mobile/web sync"]
+            },
+            {
+                name: "Drops Korean",
+                url: "https://languagedrops.com/",
+                free: true,
+                level: "Beginner to Intermediate",
+                features: ["2700+ words", "150+ topics", "5 min daily free"]
+            },
+            {
+                name: "Naver Dictionary/Papago",
+                url: "https://papago.naver.com/",
+                free: true,
+                level: "All levels",
+                features: ["14 languages", "OCR", "Offline mode", "Honorific understanding"]
             },
             {
                 name: "Dongsa Verb Conjugator",
@@ -147,6 +162,7 @@ languageData.korean = {
             }
         
         ],
+
         books: [
             {
                 category: "Open Textbooks",
@@ -413,7 +429,8 @@ languageData.korean = {
                         free: true,
                         level: "All levels",
                         features: ["Official rankings", "Difficulty levels", "Excel format"]
-                    }]
+                    },
+                ]
             }
         ]
     },

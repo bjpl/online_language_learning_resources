@@ -1009,7 +1009,8 @@ const punjabiResources = {
                 ]
             }
         ]
-    }
+    },
+    apps: []
 };
 
 if (typeof languageData !== 'undefined') {

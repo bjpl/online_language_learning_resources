@@ -22,15 +22,7 @@ const flemishResources = {
                         url: "https://www.goestingintaal.be/nl/",
                         features: ["Teaches informal Flemish tussentaal", "Free 10-lesson email course", "Audio fragments included", "B1+ intermediate level focus"],
                         free: true,
-                        level: "B1+ (Intermediate)",
-        apps: [
-            {
-                category: "Dictionaries and Language Tools",
-                items: [
-                    {
-                        name: "Het Vlaams Woordenboek",
-                        url: "https://www.vlaamswoordenboek.be/",
-                        features: ["Collaborative Flemish dictionary", "38,224+ terms available", "User voting system", "Belgian media examples"]
+                        level: "B1+ (Intermediate)"
                     },
                     {
                         name: "NedBox",
@@ -120,6 +112,13 @@ const flemishResources = {
                         features: ["Flemish vs Standard Dutch", "Pronunciation guides included", "Grammar differences explained", "Creative Commons license"],
                         free: true,
                         level: "All levels"
+                    },
+                    {
+                        name: "DBNL (Digital Library for Dutch Literature)",
+                        url: "https://www.dbnl.org",
+                        features: ["Digital literature library", "Historical texts included", "Academic journals available", "Literary criticism resources"],
+                        free: true,
+                        level: "Advanced"
                     },
                     {
                         name: "Flandrica.be",
@@ -226,7 +225,15 @@ const flemishResources = {
                     }
                 ]
             }
-        ],,
+        ],
+        apps: [
+            {
+                category: "Dictionaries and Language Tools",
+                items: [
+                    {
+                        name: "Het Vlaams Woordenboek",
+                        url: "https://www.vlaamswoordenboek.be/",
+                        features: ["Collaborative Flemish dictionary", "38,224+ terms available", "User voting system", "Belgian media examples"],
                         free: true,
                         level: "All levels"
                     },
@@ -277,7 +284,27 @@ const flemishResources = {
             {
                 category: "Mobile Applications",
                 items: [
-                    
+                    {
+                        name: "NedBox App",
+                        url: "https://apps.apple.com/",
+                        features: ["Mobile NedBox platform", "Interactive city map", "Offline capability included", "iOS and Android"],
+                        free: true,
+                        level: "A1 to A2"
+                    },
+                    {
+                        name: "VRT MAX App",
+                        url: "https://apps.apple.com/",
+                        features: ["Complete VRT content platform", "Live streaming included", "Chromecast support available", "iOS and Android"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
+                        name: "VRT Radio Apps",
+                        url: "https://apps.apple.com/",
+                        features: ["Radio 1 Studio Brussel", "Live streaming included", "Podcast access available", "iOS and Android"],
+                        free: true,
+                        level: "Various"
+                    }
                 ]
             },
             {
@@ -304,6 +331,34 @@ const flemishResources = {
             {
                 category: "Language Exchange and Community Platforms",
                 items: [
+                    {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        features: ["Language exchange app", "40+ million users worldwide", "Text voice video chat", "Translation tools included"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://www.tandem.net/",
+                        features: ["Swipe-based language matching", "Voice and video calls", "Message correction feature", "User review system"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
+                        name: "ConversationExchange",
+                        url: "https://www.conversationexchange.com/",
+                        features: ["Traditional language exchange website", "Face-to-face meetings available", "Pen-pal connections included", "Various chat options"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
+                        name: "MyLanguageExchange",
+                        url: "http://mylanguageexchange.com/",
+                        features: ["Language exchange AI tools", "Speech recognition included", "Inline translation feature", "Lesson plans available"],
+                        free: true,
+                        level: "All levels"
+                    },
                     {
                         name: "Vlaamse Podcast Gids",
                         url: "https://vlaamsepodcasts.be/",

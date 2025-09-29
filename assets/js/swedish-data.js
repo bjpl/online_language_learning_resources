@@ -18,13 +18,7 @@
                             url: 'https://www.uu.se/en/department/scandinavian-languages/study/swedish-courses',
                             free: true,
                             level: 'A1-C2',
-                            features: ['Free for non-tuition students', 'TISUS prep', 'Cultural integration'],
-        apps: [{
-                    name: 'Anki + Swedish Decks',
-                    url: 'https://ankiweb.net/shared/decks?search=Swedish',
-                    free: true,
-                    platform: 'All platforms',
-                    features: ['Free', 'Thousands of shared decks', 'Customizable']
+                            features: ['Free for non-tuition students', 'TISUS prep', 'Cultural integration']
                         },
                         {
                             name: 'Duolingo Swedish',
@@ -39,6 +33,13 @@
                             free: true,
                             level: 'A1-B1',
                             features: ['HTML-based', 'Audio recordings', 'Akelius videos', 'Government funded']
+                        },
+                        {
+                            name: 'EU Academy - Learn Swedish with OLS',
+                            url: 'https://academy.europa.eu/',
+                            free: true,
+                            level: 'A1-B1',
+                            features: ['Free registration', 'EU context focus', 'Cultural content']
                         },
                         {
                             name: 'Memrise Swedish',
@@ -86,9 +87,17 @@
                             free: true,
                             level: 'All levels',
                             features: ['Hej svenska! app', '11 languages', 'Offline access']
-                        }]
+                        },
+                    ]
                 }
             ],
+
+            apps: [{
+                    name: 'Anki + Swedish Decks',
+                    url: 'https://ankiweb.net/shared/decks?search=Swedish',
+                    free: true,
+                    platform: 'All platforms',
+                    features: ['Free', 'Thousands of shared decks', 'Customizable']
                 }, {
                     name: 'Hej svenska!',
                     url: 'Via Informationsverige.se',
@@ -97,6 +106,7 @@
                     features: ['11 languages', 'Offline access', 'Government content']
                 }
             ],
+
             books: [
                 {
                     category: 'Open Educational Textbooks',
@@ -156,7 +166,8 @@
                             free: true,
                             level: 'C1-C2',
                             features: ['Natural expressions', 'Idioms', 'Colloquialisms']
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: 'Literature & Reading Materials',
@@ -304,7 +315,8 @@
                             free: true,
                             level: 'A2-B2',
                             features: ['Level indicators', 'Slow Swedish episodes', 'Clear explanations']
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: 'YouTube Channels',
@@ -317,7 +329,13 @@
                 {
                     category: 'Language Exchange Platforms',
                     items: [
-                        ]
+                        {
+                            name: 'MyLanguageExchange',
+                            url: 'https://www.mylanguageexchange.com/',
+                            free: true,
+                            features: ['Email exchanges', 'Detailed profiles', 'Established community']
+                        },
+                    ]
                 },
                 {
                     category: 'Online Communities',
@@ -339,7 +357,8 @@
                             url: 'https://sprakcafe.se/',
                             free: true,
                             features: ['Regular sessions', 'Cultural discussions', 'Free participation']
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: 'Dictionaries & Tools',
@@ -355,7 +374,8 @@
                             url: 'https://en.wiktionary.org/wiki/Category:Swedish_language',
                             free: true,
                             features: ['Pronunciation', 'Etymology', 'Conjugations']
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: 'Testing & Assessment',
@@ -373,7 +393,8 @@
                             free: false,
                             level: 'A2-B2',
                             features: ['CEFR aligned', 'EU funded', 'All skills tested']
-                        }]
+                        },
+                    ]
                 }
             ]
         }

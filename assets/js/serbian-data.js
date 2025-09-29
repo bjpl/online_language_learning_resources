@@ -5,6 +5,7 @@ const serbianResources = {
     learners: "500K+",
     speakers: "12M native",
     highlights: ["Both Cyrillic and Latin scripts", "Ekavian and Ijekavian variants", "Strong government support", "Rich cultural heritage"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const serbianResources = {
                         url: "https://serbonika.com/",
                         level: "A1-C2",
                         features: ["24/7 web app", "Free intro course", "Both scripts", "8000+ students", "Professional school"],
-                        free: true,
-        apps: [
-            {
-                category: "Apps, Software, and Digital Tools",
-                items: [
-                    {
-                        name: "Simply Learn Serbian",
-                        url: "https://simyasolutions.com/",
-                        level: "Beginner",
-                        features: ["Phrasebook approach", "300+ free phrases", "Native audio", "Both scripts"]
+                        free: true
                     },
                     {
                         name: "Serbian Language Podcast",
@@ -62,10 +54,24 @@ const serbianResources = {
                         free: true
                     },
                     {
+                        name: "EU Academy - Learn Serbian with OLS",
+                        url: "https://academy.europa.eu/",
+                        level: "Beginner",
+                        features: ["European Commission Online Language Support", "EU-funded", "Self-presentation", "Cultural awareness"],
+                        free: true
+                    },
+                    {
                         name: "Go Speak Serbian",
                         url: "https://gospeakserbian.com/",
                         level: "Beginner-Pre-intermediate",
                         features: ["High-quality courses", "Authentic materials", "Workbooks and glossaries", "Certificates", "Live lessons"],
+                        free: true
+                    },
+                    {
+                        name: "Serbian 101 YouTube",
+                        url: "https://www.youtube.com/",
+                        level: "All levels",
+                        features: ["Comprehensive grammar lessons", "Vocabulary lessons", "Free video content", "Pronunciation guides"],
                         free: true
                     },
                     {
@@ -258,6 +264,13 @@ const serbianResources = {
                         free: true
                     },
                     {
+                        name: "TalkIn' Serbian for Beginners",
+                        url: "https://open.spotify.com/",
+                        level: "Beginner",
+                        features: ["Native and learner hosted", "Conversational Serbian", "Hobbies and travel topics", "On Spotify/Apple"],
+                        free: true
+                    },
+                    {
                         name: "Serbonika Podcast",
                         url: "https://serbonika.com/",
                         level: "Intermediate",
@@ -286,6 +299,13 @@ const serbianResources = {
                         free: true
                     },
                     {
+                        name: "50Languages Serbian",
+                        url: "https://www.50languages.com/",
+                        level: "A1-A2",
+                        features: ["100 free audio lessons", "Web/Android/iOS", "Basic conversation"],
+                        free: true
+                    },
+                    {
                         name: "Colloquial Serbian Audio",
                         url: "https://routledgetextbooks.com/textbooks/colloquial/",
                         level: "Beginner-Intermediate",
@@ -301,7 +321,31 @@ const serbianResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Apps, Software, and Digital Tools",
+                items: [
+                    {
+                        name: "Drops Serbian",
+                        url: "https://languagedrops.com/",
+                        level: "Beginner-Intermediate",
+                        features: ["Visual vocabulary learning", "1700+ words", "99 topics", "Both scripts", "5 min free daily"],
+                        free: true
+                    },
+                    {
+                        name: "Ling Serbian",
+                        url: "https://ling-app.com/",
+                        level: "All levels",
+                        features: ["Comprehensive course", "Free beginner lessons", "Chatbot", "Offline mode", "Both scripts"],
+                        free: true
+                    },
+                    {
+                        name: "Simply Learn Serbian",
+                        url: "https://simyasolutions.com/",
+                        level: "Beginner",
+                        features: ["Phrasebook approach", "300+ free phrases", "Native audio", "Both scripts"],
                         free: true
                     },
                     {
@@ -422,6 +466,13 @@ const serbianResources = {
                         free: true
                     },
                     {
+                        name: "LanguageTool",
+                        url: "https://languagetool.org/",
+                        level: "All levels",
+                        features: ["Grammar checker", "30+ languages including Serbian"],
+                        free: true
+                    },
+                    {
                         name: "Serbian Virtual Keyboards",
                         url: "https://www.lexilogos.com/keyboard/serbian.htm",
                         level: "N/A",
@@ -498,7 +549,15 @@ const serbianResources = {
                         level: "All levels",
                         features: ["Global learning community", "Active discussions", "Resource sharing"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "HelloTalk Serbian",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["Mobile language exchange", "Native speakers", "Voice/text chat", "Corrections"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Government and Institutional Resources",

@@ -5,6 +5,7 @@ const spanishResources = {
     learners: "22M+",
     speakers: "486M native",
     highlights: ["2nd most spoken language globally", "21 Spanish-speaking countries", "Rich regional diversity", "UN official language"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const spanishResources = {
                         url: "https://www.open.edu/openlearn/education-development/university-ready/free-online-spanish-courses",
                         level: "A1-C1",
                         features: ["10 comprehensive courses", "British academic quality", "Spain and Latin America cultural content", "Completely free"],
-                        free: true,
-        apps: [
-            {
-                category: "Spanish-Specific Apps and Platforms",
-                items: [
-                    {
-                        name: "SpanishDict",
-                        url: "https://www.spanishdict.com/learn",
-                        level: "All levels",
-                        features: ["Interactive lessons", "3,000+ verb conjugations", "Writing Coach", "Extensive free features"]
+                        free: true
                     },
                     {
                         name: "UC Davis Coursera Specialization",
@@ -113,6 +105,13 @@ const spanishResources = {
                         url: "https://coerll.utexas.edu/coerll/materials/language/spanish/",
                         level: "All levels",
                         features: ["Spanish Grammar in Context", "SpinTX Video Archive", "Authentic Texas Spanish corpus", "Creative Commons"],
+                        free: true
+                    },
+                    {
+                        name: "MERLOT Spanish Materials",
+                        url: "https://www.merlot.org/merlot/WorldLanguages.htm",
+                        level: "All levels",
+                        features: ["Peer-reviewed learning objects", "Community ratings", "Searchable database", "Various open licenses"],
                         free: true
                     },
                     {
@@ -332,7 +331,17 @@ const spanishResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Spanish-Specific Apps and Platforms",
+                items: [
+                    {
+                        name: "SpanishDict",
+                        url: "https://www.spanishdict.com/learn",
+                        level: "All levels",
+                        features: ["Interactive lessons", "3,000+ verb conjugations", "Writing Coach", "Extensive free features"],
                         free: true
                     },
                     {
@@ -380,6 +389,13 @@ const spanishResources = {
                         url: "https://dle.rae.es/",
                         level: "All levels",
                         features: ["Official Spanish dictionary", "93,000+ entries", "Mobile app", "Completely free"],
+                        free: true
+                    },
+                    {
+                        name: "WordReference",
+                        url: "https://www.wordreference.com/",
+                        level: "All levels",
+                        features: ["250,000+ translations", "3M+ forum discussions", "Completely free"],
                         free: true
                     },
                     {
@@ -433,10 +449,45 @@ const spanishResources = {
                 category: "Language Exchange Platforms",
                 items: [
                     {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["150+ languages", "Text, voice, video chat", "Correction tools", "Extensive free features"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://tandem.net/",
+                        level: "All levels",
+                        features: ["300+ languages", "Structured partner matching", "Application screening", "Solid free features"],
+                        free: true
+                    },
+                    {
+                        name: "ConversationExchange",
+                        url: "https://www.conversationexchange.com/",
+                        level: "All levels",
+                        features: ["Traditional language exchange", "Face-to-face meetups", "Pen-pals", "Completely free"],
+                        free: true
+                    },
+                    {
+                        name: "Speaky",
+                        url: "https://www.speaky.com/",
+                        level: "All levels",
+                        features: ["5 million user community", "Cultural exchange focus", "Completely free"],
+                        free: true
+                    },
+                    {
                         name: "Bilingua",
                         url: "https://play.google.com/store/apps/details?id=com.bilingua",
                         level: "All levels",
                         features: ["Personality-based matching", "Long-term partnership focus", "Completely free"],
+                        free: true
+                    },
+                    {
+                        name: "MyLanguageExchange",
+                        url: "https://www.mylanguageexchange.com/",
+                        level: "All levels",
+                        features: ["Structured lesson plans", "Voice-activated features", "Free basic features"],
                         free: true
                     },
                     {

@@ -5,6 +5,7 @@ const wolofResources = {
     learners: "200K+",
     speakers: "10M native",
     highlights: ["Official language of Senegal", "Spoken in Senegal, Gambia, Mauritania", "Growing digital presence", "Rich oral tradition"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const wolofResources = {
                         url: "http://aflang.humanities.ucla.edu/language-courses/wolof/",
                         level: "Beginner to Intermediate",
                         features: ["5 chapters with video", "Native speaker conversations", "PDF materials", "Cultural context", "Open-source format"],
-                        free: true,
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "Learn Wolof - Linguarena",
-                        url: "https://play.google.com/store/apps/details?id=com.wolof",
-                        level: "Beginner to Intermediate",
-                        features: ["Android app", "15 audio dialogues", "1238+ dictionary entries", "Spaced repetition", "Comic-strip dialogues"]
+                        free: true
                     },
                     {
                         name: "Janga Wolof Platform",
@@ -150,6 +142,20 @@ const wolofResources = {
                         free: true
                     },
                     {
+                        name: "Doomi Golo by Boubacar Boris Diop",
+                        url: "https://archive.org/",
+                        level: "Advanced",
+                        features: ["First novel written in Wolof", "Available with French/English translations"],
+                        free: true
+                    },
+                    {
+                        name: "Archive.org Wolof Materials",
+                        url: "https://archive.org/",
+                        level: "Various",
+                        features: ["Historical texts", "Phrasebooks", "Assane Diop's phrasebook", "Historical dictionaries"],
+                        free: true
+                    },
+                    {
                         name: "Boston University Ajami Library",
                         url: "https://www.bu.edu/library/",
                         level: "Advanced",
@@ -171,6 +177,13 @@ const wolofResources = {
             {
                 category: "Audio and Video Resources",
                 items: [
+                    {
+                        name: "Sister Marie's Jangal ma Wolof",
+                        url: "https://www.youtube.com/",
+                        level: "Beginner to Intermediate",
+                        features: ["Structured video lessons from The Gambia", "Native Gambian speaker", "Cultural context", "Grammar coverage"],
+                        free: true
+                    },
                     {
                         name: "LangMedia Wolof Videos",
                         url: "http://langmedia.fivecolleges.edu/lbc-topics/39/125",
@@ -234,7 +247,17 @@ const wolofResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "Learn Wolof - Linguarena",
+                        url: "https://play.google.com/store/apps/details?id=com.wolof",
+                        level: "Beginner to Intermediate",
+                        features: ["Android app", "15 audio dialogues", "1238+ dictionary entries", "Spaced repetition", "Comic-strip dialogues"],
                         free: true
                     },
                     {
@@ -328,12 +351,34 @@ const wolofResources = {
                 category: "Language Exchange Platforms",
                 items: [
                     {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["Language exchange app", "Text/voice/video chat", "Correction tools", "Wolof speakers available"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://tandem.net/",
+                        level: "All levels",
+                        features: ["Verified language partners", "160+ languages including Wolof", "Verified users"],
+                        free: true
+                    },
+                    {
                         name: "My Language Exchange",
                         url: "https://www.mylanguageexchange.com/Learn/Wolof.asp",
                         level: "All levels",
                         features: ["Community language practice", "Conversation with native speakers"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "italki",
+                        url: "https://italki.com/",
+                        level: "All levels",
+                        features: ["Professional tutoring platform", "Wolof teachers", "Conversation partners"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Government and Institutional Resources",

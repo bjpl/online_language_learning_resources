@@ -5,6 +5,7 @@ const marathiResources = {
     learners: "2M+",
     speakers: "83M native",
     highlights: ["11th most spoken language globally", "Classical language status (2024)", "Exceptional government digital resources", "Strong literary tradition (13th century)"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const marathiResources = {
                         url: "https://onlinecourses.swayam2.ac.in/nou25_lg30/preview",
                         level: "Beginner to Intermediate",
                         features: ["12-week comprehensive course", "Script, phonetics, grammar, culture", "Free learning with paid certificate option", "4 credits", "Structured progression"],
-                        free: true,
-        apps: [
-            {
-                category: "Apps and Software Tools",
-                items: [
-                    {
-                        name: "Desh Marathi Keyboard",
-                        url: "https://www.deshkeyboard.com/",
-                        level: "All levels",
-                        features: ["Transliteration keyboard", "Voice typing support", "Handwriting recognition", "Mobile app"]
+                        free: true
                     },
                     {
                         name: "SWAYAM - Marathi Bhasha Parichay 1 (BHU)",
@@ -303,6 +295,13 @@ const marathiResources = {
                         free: true
                     },
                     {
+                        name: "Learn Marathi Podcast",
+                        url: "https://podcasts.apple.com/",
+                        level: "Beginner to Intermediate",
+                        features: ["Conversational lessons", "27 episodes available", "5.0 rating", "Practical situations focus"],
+                        free: true
+                    },
+                    {
                         name: "AIR Marathi Services",
                         url: "https://www.radioindialive.com/air-marathi-all-india-radio",
                         level: "All levels",
@@ -339,7 +338,52 @@ const marathiResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Apps and Software Tools",
+                items: [
+                    {
+                        name: "50Languages App",
+                        url: "https://play.google.com/store/apps/",
+                        level: "Beginner",
+                        features: ["100 free lessons", "Offline capability", "Tests and games included", "iOS and Android"],
+                        free: true
+                    },
+                    {
+                        name: "Learn Marathi From English",
+                        url: "https://play.google.com/store/apps/",
+                        level: "Beginner",
+                        features: ["Vocabulary and pronunciation", "Completely free", "Offline support", "Android app"],
+                        free: true
+                    },
+                    {
+                        name: "Learn Marathi Offline Travel",
+                        url: "https://apps.apple.com/",
+                        level: "Beginner/Travel",
+                        features: ["1066 travel phrases", "Full offline functionality", "4.4/5 rating", "iOS app"],
+                        free: true
+                    },
+                    {
+                        name: "Marathi 101 - Learn to Write",
+                        url: "https://apps.apple.com/",
+                        level: "Beginner",
+                        features: ["Writing practice app", "Interactive alphabet training", "Quiz feature included", "iOS platform"],
+                        free: true
+                    },
+                    {
+                        name: "Desh Marathi Keyboard",
+                        url: "https://www.deshkeyboard.com/",
+                        level: "All levels",
+                        features: ["Transliteration keyboard", "Voice typing support", "Handwriting recognition", "Mobile app"],
+                        free: true
+                    },
+                    {
+                        name: "Google Input Tools",
+                        url: "https://chrome.google.com/webstore/",
+                        level: "All levels",
+                        features: ["Virtual keyboard and IME", "90+ languages support", "Handwriting input", "Chrome extension"],
                         free: true
                     },
                     {
@@ -355,7 +399,22 @@ const marathiResources = {
                         level: "Developer",
                         features: ["Text-to-speech engine", "Open source project", "Research-grade quality", "GitHub repository"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "Anki/AnkiDroid",
+                        url: "https://ankiweb.net/",
+                        level: "All levels",
+                        features: ["Spaced repetition flashcards", "Custom Marathi deck creation", "Cross-platform support", "Free (except iOS)"],
+                        free: true
+                    },
+                    {
+                        name: "Marathi Kids App",
+                        url: "https://play.google.com/store/apps/",
+                        level: "Children",
+                        features: ["Alphabets and numbers", "Poems and stories", "Educational games", "Child-focused learning"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Dictionaries and Language Tools",
@@ -424,6 +483,27 @@ const marathiResources = {
             {
                 category: "Language Exchange Platforms",
                 items: [
+                    {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["Language exchange app", "18+ million users", "Voice/video calls", "AI-assisted features"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://tandem.net/",
+                        level: "All levels",
+                        features: ["Swipe-based matching", "Millions of users", "Professional tutoring available", "Community features"],
+                        free: true
+                    },
+                    {
+                        name: "ConversationExchange",
+                        url: "https://www.conversationexchange.com/",
+                        level: "All levels",
+                        features: ["Traditional exchange platform", "Face-to-face meetings option", "Pen-pal options", "Free service"],
+                        free: true
+                    },
                     {
                         name: "Reddit r/Marathi",
                         url: "https://reddit.com/r/marathi",

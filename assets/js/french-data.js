@@ -5,6 +5,7 @@ const frenchResources = {
     learners: "82M",
     speakers: "274M native",
     highlights: ["Global language across 5 continents", "UN and EU official language", "Rich cultural and literary heritage", "Gateway to Francophone world"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const frenchResources = {
                         url: "https://www.fun-mooc.fr/en/",
                         level: "All levels",
                         features: ["550+ courses", "Official government platform", "Free certificates", "University-quality content"],
-                        free: true,
-        apps: [
-            {
-                category: "Apps & Software",
-                items: [
-                    {
-                        name: "TV5MONDE App",
-                        url: "https://apprendre.tv5monde.com/",
-                        level: "A1-B2",
-                        features: ["Completely free", "Real TV content", "Authentic French media"]
+                        free: true
                     },
                     {
                         name: "Vivre en France Series",
@@ -59,6 +51,13 @@ const frenchResources = {
                         url: "https://apprendre.tv5monde.com/",
                         level: "All levels",
                         features: ["4000+ exercises", "Real French TV content", "Interactive exercises", "Authentic media"],
+                        free: true
+                    },
+                    {
+                        name: "Duolingo French",
+                        url: "https://www.duolingo.com/",
+                        level: "A1-B2",
+                        features: ["Completely free with ads", "Mobile apps", "Gamified learning", "Progress tracking"],
                         free: true
                     },
                     {
@@ -156,6 +155,13 @@ const frenchResources = {
                         url: "http://rfnum-bibliotheque.org/",
                         level: "All levels",
                         features: ["30+ institutions from 20 countries", "Thousands of documents", "Pan-Francophone collection"],
+                        free: true
+                    },
+                    {
+                        name: "LibriVox French",
+                        url: "https://librivox.org/",
+                        level: "Advanced",
+                        features: ["900+ audiobooks", "Public domain", "Native speaker recordings", "Free downloads"],
                         free: true
                     },
                     {
@@ -264,7 +270,38 @@ const frenchResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Apps & Software",
+                items: [
+                    {
+                        name: "Duolingo",
+                        url: "https://www.duolingo.com/",
+                        level: "A1-B2",
+                        features: ["Free with ads", "iOS/Android/Web", "Streaks and leaderboards"],
+                        free: true
+                    },
+                    {
+                        name: "Anki",
+                        url: "https://apps.ankiweb.net/",
+                        level: "All levels",
+                        features: ["Spaced repetition", "Free (except iOS)", "Extensive deck library", "Customizable"],
+                        free: true
+                    },
+                    {
+                        name: "LibreLingo",
+                        url: "https://librelingo.app/",
+                        level: "All levels",
+                        features: ["Open source", "Completely free", "Community-driven", "AGPL license"],
+                        free: true
+                    },
+                    {
+                        name: "TV5MONDE App",
+                        url: "https://apprendre.tv5monde.com/",
+                        level: "A1-B2",
+                        features: ["Completely free", "Real TV content", "Authentic French media"],
                         free: true
                     },
                     {
@@ -329,6 +366,13 @@ const frenchResources = {
                         free: true
                     },
                     {
+                        name: "WordReference",
+                        url: "https://www.wordreference.com/",
+                        level: "All levels",
+                        features: ["Multilingual dictionary", "Forums", "Conjugations", "Completely free"],
+                        free: true
+                    },
+                    {
                         name: "Bescherelle",
                         url: "https://conjugaison.bescherelle.com/",
                         level: "All levels",
@@ -341,7 +385,15 @@ const frenchResources = {
                         level: "All levels",
                         features: ["Translation & grammar", "Context examples", "Conjugation", "Free"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "LanguageTool",
+                        url: "https://languagetool.org/",
+                        level: "All levels",
+                        features: ["Grammar checker", "Multi-platform", "Free version", "Browser extension"],
+                        free: true
+                    }
+                ]
             }
         ],
 
@@ -349,6 +401,20 @@ const frenchResources = {
             {
                 category: "Language Exchange Platforms",
                 items: [
+                    {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["18+ million users", "Voice rooms", "Live streaming", "One target language free"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://tandem.net/",
+                        level: "All levels",
+                        features: ["Millions of users", "Video calls", "No ads", "Core features free"],
+                        free: true
+                    },
                     {
                         name: "r/French",
                         url: "https://www.reddit.com/r/French/",
@@ -361,6 +427,13 @@ const frenchResources = {
                         url: "https://discord.com/invite/french",
                         level: "All levels",
                         features: ["95,595+ members", "Voice channels", "Events", "Completely free"],
+                        free: true
+                    },
+                    {
+                        name: "ConversationExchange",
+                        url: "https://www.conversationexchange.com/",
+                        level: "All levels",
+                        features: ["Traditional pen-pal", "Email/Skype focus", "Completely free"],
                         free: true
                     },
                     {
@@ -440,7 +513,15 @@ const frenchResources = {
                         level: "All levels",
                         features: ["1,400+ centers", "Qualité FLE certification", "Immersion France app"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "EU Academy OLS",
+                        url: "https://academy.europa.eu/",
+                        level: "A1-A2",
+                        features: ["Free EU courses", "European focus"],
+                        free: true
+                    }
+                ]
             }
         ]
     }

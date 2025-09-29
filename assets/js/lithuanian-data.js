@@ -5,6 +5,7 @@ const lithuanianResources = {
     learners: "1M+",
     speakers: "3M native",
     highlights: ["Ancient Indo-European language", "Official EU language", "Strong government support", "Baltic language family"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const lithuanianResources = {
                         url: "https://academy.europa.eu/local/euacademy/pages/course/community-overview.php?title=learn-lithuanian-with-ols",
                         level: "A1 Beginner",
                         features: ["Official EU platform", "178-member community", "Cultural context", "Free EU account", "Structured course"],
-                        free: true,
-        apps: [
-            {
-                category: "Language Tools and Dictionaries",
-                items: [
-                    {
-                        name: "Lexilogos Dictionary Portal",
-                        url: "https://www.lexilogos.com/english/lithuanian_dictionary.htm",
-                        level: "All levels",
-                        features: ["Links to 20+ Lithuanian dictionaries", "Etymological resources", "Multilingual options", "Conjugation tools"]
+                        free: true
                     },
                     {
                         name: "Clozemaster",
@@ -209,6 +201,13 @@ const lithuanianResources = {
                         free: true
                     },
                     {
+                        name: "EU Academy Videos",
+                        url: "https://academy.europa.eu/",
+                        level: "Beginner",
+                        features: ["Video lessons", "29-language subtitles", "Free EU Login account required"],
+                        free: true
+                    },
+                    {
                         name: "LRT Epika",
                         url: "https://epika.lrt.lt/",
                         level: "Intermediate-Advanced",
@@ -240,6 +239,13 @@ const lithuanianResources = {
                         free: true
                     },
                     {
+                        name: "Lithuanian with Paulius",
+                        url: "https://open.spotify.com/",
+                        level: "Beginner",
+                        features: ["Natural exposure podcast", "Transcripts via Patreon", "Regular updates", "Available on Spotify/Apple"],
+                        free: true
+                    },
+                    {
                         name: "Real Lithuanian Podcast",
                         url: "https://open.spotify.com/show/6ogUdxat7KTTr6cZw2SMVw",
                         level: "Intermediate",
@@ -248,7 +254,17 @@ const lithuanianResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Language Tools and Dictionaries",
+                items: [
+                    {
+                        name: "Lexilogos Dictionary Portal",
+                        url: "https://www.lexilogos.com/english/lithuanian_dictionary.htm",
+                        level: "All levels",
+                        features: ["Links to 20+ Lithuanian dictionaries", "Etymological resources", "Multilingual options", "Conjugation tools"],
                         free: true
                     },
                     {
@@ -309,6 +325,27 @@ const lithuanianResources = {
                 category: "Language Exchange and Community",
                 items: [
                     {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["40+ million users globally", "Text/voice/video", "Translation tools", "Voice Rooms"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://www.tandem.net/",
+                        level: "All levels",
+                        features: ["276+ partners in Vilnius alone", "Review system", "Interest matching", "Tinder of language exchange"],
+                        free: true
+                    },
+                    {
+                        name: "Speaky",
+                        url: "https://www.speaky.com/",
+                        level: "All levels",
+                        features: ["5+ million users", "Completely free", "No subscription fees", "170+ languages"],
+                        free: true
+                    },
+                    {
                         name: "ConversationExchange",
                         url: "https://www.conversationexchange.com/s_map/learn.php?language=Lithuanian",
                         level: "All levels",
@@ -320,6 +357,13 @@ const lithuanianResources = {
                         url: "https://www.reddit.com/r/Lithuania/",
                         level: "All levels",
                         features: ["Active Lithuanian Reddit community", "Native speakers", "Cultural discussions"],
+                        free: true
+                    },
+                    {
+                        name: "Discord Language Learning",
+                        url: "https://discord.com/invite/language-learning-community-634078414332231681",
+                        level: "All levels",
+                        features: ["27,464+ members", "70+ language channels", "Lithuanian channel included"],
                         free: true
                     },
                     {

@@ -18,13 +18,7 @@
                             url: "https://www.duolingo.com/course/pl/en/Learn-Polish",
                             level: "A1-A2",
                             free: true,
-                            features: ["Mobile app", "Spaced repetition", "Streak tracking", "Offline mode (premium)"],
-        apps: [{
-                    name: "LingoHut",
-                    url: "https://www.lingohut.com/",
-                    level: "A1-B1",
-                    free: true,
-                    features: ["No app needed", "No registration", "Games included", "Audio support"]
+                            features: ["Mobile app", "Spaced repetition", "Streak tracking", "Offline mode (premium)"]
                         },
                         {
                             name: "EU Online Language Support",
@@ -72,7 +66,8 @@
                             level: "Beginner-friendly",
                             free: true,
                             features: ["Virtual tour format", "Comic panels", "Audio recordings", "Cultural immersion"]
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: "Government Programs",
@@ -109,11 +104,20 @@
                             level: "A1-A2",
                             free: true,
                             features: ["GNU License", "Community-edited", "Printable version", "Always updated"]
-                        }]
+                        },
+                    ]
                 }
             ],
+
+            apps: [{
+                    name: "LingoHut",
+                    url: "https://www.lingohut.com/",
+                    level: "A1-B1",
+                    free: true,
+                    features: ["No app needed", "No registration", "Games included", "Audio support"]
                 }
             ],
+
             books: [
                 {
                     category: "Digital Libraries",
@@ -178,7 +182,8 @@
                             level: "All levels",
                             free: true,
                             features: ["Public domain", "Practical focus", "Complete grammar", "Usage examples"]
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: "Reading Materials",
@@ -189,7 +194,8 @@
                             level: "Beginner-Intermediate",
                             free: true,
                             features: ["PDF downloads", "Answer keys", "Interactive exercises", "Daily practice"]
-                        }]
+                        },
+                    ]
                 }
             ],
 
@@ -331,7 +337,15 @@
                             level: "All levels",
                             free: true,
                             features: ["Q&A threads", "Practice posts", "Resource sharing", "Native speakers"]
-                        }]
+                        },
+                        {
+                            name: "MyLanguageExchange",
+                            url: "https://www.mylanguageexchange.com/",
+                            level: "All levels",
+                            free: true,
+                            features: ["Email exchange", "Text chat", "Voice chat", "Lesson plans"]
+                        },
+                    ]
                 },
                 {
                     category: "Language Tools",
@@ -342,7 +356,8 @@
                             level: "All levels",
                             free: true,
                             features: ["Real examples", "Audio support", "Grammar notes", "Usage guides"]
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: "Games and Interactive",
@@ -353,7 +368,8 @@
                             level: "A1-B1",
                             free: true,
                             features: ["Multiple games", "Audio support", "No registration", "Immediate feedback"]
-                        }]
+                        },
+                    ]
                 },
                 {
                     category: "Text-to-Speech",

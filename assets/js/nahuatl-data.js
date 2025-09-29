@@ -22,15 +22,7 @@ const nahuatlResources = {
                         url: "https://tlahtolli.coerll.utexas.edu/",
                         features: ["Self-paced multimedia course", "Huasteca Veracruz variant", "Interactive lessons with audio", "Grammar and reading exercises", "IDIEZ collaboration"],
                         free: true,
-                        level: "All levels",
-        apps: [
-            {
-                category: "Mobile Apps (Nahuatl-Specific Content)",
-                items: [
-                    {
-                        name: "Totlahtol Dictionary",
-                        url: "https://apps.apple.com/us/app/totlahtol-nahuatl/id1182991493",
-                        features: ["Comprehensive dictionary app", "Huasteca Veracruz variety", "English-Nahuatl-Spanish", "iOS and Android"]
+                        level: "All levels"
                     },
                     {
                         name: "David Bowles Classical Nahuatl 101",
@@ -197,6 +189,13 @@ const nahuatlResources = {
                         level: "All levels"
                     },
                     {
+                        name: "Internet Archive Nahuatl Collection",
+                        url: "https://archive.org",
+                        features: ["Karttunen Dictionary included", "Bancroft Dialogues", "Historical texts collection", "No registration required"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
                         name: "SEPI Mexico City Manual",
                         url: "https://www.sepi.cdmx.gob.mx/storage/app/media/Libro%20Nahuatl%202017.pdf",
                         features: ["58-page complete course", "Milpa Alta variety", "Exercises included", "Beginner-focused content"],
@@ -291,11 +290,34 @@ const nahuatlResources = {
                         features: ["Interactive vocabulary resource", "All 3 Huasteca sub-varieties", "Audio/video content", "Daily life photos"],
                         free: true,
                         level: "All levels"
-                    }]
-            }
-        ],,
+                    },
+                    {
+                        name: "Cuitlahuac A. Martinez YouTube",
+                        url: "https://www.youtube.com/",
+                        features: ["Language teaching videos", "Cultural education content", "Various varieties", "Indigenous language activism"],
                         free: true,
                         level: "All levels"
+                    }
+                ]
+            }
+        ],
+        apps: [
+            {
+                category: "Mobile Apps (Nahuatl-Specific Content)",
+                items: [
+                    {
+                        name: "Totlahtol Dictionary",
+                        url: "https://apps.apple.com/us/app/totlahtol-nahuatl/id1182991493",
+                        features: ["Comprehensive dictionary app", "Huasteca Veracruz variety", "English-Nahuatl-Spanish", "iOS and Android"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
+                        name: "Let's Learn Náhuatl (Vamos a Aprender)",
+                        url: "https://apps.apple.com/",
+                        features: ["10 interactive multimedia lessons", "Acatlán, Guerrero variety", "INALI collaboration", "Cultural content included"],
+                        free: true,
+                        level: "Beginner"
                     },
                     {
                         name: "Nawatlahtolli Dictionary",
@@ -308,6 +330,13 @@ const nahuatlResources = {
                         name: "Nahuatl with Axolotl",
                         url: "https://play.google.com/store/apps/details?id=com.mycompany.nahuatldecks",
                         features: ["Educational flashcard app", "Huasteca Veracruz variety", "Native pronunciations", "Images included"],
+                        free: true,
+                        level: "Beginner"
+                    },
+                    {
+                        name: "Beginner Nahuatl",
+                        url: "https://play.google.com/store/",
+                        features: ["Word-a-day vocabulary app", "1000 common words", "Spaced repetition system", "Android platform"],
                         free: true,
                         level: "Beginner"
                     },
@@ -364,6 +393,13 @@ const nahuatlResources = {
                 category: "Interactive Learning Tools and Games",
                 items: [
                     {
+                        name: "Memrise Nahuatl Courses",
+                        url: "https://www.memrise.com/",
+                        features: ["Community-created courses", "Classical and modern varieties", "Spaced repetition system", "All levels supported"],
+                        free: true,
+                        level: "All levels"
+                    },
+                    {
                         name: "Anki Nahuatl Decks",
                         url: "https://ankiweb.net/shared/decks/nahuatl",
                         features: ["User-created decks", "Various varieties", "AnkiWeb searchable", "All levels"],
@@ -411,7 +447,15 @@ const nahuatlResources = {
                         features: ["55-page monograph", "Tlaxcala Nahuatl variety", "Maps and cultural context", "Glossary included"],
                         free: true,
                         level: "Reference"
-                    }]
+                    },
+                    {
+                        name: "Pipil/Nahuat Resources (El Salvador)",
+                        url: "https://www.facebook.com/",
+                        features: ["Language recovery materials", "El Salvador Pipil", "Video lessons", "Critically endangered variety"],
+                        free: true,
+                        level: "All levels"
+                    }
+                ]
             }
         ]
     }

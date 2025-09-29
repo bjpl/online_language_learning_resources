@@ -5,6 +5,7 @@ const romanianResources = {
     learners: "1M+",
     speakers: "24M native",
     highlights: ["Romance language", "Official in Romania & Moldova", "Strong French resources", "Rich literary tradition"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const romanianResources = {
                         url: "https://learnromanian.org/",
                         level: "Beginner-Advanced",
                         features: ["Complete free course", "Native teachers", "Mnemonic approach", "30-day fluency claim", "Cultural insights"],
-                        free: true,
-        apps: [
-            {
-                category: "Mobile Apps and Software",
-                items: [
-                    {
-                        name: "Duolingo Romanian",
-                        url: "https://www.duolingo.com/course/ro/en/Learn-Romanian",
-                        level: "Beginner-Intermediate",
-                        features: ["Gamified learning", "Free with ads", "Offline capability"]
+                        free: true
                     },
                     {
                         name: "Live Lingua Peace Corps",
@@ -330,7 +322,17 @@ const romanianResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Mobile Apps and Software",
+                items: [
+                    {
+                        name: "Duolingo Romanian",
+                        url: "https://www.duolingo.com/course/ro/en/Learn-Romanian",
+                        level: "Beginner-Intermediate",
+                        features: ["Gamified learning", "Free with ads", "Offline capability"],
                         free: true
                     },
                     {
@@ -445,6 +447,20 @@ const romanianResources = {
                 category: "Language Exchange Platforms",
                 items: [
                     {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["18M+ users", "Voice/video calls", "Correction tools"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://tandem.net/",
+                        level: "All levels",
+                        features: ["Application review", "No ads on free version"],
+                        free: true
+                    },
+                    {
                         name: "Reddit r/Romanian",
                         url: "https://reddit.com/r/Romanian",
                         level: "All levels",
@@ -457,7 +473,15 @@ const romanianResources = {
                         level: "All levels",
                         features: ["Real-time chat", "3000+ members", "Native speakers"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "MyLanguageExchange",
+                        url: "https://www.mylanguageexchange.com/",
+                        level: "All levels",
+                        features: ["Email exchanges", "Structured lessons", "Chat rooms"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Government and Institutional Resources",

@@ -5,6 +5,7 @@ const arabicResources = {
     learners: "50M+",
     speakers: "420M native",
     highlights: ["22 Arabic-speaking countries", "5th most spoken language globally", "UNESCO cultural heritage", "Strong government support"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const arabicResources = {
                         url: "https://learnarabiconline.ksu.edu.sa/Intro/IntroEn.aspx",
                         level: "Beginner+",
                         features: ["Comprehensive 12-unit program", "Completely FREE", "300 assessment questions", "Chat rooms", "Based on 'Arabic for the World' textbook"],
-                        free: true,
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "ArabEngo",
-                        url: "https://github.com/michaelsboost/ArabEngo",
-                        level: "All levels",
-                        features: ["Open source Arabic learning app", "Text-to-speech", "Chat functionality", "Creative Commons license"]
+                        free: true
                     },
                     {
                         name: "Coursera - Arabic for Beginners",
@@ -252,7 +244,17 @@ const arabicResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "ArabEngo",
+                        url: "https://github.com/michaelsboost/ArabEngo",
+                        level: "All levels",
+                        features: ["Open source Arabic learning app", "Text-to-speech", "Chat functionality", "Creative Commons license"],
                         free: true
                     },
                     {
@@ -367,6 +369,13 @@ const arabicResources = {
                 category: "Language Exchange Platforms",
                 items: [
                     {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["Text/voice/video with native speakers", "Strong Arabic presence", "Correction tools", "Timeline posts"],
+                        free: true
+                    },
+                    {
                         name: "Learn Arabic Discord",
                         url: "https://discord.com/servers/learn-arabic-823889299325714462",
                         level: "All levels",
@@ -378,6 +387,13 @@ const arabicResources = {
                         url: "https://www.reddit.com/r/learn_arabic/",
                         level: "All levels",
                         features: ["20,000+ member subreddit", "Resource sharing", "Native speaker advice", "Weekly discussions"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://www.tandem.net/",
+                        level: "All levels",
+                        features: ["Language exchange app", "Large Arabic user base", "Moderated community"],
                         free: true
                     },
                     {
@@ -393,7 +409,15 @@ const arabicResources = {
                         level: "All levels",
                         features: ["Dedicated Arabic exchange section", "200+ languages", "Profiles from Arab countries"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "ConversationExchange",
+                        url: "https://www.conversationexchange.com/",
+                        level: "All levels",
+                        features: ["Partner matching for various formats", "Face-to-face, correspondence, voice options"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Gulf States Government Resources",

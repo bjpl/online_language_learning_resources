@@ -9,6 +9,7 @@ const portugueseResources = {
     learners: "35M",
     speakers: "260M native",
     highlights: ["Romance language roots", "Two major variants", "Growing economic importance", "Musical language", "Colonial history"],
+
     resources: {
         courses: [
             {
@@ -19,9 +20,7 @@ const portugueseResources = {
                         url: "https://ocw.mit.edu/courses/21g-801-portuguese-i-fall-2011/",
                         level: "Beginner",
                         features: ["Full semester materials", "Assignments", "Reading lists"],
-                        free: true,
-        apps: [
-        ]
+                        free: true
                     },
                     {
                         name: "Loecsen",
@@ -62,7 +61,8 @@ const portugueseResources = {
                         level: "All levels",
                         features: ["Cultural immersion", "Worldwide centers"],
                         free: true
-                    }]
+                    },
+                ]
             },
             {
                 category: "Specialized and Professional",
@@ -226,18 +226,42 @@ const portugueseResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+        ],
 
         practice: [
             {
                 category: "Language Exchange",
                 items: [
+                    {
+                        name: "MyLanguageExchange",
+                        url: "https://www.mylanguageexchange.com/",
+                        level: "All levels",
+                        features: ["Lesson plans", "AI tools", "Safe environment"],
+                        free: true
+                    },
                 ]
             },
             {
                 category: "Speaking Practice",
                 items: [
-                    ]
+                    {
+                        name: "italki",
+                        url: "https://www.italki.com/en/teachers/portuguese",
+                        level: "All levels",
+                        features: ["1-on-1 lessons", "Flexible scheduling", "Both variants"],
+                        free: false
+                    },
+                    {
+                        name: "Preply",
+                        url: "https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE",
+                        level: "All levels",
+                        features: ["Personalized lessons", "Trial lessons"],
+                        free: false
+                    },
+                ]
             },
             {
                 category: "Writing Practice",
@@ -260,7 +284,8 @@ const portugueseResources = {
                         level: "Intermediate-Advanced",
                         features: ["Detailed answers", "Voting system"],
                         free: true
-                    }]
+                    },
+                ]
             }
         ]
     }

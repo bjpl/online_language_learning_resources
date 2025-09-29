@@ -21,15 +21,7 @@ const guaraniResources = {
                         url: "http://maitei.uni.edu.py/login",
                         features: ["Virtual university learning platform", "Gamified multimedia content", "CONACYT funded (G. 493M)", "Communicative methodology approach"],
                         free: true,
-                        level: "Multiple Levels",
-        apps: [
-            {
-                category: "Mobile Apps",
-                items: [
-                    {
-                        name: "Guarani Ayvu",
-                        url: "https://play.google.com/store/apps/details?id=org.populistech",
-                        features: ["Translation app", "50,000+ downloads", "Spanish-English-Guaraní support", "2021 launch"]
+                        level: "Multiple Levels"
                     },
                     {
                         name: "Live Lingua Project",
@@ -243,6 +235,13 @@ const guaraniResources = {
                         level: "Various"
                     },
                     {
+                        name: "Archive.org Guaraní Collection",
+                        url: "https://archive.org/",
+                        features: ["Historical texts collection", "Public domain manuscripts", "Multiple digital formats", "Searchable database interface"],
+                        free: true,
+                        level: "Advanced"
+                    },
+                    {
                         name: "Wikibooks Grammar",
                         url: "https://es.wikibooks.org/wiki/Guaraní/Gramática/Verbos_irregulares",
                         features: ["Comprehensive grammar guide", "Community-maintained content", "Detailed conjugation rules", "Free online access"],
@@ -256,6 +255,13 @@ const guaraniResources = {
             {
                 category: "Podcasts",
                 items: [
+                    {
+                        name: "Clases de Guaraní",
+                        url: "https://open.spotify.com/",
+                        features: ["10 educational programs", "Human rights organization", "COVID-19 creation period", "Bilingual Spanish/Guaraní"],
+                        free: true,
+                        level: "All Levels"
+                    },
                     {
                         name: "Expresividad del idioma",
                         url: "https://www.ivoox.com/",
@@ -275,6 +281,20 @@ const guaraniResources = {
             {
                 category: "Video Resources",
                 items: [
+                    {
+                        name: "Gilda Ferreira YouTube",
+                        url: "https://www.youtube.com/",
+                        features: ["Grammar and conversation lessons", "COVID-19 creation period", "Viral international reach", "Spanish subtitles available"],
+                        free: true,
+                        level: "All Ages"
+                    },
+                    {
+                        name: "David Galeano Olivera Channel",
+                        url: "https://www.youtube.com/",
+                        features: ["4+ structured chapters", "6-20 minute lessons", "Ateneo member instructor", "Cultural organization backing"],
+                        free: true,
+                        level: "Beginner to Intermediate"
+                    },
                     {
                         name: "Curso Guarani Videos",
                         url: "https://grunevi.com/curso-guarani-videos/",
@@ -300,9 +320,43 @@ const guaraniResources = {
                         features: ["Music and entertainment", "Google Play app", "National/international coverage", "News in Guaraní"],
                         free: true,
                         level: "All Levels"
-                    }]
+                    },
+                    {
+                        name: "Ayvu Marane'ÿ Channel",
+                        url: "https://www.youtube.com/",
+                        features: ["First 24-hour Guaraní TV", "Documentary programming focus", "Scientific-social content", "Mario Bogado direction"],
+                        free: true,
+                        level: "All Levels"
+                    }
+                ]
             }
-        ],,
+        ],
+        apps: [
+            {
+                category: "Mobile Apps",
+                items: [
+                    {
+                        name: "Guarani Ayvu",
+                        url: "https://play.google.com/store/apps/details?id=org.populistech",
+                        features: ["Translation app", "50,000+ downloads", "Spanish-English-Guaraní support", "2021 launch"],
+                        free: true
+                    },
+                    {
+                        name: "ArandukApp",
+                        url: "https://play.google.com/store/",
+                        features: ["Audio text reproduction", "SPL/GGG/FPUNA collaboration", "Original author texts"],
+                        free: true
+                    },
+                    {
+                        name: "Guarani Boliviano",
+                        url: "https://play.google.com/store/",
+                        features: ["Bolivian Guaraní dictionary", "Mingatics developer", "Indigenous language collection"],
+                        free: true
+                    },
+                    {
+                        name: "Duolingo Mobile",
+                        url: "https://www.duolingo.com/",
+                        features: ["Mobile web course", "Offline lesson access", "Progress tracking system", "Gamification elements"],
                         free: true
                     },
                     {

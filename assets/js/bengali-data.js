@@ -5,6 +5,7 @@ const bengaliResources = {
     learners: "3M+",
     speakers: "230M native",
     highlights: ["7th most spoken language globally", "UNESCO International Mother Language Day (Feb 21)", "Nobel laureate Rabindranath Tagore", "Dual dialects: Bangladeshi & West Bengali"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const bengaliResources = {
                         url: "https://swayam.gov.in/",
                         level: "Class 9 to Post-grad",
                         features: ["Indian government MOOC platform", "Bengali content and interface", "Credit transfer possible", "Mobile app with 4-quadrant approach", "Government recognition"],
-                        free: true,
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "Avro Keyboard",
-                        url: "https://www.omicronlab.com/avro-keyboard-download.html",
-                        level: "All users",
-                        features: ["Phonetic Bengali typing tool", "100% free and open source", "Spell checker included", "Multiple platforms support", "Most popular Bengali keyboard"]
+                        free: true
                     },
                     {
                         name: "Live Lingua Project",
@@ -249,10 +241,31 @@ const bengaliResources = {
                 category: "Audio and Video Resources",
                 items: [
                     {
+                        name: "Learn Bengali with LinguaBoost",
+                        url: "https://podcasts.apple.com/",
+                        level: "Beginner to intermediate",
+                        features: ["22 episodes podcast series", "Native pronunciation focus", "Contextual learning approach", "Bimonthly updates"],
+                        free: true
+                    },
+                    {
+                        name: "Bengali Learning Accelerator",
+                        url: "https://podcasts.apple.com/",
+                        level: "All levels",
+                        features: ["70+ episodes podcast", "Thousands of phrases with translations", "Subtitles available", "Comprehensive coverage"],
+                        free: true
+                    },
+                    {
                         name: "BanglaAudiobook.in",
                         url: "https://www.banglaaudiobook.in/",
                         level: "All levels",
                         features: ["Bengali audiobook platform", "Professional narration", "Classic literature focus", "Free streaming"],
+                        free: true
+                    },
+                    {
+                        name: "Kabbik Audiobook & Podcast",
+                        url: "https://play.google.com/store/apps/",
+                        level: "All levels",
+                        features: ["3000+ Bengali audiobooks app", "Background play support", "Minimal ads", "Children's content included"],
                         free: true
                     },
                     {
@@ -275,9 +288,34 @@ const bengaliResources = {
                         level: "All levels",
                         features: ["West Bengal radio service", "AM 1017 Kolkata frequency", "AIR app streaming", "Classic Bengali content"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "Bengali Audio Stories",
+                        url: "https://podcasts.apple.com/",
+                        level: "Intermediate",
+                        features: ["Suspense and thriller stories", "Weekly new episodes", "32-minute average length", "Entertainment learning"],
+                        free: true
+                    },
+                    {
+                        name: "SynapseLingo Learn Bengali",
+                        url: "https://podcasts.apple.com/",
+                        level: "All levels",
+                        features: ["Educational podcast", "Health, travel, digital topics", "Structured lessons", "Practical vocabulary"],
+                        free: true
+                    }
+                ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "Avro Keyboard",
+                        url: "https://www.omicronlab.com/avro-keyboard-download.html",
+                        level: "All users",
+                        features: ["Phonetic Bengali typing tool", "100% free and open source", "Spell checker included", "Multiple platforms support", "Most popular Bengali keyboard"],
                         free: true
                     },
                     {
@@ -288,10 +326,31 @@ const bengaliResources = {
                         free: true
                     },
                     {
+                        name: "Learn Bengali - 50 Languages",
+                        url: "https://play.google.com/store/apps/",
+                        level: "Beginner",
+                        features: ["Mobile learning app", "100 lessons included", "Completely free", "Offline audio support"],
+                        free: true
+                    },
+                    {
+                        name: "Ling - Learn Bengali",
+                        url: "https://play.google.com/store/apps/",
+                        level: "All levels",
+                        features: ["Language learning app", "Freemium model", "Flashcards and AI chatbot", "Games and interactive exercises"],
+                        free: true
+                    },
+                    {
                         name: "avro.im",
                         url: "https://avro.im/",
                         level: "All users",
                         features: ["Web-based Avro typing", "Browser-based solution", "No installation needed", "Instant access"],
+                        free: true
+                    },
+                    {
+                        name: "Ridmik Keyboard",
+                        url: "https://play.google.com/store/apps/",
+                        level: "All users",
+                        features: ["Mobile Bengali keyboard", "Free download", "Predictive text support", "Avro layout compatible"],
                         free: true
                     },
                     {
@@ -340,7 +399,15 @@ const bengaliResources = {
                         level: "All levels",
                         features: ["Online spell checker", "Free tool", "No plugins required", "Web-based checking"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "Bangla Dictionary++ (iOS)",
+                        url: "https://apps.apple.com/",
+                        level: "All levels",
+                        features: ["Mobile dictionary app", "350K+ words offline", "Camera scanning feature", "iOS optimized"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Typing Tools and Keyboards",
@@ -372,7 +439,15 @@ const bengaliResources = {
                         level: "All users",
                         features: ["Windows/Android keyboard", "Free download", "Multiple layouts available", "Prediction support"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "Avro Chrome Extension",
+                        url: "https://chrome.google.com/webstore/",
+                        level: "All users",
+                        features: ["Browser typing tool", "Free extension", "Offline typing support", "Dark mode available"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Flashcard and Vocabulary Tools",
@@ -420,6 +495,27 @@ const bengaliResources = {
             {
                 category: "Language Exchange Platforms",
                 items: [
+                    {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["Mobile language exchange", "Free access", "160+ languages support", "Text/voice/video options"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://tandem.net/",
+                        level: "All levels",
+                        features: ["Language partner app", "Free with premium options", "Global network access", "Verified users"],
+                        free: true
+                    },
+                    {
+                        name: "ConversationExchange",
+                        url: "https://www.conversationexchange.com/",
+                        level: "All levels",
+                        features: ["Web-based exchange", "Free platform", "Face-to-face and online options", "Partner matching"],
+                        free: true
+                    },
                     {
                         name: "Language.Exchange",
                         url: "https://en.language.exchange/language/BN-Bengali/",

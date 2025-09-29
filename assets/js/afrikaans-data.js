@@ -5,6 +5,7 @@ const afrikaansResources = {
     learners: "500K+",
     speakers: "7.2M native",
     highlights: ["Official language of South Africa & Namibia", "West Germanic language", "Strong government support", "Rich literary tradition"],
+
     resources: {
         courses: [
             {
@@ -15,16 +16,7 @@ const afrikaansResources = {
                         url: "https://www.easyafrikaans.com/",
                         level: "Beginner-Intermediate",
                         features: ["500 sentences", "Audio by native speakers", "Grammar lessons", "Crosswords", "Completely free"],
-                        free: true,
-        apps: [
-            {
-                category: "Mobile Apps and Software",
-                items: [
-                    {
-                        name: "AfrikaansPod101 App",
-                        url: "https://www.afrikaanspod101.com/",
-                        level: "All levels",
-                        features: ["Mobile companion", "7-day free trial", "Offline downloads"]
+                        free: true
                     },
                     {
                         name: "Afrikaans.us",
@@ -267,7 +259,24 @@ const afrikaansResources = {
                     }
                 ]
             }
-        ],,
+        ],
+
+        apps: [
+            {
+                category: "Mobile Apps and Software",
+                items: [
+                    {
+                        name: "Mondly Afrikaans",
+                        url: "https://www.mondly.com/",
+                        level: "All levels",
+                        features: ["Speech recognition", "Chatbot practice", "5000+ words", "Freemium", "Adaptive learning"],
+                        free: true
+                    },
+                    {
+                        name: "AfrikaansPod101 App",
+                        url: "https://www.afrikaanspod101.com/",
+                        level: "All levels",
+                        features: ["Mobile companion", "7-day free trial", "Offline downloads"],
                         free: true
                     },
                     {
@@ -278,12 +287,27 @@ const afrikaansResources = {
                         free: true
                     },
                     {
+                        name: "Anki",
+                        url: "https://ankiweb.net/",
+                        level: "All levels",
+                        features: ["Spaced repetition", "Community decks", "Free except iOS"],
+                        free: true
+                    },
+                    {
                         name: "Flashcardo",
                         url: "https://flashcardo.com/afrikaans-flashcards/",
                         level: "All levels",
                         features: ["1000 most common words", "Printable PDFs", "YouTube videos"],
                         free: true
-                    }]
+                    },
+                    {
+                        name: "50languages App",
+                        url: "https://www.50languages.com/",
+                        level: "Beginner",
+                        features: ["Companion to website", "Fully free", "Offline capability"],
+                        free: true
+                    }
+                ]
             },
             {
                 category: "Dictionaries and Language Tools",
@@ -345,7 +369,27 @@ const afrikaansResources = {
             {
                 category: "Language Exchange Platforms",
                 items: [
-                    
+                    {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["30+ million users globally", "Chat, voice messages", "Translation tools"],
+                        free: true
+                    },
+                    {
+                        name: "Tandem",
+                        url: "https://tandem.net/",
+                        level: "All levels",
+                        features: ["Swipe-based matching", "Voice/video calls", "Message correction"],
+                        free: true
+                    },
+                    {
+                        name: "ConversationExchange",
+                        url: "https://www.conversationexchange.com/",
+                        level: "All levels",
+                        features: ["Email-based connections", "Traditional approach", "Free registration"],
+                        free: true
+                    }
                 ]
             },
             {
