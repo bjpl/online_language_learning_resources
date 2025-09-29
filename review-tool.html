@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Review Tool - Language Learning Hub</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .progress-bar {
+            flex: 1;
+            margin: 0 30px;
+            background: #e9ecef;
+            height: 30px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #4caf50 0%, #8bc34a 100%);
+            height: 100%;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        /* Main Review Section */
+        .review-container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+            flex: 1;
+        }
+
+        /* Resource Card */
+        .resource-panel {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            width: 500px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .language-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #f8f9fa;
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .resource-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .resource-url {
+            color: #3498db;
+            text-decoration: none;
+            word-break: break-all;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .resource-url:hover {
+            text-decoration: underline;
+        }
+
+        .resource-details {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: #6c757d;
+        }
+
+        .features-list {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .features-list li {
+            padding: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .features-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4caf50;
+        }
+
+        /* Action Buttons */
+        .actions-section {
+            margin-top: auto;
+            padding-top: 20px;
+            border-top: 2px solid #f0f0f0;
+        }
+
+        .quick-checks {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .check-btn {
+            padding: 12px;
+            border: 2px solid #dee2e6;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 600;
+        }
+
+        .check-btn:hover {
+            background: #f8f9fa;
+        }
+
+        .check-btn.valid {
+            border-color: #4caf50;
+            background: #e8f5e9;
+        }
+
+        .check-btn.invalid {
+            border-color: #f44336;
+            background: #ffebee;
+        }
+
+        .check-btn.warning {
+            border-color: #ff9800;
+            background: #fff3e0;
+        }
+
+        .decision-buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .decision-btn {
+            padding: 15px 10px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: white;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .decision-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .btn-keep {
+            background: linear-gradient(135deg, #4caf50, #8bc34a);
+        }
+
+        .btn-delete {
+            background: linear-gradient(135deg, #f44336, #e91e63);
+        }
+
+        .btn-edit {
+            background: linear-gradient(135deg, #2196f3, #03a9f4);
+        }
+
+        .btn-review {
+            background: linear-gradient(135deg, #ff9800, #ffc107);
+        }
+
+        .shortcut-hint {
+            font-size: 11px;
+            opacity: 0.9;
+        }
+
+        /* Preview Panel */
+        .preview-panel {
+            flex: 1;
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .preview-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .preview-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .preview-btn {
+            padding: 8px 16px;
+            border: 1px solid #dee2e6;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .preview-btn:hover {
+            background: #f8f9fa;
+        }
+
+        .preview-frame {
+            flex: 1;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            background: #f8f9fa;
+        }
+
+        .no-preview {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: #6c757d;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        /* Stats Section */
+        .stats-section {
+            background: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-around;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .stat-label {
+            color: #6c757d;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        /* Skip/Navigation */
+        .nav-buttons {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-btn {
+            padding: 12px 24px;
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .nav-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        /* Notes Section */
+        .notes-section {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .notes-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            resize: vertical;
+            min-height: 80px;
+            font-family: inherit;
+        }
+
+        /* Export Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            margin-bottom: 20px;
+        }
+
+        .modal-body {
+            margin-bottom: 20px;
+        }
+
+        .export-stats {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .export-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #f8f9fa;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Progress -->
+    <div class="header">
+        <div class="header-content">
+            <div>
+                <h1 style="font-size: 20px; color: #2c3e50;">Resource Review Tool</h1>
+                <div style="color: #6c757d; font-size: 14px; margin-top: 5px;">
+                    Reviewing: <span id="current-category">All Resources</span>
+                </div>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill">
+                    <span id="progress-text">0 / 0</span>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="showExportModal()">Export Results</button>
+        </div>
+    </div>
+
+    <!-- Main Review Section -->
+    <div class="review-container">
+        <!-- Resource Details Panel -->
+        <div class="resource-panel">
+            <div class="language-badge">
+                <span id="language-flag">🌐</span>
+                <span id="language-name">Loading...</span>
+            </div>
+
+            <h2 class="resource-title" id="resource-name">Loading resource...</h2>
+            <a href="#" target="_blank" class="resource-url" id="resource-url">https://...</a>
+
+            <div class="resource-details">
+                <div class="detail-row">
+                    <span class="detail-label">Category:</span>
+                    <span id="resource-category">-</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Current Status:</span>
+                    <span id="resource-status">-</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Level:</span>
+                    <span id="resource-level">-</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Features:</span>
+                </div>
+                <ul class="features-list" id="features-list">
+                    <li>Loading features...</li>
+                </ul>
+            </div>
+
+            <div class="actions-section">
+                <h3 style="margin-bottom: 15px; color: #2c3e50;">Quick Checks</h3>
+                <div class="quick-checks">
+                    <button class="check-btn" id="check-valid" onclick="toggleCheck('valid')">
+                        ✓ Link Valid
+                    </button>
+                    <button class="check-btn" id="check-relevant" onclick="toggleCheck('relevant')">
+                        ✓ Relevant
+                    </button>
+                    <button class="check-btn" id="check-free" onclick="toggleCheck('free')">
+                        ✓ Actually Free
+                    </button>
+                </div>
+
+                <h3 style="margin-bottom: 15px; color: #2c3e50;">Decision</h3>
+                <div class="decision-buttons">
+                    <button class="decision-btn btn-keep" onclick="makeDecision('keep')">
+                        <span>✓ KEEP</span>
+                        <span class="shortcut-hint">[K]</span>
+                    </button>
+                    <button class="decision-btn btn-delete" onclick="makeDecision('delete')">
+                        <span>✗ DELETE</span>
+                        <span class="shortcut-hint">[D]</span>
+                    </button>
+                    <button class="decision-btn btn-edit" onclick="makeDecision('edit')">
+                        <span>✎ EDIT</span>
+                        <span class="shortcut-hint">[E]</span>
+                    </button>
+                    <button class="decision-btn btn-review" onclick="makeDecision('review')">
+                        <span>⚠ REVIEW</span>
+                        <span class="shortcut-hint">[R]</span>
+                    </button>
+                </div>
+
+                <div class="notes-section">
+                    <h3 style="margin-bottom: 10px; color: #2c3e50;">Notes</h3>
+                    <textarea class="notes-input" id="notes-input" placeholder="Add notes about this resource..."></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- Preview Panel -->
+        <div class="preview-panel">
+            <div class="preview-header">
+                <h3>Website Preview</h3>
+                <div class="preview-actions">
+                    <button class="preview-btn" onclick="openInNewTab()">Open in New Tab</button>
+                    <button class="preview-btn" onclick="refreshPreview()">Refresh</button>
+                </div>
+            </div>
+            <iframe id="preview-frame" class="preview-frame" src="" style="width: 100%; border: none;"></iframe>
+            <div class="no-preview" id="no-preview">
+                Click "Open in New Tab" to preview the website
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <button class="nav-btn" onclick="previousResource()">&larr; Previous</button>
+        <button class="nav-btn" onclick="skipResource()">Skip &rarr;</button>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats-section">
+        <div class="stat-item">
+            <div class="stat-value" id="stat-keep">0</div>
+            <div class="stat-label">Keep</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="stat-delete">0</div>
+            <div class="stat-label">Delete</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="stat-edit">0</div>
+            <div class="stat-label">Edit</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="stat-review">0</div>
+            <div class="stat-label">Review Later</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="stat-skipped">0</div>
+            <div class="stat-label">Skipped</div>
+        </div>
+    </div>
+
+    <!-- Export Modal -->
+    <div class="modal" id="export-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Export Review Results</h2>
+            </div>
+            <div class="modal-body">
+                <div class="export-stats" id="export-stats">
+                    <!-- Stats will be populated here -->
+                </div>
+                <div>
+                    <h3>Export Format:</h3>
+                    <select id="export-format" style="width: 100%; padding: 8px; margin: 10px 0;">
+                        <option value="json">JSON (for processing)</option>
+                        <option value="csv">CSV (for spreadsheets)</option>
+                        <option value="markdown">Markdown (for documentation)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="export-actions">
+                <button class="btn btn-secondary" onclick="closeExportModal()">Cancel</button>
+                <button class="btn btn-primary" onclick="exportData()">Download</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load Scripts -->
+    <script src="assets/js/data-simple.js"></script>
+
+    <!-- Load all language data files -->
+    <script src="assets/js/afrikaans-data.js"></script>
+    <script src="assets/js/arabic-data.js"></script>
+    <script src="assets/js/bengali-data.js"></script>
+    <script src="assets/js/bulgarian-data.js"></script>
+    <script src="assets/js/burmese-data.js"></script>
+    <script src="assets/js/cebuano-data.js"></script>
+    <script src="assets/js/chinese-data.js"></script>
+    <script src="assets/js/cree-data.js"></script>
+    <script src="assets/js/croatian-data.js"></script>
+    <script src="assets/js/czech-data.js"></script>
+    <script src="assets/js/dutch-data.js"></script>
+    <script src="assets/js/danish-data.js"></script>
+    <script src="assets/js/dari-data.js"></script>
+    <script src="assets/js/estonian-data.js"></script>
+    <script src="assets/js/portuguese-data.js"></script>
+    <script src="assets/js/italian-data.js"></script>
+    <script src="assets/js/indonesian-data.js"></script>
+    <script src="assets/js/inuktitut-data.js"></script>
+    <script src="assets/js/irish-data.js"></script>
+    <script src="assets/js/kazakh-data.js"></script>
+    <script src="assets/js/kannada-data.js"></script>
+    <script src="assets/js/korean-data.js"></script>
+    <script src="assets/js/lao-data.js"></script>
+    <script src="assets/js/latvian-data.js"></script>
+    <script src="assets/js/lithuanian-data.js"></script>
+    <script src="assets/js/german-data.js"></script>
+    <script src="assets/js/gujarati-data.js"></script>
+    <script src="assets/js/greek-data.js"></script>
+    <script src="assets/js/guarani-data.js"></script>
+    <script src="assets/js/hausa-data.js"></script>
+    <script src="assets/js/hebrew-data.js"></script>
+    <script src="assets/js/hungarian-data.js"></script>
+    <script src="assets/js/french-data.js"></script>
+    <script src="assets/js/spanish-data.js"></script>
+    <script src="assets/js/malay-data.js"></script>
+    <script src="assets/js/marathi-data.js"></script>
+    <script src="assets/js/mongolian-data.js"></script>
+    <script src="assets/js/navajo-data.js"></script>
+    <script src="assets/js/nahuatl-data.js"></script>
+    <script src="assets/js/nepali-data.js"></script>
+    <script src="assets/js/pashto-data.js"></script>
+    <script src="assets/js/russian-data.js"></script>
+    <script src="assets/js/tagalog-data.js"></script>
+    <script src="assets/js/romanian-data.js"></script>
+    <script src="assets/js/hindi-data.js"></script>
+    <script src="assets/js/hmong-data.js"></script>
+    <script src="assets/js/swahili-data.js"></script>
+    <script src="assets/js/tamil-data.js"></script>
+    <script src="assets/js/telugu-data.js"></script>
+    <script src="assets/js/thai-data.js"></script>
+    <script src="assets/js/ukrainian-data.js"></script>
+    <script src="assets/js/urdu-data.js"></script>
+    <script src="assets/js/japanese-data.js"></script>
+    <script src="assets/js/serbian-data.js"></script>
+    <script src="assets/js/sign-language-data.js"></script>
+    <script src="assets/js/slovak-data.js"></script>
+    <script src="assets/js/swedish-data.js"></script>
+    <script src="assets/js/finnish-data.js"></script>
+    <script src="assets/js/flemish-data.js"></script>
+    <script src="assets/js/polish-data.js"></script>
+    <script src="assets/js/punjabi-data.js"></script>
+    <script src="assets/js/quechua-data.js"></script>
+    <script src="assets/js/persian-data.js"></script>
+    <script src="assets/js/vietnamese-data.js"></script>
+    <script src="assets/js/welsh-data.js"></script>
+    <script src="assets/js/yoruba-data.js"></script>
+    <script src="assets/js/wolof-data.js"></script>
+
+    <!-- Load review tool logic -->
+    <script src="assets/js/review-tool.js"></script>
+</body>
+</html>
