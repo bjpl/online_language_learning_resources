@@ -1,0 +1,127 @@
+{
+  "date": "2025-09-29T05:50:14.703Z",
+  "totalFixed": 24,
+  "backupLocation": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_apps_fix_2025-09-29T05-50-14-611Z",
+  "fixedFiles": [
+    {
+      "file": "cebuano-data.js",
+      "language": "cebuano",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "croatian-data.js",
+      "language": "croatian",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "dari-data.js",
+      "language": "dari",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "gujarati-data.js",
+      "language": "gujarati",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "hausa-data.js",
+      "language": "hausa",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "hmong-data.js",
+      "language": "hmong",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "hungarian-data.js",
+      "language": "hungarian",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "inuktitut-data.js",
+      "language": "inuktitut",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "irish-data.js",
+      "language": "irish",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "kannada-data.js",
+      "language": "kannada",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "lao-data.js",
+      "language": "lao",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "mongolian-data.js",
+      "language": "mongolian",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "navajo-data.js",
+      "language": "navajo",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "nepali-data.js",
+      "language": "nepali",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "pashto-data.js",
+      "language": "pashto",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "punjabi-data.js",
+      "language": "punjabi",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "quechua-data.js",
+      "language": "quechua",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "sign-language-data.js",
+      "language": "sign-language",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "slovak-data.js",
+      "language": "slovak",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "telugu-data.js",
+      "language": "telugu",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "ukrainian-data.js",
+      "language": "ukrainian",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "urdu-data.js",
+      "language": "urdu",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "welsh-data.js",
+      "language": "welsh",
+      "action": "Added empty apps array"
+    },
+    {
+      "file": "yoruba-data.js",
+      "language": "yoruba",
+      "action": "Added empty apps array"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "file": "afrikaans-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "arabic-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "bengali-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "bulgarian-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "burmese-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "chinese-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "cree-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "danish-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "dutch-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "estonian-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "finnish-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "flemish-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "french-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "german-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "greek-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "guarani-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "hindi-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "indonesian-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "italian-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "japanese-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "kazakh-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "korean-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "latvian-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "lithuanian-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "malay-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "marathi-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "nahuatl-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "persian-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "polish-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "portuguese-data.js",
+    "status": "OK",
+    "message": "Has empty apps array (valid)"
+  },
+  {
+    "file": "romanian-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "russian-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "serbian-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "spanish-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "swahili-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "swedish-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "tagalog-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "tamil-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "thai-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "vietnamese-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  },
+  {
+    "file": "wolof-data.js",
+    "status": "OK",
+    "message": "Has apps with content"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "file": "cebuano-data.js",
+    "language": "cebuano",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "croatian-data.js",
+    "language": "croatian",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "dari-data.js",
+    "language": "dari",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "gujarati-data.js",
+    "language": "gujarati",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "hausa-data.js",
+    "language": "hausa",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "hmong-data.js",
+    "language": "hmong",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "hungarian-data.js",
+    "language": "hungarian",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "inuktitut-data.js",
+    "language": "inuktitut",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "irish-data.js",
+    "language": "irish",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "kannada-data.js",
+    "language": "kannada",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "lao-data.js",
+    "language": "lao",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "mongolian-data.js",
+    "language": "mongolian",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "navajo-data.js",
+    "language": "navajo",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "nepali-data.js",
+    "language": "nepali",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "pashto-data.js",
+    "language": "pashto",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "portuguese-data.js",
+    "language": "portuguese",
+    "issues": [
+      "Empty apps array"
+    ],
+    "snippet": "\r\n        "
+  },
+  {
+    "file": "punjabi-data.js",
+    "language": "punjabi",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "quechua-data.js",
+    "language": "quechua",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "sign-language-data.js",
+    "language": "sign-language",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "slovak-data.js",
+    "language": "slovak",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "telugu-data.js",
+    "language": "telugu",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "ukrainian-data.js",
+    "language": "ukrainian",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "urdu-data.js",
+    "language": "urdu",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "welsh-data.js",
+    "language": "welsh",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  },
+  {
+    "file": "yoruba-data.js",
+    "language": "yoruba",
+    "issues": [
+      "No apps section found"
+    ],
+    "snippet": "N/A"
+  }
+]
