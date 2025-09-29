@@ -82,8 +82,8 @@ const danishResources = {
                         free: true
                     }
                 ]
-            },
-            {
+                    },
+                    {
                 category: "Government and University Programs",
                 items: [
                     {
@@ -175,8 +175,8 @@ const danishResources = {
                         free: true
                     }
                 ]
-            },
-            {
+                    },
+                    {
                 category: "Grammar Resources",
                 items: [
                     {
@@ -228,8 +228,8 @@ const danishResources = {
                         free: true
                     }
                 ]
-            },
-            {
+                    },
+                    {
                 category: "Literature and Reading",
                 items: [
                     {
@@ -305,8 +305,8 @@ const danishResources = {
                         free: true
                     }
                 ]
-            },
-            {
+                    },
+                    {
                 category: "YouTube Channels",
                 items: [
                     {
@@ -374,8 +374,8 @@ const danishResources = {
                         free: true
                     }
                 ]
-            },
-            {
+                    },
+                    {
                 category: "News and Media",
                 items: [
                     {
@@ -416,52 +416,57 @@ const danishResources = {
 
         apps: [
             {
-                name: "GroVo Danish",
+                category: "Mobile Apps and Software",
+                items: [
+                    {
+                        name: "GroVo Danish",
                 url: "https://grovo.org/grovo-danish/",
                 description: "100% free vocabulary app with 186,000+ sentences",
                 level: "All levels",
                 features: ["No ads", "No data collection", "Comprehensible input method"],
                 free: true
-            },
-            {
-                name: "Learn Danish Offline Lite",
+                    },
+                    {
+                        name: "Learn Danish Offline Lite",
                 url: "https://learn-danish-offline-lite.en.softonic.com/android",
                 description: "1,305 common Danish phrases offline",
                 level: "A1-B1",
                 features: ["Works without internet", "Conversation practice"],
                 free: true
-            },
-            {
+                    },
+                    {
                 name: "FunEasyLearn Danish",
                 url: "App stores",
                 description: "6,000 Danish words with images and audio",
                 level: "All levels",
                 features: ["Unlock all content free by earning flowers", "15 thematic topics"],
                 free: true
-            },
-            {
+                    },
+                    {
                 name: "Learn Danish (MetaLanguage)",
                 url: "Google Play Store",
                 description: "Simple Danish learning with offline access",
                 level: "A1-C1",
                 features: ["High-quality translations", "Favorite lists"],
                 free: true
-            },
-            {
+                    },
+                    {
                 name: "Flashcardo Danish",
                 url: "https://flashcardo.com/danish-flashcards/",
                 description: "1,000+ vocabulary flashcards",
                 level: "A1-B1",
                 features: ["Spaced repetition", "Printable PDFs", "Frequency-based"],
                 free: true
-            },
-            {
+                    },
+                    {
                 name: "Clozemaster Danish",
                 url: "https://www.clozemaster.com/blog/danish-tenses/",
                 description: "Context-based learning",
                 level: "B1-C1",
                 features: ["Fill-in-the-blank", "Gamified approach"],
                 free: true
+                    }
+                ]
             }
         ],
 
@@ -502,8 +507,8 @@ const danishResources = {
                         free: true
                     }
                 ]
-            },
-            {
+                    },
+                    {
                 category: "Dictionaries and Tools",
                 items: [
                     {
@@ -555,8 +560,8 @@ const danishResources = {
                         free: true
                     }
                 ]
-            },
-            {
+                    },
+                    {
                 category: "OER and Academic Resources",
                 items: [
                     {

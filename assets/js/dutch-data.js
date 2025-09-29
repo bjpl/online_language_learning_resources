@@ -216,13 +216,17 @@ const dutchResources = {
 
         apps: [
             {
-                name: "Anki + Dutch Decks",
-                url: "https://ankiweb.net/shared/decks?search=Dutch",
-                level: "All levels",
-                features: ["Free app", "Thousands of Dutch cards available"],
-                free: true
+                category: "Mobile Apps and Software",
+                items: [
+                    {
+                        name: "Anki + Dutch Decks",
+                        url: "https://ankiweb.net/shared/decks?search=Dutch",
+                        level: "All levels",
+                        features: ["Free app", "Thousands of Dutch cards available"],
+                        free: true
+                    }
+                ]
             }
-        
         ],
 
         practice: [
