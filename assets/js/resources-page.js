@@ -81,13 +81,28 @@
             // Process apps
             if (lang.resources?.apps || lang.apps) {
                 if (Array.isArray(lang.resources?.apps || lang.apps)) {
-                    (lang.resources?.apps || lang.apps).forEach(app => {
-                        allResources.apps.push({
-                            ...app,
-                            language: langKey,
-                            languageName: lang.name,
-                            languageFlag: lang.flag
-                        });
+                    (lang.resources?.apps || lang.apps).forEach(category => {
+                        // Check if this is a category with items or a direct app item
+                        if (category.items && Array.isArray(category.items)) {
+                            // It's a category with items - iterate through the items
+                            category.items.forEach(app => {
+                                allResources.apps.push({
+                                    ...app,
+                                    language: langKey,
+                                    languageName: lang.name,
+                                    languageFlag: lang.flag,
+                                    category: category.category
+                                });
+                            });
+                        } else if (category.name) {
+                            // It's a direct app item (legacy structure)
+                            allResources.apps.push({
+                                ...category,
+                                language: langKey,
+                                languageName: lang.name,
+                                languageFlag: lang.flag
+                            });
+                        }
                     });
                 }
             }
