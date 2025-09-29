@@ -21,7 +21,15 @@ const guaraniResources = {
                         url: "http://maitei.uni.edu.py/login",
                         features: ["Virtual university learning platform", "Gamified multimedia content", "CONACYT funded (G. 493M)", "Communicative methodology approach"],
                         free: true,
-                        level: "Multiple Levels"
+                        level: "Multiple Levels",
+        apps: [
+            {
+                category: "Mobile Apps",
+                items: [
+                    {
+                        name: "Guarani Ayvu",
+                        url: "https://play.google.com/store/apps/details?id=org.populistech",
+                        features: ["Translation app", "50,000+ downloads", "Spanish-English-Guaraní support", "2021 launch"]
                     },
                     {
                         name: "Live Lingua Project",
@@ -294,15 +302,7 @@ const guaraniResources = {
                         level: "All Levels"
                     }]
             }
-        ],
-        apps: [
-            {
-                category: "Mobile Apps",
-                items: [
-                    {
-                        name: "Guarani Ayvu",
-                        url: "https://play.google.com/store/apps/details?id=org.populistech",
-                        features: ["Translation app", "50,000+ downloads", "Spanish-English-Guaraní support", "2021 launch"],
+        ],,
                         free: true
                     },
                     {

@@ -5,7 +5,6 @@ const frenchResources = {
     learners: "82M",
     speakers: "274M native",
     highlights: ["Global language across 5 continents", "UN and EU official language", "Rich cultural and literary heritage", "Gateway to Francophone world"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const frenchResources = {
                         url: "https://www.fun-mooc.fr/en/",
                         level: "All levels",
                         features: ["550+ courses", "Official government platform", "Free certificates", "University-quality content"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps & Software",
+                items: [
+                    {
+                        name: "TV5MONDE App",
+                        url: "https://apprendre.tv5monde.com/",
+                        level: "A1-B2",
+                        features: ["Completely free", "Real TV content", "Authentic French media"]
                     },
                     {
                         name: "Vivre en France Series",
@@ -256,17 +264,7 @@ const frenchResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps & Software",
-                items: [
-                    {
-                        name: "TV5MONDE App",
-                        url: "https://apprendre.tv5monde.com/",
-                        level: "A1-B2",
-                        features: ["Completely free", "Real TV content", "Authentic French media"],
+        ],,
                         free: true
                     },
                     {

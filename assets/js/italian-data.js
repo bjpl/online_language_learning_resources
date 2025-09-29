@@ -24,7 +24,14 @@ languageData.italian = {
                         url: "https://www.edx.org/learn/italian/wellesley-college-italian-language-and-culture-beginner-2025-2026",
                         free: true,
                         level: "A1-B2",
-                        features: ["12 weeks free access", "Mobile app", "Downloadable podcasts", "Grammar charts with audio"]
+                        features: ["12 weeks free access", "Mobile app", "Downloadable podcasts", "Grammar charts with audio"],
+        apps: [
+            {
+                name: "Duolingo Italian",
+                url: "https://www.duolingo.com/course/it/en/Learn-Italian",
+                free: true,
+                level: "A1-B2",
+                features: ["100% free core content", "Mobile offline mode", "Speech recognition", "Stories feature"]
                     },
                     {
                         name: "MIT OpenCourseWare",
@@ -93,14 +100,6 @@ languageData.italian = {
                 ]
             }
         ],
-
-        apps: [
-            {
-                name: "Duolingo Italian",
-                url: "https://www.duolingo.com/course/it/en/Learn-Italian",
-                free: true,
-                level: "A1-B2",
-                features: ["100% free core content", "Mobile offline mode", "Speech recognition", "Stories feature"]
             },
             {
                 name: "Toucan",
@@ -123,7 +122,6 @@ languageData.italian = {
                 level: "A1-B2",
                 features: ["Multiple question types", "Portable", "Progress tracking"]
             }],
-
         books: [
             {
                 category: "Free Textbooks",

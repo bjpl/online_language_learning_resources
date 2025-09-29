@@ -5,7 +5,6 @@ const kazakhResources = {
     learners: "500K+",
     speakers: "12M native",
     highlights: ["Active Cyrillic → Latin script transition (by 2031)", "Strong government support (Otandastar Foundation)", "Turkic language family", "Official language of Kazakhstan"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const kazakhResources = {
                         url: "https://oq.gov.kz/en/p-learning",
                         level: "All levels",
                         features: ["Official Kazakhstan government courses", "Free enrollment", "WhatsApp contact: +8 701 000 1404", "31 classrooms in 12 countries", "Government backing"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "LinGo Play",
+                        url: "https://www.lingo-play.com/en/learn-kazakh-language/",
+                        level: "All levels",
+                        features: ["Gamified mobile learning", "iOS and Android support", "Leaderboards included", "Offline support", "Interactive games"]
                     },
                     {
                         name: "Live Lingua Project",
@@ -226,17 +234,7 @@ const kazakhResources = {
                     
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "LinGo Play",
-                        url: "https://www.lingo-play.com/en/learn-kazakh-language/",
-                        level: "All levels",
-                        features: ["Gamified mobile learning", "iOS and Android support", "Leaderboards included", "Offline support", "Interactive games"],
+        ],,
                         free: true
                     },
                     {

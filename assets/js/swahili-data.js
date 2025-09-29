@@ -18,7 +18,13 @@
                             url: 'https://www.duolingo.com/course/sw/en/Learn-Swahili',
                             free: true,
                             level: 'Beginner to Intermediate (A1-B1)',
-                            features: ['Streak system', 'Leaderboards', 'Mobile app', 'Writing exercises']
+                            features: ['Streak system', 'Leaderboards', 'Mobile app', 'Writing exercises'],
+        apps: [ {
+                    name: 'Swahili Dictionary',
+                    url: 'https://swahili-dictionary.com',
+                    free: true,
+                    platform: 'iOS, Android',
+                    features: ['Offline access', '14,000+ entries']
                         },
                         {
                             name: 'St. Lawrence University',
@@ -76,16 +82,8 @@
                     ]
                 }
             ],
-
-            apps: [ {
-                    name: 'Swahili Dictionary',
-                    url: 'https://swahili-dictionary.com',
-                    free: true,
-                    platform: 'iOS, Android',
-                    features: ['Offline access', '14,000+ entries']
                 }
             ],
-
             books: [
                 {
                     category: 'Textbooks & Grammar Guides',

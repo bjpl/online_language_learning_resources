@@ -5,7 +5,6 @@ const wolofResources = {
     learners: "200K+",
     speakers: "10M native",
     highlights: ["Official language of Senegal", "Spoken in Senegal, Gambia, Mauritania", "Growing digital presence", "Rich oral tradition"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const wolofResources = {
                         url: "http://aflang.humanities.ucla.edu/language-courses/wolof/",
                         level: "Beginner to Intermediate",
                         features: ["5 chapters with video", "Native speaker conversations", "PDF materials", "Cultural context", "Open-source format"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "Learn Wolof - Linguarena",
+                        url: "https://play.google.com/store/apps/details?id=com.wolof",
+                        level: "Beginner to Intermediate",
+                        features: ["Android app", "15 audio dialogues", "1238+ dictionary entries", "Spaced repetition", "Comic-strip dialogues"]
                     },
                     {
                         name: "Janga Wolof Platform",
@@ -226,17 +234,7 @@ const wolofResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "Learn Wolof - Linguarena",
-                        url: "https://play.google.com/store/apps/details?id=com.wolof",
-                        level: "Beginner to Intermediate",
-                        features: ["Android app", "15 audio dialogues", "1238+ dictionary entries", "Spaced repetition", "Comic-strip dialogues"],
+        ],,
                         free: true
                     },
                     {

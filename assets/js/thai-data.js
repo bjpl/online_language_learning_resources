@@ -5,7 +5,6 @@ const thaiResources = {
     learners: "10M+",
     speakers: "60M native",
     highlights: ["Official language of Thailand", "Tonal language with 5 tones", "Unique Thai script", "Rich cultural heritage"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const thaiResources = {
                         url: "https://thaimooc.ac.th/",
                         level: "All levels",
                         features: ["700+ courses", "Ministry of Higher Education", "Free digital certificates", "Credit banking for degree transfer", "1.5M learners"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Mobile Apps for Thai Learning",
+                items: [
+                    {
+                        name: "ThaiPod101 App",
+                        url: "https://www.thaipod101.com/",
+                        level: "All levels",
+                        features: ["Free lifetime account", "500+ lessons", "Offline downloads", "Audio/video lessons"]
                     },
                     {
                         name: "Chula MOOC - Thai for Daily Communication",
@@ -204,17 +212,7 @@ const thaiResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Mobile Apps for Thai Learning",
-                items: [
-                    {
-                        name: "ThaiPod101 App",
-                        url: "https://www.thaipod101.com/",
-                        level: "All levels",
-                        features: ["Free lifetime account", "500+ lessons", "Offline downloads", "Audio/video lessons"],
+        ],,
                         free: true
                     },
                     {

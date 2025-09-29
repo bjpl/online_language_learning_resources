@@ -5,7 +5,6 @@ const malayResources = {
     learners: "5M+",
     speakers: "290M total",
     highlights: ["Official language in 4 countries", "85%+ mutual intelligibility with Indonesian", "Rich literary heritage", "Jawi script tradition"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const malayResources = {
                         url: "https://www.futurelearn.com/courses/intoduction-to-malay-language",
                         level: "Beginner",
                         features: ["3-week course by Universiti Malaya", "Video lessons with English subtitles", "Cultural insights", "Certificate available"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Dictionaries and Language Tools",
+                items: [
+                    {
+                        name: "PRPM (DBP Official Dictionary)",
+                        url: "https://prpm.dbp.gov.my/Search",
+                        level: "All levels",
+                        features: ["Official Malaysian government dictionary", "Comprehensive definitions", "Thesaurus", "Completely free"]
                     },
                     {
                         name: "Malaysia MOOCs Platform",
@@ -261,17 +269,7 @@ const malayResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Dictionaries and Language Tools",
-                items: [
-                    {
-                        name: "PRPM (DBP Official Dictionary)",
-                        url: "https://prpm.dbp.gov.my/Search",
-                        level: "All levels",
-                        features: ["Official Malaysian government dictionary", "Comprehensive definitions", "Thesaurus", "Completely free"],
+        ],,
                         free: true
                     },
                     {

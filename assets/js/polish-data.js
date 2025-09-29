@@ -18,7 +18,13 @@
                             url: "https://www.duolingo.com/course/pl/en/Learn-Polish",
                             level: "A1-A2",
                             free: true,
-                            features: ["Mobile app", "Spaced repetition", "Streak tracking", "Offline mode (premium)"]
+                            features: ["Mobile app", "Spaced repetition", "Streak tracking", "Offline mode (premium)"],
+        apps: [{
+                    name: "LingoHut",
+                    url: "https://www.lingohut.com/",
+                    level: "A1-B1",
+                    free: true,
+                    features: ["No app needed", "No registration", "Games included", "Audio support"]
                         },
                         {
                             name: "EU Online Language Support",
@@ -106,16 +112,8 @@
                         }]
                 }
             ],
-
-            apps: [{
-                    name: "LingoHut",
-                    url: "https://www.lingohut.com/",
-                    level: "A1-B1",
-                    free: true,
-                    features: ["No app needed", "No registration", "Games included", "Audio support"]
                 }
             ],
-
             books: [
                 {
                     category: "Digital Libraries",

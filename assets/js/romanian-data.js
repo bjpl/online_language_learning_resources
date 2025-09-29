@@ -5,7 +5,6 @@ const romanianResources = {
     learners: "1M+",
     speakers: "24M native",
     highlights: ["Romance language", "Official in Romania & Moldova", "Strong French resources", "Rich literary tradition"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const romanianResources = {
                         url: "https://learnromanian.org/",
                         level: "Beginner-Advanced",
                         features: ["Complete free course", "Native teachers", "Mnemonic approach", "30-day fluency claim", "Cultural insights"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Mobile Apps and Software",
+                items: [
+                    {
+                        name: "Duolingo Romanian",
+                        url: "https://www.duolingo.com/course/ro/en/Learn-Romanian",
+                        level: "Beginner-Intermediate",
+                        features: ["Gamified learning", "Free with ads", "Offline capability"]
                     },
                     {
                         name: "Live Lingua Peace Corps",
@@ -322,17 +330,7 @@ const romanianResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Mobile Apps and Software",
-                items: [
-                    {
-                        name: "Duolingo Romanian",
-                        url: "https://www.duolingo.com/course/ro/en/Learn-Romanian",
-                        level: "Beginner-Intermediate",
-                        features: ["Gamified learning", "Free with ads", "Offline capability"],
+        ],,
                         free: true
                     },
                     {

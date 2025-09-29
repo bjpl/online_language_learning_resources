@@ -5,7 +5,6 @@ const marathiResources = {
     learners: "2M+",
     speakers: "83M native",
     highlights: ["11th most spoken language globally", "Classical language status (2024)", "Exceptional government digital resources", "Strong literary tradition (13th century)"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const marathiResources = {
                         url: "https://onlinecourses.swayam2.ac.in/nou25_lg30/preview",
                         level: "Beginner to Intermediate",
                         features: ["12-week comprehensive course", "Script, phonetics, grammar, culture", "Free learning with paid certificate option", "4 credits", "Structured progression"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software Tools",
+                items: [
+                    {
+                        name: "Desh Marathi Keyboard",
+                        url: "https://www.deshkeyboard.com/",
+                        level: "All levels",
+                        features: ["Transliteration keyboard", "Voice typing support", "Handwriting recognition", "Mobile app"]
                     },
                     {
                         name: "SWAYAM - Marathi Bhasha Parichay 1 (BHU)",
@@ -331,17 +339,7 @@ const marathiResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software Tools",
-                items: [
-                    {
-                        name: "Desh Marathi Keyboard",
-                        url: "https://www.deshkeyboard.com/",
-                        level: "All levels",
-                        features: ["Transliteration keyboard", "Voice typing support", "Handwriting recognition", "Mobile app"],
+        ],,
                         free: true
                     },
                     {

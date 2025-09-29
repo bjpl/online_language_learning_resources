@@ -79,9 +79,9 @@
             }
 
             // Process apps
-            if (lang.resources.apps) {
-                if (Array.isArray(lang.resources.apps)) {
-                    lang.resources.apps.forEach(app => {
+            if (lang.resources?.apps || lang.apps) {
+                if (Array.isArray(lang.resources?.apps || lang.apps)) {
+                    (lang.resources?.apps || lang.apps).forEach(app => {
                         allResources.apps.push({
                             ...app,
                             language: langKey,

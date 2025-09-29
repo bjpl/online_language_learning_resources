@@ -22,7 +22,13 @@
                             url: "https://openbooks.lib.msu.edu/vietnamese/",
                             level: "Novice to Intermediate-Low",
                             free: true,
-                            features: ["Creative Commons license", "Multimedia materials", "Native speaker audio", "Comprehensive curriculum"]
+                            features: ["Creative Commons license", "Multimedia materials", "Native speaker audio", "Comprehensive curriculum"],
+        apps: [ {
+                    name: "Vietnamese by Nemo",
+                    url: "iOS/Android app stores",
+                    level: "Beginner",
+                    free: true,
+                    features: ["Basic version free", "Offline capable", "Audio pronunciation", "Travel focus"]
                         },
                         {
                             name: "Intermediate Vietnamese (MSU)",
@@ -93,13 +99,6 @@
                     ]
                 }
             ],
-
-            apps: [ {
-                    name: "Vietnamese by Nemo",
-                    url: "iOS/Android app stores",
-                    level: "Beginner",
-                    free: true,
-                    features: ["Basic version free", "Offline capable", "Audio pronunciation", "Travel focus"]
                 }, {
                     name: "Digital Dialects",
                     url: "https://www.digitaldialects.com/Vietnamese.htm",
@@ -114,7 +113,6 @@
                     features: ["VNI support", "Telex support", "Most popular IME", "Windows/Mac/Linux"]
                 }
             ],
-
             books: [
                 {
                     category: "Digital Libraries",

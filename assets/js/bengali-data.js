@@ -5,7 +5,6 @@ const bengaliResources = {
     learners: "3M+",
     speakers: "230M native",
     highlights: ["7th most spoken language globally", "UNESCO International Mother Language Day (Feb 21)", "Nobel laureate Rabindranath Tagore", "Dual dialects: Bangladeshi & West Bengali"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const bengaliResources = {
                         url: "https://swayam.gov.in/",
                         level: "Class 9 to Post-grad",
                         features: ["Indian government MOOC platform", "Bengali content and interface", "Credit transfer possible", "Mobile app with 4-quadrant approach", "Government recognition"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "Avro Keyboard",
+                        url: "https://www.omicronlab.com/avro-keyboard-download.html",
+                        level: "All users",
+                        features: ["Phonetic Bengali typing tool", "100% free and open source", "Spell checker included", "Multiple platforms support", "Most popular Bengali keyboard"]
                     },
                     {
                         name: "Live Lingua Project",
@@ -269,17 +277,7 @@ const bengaliResources = {
                         free: true
                     }]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "Avro Keyboard",
-                        url: "https://www.omicronlab.com/avro-keyboard-download.html",
-                        level: "All users",
-                        features: ["Phonetic Bengali typing tool", "100% free and open source", "Spell checker included", "Multiple platforms support", "Most popular Bengali keyboard"],
+        ],,
                         free: true
                     },
                     {

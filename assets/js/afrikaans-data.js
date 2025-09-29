@@ -5,7 +5,6 @@ const afrikaansResources = {
     learners: "500K+",
     speakers: "7.2M native",
     highlights: ["Official language of South Africa & Namibia", "West Germanic language", "Strong government support", "Rich literary tradition"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const afrikaansResources = {
                         url: "https://www.easyafrikaans.com/",
                         level: "Beginner-Intermediate",
                         features: ["500 sentences", "Audio by native speakers", "Grammar lessons", "Crosswords", "Completely free"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Mobile Apps and Software",
+                items: [
+                    {
+                        name: "AfrikaansPod101 App",
+                        url: "https://www.afrikaanspod101.com/",
+                        level: "All levels",
+                        features: ["Mobile companion", "7-day free trial", "Offline downloads"]
                     },
                     {
                         name: "Afrikaans.us",
@@ -259,17 +267,7 @@ const afrikaansResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Mobile Apps and Software",
-                items: [
-                    {
-                        name: "AfrikaansPod101 App",
-                        url: "https://www.afrikaanspod101.com/",
-                        level: "All levels",
-                        features: ["Mobile companion", "7-day free trial", "Offline downloads"],
+        ],,
                         free: true
                     },
                     {

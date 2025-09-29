@@ -22,7 +22,15 @@ const nahuatlResources = {
                         url: "https://tlahtolli.coerll.utexas.edu/",
                         features: ["Self-paced multimedia course", "Huasteca Veracruz variant", "Interactive lessons with audio", "Grammar and reading exercises", "IDIEZ collaboration"],
                         free: true,
-                        level: "All levels"
+                        level: "All levels",
+        apps: [
+            {
+                category: "Mobile Apps (Nahuatl-Specific Content)",
+                items: [
+                    {
+                        name: "Totlahtol Dictionary",
+                        url: "https://apps.apple.com/us/app/totlahtol-nahuatl/id1182991493",
+                        features: ["Comprehensive dictionary app", "Huasteca Veracruz variety", "English-Nahuatl-Spanish", "iOS and Android"]
                     },
                     {
                         name: "David Bowles Classical Nahuatl 101",
@@ -285,15 +293,7 @@ const nahuatlResources = {
                         level: "All levels"
                     }]
             }
-        ],
-        apps: [
-            {
-                category: "Mobile Apps (Nahuatl-Specific Content)",
-                items: [
-                    {
-                        name: "Totlahtol Dictionary",
-                        url: "https://apps.apple.com/us/app/totlahtol-nahuatl/id1182991493",
-                        features: ["Comprehensive dictionary app", "Huasteca Veracruz variety", "English-Nahuatl-Spanish", "iOS and Android"],
+        ],,
                         free: true,
                         level: "All levels"
                     },

@@ -5,7 +5,6 @@ const arabicResources = {
     learners: "50M+",
     speakers: "420M native",
     highlights: ["22 Arabic-speaking countries", "5th most spoken language globally", "UNESCO cultural heritage", "Strong government support"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const arabicResources = {
                         url: "https://learnarabiconline.ksu.edu.sa/Intro/IntroEn.aspx",
                         level: "Beginner+",
                         features: ["Comprehensive 12-unit program", "Completely FREE", "300 assessment questions", "Chat rooms", "Based on 'Arabic for the World' textbook"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "ArabEngo",
+                        url: "https://github.com/michaelsboost/ArabEngo",
+                        level: "All levels",
+                        features: ["Open source Arabic learning app", "Text-to-speech", "Chat functionality", "Creative Commons license"]
                     },
                     {
                         name: "Coursera - Arabic for Beginners",
@@ -244,17 +252,7 @@ const arabicResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "ArabEngo",
-                        url: "https://github.com/michaelsboost/ArabEngo",
-                        level: "All levels",
-                        features: ["Open source Arabic learning app", "Text-to-speech", "Chat functionality", "Creative Commons license"],
+        ],,
                         free: true
                     },
                     {

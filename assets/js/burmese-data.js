@@ -5,7 +5,6 @@ const burmeseResources = {
     learners: "1M+",
     speakers: "33M native",
     highlights: ["Official language of Myanmar", "Tibeto-Burman language family", "Unique circular script", "Rich Buddhist heritage"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const burmeseResources = {
                         url: "https://www.parami.edu.mm/post/parami-cultivating-thought-leadership-through-burmese-language-program",
                         level: "College-level",
                         features: ["Semester-long critical thinking course", "40 study groups", "20 instructors, 600 students", "Humanities/philosophy focus", "16-week program"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software Tools",
+                items: [
+                    {
+                        name: "Ling App",
+                        url: "https://ling-app.com/blog/burmese-language-app/",
+                        level: "All levels",
+                        features: ["Comprehensive mobile learning", "Writing practice", "Chatbot", "200+ lessons", "7-day free trial"]
                     },
                     {
                         name: "SOAS Burmese Beginners",
@@ -341,17 +349,7 @@ const burmeseResources = {
                         free: true
                     }]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software Tools",
-                items: [
-                    {
-                        name: "Ling App",
-                        url: "https://ling-app.com/blog/burmese-language-app/",
-                        level: "All levels",
-                        features: ["Comprehensive mobile learning", "Writing practice", "Chatbot", "200+ lessons", "7-day free trial"],
+        ],,
                         free: true
                     },
                     {

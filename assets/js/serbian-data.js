@@ -5,7 +5,6 @@ const serbianResources = {
     learners: "500K+",
     speakers: "12M native",
     highlights: ["Both Cyrillic and Latin scripts", "Ekavian and Ijekavian variants", "Strong government support", "Rich cultural heritage"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const serbianResources = {
                         url: "https://serbonika.com/",
                         level: "A1-C2",
                         features: ["24/7 web app", "Free intro course", "Both scripts", "8000+ students", "Professional school"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps, Software, and Digital Tools",
+                items: [
+                    {
+                        name: "Simply Learn Serbian",
+                        url: "https://simyasolutions.com/",
+                        level: "Beginner",
+                        features: ["Phrasebook approach", "300+ free phrases", "Native audio", "Both scripts"]
                     },
                     {
                         name: "Serbian Language Podcast",
@@ -293,17 +301,7 @@ const serbianResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps, Software, and Digital Tools",
-                items: [
-                    {
-                        name: "Simply Learn Serbian",
-                        url: "https://simyasolutions.com/",
-                        level: "Beginner",
-                        features: ["Phrasebook approach", "300+ free phrases", "Native audio", "Both scripts"],
+        ],,
                         free: true
                     },
                     {

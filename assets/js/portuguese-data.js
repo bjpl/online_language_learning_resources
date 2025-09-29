@@ -9,7 +9,6 @@ const portugueseResources = {
     learners: "35M",
     speakers: "260M native",
     highlights: ["Romance language roots", "Two major variants", "Growing economic importance", "Musical language", "Colonial history"],
-
     resources: {
         courses: [
             {
@@ -20,7 +19,9 @@ const portugueseResources = {
                         url: "https://ocw.mit.edu/courses/21g-801-portuguese-i-fall-2011/",
                         level: "Beginner",
                         features: ["Full semester materials", "Assignments", "Reading lists"],
-                        free: true
+                        free: true,
+        apps: [
+        ]
                     },
                     {
                         name: "Loecsen",
@@ -225,10 +226,7 @@ const portugueseResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-        ],
+        ],,
 
         practice: [
             {

@@ -5,7 +5,6 @@ const tamilResources = {
     learners: "5M+",
     speakers: "75M native",
     highlights: ["UNESCO Classical Language (2004)", "One of world's oldest languages (3rd century BCE)", "Official in India, Sri Lanka, Singapore", "Strong government support across 5 countries"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const tamilResources = {
                         url: "https://www.tamilvu.org/coresite/html/cwsylcrl.htm",
                         level: "All levels",
                         features: ["Government of Tamil Nadu official platform", "Classes 1-12 structured certificate programs", "Free certification with online/offline exams", "12-month courses per level"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "Ling Tamil",
+                        url: "https://play.google.com/store/apps/details?id=com.simyasolutions.ling.ta",
+                        level: "All levels",
+                        features: ["200+ lessons", "Speech recognition", "Offline mode", "Comprehensive curriculum"]
                     },
                     {
                         name: "University of Chicago Tamil Course",
@@ -309,17 +317,7 @@ const tamilResources = {
                         free: true
                     }]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "Ling Tamil",
-                        url: "https://play.google.com/store/apps/details?id=com.simyasolutions.ling.ta",
-                        level: "All levels",
-                        features: ["200+ lessons", "Speech recognition", "Offline mode", "Comprehensive curriculum"],
+        ],,
                         free: true
                     },
                     {

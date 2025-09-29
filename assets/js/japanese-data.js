@@ -18,7 +18,13 @@
                             url: 'https://minato-jf.jp/',
                             free: true,
                             level: 'A1-B1',
-                            features: ['Marugoto coursebook integration', 'Cultural activities', 'Global community features']
+                            features: ['Marugoto coursebook integration', 'Cultural activities', 'Global community features'],
+        apps: [{
+                    name: 'WaniKani',
+                    url: 'https://www.wanikani.com/',
+                    free: false,
+                    platform: 'Web, iOS, Android',
+                    features: ['Free first 3 levels', 'Mnemonics', '2000+ kanji']
                         },
                         {
                             name: 'Irodori: Japanese for Life in Japan',
@@ -115,13 +121,6 @@
                         }]
                 }
             ],
-
-            apps: [{
-                    name: 'WaniKani',
-                    url: 'https://www.wanikani.com/',
-                    free: false,
-                    platform: 'Web, iOS, Android',
-                    features: ['Free first 3 levels', 'Mnemonics', '2000+ kanji']
                 }, {
                     name: 'Kanji Memory Hint',
                     url: 'App stores',
@@ -154,7 +153,6 @@
                     features: ['Stroke order', 'Mnemonics', 'Practice sheets']
                 }
             ],
-
             books: [
                 {
                     category: 'Open Educational Textbooks',

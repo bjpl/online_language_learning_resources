@@ -24,7 +24,14 @@ languageData.korean = {
                         url: "https://www.iksi.or.kr/lms/main/about.do",
                         free: true,
                         level: "Introductory to Advanced (1-6)",
-                        features: ["Mobile/PC compatible", "Culture courses included", "24/7 availability"]
+                        features: ["Mobile/PC compatible", "Culture courses included", "24/7 availability"],
+        apps: [
+            {
+                name: "Naver Dictionary/Papago",
+                url: "https://papago.naver.com/",
+                free: true,
+                level: "All levels",
+                features: ["14 languages", "OCR", "Offline mode", "Honorific understanding"]
                     },
                     {
                         name: "Nuri-Sejong Institute Materials",
@@ -130,14 +137,6 @@ languageData.korean = {
                 ]
             }
         ],
-
-        apps: [
-            {
-                name: "Naver Dictionary/Papago",
-                url: "https://papago.naver.com/",
-                free: true,
-                level: "All levels",
-                features: ["14 languages", "OCR", "Offline mode", "Honorific understanding"]
             },
             {
                 name: "Dongsa Verb Conjugator",
@@ -148,7 +147,6 @@ languageData.korean = {
             }
         
         ],
-
         books: [
             {
                 category: "Open Textbooks",

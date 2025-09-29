@@ -9,7 +9,6 @@ const danishResources = {
     learners: "5M",
     speakers: "6M native",
     highlights: ["Soft consonants", "Stød (glottal stop)", "North Germanic roots", "Simple grammar", "Cultural concepts like hygge"],
-
     resources: {
         courses: [
             {
@@ -20,7 +19,13 @@ const danishResources = {
                         url: "https://www.duolingo.com/course/da/en/Learn-Danish",
                         level: "A1-B1",
                         features: ["Speech recognition", "Progress tracking", "Mobile app", "100% free"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                name: "GroVo Danish",
+                url: "https://grovo.org/grovo-danish/",
+                level: "All levels",
+                features: ["No ads", "No data collection", "Comprehensible input method"]
                     },
                     {
                         name: "Alison - Danish for Beginners",
@@ -282,14 +287,7 @@ const danishResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                name: "GroVo Danish",
-                url: "https://grovo.org/grovo-danish/",
-                level: "All levels",
-                features: ["No ads", "No data collection", "Comprehensible input method"],
+        ],,
                 free: true
             },
             {

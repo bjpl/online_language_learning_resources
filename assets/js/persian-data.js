@@ -5,7 +5,6 @@ const persianResources = {
     learners: "3M+",
     speakers: "70M native",
     highlights: ["Spoken across Iran, Afghanistan, Tajikistan", "Rich literary tradition (Rumi, Hafez, Ferdowsi)", "Ganjoor: 50,000+ poems with audio", "Multiple varieties: Farsi, Dari, Tajiki"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const persianResources = {
                         url: "https://www.persianpod101.com/",
                         level: "All levels",
                         features: ["Most comprehensive platform", "1000+ video lessons", "Audio dictionary included", "Mobile app available", "Progress tracking", "Lesson notes"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "Ling App Persian",
+                        url: "https://ling-app.com/learn-persian/",
+                        level: "All levels",
+                        features: ["200+ gamified lessons", "Alphabet to fluency coverage", "Interactive exercises", "Mobile app"]
                     },
                     {
                         name: "Chai and Conversation",
@@ -288,17 +296,7 @@ const persianResources = {
                         free: true
                     }]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "Ling App Persian",
-                        url: "https://ling-app.com/learn-persian/",
-                        level: "All levels",
-                        features: ["200+ gamified lessons", "Alphabet to fluency coverage", "Interactive exercises", "Mobile app"],
+        ],,
                         free: true
                     },
                     {

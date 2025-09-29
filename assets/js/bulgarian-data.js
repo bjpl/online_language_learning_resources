@@ -5,7 +5,6 @@ const bulgarianResources = {
     learners: "500K+",
     speakers: "8M native",
     highlights: ["First Slavic written language", "Cyrillic alphabet (30 letters)", "EU official language", "Rich cultural heritage"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const bulgarianResources = {
                         url: "https://www.livelingua.com/courses/bulgarian",
                         level: "Multiple levels",
                         features: ["8 US Peace Corps courses", "36 ebooks", "126 audio files", "100% free", "No registration required", "Professional audio"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Language Tools and Dictionaries",
+                items: [
+                    {
+                        name: "PONS Bulgarian-English",
+                        url: "https://en.pons.com/translate/bulgarian-english",
+                        level: "All levels",
+                        features: ["Comprehensive bilingual dictionary", "300,000+ words", "Audio pronunciation"]
                     },
                     {
                         name: "Bulgaro",
@@ -251,17 +259,7 @@ const bulgarianResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Language Tools and Dictionaries",
-                items: [
-                    {
-                        name: "PONS Bulgarian-English",
-                        url: "https://en.pons.com/translate/bulgarian-english",
-                        level: "All levels",
-                        features: ["Comprehensive bilingual dictionary", "300,000+ words", "Audio pronunciation"],
+        ],,
                         free: true
                     },
                     {

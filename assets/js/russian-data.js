@@ -5,7 +5,6 @@ const russianResources = {
     learners: "10M+",
     speakers: "258M native",
     highlights: ["8th most spoken language globally", "UN official language", "Cyrillic script", "Rich literary heritage"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const russianResources = {
                         url: "https://pushkininstitute.ru/learn?locale=en",
                         level: "A1-C2",
                         features: ["Russia's premier language institute", "Free certificates", "Systematic progression", "TORFL preparation"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "AnkiWeb Russian Decks",
+                        url: "https://ankiweb.net/shared/decks?search=russian",
+                        level: "All levels",
+                        features: ["Multiple free flashcard decks", "Spaced repetition", "Various topics"]
                     },
                     {
                         name: "Education in Russian Portal",
@@ -413,17 +421,7 @@ const russianResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "AnkiWeb Russian Decks",
-                        url: "https://ankiweb.net/shared/decks?search=russian",
-                        level: "All levels",
-                        features: ["Multiple free flashcard decks", "Spaced repetition", "Various topics"],
+        ],,
                         free: true
                     },
                     {

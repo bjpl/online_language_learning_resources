@@ -5,7 +5,6 @@ const lithuanianResources = {
     learners: "1M+",
     speakers: "3M native",
     highlights: ["Ancient Indo-European language", "Official EU language", "Strong government support", "Baltic language family"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const lithuanianResources = {
                         url: "https://academy.europa.eu/local/euacademy/pages/course/community-overview.php?title=learn-lithuanian-with-ols",
                         level: "A1 Beginner",
                         features: ["Official EU platform", "178-member community", "Cultural context", "Free EU account", "Structured course"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Language Tools and Dictionaries",
+                items: [
+                    {
+                        name: "Lexilogos Dictionary Portal",
+                        url: "https://www.lexilogos.com/english/lithuanian_dictionary.htm",
+                        level: "All levels",
+                        features: ["Links to 20+ Lithuanian dictionaries", "Etymological resources", "Multilingual options", "Conjugation tools"]
                     },
                     {
                         name: "Clozemaster",
@@ -240,17 +248,7 @@ const lithuanianResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Language Tools and Dictionaries",
-                items: [
-                    {
-                        name: "Lexilogos Dictionary Portal",
-                        url: "https://www.lexilogos.com/english/lithuanian_dictionary.htm",
-                        level: "All levels",
-                        features: ["Links to 20+ Lithuanian dictionaries", "Etymological resources", "Multilingual options", "Conjugation tools"],
+        ],,
                         free: true
                     },
                     {

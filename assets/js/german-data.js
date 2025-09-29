@@ -5,7 +5,6 @@ const germanResources = {
     learners: "15.4M",
     speakers: "134M native",
     highlights: ["Most spoken native language in EU", "Business and academic powerhouse", "Rich cultural heritage", "Gateway to DACH region"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const germanResources = {
                         url: "https://learngerman.dw.com/",
                         level: "A1-C1",
                         features: ["Completely free", "Mobile apps", "Nico's Weg video series", "Placement test", "Offline materials"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps, Software and Language Tools",
+                items: [
+                    {
+                        name: "DW Learn German App",
+                        url: "https://learngerman.dw.com/en/overview",
+                        level: "A1-B2",
+                        features: ["Completely free", "No ads", "4.3+ rating", "1M+ downloads"]
                     },
                     {
                         name: "Goethe Institute Practice Portal",
@@ -266,17 +274,7 @@ const germanResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps, Software and Language Tools",
-                items: [
-                    {
-                        name: "DW Learn German App",
-                        url: "https://learngerman.dw.com/en/overview",
-                        level: "A1-B2",
-                        features: ["Completely free", "No ads", "4.3+ rating", "1M+ downloads"],
+        ],,
                         free: true
                     },
                     {

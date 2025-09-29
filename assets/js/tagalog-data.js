@@ -5,7 +5,6 @@ const tagalogResources = {
     learners: "2M+",
     speakers: "82M total",
     highlights: ["Official language of Philippines", "Rich literary heritage", "Active learning community", "Government-backed resources"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const tagalogResources = {
                         url: "https://alison.com/course/tagalog-filipino-for-beginners",
                         level: "Beginner",
                         features: ["CPD accredited certificate", "Mobile app", "Offline capability", "Alphabet, numbers, vocabulary"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Mobile Apps and Software",
+                items: [
+                    {
+                        name: "Simply Learn Tagalog",
+                        url: "https://simyasolutions.com/simply-learn-tagalog/",
+                        level: "Beginner",
+                        features: ["300+ phrases with audio", "Native speaker recordings", "Full offline", "Completely free basic"]
                     },
                     {
                         name: "LingoHut",
@@ -221,17 +229,7 @@ const tagalogResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Mobile Apps and Software",
-                items: [
-                    {
-                        name: "Simply Learn Tagalog",
-                        url: "https://simyasolutions.com/simply-learn-tagalog/",
-                        level: "Beginner",
-                        features: ["300+ phrases with audio", "Native speaker recordings", "Full offline", "Completely free basic"],
+        ],,
                         free: true
                     },
                     {

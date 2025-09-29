@@ -9,7 +9,6 @@ const dutchResources = {
     learners: "5M",
     speakers: "24M native",
     highlights: ["Germanic roots similar to English", "Phonetic spelling", "Business and trade language", "Gateway to Europe"],
-
     resources: {
         courses: [
             {
@@ -20,7 +19,13 @@ const dutchResources = {
                         url: "https://www.futurelearn.com/courses/dutch",
                         level: "Beginner (A1)",
                         features: ["Completely free", "Cultural videos", "Interactive community", "Offered 3x yearly"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                name: "Anki + Dutch Decks",
+                url: "https://ankiweb.net/shared/decks?search=Dutch",
+                level: "All levels",
+                features: ["Free app", "Thousands of Dutch cards available"]
                     },
                     {
                         name: "EU Academy - My Dutch Course A1",
@@ -203,14 +208,7 @@ const dutchResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                name: "Anki + Dutch Decks",
-                url: "https://ankiweb.net/shared/decks?search=Dutch",
-                level: "All levels",
-                features: ["Free app", "Thousands of Dutch cards available"],
+        ],,
                 free: true
             }
         

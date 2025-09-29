@@ -5,7 +5,6 @@ const estonianResources = {
     learners: "1M+",
     speakers: "1.1M native",
     highlights: ["Official EU language", "Digital society pioneer", "Finno-Ugric language family", "Strong government support"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const estonianResources = {
                         url: "https://www.keeleklikk.ee/",
                         level: "A1-B2",
                         features: ["Government-funded official course", "16 comprehensive units", "5,500+ exercises", "Completely free", "Mobile responsive"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Mobile Apps and Software",
+                items: [
+                    {
+                        name: "Speakly",
+                        url: "https://www.speakly.me/",
+                        level: "A1-C1",
+                        features: ["Estonian-specific course", "4,000+ vocabulary items", "Statistics-based learning", "Free basic tier"]
                     },
                     {
                         name: "University of Tartu - Estonian for Beginners",
@@ -279,17 +287,7 @@ const estonianResources = {
                         free: true
                     }]
             }
-        ],
-
-        apps: [
-            {
-                category: "Mobile Apps and Software",
-                items: [
-                    {
-                        name: "Speakly",
-                        url: "https://www.speakly.me/",
-                        level: "A1-C1",
-                        features: ["Estonian-specific course", "4,000+ vocabulary items", "Statistics-based learning", "Free basic tier"],
+        ],,
                         free: true
                     },
                     {

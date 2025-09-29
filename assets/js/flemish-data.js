@@ -22,7 +22,15 @@ const flemishResources = {
                         url: "https://www.goestingintaal.be/nl/",
                         features: ["Teaches informal Flemish tussentaal", "Free 10-lesson email course", "Audio fragments included", "B1+ intermediate level focus"],
                         free: true,
-                        level: "B1+ (Intermediate)"
+                        level: "B1+ (Intermediate)",
+        apps: [
+            {
+                category: "Dictionaries and Language Tools",
+                items: [
+                    {
+                        name: "Het Vlaams Woordenboek",
+                        url: "https://www.vlaamswoordenboek.be/",
+                        features: ["Collaborative Flemish dictionary", "38,224+ terms available", "User voting system", "Belgian media examples"]
                     },
                     {
                         name: "NedBox",
@@ -218,15 +226,7 @@ const flemishResources = {
                     }
                 ]
             }
-        ],
-        apps: [
-            {
-                category: "Dictionaries and Language Tools",
-                items: [
-                    {
-                        name: "Het Vlaams Woordenboek",
-                        url: "https://www.vlaamswoordenboek.be/",
-                        features: ["Collaborative Flemish dictionary", "38,224+ terms available", "User voting system", "Belgian media examples"],
+        ],,
                         free: true,
                         level: "All levels"
                     },

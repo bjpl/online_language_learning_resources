@@ -5,7 +5,6 @@ const latvianResources = {
     learners: "100K+",
     speakers: "1.75M native",
     highlights: ["One of only 2 surviving Baltic languages", "Official EU language", "Unique pitch accent system", "Strong government learning support"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const latvianResources = {
                         url: "https://www.lingohut.com/en/l127/learn-latvian",
                         level: "Beginner to Intermediate",
                         features: ["125 comprehensive free lessons", "Vocabulary and pronunciation focus", "No registration required", "Audio games and cultural context", "Mobile-friendly interface"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "Ling App",
+                        url: "https://ling-app.com/learn-language/latvian/",
+                        level: "Complete Beginner to Advanced",
+                        features: ["Interactive lessons", "Native speaker audio", "Chatbot practice feature", "Flashcards and quizzes", "2 free units available"]
                     },
                     {
                         name: "Live Lingua Project",
@@ -214,17 +222,7 @@ const latvianResources = {
                 items: [
                     ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "Ling App",
-                        url: "https://ling-app.com/learn-language/latvian/",
-                        level: "Complete Beginner to Advanced",
-                        features: ["Interactive lessons", "Native speaker audio", "Chatbot practice feature", "Flashcards and quizzes", "2 free units available"],
+        ],,
                         free: true
                     },
                     {

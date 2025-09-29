@@ -18,7 +18,13 @@
                             url: 'https://www.uu.se/en/department/scandinavian-languages/study/swedish-courses',
                             free: true,
                             level: 'A1-C2',
-                            features: ['Free for non-tuition students', 'TISUS prep', 'Cultural integration']
+                            features: ['Free for non-tuition students', 'TISUS prep', 'Cultural integration'],
+        apps: [{
+                    name: 'Anki + Swedish Decks',
+                    url: 'https://ankiweb.net/shared/decks?search=Swedish',
+                    free: true,
+                    platform: 'All platforms',
+                    features: ['Free', 'Thousands of shared decks', 'Customizable']
                         },
                         {
                             name: 'Duolingo Swedish',
@@ -83,13 +89,6 @@
                         }]
                 }
             ],
-
-            apps: [{
-                    name: 'Anki + Swedish Decks',
-                    url: 'https://ankiweb.net/shared/decks?search=Swedish',
-                    free: true,
-                    platform: 'All platforms',
-                    features: ['Free', 'Thousands of shared decks', 'Customizable']
                 }, {
                     name: 'Hej svenska!',
                     url: 'Via Informationsverige.se',
@@ -98,7 +97,6 @@
                     features: ['11 languages', 'Offline access', 'Government content']
                 }
             ],
-
             books: [
                 {
                     category: 'Open Educational Textbooks',

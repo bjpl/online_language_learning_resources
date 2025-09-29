@@ -18,7 +18,14 @@
                             url: "https://openlearning.aalto.fi/course/view.php?id=59",
                             level: "A1",
                             free: true,
-                            features: ["Self-paced", "Additional resources", "Comprehensive introduction"]
+                            features: ["Self-paced", "Additional resources", "Comprehensive introduction"],
+        apps: [
+                {
+                    name: "FunEasyLearn Finnish",
+                    url: "https://www.funeasylearn.com/learn-finnish",
+                    level: "A1-C1",
+                    free: true,
+                    features: ["11 learning games", "Hand-drawn illustrations", "Offline access", "Topic-based"]
                         }
                     ]
                 },
@@ -107,14 +114,6 @@
                     ]
                 }
             ],
-
-            apps: [
-                {
-                    name: "FunEasyLearn Finnish",
-                    url: "https://www.funeasylearn.com/learn-finnish",
-                    level: "A1-C1",
-                    free: true,
-                    features: ["11 learning games", "Hand-drawn illustrations", "Offline access", "Topic-based"]
                 },
                 {
                     name: "Drops Finnish",
@@ -145,7 +144,6 @@
                     features: ["Karaoke mode", "Multiple difficulties", "100% free", "Popular songs"]
                 }
             ],
-
             books: [
                 {
                     category: "Easy Reading",

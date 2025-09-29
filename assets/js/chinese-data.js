@@ -22,7 +22,15 @@ const chineseResources = {
                         url: "https://www.xuetangx.com/",
                         features: ["Tsinghua University MOOC platform", "HSK preparation courses", "Video lectures and exercises", "Certificates for all levels"],
                         free: true,
-                        level: "All levels"
+                        level: "All levels",
+        apps: [
+            {
+                category: "Dictionary Applications",
+                items: [
+                    {
+                        name: "Pleco Chinese Dictionary",
+                        url: "https://www.pleco.com/",
+                        features: ["235,000+ entries", "Free CC-CEDICT", "Handwriting recognition", "Both character systems"]
                     },
                     {
                         name: "China University MOOC",
@@ -571,15 +579,7 @@ const chineseResources = {
                     }
                 ]
             }
-        ],
-        apps: [
-            {
-                category: "Dictionary Applications",
-                items: [
-                    {
-                        name: "Pleco Chinese Dictionary",
-                        url: "https://www.pleco.com/",
-                        features: ["235,000+ entries", "Free CC-CEDICT", "Handwriting recognition", "Both character systems"],
+        ],,
                         free: true,
                         level: "All levels"
                     },

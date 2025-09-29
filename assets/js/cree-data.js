@@ -22,7 +22,15 @@ const creeResources = {
                         url: "https://lessons.eastcree.atlas-ling.ca",
                         features: ["Interactive multimedia lessons", "East Cree dialects coverage", "Text-to-speech functionality", "Verb conjugators included", "Syllabics support"],
                         free: true,
-                        level: "Beginner to Intermediate"
+                        level: "Beginner to Intermediate",
+        apps: [
+            {
+                category: "Digital Tools and Apps",
+                items: [
+                    {
+                        name: "itwêwina Plains Cree Dictionary",
+                        url: "https://itwewina.altlab.app/",
+                        features: ["Interactive online dictionary", "Plains Cree focus", "Morphological analysis", "Native speaker audio", "Syllabics support"]
                     },
                     {
                         name: "52 Weeks of Cree",
@@ -276,15 +284,7 @@ const creeResources = {
                     }
                 ]
             }
-        ],
-        apps: [
-            {
-                category: "Digital Tools and Apps",
-                items: [
-                    {
-                        name: "itwêwina Plains Cree Dictionary",
-                        url: "https://itwewina.altlab.app/",
-                        features: ["Interactive online dictionary", "Plains Cree focus", "Morphological analysis", "Native speaker audio", "Syllabics support"],
+        ],,
                         free: true,
                         level: "All levels"
                     },

@@ -24,7 +24,14 @@ languageData.indonesian = {
                         url: "https://www.duolingo.com/course/id/en/Learn-Indonesian",
                         free: true,
                         level: "A1-B1",
-                        features: ["Mobile app", "Offline mode", "Streak tracking", "Speaking exercises"]
+                        features: ["Mobile app", "Offline mode", "Streak tracking", "Speaking exercises"],
+        apps: [
+            {
+                name: "Ling App",
+                url: "https://ling-app.com/learn-indonesian/",
+                free: true,
+                level: "Beginner-Advanced",
+                features: ["5 levels", "Offline mode", "Cultural context"]
                     },
                     {
                         name: "Live Lingua (US Peace Corps)",
@@ -100,14 +107,6 @@ languageData.indonesian = {
                     }]
             }
         ],
-
-        apps: [
-            {
-                name: "Ling App",
-                url: "https://ling-app.com/learn-indonesian/",
-                free: true,
-                level: "Beginner-Advanced",
-                features: ["5 levels", "Offline mode", "Cultural context"]
             },
             {
                 name: "Indonesian Keyboard",
@@ -132,7 +131,6 @@ languageData.indonesian = {
             }
         
         ],
-
         books: [
             {
                 category: "Free Textbooks",

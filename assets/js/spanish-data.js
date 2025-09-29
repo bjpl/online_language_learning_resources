@@ -5,7 +5,6 @@ const spanishResources = {
     learners: "22M+",
     speakers: "486M native",
     highlights: ["2nd most spoken language globally", "21 Spanish-speaking countries", "Rich regional diversity", "UN official language"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const spanishResources = {
                         url: "https://www.open.edu/openlearn/education-development/university-ready/free-online-spanish-courses",
                         level: "A1-C1",
                         features: ["10 comprehensive courses", "British academic quality", "Spain and Latin America cultural content", "Completely free"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Spanish-Specific Apps and Platforms",
+                items: [
+                    {
+                        name: "SpanishDict",
+                        url: "https://www.spanishdict.com/learn",
+                        level: "All levels",
+                        features: ["Interactive lessons", "3,000+ verb conjugations", "Writing Coach", "Extensive free features"]
                     },
                     {
                         name: "UC Davis Coursera Specialization",
@@ -324,17 +332,7 @@ const spanishResources = {
                     }
                 ]
             }
-        ],
-
-        apps: [
-            {
-                category: "Spanish-Specific Apps and Platforms",
-                items: [
-                    {
-                        name: "SpanishDict",
-                        url: "https://www.spanishdict.com/learn",
-                        level: "All levels",
-                        features: ["Interactive lessons", "3,000+ verb conjugations", "Writing Coach", "Extensive free features"],
+        ],,
                         free: true
                     },
                     {

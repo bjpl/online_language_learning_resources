@@ -5,7 +5,6 @@ const greekResources = {
     learners: "2M+",
     speakers: "14M native",
     highlights: ["3,000+ years continuous literary tradition", "Ancient & Modern Greek resources", "Strong academic support (Harvard, Yale)", "Extensive diaspora programs"],
-
     resources: {
         courses: [
             {
@@ -16,7 +15,16 @@ const greekResources = {
                         url: "https://www.edx.org/course/introduction-ancient-greek-harvard-university-harvardx",
                         level: "Academic/Advanced",
                         features: ["Ancient Greek literature course", "Homer, Plato, Sophocles coverage", "Free audit option", "Paid certificate available (€155)", "13-24 weeks duration"],
-                        free: true
+                        free: true,
+        apps: [
+            {
+                category: "Apps and Software",
+                items: [
+                    {
+                        name: "GreekPod101 App",
+                        url: "https://www.greekpod101.com/app/",
+                        level: "All levels",
+                        features: ["Audio/video lessons with transcripts", "Freemium model", "Offline downloads", "iOS and Android"]
                     },
                     {
                         name: "University of Athens Modern Greek",
@@ -325,17 +333,7 @@ const greekResources = {
                         free: true
                     }]
             }
-        ],
-
-        apps: [
-            {
-                category: "Apps and Software",
-                items: [
-                    {
-                        name: "GreekPod101 App",
-                        url: "https://www.greekpod101.com/app/",
-                        level: "All levels",
-                        features: ["Audio/video lessons with transcripts", "Freemium model", "Offline downloads", "iOS and Android"],
+        ],,
                         free: true
                     },
                     {
