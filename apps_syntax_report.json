@@ -1,0 +1,522 @@
+[
+  {
+    "file": "afrikaans-data.js",
+    "language": "afrikaans",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Mobil..."
+  },
+  {
+    "file": "arabic-data.js",
+    "language": "arabic",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "bengali-data.js",
+    "language": "bengali",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "bulgarian-data.js",
+    "language": "bulgarian",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Langu..."
+  },
+  {
+    "file": "burmese-data.js",
+    "language": "burmese",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "cebuano-data.js",
+    "language": "cebuano",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Apps ..."
+  },
+  {
+    "file": "chinese-data.js",
+    "language": "chinese",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Dicti..."
+  },
+  {
+    "file": "cree-data.js",
+    "language": "cree",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Digit..."
+  },
+  {
+    "file": "croatian-data.js",
+    "language": "croatian",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Dicti..."
+  },
+  {
+    "file": "danish-data.js",
+    "language": "danish",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                name: \"GroVo Dan..."
+  },
+  {
+    "file": "dari-data.js",
+    "language": "dari",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Dicti..."
+  },
+  {
+    "file": "dutch-data.js",
+    "language": "dutch",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                name: \"Anki + Du..."
+  },
+  {
+    "file": "estonian-data.js",
+    "language": "estonian",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Mobil..."
+  },
+  {
+    "file": "finnish-data.js",
+    "language": "finnish",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n                {\r\n                    name: \"F..."
+  },
+  {
+    "file": "flemish-data.js",
+    "language": "flemish",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Dicti..."
+  },
+  {
+    "file": "french-data.js",
+    "language": "french",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "german-data.js",
+    "language": "german",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps,..."
+  },
+  {
+    "file": "greek-data.js",
+    "language": "greek",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "guarani-data.js",
+    "language": "guarani",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Mobil..."
+  },
+  {
+    "file": "gujarati-data.js",
+    "language": "gujarati",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Dicti..."
+  },
+  {
+    "file": "hausa-data.js",
+    "language": "hausa",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Mobil..."
+  },
+  {
+    "file": "hindi-data.js",
+    "language": "hindi",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                    name: 'Simply ..."
+  },
+  {
+    "file": "hmong-data.js",
+    "language": "hmong",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Apps ..."
+  },
+  {
+    "file": "hungarian-data.js",
+    "language": "hungarian",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Apps ..."
+  },
+  {
+    "file": "indonesian-data.js",
+    "language": "indonesian",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                name: \"Ling App\"..."
+  },
+  {
+    "file": "inuktitut-data.js",
+    "language": "inuktitut",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Apps ..."
+  },
+  {
+    "file": "irish-data.js",
+    "language": "irish",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Langu..."
+  },
+  {
+    "file": "italian-data.js",
+    "language": "italian",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                name: \"Duolingo ..."
+  },
+  {
+    "file": "japanese-data.js",
+    "language": "japanese",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[{\n                    name: 'WaniKani',\n         ..."
+  },
+  {
+    "file": "kannada-data.js",
+    "language": "kannada",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Mobil..."
+  },
+  {
+    "file": "kazakh-data.js",
+    "language": "kazakh",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "korean-data.js",
+    "language": "korean",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                name: \"Naver Dic..."
+  },
+  {
+    "file": "lao-data.js",
+    "language": "lao",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Techn..."
+  },
+  {
+    "file": "latvian-data.js",
+    "language": "latvian",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "lithuanian-data.js",
+    "language": "lithuanian",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Langu..."
+  },
+  {
+    "file": "malay-data.js",
+    "language": "malay",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Dicti..."
+  },
+  {
+    "file": "marathi-data.js",
+    "language": "marathi",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "mongolian-data.js",
+    "language": "mongolian",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Langu..."
+  },
+  {
+    "file": "nahuatl-data.js",
+    "language": "nahuatl",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Mobil..."
+  },
+  {
+    "file": "navajo-data.js",
+    "language": "navajo",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Mobil..."
+  },
+  {
+    "file": "nepali-data.js",
+    "language": "nepali",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Apps ..."
+  },
+  {
+    "file": "pashto-data.js",
+    "language": "pashto",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Dicti..."
+  },
+  {
+    "file": "persian-data.js",
+    "language": "persian",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "polish-data.js",
+    "language": "polish",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[{\r\n                    name: \"LingoHut\",\r\n       ..."
+  },
+  {
+    "file": "portuguese-data.js",
+    "language": "portuguese",
+    "pattern": "apps: []",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n        ]..."
+  },
+  {
+    "file": "punjabi-data.js",
+    "language": "punjabi",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Mobil..."
+  },
+  {
+    "file": "quechua-data.js",
+    "language": "quechua",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Mobil..."
+  },
+  {
+    "file": "romanian-data.js",
+    "language": "romanian",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Mobil..."
+  },
+  {
+    "file": "russian-data.js",
+    "language": "russian",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "serbian-data.js",
+    "language": "serbian",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps,..."
+  },
+  {
+    "file": "sign-language-data.js",
+    "language": "sign-language",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Mobil..."
+  },
+  {
+    "file": "slovak-data.js",
+    "language": "slovak",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Dicti..."
+  },
+  {
+    "file": "spanish-data.js",
+    "language": "spanish",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Spani..."
+  },
+  {
+    "file": "swahili-data.js",
+    "language": "swahili",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[ {\n                    name: 'Swahili Dictionary'..."
+  },
+  {
+    "file": "swedish-data.js",
+    "language": "swedish",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[{\n                    name: 'Anki + Swedish Decks..."
+  },
+  {
+    "file": "tagalog-data.js",
+    "language": "tagalog",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Mobil..."
+  },
+  {
+    "file": "tamil-data.js",
+    "language": "tamil",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "telugu-data.js",
+    "language": "telugu",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Langu..."
+  },
+  {
+    "file": "thai-data.js",
+    "language": "thai",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Mobil..."
+  },
+  {
+    "file": "ukrainian-data.js",
+    "language": "ukrainian",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Mobil..."
+  },
+  {
+    "file": "urdu-data.js",
+    "language": "urdu",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Onlin..."
+  },
+  {
+    "file": "vietnamese-data.js",
+    "language": "vietnamese",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[ {\r\n                    name: \"Vietnamese by Nemo..."
+  },
+  {
+    "file": "welsh-data.js",
+    "language": "welsh",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Welsh..."
+  },
+  {
+    "file": "wolof-data.js",
+    "language": "wolof",
+    "pattern": "apps: [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\r\n            {\r\n                category: \"Apps ..."
+  },
+  {
+    "file": "yoruba-data.js",
+    "language": "yoruba",
+    "pattern": "\"apps\": [{...}]",
+    "hasIssue": true,
+    "issueDetails": "Apps might be outside resources object",
+    "snippet": "[\n            {\n                \"category\": \"Langu..."
+  }
+]

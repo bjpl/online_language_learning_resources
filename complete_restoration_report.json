@@ -1,0 +1,270 @@
+{
+  "timestamp": "2025-09-29T06:32:14.058Z",
+  "restoredFromBackup": 13,
+  "appsAdded": 0,
+  "alreadyHadApps": 65,
+  "validFiles": 34,
+  "invalidFiles": 31,
+  "details": [
+    {
+      "file": "afrikaans-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "arabic-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "bengali-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "bulgarian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "burmese-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "cebuano-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "chinese-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "cree-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "croatian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "danish-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "dari-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "dutch-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "estonian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "finnish-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "flemish-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "french-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "german-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "greek-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "guarani-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "gujarati-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "hausa-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "hindi-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "hmong-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "hungarian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "indonesian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "inuktitut-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "irish-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "italian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "japanese-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "kannada-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "kazakh-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "korean-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "lao-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "latvian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "lithuanian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "malay-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "marathi-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "mongolian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "nahuatl-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "navajo-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "nepali-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "pashto-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "persian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "polish-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "portuguese-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "punjabi-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "quechua-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "romanian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "russian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "serbian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "sign-language-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "slovak-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "spanish-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "swahili-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "swedish-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "tagalog-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "tamil-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "telugu-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "thai-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "ukrainian-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "urdu-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "vietnamese-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "welsh-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "wolof-data.js",
+      "status": "ALREADY_HAS_APPS"
+    },
+    {
+      "file": "yoruba-data.js",
+      "status": "ALREADY_HAS_APPS"
+    }
+  ]
+}

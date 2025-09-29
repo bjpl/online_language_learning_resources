@@ -1,0 +1,327 @@
+[
+  {
+    "file": "afrikaans-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "arabic-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "bengali-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "bulgarian-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "burmese-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "cebuano-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "chinese-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "cree-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "croatian-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "danish-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "dari-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "dutch-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "estonian-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "finnish-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "flemish-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "french-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "german-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "greek-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "guarani-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "gujarati-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "hausa-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "hindi-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed - restored original"
+  },
+  {
+    "file": "hmong-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "hungarian-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "indonesian-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "inuktitut-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "irish-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "italian-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "japanese-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "kannada-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "kazakh-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "korean-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "lao-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "latvian-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "lithuanian-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "malay-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "marathi-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "mongolian-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "nahuatl-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "navajo-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "nepali-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "pashto-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "persian-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "polish-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "portuguese-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "punjabi-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "quechua-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "romanian-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "russian-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "serbian-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "sign-language-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "slovak-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "spanish-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "swahili-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "swedish-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "tagalog-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "tamil-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "telugu-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "thai-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "ukrainian-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "urdu-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "vietnamese-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "welsh-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  },
+  {
+    "file": "wolof-data.js",
+    "status": "FIXED",
+    "message": "Apps moved into resources successfully"
+  },
+  {
+    "file": "yoruba-data.js",
+    "status": "NO_RESOURCES",
+    "message": "Could not find resources object"
+  }
+]

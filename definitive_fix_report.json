@@ -1,0 +1,339 @@
+{
+  "timestamp": "2025-09-29T06:35:22.234Z",
+  "summary": {
+    "total": 65,
+    "alreadyHadApps": 65,
+    "appsAdded": 0,
+    "errors": 0,
+    "validFiles": 65,
+    "invalidFiles": 0
+  },
+  "details": [
+    {
+      "file": "afrikaans-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "arabic-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "bengali-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "bulgarian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "burmese-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "cebuano-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "chinese-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "cree-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "croatian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "danish-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "dari-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "dutch-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "estonian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "finnish-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "flemish-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "french-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "german-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "greek-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "guarani-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "gujarati-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "hausa-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "hindi-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "hmong-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "hungarian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "indonesian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "inuktitut-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "irish-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "italian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "japanese-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "kannada-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "kazakh-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "korean-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "lao-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "latvian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "lithuanian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "malay-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "marathi-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "mongolian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "nahuatl-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "navajo-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "nepali-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "pashto-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "persian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "polish-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "portuguese-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "punjabi-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "quechua-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "romanian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "russian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "serbian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "sign-language-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "slovak-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "spanish-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "swahili-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "swedish-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "tagalog-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "tamil-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "telugu-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "thai-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "ukrainian-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "urdu-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "vietnamese-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "welsh-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "wolof-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    },
+    {
+      "file": "yoruba-data.js",
+      "status": "ALREADY_HAS_APPS",
+      "message": "Apps section already present"
+    }
+  ],
+  "invalidFiles": []
+}

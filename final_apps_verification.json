@@ -1,0 +1,280 @@
+{
+  "timestamp": "2025-09-29T06:16:13.097Z",
+  "summary": {
+    "total": 65,
+    "correct": 40,
+    "wrongLocation": 25,
+    "missing": 0,
+    "errors": 0
+  },
+  "details": {
+    "correct": [
+      {
+        "file": "afrikaans-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "arabic-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "bengali-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "bulgarian-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "burmese-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "chinese-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "cree-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "danish-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "dutch-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "estonian-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "finnish-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "flemish-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "french-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "german-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "greek-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "guarani-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "indonesian-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "italian-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "japanese-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "kazakh-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "korean-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "latvian-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "lithuanian-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "malay-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "marathi-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "nahuatl-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "persian-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "polish-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "portuguese-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "romanian-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "russian-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "serbian-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "spanish-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "swahili-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "swedish-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "tagalog-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "tamil-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "thai-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "vietnamese-data.js",
+        "location": "inside_resources"
+      },
+      {
+        "file": "wolof-data.js",
+        "location": "inside_resources"
+      }
+    ],
+    "wrongLocation": [
+      {
+        "file": "cebuano-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "croatian-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "dari-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "gujarati-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "hausa-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "hindi-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "hmong-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "hungarian-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "inuktitut-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "irish-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "kannada-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "lao-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "mongolian-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "navajo-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "nepali-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "pashto-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "punjabi-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "quechua-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "sign-language-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "slovak-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "telugu-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "ukrainian-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "urdu-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "welsh-data.js",
+        "location": "outside_resources"
+      },
+      {
+        "file": "yoruba-data.js",
+        "location": "outside_resources"
+      }
+    ],
+    "missing": [],
+    "malformed": [],
+    "error": []
+  },
+  "recommendation": "Files need fixing. Run comprehensive-apps-fix.js again."
+}

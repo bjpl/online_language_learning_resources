@@ -1,0 +1,327 @@
+[
+  {
+    "file": "afrikaans-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "arabic-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "bengali-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "bulgarian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "burmese-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "cebuano-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "chinese-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "cree-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "croatian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "danish-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "dari-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "dutch-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "estonian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "finnish-data.js",
+    "status": "NO_CHANGES",
+    "message": "Already correct"
+  },
+  {
+    "file": "flemish-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "french-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "german-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "greek-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "guarani-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "gujarati-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "hausa-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "hindi-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "hmong-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "hungarian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "indonesian-data.js",
+    "status": "NO_CHANGES",
+    "message": "Already correct"
+  },
+  {
+    "file": "inuktitut-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "irish-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "italian-data.js",
+    "status": "NO_CHANGES",
+    "message": "Already correct"
+  },
+  {
+    "file": "japanese-data.js",
+    "status": "NO_CHANGES",
+    "message": "Already correct"
+  },
+  {
+    "file": "kannada-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "kazakh-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "korean-data.js",
+    "status": "NO_CHANGES",
+    "message": "Already correct"
+  },
+  {
+    "file": "lao-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "latvian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "lithuanian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "malay-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "marathi-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "mongolian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "nahuatl-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "navajo-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "nepali-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "pashto-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "persian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "polish-data.js",
+    "status": "NO_CHANGES",
+    "message": "Already correct"
+  },
+  {
+    "file": "portuguese-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "punjabi-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "quechua-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "romanian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "russian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "serbian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "sign-language-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "slovak-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "spanish-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "swahili-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "swedish-data.js",
+    "status": "NO_CHANGES",
+    "message": "Already correct"
+  },
+  {
+    "file": "tagalog-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "tamil-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "telugu-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "thai-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "ukrainian-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "urdu-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "vietnamese-data.js",
+    "status": "NO_CHANGES",
+    "message": "Already correct"
+  },
+  {
+    "file": "welsh-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "wolof-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  },
+  {
+    "file": "yoruba-data.js",
+    "status": "FIXED",
+    "message": "Structure corrected"
+  }
+]

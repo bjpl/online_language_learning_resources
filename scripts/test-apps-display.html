@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Apps Display</title>
+</head>
+<body>
+    <h1>Testing Apps Array Display</h1>
+    <div id="test-output"></div>
+
+    <script>
+        // Simulate what happens with empty apps arrays
+        const testCases = [
+            { name: "Empty array", apps: [] },
+            { name: "Array with empty object", apps: [{}] },
+            { name: "Array with category but no items", apps: [{category: "Test"}] },
+            { name: "Proper structure", apps: [{category: "Test", items: [{name: "App1"}]}] }
+        ];
+
+        const output = document.getElementById('test-output');
+
+        testCases.forEach(test => {
+            output.innerHTML += `<h3>${test.name}:</h3>`;
+
+            // Test what happens with forEach on these arrays
+            if (test.apps && Array.isArray(test.apps)) {
+                output.innerHTML += `<p>Array length: ${test.apps.length}</p>`;
+
+                if (test.apps.length > 0 && test.apps[0].category && test.apps[0].items) {
+                    output.innerHTML += `<p>Has proper structure</p>`;
+                    test.apps.forEach(category => {
+                        output.innerHTML += `<p>Category: ${category.category || 'UNDEFINED'}</p>`;
+                    });
+                } else {
+                    output.innerHTML += `<p>Empty or invalid structure</p>`;
+                    // This is what happens with empty arrays
+                    test.apps.forEach(item => {
+                        // This won't execute for empty arrays
+                        output.innerHTML += `<p>Item: ${item.category || 'UNDEFINED'}</p>`;
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+</html>

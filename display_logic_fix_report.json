@@ -1,0 +1,14 @@
+[
+  {
+    "file": "language-page.js",
+    "status": "FIXED"
+  },
+  {
+    "file": "main.js",
+    "status": "FIXED"
+  },
+  {
+    "file": "resources-page.js",
+    "status": "FIXED"
+  }
+]

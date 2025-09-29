@@ -1,0 +1,122 @@
+[
+  {
+    "file": "cebuano-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "croatian-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "dari-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "gujarati-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "hausa-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "hmong-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "hungarian-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "inuktitut-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "irish-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "kannada-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "lao-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "mongolian-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "navajo-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "nepali-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "pashto-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "punjabi-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "quechua-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "sign-language-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "slovak-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "telugu-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "ukrainian-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "urdu-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "welsh-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  },
+  {
+    "file": "yoruba-data.js",
+    "status": "ALREADY_HAS_APPS",
+    "message": "File already contains apps section"
+  }
+]

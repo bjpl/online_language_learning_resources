@@ -1,0 +1,259 @@
+[
+  {
+    "file": "afrikaans-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "arabic-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "bengali-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "bulgarian-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "burmese-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "chinese-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "cree-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "dutch-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "danish-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "estonian-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "portuguese-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "kazakh-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "latvian-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "lithuanian-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "german-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "greek-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "guarani-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "french-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "spanish-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "malay-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "marathi-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "nahuatl-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "russian-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "tagalog-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "romanian-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "tamil-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "thai-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "serbian-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "flemish-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "persian-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "wolof-data.js",
+    "status": "FIXED",
+    "issues": [
+      "Fixed double commas"
+    ]
+  },
+  {
+    "file": "finnish-data.js",
+    "status": "FIXED",
+    "issues": []
+  },
+  {
+    "file": "indonesian-data.js",
+    "status": "FIXED",
+    "issues": []
+  },
+  {
+    "file": "italian-data.js",
+    "status": "FIXED",
+    "issues": []
+  },
+  {
+    "file": "japanese-data.js",
+    "status": "FIXED",
+    "issues": []
+  },
+  {
+    "file": "korean-data.js",
+    "status": "FIXED",
+    "issues": []
+  },
+  {
+    "file": "polish-data.js",
+    "status": "FIXED",
+    "issues": []
+  },
+  {
+    "file": "swedish-data.js",
+    "status": "FIXED",
+    "issues": []
+  },
+  {
+    "file": "vietnamese-data.js",
+    "status": "FIXED",
+    "issues": []
+  }
+]

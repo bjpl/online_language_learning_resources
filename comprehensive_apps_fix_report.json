@@ -1,0 +1,327 @@
+[
+  {
+    "file": "afrikaans-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "arabic-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "bengali-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "bulgarian-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "burmese-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "cebuano-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "chinese-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "cree-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "croatian-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "danish-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "dari-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "dutch-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "estonian-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "finnish-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "flemish-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "french-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "german-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "greek-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "guarani-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "gujarati-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "hausa-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "hindi-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "hmong-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "hungarian-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "indonesian-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "inuktitut-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "irish-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "italian-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "japanese-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "kannada-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "kazakh-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "korean-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "lao-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "latvian-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "lithuanian-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "malay-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "marathi-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "mongolian-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "nahuatl-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "navajo-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "nepali-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "pashto-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "persian-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "polish-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "portuguese-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "punjabi-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "quechua-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "romanian-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "russian-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "serbian-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "sign-language-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "slovak-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "spanish-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "swahili-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "swedish-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "tagalog-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "tamil-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "telugu-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "thai-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "ukrainian-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "urdu-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "vietnamese-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "welsh-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  },
+  {
+    "file": "wolof-data.js",
+    "status": "ALREADY_CORRECT",
+    "message": "Apps already nested in resources"
+  },
+  {
+    "file": "yoruba-data.js",
+    "status": "VERIFICATION_FAILED",
+    "message": "Fix applied but verification failed"
+  }
+]
