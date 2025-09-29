@@ -12,7 +12,9 @@
         autoAdvance: true,     // Auto advance after decision
         advanceDelay: 0,       // Delay before auto-advance (ms)
         batchSize: 10,         // Items per batch
-        maxQueueDisplay: 20   // Max items to show in queue
+        maxQueueDisplay: 20,  // Max items to show in queue
+        autoSaveInterval: 5000, // Auto-save every 5 seconds
+        storageKey: 'reviewToolProgress' // LocalStorage key
     };
 
     // State
@@ -25,7 +27,10 @@
         preloadStatus: {},
         previewMode: 'iframe',
         batchMode: false,
-        selectedBatch: new Set()
+        selectedBatch: new Set(),
+        sessionStartTime: Date.now(),
+        lastSaveTime: null,
+        isDirty: false
     };
 
     // Preload management
@@ -46,17 +51,37 @@
         // Load all resources
         await loadAllResources();
 
+        // Check for saved progress
+        const hasProgress = checkForSavedProgress();
+        if (hasProgress) {
+            const shouldRestore = await showRestoreDialog();
+            if (shouldRestore) {
+                restoreProgress();
+                showToast('Progress restored successfully!', 'success');
+            } else {
+                clearSavedProgress();
+                showToast('Starting fresh review session', 'info');
+            }
+        }
+
         // Setup UI
         setupKeyboardShortcuts();
         displayCurrentResource();
         updateQueue();
         updateProgress();
+        updateSessionInfo();
 
         // Start preloading
         startPreloadQueue();
 
         // Load current in main preview
         loadPreview(state.resources[state.currentIndex]);
+
+        // Start auto-save
+        startAutoSave();
+
+        // Update session info every second
+        setInterval(updateSessionInfo, 1000);
     }
 
     // Load all resources from language data
@@ -301,6 +326,229 @@
         }
     }
 
+    // ===================================
+    // Save/Load/Persistence Functions
+    // ===================================
+
+    // Check if saved progress exists
+    function checkForSavedProgress() {
+        const saved = localStorage.getItem(CONFIG.storageKey);
+        return saved !== null;
+    }
+
+    // Show restore dialog
+    async function showRestoreDialog() {
+        const saved = JSON.parse(localStorage.getItem(CONFIG.storageKey));
+        const reviewedCount = Object.keys(saved.decisions || {}).length;
+        const totalCount = saved.totalResources || 0;
+        const lastSave = new Date(saved.lastSaveTime).toLocaleString();
+
+        const message = `Found saved progress from ${lastSave}\n\n` +
+                       `Progress: ${reviewedCount} / ${totalCount} resources reviewed\n` +
+                       `Keep: ${saved.stats?.keep || 0}, Delete: ${saved.stats?.delete || 0}, ` +
+                       `Edit: ${saved.stats?.edit || 0}, Skip: ${saved.stats?.skip || 0}\n\n` +
+                       `Do you want to continue from where you left off?`;
+
+        return confirm(message);
+    }
+
+    // Save current progress
+    function saveProgress() {
+        const saveData = {
+            currentIndex: state.currentIndex,
+            decisions: state.decisions,
+            checks: state.checks,
+            stats: state.stats,
+            totalResources: state.resources.length,
+            sessionStartTime: state.sessionStartTime,
+            lastSaveTime: Date.now(),
+            version: '2.0'
+        };
+
+        try {
+            localStorage.setItem(CONFIG.storageKey, JSON.stringify(saveData));
+            state.lastSaveTime = Date.now();
+            state.isDirty = false;
+            updateSaveIndicator('saved');
+            return true;
+        } catch (e) {
+            console.error('Failed to save progress:', e);
+            showToast('Failed to save progress!', 'error');
+            return false;
+        }
+    }
+
+    // Restore saved progress
+    function restoreProgress() {
+        try {
+            const saved = JSON.parse(localStorage.getItem(CONFIG.storageKey));
+
+            // Restore state
+            state.currentIndex = saved.currentIndex || 0;
+            state.decisions = saved.decisions || {};
+            state.checks = saved.checks || {};
+            state.stats = saved.stats || { keep: 0, delete: 0, edit: 0, skip: 0 };
+            state.sessionStartTime = saved.sessionStartTime || Date.now();
+
+            // Update UI
+            updateStats();
+
+        } catch (e) {
+            console.error('Failed to restore progress:', e);
+            showToast('Failed to restore progress!', 'error');
+        }
+    }
+
+    // Clear saved progress
+    function clearSavedProgress() {
+        localStorage.removeItem(CONFIG.storageKey);
+        state.lastSaveTime = null;
+        state.isDirty = false;
+    }
+
+    // Auto-save functionality
+    let autoSaveInterval = null;
+    function startAutoSave() {
+        autoSaveInterval = setInterval(() => {
+            if (state.isDirty) {
+                saveProgress();
+                console.log('Auto-saved at', new Date().toLocaleTimeString());
+            }
+        }, CONFIG.autoSaveInterval);
+    }
+
+    function stopAutoSave() {
+        if (autoSaveInterval) {
+            clearInterval(autoSaveInterval);
+            autoSaveInterval = null;
+        }
+    }
+
+    // Update save indicator
+    function updateSaveIndicator(status) {
+        const indicator = document.getElementById('save-indicator');
+        if (!indicator) return;
+
+        switch(status) {
+            case 'saving':
+                indicator.textContent = 'Saving...';
+                indicator.className = 'save-indicator saving';
+                break;
+            case 'saved':
+                indicator.textContent = 'Saved';
+                indicator.className = 'save-indicator saved';
+                setTimeout(() => {
+                    indicator.textContent = 'Auto-save on';
+                    indicator.className = 'save-indicator';
+                }, 2000);
+                break;
+            case 'error':
+                indicator.textContent = 'Save failed!';
+                indicator.className = 'save-indicator error';
+                break;
+        }
+    }
+
+    // Show toast notification
+    function showToast(message, type = 'info') {
+        const toast = document.createElement('div');
+        toast.className = `toast toast-${type}`;
+        toast.textContent = message;
+        document.body.appendChild(toast);
+
+        // Trigger animation
+        setTimeout(() => toast.classList.add('show'), 10);
+
+        // Remove after 3 seconds
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => toast.remove(), 300);
+        }, 3000);
+    }
+
+    // Update session info display
+    function updateSessionInfo() {
+        const sessionInfo = document.getElementById('session-info');
+        if (!sessionInfo) return;
+
+        const duration = Math.floor((Date.now() - state.sessionStartTime) / 1000);
+        const minutes = Math.floor(duration / 60);
+        const seconds = duration % 60;
+
+        const reviewRate = state.currentIndex > 0 ?
+            Math.round((state.currentIndex / duration) * 60) : 0;
+
+        sessionInfo.innerHTML = `
+            <span>Session: ${minutes}:${seconds.toString().padStart(2, '0')}</span>
+            <span>Rate: ${reviewRate}/min</span>
+            <span id="save-indicator" class="save-indicator">Auto-save on</span>
+        `;
+    }
+
+    // Export session data
+    window.exportSession = function() {
+        const exportData = {
+            ...saveProgress(),
+            exportTime: new Date().toISOString(),
+            decisions: state.decisions,
+            stats: state.stats,
+            sessionDuration: Date.now() - state.sessionStartTime
+        };
+
+        const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `review-session-${Date.now()}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+
+        showToast('Session exported successfully!', 'success');
+    };
+
+    // Import session data
+    window.importSession = function() {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.json';
+
+        input.onchange = (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    const data = JSON.parse(event.target.result);
+
+                    // Restore imported data
+                    state.currentIndex = data.currentIndex || 0;
+                    state.decisions = data.decisions || {};
+                    state.checks = data.checks || {};
+                    state.stats = data.stats || { keep: 0, delete: 0, edit: 0, skip: 0 };
+
+                    // Save to localStorage
+                    saveProgress();
+
+                    // Update UI
+                    displayCurrentResource();
+                    updateQueue();
+                    updateProgress();
+                    updateStats();
+
+                    showToast('Session imported successfully!', 'success');
+                } catch (error) {
+                    console.error('Import failed:', error);
+                    showToast('Failed to import session!', 'error');
+                }
+            };
+
+            reader.readAsText(file);
+        };
+
+        input.click();
+    };
+
     // Decision making
     window.decide = function(decision) {
         const resource = state.resources[state.currentIndex];
@@ -317,12 +565,23 @@
         state.stats[decision]++;
         updateStats();
 
+        // Mark as dirty for auto-save
+        state.isDirty = true;
+
         // Mark queue item
         updateQueue();
 
         // Auto advance
         if (CONFIG.autoAdvance) {
             setTimeout(() => nextResource(), CONFIG.advanceDelay);
+        }
+    };
+
+    // Manual save
+    window.manualSave = function() {
+        updateSaveIndicator('saving');
+        if (saveProgress()) {
+            showToast('Progress saved successfully!', 'success');
         }
     };
 
@@ -424,11 +683,22 @@
             // Ignore if typing
             if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
 
+            // Ctrl/Cmd + S for manual save
+            if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+                e.preventDefault();
+                manualSave();
+                return;
+            }
+
             switch(e.key.toLowerCase()) {
                 case 'k': decide('keep'); break;
                 case 'd': decide('delete'); break;
                 case 'e': decide('edit'); break;
-                case 's': decide('skip'); break;
+                case 's':
+                    if (!e.ctrlKey && !e.metaKey) {
+                        decide('skip');
+                    }
+                    break;
                 case 'arrowleft': previousResource(); break;
                 case 'arrowright': nextResource(); break;
                 case ' ':

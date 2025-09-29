@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Problematic Languages</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .language { margin: 10px; padding: 10px; border: 1px solid #ccc; }
+        .has-apps { background: #e8f5e9; }
+        .no-apps { background: #ffebee; }
+        .error { color: red; font-weight: bold; }
+        .success { color: green; }
+        .debug { background: #f5f5f5; padding: 5px; font-family: monospace; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <h1>Testing Problematic Languages</h1>
+    <div id="results"></div>
+
+    <!-- Load language data files -->
+    <script src="assets/js/language-data.js"></script>
+    <script src="assets/js/afrikaans-data.js"></script>
+    <script src="assets/js/arabic-data.js"></script>
+    <script src="assets/js/bengali-data.js"></script>
+    <script src="assets/js/bulgarian-data.js"></script>
+    <script src="assets/js/burmese-data.js"></script>
+    <script src="assets/js/cebuano-data.js"></script>
+    <script src="assets/js/chinese-data.js"></script>
+    <script src="assets/js/cree-data.js"></script>
+    <script src="assets/js/croatian-data.js"></script>
+    <script src="assets/js/danish-data.js"></script>
+    <script src="assets/js/dari-data.js"></script>
+    <script src="assets/js/dutch-data.js"></script>
+    <script src="assets/js/estonian-data.js"></script>
+
+    <!-- Also test some working ones -->
+    <script src="assets/js/finnish-data.js"></script>
+    <script src="assets/js/french-data.js"></script>
+    <script src="assets/js/german-data.js"></script>
+
+    <script>
+        console.log('Testing problematic languages...');
+
+        const problematicLanguages = [
+            'afrikaans', 'arabic', 'bengali', 'bulgarian', 'burmese',
+            'cebuano', 'chinese', 'cree', 'croatian', 'czech',
+            'danish', 'dari', 'dutch', 'estonian', 'hebrew',
+            'norwegian', 'turkish'
+        ];
+
+        const workingLanguages = ['finnish', 'french', 'german'];
+
+        const results = document.getElementById('results');
+        let html = '';
+
+        function testLanguage(langKey, isProblematic) {
+            const language = languageData[langKey];
+
+            if (!language) {
+                html += `
+                    <div class="language no-apps">
+                        <strong>${langKey}</strong>: <span class="error">NOT IN LANGUAGEDATA</span>
+                    </div>
+                `;
+                return;
+            }
+
+            // Test different access patterns
+            const accessTests = {
+                'language.apps': language.apps,
+                'language.resources?.apps': language.resources?.apps,
+                'language.resources?.apps || language.apps': language.resources?.apps || language.apps
+            };
+
+            let debugInfo = `<div class="debug">`;
+            debugInfo += `Name: ${language.name}<br>`;
+            debugInfo += `Has resources: ${!!language.resources}<br>`;
+
+            Object.entries(accessTests).forEach(([pattern, result]) => {
+                const isArray = Array.isArray(result);
+                const length = isArray ? result.length : 'N/A';
+                const hasContent = isArray && length > 0;
+
+                debugInfo += `${pattern}: ${result ? (isArray ? `Array[${length}]` : typeof result) : 'undefined'}<br>`;
+            });
+
+            // Check actual apps content
+            const actualApps = language.resources?.apps || language.apps;
+            let appCount = 0;
+            let hasUndefinedItems = false;
+
+            if (Array.isArray(actualApps)) {
+                actualApps.forEach((item, idx) => {
+                    if (!item) {
+                        hasUndefinedItems = true;
+                        debugInfo += `<span class="error">Item ${idx} is undefined!</span><br>`;
+                    } else if (item.items && Array.isArray(item.items)) {
+                        appCount += item.items.length;
+                        // Check for undefined items
+                        item.items.forEach((subItem, subIdx) => {
+                            if (!subItem || subItem.name === 'undefined') {
+                                hasUndefinedItems = true;
+                                debugInfo += `<span class="error">Item ${idx}.items[${subIdx}] is undefined or has undefined name!</span><br>`;
+                            }
+                        });
+                    } else if (item.name) {
+                        appCount += 1;
+                        if (item.name === 'undefined') {
+                            hasUndefinedItems = true;
+                            debugInfo += `<span class="error">Item ${idx} has name 'undefined'!</span><br>`;
+                        }
+                    }
+                });
+            }
+
+            debugInfo += `Total apps: ${appCount}<br>`;
+            debugInfo += `Has undefined items: ${hasUndefinedItems ? 'YES' : 'NO'}<br>`;
+            debugInfo += `</div>`;
+
+            const status = appCount > 0 && !hasUndefinedItems ? 'success' : 'error';
+            const bgClass = appCount > 0 ? 'has-apps' : 'no-apps';
+            const marker = isProblematic ? '⚠️' : '✅';
+
+            html += `
+                <div class="language ${bgClass}">
+                    ${marker} <strong>${language.name}</strong>:
+                    <span class="${status}">
+                        ${appCount} apps ${hasUndefinedItems ? '(HAS UNDEFINED ITEMS!)' : ''}
+                    </span>
+                    ${debugInfo}
+                </div>
+            `;
+        }
+
+        html += '<h2>Problematic Languages (User Reported)</h2>';
+        problematicLanguages.forEach(lang => testLanguage(lang, true));
+
+        html += '<h2>Working Languages (For Comparison)</h2>';
+        workingLanguages.forEach(lang => testLanguage(lang, false));
+
+        results.innerHTML = html;
+
+        console.log('Test complete. Check page for results.');
+    </script>
+</body>
+</html>
