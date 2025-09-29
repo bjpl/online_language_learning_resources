@@ -682,8 +682,7 @@ const russianResources = {
                     }
                 ]
             }
-        ],
-        apps: []
+        ]
     }
 };
 
