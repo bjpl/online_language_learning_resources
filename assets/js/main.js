@@ -355,7 +355,15 @@ const LanguageHub = (function() {
 
                 // Count apps
                 if ((lang.resources?.apps || lang.apps) && Array.isArray(lang.resources?.apps || lang.apps)) {
-                    resourceCounts.apps += (lang.resources?.apps || lang.apps).length;
+                    const appsArray = lang.resources?.apps || lang.apps;
+                    appsArray.forEach(category => {
+                        if (category.items && Array.isArray(category.items)) {
+                            resourceCounts.apps += category.items.length;
+                        } else if (category.name) {
+                            // Direct app item without nested structure
+                            resourceCounts.apps += 1;
+                        }
+                    });
                 }
 
                 // Count books

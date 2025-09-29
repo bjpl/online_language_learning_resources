@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Apps Display</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .language { margin: 20px 0; padding: 10px; border: 1px solid #ccc; }
+        .has-apps { background: #e8f5e9; }
+        .no-apps { background: #ffebee; }
+        .apps-list { margin-left: 20px; }
+        .app-item { margin: 5px 0; padding: 5px; background: #f5f5f5; }
+        .undefined { color: red; font-weight: bold; }
+        .valid { color: green; }
+    </style>
+</head>
+<body>
+    <h1>Language Apps Test</h1>
+    <div id="results"></div>
+
+    <!-- Load all language data files -->
+    <script src="assets/js/language-data.js"></script>
+    <script src="assets/js/afrikaans-data.js"></script>
+    <script src="assets/js/arabic-data.js"></script>
+    <script src="assets/js/bengali-data.js"></script>
+    <script src="assets/js/bulgarian-data.js"></script>
+    <script src="assets/js/burmese-data.js"></script>
+    <script src="assets/js/cebuano-data.js"></script>
+    <script src="assets/js/chinese-data.js"></script>
+    <script src="assets/js/cree-data.js"></script>
+    <script src="assets/js/croatian-data.js"></script>
+    <script src="assets/js/danish-data.js"></script>
+    <script src="assets/js/dari-data.js"></script>
+    <script src="assets/js/dutch-data.js"></script>
+    <script src="assets/js/estonian-data.js"></script>
+    <script src="assets/js/finnish-data.js"></script>
+    <script src="assets/js/flemish-data.js"></script>
+    <script src="assets/js/french-data.js"></script>
+    <script src="assets/js/german-data.js"></script>
+    <script src="assets/js/greek-data.js"></script>
+    <script src="assets/js/guarani-data.js"></script>
+    <script src="assets/js/gujarati-data.js"></script>
+    <script src="assets/js/hausa-data.js"></script>
+    <script src="assets/js/hindi-data.js"></script>
+    <script src="assets/js/hmong-data.js"></script>
+    <script src="assets/js/hungarian-data.js"></script>
+    <script src="assets/js/indonesian-data.js"></script>
+    <script src="assets/js/inuktitut-data.js"></script>
+    <script src="assets/js/irish-data.js"></script>
+    <script src="assets/js/italian-data.js"></script>
+    <script src="assets/js/japanese-data.js"></script>
+    <script src="assets/js/kannada-data.js"></script>
+    <script src="assets/js/kazakh-data.js"></script>
+    <script src="assets/js/korean-data.js"></script>
+    <script src="assets/js/lao-data.js"></script>
+    <script src="assets/js/latvian-data.js"></script>
+    <script src="assets/js/lithuanian-data.js"></script>
+    <script src="assets/js/malay-data.js"></script>
+    <script src="assets/js/marathi-data.js"></script>
+    <script src="assets/js/mongolian-data.js"></script>
+    <script src="assets/js/nahuatl-data.js"></script>
+    <script src="assets/js/navajo-data.js"></script>
+    <script src="assets/js/nepali-data.js"></script>
+    <script src="assets/js/pashto-data.js"></script>
+    <script src="assets/js/persian-data.js"></script>
+    <script src="assets/js/polish-data.js"></script>
+    <script src="assets/js/portuguese-data.js"></script>
+    <script src="assets/js/punjabi-data.js"></script>
+    <script src="assets/js/quechua-data.js"></script>
+    <script src="assets/js/romanian-data.js"></script>
+    <script src="assets/js/russian-data.js"></script>
+    <script src="assets/js/serbian-data.js"></script>
+    <script src="assets/js/sign-language-data.js"></script>
+    <script src="assets/js/slovak-data.js"></script>
+    <script src="assets/js/spanish-data.js"></script>
+    <script src="assets/js/swahili-data.js"></script>
+    <script src="assets/js/swedish-data.js"></script>
+    <script src="assets/js/tagalog-data.js"></script>
+    <script src="assets/js/tamil-data.js"></script>
+    <script src="assets/js/telugu-data.js"></script>
+    <script src="assets/js/thai-data.js"></script>
+    <script src="assets/js/ukrainian-data.js"></script>
+    <script src="assets/js/urdu-data.js"></script>
+    <script src="assets/js/vietnamese-data.js"></script>
+    <script src="assets/js/welsh-data.js"></script>
+    <script src="assets/js/wolof-data.js"></script>
+    <script src="assets/js/yoruba-data.js"></script>
+
+    <script>
+        // Check all languages for apps issues
+        const results = document.getElementById('results');
+        let html = '';
+        let problemCount = 0;
+        let emptyCount = 0;
+        let validCount = 0;
+
+        Object.entries(languageData).forEach(([key, language]) => {
+            const appsData = language.resources?.apps || language.apps;
+            let status = '';
+            let statusClass = '';
+            let appDetails = '';
+
+            if (!appsData) {
+                status = 'NO APPS PROPERTY';
+                statusClass = 'undefined';
+                problemCount++;
+            } else if (!Array.isArray(appsData)) {
+                status = 'APPS NOT AN ARRAY';
+                statusClass = 'undefined';
+                problemCount++;
+            } else if (appsData.length === 0) {
+                status = 'EMPTY APPS ARRAY';
+                statusClass = 'no-apps';
+                emptyCount++;
+            } else {
+                // Check the structure
+                let appCount = 0;
+                let undefinedCount = 0;
+
+                appsData.forEach(category => {
+                    if (category.items && Array.isArray(category.items)) {
+                        category.items.forEach(item => {
+                            appCount++;
+                            if (!item.name || item.name === 'undefined') {
+                                undefinedCount++;
+                                appDetails += `<div class="undefined">UNDEFINED: ${JSON.stringify(item).substring(0, 100)}</div>`;
+                            } else {
+                                appDetails += `<div class="valid">✓ ${item.name}</div>`;
+                            }
+                        });
+                    } else if (category.name) {
+                        // Direct app item
+                        appCount++;
+                        if (category.name === 'undefined') {
+                            undefinedCount++;
+                            appDetails += `<div class="undefined">UNDEFINED ITEM</div>`;
+                        } else {
+                            appDetails += `<div class="valid">✓ ${category.name}</div>`;
+                        }
+                    }
+                });
+
+                if (undefinedCount > 0) {
+                    status = `HAS ${undefinedCount} UNDEFINED APPS`;
+                    statusClass = 'undefined';
+                    problemCount++;
+                } else if (appCount > 0) {
+                    status = `✓ ${appCount} valid apps`;
+                    statusClass = 'has-apps';
+                    validCount++;
+                } else {
+                    status = 'APPS STRUCTURE ISSUE';
+                    statusClass = 'undefined';
+                    problemCount++;
+                }
+            }
+
+            html += `
+                <div class="language ${statusClass}">
+                    <strong>${language.name}</strong> - ${status}
+                    ${appDetails ? '<div class="apps-list">' + appDetails + '</div>' : ''}
+                </div>
+            `;
+        });
+
+        html = `
+            <h2>Summary</h2>
+            <p>✓ Valid: ${validCount}</p>
+            <p>⚠️ Empty: ${emptyCount}</p>
+            <p>❌ Problems: ${problemCount}</p>
+            <hr>
+            ${html}
+        `;
+
+        results.innerHTML = html;
+    </script>
+</body>
+</html>
