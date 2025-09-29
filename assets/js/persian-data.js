@@ -255,41 +255,6 @@ const persianResources = {
                         free: true
                     },
                     {
-                        name: "Learn Persian with Reza",
-                        url: "https://www.youtube.com/",
-                        level: "All levels",
-                        features: ["1,300+ learning videos", "Systematic approach", "Book series companion", "Comprehensive coverage"],
-                        free: true
-                    },
-                    {
-                        name: "Talk Like a Persian",
-                        url: "https://www.youtube.com/",
-                        level: "Beginner-Intermediate",
-                        features: ["Daily expressions focus", "Idioms coverage", "Colloquial Tehran Persian", "Practical application"],
-                        free: true
-                    },
-                    {
-                        name: "TOOTEE TV",
-                        url: "https://www.youtube.com/",
-                        level: "Children/Beginners",
-                        features: ["Animated educational content", "30K+ subscribers", "Colorful animations", "Child-friendly"],
-                        free: true
-                    },
-                    {
-                        name: "My Persian Corner",
-                        url: "https://www.youtube.com/",
-                        level: "All levels",
-                        features: ["Practical applications", "Cultural immersion focus", "Real-world scenarios"],
-                        free: true
-                    },
-                    {
-                        name: "Bahareh Teaches Farsi",
-                        url: "https://www.youtube.com/",
-                        level: "All levels",
-                        features: ["Clear comprehensive lessons", "All proficiency levels", "Structured approach", "Native speaker"],
-                        free: true
-                    },
-                    {
                         name: "LinguaBoost Persian",
                         url: "https://www.linguaboost.com/persian.php",
                         level: "Beginner",
@@ -316,48 +281,12 @@ const persianResources = {
                 category: "Podcasts",
                 items: [
                     {
-                        name: "Chai and Conversation Podcast",
-                        url: "https://podcasts.apple.com/",
-                        level: "Beginner-Advanced",
-                        features: ["190+ episodes since 2010", "Weekly episodes available", "Cultural context included", "5-star rated", "15-20 min length"],
-                        free: true
-                    },
-                    {
-                        name: "PersianPod101 Podcast",
-                        url: "https://podcasts.apple.com/",
-                        level: "All levels",
-                        features: ["Cultural content focus", "Survival phrases included", "Travel-focused approach", "Semiweekly updates"],
-                        free: true
-                    },
-                    {
-                        name: "Learn Persian by Podgap",
-                        url: "https://podcasts.apple.com/",
-                        level: "Beginner-Advanced",
-                        features: ["8-minute episodes", "Conversational focus", "Mohsen & Hanieh hosts", "Patreon extras available"],
-                        free: true
-                    },
-                    {
                         name: "TheFarsiPod",
                         url: "https://thefarsipod.com/",
                         level: "Intermediate-Advanced",
                         features: ["4-7 minute conversations", "Real Persian dialogue", "PDF learning guides", "Natural speech"],
                         free: true
-                    },
-                    {
-                        name: "Persian Made Easy",
-                        url: "https://podcasts.apple.com/",
-                        level: "Beginner",
-                        features: ["English-taught episodes", "6-minute length", "Natural speech patterns", "Beginner-friendly"],
-                        free: true
-                    },
-                    {
-                        name: "Learn Farsi with Gazal",
-                        url: "https://podcasts.apple.com/",
-                        level: "All levels",
-                        features: ["Language and culture focus", "Heritage emphasis", "Cultural integration", "Comprehensive approach"],
-                        free: true
-                    }
-                ]
+                    }]
             }
         ],
 
@@ -365,20 +294,6 @@ const persianResources = {
             {
                 category: "Apps and Software",
                 items: [
-                    {
-                        name: "PersianPod101 App",
-                        url: "https://apps.apple.com/",
-                        level: "All levels",
-                        features: ["500+ audio/video lessons", "Offline downloads available", "Vocabulary lists included", "iOS and Android"],
-                        free: true
-                    },
-                    {
-                        name: "BNR Languages Persian",
-                        url: "https://play.google.com/store/apps/",
-                        level: "All levels",
-                        features: ["Complete offline course", "No daily limits", "Gamified learning", "Comprehensive coverage"],
-                        free: true
-                    },
                     {
                         name: "Ling App Persian",
                         url: "https://ling-app.com/learn-persian/",
@@ -519,38 +434,10 @@ const persianResources = {
                 category: "Language Exchange Platforms",
                 items: [
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["30+ million members", "Translation tools included", "Voice/video chat support", "Moments feed feature", "Global community"],
-                        free: true
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        level: "All levels",
-                        features: ["Millions of users", "4,021+ Persian speakers", "AI grammar check", "Interactive Parties feature", "Community events"],
-                        free: true
-                    },
-                    {
                         name: "Language Exchange",
                         url: "https://language.exchange/language/FA-Persian/",
                         level: "All levels",
                         features: ["Web-based matching", "Profile-based connections", "Cultural exchange focus", "Free platform"],
-                        free: true
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        level: "All levels",
-                        features: ["Face-to-face options", "Online exchanges available", "Location-based search", "Free service"],
-                        free: true
-                    },
-                    {
-                        name: "MyLanguageExchange",
-                        url: "https://www.mylanguageexchange.com/",
-                        level: "All levels",
-                        features: ["Email and chat exchanges", "Pen pal matching", "Safe practice environment", "Established platform"],
                         free: true
                     },
                     {

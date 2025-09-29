@@ -87,20 +87,6 @@ const thaiResources = {
                         free: true
                     },
                     {
-                        name: "Thai Lessons by New",
-                        url: "https://www.youtube.com/",
-                        level: "Beginner-Intermediate",
-                        features: ["Podcast-style compilations", "100 phrases videos", "4+ repetitions"],
-                        free: true
-                    },
-                    {
-                        name: "BananaThai (Kru Smuk)",
-                        url: "https://www.youtube.com/",
-                        level: "All levels",
-                        features: ["Fun accessible approach", "Instagram/Facebook integration"],
-                        free: true
-                    },
-                    {
                         name: "My Thai Language School",
                         url: "https://www.youtube.com/@MyThaiLanguageSchool",
                         level: "Beginner-Intermediate",
@@ -192,48 +178,12 @@ const thaiResources = {
                 category: "Thai Language Learning Podcasts",
                 items: [
                     {
-                        name: "You too can learn Thai",
-                        url: "https://podcasts.apple.com/",
-                        level: "Beginner-Intermediate",
-                        features: ["Khru Nan (PhD Linguistics)", "30+ episodes", "Google Doc transcripts", "Quizlet flashcards"],
-                        free: true
-                    },
-                    {
-                        name: "Learn Thai with BananaThai",
-                        url: "https://podcasts.apple.com/",
-                        level: "Beginner-Intermediate",
-                        features: ["Kru Smuk", "Multiple series", "Pocket Thai 99% in Thai"],
-                        free: true
-                    },
-                    {
                         name: "ThaiPod101 Podcasts",
                         url: "https://www.thaipod101.com/",
                         level: "All levels",
                         features: ["365+ mini-lessons", "Daily new content", "Video lessons", "All major platforms"],
                         free: true
-                    },
-                    {
-                        name: "Learn Thai with Ling",
-                        url: "https://open.spotify.com/",
-                        level: "Beginner-Intermediate",
-                        features: ["Anchisa", "Regular series", "LGBTQ+ content", "Discord sessions"],
-                        free: true
-                    },
-                    {
-                        name: "Thai Learning Accelerator",
-                        url: "https://open.spotify.com/",
-                        level: "Beginner-Intermediate",
-                        features: ["Audio-only immersion", "No filler", "Continuous content"],
-                        free: true
-                    },
-                    {
-                        name: "TALK TO THAI (Thai PBS)",
-                        url: "https://podcasts.apple.com/",
-                        level: "Beginner",
-                        features: ["Thai PBS hosts", "Weekly episodes", "1-minute situational lessons"],
-                        free: true
-                    }
-                ]
+                    }]
             },
             {
                 category: "Free Audio Courses and Resources",
@@ -261,24 +211,10 @@ const thaiResources = {
                 category: "Mobile Apps for Thai Learning",
                 items: [
                     {
-                        name: "Ling App",
-                        url: "https://ling-app.com/",
-                        level: "All levels",
-                        features: ["Gamified comprehensive learning", "7-day free trial", "Originally Thai-focused", "Chiang Mai team"],
-                        free: true
-                    },
-                    {
                         name: "ThaiPod101 App",
                         url: "https://www.thaipod101.com/",
                         level: "All levels",
                         features: ["Free lifetime account", "500+ lessons", "Offline downloads", "Audio/video lessons"],
-                        free: true
-                    },
-                    {
-                        name: "Nemo Thai",
-                        url: "https://www.nemoapps.com/",
-                        level: "All levels",
-                        features: ["Essential phrases", "Basic version free", "Voice recognition", "Offline capable"],
                         free: true
                     },
                     {
@@ -287,15 +223,7 @@ const thaiResources = {
                         level: "All levels",
                         features: ["Handwriting practice", "Limited free version", "Real handwriting recognition"],
                         free: true
-                    },
-                    {
-                        name: "Thai Alphabet Script",
-                        url: "https://play.google.com/store/",
-                        level: "Beginner",
-                        features: ["Alphabet memorization", "Free with ads", "Native speaker audio"],
-                        free: true
-                    }
-                ]
+                    }]
             },
             {
                 category: "Online Dictionaries and Translation Tools",
@@ -334,34 +262,12 @@ const thaiResources = {
                 category: "Specialized Learning Tools",
                 items: [
                     {
-                        name: "Anki Thai Decks",
-                        url: "https://ankiweb.net/",
-                        level: "All levels",
-                        features: ["1000 Common Words deck", "PickupThai decks", "Spaced repetition", "Audio included", "Frequency-based"],
-                        free: true
-                    },
-                    {
                         name: "PyThaiNLP",
                         url: "https://github.com/PyThaiNLP/pythainlp",
                         level: "Advanced",
                         features: ["Open-source NLP library", "Tokenization", "Sentiment analysis"],
                         free: true
-                    },
-                    {
-                        name: "Language Reactor",
-                        url: "https://www.languagereactor.com/",
-                        level: "All levels",
-                        features: ["Browser extension", "Instant translation", "Works with Netflix/YouTube"],
-                        free: true
-                    },
-                    {
-                        name: "Longdo Chrome Extension",
-                        url: "https://chrome.google.com/webstore/",
-                        level: "All levels",
-                        features: ["Instant translation", "Browser integration"],
-                        free: true
-                    }
-                ]
+                    }]
             }
         ],
 
@@ -369,35 +275,7 @@ const thaiResources = {
             {
                 category: "Language Exchange Platforms",
                 items: [
-                    {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["Millions globally", "Thousands Thai users", "Text, voice, video, live streams", "Built-in translation", "Correction tools"],
-                        free: true
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        level: "All levels",
-                        features: ["11,522 in Thailand", "Voice, video, text", "Professional tutoring options"],
-                        free: true
-                    },
-                    {
-                        name: "MyLanguageExchange",
-                        url: "https://www.mylanguageexchange.com/",
-                        level: "All levels",
-                        features: ["24,236 Thai partners", "Email, chat, face-to-face", "Detailed profiles", "Lesson plans"],
-                        free: true
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        level: "All levels",
-                        features: ["Active Thai community", "Multiple methods including LINE", "Local meetup coordination"],
-                        free: true
-                    }
-                ]
+                    ]
             },
             {
                 category: "Online Communities",
@@ -407,20 +285,6 @@ const thaiResources = {
                         url: "https://reddit.com/r/learnthai",
                         level: "All levels",
                         features: ["3,500+ members", "Q&A and resource sharing", "Weekly threads by level"],
-                        free: true
-                    },
-                    {
-                        name: "Learning Thai Discord",
-                        url: "https://discord.com/",
-                        level: "All levels",
-                        features: ["Active daily", "Voice/text practice", "Study groups", "Challenges"],
-                        free: true
-                    },
-                    {
-                        name: "Farang Can Learn Thai",
-                        url: "https://www.facebook.com/",
-                        level: "All levels",
-                        features: ["Thousands of members", "Cultural context", "Native speaker advice"],
                         free: true
                     },
                     {

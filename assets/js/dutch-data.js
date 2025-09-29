@@ -137,20 +137,12 @@ const dutchResources = {
                         free: true
                     },
                     {
-                        name: "DBNL - Digital Library for Dutch Literature",
-                        url: "https://www.dbnl.org/",
-                        level: "All levels",
-                        features: ["5 million+ pages", "1,000 fundamental works", "Full-text search"],
-                        free: true
-                    },
-                    {
                         name: "Lingua.com Dutch Reading",
                         url: "https://lingua.com/dutch/reading/",
                         level: "Beginner (A1-A2)",
                         features: ["Free PDF worksheets", "Comprehension questions"],
                         free: true
-                    },
-                ]
+                    }]
             }
         ],
 
@@ -183,8 +175,7 @@ const dutchResources = {
                         level: "Intermediate-Advanced",
                         features: ["23-26 min episodes", "Transcripts for members"],
                         free: true
-                    },
-                ]
+                    }]
             },
             {
                 category: "TV and News",

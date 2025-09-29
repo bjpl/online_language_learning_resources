@@ -35,13 +35,6 @@
                             features: ['HTML-based', 'Audio recordings', 'Akelius videos', 'Government funded']
                         },
                         {
-                            name: 'EU Academy - Learn Swedish with OLS',
-                            url: 'https://academy.europa.eu/',
-                            free: true,
-                            level: 'A1-B1',
-                            features: ['Free registration', 'EU context focus', 'Cultural content']
-                        },
-                        {
                             name: 'Memrise Swedish',
                             url: 'https://www.memrise.com/en/learn-swedish',
                             free: true,
@@ -87,8 +80,7 @@
                             free: true,
                             level: 'All levels',
                             features: ['Hej svenska! app', '11 languages', 'Offline access']
-                        },
-                    ]
+                        }]
                 }
             ],
 
@@ -166,8 +158,7 @@
                             free: true,
                             level: 'C1-C2',
                             features: ['Natural expressions', 'Idioms', 'Colloquialisms']
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: 'Literature & Reading Materials',
@@ -315,8 +306,7 @@
                             free: true,
                             level: 'A2-B2',
                             features: ['Level indicators', 'Slow Swedish episodes', 'Clear explanations']
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: 'YouTube Channels',
@@ -329,13 +319,7 @@
                 {
                     category: 'Language Exchange Platforms',
                     items: [
-                        {
-                            name: 'MyLanguageExchange',
-                            url: 'https://www.mylanguageexchange.com/',
-                            free: true,
-                            features: ['Email exchanges', 'Detailed profiles', 'Established community']
-                        },
-                    ]
+                        ]
                 },
                 {
                     category: 'Online Communities',
@@ -357,8 +341,7 @@
                             url: 'https://sprakcafe.se/',
                             free: true,
                             features: ['Regular sessions', 'Cultural discussions', 'Free participation']
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: 'Dictionaries & Tools',
@@ -374,8 +357,7 @@
                             url: 'https://en.wiktionary.org/wiki/Category:Swedish_language',
                             free: true,
                             features: ['Pronunciation', 'Etymology', 'Conjugations']
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: 'Testing & Assessment',
@@ -393,8 +375,7 @@
                             free: false,
                             level: 'A2-B2',
                             features: ['CEFR aligned', 'EU funded', 'All skills tested']
-                        },
-                    ]
+                        }]
                 }
             ]
         }

@@ -86,8 +86,7 @@ languageData.indonesian = {
                         free: true,
                         level: "All levels",
                         features: ["5 sections", "National certification", "Simulation materials"]
-                    },
-                ]
+                    }]
             },
             {
                 category: "University Resources",
@@ -98,39 +97,17 @@ languageData.indonesian = {
                         free: true,
                         level: "All levels",
                         features: ["702 MOOCs", "10+ million participants", "ASEAN Studies"]
-                    },
-                ]
+                    }]
             }
         ],
 
         apps: [
-            {
-                name: "Duolingo App",
-                url: "https://www.duolingo.com/",
-                free: true,
-                level: "A1-B1",
-                features: ["Offline mode", "Stories", "Progress sync"]
-            },
             {
                 name: "Ling App",
                 url: "https://ling-app.com/learn-indonesian/",
                 free: true,
                 level: "Beginner-Advanced",
                 features: ["5 levels", "Offline mode", "Cultural context"]
-            },
-            {
-                name: "Drops Indonesian",
-                url: "https://languagedrops.com/",
-                free: true,
-                level: "Beginner",
-                features: ["2600+ illustrated words", "100% free content", "5-minute sessions"]
-            },
-            {
-                name: "Language Reactor",
-                url: "https://www.languagereactor.com/",
-                free: true,
-                level: "All levels",
-                features: ["Netflix/YouTube subtitles", "Popup dictionary", "Dual subtitles"]
             },
             {
                 name: "Indonesian Keyboard",
@@ -173,8 +150,7 @@ languageData.indonesian = {
                         free: true,
                         level: "A1-C2",
                         features: ["Audio files", "Communicative approach", "Task-based"]
-                    },
-                ]
+                    }]
             },
             {
                 category: "Digital Libraries",
@@ -228,8 +204,7 @@ languageData.indonesian = {
                         free: true,
                         level: "All levels",
                         features: ["36K subscribers", "Cute animations", "Clear explanations"]
-                    },
-                ]
+                    }]
             },
             {
                 category: "Podcasts",
@@ -296,13 +271,6 @@ languageData.indonesian = {
             {
                 category: "Language Exchange",
                 items: [
-                    {
-                        name: "MyLanguageExchange",
-                        url: "https://www.mylanguageexchange.com/",
-                        free: true,
-                        level: "All levels",
-                        features: ["Long-term partnerships", "Structured exchanges"]
-                    },
                 ]
             },
             {
@@ -335,8 +303,7 @@ languageData.indonesian = {
                         free: true,
                         level: "Advanced",
                         features: ["IPA conversion", "Open source"]
-                    },
-                ]
+                    }]
             }
         ]
     },

@@ -61,8 +61,7 @@
                             free: false,
                             level: 'All levels',
                             features: ['Basic free lessons', 'Community feedback', 'Speech recognition']
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: 'Grammar Resources',
@@ -113,8 +112,7 @@
                             free: true,
                             level: 'N5-N4',
                             features: ['Interactive PDFs', 'Answer keys', 'Topic-wise questions']
-                        },
-                    ]
+                        }]
                 }
             ],
 
@@ -124,12 +122,6 @@
                     free: false,
                     platform: 'Web, iOS, Android',
                     features: ['Free first 3 levels', 'Mnemonics', '2000+ kanji']
-                }, {
-                    name: 'Drops Japanese',
-                    url: 'https://languagedrops.com/',
-                    free: true,
-                    platform: 'iOS, Android',
-                    features: ['Free 5 minutes/day', 'Beautiful illustrations', 'Quick sessions']
                 }, {
                     name: 'Kanji Memory Hint',
                     url: 'App stores',
@@ -264,8 +256,7 @@
                             url: 'https://www.weblio.jp/',
                             free: true,
                             features: ['Japanese interface', 'Multiple dictionary sources', 'Professional grade']
-                        },
-                    ]
+                        }]
                 }
             ],
 
@@ -279,8 +270,7 @@
                             free: true,
                             level: 'Beginner',
                             features: ['4-minute episodes', 'Natural speed', 'Patreon transcripts']
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: 'Video Resources',
@@ -291,8 +281,7 @@
                             free: true,
                             level: 'All levels',
                             features: ['Character-specific language', 'Genre-based learning', 'Cultural context']
-                        },
-                    ]
+                        }]
                 }
             ],
 
@@ -301,18 +290,11 @@
                     category: 'Language Exchange & Community',
                     items: [
                         {
-                            name: 'MyLanguageExchange',
-                            url: 'https://www.mylanguageexchange.com/',
-                            free: true,
-                            features: ['Detailed profiles', 'Long-term partnerships', 'Structured approach']
-                        },
-                        {
                             name: 'Minato Communities',
                             url: 'https://minato-jf.jp/',
                             free: true,
                             features: ['Topic-focused groups', 'Global interaction', 'Official support']
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: 'Writing & Kanji Practice',
@@ -334,19 +316,7 @@
                 {
                     category: 'Online Tutoring',
                     items: [
-                        {
-                            name: 'italki',
-                            url: 'https://www.italki.com/en/teachers/portuguese',
-                            free: false,
-                            features: ['Trial lessons', 'Various price points', 'Certified teachers']
-                        },
-                        {
-                            name: 'Preply',
-                            url: 'https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE',
-                            free: false,
-                            features: ['Flexible scheduling', 'Trial lessons', 'All levels']
-                        },
-                    ]
+                        ]
                 }
             ]
         }

@@ -40,15 +40,7 @@
                             free: true,
                             level: 'All levels',
                             features: ['Spaced repetition', 'Native videos', 'Community courses']
-                        },
-                        {
-                            name: 'Busuu Swahili',
-                            url: 'https://www.busuu.com',
-                            free: false,
-                            level: 'Beginner to Intermediate',
-                            features: ['Native speaker feedback', 'Limited free access']
-                        }
-                    ]
+                        }]
                 },
                 {
                     category: 'Government & Institutional Resources',
@@ -85,25 +77,7 @@
                 }
             ],
 
-            apps: [{
-                    name: 'Anki Swahili Decks',
-                    url: 'https://apps.ankiweb.net',
-                    free: true,
-                    platform: 'Desktop, Mobile',
-                    features: ['SRS algorithm', 'Customizable', 'Desktop free']
-                }, {
-                    name: 'Language Transfer App',
-                    url: 'https://www.languagetransfer.org',
-                    free: true,
-                    platform: 'iOS, Android',
-                    features: ['Michel Thomas method', 'Offline access', 'Logic-based']
-                }, {
-                    name: 'Learn Swahili - Speak Language',
-                    url: 'https://play.google.com/store',
-                    free: true,
-                    platform: 'Android',
-                    features: ['Phrases', 'Vocabulary', 'Pronunciation']
-                }, {
+            apps: [ {
                     name: 'Swahili Dictionary',
                     url: 'https://swahili-dictionary.com',
                     free: true,
@@ -142,36 +116,31 @@
                             author: 'Donovan McGrath & Lutz Marten',
                             free: false,
                             level: 'Beginner',
-                            isbn: '978-1138949805',
-                        },
+                            isbn: '978-1138949805'},
                         {
                             name: 'Simplified Swahili',
                             author: 'Peter M. Wilson',
                             free: false,
                             level: 'Beginner',
-                            isbn: '978-0582626355',
-                        },
+                            isbn: '978-0582626355'},
                         {
                             name: 'Teach Yourself Complete Swahili',
                             author: 'Joan Russell',
                             free: false,
                             level: 'Beginner to Intermediate',
-                            isbn: '978-1444107005',
-                        },
+                            isbn: '978-1444107005'},
                         {
                             name: 'Swahili: A Foundation for Speaking',
                             author: 'Sharifa Zawawi',
                             free: false,
                             level: 'Beginner',
-                            isbn: '978-0884325710',
-                        },
+                            isbn: '978-0884325710'},
                         {
                             name: 'Modern Swahili Grammar',
                             author: 'M.A. Mohammed',
                             free: false,
                             level: 'All levels',
-                            isbn: '978-9966846334',
-                        }
+                            isbn: '978-9966846334'}
                     ]
                 },
                 {
@@ -228,8 +197,7 @@
                             url: 'https://www.sketchengine.eu/swwac-swahili-corpus/',
                             free: false,
                             features: ['Frequency lists', 'Collocations']
-                        },
-                    ]
+                        }]
                 }
             ],
 
@@ -278,8 +246,7 @@
                             free: true,
                             level: 'Intermediate',
                             features: ['News', 'Cultural exchange']
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: 'Podcasts',
@@ -297,20 +264,7 @@
                             url: 'https://www.reddit.com/r/Swahili/',
                             free: true,
                             features: ['Q&A', 'Resource sharing', 'Native speakers']
-                        },
-                        {
-                            name: 'iTalki Community',
-                            url: 'https://www.italki.com/',
-                            free: false,
-                            features: ['Forums free', 'Professional tutors', 'Community tutors']
-                        },
-                        {
-                            name: 'MyLanguageExchange',
-                            url: 'https://www.mylanguageexchange.com/',
-                            free: true,
-                            features: ['Long-term partnerships', 'Established platform']
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: 'Writing & Grammar Practice',
@@ -331,8 +285,7 @@
                             url: 'https://www.italki.com/teachers/swahili',
                             free: false,
                             features: ['Various price points', 'Trial lessons']
-                        },
-                    ]
+                        }]
                 }
             ]
         }

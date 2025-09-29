@@ -447,20 +447,6 @@ const romanianResources = {
                 category: "Language Exchange Platforms",
                 items: [
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["18M+ users", "Voice/video calls", "Correction tools"],
-                        free: true
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        level: "All levels",
-                        features: ["Application review", "No ads on free version"],
-                        free: true
-                    },
-                    {
                         name: "Reddit r/Romanian",
                         url: "https://reddit.com/r/Romanian",
                         level: "All levels",
@@ -473,15 +459,7 @@ const romanianResources = {
                         level: "All levels",
                         features: ["Real-time chat", "3000+ members", "Native speakers"],
                         free: true
-                    },
-                    {
-                        name: "MyLanguageExchange",
-                        url: "https://www.mylanguageexchange.com/",
-                        level: "All levels",
-                        features: ["Email exchanges", "Structured lessons", "Chat rooms"],
-                        free: true
-                    }
-                ]
+                    }]
             },
             {
                 category: "Government and Institutional Resources",

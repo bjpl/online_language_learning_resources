@@ -523,13 +523,6 @@ const chineseResources = {
                         level: "Intermediate to Advanced"
                     },
                     {
-                        name: "LibriVox Chinese Collection",
-                        url: "https://librivox.org/",
-                        features: ["Public domain literature", "Multiple narrators", "Classical Chinese", "Advanced learners"],
-                        free: true,
-                        level: "Advanced"
-                    },
-                    {
                         name: "TuneIn Chinese Radio",
                         url: "https://tunein.com/",
                         features: ["Live radio broadcasts", "News and music", "Talk shows", "Chinese-speaking regions"],
@@ -745,34 +738,6 @@ const chineseResources = {
             {
                 category: "Language Exchange Platforms",
                 items: [
-                    {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        features: ["18+ million users", "Text/voice/video exchange", "Correction tools", "Social moments"],
-                        free: true,
-                        level: "All levels"
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://www.tandem.net/",
-                        features: ["Millions of learners", "Swipe matching", "Professional tutors", "Group audio chats"],
-                        free: true,
-                        level: "All levels"
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        features: ["Global reach", "Face-to-face meetups", "Correspondence options", "Online chat"],
-                        free: true,
-                        level: "All levels"
-                    },
-                    {
-                        name: "MyLanguageExchange",
-                        url: "https://www.mylanguageexchange.com/",
-                        features: ["Established since 2000", "AI speech recognition", "Translation features", "Chinese learner community"],
-                        free: true,
-                        level: "All levels"
-                    },
                     {
                         name: "Language.Exchange",
                         url: "https://en.language.exchange/",

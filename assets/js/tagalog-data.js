@@ -228,24 +228,10 @@ const tagalogResources = {
                 category: "Mobile Apps and Software",
                 items: [
                     {
-                        name: "Drops",
-                        url: "https://languagedrops.com/",
-                        level: "Beginner-Intermediate",
-                        features: ["2,700+ words", "150+ topics", "Visual learning", "5 min/day free"],
-                        free: true
-                    },
-                    {
                         name: "Simply Learn Tagalog",
                         url: "https://simyasolutions.com/simply-learn-tagalog/",
                         level: "Beginner",
                         features: ["300+ phrases with audio", "Native speaker recordings", "Full offline", "Completely free basic"],
-                        free: true
-                    },
-                    {
-                        name: "Anki",
-                        url: "https://apps.ankiweb.net/",
-                        level: "All levels",
-                        features: ["Community decks", "Spaced repetition", "Desktop/Android free", "Tagalog.com 2k deck"],
                         free: true
                     },
                     {
@@ -351,36 +337,7 @@ const tagalogResources = {
                         level: "All levels",
                         features: ["Active daily", "Q&A threads", "Native speakers", "Resource sharing"],
                         free: true
-                    },
-                    {
-                        name: "Discord Filipino Servers",
-                        url: "https://discord.com/",
-                        level: "All levels",
-                        features: ["183K+ members (largest)", "Voice/text channels", "Cultural events", "Server moderation"],
-                        free: true
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        level: "All levels",
-                        features: ["Active community", "Multiple chat platforms", "User verification"],
-                        free: true
-                    },
-                    {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["Millions globally", "Text/voice/video", "Corrections", "Free basic"],
-                        free: true
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        level: "All levels",
-                        features: ["Large community", "Voice/video", "Games", "Identity verification"],
-                        free: true
-                    }
-                ]
+                    }]
             },
             {
                 category: "Government and Institutional Resources",

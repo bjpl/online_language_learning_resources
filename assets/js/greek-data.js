@@ -68,13 +68,6 @@ const greekResources = {
                         free: true
                     },
                     {
-                        name: "Language Transfer Greek",
-                        url: "https://www.languagetransfer.org/",
-                        level: "A1-B1",
-                        features: ["Complete Greek audio course", "Thinking method approach", "Completely free", "Downloadable audio lessons"],
-                        free: true
-                    },
-                    {
                         name: "Kypros.org Learn Greek",
                         url: "http://www.kypros.org/LearnGreek/",
                         level: "A1-B1",
@@ -330,22 +323,7 @@ const greekResources = {
                         level: "All levels",
                         features: ["50+ stations available", "News, music, talk shows", "Free streaming", "Various genres"],
                         free: true
-                    },
-                    {
-                        name: "Language Transfer Greek",
-                        url: "https://www.languagetransfer.org/",
-                        level: "Beginner-B1",
-                        features: ["Complete audio course", "Thinking method approach", "Completely free", "Downloadable podcasts"],
-                        free: true
-                    },
-                    {
-                        name: "Harvard Ancient Greek Course",
-                        url: "https://www.youtube.com/",
-                        level: "Academic",
-                        features: ["64 college-level lessons", "By Leonard Muellner", "Completely free on YouTube", "Hansen & Quinn based"],
-                        free: true
-                    }
-                ]
+                    }]
             }
         ],
 
@@ -358,34 +336,6 @@ const greekResources = {
                         url: "https://www.greekpod101.com/app/",
                         level: "All levels",
                         features: ["Audio/video lessons with transcripts", "Freemium model", "Offline downloads", "iOS and Android"],
-                        free: true
-                    },
-                    {
-                        name: "Mondly Greek",
-                        url: "https://play.google.com/store/apps/",
-                        level: "Beginner-Advanced",
-                        features: ["Daily lessons with speech recognition", "Freemium model", "AR/VR lessons available", "Chatbot practice"],
-                        free: true
-                    },
-                    {
-                        name: "FunEasyLearn Greek",
-                        url: "https://play.google.com/store/apps/",
-                        level: "All levels",
-                        features: ["6,000 words with images", "Games included", "Completely free", "Offline capable"],
-                        free: true
-                    },
-                    {
-                        name: "Nemo Greek",
-                        url: "https://apps.apple.com/",
-                        level: "Beginner-Intermediate",
-                        features: ["Essential phrases focus", "Speech Studio included", "Freemium model", "Offline capable, Apple Watch"],
-                        free: true
-                    },
-                    {
-                        name: "From Alpha to Omega",
-                        url: "https://play.google.com/store/apps/",
-                        level: "Absolute Beginner",
-                        features: ["Greek alphabet learning", "Interactive practice activities", "Free with ads", "Beginner focus"],
                         free: true
                     },
                     {
@@ -499,20 +449,6 @@ const greekResources = {
             {
                 category: "Language Exchange Platforms",
                 items: [
-                    {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["18M+ users language exchange", "Text/voice/video chat", "Translation tools included", "Free access"],
-                        free: true
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        level: "All levels",
-                        features: ["1,098+ Greek members", "Swipe matching system", "Message correction tools", "Free platform"],
-                        free: true
-                    },
                     {
                         name: "ConversationExchange",
                         url: "https://www.conversationexchange.com/s_map/learn.php?language=Greek",

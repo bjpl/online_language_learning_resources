@@ -114,13 +114,6 @@ const flemishResources = {
                         level: "All levels"
                     },
                     {
-                        name: "DBNL (Digital Library for Dutch Literature)",
-                        url: "https://www.dbnl.org",
-                        features: ["Digital literature library", "Historical texts included", "Academic journals available", "Literary criticism resources"],
-                        free: true,
-                        level: "Advanced"
-                    },
-                    {
                         name: "Flandrica.be",
                         url: "http://flandrica.be",
                         features: ["Digital heritage library portal", "Medieval manuscripts included", "Historical books collection", "Literary works archive"],
@@ -284,27 +277,7 @@ const flemishResources = {
             {
                 category: "Mobile Applications",
                 items: [
-                    {
-                        name: "NedBox App",
-                        url: "https://apps.apple.com/",
-                        features: ["Mobile NedBox platform", "Interactive city map", "Offline capability included", "iOS and Android"],
-                        free: true,
-                        level: "A1 to A2"
-                    },
-                    {
-                        name: "VRT MAX App",
-                        url: "https://apps.apple.com/",
-                        features: ["Complete VRT content platform", "Live streaming included", "Chromecast support available", "iOS and Android"],
-                        free: true,
-                        level: "All levels"
-                    },
-                    {
-                        name: "VRT Radio Apps",
-                        url: "https://apps.apple.com/",
-                        features: ["Radio 1 Studio Brussel", "Live streaming included", "Podcast access available", "iOS and Android"],
-                        free: true,
-                        level: "Various"
-                    }
+                    
                 ]
             },
             {
@@ -331,34 +304,6 @@ const flemishResources = {
             {
                 category: "Language Exchange and Community Platforms",
                 items: [
-                    {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        features: ["Language exchange app", "40+ million users worldwide", "Text voice video chat", "Translation tools included"],
-                        free: true,
-                        level: "All levels"
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://www.tandem.net/",
-                        features: ["Swipe-based language matching", "Voice and video calls", "Message correction feature", "User review system"],
-                        free: true,
-                        level: "All levels"
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        features: ["Traditional language exchange website", "Face-to-face meetings available", "Pen-pal connections included", "Various chat options"],
-                        free: true,
-                        level: "All levels"
-                    },
-                    {
-                        name: "MyLanguageExchange",
-                        url: "http://mylanguageexchange.com/",
-                        features: ["Language exchange AI tools", "Speech recognition included", "Inline translation feature", "Lesson plans available"],
-                        free: true,
-                        level: "All levels"
-                    },
                     {
                         name: "Vlaamse Podcast Gids",
                         url: "https://vlaamsepodcasts.be/",

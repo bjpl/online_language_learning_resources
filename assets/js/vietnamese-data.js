@@ -94,19 +94,7 @@
                 }
             ],
 
-            apps: [{
-                    name: "Drops Vietnamese",
-                    url: "https://languagedrops.com/",
-                    level: "Beginner to Intermediate",
-                    free: true,
-                    features: ["5 minutes/day free", "Beautiful graphics", "Visual learning", "Topic-based"]
-                }, {
-                    name: "Memrise Vietnamese",
-                    url: "https://www.memrise.com/",
-                    level: "Beginner to Intermediate",
-                    free: true,
-                    features: ["Native speaker videos", "Spaced repetition", "Community content", "Mobile app"]
-                }, {
+            apps: [ {
                     name: "Vietnamese by Nemo",
                     url: "iOS/Android app stores",
                     level: "Beginner",
@@ -151,8 +139,7 @@
                             level: "Elementary to Intermediate",
                             free: true,
                             features: ["Interactive features", "Subject categories", "School materials", "Grade-aligned"]
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: "Textbooks and References",
@@ -170,8 +157,7 @@
                             level: "Various",
                             free: true,
                             features: ["Sentence-aligned", "Research-oriented", "Bilingual", "Large corpus"]
-                        },
-                    ]
+                        }]
                 },
                 {
                     category: "News and Current Events",
@@ -182,8 +168,7 @@
                             level: "Intermediate to Advanced",
                             free: true,
                             features: ["Daily updates", "Bilingual features", "Current events", "Cultural content"]
-                        },
-                    ]
+                        }]
                 }
             ],
 
@@ -235,8 +220,7 @@
                             level: "All levels",
                             free: true,
                             features: ["Live streaming", "DVR", "Free registration", "Multiple channels"]
-                        },
-                    ]
+                        }]
                 }
             ],
 
@@ -250,13 +234,6 @@
                             level: "All levels",
                             free: true,
                             features: ["Q&A threads", "Resource sharing", "Native speakers", "Active community"]
-                        },
-                        {
-                            name: "MyLanguageExchange",
-                            url: "https://mylanguageexchange.com/",
-                            level: "All levels",
-                            free: true,
-                            features: ["Detailed matching", "Cultural focus", "Various formats", "Structured exchange"]
                         },
                         {
                             name: "Hilokal",

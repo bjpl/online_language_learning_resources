@@ -144,13 +144,6 @@ const tamilResources = {
                         free: true
                     },
                     {
-                        name: "Reference Grammar of Spoken Tamil",
-                        url: "https://archive.org/",
-                        level: "Intermediate to Advanced",
-                        features: ["Modern spoken Tamil focus", "Harold F. Schiffman", "Cambridge University Press", "Available via academic libraries"],
-                        free: true
-                    },
-                    {
                         name: "Handbook of Tamil Grammar",
                         url: "https://archive.org/details/handbook-of-tamil-grammar",
                         level: "All levels",
@@ -314,36 +307,7 @@ const tamilResources = {
                         level: "All levels",
                         features: ["Systematic Tamil lessons", "By Sandeep Sarah", "6-26 minute episodes", "Grammar and tenses focus"],
                         free: true
-                    },
-                    {
-                        name: "Learn Tamil with Nithya",
-                        url: "https://podcasts.apple.com/",
-                        level: "All levels",
-                        features: ["Conversational Tamil focus", "Real-life scenarios", "Guest speakers", "Practical application"],
-                        free: true
-                    },
-                    {
-                        name: "Learn Tamil Quickly",
-                        url: "https://podcasts.apple.com/",
-                        level: "Beginner",
-                        features: ["100+ lessons", "Basic vocabulary focus", "Bite-sized lessons", "Interactive segments with quizzes"],
-                        free: true
-                    },
-                    {
-                        name: "Tamil Language and Culture",
-                        url: "https://podcasts.apple.com/",
-                        level: "Beginner-friendly",
-                        features: ["Language with cultural insights", "Native speaker interviews", "Festivals and traditions", "Cultural context"],
-                        free: true
-                    },
-                    {
-                        name: "Learn Tamil with Me",
-                        url: "https://open.spotify.com/",
-                        level: "Complete beginner",
-                        features: ["Personal learning journey by Aamna", "7-month fluency goal", "Daily episodes", "Beginner perspective"],
-                        free: true
-                    }
-                ]
+                    }]
             }
         ],
 
@@ -363,13 +327,6 @@ const tamilResources = {
                         url: "https://apps.apple.com/us/app/tamil-by-nemo/id635605226",
                         level: "Beginner to Intermediate",
                         features: ["Pronunciation and conversation focus", "Speech Studio", "Apple Watch support", "Native speaker audio"],
-                        free: true
-                    },
-                    {
-                        name: "Learn Tamil through English",
-                        url: "https://play.google.com/store/apps/",
-                        level: "Beginner",
-                        features: ["800+ words, 550+ sentences", "Audio support", "No script learning required", "English speakers focused"],
                         free: true
                     },
                     {
@@ -467,13 +424,6 @@ const tamilResources = {
                         url: "https://www.hilokal.com/en/speak/Tamil",
                         level: "All levels",
                         features: ["Live audio chatrooms", "Drop-in audio rooms", "Free access", "Practice with native speakers"],
-                        free: true
-                    },
-                    {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["Text/voice chat", "Translation tools", "Correction features", "Tamil transliteration support"],
                         free: true
                     },
                     {

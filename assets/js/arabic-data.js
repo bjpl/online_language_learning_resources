@@ -369,13 +369,6 @@ const arabicResources = {
                 category: "Language Exchange Platforms",
                 items: [
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["Text/voice/video with native speakers", "Strong Arabic presence", "Correction tools", "Timeline posts"],
-                        free: true
-                    },
-                    {
                         name: "Learn Arabic Discord",
                         url: "https://discord.com/servers/learn-arabic-823889299325714462",
                         level: "All levels",
@@ -387,13 +380,6 @@ const arabicResources = {
                         url: "https://www.reddit.com/r/learn_arabic/",
                         level: "All levels",
                         features: ["20,000+ member subreddit", "Resource sharing", "Native speaker advice", "Weekly discussions"],
-                        free: true
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://www.tandem.net/",
-                        level: "All levels",
-                        features: ["Language exchange app", "Large Arabic user base", "Moderated community"],
                         free: true
                     },
                     {
@@ -409,15 +395,7 @@ const arabicResources = {
                         level: "All levels",
                         features: ["Dedicated Arabic exchange section", "200+ languages", "Profiles from Arab countries"],
                         free: true
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        level: "All levels",
-                        features: ["Partner matching for various formats", "Face-to-face, correspondence, voice options"],
-                        free: true
-                    }
-                ]
+                    }]
             },
             {
                 category: "Gulf States Government Resources",

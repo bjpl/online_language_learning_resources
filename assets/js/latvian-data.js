@@ -187,20 +187,6 @@ const latvianResources = {
                         free: true
                     },
                     {
-                        name: "One Minute Latvian",
-                        url: "https://podcasts.apple.com/",
-                        level: "Beginner",
-                        features: ["Bite-sized lessons", "Basic vocabulary and phrases", "1-3 minute episodes", "Clear pronunciation guides", "Daily learning routine"],
-                        free: true
-                    },
-                    {
-                        name: "Easy Latvian",
-                        url: "https://podcasts.apple.com/",
-                        level: "All levels",
-                        features: ["Relaxed-pace lessons", "Everyday conversations", "Grammar coverage", "Slow clear speech", "Listener Q&A", "Conversational approach"],
-                        free: true
-                    },
-                    {
                         name: "Learn Latvian with Dace",
                         url: "https://latvianonline.lv/",
                         level: "Beginner to Advanced",
@@ -226,35 +212,7 @@ const latvianResources = {
             {
                 category: "Podcasts for Learners",
                 items: [
-                    {
-                        name: "Latvian Stories",
-                        url: "https://podcasts.apple.com/",
-                        level: "All levels",
-                        features: ["Language learning through storytelling", "Bilingual format", "Cultural context", "Narrative approach"],
-                        free: true
-                    },
-                    {
-                        name: "Let's Learn Latvian",
-                        url: "https://podcasts.apple.com/",
-                        level: "Beginner to Intermediate",
-                        features: ["Audio lessons for beginners", "Grammar and vocabulary focus", "Cultural insights included", "Structured progression"],
-                        free: true
-                    },
-                    {
-                        name: "Kinda Latvian",
-                        url: "https://open.spotify.com/",
-                        level: "All levels",
-                        features: ["Foreigners' perspective on Latvia", "Mostly English with some Latvian", "Cultural insights focus", "Entertainment approach"],
-                        free: true
-                    },
-                    {
-                        name: "Latvia Weekly",
-                        url: "https://podcasts.apple.com/",
-                        level: "Intermediate",
-                        features: ["Weekly news and happenings", "English with Latvian elements", "Current events coverage", "Cultural discussion"],
-                        free: true
-                    }
-                ]
+                    ]
             }
         ],
 
@@ -270,20 +228,6 @@ const latvianResources = {
                         free: true
                     },
                     {
-                        name: "50 Languages App",
-                        url: "https://play.google.com/store/apps/",
-                        level: "A1-A2",
-                        features: ["Mobile version of 50Languages", "100 lessons included", "Offline capability", "Audio files support", "iOS and Android"],
-                        free: true
-                    },
-                    {
-                        name: "Memrise",
-                        url: "https://www.memrise.com/",
-                        level: "Beginner to Intermediate",
-                        features: ["Community-created courses", "Spaced repetition system", "Video clips of native speakers", "User-generated content", "Free access"],
-                        free: true
-                    },
-                    {
                         name: "Anki",
                         url: "https://ankiweb.net/shared",
                         level: "All levels",
@@ -296,15 +240,7 @@ const latvianResources = {
                         level: "Intermediate to Advanced",
                         features: ["Context-based learning", "Fill-in-the-blank exercises", "Thousands of sentences", "Spaced repetition system", "Free basic version"],
                         free: true
-                    },
-                    {
-                        name: "Latvian Flashcards",
-                        url: "https://play.google.com/store/apps/",
-                        level: "All levels",
-                        features: ["4000+ premade cards", "9 categories organized", "Native pronunciation audio", "Android app"],
-                        free: true
-                    }
-                ]
+                    }]
             },
             {
                 category: "Dictionaries and Language Tools",
@@ -364,20 +300,6 @@ const latvianResources = {
                 category: "Children's Resources",
                 items: [
                     {
-                        name: "Pasakas App",
-                        url: "https://apps.apple.com/",
-                        level: "Children",
-                        features: ["100 beloved audio fairytales", "Professional narration", "Classic stories collection", "iOS and Android"],
-                        free: true
-                    },
-                    {
-                        name: "LMT Audio pasakas",
-                        url: "https://play.google.com/store/apps/",
-                        level: "Children",
-                        features: ["60 fairytales", "Radio Theatre actors narration", "Professional production", "High-quality audio"],
-                        free: true
-                    },
-                    {
                         name: "Mazputniņš",
                         url: "http://www.mazputnins.lv/",
                         level: "Children",
@@ -390,22 +312,7 @@ const latvianResources = {
                         level: "Beginner Children",
                         features: ["Educational animated series", "Under 5 minutes per episode", "Colorful characters", "LSM production"],
                         free: true
-                    },
-                    {
-                        name: "Ābece App",
-                        url: "https://play.google.com/store/apps/",
-                        level: "Preschool",
-                        features: ["Alphabet learning tool", "Interactive activities", "Games included", "Early learning focus"],
-                        free: true
-                    },
-                    {
-                        name: "Pasaku kino",
-                        url: "https://play.google.com/store/apps/",
-                        level: "Children",
-                        features: ["~100 animated movies", "Visual storytelling", "Entertainment-based learning", "Mobile app"],
-                        free: true
-                    }
-                ]
+                    }]
             }
         ],
 
@@ -418,34 +325,6 @@ const latvianResources = {
                         url: "https://www.mylanguageexchange.com/learn/latvian.asp",
                         level: "All levels",
                         features: ["Email, text, voice/video exchanges", "20+ active Latvian speakers", "Free lesson plans included", "AI tools available"],
-                        free: true
-                    },
-                    {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["Mobile app exchange", "Social media-style interface", "Translation and correction tools", "Voice recognition", "Moments posts feature"],
-                        free: true
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        level: "All levels",
-                        features: ["Language exchange app", "Matching system included", "338+ members in Riga", "Swipe matching", "Group learning Parties"],
-                        free: true
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        level: "All levels",
-                        features: ["Three exchange types available", "Face-to-face coordination", "Correspondence option", "Online practice", "External platform integration"],
-                        free: true
-                    },
-                    {
-                        name: "Speaky",
-                        url: "https://www.speaky.com/",
-                        level: "All levels",
-                        features: ["Free language exchange", "5+ million users", "170+ languages supported", "195+ countries represented"],
                         free: true
                     },
                     {

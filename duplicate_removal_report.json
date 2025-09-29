@@ -1,0 +1,555 @@
+{
+  "date": "2025-09-29T04:04:34.945Z",
+  "backupLocation": "C:\\Users\\brand\\Development\\Project_Workspace\\active-development\\online_language_learning_resources\\backups\\backup_2025-09-29T04-04-34-791Z",
+  "urlsKept": [
+    "swayam.gov.in",
+    "gutenberg.org/browse/languages/nl",
+    "bipa.ut.ac.id",
+    "oq.gov.kz/en/p-learning",
+    "indonesian-online.com"
+  ],
+  "totalDuplicatesFound": 39,
+  "totalResourcesRemoved": 265,
+  "removedUrls": [
+    "mondly.com",
+    "ankiweb.net",
+    "50languages.com",
+    "hellotalk.com",
+    "tandem.net",
+    "conversationexchange.com",
+    "podcasts.apple.com",
+    "play.google.com/store/apps",
+    "apps.apple.com",
+    "chrome.google.com/webstore",
+    "languagetool.org",
+    "facebook.com",
+    "academy.europa.eu",
+    "youtube.com",
+    "utalk.com",
+    "discord.com/invite/language-learning-community-634078414332231681",
+    "librivox.org",
+    "mylanguageexchange.com",
+    "archive.org",
+    "play.google.com/store",
+    "dbnl.org",
+    "open.spotify.com",
+    "discord.com",
+    "duolingo.com",
+    "apps.ankiweb.net",
+    "librelingo.app",
+    "wordreference.com",
+    "languagetransfer.org",
+    "languagedrops.com",
+    "ling-app.com",
+    "nemoapps.com",
+    "languagereactor.com",
+    "merlot.org/merlot/worldlanguages.htm",
+    "memrise.com",
+    "busuu.com",
+    "italki.com/en/teachers/portuguese",
+    "preply.com/en/get-started?subject=portuguese&source=home_page",
+    "speaky.com",
+    "italki.com"
+  ],
+  "removalsByLanguage": [
+    {
+      "language": "afrikaans",
+      "removedCount": 6,
+      "removedUrls": [
+        "https://www.mondly.com/",
+        "https://ankiweb.net/",
+        "https://www.50languages.com/",
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/"
+      ]
+    },
+    {
+      "language": "arabic",
+      "removedCount": 3,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://www.tandem.net/",
+        "https://www.conversationexchange.com/"
+      ]
+    },
+    {
+      "language": "bengali",
+      "removedCount": 13,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://apps.apple.com/",
+        "https://chrome.google.com/webstore/"
+      ]
+    },
+    {
+      "language": "bulgarian",
+      "removedCount": 4,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://languagetool.org/",
+        "https://www.facebook.com/",
+        "https://academy.europa.eu/"
+      ]
+    },
+    {
+      "language": "burmese",
+      "removedCount": 4,
+      "removedUrls": [
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://utalk.com/",
+        "https://discord.com/invite/language-learning-community-634078414332231681"
+      ]
+    },
+    {
+      "language": "chinese",
+      "removedCount": 5,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://www.tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://librivox.org/",
+        "https://www.mylanguageexchange.com/"
+      ]
+    },
+    {
+      "language": "cree",
+      "removedCount": 7,
+      "removedUrls": [
+        "https://apps.apple.com/",
+        "https://apps.apple.com/",
+        "https://apps.apple.com/",
+        "https://www.facebook.com/",
+        "https://www.youtube.com/",
+        "https://archive.org",
+        "https://play.google.com/store/"
+      ]
+    },
+    {
+      "language": "dutch",
+      "removedCount": 1,
+      "removedUrls": [
+        "https://www.dbnl.org/"
+      ]
+    },
+    {
+      "language": "estonian",
+      "removedCount": 6,
+      "removedUrls": [
+        "https://ankiweb.net/",
+        "https://www.hellotalk.com/",
+        "https://www.tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://open.spotify.com/",
+        "https://discord.com/"
+      ]
+    },
+    {
+      "language": "finnish",
+      "removedCount": 2,
+      "removedUrls": [
+        "https://ankiweb.net",
+        "https://www.mylanguageexchange.com/"
+      ]
+    },
+    {
+      "language": "flemish",
+      "removedCount": 8,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://www.tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://apps.apple.com/",
+        "https://apps.apple.com/",
+        "https://apps.apple.com/",
+        "http://mylanguageexchange.com/",
+        "https://www.dbnl.org"
+      ]
+    },
+    {
+      "language": "french",
+      "removedCount": 11,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://languagetool.org/",
+        "https://academy.europa.eu/",
+        "https://librivox.org/",
+        "https://www.duolingo.com/",
+        "https://www.duolingo.com/",
+        "https://apps.ankiweb.net/",
+        "https://librelingo.app/",
+        "https://www.wordreference.com/"
+      ]
+    },
+    {
+      "language": "german",
+      "removedCount": 6,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://languagetool.org/",
+        "https://apps.ankiweb.net/",
+        "https://librelingo.app/"
+      ]
+    },
+    {
+      "language": "greek",
+      "removedCount": 9,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://apps.apple.com/",
+        "https://www.youtube.com/",
+        "https://www.languagetransfer.org/",
+        "https://www.languagetransfer.org/"
+      ]
+    },
+    {
+      "language": "guarani",
+      "removedCount": 8,
+      "removedUrls": [
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://archive.org/",
+        "https://play.google.com/store/",
+        "https://play.google.com/store/",
+        "https://open.spotify.com/",
+        "https://www.duolingo.com/"
+      ]
+    },
+    {
+      "language": "hindi",
+      "removedCount": 9,
+      "removedUrls": [
+        "https://www.mondly.com/",
+        "https://apps.apple.com",
+        "https://utalk.com",
+        "https://play.google.com/store",
+        "https://play.google.com/store",
+        "https://www.languagetransfer.org",
+        "https://languagedrops.com",
+        "https://ling-app.com",
+        "https://www.nemoapps.com"
+      ]
+    },
+    {
+      "language": "indonesian",
+      "removedCount": 4,
+      "removedUrls": [
+        "https://www.mylanguageexchange.com/",
+        "https://www.duolingo.com/",
+        "https://languagedrops.com/",
+        "https://www.languagereactor.com/"
+      ]
+    },
+    {
+      "language": "italian",
+      "removedCount": 8,
+      "removedUrls": [
+        "https://languagetool.org",
+        "https://www.mylanguageexchange.com",
+        "https://www.wordreference.com",
+        "https://www.languagetransfer.org",
+        "https://www.languagereactor.com",
+        "https://www.merlot.org/merlot/WorldLanguages.htm",
+        "https://www.memrise.com",
+        "https://www.busuu.com"
+      ]
+    },
+    {
+      "language": "japanese",
+      "removedCount": 4,
+      "removedUrls": [
+        "https://www.mylanguageexchange.com/",
+        "https://languagedrops.com/",
+        "https://www.italki.com/en/teachers/portuguese",
+        "https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE"
+      ]
+    },
+    {
+      "language": "kazakh",
+      "removedCount": 15,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://archive.org/",
+        "https://archive.org/"
+      ]
+    },
+    {
+      "language": "korean",
+      "removedCount": 2,
+      "removedUrls": [
+        "https://www.duolingo.com/",
+        "https://languagedrops.com/"
+      ]
+    },
+    {
+      "language": "latvian",
+      "removedCount": 17,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://apps.apple.com/",
+        "https://open.spotify.com/",
+        "https://www.memrise.com/",
+        "https://www.speaky.com/"
+      ]
+    },
+    {
+      "language": "lithuanian",
+      "removedCount": 6,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://www.tandem.net/",
+        "https://academy.europa.eu/",
+        "https://discord.com/invite/language-learning-community-634078414332231681",
+        "https://open.spotify.com/",
+        "https://www.speaky.com/"
+      ]
+    },
+    {
+      "language": "malay",
+      "removedCount": 3,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/"
+      ]
+    },
+    {
+      "language": "marathi",
+      "removedCount": 11,
+      "removedUrls": [
+        "https://ankiweb.net/",
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://podcasts.apple.com/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://play.google.com/store/apps/",
+        "https://apps.apple.com/",
+        "https://apps.apple.com/",
+        "https://chrome.google.com/webstore/"
+      ]
+    },
+    {
+      "language": "nahuatl",
+      "removedCount": 6,
+      "removedUrls": [
+        "https://apps.apple.com/",
+        "https://www.facebook.com/",
+        "https://www.youtube.com/",
+        "https://archive.org",
+        "https://play.google.com/store/",
+        "https://www.memrise.com/"
+      ]
+    },
+    {
+      "language": "persian",
+      "removedCount": 16,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://play.google.com/store/apps/",
+        "https://apps.apple.com/",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://www.mylanguageexchange.com/"
+      ]
+    },
+    {
+      "language": "polish",
+      "removedCount": 1,
+      "removedUrls": [
+        "https://www.mylanguageexchange.com/"
+      ]
+    },
+    {
+      "language": "portuguese",
+      "removedCount": 3,
+      "removedUrls": [
+        "https://www.mylanguageexchange.com/",
+        "https://www.italki.com/en/teachers/portuguese",
+        "https://preply.com/en/get-started?subject=portuguese&source=HOME_PAGE"
+      ]
+    },
+    {
+      "language": "romanian",
+      "removedCount": 3,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.mylanguageexchange.com/"
+      ]
+    },
+    {
+      "language": "serbian",
+      "removedCount": 8,
+      "removedUrls": [
+        "https://www.50languages.com/",
+        "https://www.hellotalk.com/",
+        "https://languagetool.org/",
+        "https://academy.europa.eu/",
+        "https://www.youtube.com/",
+        "https://open.spotify.com/",
+        "https://languagedrops.com/",
+        "https://ling-app.com/"
+      ]
+    },
+    {
+      "language": "spanish",
+      "removedCount": 7,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://www.mylanguageexchange.com/",
+        "https://www.wordreference.com/",
+        "https://www.merlot.org/merlot/WorldLanguages.htm",
+        "https://www.speaky.com/"
+      ]
+    },
+    {
+      "language": "swahili",
+      "removedCount": 6,
+      "removedUrls": [
+        "https://www.mylanguageexchange.com/",
+        "https://play.google.com/store",
+        "https://apps.ankiweb.net",
+        "https://www.languagetransfer.org",
+        "https://www.busuu.com",
+        "https://www.italki.com/"
+      ]
+    },
+    {
+      "language": "swedish",
+      "removedCount": 2,
+      "removedUrls": [
+        "https://academy.europa.eu/",
+        "https://www.mylanguageexchange.com/"
+      ]
+    },
+    {
+      "language": "tagalog",
+      "removedCount": 6,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://discord.com/",
+        "https://apps.ankiweb.net/",
+        "https://languagedrops.com/"
+      ]
+    },
+    {
+      "language": "tamil",
+      "removedCount": 7,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://play.google.com/store/apps/",
+        "https://archive.org/",
+        "https://open.spotify.com/"
+      ]
+    },
+    {
+      "language": "thai",
+      "removedCount": 19,
+      "removedUrls": [
+        "https://ankiweb.net/",
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.conversationexchange.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://podcasts.apple.com/",
+        "https://chrome.google.com/webstore/",
+        "https://www.facebook.com/",
+        "https://www.youtube.com/",
+        "https://www.youtube.com/",
+        "https://www.mylanguageexchange.com/",
+        "https://play.google.com/store/",
+        "https://open.spotify.com/",
+        "https://open.spotify.com/",
+        "https://discord.com/",
+        "https://ling-app.com/",
+        "https://www.nemoapps.com/",
+        "https://www.languagereactor.com/"
+      ]
+    },
+    {
+      "language": "vietnamese",
+      "removedCount": 3,
+      "removedUrls": [
+        "https://mylanguageexchange.com/",
+        "https://languagedrops.com/",
+        "https://www.memrise.com/"
+      ]
+    },
+    {
+      "language": "wolof",
+      "removedCount": 6,
+      "removedUrls": [
+        "https://www.hellotalk.com/",
+        "https://tandem.net/",
+        "https://www.youtube.com/",
+        "https://archive.org/",
+        "https://archive.org/",
+        "https://italki.com/"
+      ]
+    }
+  ]
+}

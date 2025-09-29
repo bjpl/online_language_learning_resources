@@ -108,13 +108,6 @@ const spanishResources = {
                         free: true
                     },
                     {
-                        name: "MERLOT Spanish Materials",
-                        url: "https://www.merlot.org/merlot/WorldLanguages.htm",
-                        level: "All levels",
-                        features: ["Peer-reviewed learning objects", "Community ratings", "Searchable database", "Various open licenses"],
-                        free: true
-                    },
-                    {
                         name: "Hola a Todos: Elementary Spanish I",
                         url: "https://oer.galileo.usg.edu/languages-textbooks/3/",
                         level: "A1",
@@ -392,13 +385,6 @@ const spanishResources = {
                         free: true
                     },
                     {
-                        name: "WordReference",
-                        url: "https://www.wordreference.com/",
-                        level: "All levels",
-                        features: ["250,000+ translations", "3M+ forum discussions", "Completely free"],
-                        free: true
-                    },
-                    {
                         name: "SpanishDict Dictionary",
                         url: "https://www.spanishdict.com/",
                         level: "All levels",
@@ -449,45 +435,10 @@ const spanishResources = {
                 category: "Language Exchange Platforms",
                 items: [
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["150+ languages", "Text, voice, video chat", "Correction tools", "Extensive free features"],
-                        free: true
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        level: "All levels",
-                        features: ["300+ languages", "Structured partner matching", "Application screening", "Solid free features"],
-                        free: true
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        level: "All levels",
-                        features: ["Traditional language exchange", "Face-to-face meetups", "Pen-pals", "Completely free"],
-                        free: true
-                    },
-                    {
-                        name: "Speaky",
-                        url: "https://www.speaky.com/",
-                        level: "All levels",
-                        features: ["5 million user community", "Cultural exchange focus", "Completely free"],
-                        free: true
-                    },
-                    {
                         name: "Bilingua",
                         url: "https://play.google.com/store/apps/details?id=com.bilingua",
                         level: "All levels",
                         features: ["Personality-based matching", "Long-term partnership focus", "Completely free"],
-                        free: true
-                    },
-                    {
-                        name: "MyLanguageExchange",
-                        url: "https://www.mylanguageexchange.com/",
-                        level: "All levels",
-                        features: ["Structured lesson plans", "Voice-activated features", "Free basic features"],
                         free: true
                     },
                     {

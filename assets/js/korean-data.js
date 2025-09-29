@@ -133,20 +133,6 @@ languageData.korean = {
 
         apps: [
             {
-                name: "Duolingo Korean",
-                url: "https://www.duolingo.com/",
-                free: true,
-                level: "Beginner to Lower-intermediate",
-                features: ["2200+ words", "Completely free core", "Mobile/web sync"]
-            },
-            {
-                name: "Drops Korean",
-                url: "https://languagedrops.com/",
-                free: true,
-                level: "Beginner to Intermediate",
-                features: ["2700+ words", "150+ topics", "5 min daily free"]
-            },
-            {
                 name: "Naver Dictionary/Papago",
                 url: "https://papago.naver.com/",
                 free: true,
@@ -429,8 +415,7 @@ languageData.korean = {
                         free: true,
                         level: "All levels",
                         features: ["Official rankings", "Difficulty levels", "Excel format"]
-                    },
-                ]
+                    }]
             }
         ]
     },

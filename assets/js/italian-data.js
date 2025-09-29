@@ -41,20 +41,12 @@ languageData.italian = {
                         features: ["Free core content", "4-week structured courses", "Audio resources"]
                     },
                     {
-                        name: "Language Transfer Italian",
-                        url: "https://www.languagetransfer.org",
-                        free: true,
-                        level: "A1-A2",
-                        features: ["Completely free", "No registration", "Unique teaching methodology"]
-                    },
-                    {
                         name: "The Italian Experiment",
                         url: "https://www.theitalianexperiment.com/",
                         free: true,
                         level: "A1-B1",
                         features: ["Native speaker audio", "Cultural content", "Completely free"]
-                    },
-                ]
+                    }]
             },
             {
                 category: "Open Educational Resources",
@@ -74,20 +66,12 @@ languageData.italian = {
                         features: ["Spunti series", "D'accordo textbook", "Multiple CC licenses"]
                     },
                     {
-                        name: "MERLOT Italian Collection",
-                        url: "https://www.merlot.org/merlot/WorldLanguages.htm",
-                        free: true,
-                        level: "A1-C1",
-                        features: ["Open textbooks", "Videos and quizzes", "Peer-reviewed by scholars"]
-                    },
-                    {
                         name: "COERLL Italian Materials",
                         url: "https://coerll.utexas.edu/coerll/materials/language/italian/",
                         free: true,
                         level: "B1-C1",
                         features: ["Radio Arlecchino series", "Commedia dell'arte integration"]
-                    },
-                ]
+                    }]
             },
             {
                 category: "Government Resources",
@@ -119,32 +103,11 @@ languageData.italian = {
                 features: ["100% free core content", "Mobile offline mode", "Speech recognition", "Stories feature"]
             },
             {
-                name: "Language Reactor",
-                url: "https://www.languagereactor.com",
-                free: true,
-                level: "A1-C2",
-                features: ["Popup dictionary", "Precise playback control", "Chrome extension"]
-            },
-            {
                 name: "Toucan",
                 url: "https://jointoucan.com",
                 free: true,
                 level: "A1-B2",
                 features: ["Passive learning", "Progress tracking", "Browser integration"]
-            },
-            {
-                name: "Memrise Italian",
-                url: "https://www.memrise.com",
-                free: true,
-                level: "A1-C2",
-                features: ["Learn with Locals videos", "Scenario-based", "Spaced repetition"]
-            },
-            {
-                name: "Busuu Italian",
-                url: "https://www.busuu.com",
-                free: true,
-                level: "A1-B2",
-                features: ["120 million native speakers", "Speech recognition", "Community feedback"]
             },
             {
                 name: "15000 Italian Sentences (Anki)",
@@ -159,23 +122,7 @@ languageData.italian = {
                 free: true,
                 level: "A1-B2",
                 features: ["Multiple question types", "Portable", "Progress tracking"]
-            },
-            {
-                name: "WordReference Dictionary App",
-                url: "https://www.wordreference.com",
-                free: true,
-                level: "All levels",
-                features: ["200,000 translations", "Audio pronunciations", "User forums", "Mobile apps"]
-            },
-            {
-                name: "LanguageTool",
-                url: "https://languagetool.org",
-                free: true,
-                level: "All levels",
-                features: ["Browser extensions", "API access", "Style suggestions"]
-            }
-        
-        ],
+            }],
 
         books: [
             {
@@ -229,8 +176,7 @@ languageData.italian = {
                         free: true,
                         level: "A1-C2",
                         features: ["Free collaborative content", "Printable", "Continuously updated"]
-                    },
-                ]
+                    }]
             },
             {
                 category: "Literature & Reading",
@@ -298,8 +244,7 @@ languageData.italian = {
                         free: true,
                         level: "A2-B2",
                         features: ["Free PDF transcripts", "Comprehension exercises", "Slow Italian"]
-                    },
-                ]
+                    }]
             },
             {
                 category: "YouTube Channels",
@@ -366,14 +311,7 @@ languageData.italian = {
             {
                 category: "Language Exchange",
                 items: [
-                    {
-                        name: "MyLanguageExchange",
-                        url: "https://www.mylanguageexchange.com",
-                        free: true,
-                        level: "All levels",
-                        features: ["Lesson plans", "Structured activities", "Safety focus"]
-                    },
-                ]
+                    ]
             },
             {
                 category: "Language Tools",
@@ -403,8 +341,7 @@ languageData.italian = {
                         free: true,
                         level: "All levels",
                         features: ["No registration", "MP3 downloads", "Male/female voices"]
-                    },
-                ]
+                    }]
             }
         ]
     },

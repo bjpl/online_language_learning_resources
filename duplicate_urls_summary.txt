@@ -1,0 +1,241 @@
+DUPLICATE URLs SUMMARY
+======================
+
+Total unique URLs analyzed: 2061
+URLs appearing in multiple languages: 44
+
+URLs Found in Multiple Languages:
+-----------------------------
+
+1. hellotalk.com
+   Found in 23 languages: afrikaans, arabic, bengali, bulgarian, chinese, estonian, flemish, french, german, greek, kazakh, latvian, lithuanian, malay, marathi, persian, romanian, serbian, spanish, tagalog, tamil, thai, wolof
+
+2. tandem.net
+   Found in 20 languages: afrikaans, arabic, bengali, chinese, estonian, flemish, french, german, greek, kazakh, latvian, lithuanian, malay, marathi, persian, romanian, spanish, tagalog, thai, wolof
+   URL variations:
+   - https://tandem.net/
+   - https://www.tandem.net/
+
+3. conversationexchange.com
+   Found in 16 languages: afrikaans, arabic, bengali, chinese, estonian, flemish, french, german, kazakh, latvian, malay, marathi, persian, spanish, tagalog, thai
+
+4. mylanguageexchange.com
+   Found in 15 languages: chinese, finnish, flemish, indonesian, italian, japanese, persian, polish, portuguese, romanian, spanish, swahili, swedish, thai, vietnamese
+   URL variations:
+   - https://www.mylanguageexchange.com/
+   - http://mylanguageexchange.com/
+   - https://www.mylanguageexchange.com
+   - https://mylanguageexchange.com/
+
+5. youtube.com
+   Found in 10 languages: burmese, cree, greek, guarani, kazakh, nahuatl, persian, serbian, thai, wolof
+
+6. apps.apple.com
+   Found in 9 languages: bengali, cree, flemish, greek, hindi, latvian, marathi, nahuatl, persian
+   URL variations:
+   - https://apps.apple.com/
+   - https://apps.apple.com
+
+7. podcasts.apple.com
+   Found in 7 languages: bengali, kazakh, latvian, marathi, persian, tamil, thai
+
+8. play.google.com/store/apps
+   Found in 7 languages: bengali, greek, kazakh, latvian, marathi, persian, tamil
+
+9. open.spotify.com
+   Found in 7 languages: estonian, guarani, latvian, lithuanian, serbian, tamil, thai
+
+10. languagedrops.com
+   Found in 7 languages: hindi, indonesian, japanese, korean, serbian, tagalog, vietnamese
+   URL variations:
+   - https://languagedrops.com
+   - https://languagedrops.com/
+
+11. archive.org
+   Found in 6 languages: cree, guarani, kazakh, nahuatl, tamil, wolof
+   URL variations:
+   - https://archive.org
+   - https://archive.org/
+
+12. play.google.com/store
+   Found in 6 languages: cree, guarani, hindi, nahuatl, swahili, thai
+   URL variations:
+   - https://play.google.com/store/
+   - https://play.google.com/store
+
+13. ankiweb.net
+   Found in 5 languages: afrikaans, estonian, finnish, marathi, thai
+   URL variations:
+   - https://ankiweb.net/
+   - https://ankiweb.net
+
+14. languagetool.org
+   Found in 5 languages: bulgarian, french, german, italian, serbian
+   URL variations:
+   - https://languagetool.org/
+   - https://languagetool.org
+
+15. academy.europa.eu
+   Found in 5 languages: bulgarian, french, lithuanian, serbian, swedish
+
+16. facebook.com
+   Found in 4 languages: bulgarian, cree, nahuatl, thai
+
+17. duolingo.com
+   Found in 4 languages: french, guarani, indonesian, korean
+
+18. apps.ankiweb.net
+   Found in 4 languages: french, german, swahili, tagalog
+   URL variations:
+   - https://apps.ankiweb.net/
+   - https://apps.ankiweb.net
+
+19. languagetransfer.org
+   Found in 4 languages: greek, hindi, italian, swahili
+   URL variations:
+   - https://www.languagetransfer.org/
+   - https://www.languagetransfer.org
+
+20. memrise.com
+   Found in 4 languages: italian, latvian, nahuatl, vietnamese
+   URL variations:
+   - https://www.memrise.com
+   - https://www.memrise.com/
+
+21. swayam.gov.in
+   Found in 3 languages: bengali, hindi, tamil
+
+22. chrome.google.com/webstore
+   Found in 3 languages: bengali, marathi, thai
+
+23. discord.com
+   Found in 3 languages: estonian, tagalog, thai
+
+24. wordreference.com
+   Found in 3 languages: french, italian, spanish
+   URL variations:
+   - https://www.wordreference.com/
+   - https://www.wordreference.com
+
+25. ling-app.com
+   Found in 3 languages: hindi, serbian, thai
+   URL variations:
+   - https://ling-app.com
+   - https://ling-app.com/
+
+26. languagereactor.com
+   Found in 3 languages: indonesian, italian, thai
+   URL variations:
+   - https://www.languagereactor.com/
+   - https://www.languagereactor.com
+
+27. speaky.com
+   Found in 3 languages: latvian, lithuanian, spanish
+
+28. mondly.com
+   Found in 2 languages: afrikaans, hindi
+
+29. 50languages.com
+   Found in 2 languages: afrikaans, serbian
+
+30. utalk.com
+   Found in 2 languages: burmese, hindi
+   URL variations:
+   - https://utalk.com/
+   - https://utalk.com
+
+31. discord.com/invite/language-learning-community-634078414332231681
+   Found in 2 languages: burmese, lithuanian
+
+32. librivox.org
+   Found in 2 languages: chinese, french
+
+33. gutenberg.org/browse/languages/nl
+   Found in 2 languages: dutch, flemish
+
+34. dbnl.org
+   Found in 2 languages: dutch, flemish
+   URL variations:
+   - https://www.dbnl.org/
+   - https://www.dbnl.org
+
+35. librelingo.app
+   Found in 2 languages: french, german
+
+36. nemoapps.com
+   Found in 2 languages: hindi, thai
+   URL variations:
+   - https://www.nemoapps.com
+   - https://www.nemoapps.com/
+
+37. bipa.ut.ac.id
+   Found in 2 languages: indonesian, malay
+
+38. indonesian-online.com
+   Found in 2 languages: indonesian, malay
+
+39. merlot.org/merlot/worldlanguages.htm
+   Found in 2 languages: italian, spanish
+
+40. busuu.com
+   Found in 2 languages: italian, swahili
+
+41. italki.com/en/teachers/portuguese
+   Found in 2 languages: japanese, portuguese
+
+42. preply.com/en/get-started?subject=portuguese&source=home_page
+   Found in 2 languages: japanese, portuguese
+
+43. oq.gov.kz/en/p-learning
+   Found in 2 languages: kazakh, russian
+
+44. italki.com
+   Found in 2 languages: swahili, wolof
+   URL variations:
+   - https://www.italki.com/
+   - https://italki.com/
+
+
+URL Distribution by Language:
+-----------------------------
+chinese: 105 URLs
+burmese: 90 URLs
+russian: 85 URLs
+persian: 79 URLs
+serbian: 78 URLs
+greek: 76 URLs
+spanish: 72 URLs
+marathi: 69 URLs
+bengali: 64 URLs
+bulgarian: 64 URLs
+arabic: 63 URLs
+romanian: 62 URLs
+tamil: 61 URLs
+malay: 59 URLs
+french: 58 URLs
+lithuanian: 58 URLs
+estonian: 56 URLs
+latvian: 55 URLs
+kazakh: 54 URLs
+nahuatl: 54 URLs
+thai: 53 URLs
+tagalog: 51 URLs
+german: 50 URLs
+afrikaans: 49 URLs
+guarani: 49 URLs
+cree: 47 URLs
+korean: 47 URLs
+italian: 46 URLs
+wolof: 45 URLs
+hindi: 44 URLs
+polish: 43 URLs
+danish: 43 URLs
+swedish: 41 URLs
+flemish: 39 URLs
+indonesian: 37 URLs
+japanese: 36 URLs
+finnish: 35 URLs
+vietnamese: 34 URLs
+swahili: 33 URLs
+portuguese: 28 URLs
+dutch: 28 URLs

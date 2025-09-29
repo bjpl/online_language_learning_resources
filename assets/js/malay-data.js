@@ -372,31 +372,10 @@ const malayResources = {
                 category: "Language Exchange and Community",
                 items: [
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["20+ million users", "Text/voice/video chat", "Translation tools", "Free with premium option"],
-                        free: true
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        level: "All levels",
-                        features: ["30+ million users", "Language Parties", "AI chat features", "Free with pro option"],
-                        free: true
-                    },
-                    {
                         name: "Language.exchange",
                         url: "https://en.language.exchange/language/MS-Malay/",
                         level: "All levels",
                         features: ["250+ countries", "Profile matching", "Cultural exchange", "100% free"],
-                        free: true
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        level: "All levels",
-                        features: ["Established since 2005", "Face-to-face meetups", "Pen-pals", "Completely free"],
                         free: true
                     },
                     {

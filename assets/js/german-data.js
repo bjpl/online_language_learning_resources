@@ -280,31 +280,10 @@ const germanResources = {
                         free: true
                     },
                     {
-                        name: "LibreLingo",
-                        url: "https://librelingo.app/",
-                        level: "All levels",
-                        features: ["Open-source platform", "AGPL-3.0 license", "Community-driven", "Experimental"],
-                        free: true
-                    },
-                    {
                         name: "LEO Dictionary",
                         url: "https://dict.leo.org/german-english/",
                         level: "All levels",
                         features: ["840,000 entries", "Free", "Verb tables", "Vocabulary trainer", "Forum"],
-                        free: true
-                    },
-                    {
-                        name: "Anki",
-                        url: "https://apps.ankiweb.net/",
-                        level: "All levels",
-                        features: ["Flashcard app", "Free (except iOS)", "Thousands of shared German decks"],
-                        free: true
-                    },
-                    {
-                        name: "LanguageTool",
-                        url: "https://languagetool.org/",
-                        level: "All levels",
-                        features: ["Grammar and spell checker", "Free tier (10,000 characters)", "Browser extensions"],
                         free: true
                     },
                     {
@@ -337,20 +316,6 @@ const germanResources = {
                 category: "Language Exchange and Communities",
                 items: [
                     {
-                        name: "HelloTalk",
-                        url: "https://www.hellotalk.com/",
-                        level: "All levels",
-                        features: ["Millions of users", "Text/voice/video", "Correction tools", "Free core features"],
-                        free: true
-                    },
-                    {
-                        name: "Tandem",
-                        url: "https://tandem.net/",
-                        level: "All levels",
-                        features: ["49,000+ German members", "Sophisticated matching", "Free basic plan"],
-                        free: true
-                    },
-                    {
                         name: "r/German",
                         url: "https://reddit.com/r/German",
                         level: "All levels",
@@ -362,13 +327,6 @@ const germanResources = {
                         url: "https://discord.com/invite/german",
                         level: "All levels",
                         features: ["195,000+ members", "Voice/text channels", "Real-time practice", "Lessons"],
-                        free: true
-                    },
-                    {
-                        name: "ConversationExchange",
-                        url: "https://www.conversationexchange.com/",
-                        level: "All levels",
-                        features: ["Traditional language exchange", "Completely free", "Face-to-face or online options"],
                         free: true
                     },
                     {
