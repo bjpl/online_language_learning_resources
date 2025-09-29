@@ -1,0 +1,1421 @@
+{
+  "summary": {
+    "total": 67,
+    "withApps": 67,
+    "withoutApps": 0,
+    "directStructure": 0,
+    "categoryStructure": 66,
+    "invalidStructure": 0
+  },
+  "details": {
+    "afrikaans": {
+      "structure": "category",
+      "totalItems": 13,
+      "validItems": 13,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Mondly Afrikaans",
+        "url": "https://www.mondly.com/",
+        "level": "All levels",
+        "features": [
+          "Speech recognition",
+          "Chatbot practice",
+          "5000+ words",
+          "Freemium",
+          "Adaptive learning"
+        ],
+        "free": true
+      }
+    },
+    "arabic": {
+      "structure": "category",
+      "totalItems": 15,
+      "validItems": 15,
+      "invalidItems": 0,
+      "sample": {
+        "name": "ArabEngo",
+        "url": "https://github.com/michaelsboost/ArabEngo",
+        "level": "All levels",
+        "features": [
+          "Open source Arabic learning app",
+          "Text-to-speech",
+          "Chat functionality",
+          "Creative Commons license"
+        ],
+        "free": true
+      }
+    },
+    "bengali": {
+      "structure": "category",
+      "totalItems": 23,
+      "validItems": 23,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Avro Keyboard",
+        "url": "https://www.omicronlab.com/avro-keyboard-download.html",
+        "level": "All users",
+        "features": [
+          "Phonetic Bengali typing tool",
+          "100% free and open source",
+          "Spell checker included",
+          "Multiple platforms support",
+          "Most popular Bengali keyboard"
+        ],
+        "free": true
+      }
+    },
+    "bulgarian": {
+      "structure": "category",
+      "totalItems": 17,
+      "validItems": 17,
+      "invalidItems": 0,
+      "sample": {
+        "name": "PONS Bulgarian-English",
+        "url": "https://en.pons.com/translate/bulgarian-english",
+        "level": "All levels",
+        "features": [
+          "Comprehensive bilingual dictionary",
+          "300,000+ words",
+          "Audio pronunciation"
+        ],
+        "free": true
+      }
+    },
+    "burmese": {
+      "structure": "category",
+      "totalItems": 25,
+      "validItems": 25,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Ling App",
+        "url": "https://ling-app.com/blog/burmese-language-app/",
+        "level": "All levels",
+        "features": [
+          "Comprehensive mobile learning",
+          "Writing practice",
+          "Chatbot",
+          "200+ lessons",
+          "7-day free trial"
+        ],
+        "free": true
+      }
+    },
+    "cebuano": {
+      "structure": "category",
+      "totalItems": 12,
+      "validItems": 12,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Bluebird: Learn Cebuano",
+        "url": "https://apps.apple.com/us/app/bluebird-learn-cebuano/id1582591351",
+        "free": true,
+        "level": "All Levels",
+        "features": [
+          "All levels"
+        ]
+      }
+    },
+    "chinese": {
+      "structure": "category",
+      "totalItems": 20,
+      "validItems": 20,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Pleco Chinese Dictionary",
+        "url": "https://www.pleco.com/",
+        "features": [
+          "235,000+ entries",
+          "Free CC-CEDICT",
+          "Handwriting recognition",
+          "Both character systems"
+        ],
+        "free": true,
+        "level": "All levels"
+      }
+    },
+    "cree": {
+      "structure": "category",
+      "totalItems": 12,
+      "validItems": 12,
+      "invalidItems": 0,
+      "sample": {
+        "name": "itwêwina Plains Cree Dictionary",
+        "url": "https://itwewina.altlab.app/",
+        "features": [
+          "Interactive online dictionary",
+          "Plains Cree focus",
+          "Morphological analysis",
+          "Native speaker audio",
+          "Syllabics support"
+        ],
+        "free": true,
+        "level": "All levels"
+      }
+    },
+    "croatian": {
+      "structure": "category",
+      "totalItems": 15,
+      "validItems": 15,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Glosbe Dictionary",
+        "url": "https://glosbe.com/en/hr",
+        "free": true,
+        "level": "All levels",
+        "features": [
+          "All levels",
+          "Audio exercises",
+          "Community support",
+          "Parallel corpora"
+        ]
+      }
+    },
+    "czech": {
+      "structure": "category",
+      "totalItems": 5,
+      "validItems": 5,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Duolingo",
+        "url": "https://www.duolingo.com/",
+        "level": "Beginner-Intermediate",
+        "features": [
+          "Free app",
+          "Gamified lessons",
+          "Stories",
+          "Podcasts"
+        ],
+        "free": true
+      }
+    },
+    "danish": {
+      "structure": "category",
+      "totalItems": 6,
+      "validItems": 6,
+      "invalidItems": 0,
+      "sample": {
+        "name": "GroVo Danish",
+        "url": "https://grovo.org/grovo-danish/",
+        "description": "100% free vocabulary app with 186,000+ sentences",
+        "level": "All levels",
+        "features": [
+          "No ads",
+          "No data collection",
+          "Comprehensible input method"
+        ],
+        "free": true
+      }
+    },
+    "dari": {
+      "structure": "category",
+      "totalItems": 18,
+      "validItems": 18,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Glosbe English-Dari",
+        "url": "https://glosbe.com/en/prs",
+        "free": true,
+        "features": [
+          "All levels",
+          "Audio exercises",
+          "Audio, example sentences, TTS, Persian script"
+        ]
+      }
+    },
+    "dutch": {
+      "structure": "category",
+      "totalItems": 1,
+      "validItems": 1,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Anki + Dutch Decks",
+        "url": "https://ankiweb.net/shared/decks?search=Dutch",
+        "level": "All levels",
+        "features": [
+          "Free app",
+          "Thousands of Dutch cards available"
+        ],
+        "free": true
+      }
+    },
+    "estonian": {
+      "structure": "category",
+      "totalItems": 14,
+      "validItems": 14,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Speakly",
+        "url": "https://www.speakly.me/",
+        "level": "A1-C1",
+        "features": [
+          "Estonian-specific course",
+          "4,000+ vocabulary items",
+          "Statistics-based learning",
+          "Free basic tier"
+        ],
+        "free": true
+      }
+    },
+    "finnish": {
+      "structure": "category",
+      "totalItems": 6,
+      "validItems": 6,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Anki with Finnish Decks",
+        "url": "https://ankiweb.net",
+        "level": "A1-C2",
+        "free": true,
+        "features": [
+          "Community decks",
+          "Full offline",
+          "Customizable",
+          "Cross-platform sync"
+        ]
+      }
+    },
+    "flemish": {
+      "structure": "category",
+      "totalItems": 12,
+      "validItems": 12,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Het Vlaams Woordenboek",
+        "url": "https://www.vlaamswoordenboek.be/",
+        "features": [
+          "Collaborative Flemish dictionary",
+          "38,224+ terms available",
+          "User voting system",
+          "Belgian media examples"
+        ],
+        "free": true,
+        "level": "All levels"
+      }
+    },
+    "french": {
+      "structure": "category",
+      "totalItems": 16,
+      "validItems": 16,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Duolingo",
+        "url": "https://www.duolingo.com/",
+        "level": "A1-B2",
+        "features": [
+          "Free with ads",
+          "iOS/Android/Web",
+          "Streaks and leaderboards"
+        ],
+        "free": true
+      }
+    },
+    "german": {
+      "structure": "category",
+      "totalItems": 8,
+      "validItems": 8,
+      "invalidItems": 0,
+      "sample": {
+        "name": "DW Learn German App",
+        "url": "https://learngerman.dw.com/en/overview",
+        "level": "A1-B2",
+        "features": [
+          "Completely free",
+          "No ads",
+          "4.3+ rating",
+          "1M+ downloads"
+        ],
+        "free": true
+      }
+    },
+    "greek": {
+      "structure": "category",
+      "totalItems": 19,
+      "validItems": 19,
+      "invalidItems": 0,
+      "sample": {
+        "name": "GreekPod101 App",
+        "url": "https://www.greekpod101.com/app/",
+        "level": "All levels",
+        "features": [
+          "Audio/video lessons with transcripts",
+          "Freemium model",
+          "Offline downloads",
+          "iOS and Android"
+        ],
+        "free": true
+      }
+    },
+    "guarani": {
+      "structure": "category",
+      "totalItems": 14,
+      "validItems": 14,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Guarani Ayvu",
+        "url": "https://play.google.com/store/apps/details?id=org.populistech",
+        "features": [
+          "Translation app",
+          "50,000+ downloads",
+          "Spanish-English-Guaraní support",
+          "2021 launch"
+        ],
+        "free": true
+      }
+    },
+    "gujarati": {
+      "structure": "category",
+      "totalItems": 14,
+      "validItems": 14,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Gujaratilexicon",
+        "url": "https://www.gujaratilexicon.com/",
+        "free": true,
+        "features": [
+          "World's most trusted Gujarati dictionary with etymology",
+          "Proverbs",
+          "Word games",
+          "eBooks"
+        ]
+      }
+    },
+    "hausa": {
+      "structure": "category",
+      "totalItems": 15,
+      "validItems": 15,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Learn Hausa Language Offline",
+        "url": "https://play.google.com/store/",
+        "free": true,
+        "features": [
+          "Mobile app"
+        ]
+      }
+    },
+    "hebrew": {
+      "structure": "category",
+      "totalItems": 6,
+      "validItems": 6,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Duolingo",
+        "url": "https://www.duolingo.com/",
+        "level": "Beginner-Intermediate",
+        "features": [
+          "Free app",
+          "Gamified lessons",
+          "Stories",
+          "Hebrew script practice"
+        ],
+        "free": true
+      }
+    },
+    "hindi": {
+      "structure": "category",
+      "totalItems": 13,
+      "validItems": 13,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Drops Hindi",
+        "url": "https://languagedrops.com",
+        "free": false,
+        "platform": "iOS, Android"
+      }
+    },
+    "hmong": {
+      "structure": "category",
+      "totalItems": 18,
+      "validItems": 18,
+      "invalidItems": 0,
+      "sample": {
+        "name": "HmongPhrases",
+        "url": "https://apps.apple.com/us/app/hmongphrases/id479437001",
+        "free": true,
+        "level": "Beginner",
+        "features": [
+          "Beginner",
+          "Mobile app",
+          "Both dialects, 4,000+ downloads"
+        ]
+      }
+    },
+    "hungarian": {
+      "structure": "category",
+      "totalItems": 19,
+      "validItems": 19,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Duolingo Hungarian Course",
+        "url": "https://www.duolingo.com/course/hu/en/Learn-Hungarian",
+        "free": true,
+        "level": "Beginner-Intermediate",
+        "features": [
+          "Gamified exercises",
+          "Gamified Hungarian course with 4 units",
+          "Beginner"
+        ]
+      }
+    },
+    "indonesian": {
+      "structure": "category",
+      "totalItems": 7,
+      "validItems": 7,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Duolingo App",
+        "url": "https://www.duolingo.com/",
+        "free": true,
+        "level": "A1-B1",
+        "features": [
+          "Offline mode",
+          "Stories",
+          "Progress sync"
+        ]
+      }
+    },
+    "inuktitut": {
+      "structure": "category",
+      "totalItems": 21,
+      "validItems": 21,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Tusaalanga iOS App",
+        "url": "https://itunes.apple.com/ca/app/tusaalanga/id491243426",
+        "free": true,
+        "level": "All levels",
+        "features": [
+          "All levels",
+          "Mobile app",
+          "Romanized to syllabic converter"
+        ]
+      }
+    },
+    "irish": {
+      "structure": "category",
+      "totalItems": 8,
+      "validItems": 8,
+      "invalidItems": 0,
+      "sample": {
+        "name": "TYM Learn Irish",
+        "url": "https://tymcc.ie/learn-irish-with-tym-app-ios-android-website/",
+        "free": true,
+        "features": [
+          "Beginner",
+          "Grammar exercises",
+          "Web version available, news content adapted"
+        ]
+      }
+    },
+    "italian": {
+      "structure": "category",
+      "totalItems": 9,
+      "validItems": 9,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Duolingo Italian",
+        "url": "https://www.duolingo.com/course/it/en/Learn-Italian",
+        "free": true,
+        "level": "A1-B2",
+        "features": [
+          "100% free core content",
+          "Mobile offline mode",
+          "Speech recognition",
+          "Stories feature"
+        ]
+      }
+    },
+    "japanese": {
+      "structure": "category",
+      "totalItems": 7,
+      "validItems": 7,
+      "invalidItems": 0,
+      "sample": {
+        "name": "WaniKani",
+        "url": "https://www.wanikani.com/",
+        "free": false,
+        "platform": "Web, iOS, Android",
+        "features": [
+          "Free first 3 levels",
+          "Mnemonics",
+          "2000+ kanji"
+        ]
+      }
+    },
+    "kannada": {
+      "structure": "category",
+      "totalItems": 11,
+      "validItems": 11,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Learn Kannada SmartApp",
+        "url": "https://play.google.com/store/apps/details?id=app.learnkannada.com.learnkannadakannadakali",
+        "free": true,
+        "level": "All Levels",
+        "features": [
+          "Grammar exercises",
+          "Mobile app",
+          "Streak tracking"
+        ]
+      }
+    },
+    "kazakh": {
+      "structure": "category",
+      "totalItems": 14,
+      "validItems": 14,
+      "invalidItems": 0,
+      "sample": {
+        "name": "LinGo Play",
+        "url": "https://www.lingo-play.com/en/learn-kazakh-language/",
+        "level": "All levels",
+        "features": [
+          "Gamified mobile learning",
+          "iOS and Android support",
+          "Leaderboards included",
+          "Offline support",
+          "Interactive games"
+        ],
+        "free": true
+      }
+    },
+    "korean": {
+      "structure": "category",
+      "totalItems": 4,
+      "validItems": 4,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Duolingo Korean",
+        "url": "https://www.duolingo.com/",
+        "free": true,
+        "level": "Beginner to Lower-intermediate",
+        "features": [
+          "2200+ words",
+          "Completely free core",
+          "Mobile/web sync"
+        ]
+      }
+    },
+    "lao": {
+      "structure": "category",
+      "totalItems": 14,
+      "validItems": 14,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Simply Learn Lao (iOS)",
+        "url": "https://apps.apple.com/us/app/simply-learn-lao/id1290068696",
+        "free": true,
+        "features": [
+          "Beginner",
+          "Audio exercises",
+          "Offline capability, spaced repetition"
+        ]
+      }
+    },
+    "latvian": {
+      "structure": "category",
+      "totalItems": 19,
+      "validItems": 19,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Ling App",
+        "url": "https://ling-app.com/learn-language/latvian/",
+        "level": "Complete Beginner to Advanced",
+        "features": [
+          "Interactive lessons",
+          "Native speaker audio",
+          "Chatbot practice feature",
+          "Flashcards and quizzes",
+          "2 free units available"
+        ],
+        "free": true
+      }
+    },
+    "lithuanian": {
+      "structure": "category",
+      "totalItems": 8,
+      "validItems": 8,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Lexilogos Dictionary Portal",
+        "url": "https://www.lexilogos.com/english/lithuanian_dictionary.htm",
+        "level": "All levels",
+        "features": [
+          "Links to 20+ Lithuanian dictionaries",
+          "Etymological resources",
+          "Multilingual options",
+          "Conjugation tools"
+        ],
+        "free": true
+      }
+    },
+    "malay": {
+      "structure": "category",
+      "totalItems": 13,
+      "validItems": 13,
+      "invalidItems": 0,
+      "sample": {
+        "name": "PRPM (DBP Official Dictionary)",
+        "url": "https://prpm.dbp.gov.my/Search",
+        "level": "All levels",
+        "features": [
+          "Official Malaysian government dictionary",
+          "Comprehensive definitions",
+          "Thesaurus",
+          "Completely free"
+        ],
+        "free": true
+      }
+    },
+    "marathi": {
+      "structure": "category",
+      "totalItems": 18,
+      "validItems": 18,
+      "invalidItems": 0,
+      "sample": {
+        "name": "50Languages App",
+        "url": "https://play.google.com/store/apps/",
+        "level": "Beginner",
+        "features": [
+          "100 free lessons",
+          "Offline capability",
+          "Tests and games included",
+          "iOS and Android"
+        ],
+        "free": true
+      }
+    },
+    "mongolian": {
+      "structure": "category",
+      "totalItems": 18,
+      "validItems": 18,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Ling - Learn Mongolian",
+        "url": "https://ling-app.com/learn-mongolian/",
+        "free": true,
+        "features": [
+          "Basic lessons",
+          "Content"
+        ]
+      }
+    },
+    "nahuatl": {
+      "structure": "category",
+      "totalItems": 14,
+      "validItems": 14,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Totlahtol Dictionary",
+        "url": "https://apps.apple.com/us/app/totlahtol-nahuatl/id1182991493",
+        "features": [
+          "Comprehensive dictionary app",
+          "Huasteca Veracruz variety",
+          "English-Nahuatl-Spanish",
+          "iOS and Android"
+        ],
+        "free": true,
+        "level": "All levels"
+      }
+    },
+    "navajo": {
+      "structure": "category",
+      "totalItems": 11,
+      "validItems": 11,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Speak Navajo Volume 1",
+        "url": "https://apps.apple.com/us/app/speak-navajo-language-volume-1/id447377972",
+        "free": true,
+        "features": [
+          "Beginner",
+          "iOS only, created by enrolled tribal member"
+        ]
+      }
+    },
+    "nepali": {
+      "structure": "category",
+      "totalItems": 13,
+      "validItems": 13,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Nepali Shabdakosh Dictionary",
+        "url": "https://play.google.com/store/apps/",
+        "free": true,
+        "level": "All Levels",
+        "features": [
+          "All levels"
+        ]
+      }
+    },
+    "pashto": {
+      "structure": "category",
+      "totalItems": 20,
+      "validItems": 20,
+      "invalidItems": 0,
+      "sample": {
+        "name": "ThePashto.com Dictionary",
+        "url": "https://www.thepashto.com/",
+        "free": true,
+        "features": [
+          "All levels",
+          "Roman transliteration, phonetic keyboard"
+        ]
+      }
+    },
+    "persian": {
+      "structure": "category",
+      "totalItems": 20,
+      "validItems": 20,
+      "invalidItems": 0,
+      "sample": {
+        "name": "PersianPod101 App",
+        "url": "https://apps.apple.com/",
+        "level": "All levels",
+        "features": [
+          "500+ audio/video lessons",
+          "Offline downloads available",
+          "Vocabulary lists included",
+          "iOS and Android"
+        ],
+        "free": true
+      }
+    },
+    "polish": {
+      "structure": "category",
+      "totalItems": 1,
+      "validItems": 1,
+      "invalidItems": 0,
+      "sample": {
+        "name": "LingoHut",
+        "url": "https://www.lingohut.com/",
+        "level": "A1-B1",
+        "free": true,
+        "features": [
+          "No app needed",
+          "No registration",
+          "Games included",
+          "Audio support"
+        ]
+      }
+    },
+    "punjabi": {
+      "structure": "category",
+      "totalItems": 24,
+      "validItems": 24,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Simply Learn Punjabi",
+        "url": "https://simyasolutions.com/",
+        "free": true,
+        "features": [
+          "300+ free phrases app with native recordings",
+          "Offline capability"
+        ]
+      }
+    },
+    "quechua": {
+      "structure": "category",
+      "totalItems": 12,
+      "validItems": 12,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Habla Quechua",
+        "url": "https://play.google.com/store/",
+        "free": true,
+        "features": [
+          "Audio exercises",
+          "Mobile app"
+        ]
+      }
+    },
+    "romanian": {
+      "structure": "category",
+      "totalItems": 15,
+      "validItems": 15,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Duolingo Romanian",
+        "url": "https://www.duolingo.com/course/ro/en/Learn-Romanian",
+        "level": "Beginner-Intermediate",
+        "features": [
+          "Gamified learning",
+          "Free with ads",
+          "Offline capability"
+        ],
+        "free": true
+      }
+    },
+    "russian": {
+      "structure": "category",
+      "totalItems": 15,
+      "validItems": 15,
+      "invalidItems": 0,
+      "sample": {
+        "name": "AnkiWeb Russian Decks",
+        "url": "https://ankiweb.net/shared/decks?search=russian",
+        "level": "All levels",
+        "features": [
+          "Multiple free flashcard decks",
+          "Spaced repetition",
+          "Various topics"
+        ],
+        "free": true
+      }
+    },
+    "serbian": {
+      "structure": "category",
+      "totalItems": 21,
+      "validItems": 21,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Drops Serbian",
+        "url": "https://languagedrops.com/",
+        "level": "Beginner-Intermediate",
+        "features": [
+          "Visual vocabulary learning",
+          "1700+ words",
+          "99 topics",
+          "Both scripts",
+          "5 min free daily"
+        ],
+        "free": true
+      }
+    },
+    "sign-language": {
+      "structure": "category",
+      "totalItems": 12,
+      "validItems": 12,
+      "invalidItems": 0,
+      "sample": {
+        "name": "The ASL App",
+        "url": "https://theaslapp.com/",
+        "free": true,
+        "features": [
+          "All levels",
+          "Deaf platform"
+        ]
+      }
+    },
+    "slovak": {
+      "structure": "category",
+      "totalItems": 9,
+      "validItems": 9,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Dict.cc Slovak-English",
+        "url": "https://ensk.dict.cc/",
+        "free": true,
+        "features": [
+          "All levels",
+          "Audio exercises"
+        ]
+      }
+    },
+    "spanish": {
+      "structure": "category",
+      "totalItems": 14,
+      "validItems": 14,
+      "invalidItems": 0,
+      "sample": {
+        "name": "SpanishDict",
+        "url": "https://www.spanishdict.com/learn",
+        "level": "All levels",
+        "features": [
+          "Interactive lessons",
+          "3,000+ verb conjugations",
+          "Writing Coach",
+          "Extensive free features"
+        ],
+        "free": true
+      }
+    },
+    "swahili": {
+      "structure": "category",
+      "totalItems": 4,
+      "validItems": 4,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Anki Swahili Decks",
+        "url": "https://apps.ankiweb.net",
+        "free": true,
+        "platform": "Desktop, Mobile",
+        "features": [
+          "SRS algorithm",
+          "Customizable",
+          "Desktop free"
+        ]
+      }
+    },
+    "swedish": {
+      "structure": "category",
+      "totalItems": 2,
+      "validItems": 2,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Anki + Swedish Decks",
+        "url": "https://ankiweb.net/shared/decks?search=Swedish",
+        "free": true,
+        "platform": "All platforms",
+        "features": [
+          "Free",
+          "Thousands of shared decks",
+          "Customizable"
+        ]
+      }
+    },
+    "tagalog": {
+      "structure": "category",
+      "totalItems": 13,
+      "validItems": 13,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Drops",
+        "url": "https://languagedrops.com/",
+        "level": "Beginner-Intermediate",
+        "features": [
+          "2,700+ words",
+          "150+ topics",
+          "Visual learning",
+          "5 min/day free"
+        ],
+        "free": true
+      }
+    },
+    "tamil": {
+      "structure": "category",
+      "totalItems": 12,
+      "validItems": 12,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Ling Tamil",
+        "url": "https://play.google.com/store/apps/details?id=com.simyasolutions.ling.ta",
+        "level": "All levels",
+        "features": [
+          "200+ lessons",
+          "Speech recognition",
+          "Offline mode",
+          "Comprehensive curriculum"
+        ],
+        "free": true
+      }
+    },
+    "telugu": {
+      "structure": "category",
+      "totalItems": 16,
+      "validItems": 16,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Andhrabharati Dictionary",
+        "url": "https://www.andhrabharati.com/dictionary/",
+        "free": true,
+        "features": [
+          "All levels",
+          "Brown dictionary included"
+        ]
+      }
+    },
+    "thai": {
+      "structure": "category",
+      "totalItems": 13,
+      "validItems": 13,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Ling App",
+        "url": "https://ling-app.com/",
+        "level": "All levels",
+        "features": [
+          "Gamified comprehensive learning",
+          "7-day free trial",
+          "Originally Thai-focused",
+          "Chiang Mai team"
+        ],
+        "free": true
+      }
+    },
+    "ukrainian": {
+      "structure": "category",
+      "totalItems": 11,
+      "validItems": 11,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Duolingo Ukrainian",
+        "url": "https://www.duolingo.com/course/uk/en/Learn-Ukrainian",
+        "free": true,
+        "features": [
+          "Beginner",
+          "Gamified exercises",
+          "Mobile app"
+        ]
+      }
+    },
+    "urdu": {
+      "structure": "category",
+      "totalItems": 20,
+      "validItems": 20,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Rekhta Dictionary",
+        "url": "https://rekhtadictionary.com/",
+        "free": true,
+        "features": [
+          "Trilingual with 350k+ words, etymologies, poetry examples,",
+          "Word of the day"
+        ]
+      }
+    },
+    "vietnamese": {
+      "structure": "category",
+      "totalItems": 5,
+      "validItems": 5,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Drops Vietnamese",
+        "url": "https://languagedrops.com/",
+        "level": "Beginner to Intermediate",
+        "free": true,
+        "features": [
+          "5 minutes/day free",
+          "Beautiful graphics",
+          "Visual learning",
+          "Topic-based"
+        ]
+      }
+    },
+    "welsh": {
+      "structure": "category",
+      "totalItems": 10,
+      "validItems": 10,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Geiriadur Prifysgol Cymru (GPC)",
+        "url": "https://www.geiriadur.ac.uk/gpc/gpc.html",
+        "free": true,
+        "level": "All levels",
+        "features": [
+          "All levels",
+          "Android"
+        ]
+      }
+    },
+    "wolof": {
+      "structure": "category",
+      "totalItems": 12,
+      "validItems": 12,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Learn Wolof - Linguarena",
+        "url": "https://play.google.com/store/apps/details?id=com.wolof",
+        "level": "Beginner to Intermediate",
+        "features": [
+          "Android app",
+          "15 audio dialogues",
+          "1238+ dictionary entries",
+          "Spaced repetition",
+          "Comic-strip dialogues"
+        ],
+        "free": true
+      }
+    },
+    "yoruba": {
+      "structure": "category",
+      "totalItems": 16,
+      "validItems": 16,
+      "invalidItems": 0,
+      "sample": {
+        "name": "Bluebird Learn Yoruba",
+        "url": "https://play.google.com/store/apps/details?id=com.pronunciatorllc.bluebird.yoruba",
+        "free": true,
+        "features": [
+          "All levels",
+          "Interactive exercises"
+        ]
+      }
+    }
+  },
+  "samples": {
+    "afrikaans": {
+      "structure": "category",
+      "firstItem": {
+        "category": "Mobile Apps and Software",
+        "items": [
+          {
+            "name": "Mondly Afrikaans",
+            "url": "https://www.mondly.com/",
+            "level": "All levels",
+            "features": [
+              "Speech recognition",
+              "Chatbot practice",
+              "5000+ words",
+              "Freemium",
+              "Adaptive learning"
+            ],
+            "free": true
+          },
+          {
+            "name": "AfrikaansPod101 App",
+            "url": "https://www.afrikaanspod101.com/",
+            "level": "All levels",
+            "features": [
+              "Mobile companion",
+              "7-day free trial",
+              "Offline downloads"
+            ],
+            "free": true
+          },
+          {
+            "name": "Learn Afrikaans - 5000 Words",
+            "url": "https://play.google.com/store/apps/details?id=com.language.learnafrikaans",
+            "level": "All levels",
+            "features": [
+              "5000+ common words/phrases",
+              "Completely free",
+              "Offline",
+              "32 languages"
+            ],
+            "free": true
+          },
+          {
+            "name": "Anki",
+            "url": "https://ankiweb.net/",
+            "level": "All levels",
+            "features": [
+              "Spaced repetition",
+              "Community decks",
+              "Free except iOS"
+            ],
+            "free": true
+          },
+          {
+            "name": "Flashcardo",
+            "url": "https://flashcardo.com/afrikaans-flashcards/",
+            "level": "All levels",
+            "features": [
+              "1000 most common words",
+              "Printable PDFs",
+              "YouTube videos"
+            ],
+            "free": true
+          },
+          {
+            "name": "50languages App",
+            "url": "https://www.50languages.com/",
+            "level": "Beginner",
+            "features": [
+              "Companion to website",
+              "Fully free",
+              "Offline capability"
+            ],
+            "free": true
+          }
+        ]
+      },
+      "appsLength": 2
+    },
+    "danish": {
+      "structure": "category",
+      "firstItem": {
+        "category": "Mobile Apps and Software",
+        "items": [
+          {
+            "name": "GroVo Danish",
+            "url": "https://grovo.org/grovo-danish/",
+            "description": "100% free vocabulary app with 186,000+ sentences",
+            "level": "All levels",
+            "features": [
+              "No ads",
+              "No data collection",
+              "Comprehensible input method"
+            ],
+            "free": true
+          },
+          {
+            "name": "Learn Danish Offline Lite",
+            "url": "https://learn-danish-offline-lite.en.softonic.com/android",
+            "description": "1,305 common Danish phrases offline",
+            "level": "A1-B1",
+            "features": [
+              "Works without internet",
+              "Conversation practice"
+            ],
+            "free": true
+          },
+          {
+            "name": "FunEasyLearn Danish",
+            "url": "App stores",
+            "description": "6,000 Danish words with images and audio",
+            "level": "All levels",
+            "features": [
+              "Unlock all content free by earning flowers",
+              "15 thematic topics"
+            ],
+            "free": true
+          },
+          {
+            "name": "Learn Danish (MetaLanguage)",
+            "url": "Google Play Store",
+            "description": "Simple Danish learning with offline access",
+            "level": "A1-C1",
+            "features": [
+              "High-quality translations",
+              "Favorite lists"
+            ],
+            "free": true
+          },
+          {
+            "name": "Flashcardo Danish",
+            "url": "https://flashcardo.com/danish-flashcards/",
+            "description": "1,000+ vocabulary flashcards",
+            "level": "A1-B1",
+            "features": [
+              "Spaced repetition",
+              "Printable PDFs",
+              "Frequency-based"
+            ],
+            "free": true
+          },
+          {
+            "name": "Clozemaster Danish",
+            "url": "https://www.clozemaster.com/blog/danish-tenses/",
+            "description": "Context-based learning",
+            "level": "B1-C1",
+            "features": [
+              "Fill-in-the-blank",
+              "Gamified approach"
+            ],
+            "free": true
+          }
+        ]
+      },
+      "appsLength": 1
+    },
+    "dutch": {
+      "structure": "category",
+      "firstItem": {
+        "category": "Mobile Apps and Software",
+        "items": [
+          {
+            "name": "Anki + Dutch Decks",
+            "url": "https://ankiweb.net/shared/decks?search=Dutch",
+            "level": "All levels",
+            "features": [
+              "Free app",
+              "Thousands of Dutch cards available"
+            ],
+            "free": true
+          }
+        ]
+      },
+      "appsLength": 1
+    },
+    "italian": {
+      "structure": "category",
+      "firstItem": {
+        "category": "Mobile Apps and Software",
+        "items": [
+          {
+            "name": "Duolingo Italian",
+            "url": "https://www.duolingo.com/course/it/en/Learn-Italian",
+            "free": true,
+            "level": "A1-B2",
+            "features": [
+              "100% free core content",
+              "Mobile offline mode",
+              "Speech recognition",
+              "Stories feature"
+            ]
+          },
+          {
+            "name": "Language Reactor",
+            "url": "https://www.languagereactor.com",
+            "free": true,
+            "level": "A1-C2",
+            "features": [
+              "Popup dictionary",
+              "Precise playback control",
+              "Chrome extension"
+            ]
+          },
+          {
+            "name": "Toucan",
+            "url": "https://jointoucan.com",
+            "free": true,
+            "level": "A1-B2",
+            "features": [
+              "Passive learning",
+              "Progress tracking",
+              "Browser integration"
+            ]
+          },
+          {
+            "name": "Memrise Italian",
+            "url": "https://www.memrise.com",
+            "free": true,
+            "level": "A1-C2",
+            "features": [
+              "Learn with Locals videos",
+              "Scenario-based",
+              "Spaced repetition"
+            ]
+          },
+          {
+            "name": "Busuu Italian",
+            "url": "https://www.busuu.com",
+            "free": true,
+            "level": "A1-B2",
+            "features": [
+              "120 million native speakers",
+              "Speech recognition",
+              "Community feedback"
+            ]
+          },
+          {
+            "name": "15000 Italian Sentences (Anki)",
+            "url": "https://ankiweb.net/shared/info/1713927804",
+            "free": true,
+            "level": "A1-C1",
+            "features": [
+              "Progressive difficulty",
+              "Context-based learning",
+              "15000 sentences"
+            ]
+          },
+          {
+            "name": "OpenTeacher",
+            "url": "https://openteacher.org",
+            "free": true,
+            "level": "A1-B2",
+            "features": [
+              "Multiple question types",
+              "Portable",
+              "Progress tracking"
+            ]
+          },
+          {
+            "name": "WordReference Dictionary App",
+            "url": "https://www.wordreference.com",
+            "free": true,
+            "level": "All levels",
+            "features": [
+              "200,000 translations",
+              "Audio pronunciations",
+              "User forums",
+              "Mobile apps"
+            ]
+          },
+          {
+            "name": "LanguageTool",
+            "url": "https://languagetool.org",
+            "free": true,
+            "level": "All levels",
+            "features": [
+              "Browser extensions",
+              "API access",
+              "Style suggestions"
+            ]
+          }
+        ]
+      },
+      "appsLength": 1
+    }
+  }
+}
