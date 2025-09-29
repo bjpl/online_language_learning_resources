@@ -85,32 +85,53 @@
                 }
             ],
 
-            apps: [{
-                    name: 'Anki Swahili Decks',
-                    url: 'https://apps.ankiweb.net',
-                    free: true,
-                    platform: 'Desktop, Mobile',
-                    features: ['SRS algorithm', 'Customizable', 'Desktop free']
-                }, {
-                    name: 'Language Transfer App',
-                    url: 'https://www.languagetransfer.org',
-                    free: true,
-                    platform: 'iOS, Android',
-                    features: ['Michel Thomas method', 'Offline access', 'Logic-based']
-                }, {
-                    name: 'Learn Swahili - Speak Language',
-                    url: 'https://play.google.com/store',
-                    free: true,
-                    platform: 'Android',
-                    features: ['Phrases', 'Vocabulary', 'Pronunciation']
-                }, {
-                    name: 'Swahili Dictionary',
-                    url: 'https://swahili-dictionary.com',
-                    free: true,
-                    platform: 'iOS, Android',
-                    features: ['Offline access', '14,000+ entries']
-                }
-            ],
+            apps: [
+
+
+                    {
+
+
+                        category: "Mobile Apps and Software",
+
+
+                        items: [
+                    {
+                            name: 'Anki Swahili Decks',
+                            url: 'https://apps.ankiweb.net',
+                            free: true,
+                            platform: 'Desktop, Mobile',
+                            features: ['SRS algorithm', 'Customizable', 'Desktop free']
+                        },
+                    {
+                            name: 'Language Transfer App',
+                            url: 'https://www.languagetransfer.org',
+                            free: true,
+                            platform: 'iOS, Android',
+                            features: ['Michel Thomas method', 'Offline access', 'Logic-based']
+                        },
+                    {
+                            name: 'Learn Swahili - Speak Language',
+                            url: 'https://play.google.com/store',
+                            free: true,
+                            platform: 'Android',
+                            features: ['Phrases', 'Vocabulary', 'Pronunciation']
+                        },
+                    {
+                            name: 'Swahili Dictionary',
+                            url: 'https://swahili-dictionary.com',
+                            free: true,
+                            platform: 'iOS, Android',
+                            features: ['Offline access', '14,000+ entries']
+                        }
+
+
+                        ]
+
+
+                    }
+
+
+                ],
 
             books: [
                 {

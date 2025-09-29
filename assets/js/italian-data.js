@@ -111,71 +111,87 @@ languageData.italian = {
         ],
 
         apps: [
-            {
-                name: "Duolingo Italian",
-                url: "https://www.duolingo.com/course/it/en/Learn-Italian",
-                free: true,
-                level: "A1-B2",
-                features: ["100% free core content", "Mobile offline mode", "Speech recognition", "Stories feature"]
-            },
-            {
-                name: "Language Reactor",
-                url: "https://www.languagereactor.com",
-                free: true,
-                level: "A1-C2",
-                features: ["Popup dictionary", "Precise playback control", "Chrome extension"]
-            },
-            {
-                name: "Toucan",
-                url: "https://jointoucan.com",
-                free: true,
-                level: "A1-B2",
-                features: ["Passive learning", "Progress tracking", "Browser integration"]
-            },
-            {
-                name: "Memrise Italian",
-                url: "https://www.memrise.com",
-                free: true,
-                level: "A1-C2",
-                features: ["Learn with Locals videos", "Scenario-based", "Spaced repetition"]
-            },
-            {
-                name: "Busuu Italian",
-                url: "https://www.busuu.com",
-                free: true,
-                level: "A1-B2",
-                features: ["120 million native speakers", "Speech recognition", "Community feedback"]
-            },
-            {
-                name: "15000 Italian Sentences (Anki)",
-                url: "https://ankiweb.net/shared/info/1713927804",
-                free: true,
-                level: "A1-C1",
-                features: ["Progressive difficulty", "Context-based learning", "15000 sentences"]
-            },
-            {
-                name: "OpenTeacher",
-                url: "https://openteacher.org",
-                free: true,
-                level: "A1-B2",
-                features: ["Multiple question types", "Portable", "Progress tracking"]
-            },
-            {
-                name: "WordReference Dictionary App",
-                url: "https://www.wordreference.com",
-                free: true,
-                level: "All levels",
-                features: ["200,000 translations", "Audio pronunciations", "User forums", "Mobile apps"]
-            },
-            {
-                name: "LanguageTool",
-                url: "https://languagetool.org",
-                free: true,
-                level: "All levels",
-                features: ["Browser extensions", "API access", "Style suggestions"]
-            }
-        
-        ],
+
+
+                {
+
+
+                    category: "Mobile Apps and Software",
+
+
+                    items: [
+                    {
+                        name: "Duolingo Italian",
+                        url: "https://www.duolingo.com/course/it/en/Learn-Italian",
+                        free: true,
+                        level: "A1-B2",
+                        features: ["100% free core content", "Mobile offline mode", "Speech recognition", "Stories feature"]
+                    },
+                    {
+                        name: "Language Reactor",
+                        url: "https://www.languagereactor.com",
+                        free: true,
+                        level: "A1-C2",
+                        features: ["Popup dictionary", "Precise playback control", "Chrome extension"]
+                    },
+                    {
+                        name: "Toucan",
+                        url: "https://jointoucan.com",
+                        free: true,
+                        level: "A1-B2",
+                        features: ["Passive learning", "Progress tracking", "Browser integration"]
+                    },
+                    {
+                        name: "Memrise Italian",
+                        url: "https://www.memrise.com",
+                        free: true,
+                        level: "A1-C2",
+                        features: ["Learn with Locals videos", "Scenario-based", "Spaced repetition"]
+                    },
+                    {
+                        name: "Busuu Italian",
+                        url: "https://www.busuu.com",
+                        free: true,
+                        level: "A1-B2",
+                        features: ["120 million native speakers", "Speech recognition", "Community feedback"]
+                    },
+                    {
+                        name: "15000 Italian Sentences (Anki)",
+                        url: "https://ankiweb.net/shared/info/1713927804",
+                        free: true,
+                        level: "A1-C1",
+                        features: ["Progressive difficulty", "Context-based learning", "15000 sentences"]
+                    },
+                    {
+                        name: "OpenTeacher",
+                        url: "https://openteacher.org",
+                        free: true,
+                        level: "A1-B2",
+                        features: ["Multiple question types", "Portable", "Progress tracking"]
+                    },
+                    {
+                        name: "WordReference Dictionary App",
+                        url: "https://www.wordreference.com",
+                        free: true,
+                        level: "All levels",
+                        features: ["200,000 translations", "Audio pronunciations", "User forums", "Mobile apps"]
+                    },
+                    {
+                        name: "LanguageTool",
+                        url: "https://languagetool.org",
+                        free: true,
+                        level: "All levels",
+                        features: ["Browser extensions", "API access", "Style suggestions"]
+                    }
+
+
+                    ]
+
+
+                }
+
+
+            ],
 
         books: [
             {

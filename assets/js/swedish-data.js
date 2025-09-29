@@ -92,20 +92,39 @@
                 }
             ],
 
-            apps: [{
-                    name: 'Anki + Swedish Decks',
-                    url: 'https://ankiweb.net/shared/decks?search=Swedish',
-                    free: true,
-                    platform: 'All platforms',
-                    features: ['Free', 'Thousands of shared decks', 'Customizable']
-                }, {
-                    name: 'Hej svenska!',
-                    url: 'Via Informationsverige.se',
-                    free: true,
-                    platform: 'iOS/Android',
-                    features: ['11 languages', 'Offline access', 'Government content']
-                }
-            ],
+            apps: [
+
+
+                    {
+
+
+                        category: "Mobile Apps and Software",
+
+
+                        items: [
+                    {
+                            name: 'Anki + Swedish Decks',
+                            url: 'https://ankiweb.net/shared/decks?search=Swedish',
+                            free: true,
+                            platform: 'All platforms',
+                            features: ['Free', 'Thousands of shared decks', 'Customizable']
+                        },
+                    {
+                            name: 'Hej svenska!',
+                            url: 'Via Informationsverige.se',
+                            free: true,
+                            platform: 'iOS/Android',
+                            features: ['11 languages', 'Offline access', 'Government content']
+                        }
+
+
+                        ]
+
+
+                    }
+
+
+                ],
 
             books: [
                 {

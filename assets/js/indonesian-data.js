@@ -104,57 +104,73 @@ languageData.indonesian = {
         ],
 
         apps: [
-            {
-                name: "Duolingo App",
-                url: "https://www.duolingo.com/",
-                free: true,
-                level: "A1-B1",
-                features: ["Offline mode", "Stories", "Progress sync"]
-            },
-            {
-                name: "Ling App",
-                url: "https://ling-app.com/learn-indonesian/",
-                free: true,
-                level: "Beginner-Advanced",
-                features: ["5 levels", "Offline mode", "Cultural context"]
-            },
-            {
-                name: "Drops Indonesian",
-                url: "https://languagedrops.com/",
-                free: true,
-                level: "Beginner",
-                features: ["2600+ illustrated words", "100% free content", "5-minute sessions"]
-            },
-            {
-                name: "Language Reactor",
-                url: "https://www.languagereactor.com/",
-                free: true,
-                level: "All levels",
-                features: ["Netflix/YouTube subtitles", "Popup dictionary", "Dual subtitles"]
-            },
-            {
-                name: "Indonesian Keyboard",
-                url: "https://play.google.com/",
-                free: true,
-                level: "All levels",
-                features: ["Voice input", "Dual language", "Themes"]
-            },
-            {
-                name: "10FastFingers",
-                url: "https://10fastfingers.com/typing-test/indonesian",
-                free: true,
-                level: "All levels",
-                features: ["Speed testing", "Certificates", "Progress tracking"]
-            },
-            {
-                name: "TTSConverter.io",
-                url: "https://ttsconverter.io/text-to-speech/indonesian",
-                free: true,
-                level: "All levels",
-                features: ["10 voices", "MP3 download", "Pitch control"]
-            }
-        
-        ],
+
+
+                {
+
+
+                    category: "Mobile Apps and Software",
+
+
+                    items: [
+                    {
+                        name: "Duolingo App",
+                        url: "https://www.duolingo.com/",
+                        free: true,
+                        level: "A1-B1",
+                        features: ["Offline mode", "Stories", "Progress sync"]
+                    },
+                    {
+                        name: "Ling App",
+                        url: "https://ling-app.com/learn-indonesian/",
+                        free: true,
+                        level: "Beginner-Advanced",
+                        features: ["5 levels", "Offline mode", "Cultural context"]
+                    },
+                    {
+                        name: "Drops Indonesian",
+                        url: "https://languagedrops.com/",
+                        free: true,
+                        level: "Beginner",
+                        features: ["2600+ illustrated words", "100% free content", "5-minute sessions"]
+                    },
+                    {
+                        name: "Language Reactor",
+                        url: "https://www.languagereactor.com/",
+                        free: true,
+                        level: "All levels",
+                        features: ["Netflix/YouTube subtitles", "Popup dictionary", "Dual subtitles"]
+                    },
+                    {
+                        name: "Indonesian Keyboard",
+                        url: "https://play.google.com/",
+                        free: true,
+                        level: "All levels",
+                        features: ["Voice input", "Dual language", "Themes"]
+                    },
+                    {
+                        name: "10FastFingers",
+                        url: "https://10fastfingers.com/typing-test/indonesian",
+                        free: true,
+                        level: "All levels",
+                        features: ["Speed testing", "Certificates", "Progress tracking"]
+                    },
+                    {
+                        name: "TTSConverter.io",
+                        url: "https://ttsconverter.io/text-to-speech/indonesian",
+                        free: true,
+                        level: "All levels",
+                        features: ["10 voices", "MP3 download", "Pitch control"]
+                    }
+
+
+                    ]
+
+
+                }
+
+
+            ],
 
         books: [
             {

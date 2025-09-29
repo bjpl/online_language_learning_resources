@@ -118,50 +118,74 @@
                 }
             ],
 
-            apps: [{
-                    name: 'WaniKani',
-                    url: 'https://www.wanikani.com/',
-                    free: false,
-                    platform: 'Web, iOS, Android',
-                    features: ['Free first 3 levels', 'Mnemonics', '2000+ kanji']
-                }, {
-                    name: 'Drops Japanese',
-                    url: 'https://languagedrops.com/',
-                    free: true,
-                    platform: 'iOS, Android',
-                    features: ['Free 5 minutes/day', 'Beautiful illustrations', 'Quick sessions']
-                }, {
-                    name: 'Kanji Memory Hint',
-                    url: 'App stores',
-                    free: true,
-                    platform: 'iOS, Android',
-                    features: ['Mnemonic pictures', 'Stroke order', 'Official resource']
-                }, {
-                    name: 'Todaii/Easy Japanese News',
-                    url: 'App stores',
-                    free: true,
-                    platform: 'iOS, Android',
-                    features: ['Daily articles', 'JLPT levels', 'Furigana toggle']
-                }, {
-                    name: 'Renshuu',
-                    url: 'https://www.renshuu.org/',
-                    free: true,
-                    platform: 'Web, Mobile',
-                    features: ['Free version available', 'Community features', 'Games']
-                }, {
-                    name: 'Real Kana',
-                    url: 'https://realkana.com/',
-                    free: true,
-                    platform: 'Web',
-                    features: ['Customizable drills', 'Font variations', 'No signup']
-                }, {
-                    name: 'Kanji Study',
-                    url: 'Web/Apps',
-                    free: true,
-                    platform: 'Various',
-                    features: ['Stroke order', 'Mnemonics', 'Practice sheets']
-                }
-            ],
+            apps: [
+
+
+                    {
+
+
+                        category: "Mobile Apps and Software",
+
+
+                        items: [
+                    {
+                            name: 'WaniKani',
+                            url: 'https://www.wanikani.com/',
+                            free: false,
+                            platform: 'Web, iOS, Android',
+                            features: ['Free first 3 levels', 'Mnemonics', '2000+ kanji']
+                        },
+                    {
+                            name: 'Drops Japanese',
+                            url: 'https://languagedrops.com/',
+                            free: true,
+                            platform: 'iOS, Android',
+                            features: ['Free 5 minutes/day', 'Beautiful illustrations', 'Quick sessions']
+                        },
+                    {
+                            name: 'Kanji Memory Hint',
+                            url: 'App stores',
+                            free: true,
+                            platform: 'iOS, Android',
+                            features: ['Mnemonic pictures', 'Stroke order', 'Official resource']
+                        },
+                    {
+                            name: 'Todaii/Easy Japanese News',
+                            url: 'App stores',
+                            free: true,
+                            platform: 'iOS, Android',
+                            features: ['Daily articles', 'JLPT levels', 'Furigana toggle']
+                        },
+                    {
+                            name: 'Renshuu',
+                            url: 'https://www.renshuu.org/',
+                            free: true,
+                            platform: 'Web, Mobile',
+                            features: ['Free version available', 'Community features', 'Games']
+                        },
+                    {
+                            name: 'Real Kana',
+                            url: 'https://realkana.com/',
+                            free: true,
+                            platform: 'Web',
+                            features: ['Customizable drills', 'Font variations', 'No signup']
+                        },
+                    {
+                            name: 'Kanji Study',
+                            url: 'Web/Apps',
+                            free: true,
+                            platform: 'Various',
+                            features: ['Stroke order', 'Mnemonics', 'Practice sheets']
+                        }
+
+
+                        ]
+
+
+                    }
+
+
+                ],
 
             books: [
                 {

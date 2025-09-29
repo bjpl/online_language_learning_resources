@@ -132,36 +132,52 @@ languageData.korean = {
         ],
 
         apps: [
-            {
-                name: "Duolingo Korean",
-                url: "https://www.duolingo.com/",
-                free: true,
-                level: "Beginner to Lower-intermediate",
-                features: ["2200+ words", "Completely free core", "Mobile/web sync"]
-            },
-            {
-                name: "Drops Korean",
-                url: "https://languagedrops.com/",
-                free: true,
-                level: "Beginner to Intermediate",
-                features: ["2700+ words", "150+ topics", "5 min daily free"]
-            },
-            {
-                name: "Naver Dictionary/Papago",
-                url: "https://papago.naver.com/",
-                free: true,
-                level: "All levels",
-                features: ["14 languages", "OCR", "Offline mode", "Honorific understanding"]
-            },
-            {
-                name: "Dongsa Verb Conjugator",
-                url: "https://koreanverb.app/",
-                free: true,
-                level: "All levels",
-                features: ["Step-by-step explanations", "Irregular verbs", "Offline capability"]
-            }
-        
-        ],
+
+
+                {
+
+
+                    category: "Mobile Apps and Software",
+
+
+                    items: [
+                    {
+                        name: "Duolingo Korean",
+                        url: "https://www.duolingo.com/",
+                        free: true,
+                        level: "Beginner to Lower-intermediate",
+                        features: ["2200+ words", "Completely free core", "Mobile/web sync"]
+                    },
+                    {
+                        name: "Drops Korean",
+                        url: "https://languagedrops.com/",
+                        free: true,
+                        level: "Beginner to Intermediate",
+                        features: ["2700+ words", "150+ topics", "5 min daily free"]
+                    },
+                    {
+                        name: "Naver Dictionary/Papago",
+                        url: "https://papago.naver.com/",
+                        free: true,
+                        level: "All levels",
+                        features: ["14 languages", "OCR", "Offline mode", "Honorific understanding"]
+                    },
+                    {
+                        name: "Dongsa Verb Conjugator",
+                        url: "https://koreanverb.app/",
+                        free: true,
+                        level: "All levels",
+                        features: ["Step-by-step explanations", "Irregular verbs", "Offline capability"]
+                    }
+
+
+                    ]
+
+
+                }
+
+
+            ],
 
         books: [
             {

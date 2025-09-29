@@ -178,85 +178,102 @@
             ],
 
             apps: [
-            {
-                    name: 'Drops Hindi',
-                    url: 'https://languagedrops.com',
-                    free: false,
-                    platform: 'iOS, Android',
-                },
-            {
-                    name: 'Simply Learn Hindi',
-                    url: 'https://simplylearnapps.com',
-                    free: true,
-                    platform: 'iOS, Android',
-                },
-            {
-                    name: 'Clozemaster Hindi',
-                    url: 'https://www.clozemaster.com',
-                    free: true,
-                    platform: 'iOS, Android, Web',
-                },
-            {
-                    name: 'LingQ Hindi',
-                    url: 'https://www.lingq.com',
-                    free: false,
-                    platform: 'iOS, Android, Web',
-                },
-            {
-                    name: 'Ling Hindi',
-                    url: 'https://ling-app.com',
-                    free: false,
-                    platform: 'iOS, Android',
-                },
-            {
-                    name: 'Learn Hindi - Bhasha.io',
-                    url: 'https://bhasha.io',
-                    free: false,
-                    platform: 'Web, Mobile',
-                },
-            {
-                    name: 'Hindi Script Tutor',
-                    url: 'https://play.google.com/store',
-                    free: true,
-                    platform: 'Android',
-                },
-            {
-                    name: 'Write It! Hindi',
-                    url: 'https://apps.apple.com',
-                    free: true,
-                    platform: 'iOS, Android',
-                },
-            {
-                    name: 'Hindi Alphabet',
-                    url: 'https://play.google.com/store',
-                    free: true,
-                    platform: 'Android',
-                },
-            {
-                    name: 'Nemo Hindi',
-                    url: 'https://www.nemoapps.com',
-                    free: true,
-                    platform: 'iOS, Android',
-                },
-            {
-                    name: 'uTalk Hindi',
-                    url: 'https://utalk.com',
-                    free: false,
-                    platform: 'iOS, Android',
-                },
-            {
-                    name: 'Learn Hindi - MindSnacks',
-                    url: 'https://www.mindsnacks.com',
-                    free: false,
-                    platform: 'iOS',
-                },
-            {
-                    name: 'Hindi by Spokenmate',
-                    url: 'https://spokenmate.com',
-                    free: false,
-                    platform: 'iOS, Android',
-                }
-        ],
+
+
+                    {
+
+
+                        category: "Mobile Apps and Software",
+
+
+                        items: [
+                    {
+                            name: 'Drops Hindi',
+                            url: 'https://languagedrops.com',
+                            free: false,
+                            platform: 'iOS, Android',
+                        },
+                    {
+                            name: 'Simply Learn Hindi',
+                            url: 'https://simplylearnapps.com',
+                            free: true,
+                            platform: 'iOS, Android',
+                        },
+                    {
+                            name: 'Clozemaster Hindi',
+                            url: 'https://www.clozemaster.com',
+                            free: true,
+                            platform: 'iOS, Android, Web',
+                        },
+                    {
+                            name: 'LingQ Hindi',
+                            url: 'https://www.lingq.com',
+                            free: false,
+                            platform: 'iOS, Android, Web',
+                        },
+                    {
+                            name: 'Ling Hindi',
+                            url: 'https://ling-app.com',
+                            free: false,
+                            platform: 'iOS, Android',
+                        },
+                    {
+                            name: 'Learn Hindi - Bhasha.io',
+                            url: 'https://bhasha.io',
+                            free: false,
+                            platform: 'Web, Mobile',
+                        },
+                    {
+                            name: 'Hindi Script Tutor',
+                            url: 'https://play.google.com/store',
+                            free: true,
+                            platform: 'Android',
+                        },
+                    {
+                            name: 'Write It! Hindi',
+                            url: 'https://apps.apple.com',
+                            free: true,
+                            platform: 'iOS, Android',
+                        },
+                    {
+                            name: 'Hindi Alphabet',
+                            url: 'https://play.google.com/store',
+                            free: true,
+                            platform: 'Android',
+                        },
+                    {
+                            name: 'Nemo Hindi',
+                            url: 'https://www.nemoapps.com',
+                            free: true,
+                            platform: 'iOS, Android',
+                        },
+                    {
+                            name: 'uTalk Hindi',
+                            url: 'https://utalk.com',
+                            free: false,
+                            platform: 'iOS, Android',
+                        },
+                    {
+                            name: 'Learn Hindi - MindSnacks',
+                            url: 'https://www.mindsnacks.com',
+                            free: false,
+                            platform: 'iOS',
+                        },
+                    {
+                            name: 'Hindi by Spokenmate',
+                            url: 'https://spokenmate.com',
+                            free: false,
+                            platform: 'iOS, Android',
+                        }
+
+
+                        ]
+
+
+                    }
+
+
+                ],
 
             books: [
                 {

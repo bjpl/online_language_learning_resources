@@ -109,14 +109,32 @@
                 }
             ],
 
-            apps: [{
-                    name: "LingoHut",
-                    url: "https://www.lingohut.com/",
-                    level: "A1-B1",
-                    free: true,
-                    features: ["No app needed", "No registration", "Games included", "Audio support"]
-                }
-            ],
+            apps: [
+
+
+                    {
+
+
+                        category: "Mobile Apps and Software",
+
+
+                        items: [
+                    {
+                            name: "LingoHut",
+                            url: "https://www.lingohut.com/",
+                            level: "A1-B1",
+                            free: true,
+                            features: ["No app needed", "No registration", "Games included", "Audio support"]
+                        }
+
+
+                        ]
+
+
+                    }
+
+
+                ],
 
             books: [
                 {

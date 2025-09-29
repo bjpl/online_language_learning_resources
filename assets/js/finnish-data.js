@@ -110,49 +110,66 @@
             ],
 
             apps: [
-                {
-                    name: "Anki with Finnish Decks",
-                    url: "https://ankiweb.net",
-                    level: "A1-C2",
-                    free: true,
-                    features: ["Community decks", "Full offline", "Customizable", "Cross-platform sync"]
-                },
-                {
-                    name: "FunEasyLearn Finnish",
-                    url: "https://www.funeasylearn.com/learn-finnish",
-                    level: "A1-C1",
-                    free: true,
-                    features: ["11 learning games", "Hand-drawn illustrations", "Offline access", "Topic-based"]
-                },
-                {
-                    name: "Drops Finnish",
-                    url: "https://languagedrops.com/language/learn-finnish",
-                    level: "A1-B1",
-                    free: true,
-                    features: ["5 min daily free", "Visual learning", "100+ topics", "Minimalist design"]
-                },
-                {
-                    name: "Ba Ba Dum",
-                    url: "https://babadum.com",
-                    level: "A1-A2",
-                    free: true,
-                    features: ["Completely free", "5 game types", "1500 words", "Beautiful design"]
-                },
-                {
-                    name: "Voikko",
-                    url: "https://voikko.puimula.org/",
-                    level: "All levels",
-                    free: true,
-                    features: ["LibreOffice compatible", "Grammar checking", "Open source", "Developer API"]
-                },
-                {
-                    name: "LyricsTraining Finnish",
-                    url: "https://lyricstraining.com/fi",
-                    level: "A2-C2",
-                    free: true,
-                    features: ["Karaoke mode", "Multiple difficulties", "100% free", "Popular songs"]
-                }
-            ],
+
+
+                    {
+
+
+                        category: "Mobile Apps and Software",
+
+
+                        items: [
+                    {
+                            name: "Anki with Finnish Decks",
+                            url: "https://ankiweb.net",
+                            level: "A1-C2",
+                            free: true,
+                            features: ["Community decks", "Full offline", "Customizable", "Cross-platform sync"]
+                        },
+                    {
+                            name: "FunEasyLearn Finnish",
+                            url: "https://www.funeasylearn.com/learn-finnish",
+                            level: "A1-C1",
+                            free: true,
+                            features: ["11 learning games", "Hand-drawn illustrations", "Offline access", "Topic-based"]
+                        },
+                    {
+                            name: "Drops Finnish",
+                            url: "https://languagedrops.com/language/learn-finnish",
+                            level: "A1-B1",
+                            free: true,
+                            features: ["5 min daily free", "Visual learning", "100+ topics", "Minimalist design"]
+                        },
+                    {
+                            name: "Ba Ba Dum",
+                            url: "https://babadum.com",
+                            level: "A1-A2",
+                            free: true,
+                            features: ["Completely free", "5 game types", "1500 words", "Beautiful design"]
+                        },
+                    {
+                            name: "Voikko",
+                            url: "https://voikko.puimula.org/",
+                            level: "All levels",
+                            free: true,
+                            features: ["LibreOffice compatible", "Grammar checking", "Open source", "Developer API"]
+                        },
+                    {
+                            name: "LyricsTraining Finnish",
+                            url: "https://lyricstraining.com/fi",
+                            level: "A2-C2",
+                            free: true,
+                            features: ["Karaoke mode", "Multiple difficulties", "100% free", "Popular songs"]
+                        }
+
+
+                        ]
+
+
+                    }
+
+
+                ],
 
             books: [
                 {

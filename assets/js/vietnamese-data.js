@@ -94,38 +94,60 @@
                 }
             ],
 
-            apps: [{
-                    name: "Drops Vietnamese",
-                    url: "https://languagedrops.com/",
-                    level: "Beginner to Intermediate",
-                    free: true,
-                    features: ["5 minutes/day free", "Beautiful graphics", "Visual learning", "Topic-based"]
-                }, {
-                    name: "Memrise Vietnamese",
-                    url: "https://www.memrise.com/",
-                    level: "Beginner to Intermediate",
-                    free: true,
-                    features: ["Native speaker videos", "Spaced repetition", "Community content", "Mobile app"]
-                }, {
-                    name: "Vietnamese by Nemo",
-                    url: "iOS/Android app stores",
-                    level: "Beginner",
-                    free: true,
-                    features: ["Basic version free", "Offline capable", "Audio pronunciation", "Travel focus"]
-                }, {
-                    name: "Digital Dialects",
-                    url: "https://www.digitaldialects.com/Vietnamese.htm",
-                    level: "Beginner",
-                    free: true,
-                    features: ["Free vocabulary games", "Alphabet games", "No registration", "Immediate feedback"]
-                }, {
-                    name: "UniKey",
-                    url: "https://www.unikey.org/",
-                    level: "All users",
-                    free: true,
-                    features: ["VNI support", "Telex support", "Most popular IME", "Windows/Mac/Linux"]
-                }
-            ],
+            apps: [
+
+
+                    {
+
+
+                        category: "Mobile Apps and Software",
+
+
+                        items: [
+                    {
+                            name: "Drops Vietnamese",
+                            url: "https://languagedrops.com/",
+                            level: "Beginner to Intermediate",
+                            free: true,
+                            features: ["5 minutes/day free", "Beautiful graphics", "Visual learning", "Topic-based"]
+                        },
+                    {
+                            name: "Memrise Vietnamese",
+                            url: "https://www.memrise.com/",
+                            level: "Beginner to Intermediate",
+                            free: true,
+                            features: ["Native speaker videos", "Spaced repetition", "Community content", "Mobile app"]
+                        },
+                    {
+                            name: "Vietnamese by Nemo",
+                            url: "iOS/Android app stores",
+                            level: "Beginner",
+                            free: true,
+                            features: ["Basic version free", "Offline capable", "Audio pronunciation", "Travel focus"]
+                        },
+                    {
+                            name: "Digital Dialects",
+                            url: "https://www.digitaldialects.com/Vietnamese.htm",
+                            level: "Beginner",
+                            free: true,
+                            features: ["Free vocabulary games", "Alphabet games", "No registration", "Immediate feedback"]
+                        },
+                    {
+                            name: "UniKey",
+                            url: "https://www.unikey.org/",
+                            level: "All users",
+                            free: true,
+                            features: ["VNI support", "Telex support", "Most popular IME", "Windows/Mac/Linux"]
+                        }
+
+
+                        ]
+
+
+                    }
+
+
+                ],
 
             books: [
                 {
