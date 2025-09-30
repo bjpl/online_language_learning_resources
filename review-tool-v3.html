@@ -440,6 +440,11 @@
             <span>Rate: <span id="review-rate">0/min</span></span>
             <span id="save-indicator" class="save-indicator">Auto-save on</span>
         </div>
+        <div class="storage-controls" style="display: flex; gap: 10px; margin-left: 20px;">
+            <button onclick="manualSave()" style="padding: 6px 12px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 4px; cursor: pointer; font-size: 12px;" title="Save Progress (Ctrl+S)">💾 Save</button>
+            <button onclick="exportSession()" style="padding: 6px 12px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 4px; cursor: pointer; font-size: 12px;" title="Export Session">📥 Export</button>
+            <button onclick="importSession()" style="padding: 6px 12px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 4px; cursor: pointer; font-size: 12px;" title="Import Session">📤 Import</button>
+        </div>
     </div>
 
     <!-- Main Container -->

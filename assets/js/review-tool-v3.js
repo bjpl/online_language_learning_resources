@@ -537,6 +537,74 @@
         }
     };
 
+    // Export session data
+    window.exportSession = function() {
+        const exportData = {
+            currentIndex: state.currentIndex,
+            decisions: state.decisions,
+            checks: state.checks,
+            stats: state.stats,
+            iframeStatus: state.iframeStatus,
+            totalResources: state.resources.length,
+            sessionStartTime: state.sessionStartTime,
+            exportTime: new Date().toISOString(),
+            version: '3.0'
+        };
+
+        const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `review-session-${Date.now()}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+
+        showToast('Session exported successfully!', 'info');
+    };
+
+    // Import session data
+    window.importSession = function() {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.json';
+
+        input.onchange = (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    const data = JSON.parse(event.target.result);
+
+                    // Restore imported data
+                    state.currentIndex = data.currentIndex || 0;
+                    state.decisions = data.decisions || {};
+                    state.checks = data.checks || {};
+                    state.stats = data.stats || { keep: 0, delete: 0, edit: 0, skip: 0 };
+                    state.iframeStatus = data.iframeStatus || {};
+
+                    // Save to localStorage
+                    saveProgress();
+
+                    // Update UI
+                    displayCurrentResource();
+                    updateQueue();
+                    updateProgress();
+
+                    showToast('Session imported successfully!', 'info');
+                } catch (error) {
+                    console.error('Import failed:', error);
+                    showToast('Failed to import session!', 'error');
+                }
+            };
+
+            reader.readAsText(file);
+        };
+
+        input.click();
+    };
+
     function updateSaveIndicator(status) {
         const indicator = document.getElementById('save-indicator');
         if (!indicator) return;
