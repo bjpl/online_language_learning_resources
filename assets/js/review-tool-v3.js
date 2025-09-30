@@ -16,38 +16,19 @@
         iframeTimeout: 3000  // Time to wait before considering iframe blocked
     };
 
-    // Known sites that block iframes (X-Frame-Options or CSP)
+    // Known sites that DEFINITELY block iframes (verified)
+    // Only include sites we're absolutely sure about
     const IFRAME_BLOCKERS = [
         'github.com',
         'facebook.com',
         'twitter.com',
         'linkedin.com',
         'instagram.com',
-        'reddit.com',
-        'stackoverflow.com',
-        'amazon.com',
-        'netflix.com',
-        'spotify.com',
-        'discord.com',
-        'slack.com',
-        'microsoft.com',
         'google.com',
         'youtube.com',
-        'vimeo.com',
         'medium.com',
-        'notion.so',
-        'trello.com',
-        'dropbox.com',
-        'paypal.com',
-        'stripe.com',
-        'twitch.tv',
-        'whatsapp.com',
-        'telegram.org',
-        'zoom.us',
-        'ebay.com',
-        'pinterest.com',
-        'tumblr.com',
-        'quora.com'
+        'slack.com',
+        'discord.com'
     ];
 
     // State
@@ -213,7 +194,8 @@
         const shouldTab = shouldOpenInTab(resource.url);
 
         if (shouldTab) {
-            // Don't load in iframe, show blocked message
+            // Known blocker - skip iframe attempt
+            console.log(`Known blocker detected for ${resource.url}, opening in tab`);
             showBlockedPreview(resource.url);
 
             // Auto-open in new tab for known blockers
@@ -223,9 +205,10 @@
                 state.currentTabWindow = window.open(resource.url, 'preview_window');
             }
 
-            updatePreviewStatus('tab', 'Opened in new tab');
+            updatePreviewStatus('tab', 'Opened in new tab (known blocker)');
         } else {
-            // Try to load in iframe
+            // Always try iframe first for unknown sites
+            console.log(`Attempting iframe load for ${resource.url}`);
             attemptIframeLoad(resource.url);
         }
     }
@@ -240,20 +223,34 @@
 
         updatePreviewStatus('loading', 'Loading preview...');
 
+        let loadCompleted = false;
+
         // Set a timeout to detect if iframe doesn't load
         const loadTimeout = setTimeout(() => {
-            // Check if iframe loaded successfully
+            if (loadCompleted) return;
+
+            // Give it more time for slow sites, but check if it's actually blocked
             try {
-                // This will throw if blocked by X-Frame-Options
+                // Try to access the iframe - will throw if blocked
                 const iframeDoc = frame.contentDocument || frame.contentWindow.document;
 
+                // If we can access it but it's blank, it might still be loading
                 if (!iframeDoc || iframeDoc.location.href === 'about:blank') {
-                    handleIframeBlocked(url);
+                    // Wait a bit more for slow sites
+                    setTimeout(() => {
+                        if (!loadCompleted) {
+                            handleIframeBlocked(url);
+                        }
+                    }, 2000);
                 } else {
+                    // We can access it and it's not blank - it's working!
+                    loadCompleted = true;
                     updatePreviewStatus('iframe', 'Preview loaded');
+                    markUrlAsWorking(url);
                 }
             } catch (e) {
-                // Cross-origin or blocked
+                // Definitely blocked by X-Frame-Options or CSP
+                console.log('Iframe blocked by security policy for:', url);
                 handleIframeBlocked(url);
             }
         }, CONFIG.iframeTimeout);
@@ -263,32 +260,25 @@
 
         // Listen for successful load
         frame.onload = () => {
+            if (loadCompleted) return;
+            loadCompleted = true;
             clearTimeout(loadTimeout);
 
-            try {
-                // Double-check it actually loaded content
-                const iframeDoc = frame.contentDocument || frame.contentWindow.document;
-                if (iframeDoc && iframeDoc.location.href !== 'about:blank') {
-                    updatePreviewStatus('iframe', 'Preview loaded');
-                    markUrlAsWorking(url);
-                }
-            } catch (e) {
-                handleIframeBlocked(url);
-            }
+            // Assume it loaded successfully if onload fires
+            updatePreviewStatus('iframe', 'Preview loaded');
+            markUrlAsWorking(url);
+            frame.style.display = 'block';
+            blockedDiv.classList.remove('active');
         };
 
-        // Listen for errors
-        frame.onerror = () => {
-            clearTimeout(loadTimeout);
-            handleIframeBlocked(url);
-        };
+        // Don't use onerror as it's unreliable
     }
 
     // Handle blocked iframe
     function handleIframeBlocked(url) {
-        console.log(`Iframe blocked for ${url}, switching to tab mode`);
+        console.log(`Iframe blocked for ${url}`);
 
-        // Mark this domain as blocked
+        // Mark this domain as blocked for this session
         try {
             const hostname = new URL(url).hostname.replace('www.', '');
             state.iframeStatus[hostname] = 'blocked';
@@ -296,15 +286,15 @@
 
         showBlockedPreview(url);
 
-        // Auto-open in new tab
-        if (state.currentTabWindow && !state.currentTabWindow.closed) {
-            state.currentTabWindow.location.href = url;
-        } else {
-            state.currentTabWindow = window.open(url, 'preview_window');
-        }
+        // Don't auto-open - let user click the button
+        // This avoids unexpected tab openings
+        updatePreviewStatus('blocked', 'Iframe blocked - click to open in tab');
 
-        updatePreviewStatus('blocked', 'Opened in new tab (iframe blocked)');
-        showToast('Site blocks embedding - opened in new tab', 'info');
+        // Only show toast for first time
+        if (!state.toastShown) {
+            showToast('Some sites block embedding - click "Open in Tab" button to view', 'info');
+            state.toastShown = true;
+        }
     }
 
     // Mark URL as working in iframe
@@ -543,6 +533,18 @@
             } else {
                 state.currentTabWindow = window.open(resource.url, 'preview_window');
             }
+
+            // Update status to show it's in a tab
+            updatePreviewStatus('tab', 'Opened in new tab');
+        }
+    };
+
+    // Force reload in iframe (for testing)
+    window.forceIframeLoad = function() {
+        const resource = state.resources[state.currentIndex];
+        if (resource?.url) {
+            console.log('Forcing iframe load for:', resource.url);
+            attemptIframeLoad(resource.url);
         }
     };
 
