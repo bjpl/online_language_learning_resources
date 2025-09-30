@@ -631,6 +631,20 @@
     <!-- Main language data aggregator -->
     <script src="assets/js/language-data.js"></script>
 
+    <!-- Ensure data is loaded before starting review tool -->
+    <script>
+        // Verify data loaded
+        window.addEventListener('DOMContentLoaded', function() {
+            console.log('Languages loaded:', Object.keys(window.languageData || {}).length);
+            if (!window.languageData || Object.keys(window.languageData).length === 0) {
+                console.error('ERROR: No language data loaded!');
+                document.body.innerHTML = '<div style="color: red; padding: 20px;">ERROR: Language data failed to load. Please check console for details.</div>' + document.body.innerHTML;
+            } else {
+                console.log('Language data loaded successfully:', Object.keys(window.languageData).length, 'languages');
+            }
+        });
+    </script>
+
     <!-- Review tool script -->
     <script src="assets/js/review-tool-v3.js"></script>
 </body>

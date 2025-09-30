@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Review Tool Debug</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            background: #222;
+            color: #0f0;
+        }
+        .error { color: #f00; }
+        .success { color: #0f0; }
+        .info { color: #ff0; }
+    </style>
+</head>
+<body>
+    <h1>Review Tool Debug Console</h1>
+    <div id="log"></div>
+
+    <script>
+        // Debug logging
+        const log = (msg, type = 'info') => {
+            const logDiv = document.getElementById('log');
+            logDiv.innerHTML += `<div class="${type}">${new Date().toLocaleTimeString()}: ${msg}</div>`;
+            console.log(msg);
+        };
+
+        // Initialize languageData
+        window.languageData = {};
+        log('Initialized window.languageData');
+    </script>
+
+    <!-- Load all language data files -->
+    <script src="assets/js/afrikaans-data.js"></script>
+    <script src="assets/js/arabic-data.js"></script>
+    <script src="assets/js/bengali-data.js"></script>
+    <script src="assets/js/bulgarian-data.js"></script>
+    <script src="assets/js/burmese-data.js"></script>
+    <script src="assets/js/cebuano-data.js"></script>
+    <script src="assets/js/chinese-data.js"></script>
+    <script src="assets/js/cree-data.js"></script>
+    <script src="assets/js/croatian-data.js"></script>
+    <script src="assets/js/czech-data.js"></script>
+    <script src="assets/js/danish-data.js"></script>
+    <script src="assets/js/dari-data.js"></script>
+    <script src="assets/js/dutch-data.js"></script>
+    <script src="assets/js/estonian-data.js"></script>
+    <script src="assets/js/finnish-data.js"></script>
+    <script src="assets/js/flemish-data.js"></script>
+    <script src="assets/js/french-data.js"></script>
+    <script src="assets/js/german-data.js"></script>
+    <script src="assets/js/greek-data.js"></script>
+    <script src="assets/js/guarani-data.js"></script>
+    <script src="assets/js/gujarati-data.js"></script>
+    <script src="assets/js/hausa-data.js"></script>
+    <script src="assets/js/hebrew-data.js"></script>
+    <script src="assets/js/hindi-data.js"></script>
+    <script src="assets/js/hmong-data.js"></script>
+    <script src="assets/js/hungarian-data.js"></script>
+    <script src="assets/js/indonesian-data.js"></script>
+    <script src="assets/js/inuktitut-data.js"></script>
+    <script src="assets/js/irish-data.js"></script>
+    <script src="assets/js/italian-data.js"></script>
+    <script src="assets/js/japanese-data.js"></script>
+    <script src="assets/js/kannada-data.js"></script>
+    <script src="assets/js/kazakh-data.js"></script>
+    <script src="assets/js/korean-data.js"></script>
+    <script src="assets/js/lao-data.js"></script>
+    <script src="assets/js/latvian-data.js"></script>
+    <script src="assets/js/lithuanian-data.js"></script>
+    <script src="assets/js/malay-data.js"></script>
+    <script src="assets/js/marathi-data.js"></script>
+    <script src="assets/js/mongolian-data.js"></script>
+    <script src="assets/js/nahuatl-data.js"></script>
+    <script src="assets/js/navajo-data.js"></script>
+    <script src="assets/js/nepali-data.js"></script>
+    <script src="assets/js/pashto-data.js"></script>
+    <script src="assets/js/persian-data.js"></script>
+    <script src="assets/js/polish-data.js"></script>
+    <script src="assets/js/portuguese-data.js"></script>
+    <script src="assets/js/punjabi-data.js"></script>
+    <script src="assets/js/quechua-data.js"></script>
+    <script src="assets/js/romanian-data.js"></script>
+    <script src="assets/js/russian-data.js"></script>
+    <script src="assets/js/serbian-data.js"></script>
+    <script src="assets/js/slovak-data.js"></script>
+    <script src="assets/js/spanish-data.js"></script>
+    <script src="assets/js/swahili-data.js"></script>
+    <script src="assets/js/swedish-data.js"></script>
+    <script src="assets/js/tagalog-data.js"></script>
+    <script src="assets/js/tamil-data.js"></script>
+    <script src="assets/js/telugu-data.js"></script>
+    <script src="assets/js/thai-data.js"></script>
+    <script src="assets/js/ukrainian-data.js"></script>
+    <script src="assets/js/urdu-data.js"></script>
+    <script src="assets/js/vietnamese-data.js"></script>
+    <script src="assets/js/welsh-data.js"></script>
+    <script src="assets/js/wolof-data.js"></script>
+    <script src="assets/js/yoruba-data.js"></script>
+
+    <script>
+        // Wait for all scripts to load
+        window.addEventListener('DOMContentLoaded', () => {
+            log('=== DOM Content Loaded ===', 'success');
+
+            // Check languageData
+            try {
+                const langCount = Object.keys(window.languageData).length;
+                log(`Languages loaded: ${langCount}`, langCount > 0 ? 'success' : 'error');
+
+                // List first 5 languages
+                Object.keys(window.languageData).slice(0, 5).forEach(key => {
+                    const lang = window.languageData[key];
+                    log(`- ${key}: ${lang.name} ${lang.flag}`, 'info');
+                });
+
+                // Count resources
+                let totalResources = 0;
+                const resourcesByType = { courses: 0, apps: 0, books: 0, audio: 0, practice: 0 };
+
+                Object.keys(window.languageData).forEach(langKey => {
+                    const lang = window.languageData[langKey];
+                    if (!lang) {
+                        log(`WARNING: No data for language key: ${langKey}`, 'error');
+                        return;
+                    }
+
+                    ['courses', 'apps', 'books', 'audio', 'practice'].forEach(type => {
+                        const resources = lang.resources?.[type] || lang[type];
+                        if (!resources) return;
+
+                        if (!Array.isArray(resources)) {
+                            log(`WARNING: ${langKey}.${type} is not an array`, 'error');
+                            return;
+                        }
+
+                        resources.forEach(item => {
+                            if (item.items && Array.isArray(item.items)) {
+                                totalResources += item.items.length;
+                                resourcesByType[type] += item.items.length;
+                            } else if (item.name) {
+                                totalResources++;
+                                resourcesByType[type]++;
+                            }
+                        });
+                    });
+                });
+
+                log(`=== Resource Count ===`, 'success');
+                log(`Total resources: ${totalResources}`, totalResources > 0 ? 'success' : 'error');
+                Object.entries(resourcesByType).forEach(([type, count]) => {
+                    log(`${type}: ${count}`, 'info');
+                });
+
+                // Test resource loading logic (same as review tool)
+                log(`=== Testing Review Tool Logic ===`, 'success');
+
+                const testResources = [];
+                Object.keys(window.languageData).slice(0, 3).forEach(langKey => {
+                    const lang = window.languageData[langKey];
+                    if (!lang) return;
+
+                    ['courses', 'apps'].forEach(type => {
+                        const resources = lang.resources?.[type] || lang[type];
+                        if (!resources || !Array.isArray(resources)) return;
+
+                        resources.forEach(item => {
+                            if (item.items && Array.isArray(item.items)) {
+                                item.items.forEach(resource => {
+                                    testResources.push({
+                                        ...resource,
+                                        _id: `${langKey}_${type}_${resource.name}`,
+                                        _type: type,
+                                        _category: item.category,
+                                        _language: langKey,
+                                        _langName: lang.name,
+                                        _langFlag: lang.flag
+                                    });
+                                });
+                            } else if (item.name) {
+                                testResources.push({
+                                    ...item,
+                                    _id: `${langKey}_${type}_${item.name}`,
+                                    _type: type,
+                                    _language: langKey,
+                                    _langName: lang.name,
+                                    _langFlag: lang.flag
+                                });
+                            }
+                        });
+                    });
+                });
+
+                log(`Test resources loaded: ${testResources.length}`, 'success');
+
+                // Show first resource
+                if (testResources.length > 0) {
+                    const first = testResources[0];
+                    log(`=== First Resource ===`, 'success');
+                    log(`Name: ${first.name}`, 'info');
+                    log(`URL: ${first.url}`, 'info');
+                    log(`Language: ${first._langFlag} ${first._langName}`, 'info');
+                    log(`Type: ${first._type}`, 'info');
+                }
+
+            } catch (error) {
+                log(`ERROR: ${error.message}`, 'error');
+                console.error(error);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -110,14 +110,23 @@
 
     // Load all resources from language data
     async function loadAllResources() {
-        if (typeof languageData === 'undefined') {
+        if (typeof languageData === 'undefined' || !window.languageData) {
             console.error('Language data not loaded!');
+            alert('Error: Language data failed to load. Please refresh the page.');
             return;
         }
 
+        console.log('Starting to load resources from', Object.keys(languageData).length, 'languages');
+
+        let resourceCount = 0;
         Object.keys(languageData).forEach(langKey => {
             const lang = languageData[langKey];
-            if (!lang) return;
+            if (!lang) {
+                console.warn(`No data for language key: ${langKey}`);
+                return;
+            }
+
+            let langResourceCount = 0;
 
             ['courses', 'apps', 'books', 'audio', 'practice'].forEach(type => {
                 const resources = lang.resources?.[type] || lang[type];
@@ -126,6 +135,7 @@
                 resources.forEach(item => {
                     if (item.items && Array.isArray(item.items)) {
                         item.items.forEach(resource => {
+                            langResourceCount++;
                             state.resources.push({
                                 ...resource,
                                 _id: `${langKey}_${type}_${resource.name}`,
@@ -137,6 +147,7 @@
                             });
                         });
                     } else if (item.name) {
+                        langResourceCount++;
                         state.resources.push({
                             ...item,
                             _id: `${langKey}_${type}_${item.name}`,
@@ -148,10 +159,21 @@
                     }
                 });
             });
+
+            if (langResourceCount > 0) {
+                console.log(`${lang.flag} ${lang.name}: ${langResourceCount} resources`);
+                resourceCount += langResourceCount;
+            }
         });
 
         console.log(`Loaded ${state.resources.length} resources`);
-        document.getElementById('counter').textContent = `1 / ${state.resources.length}`;
+
+        if (state.resources.length === 0) {
+            console.error('No resources were loaded!');
+            alert('Error: No resources found. Please check if language data files are loading correctly.');
+        } else {
+            document.getElementById('counter').textContent = `1 / ${state.resources.length}`;
+        }
     }
 
     // Check if URL should use iframe or new tab
