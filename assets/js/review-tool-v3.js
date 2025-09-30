@@ -16,20 +16,8 @@
         iframeTimeout: 3000  // Time to wait before considering iframe blocked
     };
 
-    // Known sites that DEFINITELY block iframes (verified)
-    // Only include sites we're absolutely sure about
-    const IFRAME_BLOCKERS = [
-        'github.com',
-        'facebook.com',
-        'twitter.com',
-        'linkedin.com',
-        'instagram.com',
-        'google.com',
-        'youtube.com',
-        'medium.com',
-        'slack.com',
-        'discord.com'
-    ];
+    // Don't pre-block ANY sites - let them all try to load
+    const IFRAME_BLOCKERS = [];
 
     // State
     const state = {
@@ -157,32 +145,8 @@
         }
     }
 
-    // Check if URL should use iframe or new tab
-    function shouldOpenInTab(url) {
-        if (!url) return false;
-
-        try {
-            const urlObj = new URL(url);
-            const hostname = urlObj.hostname.replace('www.', '');
-
-            // Check if in known blockers list
-            for (const blocker of IFRAME_BLOCKERS) {
-                if (hostname.includes(blocker)) {
-                    console.log(`${hostname} is a known iframe blocker, opening in tab`);
-                    return true;
-                }
-            }
-
-            // Check if we've previously detected this as blocked
-            if (state.iframeStatus[hostname] === 'blocked') {
-                return true;
-            }
-
-            return false;
-        } catch (e) {
-            return false;
-        }
-    }
+    // No longer pre-checking if sites should open in tab
+    // Let everything try iframe first
 
     // Load preview for current resource
     function loadPreview(resource) {
@@ -191,87 +155,35 @@
             return;
         }
 
-        const shouldTab = shouldOpenInTab(resource.url);
-
-        if (shouldTab) {
-            // Known blocker - skip iframe attempt
-            console.log(`Known blocker detected for ${resource.url}, opening in tab`);
-            showBlockedPreview(resource.url);
-
-            // Auto-open in new tab for known blockers
-            if (state.currentTabWindow && !state.currentTabWindow.closed) {
-                state.currentTabWindow.location.href = resource.url;
-            } else {
-                state.currentTabWindow = window.open(resource.url, 'preview_window');
-            }
-
-            updatePreviewStatus('tab', 'Opened in new tab (known blocker)');
-        } else {
-            // Always try iframe first for unknown sites
-            console.log(`Attempting iframe load for ${resource.url}`);
-            attemptIframeLoad(resource.url);
-        }
+        // ALWAYS try iframe - no pre-blocking
+        console.log(`Loading preview for ${resource.url}`);
+        attemptIframeLoad(resource.url);
     }
 
-    // Attempt to load URL in iframe with detection
+    // Attempt to load URL in iframe - simplified version
     function attemptIframeLoad(url) {
         const frame = document.getElementById('preview-frame');
         const blockedDiv = document.getElementById('preview-blocked');
 
+        // Show iframe, hide blocked message
         frame.style.display = 'block';
         blockedDiv.classList.remove('active');
 
         updatePreviewStatus('loading', 'Loading preview...');
 
-        let loadCompleted = false;
-
-        // Set a timeout to detect if iframe doesn't load
-        const loadTimeout = setTimeout(() => {
-            if (loadCompleted) return;
-
-            // Give it more time for slow sites, but check if it's actually blocked
-            try {
-                // Try to access the iframe - will throw if blocked
-                const iframeDoc = frame.contentDocument || frame.contentWindow.document;
-
-                // If we can access it but it's blank, it might still be loading
-                if (!iframeDoc || iframeDoc.location.href === 'about:blank') {
-                    // Wait a bit more for slow sites
-                    setTimeout(() => {
-                        if (!loadCompleted) {
-                            handleIframeBlocked(url);
-                        }
-                    }, 2000);
-                } else {
-                    // We can access it and it's not blank - it's working!
-                    loadCompleted = true;
-                    updatePreviewStatus('iframe', 'Preview loaded');
-                    markUrlAsWorking(url);
-                }
-            } catch (e) {
-                // Definitely blocked by X-Frame-Options or CSP
-                console.log('Iframe blocked by security policy for:', url);
-                handleIframeBlocked(url);
-            }
-        }, CONFIG.iframeTimeout);
-
-        // Load the URL
+        // Just load it - don't try to detect if it's blocked
         frame.src = url;
 
-        // Listen for successful load
+        // Simple onload handler
         frame.onload = () => {
-            if (loadCompleted) return;
-            loadCompleted = true;
-            clearTimeout(loadTimeout);
-
-            // Assume it loaded successfully if onload fires
-            updatePreviewStatus('iframe', 'Preview loaded');
-            markUrlAsWorking(url);
-            frame.style.display = 'block';
-            blockedDiv.classList.remove('active');
+            updatePreviewStatus('iframe', 'Preview loaded (may be blank if blocked)');
         };
 
-        // Don't use onerror as it's unreliable
+        // After a delay, update status but don't block
+        setTimeout(() => {
+            // Just note it might be blocked but leave iframe visible
+            updatePreviewStatus('iframe', 'Preview area - use "Open in Tab" if blank');
+        }, 3000);
     }
 
     // Handle blocked iframe
