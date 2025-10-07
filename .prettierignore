@@ -1,0 +1,29 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+build
+out
+
+# Development artifacts
+docs/development-notes
+coverage
+.nyc_output
+
+# Cache
+.cache
+.parcel-cache
+.vite
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+*.log
+
+# IDE
+.vscode
+.idea
