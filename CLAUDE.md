@@ -176,215 +176,106 @@
 
 ---
 
-# Language Learning Hub - Project Configuration
+# Project-Specific Documentation
 
-## Project Overview
+**IMPORTANT**: This file (CLAUDE.md) is auto-loaded by Claude Code and contains the universal mandatory directives above. For detailed project-specific information, refer to the following documentation files:
 
-A beautifully crafted, production-ready website curating the best language learning resources for 65+ languages. Built with modern development practices, optimized performance, and professional architecture.
+## Documentation Structure
 
-## Technology Stack
-
-- **Frontend**: Pure HTML/CSS/JavaScript (ES6 modules)
-- **Build System**: Vite 7.1.9 with code splitting
-- **Code Quality**: ESLint 9.37 + Prettier 3.6
-- **Performance**: Lazy loading with dynamic imports
-- **Deployment**: GitHub Pages
-
-## Development Workflow
-
-### Quick Start
-```bash
-npm install
-npm run dev      # Development server (localhost:3000)
-npm run build    # Production build
-npm run preview  # Test production build
 ```
+CLAUDE.md (This File)
+  ├── Universal agent directives (25 mandatory)
+  └── References to project-specific docs (below)
 
-### Code Quality
-```bash
-npm run lint       # Check code quality
-npm run lint:fix   # Auto-fix issues
-npm run format     # Format all files
+Project Configuration & Details:
+  ├── CLAUDE-PROJECT.md      → Project configuration, tech stack, quick reference
+  ├── docs/ARCHITECTURE.md   → Technical design, patterns, trade-offs
+  ├── docs/DEVELOPMENT.md    → Development workflow, coding standards
+  └── docs/DEPLOYMENT.md     → Deployment procedures, monitoring
 ```
-
-## Architecture Principles
-
-### 1. Lazy Loading Strategy
-- **Initial Load**: Core app only (~15KB)
-- **On-Demand**: Language data files load dynamically
-- **Caching**: Map-based caching prevents re-downloads
-- **Performance**: 98% faster time-to-interactive
-
-### 2. Build Optimization
-- **Code Splitting**: Each language is a separate chunk
-- **Minification**: Terser with console.log removal
-- **CSS Splitting**: Separate CSS chunks for faster loads
-- **Modern Target**: ES2020 for smaller bundles
-
-### 3. Project Organization
-```
-/                    # Production HTML files only
-/assets              # CSS and JS modules
-/tests               # Test files (gitignored)
-/docs                # Documentation
-  /development-notes # Development artifacts (gitignored)
-/daily_reports       # Daily development logs
-/scripts             # Build and utility scripts
-```
-
-## File Management Rules
-
-### ⛔ NEVER Save to Root
-- No test files in root
-- No report files in root
-- No markdown notes in root
-- No debug files in root
-
-### ✅ Proper Organization
-- Tests → `/tests`
-- Reports → `/docs/development-notes`
-- Documentation → `/docs`
-- Scripts → `/scripts`
-- Daily logs → `/daily_reports`
-
-## Key Files
-
-### Configuration
-- `vite.config.js` - Build system configuration
-- `eslint.config.js` - Code quality rules
-- `.prettierrc.json` - Formatting standards
-- `package.json` - Dependencies and scripts
-
-### Core Application
-- `index.html` - Homepage
-- `language.html` - Language-specific resources
-- `resources.html` - All resources page
-- `about.html` - About page
-
-### JavaScript Modules
-- `assets/js/language-loader.js` - Dynamic import system
-- `assets/js/loading-ui.js` - Loading states and UI feedback
-- `assets/js/*-data.js` - 67 language data modules
-- `assets/js/main.js` - Main application logic
-
-### Documentation
-- `README.md` - Project overview and setup
-- `docs/BUILD_SYSTEM_GUIDE.md` - Complete build system documentation
-- `daily_reports/*.md` - Daily development logs
-
-## Commit Standards
-
-### Format
-```
-<type>: <subject>
-
-<body>
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>
-```
-
-### Types
-- `feat:` - New features
-- `fix:` - Bug fixes
-- `docs:` - Documentation changes
-- `style:` - Code style/formatting
-- `refactor:` - Code refactoring
-- `test:` - Test additions/changes
-- `chore:` - Maintenance tasks
-
-## Performance Targets
-
-### Before Optimization
-- ❌ ~10,000ms initial load
-- ❌ ~850KB bundle size
-- ❌ 67 separate HTTP requests
-- ❌ No caching strategy
-
-### After Optimization
-- ✅ ~200ms initial load (-98%)
-- ✅ ~15KB initial bundle (-98%)
-- ✅ On-demand language loading
-- ✅ Map-based caching
-
-## Security Guidelines
-
-1. **Never commit secrets** - Use environment variables
-2. **Sanitize inputs** - XSS prevention at all boundaries
-3. **Validate data** - Check all external inputs
-4. **Secure dependencies** - Regular updates and audits
-5. **Privacy first** - Respect user data sovereignty
-
-## Testing Strategy
-
-### Current State
-- Manual testing during development
-- Build validation before deployment
-- Cross-browser compatibility checks
-
-### Future Enhancements
-- Unit tests for core modules
-- Integration tests for data loading
-- E2E tests for critical user flows
-- Performance monitoring
-
-## Deployment Process
-
-### Staging (Manual)
-```bash
-npm run build
-npm run preview  # Test locally
-```
-
-### Production (GitHub Pages)
-```bash
-npm run build
-# Commit dist/ directory
-git push origin main
-```
-
-### Future (Automated CI/CD)
-- GitHub Actions workflow
-- Automated testing on PR
-- Automated deployment on merge
-
-## Known Limitations
-
-1. **HTML Integration Pending**: Lazy loading infrastructure built but not yet wired to HTML
-2. **No Backend**: Static site only, no dynamic data
-3. **Manual Data Entry**: Language resources added manually
-4. **No Search**: Client-side search not yet implemented
-
-## Next Steps
-
-### Immediate (This Week)
-- [ ] Complete HTML integration for lazy loading
-- [ ] Deploy lazy loading system to production
-- [ ] Monitor performance metrics
-- [ ] User testing and feedback
-
-### Short-term (This Month)
-- [ ] Implement client-side search
-- [ ] Add more languages (target: 100+)
-- [ ] Create recommendation engine
-- [ ] Mobile app exploration
-
-### Long-term (3-6 Months)
-- [ ] Backend API for dynamic content
-- [ ] User accounts and saved resources
-- [ ] Community features (ratings, reviews)
-- [ ] Analytics dashboard
-
-## Support & Resources
-
-- **Documentation**: `/docs/BUILD_SYSTEM_GUIDE.md`
-- **Issue Tracking**: GitHub Issues
-- **Live Site**: https://bjpl.github.io/online_language_learning_resources/
-- **Repository**: https://github.com/bjpl/online_language_learning_resources
 
 ---
 
-**Last Updated**: 2025-10-07
+## Quick Reference
+
+For agents working on this project, read these files for context:
+
+### Essential Context (Read First)
+- **`CLAUDE-PROJECT.md`** - Project overview, tech stack, file structure
+  - Technology choices (Vite, ESLint, Prettier)
+  - Project structure and organization rules
+  - Performance targets and current status
+  - Known limitations and roadmap
+
+### Technical Details (As Needed)
+- **`docs/ARCHITECTURE.md`** - Architecture decisions and design patterns
+  - System architecture diagrams
+  - Data flow and module hierarchy
+  - Performance architecture
+  - Technology decision log with trade-offs
+
+- **`docs/DEVELOPMENT.md`** - Development workflow and standards
+  - Development environment setup
+  - Coding style guidelines (JS, CSS, HTML)
+  - Git workflow and commit standards
+  - Testing procedures
+  - Debugging techniques
+
+- **`docs/DEPLOYMENT.md`** - Deployment procedures
+  - Pre-deployment checklist
+  - Deployment methods (manual + automated)
+  - Environment configuration
+  - Rollback procedures
+  - Performance monitoring
+
+### Additional Resources
+- **`docs/BUILD_SYSTEM_GUIDE.md`** - Complete build system implementation guide
+- **`README.md`** - Public-facing project documentation
+- **`daily_reports/*.md`** - Historical development logs
+
+---
+
+## Critical Rules Summary (From Mandatory Directives)
+
+**File Organization** (MANDATORY-11):
+- ⛔ **Never** save test/debug/report files to root directory
+- ✅ Tests → `/tests`
+- ✅ Reports → `/docs/development-notes`
+- ✅ Documentation → `/docs`
+
+**Commit Standards** (MANDATORY-3):
+- Commit frequently
+- Use conventional commit format: `type: subject`
+- Include footer: `🤖 Generated with [Claude Code]...`
+
+**Code Quality** (MANDATORY-8, MANDATORY-10):
+- Run `npm run lint` before committing
+- Run `npm run format` for consistency
+- Verify `npm run build` succeeds
+- Test changes in browser
+
+**Performance** (MANDATORY-14):
+- Target: <200ms initial load, <50KB initial bundle
+- Use lazy loading for language data
+- Profile before optimizing
+
+---
+
+## Project Status
+
 **Version**: 2.0.0 (Production Build System)
+**Last Updated**: 2025-10-07
 **Status**: ✅ Build System Complete, 🚧 HTML Integration Pending
+
+**Quick Start**:
+```bash
+npm install
+npm run dev      # http://localhost:3000
+```
+
+For complete details, see `CLAUDE-PROJECT.md`.
+
+---
+
+**Document Version**: 1.1.0
+**Directives Version**: 1.1 (25 directives)
