@@ -4,12 +4,13 @@ A beautifully crafted, modern website that curates the best language learning re
 
 ## 🌟 Features
 
-- **Comprehensive Resource Library**: Curated collection of apps, books, podcasts, courses, and communities for multiple languages
-- **Beautiful, Modern Design**: Clean, elegant interface that doesn't look AI-generated
+- **Comprehensive Resource Library**: Curated collection of apps, books, podcasts, courses, and communities for 65+ languages
+- **Beautiful, Modern Design**: Clean, elegant interface with thoughtful typography and color palette
 - **Mobile-Responsive**: Works perfectly on all devices
-- **Fast & Lightweight**: Pure HTML/CSS/JS with no heavy frameworks
+- **Fast & Optimized**: Production build system with code splitting and lazy loading
 - **Accessible**: WCAG compliant with semantic HTML and ARIA labels
 - **Search & Filter**: Quickly find resources by language or type
+- **Professional Development Workflow**: Vite, ESLint, Prettier for modern development
 
 ## 🗣️ Currently Featured Languages
 
@@ -33,13 +34,29 @@ Visit the live site: [https://bjpl.github.io/online_language_learning_resources/
 
 ## 💻 Local Development
 
+### Quick Start (Development Server)
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/bjpl/online_language_learning_resources.git
 cd online_language_learning_resources
 ```
 
-2. Open `index.html` in your browser or use a local server:
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser to `http://localhost:3000`
+
+### Alternative: Static File Server
+
+If you prefer not to use the build system:
 ```bash
 # Using Python
 python -m http.server 8000
@@ -48,25 +65,45 @@ python -m http.server 8000
 npx http-server
 ```
 
-3. Navigate to `http://localhost:8000`
+### Available Scripts
+
+- **`npm run dev`** - Start development server with hot module replacement
+- **`npm run build`** - Build optimized production bundle
+- **`npm run preview`** - Preview production build locally
+- **`npm run lint`** - Check code quality with ESLint
+- **`npm run lint:fix`** - Auto-fix ESLint issues
+- **`npm run format`** - Format code with Prettier
+- **`npm run format:check`** - Check code formatting
 
 ## 📁 Project Structure
 
 ```
 online_language_learning_resources/
-├── index.html              # Homepage
-├── language.html           # Language-specific resource page
+├── index.html                   # Homepage
+├── language.html                # Language-specific resource page
+├── resources.html               # All resources page
+├── about.html                   # About page
 ├── assets/
-│   ├── css/
-│   │   ├── main.css       # Main styles
-│   │   └── language.css   # Language page styles
-│   └── js/
-│       ├── main.js        # Main JavaScript
-│       ├── data.js        # Language resource data
-│       ├── dutch-data.js  # Dutch-specific resources
-│       └── language-page.js # Language page functionality
-├── _config.yml            # GitHub Pages configuration
-└── README.md              # This file
+│   ├── css/                     # Stylesheets
+│   │   ├── main.css             # Main styles
+│   │   ├── components.css       # UI components
+│   │   └── language.css         # Language page styles
+│   └── js/                      # JavaScript modules
+│       ├── main.js              # Main application logic
+│       ├── language-loader.js   # Dynamic language loading
+│       ├── loading-ui.js        # Loading states & spinners
+│       ├── *-data.js            # 67 language data modules
+│       └── grid-manager.js      # Grid layout management
+├── tests/                       # Test files
+├── docs/                        # Documentation
+│   ├── BUILD_SYSTEM_GUIDE.md    # Build system documentation
+│   └── development-notes/       # Development artifacts
+├── scripts/                     # Build and utility scripts
+├── vite.config.js               # Vite bundler configuration
+├── eslint.config.js             # ESLint configuration
+├── .prettierrc.json             # Prettier configuration
+├── package.json                 # npm dependencies and scripts
+└── README.md                    # This file
 ```
 
 ## 🎨 Design Philosophy
