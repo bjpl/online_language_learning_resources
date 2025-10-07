@@ -510,3 +510,6 @@ const thaiResources = {
 if (typeof languageData !== 'undefined') {
     languageData.thai = thaiResources;
 }
+// ES6 Module Export
+export { thaiResources };
+export default thaiResources;

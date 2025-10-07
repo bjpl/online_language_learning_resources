@@ -115,3 +115,6 @@ const czechResources = {
 if (typeof languageData !== 'undefined') {
     languageData.czech = czechResources;
 }
+// ES6 Module Export
+export { czechResources };
+export default czechResources;

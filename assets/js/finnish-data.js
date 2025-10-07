@@ -371,3 +371,6 @@
     }
 
 })(window);
+// ES6 Module Export
+export { finnishResources };
+export default finnishResources;

@@ -721,3 +721,6 @@ const nepaliResources = {
 if (typeof languageData !== 'undefined') {
     languageData.nepali = nepaliResources;
 }
+// ES6 Module Export
+export { nepaliResources };
+export default nepaliResources;

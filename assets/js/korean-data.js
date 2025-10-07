@@ -458,3 +458,6 @@ languageData.korean = {
         averageRating: 4.8
     }
 };
+// ES6 Module Export
+export { koreanResources };
+export default koreanResources;

@@ -427,3 +427,6 @@
     }
 
 })(window);
+// ES6 Module Export
+export { swedishResources };
+export default swedishResources;

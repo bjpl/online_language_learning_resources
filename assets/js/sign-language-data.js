@@ -561,3 +561,6 @@ const signLanguageResources = {
 if (typeof languageData !== 'undefined') {
     languageData.signlanguage = signLanguageResources;
 }
+// ES6 Module Export
+export { signLanguageResources };
+export default signLanguageResources;

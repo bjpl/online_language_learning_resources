@@ -384,3 +384,6 @@
     }
 
 })(window);
+// ES6 Module Export
+export { japaneseResources };
+export default japaneseResources;

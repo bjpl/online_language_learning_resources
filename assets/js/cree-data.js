@@ -436,3 +436,6 @@ const creeResources = {
 if (typeof languageData !== 'undefined') {
     languageData.cree = creeResources;
 }
+// ES6 Module Export
+export { creeResources };
+export default creeResources;

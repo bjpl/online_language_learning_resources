@@ -667,3 +667,6 @@ const ukrainianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.ukrainian = ukrainianResources;
 }
+// ES6 Module Export
+export { ukrainianResources };
+export default ukrainianResources;

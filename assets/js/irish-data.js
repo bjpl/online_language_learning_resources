@@ -564,3 +564,6 @@ const irishResources = {
 if (typeof languageData !== 'undefined') {
     languageData.irish = irishResources;
 }
+// ES6 Module Export
+export { irishResources };
+export default irishResources;

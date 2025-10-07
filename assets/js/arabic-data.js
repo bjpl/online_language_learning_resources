@@ -525,3 +525,6 @@ const arabicResources = {
 if (typeof languageData !== 'undefined') {
     languageData.arabic = arabicResources;
 }
+// ES6 Module Export
+export { arabicResources };
+export default arabicResources;

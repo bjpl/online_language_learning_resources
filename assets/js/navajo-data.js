@@ -562,3 +562,6 @@ const navajoResources = {
 if (typeof languageData !== 'undefined') {
     languageData.navajo = navajoResources;
 }
+// ES6 Module Export
+export { navajoResources };
+export default navajoResources;

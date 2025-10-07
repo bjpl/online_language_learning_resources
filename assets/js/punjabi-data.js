@@ -1098,3 +1098,6 @@ const punjabiResources = {
 if (typeof languageData !== 'undefined') {
     languageData.punjabi = punjabiResources;
 }
+// ES6 Module Export
+export { punjabiResources };
+export default punjabiResources;

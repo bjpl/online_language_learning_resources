@@ -432,3 +432,6 @@ languageData.italian = {
         averageRating: 4.7
     }
 };
+// ES6 Module Export
+export { italianResources };
+export default italianResources;

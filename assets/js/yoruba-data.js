@@ -813,3 +813,6 @@ const yorubaResources = {
 if (typeof languageData !== 'undefined') {
     languageData.yoruba = yorubaResources;
 }
+// ES6 Module Export
+export { yorubaResources };
+export default yorubaResources;

@@ -364,3 +364,6 @@ languageData.indonesian = {
         averageRating: 4.6
     }
 };
+// ES6 Module Export
+export { indonesianResources };
+export default indonesianResources;

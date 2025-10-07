@@ -689,3 +689,6 @@ const russianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.russian = russianResources;
 }
+// ES6 Module Export
+export { russianResources };
+export default russianResources;

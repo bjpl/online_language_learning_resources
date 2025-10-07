@@ -686,3 +686,6 @@ const persianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.persian = persianResources;
 }
+// ES6 Module Export
+export { persianResources };
+export default persianResources;

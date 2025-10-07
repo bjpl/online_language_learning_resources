@@ -627,3 +627,6 @@ const serbianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.serbian = serbianResources;
 }
+// ES6 Module Export
+export { serbianResources };
+export default serbianResources;

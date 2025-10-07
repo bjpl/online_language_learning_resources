@@ -577,3 +577,6 @@
     }
 
 })(window);
+// ES6 Module Export
+export { hindiResources };
+export default hindiResources;

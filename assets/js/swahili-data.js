@@ -367,3 +367,6 @@
     }
 
 })(window);
+// ES6 Module Export
+export { swahiliResources };
+export default swahiliResources;
