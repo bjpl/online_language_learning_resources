@@ -11,7 +11,7 @@ const jsDir = path.join(__dirname, '..', 'assets', 'js');
 console.log('🛡️ BULLETPROOF FIX\n');
 console.log('This will restore all files to the last known good state\n');
 console.log('then add apps sections only where needed.\n');
-console.log('=' . repeat(60) + '\n');
+console.log(`${'=' . repeat(60)  }\n`);
 
 // Step 1: Find the last good commit before we started breaking things
 console.log('📜 Finding last good commit...\n');
@@ -140,11 +140,11 @@ needsApps.forEach(file => {
 });
 
 // Step 4: Validate all files
-console.log('\n' + '=' . repeat(60));
+console.log(`\n${  '=' . repeat(60)}`);
 console.log('VALIDATION\n');
 
 let validCount = 0;
-let invalidFiles = [];
+const invalidFiles = [];
 
 languageFiles.forEach(file => {
     const filePath = path.join(jsDir, file);

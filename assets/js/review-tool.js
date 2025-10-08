@@ -39,7 +39,7 @@
 
     // Load all resources from language data
     function loadAllResources() {
-        console.log('Loading all resources...');
+        console.warn('Loading all resources...');
 
         Object.keys(languageData).forEach(langKey => {
             const lang = languageData[langKey];
@@ -47,7 +47,7 @@
 
             // Process all resource types
             ['courses', 'apps', 'books', 'audio', 'practice'].forEach(type => {
-                let resources = lang.resources[type] || lang[type];
+                const resources = lang.resources[type] || lang[type];
                 if (!resources) return;
 
                 if (Array.isArray(resources)) {
@@ -80,7 +80,7 @@
             });
         });
 
-        console.log(`Loaded ${reviewState.allResources.length} resources for review`);
+        console.warn(`Loaded ${reviewState.allResources.length} resources for review`);
 
         // Shuffle for variety (optional - can be removed)
         // reviewState.allResources.sort(() => Math.random() - 0.5);
@@ -180,7 +180,7 @@
 
         // Save decision
         reviewState.decisions[resource._id] = {
-            decision: decision,
+            decision,
             checks: reviewState.checks[resource._id] || {},
             notes: document.getElementById('notes-input').value,
             timestamp: new Date().toISOString(),
@@ -266,7 +266,7 @@
         const total = reviewState.allResources.length;
         const percentage = (reviewed / total) * 100;
 
-        document.getElementById('progress-fill').style.width = percentage + '%';
+        document.getElementById('progress-fill').style.width = `${percentage  }%`;
         document.getElementById('progress-text').textContent = `${reviewed} / ${total}`;
         document.getElementById('current-category').textContent =
             `${reviewState.allResources[reviewState.currentIndex]?._type || 'All'} Resources`;

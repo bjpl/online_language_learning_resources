@@ -46,13 +46,13 @@ languageFiles.forEach(file => {
             if (match1) {
                 const beforeEnd = match1[1];
                 const ending = match1[2];
-                const replacement = beforeEnd + '},\n\n    apps: []\n' + ending;
+                const replacement = `${beforeEnd  }},\n\n    apps: []\n${  ending}`;
                 content = content.replace(pattern1, replacement);
                 modified = true;
             } else if (match2) {
                 const beforeEnd = match2[1];
                 const ending = match2[2];
-                const replacement = beforeEnd + '},\n\n    "apps": []\n' + ending;
+                const replacement = `${beforeEnd  }},\n\n    "apps": []\n${  ending}`;
                 content = content.replace(pattern2, replacement);
                 modified = true;
             } else if (match3) {
@@ -61,7 +61,7 @@ languageFiles.forEach(file => {
                 // Add a comma after the last property and then add apps
                 const lastPropertyPattern = /([^,])\s*$/;
                 const fixedBeforeEnd = beforeEnd.replace(lastPropertyPattern, '$1,');
-                content = fixedBeforeEnd + '\n\n    apps: []\n' + ending;
+                content = `${fixedBeforeEnd  }\n\n    apps: []\n${  ending}`;
                 modified = true;
             }
 
@@ -69,13 +69,13 @@ languageFiles.forEach(file => {
                 fs.writeFileSync(filePath, content, 'utf8');
                 fixedCount++;
                 report.push({
-                    file: file,
+                    file,
                     status: 'FIXED',
                     message: 'Added apps: [] section'
                 });
             } else {
                 report.push({
-                    file: file,
+                    file,
                     status: 'FAILED',
                     message: 'Could not find appropriate place to add apps section'
                 });
@@ -91,13 +91,13 @@ languageFiles.forEach(file => {
                 const appsContent = appsMatch[1].trim();
                 if (appsContent === '') {
                     report.push({
-                        file: file,
+                        file,
                         status: 'OK',
                         message: 'Has empty apps array (valid)'
                     });
                 } else {
                     report.push({
-                        file: file,
+                        file,
                         status: 'OK',
                         message: 'Has apps with content'
                     });
@@ -108,7 +108,7 @@ languageFiles.forEach(file => {
     } catch (error) {
         console.log(`❌ Error processing ${file}: ${error.message}`);
         report.push({
-            file: file,
+            file,
             status: 'ERROR',
             message: error.message
         });

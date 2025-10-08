@@ -9,7 +9,7 @@ const jsDir = path.join(__dirname, '..', 'assets', 'js');
 const oldestBackup = path.join(__dirname, '..', 'backups', 'backup_20250925_184135');
 
 console.log('🧹 CLEAN RESTORE AND FIX\n');
-console.log('=' . repeat(60) + '\n');
+console.log(`${'=' . repeat(60)  }\n`);
 
 // Step 1: Get all language files
 const languageFiles = fs.readdirSync(jsDir)
@@ -173,11 +173,11 @@ needsApps.forEach(file => {
 });
 
 // Step 6: Final validation
-console.log('\n' + '=' . repeat(60));
+console.log(`\n${  '=' . repeat(60)}`);
 console.log('FINAL VALIDATION\n');
 
 let validCount = 0;
-let invalidFiles = [];
+const invalidFiles = [];
 
 languageFiles.forEach(file => {
     const filePath = path.join(jsDir, file);

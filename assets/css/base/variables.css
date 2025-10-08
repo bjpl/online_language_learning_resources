@@ -4,218 +4,219 @@
    =================================== */
 
 :root {
-    /* ===================================
+  /* ===================================
        COLOR SYSTEM
        =================================== */
 
-    /* Primary Colors - Purple (Wisdom & Learning) */
-    --color-primary: #5B4E8C;
-    --color-primary-light: #7B6EAC;
-    --color-primary-dark: #3B2E6C;
-    --primary-50: #F5F3F7;
-    --primary-100: #EBE7F0;
-    --primary-200: #D7CFE1;
-    --primary-300: #C3B7D2;
-    --primary-400: #9F8FBC;
-    --primary-500: #7B6EAC;
-    --primary-600: #5B4E8C;
-    --primary-700: #4A3E7C;
-    --primary-800: #3B2E6C;
-    --primary-900: #2C1E5C;
+  /* Primary Colors - Purple (Wisdom & Learning) */
+  --color-primary: #5b4e8c;
+  --color-primary-light: #7b6eac;
+  --color-primary-dark: #3b2e6c;
+  --primary-50: #f5f3f7;
+  --primary-100: #ebe7f0;
+  --primary-200: #d7cfe1;
+  --primary-300: #c3b7d2;
+  --primary-400: #9f8fbc;
+  --primary-500: #7b6eac;
+  --primary-600: #5b4e8c;
+  --primary-700: #4a3e7c;
+  --primary-800: #3b2e6c;
+  --primary-900: #2c1e5c;
 
-    /* Accent Colors - Golden (Achievement & Success) */
-    --color-accent: #E8B04B;
-    --color-accent-light: #F0C66B;
-    --color-accent-dark: #C89A3B;
-    --accent-50: #FFF9E6;
-    --accent-100: #FFF3CD;
-    --accent-200: #FFE79B;
-    --accent-300: #FFDB69;
-    --accent-400: #F0C66B;
-    --accent-500: #E8B04B;
-    --accent-600: #C89A3B;
-    --accent-700: #A8842B;
-    --accent-800: #886E1B;
-    --accent-900: #68580B;
+  /* Accent Colors - Golden (Achievement & Success) */
+  --color-accent: #e8b04b;
+  --color-accent-light: #f0c66b;
+  --color-accent-dark: #c89a3b;
+  --accent-50: #fff9e6;
+  --accent-100: #fff3cd;
+  --accent-200: #ffe79b;
+  --accent-300: #ffdb69;
+  --accent-400: #f0c66b;
+  --accent-500: #e8b04b;
+  --accent-600: #c89a3b;
+  --accent-700: #a8842b;
+  --accent-800: #886e1b;
+  --accent-900: #68580b;
 
-    /* Secondary Colors - Teal (Growth & Progress) */
-    --color-secondary: #4A8B8C;
-    --color-secondary-light: #6AAAAC;
-    --color-secondary-dark: #2A6B6C;
-    --secondary-50: #E6F7F7;
-    --secondary-100: #CDEFF0;
-    --secondary-200: #9BDFE0;
-    --secondary-300: #6AAAAC;
-    --secondary-400: #5A9A9C;
-    --secondary-500: #4A8B8C;
-    --secondary-600: #3A7B7C;
-    --secondary-700: #2A6B6C;
-    --secondary-800: #1A5B5C;
-    --secondary-900: #0A4B4C;
+  /* Secondary Colors - Teal (Growth & Progress) */
+  --color-secondary: #4a8b8c;
+  --color-secondary-light: #6aaaac;
+  --color-secondary-dark: #2a6b6c;
+  --secondary-50: #e6f7f7;
+  --secondary-100: #cdeff0;
+  --secondary-200: #9bdfe0;
+  --secondary-300: #6aaaac;
+  --secondary-400: #5a9a9c;
+  --secondary-500: #4a8b8c;
+  --secondary-600: #3a7b7c;
+  --secondary-700: #2a6b6c;
+  --secondary-800: #1a5b5c;
+  --secondary-900: #0a4b4c;
 
-    /* Neutral Colors */
-    --color-dark: #1A1625;
-    --color-dark-soft: #2D2838;
-    --color-gray-900: #3F3A4B;
-    --color-gray-800: #4F495B;
-    --color-gray-700: #5E5869;
-    --color-gray-600: #6B6574;
-    --color-gray-500: #8E8896;
-    --color-gray-400: #AEA8B6;
-    --color-gray-300: #C4BFC9;
-    --color-gray-200: #D8D4DD;
-    --color-gray-100: #F0EEF2;
-    --color-gray-50: #F7F6F9;
-    --color-white: #FFFFFF;
-    --color-off-white: #FAF9FB;
+  /* Neutral Colors */
+  --color-dark: #1a1625;
+  --color-dark-soft: #2d2838;
+  --color-gray-900: #3f3a4b;
+  --color-gray-800: #4f495b;
+  --color-gray-700: #5e5869;
+  --color-gray-600: #6b6574;
+  --color-gray-500: #8e8896;
+  --color-gray-400: #aea8b6;
+  --color-gray-300: #c4bfc9;
+  --color-gray-200: #d8d4dd;
+  --color-gray-100: #f0eef2;
+  --color-gray-50: #f7f6f9;
+  --color-white: #ffffff;
+  --color-off-white: #faf9fb;
 
-    /* Semantic Colors */
-    --color-success: #52C41A;
-    --color-success-light: #73D13D;
-    --color-warning: #FAAD14;
-    --color-warning-light: #FFC53D;
-    --color-error: #F5222D;
-    --color-error-light: #FF4D4F;
-    --color-info: #1890FF;
-    --color-info-light: #40A9FF;
+  /* Semantic Colors */
+  --color-success: #52c41a;
+  --color-success-light: #73d13d;
+  --color-warning: #faad14;
+  --color-warning-light: #ffc53d;
+  --color-error: #f5222d;
+  --color-error-light: #ff4d4f;
+  --color-info: #1890ff;
+  --color-info-light: #40a9ff;
 
-    /* Component-Specific Colors */
-    --filter-active-bg: var(--color-primary);
-    --filter-active-color: var(--color-white);
-    --filter-active-border: var(--color-primary);
-    --filter-hover-bg: var(--primary-50);
-    --filter-hover-color: var(--primary-700);
-    --filter-hover-border: var(--primary-300);
+  /* Component-Specific Colors */
+  --filter-active-bg: var(--color-primary);
+  --filter-active-color: var(--color-white);
+  --filter-active-border: var(--color-primary);
+  --filter-hover-bg: var(--primary-50);
+  --filter-hover-color: var(--primary-700);
+  --filter-hover-border: var(--primary-300);
 
-    --all-lang-inactive-bg: linear-gradient(135deg, var(--primary-50), var(--accent-50));
-    --all-lang-inactive-border: var(--color-gray-200);
-    --all-lang-inactive-color: var(--color-gray-700);
-    --all-lang-active-bg: var(--color-primary);
-    --all-lang-active-border: var(--color-primary);
-    --all-lang-active-color: var(--color-white);
+  --all-lang-inactive-bg: linear-gradient(135deg, var(--primary-50), var(--accent-50));
+  --all-lang-inactive-border: var(--color-gray-200);
+  --all-lang-inactive-color: var(--color-gray-700);
+  --all-lang-active-bg: var(--color-primary);
+  --all-lang-active-border: var(--color-primary);
+  --all-lang-active-color: var(--color-white);
 
-    /* ===================================
+  /* ===================================
        TYPOGRAPHY
        =================================== */
 
-    /* Font Families */
-    --font-display: 'Crimson Text', serif;
-    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    --font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  /* Font Families */
+  --font-display: 'Crimson Text', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-system:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 
-    /* Font Sizes - Fluid Typography */
-    --fs-hero: clamp(2.5rem, 5vw + 1rem, 4.5rem);   /* 40px → 72px */
-    --fs-h1: clamp(2rem, 4vw + 1rem, 3.5rem);       /* 32px → 56px */
-    --fs-h2: clamp(1.75rem, 3vw + 0.5rem, 2.5rem);  /* 28px → 40px */
-    --fs-h3: clamp(1.25rem, 2vw + 0.5rem, 1.75rem); /* 20px → 28px */
-    --fs-h4: clamp(1.125rem, 1.5vw + 0.5rem, 1.5rem); /* 18px → 24px */
-    --fs-body: clamp(1rem, 1vw + 0.75rem, 1.125rem);/* 16px → 18px */
-    --fs-small: 0.875rem;                            /* 14px */
-    --fs-tiny: 0.75rem;                              /* 12px */
+  /* Font Sizes - Fluid Typography */
+  --fs-hero: clamp(2.5rem, 5vw + 1rem, 4.5rem); /* 40px → 72px */
+  --fs-h1: clamp(2rem, 4vw + 1rem, 3.5rem); /* 32px → 56px */
+  --fs-h2: clamp(1.75rem, 3vw + 0.5rem, 2.5rem); /* 28px → 40px */
+  --fs-h3: clamp(1.25rem, 2vw + 0.5rem, 1.75rem); /* 20px → 28px */
+  --fs-h4: clamp(1.125rem, 1.5vw + 0.5rem, 1.5rem); /* 18px → 24px */
+  --fs-body: clamp(1rem, 1vw + 0.75rem, 1.125rem); /* 16px → 18px */
+  --fs-small: 0.875rem; /* 14px */
+  --fs-tiny: 0.75rem; /* 12px */
 
-    /* Font Weights */
-    --fw-light: 300;
-    --fw-normal: 400;
-    --fw-medium: 500;
-    --fw-semibold: 600;
-    --fw-bold: 700;
+  /* Font Weights */
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
 
-    /* Line Heights */
-    --lh-tight: 1.2;      /* Headlines */
-    --lh-normal: 1.6;     /* Body text */
-    --lh-relaxed: 1.8;    /* Long-form content */
+  /* Line Heights */
+  --lh-tight: 1.2; /* Headlines */
+  --lh-normal: 1.6; /* Body text */
+  --lh-relaxed: 1.8; /* Long-form content */
 
-    /* Letter Spacing */
-    --ls-tight: -0.02em;
-    --ls-normal: 0;
-    --ls-wide: 0.025em;
-    --ls-wider: 0.05em;
+  /* Letter Spacing */
+  --ls-tight: -0.02em;
+  --ls-normal: 0;
+  --ls-wide: 0.025em;
+  --ls-wider: 0.05em;
 
-    /* ===================================
+  /* ===================================
        SPACING SCALE
        =================================== */
 
-    --space-xs: 0.5rem;   /* 8px */
-    --space-sm: 1rem;     /* 16px */
-    --space-md: 1.5rem;   /* 24px */
-    --space-lg: 2rem;     /* 32px */
-    --space-xl: 3rem;     /* 48px */
-    --space-2xl: 4.5rem;  /* 72px */
-    --space-3xl: 6rem;    /* 96px */
+  --space-xs: 0.5rem; /* 8px */
+  --space-sm: 1rem; /* 16px */
+  --space-md: 1.5rem; /* 24px */
+  --space-lg: 2rem; /* 32px */
+  --space-xl: 3rem; /* 48px */
+  --space-2xl: 4.5rem; /* 72px */
+  --space-3xl: 6rem; /* 96px */
 
-    /* Legacy spacing (for compatibility) */
-    --spacing-xs: 4px;
-    --spacing-sm: 8px;
-    --spacing-md: 16px;
-    --spacing-lg: 24px;
-    --spacing-xl: 32px;
-    --spacing-2xl: 48px;
-    --spacing-3xl: 64px;
+  /* Legacy spacing (for compatibility) */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
 
-    /* ===================================
+  /* ===================================
        LAYOUT
        =================================== */
 
-    --container-max: 1200px;
-    --container-padding: clamp(1rem, 5vw, 2rem);
-    --container-wide: 1600px;
+  --container-max: 1200px;
+  --container-padding: clamp(1rem, 5vw, 2rem);
+  --container-wide: 1600px;
 
-    /* ===================================
+  /* ===================================
        BORDER RADIUS
        =================================== */
 
-    --radius-sm: 0.375rem;  /* 6px - Badges, small buttons */
-    --radius-md: 0.625rem;  /* 10px - Cards, inputs */
-    --radius-lg: 1rem;      /* 16px - Large cards */
-    --radius-xl: 1.5rem;    /* 24px - Hero sections */
-    --radius-full: 9999px;  /* Circular */
+  --radius-sm: 0.375rem; /* 6px - Badges, small buttons */
+  --radius-md: 0.625rem; /* 10px - Cards, inputs */
+  --radius-lg: 1rem; /* 16px - Large cards */
+  --radius-xl: 1.5rem; /* 24px - Hero sections */
+  --radius-full: 9999px; /* Circular */
 
-    /* ===================================
+  /* ===================================
        SHADOWS
        =================================== */
 
-    --shadow-sm: 0 2px 4px rgba(26, 22, 37, 0.08);
-    --shadow-md: 0 4px 12px rgba(26, 22, 37, 0.12);
-    --shadow-lg: 0 8px 24px rgba(26, 22, 37, 0.16);
-    --shadow-xl: 0 16px 48px rgba(26, 22, 37, 0.24);
+  --shadow-sm: 0 2px 4px rgba(26, 22, 37, 0.08);
+  --shadow-md: 0 4px 12px rgba(26, 22, 37, 0.12);
+  --shadow-lg: 0 8px 24px rgba(26, 22, 37, 0.16);
+  --shadow-xl: 0 16px 48px rgba(26, 22, 37, 0.24);
 
-    /* Colored Shadows */
-    --shadow-primary: 0 4px 12px rgba(91, 78, 140, 0.25);
-    --shadow-accent: 0 4px 12px rgba(232, 176, 75, 0.25);
-    --shadow-secondary: 0 4px 12px rgba(74, 139, 140, 0.25);
+  /* Colored Shadows */
+  --shadow-primary: 0 4px 12px rgba(91, 78, 140, 0.25);
+  --shadow-accent: 0 4px 12px rgba(232, 176, 75, 0.25);
+  --shadow-secondary: 0 4px 12px rgba(74, 139, 140, 0.25);
 
-    /* ===================================
+  /* ===================================
        TRANSITIONS
        =================================== */
 
-    --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-slow: 600ms cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    /* Legacy transitions */
-    --transition-normal: 250ms ease;
+  /* Legacy transitions */
+  --transition-normal: 250ms ease;
 
-    /* ===================================
+  /* ===================================
        Z-INDEX SCALE
        =================================== */
 
-    --z-base: 0;
-    --z-dropdown: 100;
-    --z-sticky: 200;
-    --z-overlay: 300;
-    --z-modal: 400;
-    --z-toast: 500;
-    --z-tooltip: 600;
+  --z-base: 0;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
 
-    /* ===================================
+  /* ===================================
        BREAKPOINTS (for reference)
        =================================== */
 
-    --breakpoint-sm: 480px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 1024px;
-    --breakpoint-xl: 1280px;
-    --breakpoint-2xl: 1536px;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
 }
 
 /* ===================================
@@ -223,8 +224,8 @@
    =================================== */
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        /* Dark mode tokens would go here */
-        /* Currently not implemented */
-    }
+  :root {
+    /* Dark mode tokens would go here */
+    /* Currently not implemented */
+  }
 }

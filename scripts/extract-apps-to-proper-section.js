@@ -80,7 +80,7 @@ filesToProcess.forEach(file => {
         {
             category: "Mobile Apps & Software",
             items: [
-${extractedApps.map(app => '                ' + app).join(',\n')}
+${extractedApps.map(app => `                ${  app}`).join(',\n')}
             ]
         }
     ]`;

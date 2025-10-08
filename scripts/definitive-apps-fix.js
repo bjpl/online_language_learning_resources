@@ -11,7 +11,7 @@ const languageFiles = fs.readdirSync(jsDir)
 
 console.log('🎯 DEFINITIVE APPS FIX\n');
 console.log('This will ONLY add apps to files that don\'t have it.\n');
-console.log('=' . repeat(60) + '\n');
+console.log(`${'=' . repeat(60)  }\n`);
 
 let addedCount = 0;
 let alreadyHasCount = 0;
@@ -30,7 +30,7 @@ function findInsertionPoint(content, isNestedStructure) {
         if (resourcesStart === -1) return -1;
 
         // Find the opening brace
-        let openBrace = content.indexOf('{', resourcesStart);
+        const openBrace = content.indexOf('{', resourcesStart);
         if (openBrace === -1) return -1;
 
         // Count braces to find the matching closing brace
@@ -72,7 +72,7 @@ languageFiles.forEach(file => {
             console.log(`✅ ${file} - Already has apps section`);
             alreadyHasCount++;
             results.push({
-                file: file,
+                file,
                 status: 'ALREADY_HAS_APPS',
                 message: 'Apps section already present'
             });
@@ -92,7 +92,7 @@ languageFiles.forEach(file => {
             console.log(`  ❌ Could not find insertion point`);
             errorCount++;
             results.push({
-                file: file,
+                file,
                 status: 'ERROR',
                 message: 'Could not find proper insertion point'
             });
@@ -110,7 +110,7 @@ languageFiles.forEach(file => {
 
         // Determine indentation based on structure type
         const indent = isNestedStructure ? '        ' : '    ';
-        const insertion = (needsComma ? ',' : '') + '\n' + indent + 'apps: []';
+        const insertion = `${needsComma ? ',' : ''  }\n${  indent  }apps: []`;
 
         // Create the new content
         content = beforeInsert + insertion + afterInsert;
@@ -134,7 +134,7 @@ languageFiles.forEach(file => {
             console.log(`  ❌ Syntax errors detected: ${syntaxErrors.join(', ')}`);
             errorCount++;
             results.push({
-                file: file,
+                file,
                 status: 'SYNTAX_ERROR',
                 message: `Syntax errors: ${syntaxErrors.join(', ')}`
             });
@@ -146,7 +146,7 @@ languageFiles.forEach(file => {
         console.log(`  ✅ Apps section added successfully`);
         addedCount++;
         results.push({
-            file: file,
+            file,
             status: 'ADDED',
             message: 'Apps section added successfully'
         });
@@ -155,7 +155,7 @@ languageFiles.forEach(file => {
         console.log(`  ❌ Error: ${error.message}`);
         errorCount++;
         results.push({
-            file: file,
+            file,
             status: 'ERROR',
             message: error.message
         });
@@ -163,11 +163,11 @@ languageFiles.forEach(file => {
 });
 
 // Final validation of all files
-console.log('\n' + '=' . repeat(60));
+console.log(`\n${  '=' . repeat(60)}`);
 console.log('FINAL VALIDATION\n');
 
 let validCount = 0;
-let invalidFiles = [];
+const invalidFiles = [];
 
 languageFiles.forEach(file => {
     const filePath = path.join(jsDir, file);
@@ -205,7 +205,7 @@ const report = {
         invalidFiles: invalidFiles.length
     },
     details: results,
-    invalidFiles: invalidFiles
+    invalidFiles
 };
 
 const reportPath = path.join(__dirname, '..', 'definitive_fix_report.json');

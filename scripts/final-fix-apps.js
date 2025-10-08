@@ -50,8 +50,8 @@ filesToFix.forEach(file => {
 
             // Build the new content with apps properly placed
             let newContent = content.substring(0, content.indexOf(fullMatch));
-            newContent += beforeResourcesEnd + '\n' + indentation + '},\n\n';
-            newContent += indentation + '"apps": []';
+            newContent += `${beforeResourcesEnd  }\n${  indentation  }},\n\n`;
+            newContent += `${indentation  }"apps": []`;
 
             // Add the rest of the content (should be the closing of main object)
             if (afterResources.trim()) {
@@ -74,8 +74,8 @@ filesToFix.forEach(file => {
                 const afterResources = content.substring(afterResourcesIndex);
 
                 let newContent = content.substring(0, content.indexOf(fullMatch));
-                newContent += beforeResourcesEnd + '\n' + indentation + '},\n\n';
-                newContent += indentation + 'apps: []';
+                newContent += `${beforeResourcesEnd  }\n${  indentation  }},\n\n`;
+                newContent += `${indentation  }apps: []`;
 
                 if (afterResources.trim()) {
                     newContent += afterResources;
@@ -89,7 +89,7 @@ filesToFix.forEach(file => {
 
         // Ensure proper ending
         if (!content.trim().endsWith('}') && !content.trim().endsWith('};')) {
-            content = content.trim() + '\n};';
+            content = `${content.trim()  }\n};`;
         }
 
         // Save backup

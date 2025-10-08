@@ -68,17 +68,17 @@ languageFiles.forEach(file => {
         }
 
         syntaxVariations.push({
-            file: file,
+            file,
             language: languageName,
             pattern: foundPattern || 'NOT FOUND',
-            hasIssue: hasIssue,
-            issueDetails: issueDetails,
-            snippet: appsContent ? appsContent.substring(0, 50) + '...' : 'N/A'
+            hasIssue,
+            issueDetails,
+            snippet: appsContent ? `${appsContent.substring(0, 50)  }...` : 'N/A'
         });
 
     } catch (error) {
         syntaxVariations.push({
-            file: file,
+            file,
             language: languageName,
             pattern: 'ERROR',
             hasIssue: true,

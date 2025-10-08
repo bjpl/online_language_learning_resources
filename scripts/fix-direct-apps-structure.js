@@ -22,7 +22,7 @@ languagesToFix.forEach(lang => {
         return;
     }
 
-    let content = fs.readFileSync(filePath, 'utf-8');
+    const content = fs.readFileSync(filePath, 'utf-8');
 
     // Find the apps array
     const appsStartRegex = /(\s+)apps:\s*\[/;
@@ -37,7 +37,7 @@ languagesToFix.forEach(lang => {
     console.log(`  Found apps array with indent level: ${indentLevel.length} spaces`);
 
     // Find where apps array ends
-    let startIndex = content.indexOf(appsStartMatch[0]);
+    const startIndex = content.indexOf(appsStartMatch[0]);
     let bracketCount = 0;
     let inApps = false;
     let endIndex = -1;
@@ -83,7 +83,7 @@ languagesToFix.forEach(lang => {
             const adjustedItem = itemContent.split('\n').map((line, idx) => {
                 if (idx === 0) return '                    {';
                 if (line.trim() === '') return line;
-                return '        ' + line;
+                return `        ${  line}`;
             }).join('\n');
             items.push(adjustedItem);
         }

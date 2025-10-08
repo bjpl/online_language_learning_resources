@@ -54,7 +54,7 @@ function extractAllUrls(obj, section = 'unknown') {
         const url = extractUrl(item);
         if (url) {
             urls.push({
-                url: url,
+                url,
                 section: currentSection,
                 name: item.name || item.title || 'N/A'
             });
@@ -117,7 +117,7 @@ languageFiles.forEach(file => {
 
         // Create a sandbox to safely evaluate the JavaScript
         const sandbox = {
-            console: console,
+            console,
             global: {},
             window: {},
             module: { exports: {} },
@@ -189,9 +189,9 @@ languageFiles.forEach(file => {
 
                 urlMap.get(normalizedUrl).push({
                     language: languageName,
-                    section: section,
+                    section,
                     originalUrl: url,
-                    name: name
+                    name
                 });
             }
         });
@@ -228,14 +228,14 @@ sortedDuplicates.forEach(([normalizedUrl, occurrences]) => {
             return field || '';
         };
 
-        csvContent += [
+        csvContent += `${[
             escapeCsvField(normalizedUrl),
             escapeCsvField(occurrence.originalUrl),
             escapeCsvField(occurrence.language),
             escapeCsvField(occurrence.section),
             escapeCsvField(occurrence.name),
             occurrences.length
-        ].join(',') + '\n';
+        ].join(',')  }\n`;
     });
 });
 

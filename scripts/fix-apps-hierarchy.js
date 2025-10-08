@@ -37,7 +37,7 @@ languageFiles.forEach(file => {
             console.log(`✅ ${file} - Apps already inside resources`);
             alreadyCorrectCount++;
             results.push({
-                file: file,
+                file,
                 status: 'ALREADY_CORRECT',
                 message: 'Apps already nested in resources'
             });
@@ -87,7 +87,7 @@ languageFiles.forEach(file => {
                     console.log(`  ✓ Successfully moved apps inside resources`);
                     successCount++;
                     results.push({
-                        file: file,
+                        file,
                         status: 'FIXED',
                         message: 'Apps moved into resources successfully'
                     });
@@ -97,7 +97,7 @@ languageFiles.forEach(file => {
                     fs.writeFileSync(filePath, originalContent, 'utf8');
                     errorCount++;
                     results.push({
-                        file: file,
+                        file,
                         status: 'VERIFICATION_FAILED',
                         message: 'Fix applied but verification failed - restored original'
                     });
@@ -106,7 +106,7 @@ languageFiles.forEach(file => {
                 console.log(`  ⚠️ Could not find resources object structure`);
                 errorCount++;
                 results.push({
-                    file: file,
+                    file,
                     status: 'NO_RESOURCES',
                     message: 'Could not find resources object'
                 });
@@ -114,7 +114,7 @@ languageFiles.forEach(file => {
         } else {
             console.log(`❓ ${file} - No apps section found at root level`);
             results.push({
-                file: file,
+                file,
                 status: 'NO_ROOT_APPS',
                 message: 'No apps section found at root level'
             });
@@ -124,7 +124,7 @@ languageFiles.forEach(file => {
         console.log(`❌ ${file} - Error: ${error.message}`);
         errorCount++;
         results.push({
-            file: file,
+            file,
             status: 'ERROR',
             message: error.message
         });
@@ -135,7 +135,7 @@ languageFiles.forEach(file => {
 const reportPath = path.join(__dirname, '..', 'apps_hierarchy_fix_report.json');
 fs.writeFileSync(reportPath, JSON.stringify(results, null, 2), 'utf8');
 
-console.log('\n' + '='.repeat(60));
+console.log(`\n${  '='.repeat(60)}`);
 console.log('HIERARCHY FIX SUMMARY');
 console.log('='.repeat(60));
 console.log(`✅ Successfully fixed: ${successCount} files`);

@@ -237,7 +237,7 @@ function generateExecutiveSummary(date, commits, stats) {
   const hasFix = categories.fix.length > 0;
   const hasRefactor = categories.refactor.length > 0;
 
-  let focus = [];
+  const focus = [];
   if (hasFeat) focus.push('feature development');
   if (hasFix) focus.push('bug fixes');
   if (hasRefactor) focus.push('code refactoring');
@@ -303,7 +303,7 @@ function calculateCategoryDistribution(categories) {
     if (count > 0) {
       const pct = total > 0 ? (count / total) * 100 : 0;
       const bars = '█'.repeat(Math.round(pct / 5));
-      lines.push(`${catNames[cat]}:`.padEnd(20) + `${bars.padEnd(20)} ${Math.round(pct)}% (${count} commits)`);
+      lines.push(`${`${catNames[cat]}:`.padEnd(20)  }${bars.padEnd(20)} ${Math.round(pct)}% (${count} commits)`);
     }
   }
 
@@ -311,21 +311,21 @@ function calculateCategoryDistribution(categories) {
 }
 
 function generateKeyAchievements(commits, categories) {
-  let achievements = [];
+  const achievements = [];
 
   if (categories.feat.length > 0) {
-    achievements.push(`### Features Added (${categories.feat.length})\n` +
-      categories.feat.map(c => `- ${c.subject.replace(/^feat:\s*/i, '')}`).join('\n'));
+    achievements.push(`### Features Added (${categories.feat.length})\n${ 
+      categories.feat.map(c => `- ${c.subject.replace(/^feat:\s*/i, '')}`).join('\n')}`);
   }
 
   if (categories.fix.length > 0) {
-    achievements.push(`### Bugs Fixed (${categories.fix.length})\n` +
-      categories.fix.map(c => `- ${c.subject.replace(/^fix:\s*/i, '')}`).join('\n'));
+    achievements.push(`### Bugs Fixed (${categories.fix.length})\n${ 
+      categories.fix.map(c => `- ${c.subject.replace(/^fix:\s*/i, '')}`).join('\n')}`);
   }
 
   if (categories.refactor.length > 0) {
-    achievements.push(`### Code Improvements (${categories.refactor.length})\n` +
-      categories.refactor.map(c => `- ${c.subject.replace(/^refactor:\s*/i, '')}`).join('\n'));
+    achievements.push(`### Code Improvements (${categories.refactor.length})\n${ 
+      categories.refactor.map(c => `- ${c.subject.replace(/^refactor:\s*/i, '')}`).join('\n')}`);
   }
 
   return achievements.length > 0 ? achievements.join('\n\n') : 'Project development and maintenance work completed.';

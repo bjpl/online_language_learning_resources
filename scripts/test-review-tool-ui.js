@@ -26,7 +26,7 @@ async function testReviewTool() {
     const page = await browser.newPage();
 
     // Load the review tool
-    const toolPath = 'file:///' + path.join(__dirname, '..', 'review-tool-v2.html').replace(/\\/g, '/');
+    const toolPath = `file:///${  path.join(__dirname, '..', 'review-tool-v2.html').replace(/\\/g, '/')}`;
     console.log(`📂 Loading: ${toolPath}\n`);
 
     await page.goto(toolPath);
@@ -35,16 +35,12 @@ async function testReviewTool() {
     await page.waitForTimeout(2000);
 
     // Test 1: Check if resources loaded
-    const resourceCount = await page.evaluate(() => {
-        return window.state?.resources?.length || 0;
-    });
+    const resourceCount = await page.evaluate(() => window.state?.resources?.length || 0);
 
     console.log(`✅ Resources loaded: ${resourceCount}\n`);
 
     // Test 2: Check preload frames
-    const preloadFrames = await page.evaluate(() => {
-        return document.querySelectorAll('iframe[id^="preload-"]').length;
-    });
+    const preloadFrames = await page.evaluate(() => document.querySelectorAll('iframe[id^="preload-"]').length);
 
     console.log(`✅ Preload frames created: ${preloadFrames}\n`);
 
@@ -84,9 +80,7 @@ async function testReviewTool() {
     }
 
     // Test 4: Check queue display
-    const queueItems = await page.evaluate(() => {
-        return document.querySelectorAll('.queue-item').length;
-    });
+    const queueItems = await page.evaluate(() => document.querySelectorAll('.queue-item').length);
 
     console.log(`\n✅ Queue items displayed: ${queueItems}\n`);
 

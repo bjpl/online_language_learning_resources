@@ -35,7 +35,7 @@ filesNeedingApps.forEach(file => {
         if (content.includes('apps:') || content.includes('"apps"')) {
             console.log(`✅ ${file} - Already has apps section`);
             results.push({
-                file: file,
+                file,
                 status: 'ALREADY_HAS_APPS',
                 message: 'File already contains apps section'
             });
@@ -84,9 +84,7 @@ filesNeedingApps.forEach(file => {
             let fixed = false;
             for (const pattern of patterns) {
                 if (pattern.test(content)) {
-                    content = content.replace(pattern, (match, before, after) => {
-                        return before + ',\n        apps: []' + after;
-                    });
+                    content = content.replace(pattern, (match, before, after) => `${before  },\n        apps: []${  after}`);
                     fixed = true;
                     break;
                 }
@@ -109,7 +107,7 @@ filesNeedingApps.forEach(file => {
                         modifiedBefore = beforeMatch.replace(/(\]|\})(\s*)$/, '$1,$2');
                     }
 
-                    content = modifiedBefore + ',\n        apps: []' + afterMatch;
+                    content = `${modifiedBefore  },\n        apps: []${  afterMatch}`;
                 }
             }
         }
@@ -123,7 +121,7 @@ filesNeedingApps.forEach(file => {
             console.log(`  ✓ Successfully added apps section`);
             successCount++;
             results.push({
-                file: file,
+                file,
                 status: 'ADDED',
                 message: 'Apps section added successfully'
             });
@@ -132,7 +130,7 @@ filesNeedingApps.forEach(file => {
             fs.writeFileSync(filePath, originalContent, 'utf8');
             errorCount++;
             results.push({
-                file: file,
+                file,
                 status: 'FAILED',
                 message: 'Could not add apps section'
             });
@@ -142,7 +140,7 @@ filesNeedingApps.forEach(file => {
         console.log(`❌ ${file} - Error: ${error.message}`);
         errorCount++;
         results.push({
-            file: file,
+            file,
             status: 'ERROR',
             message: error.message
         });
@@ -153,7 +151,7 @@ filesNeedingApps.forEach(file => {
 const reportPath = path.join(__dirname, '..', 'add_missing_apps_report.json');
 fs.writeFileSync(reportPath, JSON.stringify(results, null, 2), 'utf8');
 
-console.log('\n' + '='.repeat(60));
+console.log(`\n${  '='.repeat(60)}`);
 console.log('ADD MISSING APPS SUMMARY');
 console.log('='.repeat(60));
 console.log(`✅ Successfully added: ${successCount} files`);

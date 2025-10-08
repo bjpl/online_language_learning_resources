@@ -3,7 +3,7 @@
 // ===================================
 
 import js from '@eslint/js';
-import html from 'eslint-plugin-html';
+// import html from 'eslint-plugin-html'; // TODO: Re-enable when ESLint 9 compatibility is fixed
 import prettier from 'eslint-config-prettier';
 
 export default [
@@ -13,9 +13,6 @@ export default [
   // Global configuration
   {
     files: ['**/*.js'],
-    plugins: {
-      html,
-    },
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: 'module',
@@ -32,6 +29,9 @@ export default [
         setInterval: 'readonly',
         clearTimeout: 'readonly',
         clearInterval: 'readonly',
+        MutationObserver: 'readonly',
+        IntersectionObserver: 'readonly',
+        CustomEvent: 'readonly',
 
         // Custom globals (from your language data files)
         languageData: 'writable',
@@ -80,14 +80,15 @@ export default [
     },
   },
 
-  // HTML files configuration
-  {
-    files: ['**/*.html'],
-    plugins: {
-      html,
-    },
-    processor: 'html/html',
-  },
+  // HTML files configuration - DISABLED due to ESLint 9 compatibility issues
+  // TODO: Re-enable when eslint-plugin-html supports ESLint 9 flat config properly
+  // {
+  //   files: ['**/*.html'],
+  //   plugins: {
+  //     html,
+  //   },
+  //   processor: 'html/html',
+  // },
 
   // Ignore patterns
   {

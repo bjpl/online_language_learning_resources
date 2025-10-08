@@ -1,8 +1,8 @@
-// Japanese Language Resources Data
-(function(global) {
-    'use strict';
+// ===================================
+// Japanese Language Resources - Comprehensive Data
+// ===================================
 
-    const japaneseData = {
+const japaneseResources = {
         name: 'Japanese',
         nativeName: '日本語',
         code: 'ja',
@@ -377,13 +377,6 @@
     };
 
     // Register Japanese data globally
-    if (typeof languageData !== 'undefined') {
-        languageData.japanese = japaneseData;
-    } else {
-        global.languageData = { japanese: japaneseData };
-    }
-
-})(window);
 // ES6 Module Export
 export { japaneseResources };
 export default japaneseResources;

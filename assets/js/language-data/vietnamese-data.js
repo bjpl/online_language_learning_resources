@@ -1,12 +1,8 @@
-// Vietnamese Language Learning Resources Data
-(function(global) {
-    'use strict';
+// ===================================
+// Vietnamese Language Resources - Comprehensive Data
+// ===================================
 
-    // CONCEPT: Modular language data structure
-    // WHY: Consistent interface for resource aggregation
-    // PATTERN: Module pattern with global registration
-
-    const vietnameseData = {
+const vietnameseResources = {
         name: "Vietnamese",
         nativeName: "Tiếng Việt",
         code: 'vi',
@@ -358,13 +354,6 @@
     };
 
     // Register Vietnamese data globally
-    if (typeof languageData !== 'undefined') {
-        languageData.vietnamese = vietnameseData;
-    } else {
-        global.languageData = { vietnamese: vietnameseData };
-    }
-
-})(window);
 // ES6 Module Export
 export { vietnameseResources };
 export default vietnameseResources;

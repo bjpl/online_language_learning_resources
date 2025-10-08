@@ -5,6 +5,13 @@
 // PATTERN: Module pattern for encapsulation and organization
 // WHY: Prevents global namespace pollution and creates clear interfaces
 
+import {
+  getLanguageMetadata,
+  searchLanguages,
+} from './language-data/language-metadata.js';
+import { languageLoader } from './language-loader.js';
+import { loadingUI } from './loading-ui.js';
+
 const LanguageHub = (function() {
     'use strict';
 
@@ -131,7 +138,7 @@ const LanguageHub = (function() {
                 const top = target.offsetTop - offset;
 
                 window.scrollTo({
-                    top: top,
+                    top,
                     behavior: 'smooth'
                 });
 
@@ -143,49 +150,30 @@ const LanguageHub = (function() {
 
     // Render language cards
     function renderLanguages(showAll = true) {
-        // Filter out placeholder comments and only show real language data
-        const languages = Object.entries(languageData).filter(([key, lang]) =>
-            lang && typeof lang === 'object' && lang.name
-        );
-        // Show all languages by default now that we have a curated collection
-        const limit = languages.length;
+        // Get lightweight metadata for all languages
+        const languages = getLanguageMetadata();
+
+        // Filter languages based on search term
         const filteredLanguages = state.searchTerm
-            ? languages.filter(([key, lang]) =>
-                lang.name.toLowerCase().includes(state.searchTerm.toLowerCase()) ||
-                lang.nativeName.toLowerCase().includes(state.searchTerm.toLowerCase())
-              )
+            ? searchLanguages(state.searchTerm)
             : languages;
 
+        // Clear grid
         elements.languagesGrid.innerHTML = '';
 
-        filteredLanguages.slice(0, limit).forEach(([key, language], index) => {
-            const card = createLanguageCard(key, language, index);
+        // Render cards with staggered animation
+        filteredLanguages.forEach((language, index) => {
+            const card = createLanguageCard(language, index);
             elements.languagesGrid.appendChild(card);
         });
     }
 
     // Create a language card element
-    function createLanguageCard(key, language, index) {
+    function createLanguageCard(language, index) {
         const card = document.createElement('article');
         card.className = 'language-card fade-in';
-        card.dataset.language = key;
-        card.style.animationDelay = `${index * 100}ms`;
-
-        // Calculate resource count - handle comprehensive structure (courses/books/audio arrays with items)
-        let resourceCount = 0;
-        if (language.resources) {
-            Object.values(language.resources).forEach(category => {
-                if (Array.isArray(category)) {
-                    category.forEach(item => {
-                        if (item && item.items && Array.isArray(item.items)) {
-                            resourceCount += item.items.length;
-                        } else if (item && item.name) {
-                            resourceCount += 1;
-                        }
-                    });
-                }
-            });
-        }
+        card.dataset.language = language.code;
+        card.style.animationDelay = `${index * 50}ms`; // Faster animation (50ms vs 100ms)
 
         card.innerHTML = `
             <div class="language-header">
@@ -200,22 +188,53 @@ const LanguageHub = (function() {
                     <span class="stat-value">${language.speakers}</span>
                     <span class="stat-label">Speakers</span>
                 </div>
+                <div class="stat">
+                    <span class="stat-value">${language.learners}</span>
+                    <span class="stat-label">Learners</span>
+                </div>
             </div>
-            <a href="language.html?lang=${key}" class="language-link">
-                Explore ${resourceCount} resources
+            <a href="language.html?lang=${language.code}" class="language-link">
+                Explore resources
                 <svg width="16" height="16" viewBox="0 0 16 16">
                     <path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
                 </svg>
             </a>
         `;
 
-        card.addEventListener('click', (e) => {
+        // Add click handler with lazy loading
+        card.addEventListener('click', async (e) => {
             if (!e.target.closest('.language-link')) {
-                window.location.href = `language.html?lang=${key}`;
+                e.preventDefault();
+                await handleLanguageCardClick(language.code, card);
             }
         });
 
         return card;
+    }
+
+    // Handle language card click with lazy loading
+    async function handleLanguageCardClick(languageCode, cardElement) {
+        try {
+            // Show loading state
+            const loaderId = loadingUI.showLoader(cardElement, 'Loading resources...');
+
+            // Load language data dynamically
+            const data = await languageLoader.loadLanguage(languageCode);
+
+            // Store in global object for backwards compatibility
+            if (typeof window.languageData === 'object') {
+                window.languageData[languageCode] = data;
+            }
+
+            // Hide loader
+            loadingUI.hideLoader(loaderId);
+
+            // Navigate to language page
+            window.location.href = `language.html?lang=${languageCode}`;
+        } catch (error) {
+            loadingUI.showError(`Failed to load ${languageCode} resources: ${error.message}`);
+            console.error('Language loading error:', error);
+        }
     }
 
     // Toggle showing all languages
@@ -253,7 +272,7 @@ const LanguageHub = (function() {
     // Handle language pill clicks
     function handlePillClick(e) {
         e.preventDefault();
-        const lang = e.currentTarget.dataset.lang;
+        const {lang} = e.currentTarget.dataset;
 
         // Scroll to language in grid or go to language page
         const card = document.querySelector(`[data-language="${getLanguageKeyByCode(lang)}"]`);
@@ -286,7 +305,7 @@ const LanguageHub = (function() {
     // Handle resource card clicks
     function handleResourceClick(e) {
         if (!e.target.closest('a')) {
-            const category = e.currentTarget.dataset.category;
+            const {category} = e.currentTarget.dataset;
             window.location.href = `resources.html?type=${category}`;
         }
     }
@@ -397,7 +416,7 @@ const LanguageHub = (function() {
 
         // Update the DOM with counts
         resourceCountElements.forEach(element => {
-            const type = element.dataset.type;
+            const {type} = element.dataset;
             if (resourceCounts[type] !== undefined) {
                 element.textContent = `(${resourceCounts[type]})`;
             }
@@ -450,9 +469,9 @@ const LanguageHub = (function() {
 
     // Public API
     return {
-        init: init,
-        renderLanguages: renderLanguages,
-        state: state
+        init,
+        renderLanguages,
+        state
     };
 })();
 
@@ -470,10 +489,10 @@ document.documentElement.classList.add('js');
 if (window.location.hostname === 'localhost') {
     window.addEventListener('load', () => {
         const perfData = performance.getEntriesByType('navigation')[0];
-        console.log('Page Load Metrics:', {
-            'DOM Interactive': perfData.domInteractive + 'ms',
-            'DOM Complete': perfData.domComplete + 'ms',
-            'Load Complete': perfData.loadEventEnd + 'ms'
+        console.warn('Page Load Metrics:', {
+            'DOM Interactive': `${perfData.domInteractive  }ms`,
+            'DOM Complete': `${perfData.domComplete  }ms`,
+            'Load Complete': `${perfData.loadEventEnd  }ms`
         });
     });
 }

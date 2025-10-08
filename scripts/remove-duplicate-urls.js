@@ -163,8 +163,8 @@ languageFiles.forEach(file => {
 
         removalLog.push({
             language: languageName,
-            removedCount: removedCount,
-            removedUrls: removedUrls
+            removedCount,
+            removedUrls
         });
     }
 });

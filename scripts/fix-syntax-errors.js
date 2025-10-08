@@ -32,7 +32,7 @@ errorFiles.forEach(file => {
     try {
         let content = fs.readFileSync(filePath, 'utf8');
         const originalContent = content;
-        let issues = [];
+        const issues = [];
 
         console.log(`🔧 ${file} - Checking for syntax errors...`);
 
@@ -91,14 +91,14 @@ errorFiles.forEach(file => {
             console.log(`  ✅ Fixed: ${issues.join(', ')}`);
             fixedCount++;
             results.push({
-                file: file,
+                file,
                 status: 'FIXED',
-                issues: issues
+                issues
             });
         } else {
             console.log(`  ℹ️ No syntax errors found`);
             results.push({
-                file: file,
+                file,
                 status: 'NO_CHANGES',
                 message: 'No syntax errors detected'
             });
@@ -107,7 +107,7 @@ errorFiles.forEach(file => {
     } catch (error) {
         console.log(`  ❌ Error: ${error.message}`);
         results.push({
-            file: file,
+            file,
             status: 'ERROR',
             message: error.message
         });
@@ -151,7 +151,7 @@ allLanguageFiles.forEach(file => {
 const reportPath = path.join(__dirname, '..', 'syntax_fix_report.json');
 fs.writeFileSync(reportPath, JSON.stringify(results, null, 2), 'utf8');
 
-console.log('\n' + '='.repeat(60));
+console.log(`\n${  '='.repeat(60)}`);
 console.log('SYNTAX FIX SUMMARY');
 console.log('='.repeat(60));
 console.log(`✅ Files fixed: ${fixedCount}`);

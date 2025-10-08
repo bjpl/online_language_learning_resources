@@ -85,7 +85,7 @@ const countImportant = () => {
 // Run all tests
 console.log('='.repeat(50));
 console.log('VALIDATION RESULTS:');
-console.log('='.repeat(50) + '\n');
+console.log(`${'='.repeat(50)  }\n`);
 
 const results = {
     resourceCount: checkResourceCount(),
@@ -95,7 +95,7 @@ const results = {
     importantCount: countImportant()
 };
 
-console.log('\n' + '='.repeat(50));
+console.log(`\n${  '='.repeat(50)}`);
 if (results.resourceCount && results.languageCount && results.cssFiles && results.cssValidity) {
     console.log('✅ ALL TESTS PASSED - Safe to continue');
 } else {

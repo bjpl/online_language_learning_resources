@@ -100,75 +100,42 @@
         </div>
     </footer>
 
-    <script src="assets/js/data-simple.js"></script>
-    <script src="assets/js/afrikaans-data.js"></script>
-    <script src="assets/js/arabic-data.js"></script>
-    <script src="assets/js/bengali-data.js"></script>
-    <script src="assets/js/bulgarian-data.js"></script>
-    <script src="assets/js/burmese-data.js"></script>
-    <script src="assets/js/cebuano-data.js"></script>
-    <script src="assets/js/chinese-data.js"></script>
-    <script src="assets/js/cree-data.js"></script>
-    <script src="assets/js/croatian-data.js"></script>
-    <script src="assets/js/czech-data.js"></script>
-    <script src="assets/js/dutch-data.js"></script>
-    <script src="assets/js/danish-data.js"></script>
-    <script src="assets/js/dari-data.js"></script>
-    <script src="assets/js/estonian-data.js"></script>
-    <script src="assets/js/portuguese-data.js"></script>
-    <script src="assets/js/italian-data.js"></script>
-    <script src="assets/js/indonesian-data.js"></script>
-    <script src="assets/js/inuktitut-data.js"></script>
-    <script src="assets/js/hmong-data.js"></script>
-    <script src="assets/js/irish-data.js"></script>
-    <script src="assets/js/kazakh-data.js"></script>
-    <script src="assets/js/kannada-data.js"></script>
-    <script src="assets/js/korean-data.js"></script>
-    <script src="assets/js/lao-data.js"></script>
-    <script src="assets/js/latvian-data.js"></script>
-    <script src="assets/js/lithuanian-data.js"></script>
-    <script src="assets/js/german-data.js"></script>
-    <script src="assets/js/gujarati-data.js"></script>
-    <script src="assets/js/greek-data.js"></script>
-    <script src="assets/js/guarani-data.js"></script>
-    <script src="assets/js/hausa-data.js"></script>
-    <script src="assets/js/hebrew-data.js"></script>
-    <script src="assets/js/hungarian-data.js"></script>
-    <script src="assets/js/french-data.js"></script>
-    <script src="assets/js/spanish-data.js"></script>
-    <script src="assets/js/malay-data.js"></script>
-    <script src="assets/js/marathi-data.js"></script>
-    <script src="assets/js/mongolian-data.js"></script>
-    <script src="assets/js/navajo-data.js"></script>
-    <script src="assets/js/nahuatl-data.js"></script>
-    <script src="assets/js/nepali-data.js"></script>
-    <script src="assets/js/pashto-data.js"></script>
-    <script src="assets/js/russian-data.js"></script>
-    <script src="assets/js/tagalog-data.js"></script>
-    <script src="assets/js/romanian-data.js"></script>
-    <script src="assets/js/hindi-data.js"></script>
-    <script src="assets/js/swahili-data.js"></script>
-    <script src="assets/js/tamil-data.js"></script>
-    <script src="assets/js/telugu-data.js"></script>
-    <script src="assets/js/thai-data.js"></script>
-    <script src="assets/js/ukrainian-data.js"></script>
-    <script src="assets/js/urdu-data.js"></script>
-    <script src="assets/js/japanese-data.js"></script>
-    <script src="assets/js/serbian-data.js"></script>
-    <script src="assets/js/sign-language-data.js"></script>
-    <script src="assets/js/slovak-data.js"></script>
-    <script src="assets/js/swedish-data.js"></script>
-    <script src="assets/js/finnish-data.js"></script>
-    <script src="assets/js/flemish-data.js"></script>
-    <script src="assets/js/polish-data.js"></script>
-    <script src="assets/js/punjabi-data.js"></script>
-    <script src="assets/js/quechua-data.js"></script>
-    <script src="assets/js/persian-data.js"></script>
-    <script src="assets/js/vietnamese-data.js"></script>
-    <script src="assets/js/welsh-data.js"></script>
-    <script src="assets/js/yoruba-data.js"></script>
-    <script src="assets/js/wolof-data.js"></script>
-    <script src="assets/js/modern-ui-clean.js"></script>
-    <script src="assets/js/language-page.js"></script>
+    <!-- Scripts - ES6 Modules with Lazy Loading -->
+    <script type="module">
+      import { languageLoader } from '/assets/js/language-loader.js';
+      import { loadingUI } from '/assets/js/loading-ui.js';
+
+      // Get language from URL
+      const params = new URLSearchParams(window.location.search);
+      const lang = params.get('lang');
+
+      if (lang) {
+        // Show loading overlay
+        const loaderId = loadingUI.showOverlay(`Loading ${lang} resources...`);
+
+        // Load language data dynamically
+        languageLoader.loadLanguage(lang)
+          .then(data => {
+            // Store in global for backwards compatibility with language-page.js
+            window.languageData = window.languageData || {};
+            window.languageData[lang] = data;
+
+            // Trigger custom event for language-page.js to render
+            const event = new CustomEvent('languageDataLoaded', {
+              detail: { lang, data }
+            });
+            window.dispatchEvent(event);
+
+            loadingUI.hideOverlay(loaderId);
+          })
+          .catch(error => {
+            loadingUI.showError(`Failed to load ${lang}: ${error.message}`);
+            loadingUI.hideOverlay(loaderId);
+            console.error('Language loading error:', error);
+          });
+      }
+    </script>
+    <script type="module" src="/assets/js/modern-ui-clean.js"></script>
+    <script type="module" src="/assets/js/language-page.js"></script>
 </body>
 </html>

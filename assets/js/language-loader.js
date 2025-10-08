@@ -99,13 +99,13 @@ class LanguageLoader {
   async loadLanguage(languageCode) {
     // Check cache first
     if (this.cache.has(languageCode)) {
-      console.log(`[LanguageLoader] Using cached data for: ${languageCode}`);
+      console.warn(`[LanguageLoader] Using cached data for: ${languageCode}`);
       return this.cache.get(languageCode);
     }
 
     // Check if already loading
     if (this.loadingStates.has(languageCode)) {
-      console.log(`[LanguageLoader] Already loading: ${languageCode}`);
+      console.warn(`[LanguageLoader] Already loading: ${languageCode}`);
       return this.loadingStates.get(languageCode);
     }
 
@@ -116,7 +116,7 @@ class LanguageLoader {
       return null;
     }
 
-    console.log(`[LanguageLoader] Loading: ${languageCode} from ${fileName}.js`);
+    console.warn(`[LanguageLoader] Loading: ${languageCode} from ${fileName}.js`);
 
     // Create loading promise
     const loadingPromise = this._importLanguageModule(fileName, languageCode);
@@ -133,7 +133,7 @@ class LanguageLoader {
       // Remove from loading states
       this.loadingStates.delete(languageCode);
 
-      console.log(`[LanguageLoader] Successfully loaded: ${languageCode}`);
+      console.warn(`[LanguageLoader] Successfully loaded: ${languageCode}`);
       return data;
     } catch (error) {
       console.error(`[LanguageLoader] Failed to load ${languageCode}:`, error);
@@ -149,7 +149,7 @@ class LanguageLoader {
   async _importLanguageModule(fileName, languageCode) {
     try {
       // Dynamic import - Vite will code-split this automatically
-      const module = await import(`./${fileName}.js`);
+      const module = await import(`./language-data/${fileName}.js`);
 
       // The module exports an object like { dutchResources, default: dutchResources }
       // Extract the actual data
@@ -168,13 +168,13 @@ class LanguageLoader {
    * @param {string[]} languageCodes - Array of language codes to preload
    */
   async preloadLanguages(languageCodes) {
-    console.log(`[LanguageLoader] Preloading ${languageCodes.length} languages`);
+    console.warn(`[LanguageLoader] Preloading ${languageCodes.length} languages`);
 
     const promises = languageCodes.map((code) => this.loadLanguage(code));
 
     try {
       await Promise.all(promises);
-      console.log('[LanguageLoader] Preloading complete');
+      console.warn('[LanguageLoader] Preloading complete');
     } catch (error) {
       console.error('[LanguageLoader] Preloading failed:', error);
     }
@@ -203,7 +203,7 @@ class LanguageLoader {
    */
   clearCache() {
     this.cache.clear();
-    console.log('[LanguageLoader] Cache cleared');
+    console.warn('[LanguageLoader] Cache cleared');
   }
 
   /**

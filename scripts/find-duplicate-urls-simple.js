@@ -111,13 +111,13 @@ sortedDuplicates.forEach(([normalizedUrl, occurrences]) => {
             return field || '';
         };
 
-        csvContent += [
+        csvContent += `${[
             escapeCsvField(normalizedUrl),
             escapeCsvField(occurrence.originalUrl),
             escapeCsvField(occurrence.language),
             escapeCsvField(languageList),
             occurrences.length
-        ].join(',') + '\n';
+        ].join(',')  }\n`;
     });
 });
 

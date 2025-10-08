@@ -1,8 +1,8 @@
-// Polish Language Learning Resources Data
-(function(global) {
-    'use strict';
+// ===================================
+// Polish Language Resources - Comprehensive Data
+// ===================================
 
-    const polishData = {
+const polishResources = {
         name: "Polish",
         nativeName: "Polski",
         code: 'pl',
@@ -420,13 +420,6 @@
     };
 
     // Register Polish data globally
-    if (typeof languageData !== 'undefined') {
-        languageData.polish = polishData;
-    } else {
-        global.languageData = { polish: polishData };
-    }
-
-})(window);
 // ES6 Module Export
 export { polishResources };
 export default polishResources;

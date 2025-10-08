@@ -11,7 +11,7 @@ console.log('Simulating how browser loads language files...\n');
 
 // Create a sandbox environment similar to browser
 const sandbox = {
-    console: console,
+    console,
     window: {},
     languageData: {}  // This is what gets populated
 };

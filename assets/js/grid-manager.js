@@ -21,14 +21,14 @@
         },
 
         // Initialize the grid manager
-        init: function() {
+        init() {
             this.updateAllGrids();
             this.observeGridChanges();
             this.addKeyboardSupport();
         },
 
         // Update all language filter grids on the page
-        updateAllGrids: function() {
+        updateAllGrids() {
             const grids = document.querySelectorAll('.language-filters');
 
             grids.forEach(grid => {
@@ -37,7 +37,7 @@
         },
 
         // Optimize a specific grid based on its content
-        optimizeGrid: function(grid) {
+        optimizeGrid(grid) {
             const buttons = grid.querySelectorAll('.lang-filter');
             const count = buttons.length;
 
@@ -59,11 +59,11 @@
             this.enhanceAccessibility(grid, count);
 
             // Log for debugging (remove in production)
-            console.log(`Grid optimized for ${count} languages`);
+            console.warn(`Grid optimized for ${count} languages`);
         },
 
         // Get configuration for a specific language count
-        getConfigForCount: function(count) {
+        getConfigForCount(count) {
             for (const [key, config] of Object.entries(this.gridConfigs)) {
                 if (count >= config.min && count <= config.max) {
                     return config;
@@ -73,7 +73,7 @@
         },
 
         // Enhance accessibility
-        enhanceAccessibility: function(grid, count) {
+        enhanceAccessibility(grid, count) {
             grid.setAttribute('role', 'group');
             grid.setAttribute('aria-label', `Language filters: ${count} languages available`);
 
@@ -86,9 +86,9 @@
         },
 
         // Add keyboard navigation support
-        addKeyboardSupport: function() {
+        addKeyboardSupport() {
             document.addEventListener('keydown', (e) => {
-                const activeElement = document.activeElement;
+                const {activeElement} = document;
 
                 if (!activeElement || !activeElement.classList.contains('lang-filter')) {
                     return;
@@ -125,7 +125,7 @@
         },
 
         // Observe DOM changes to re-optimize when languages are added/removed
-        observeGridChanges: function() {
+        observeGridChanges() {
             if (!window.MutationObserver) return;
 
             const observer = new MutationObserver((mutations) => {
@@ -146,7 +146,7 @@
         },
 
         // Utility: Calculate optimal grid dimensions
-        calculateOptimalGrid: function(itemCount, maxColumns = 7) {
+        calculateOptimalGrid(itemCount, maxColumns = 7) {
             const columns = Math.min(itemCount, maxColumns);
             const rows = Math.ceil(itemCount / columns);
 
@@ -158,7 +158,7 @@
         },
 
         // Future feature: Group languages by region
-        groupLanguagesByRegion: function(languages) {
+        groupLanguagesByRegion(languages) {
             const regions = {
                 'European': ['dutch', 'danish', 'italian', 'swedish', 'finnish', 'polish'],
                 'Asian': ['korean', 'japanese', 'hindi', 'indonesian', 'vietnamese'],
@@ -173,7 +173,7 @@
         },
 
         // Analytics: Track which languages are most clicked
-        trackLanguageUsage: function() {
+        trackLanguageUsage() {
             document.addEventListener('click', (e) => {
                 if (e.target.classList.contains('lang-filter')) {
                     const language = e.target.dataset.lang;
@@ -190,7 +190,7 @@
         },
 
         // Consider reordering languages by popularity
-        considerReorderByPopularity: function(stats) {
+        considerReorderByPopularity(stats) {
             // Future enhancement: Reorder languages based on usage
             // This would require coordination with the main app
             const threshold = 10; // After 10 total clicks

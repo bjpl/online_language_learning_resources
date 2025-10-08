@@ -172,7 +172,7 @@
             const scrolled = window.pageYOffset;
             const progress = (scrolled / documentHeight) * 100;
 
-            bar.style.width = progress + '%';
+            bar.style.width = `${progress  }%`;
         });
     }
 

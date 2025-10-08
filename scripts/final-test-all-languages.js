@@ -13,7 +13,7 @@ console.log('=== FINAL TEST OF ALL LANGUAGES ===\n');
 
 // Create sandbox
 const sandbox = {
-    console: console,
+    console,
     window: {},
     languageData: {}
 };

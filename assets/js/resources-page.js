@@ -6,7 +6,7 @@
     'use strict';
 
     // State
-    let allResources = {
+    const allResources = {
         courses: [],
         apps: [],
         books: [],
@@ -50,9 +50,7 @@
         if (!select || !languageData) return;
 
         // Get all languages from languageData and sort alphabetically
-        const languages = Object.keys(languageData).sort((a, b) => {
-            return languageData[a].name.localeCompare(languageData[b].name);
-        });
+        const languages = Object.keys(languageData).sort((a, b) => languageData[a].name.localeCompare(languageData[b].name));
 
         // Add each language as an option
         languages.forEach(langKey => {

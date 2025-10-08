@@ -77,7 +77,7 @@ class LoadingUI {
 
     const loaderData = this.activeLoaders.get(loaderId);
     const duration = Date.now() - loaderData.startTime;
-    console.log(`[LoadingUI] Loader removed after ${duration}ms`);
+    console.warn(`[LoadingUI] Loader removed after ${duration}ms`);
 
     this.activeLoaders.delete(loaderId);
   }

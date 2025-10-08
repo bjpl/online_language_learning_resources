@@ -2,12 +2,7 @@
 // Italian Language Resources Data
 // ===================================
 
-// Add Italian to the global languageData object
-if (typeof languageData === 'undefined') {
-    window.languageData = {};
-}
-
-languageData.italian = {
+const italianResources = {
     name: "Italian",
     nativeName: "Italiano",
     flag: "🇮🇹",
@@ -432,6 +427,12 @@ languageData.italian = {
         averageRating: 4.7
     }
 };
+
+// Backwards compatibility - add to global languageData if it exists
+if (typeof languageData !== 'undefined') {
+    languageData.italian = italianResources;
+}
+
 // ES6 Module Export
 export { italianResources };
 export default italianResources;

@@ -7,7 +7,7 @@ const vm = require('vm');
 
 // Create a sandbox environment
 const sandbox = {
-    console: console,
+    console,
     window: {},
     languageData: {}
 };

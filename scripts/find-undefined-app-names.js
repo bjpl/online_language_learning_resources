@@ -39,7 +39,7 @@ problematicLanguages.forEach(lang => {
 
     // Create sandbox to load the file
     const sandbox = {
-        console: console,
+        console,
         window: {},
         languageData: {}
     };

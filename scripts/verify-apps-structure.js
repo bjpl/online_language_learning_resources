@@ -122,7 +122,7 @@ const reportPath = path.join(__dirname, '..', 'final_apps_verification.json');
 fs.writeFileSync(reportPath, JSON.stringify(report, null, 2), 'utf8');
 
 // Display summary
-console.log('\n' + '='.repeat(60));
+console.log(`\n${  '='.repeat(60)}`);
 console.log('FINAL VERIFICATION SUMMARY');
 console.log('='.repeat(60));
 console.log(`✅ Correct structure: ${categories.correct.length} files`);

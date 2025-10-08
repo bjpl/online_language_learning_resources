@@ -43,7 +43,7 @@
     window.addEventListener('DOMContentLoaded', init);
 
     async function init() {
-        console.log('Initializing Smart Preview Review Tool v3...');
+        console.warn('Initializing Smart Preview Review Tool v3...');
 
         // Setup preload frames
         for (let i = 1; i <= CONFIG.preloadCount; i++) {
@@ -85,7 +85,7 @@
             return;
         }
 
-        console.log('Starting to load resources from', Object.keys(languageData).length, 'languages');
+        console.warn('Starting to load resources from', Object.keys(languageData).length, 'languages');
 
         let resourceCount = 0;
         Object.keys(languageData).forEach(langKey => {
@@ -130,12 +130,12 @@
             });
 
             if (langResourceCount > 0) {
-                console.log(`${lang.flag} ${lang.name}: ${langResourceCount} resources`);
+                console.warn(`${lang.flag} ${lang.name}: ${langResourceCount} resources`);
                 resourceCount += langResourceCount;
             }
         });
 
-        console.log(`Loaded ${state.resources.length} resources`);
+        console.warn(`Loaded ${state.resources.length} resources`);
 
         if (state.resources.length === 0) {
             console.error('No resources were loaded!');
@@ -156,7 +156,7 @@
         }
 
         // ALWAYS try iframe - no pre-blocking
-        console.log(`Loading preview for ${resource.url}`);
+        console.warn(`Loading preview for ${resource.url}`);
         attemptIframeLoad(resource.url);
     }
 
@@ -188,7 +188,7 @@
 
     // Handle blocked iframe
     function handleIframeBlocked(url) {
-        console.log(`Iframe blocked for ${url}`);
+        console.warn(`Iframe blocked for ${url}`);
 
         // Mark this domain as blocked for this session
         try {
@@ -242,7 +242,7 @@
         const indicator = document.getElementById('preview-indicator');
         const statusText = document.getElementById('preview-status-text');
 
-        indicator.className = 'preview-indicator ' + status;
+        indicator.className = `preview-indicator ${  status}`;
         statusText.textContent = text;
     }
 
@@ -399,7 +399,7 @@
         const total = state.resources.length;
         const percent = (reviewed / total) * 100;
 
-        document.getElementById('progress-bar').style.width = percent + '%';
+        document.getElementById('progress-bar').style.width = `${percent  }%`;
     }
 
     // Keyboard shortcuts
@@ -455,7 +455,7 @@
     window.forceIframeLoad = function() {
         const resource = state.resources[state.currentIndex];
         if (resource?.url) {
-            console.log('Forcing iframe load for:', resource.url);
+            console.warn('Forcing iframe load for:', resource.url);
             attemptIframeLoad(resource.url);
         }
     };
@@ -609,7 +609,7 @@
         const indicator = document.getElementById('save-indicator');
         if (!indicator) return;
 
-        indicator.className = 'save-indicator ' + status;
+        indicator.className = `save-indicator ${  status}`;
         indicator.textContent = status === 'saved' ? 'Saved' : 'Auto-save on';
     }
 

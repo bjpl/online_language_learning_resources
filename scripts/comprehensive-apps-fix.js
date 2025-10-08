@@ -81,7 +81,7 @@ languageFiles.forEach(file => {
             console.log(`✅ ${file} - Apps already inside resources`);
             alreadyCorrectCount++;
             results.push({
-                file: file,
+                file,
                 status: 'ALREADY_CORRECT',
                 message: 'Apps already nested in resources'
             });
@@ -152,7 +152,7 @@ languageFiles.forEach(file => {
                 console.log(`  ✓ Successfully moved apps inside resources`);
                 successCount++;
                 results.push({
-                    file: file,
+                    file,
                     status: 'FIXED',
                     message: 'Apps moved into resources successfully'
                 });
@@ -161,7 +161,7 @@ languageFiles.forEach(file => {
                 fs.writeFileSync(filePath, originalContent, 'utf8');
                 errorCount++;
                 results.push({
-                    file: file,
+                    file,
                     status: 'VERIFICATION_FAILED',
                     message: 'Fix applied but verification failed'
                 });
@@ -189,13 +189,13 @@ languageFiles.forEach(file => {
                     if (lastBraceMatch) {
                         const indent = lastBraceMatch[1];
                         const insertion = `,\n    apps: ${appsArray}${indent}}`;
-                        content = content.replace(lastBracePattern, insertion + ';');
+                        content = content.replace(lastBracePattern, `${insertion  };`);
 
                         fs.writeFileSync(filePath, content, 'utf8');
                         console.log(`  ✓ Applied alternate fix`);
                         successCount++;
                         results.push({
-                            file: file,
+                            file,
                             status: 'FIXED_ALTERNATE',
                             message: 'Apps fixed using alternate method'
                         });
@@ -204,7 +204,7 @@ languageFiles.forEach(file => {
             } else {
                 errorCount++;
                 results.push({
-                    file: file,
+                    file,
                     status: 'NO_RESOURCES_OBJECT',
                     message: 'Could not find resources structure'
                 });
@@ -212,7 +212,7 @@ languageFiles.forEach(file => {
         } else {
             console.log(`❓ ${file} - No apps section found`);
             results.push({
-                file: file,
+                file,
                 status: 'NO_APPS',
                 message: 'No apps section found in file'
             });
@@ -222,7 +222,7 @@ languageFiles.forEach(file => {
         console.log(`❌ ${file} - Error: ${error.message}`);
         errorCount++;
         results.push({
-            file: file,
+            file,
             status: 'ERROR',
             message: error.message
         });
@@ -233,7 +233,7 @@ languageFiles.forEach(file => {
 const reportPath = path.join(__dirname, '..', 'comprehensive_apps_fix_report.json');
 fs.writeFileSync(reportPath, JSON.stringify(results, null, 2), 'utf8');
 
-console.log('\n' + '='.repeat(60));
+console.log(`\n${  '='.repeat(60)}`);
 console.log('COMPREHENSIVE FIX SUMMARY');
 console.log('='.repeat(60));
 console.log(`✅ Successfully fixed: ${successCount} files`);

@@ -63,7 +63,7 @@ languageFiles.forEach(file => {
                         const closingBrace = match[2];
 
                         // Add apps array properly
-                        const newContent = beforeEnd + ',\n        apps: []' + closingBrace;
+                        const newContent = `${beforeEnd  },\n        apps: []${  closingBrace}`;
                         content = content.replace(resourcesEndPattern, newContent);
                     }
                 } else {
@@ -104,13 +104,13 @@ languageFiles.forEach(file => {
             console.log(`  ✅ Fixed and saved`);
             fixedCount++;
             results.push({
-                file: file,
+                file,
                 status: 'FIXED',
                 message: 'Structure corrected'
             });
         } else {
             results.push({
-                file: file,
+                file,
                 status: 'NO_CHANGES',
                 message: 'Already correct'
             });
@@ -119,7 +119,7 @@ languageFiles.forEach(file => {
     } catch (error) {
         console.log(`  ❌ Error: ${error.message}`);
         results.push({
-            file: file,
+            file,
             status: 'ERROR',
             message: error.message
         });
@@ -154,7 +154,7 @@ languageFiles.forEach(file => {
 const reportPath = path.join(__dirname, '..', 'final_structure_fix_report.json');
 fs.writeFileSync(reportPath, JSON.stringify(results, null, 2), 'utf8');
 
-console.log('\n' + '='.repeat(60));
+console.log(`\n${  '='.repeat(60)}`);
 console.log('FINAL STRUCTURE FIX SUMMARY');
 console.log('='.repeat(60));
 console.log(`✅ Files fixed: ${fixedCount}`);

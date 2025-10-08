@@ -26,6 +26,6 @@ files.forEach(file => {
     }
 });
 
-console.log('\n' + '='.repeat(40));
+console.log(`\n${  '='.repeat(40)}`);
 console.log(`TOTAL RESOURCES: ${totalResources}`);
 console.log('='.repeat(40));

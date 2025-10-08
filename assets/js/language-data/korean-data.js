@@ -2,12 +2,7 @@
 // Korean Language Resources Data
 // ===================================
 
-// Add Korean to the global languageData object
-if (typeof languageData === 'undefined') {
-    window.languageData = {};
-}
-
-languageData.korean = {
+const koreanResources = {
     name: "Korean",
     nativeName: "한국어",
     flag: "🇰🇷",
@@ -458,6 +453,12 @@ languageData.korean = {
         averageRating: 4.8
     }
 };
+
+// Backwards compatibility - add to global languageData if it exists
+if (typeof languageData !== 'undefined') {
+    languageData.korean = koreanResources;
+}
+
 // ES6 Module Export
 export { koreanResources };
 export default koreanResources;

@@ -44,7 +44,7 @@ languageFiles.forEach(file => {
 
         apps: []`;
 
-                content = beforeResources + appsSection + '\n    ' + afterResources;
+                content = `${beforeResources + appsSection  }\n    ${  afterResources}`;
                 modified = true;
             } else {
                 // Try alternative structure - look for the main object
@@ -59,7 +59,7 @@ languageFiles.forEach(file => {
 
     "apps": []`;
 
-                    content = beforeEnd + appsSection + '\n' + afterEnd;
+                    content = `${beforeEnd + appsSection  }\n${  afterEnd}`;
                     modified = true;
                 }
             }
@@ -90,7 +90,7 @@ languageFiles.forEach(file => {
 
             fixedCount++;
             fixedFiles.push({
-                file: file,
+                file,
                 language: languageName,
                 action: 'Added empty apps array'
             });
@@ -121,7 +121,7 @@ const report = {
     date: new Date().toISOString(),
     totalFixed: fixedCount,
     backupLocation: backupDir,
-    fixedFiles: fixedFiles
+    fixedFiles
 };
 
 fs.writeFileSync(reportPath, JSON.stringify(report, null, 2), 'utf8');

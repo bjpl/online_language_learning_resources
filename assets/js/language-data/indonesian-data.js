@@ -2,12 +2,7 @@
 // Indonesian Language Resources Data
 // ===================================
 
-// Add Indonesian to the global languageData object
-if (typeof languageData === 'undefined') {
-    window.languageData = {};
-}
-
-languageData.indonesian = {
+const indonesianResources = {
     name: "Indonesian",
     nativeName: "Bahasa Indonesia",
     flag: "🇮🇩",
@@ -364,6 +359,12 @@ languageData.indonesian = {
         averageRating: 4.6
     }
 };
+
+// Backwards compatibility - add to global languageData if it exists
+if (typeof languageData !== 'undefined') {
+    languageData.indonesian = indonesianResources;
+}
+
 // ES6 Module Export
 export { indonesianResources };
 export default indonesianResources;

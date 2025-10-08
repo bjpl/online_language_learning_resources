@@ -12,7 +12,7 @@ const files = [
     'hindi', 'swahili', 'japanese', 'swedish', 'finnish', 'polish', 'vietnamese'
 ];
 
-let errors = [];
+const errors = [];
 let successCount = 0;
 
 files.forEach(lang => {
@@ -31,7 +31,7 @@ files.forEach(lang => {
     }
 });
 
-console.log('\n' + '='.repeat(40));
+console.log(`\n${  '='.repeat(40)}`);
 console.log(`Languages loaded: ${successCount}/${files.length}`);
 console.log(`Total in languageData: ${Object.keys(global.window.languageData || {}).length}`);
 

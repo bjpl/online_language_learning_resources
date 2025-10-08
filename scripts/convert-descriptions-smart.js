@@ -10,12 +10,12 @@ function extractFeatures(description) {
     let features = [];
 
     // First, split by major separators (periods, semicolons, "and")
-    let parts = description
+    const parts = description
         .split(/[.;]|(?<!\band\s)(?:\s+and\s+)(?!\s)/gi)
         .map(s => s.trim())
         .filter(s => s.length > 0);
 
-    for (let part of parts) {
+    for (const part of parts) {
         // Extract level information (A1-C2, beginner-advanced, etc.)
         const levelMatch = part.match(/\b([ABCXYZ][12](?:-[ABCXYZ][12])?|beginner|intermediate|advanced|all levels)\b/i);
 
@@ -67,7 +67,7 @@ function extractFeatures(description) {
         // If no specific patterns matched, try to extract a clean short description
         if (features.length === 0 || (part.length < 50 && !features.some(f => part.toLowerCase().includes(f.toLowerCase())))) {
             // Clean up the part
-            let cleaned = part
+            const cleaned = part
                 .replace(/\([^)]*\)/g, '') // Remove parentheses
                 .replace(/\s+/g, ' ')
                 .trim();
@@ -112,7 +112,7 @@ function extractFeatures(description) {
 function processItems(items) {
     let convertedCount = 0;
 
-    for (let item of items) {
+    for (const item of items) {
         // Only convert if description exists and features doesn't
         if (item.description && !item.features) {
             const features = extractFeatures(item.description);

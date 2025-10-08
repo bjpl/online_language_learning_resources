@@ -39,7 +39,7 @@ allFiles.forEach(file => {
     const content = fs.readFileSync(filePath, 'utf-8');
 
     // Create sandbox
-    const sandbox = { languageData: {}, window: {}, console: console };
+    const sandbox = { languageData: {}, window: {}, console };
     const context = vm.createContext(sandbox);
 
     try {
@@ -114,8 +114,8 @@ allFiles.forEach(file => {
             analysis.propertyAnalysis[lang] = {
                 structure: 'category',
                 totalItems: itemCount,
-                validItems: validItems,
-                invalidItems: invalidItems,
+                validItems,
+                invalidItems,
                 sample: sampleItem
             };
 
@@ -139,8 +139,8 @@ allFiles.forEach(file => {
             analysis.propertyAnalysis[lang] = {
                 structure: 'direct',
                 totalItems: apps.length,
-                validItems: validItems,
-                invalidItems: invalidItems,
+                validItems,
+                invalidItems,
                 sample: sampleItem
             };
 
@@ -157,7 +157,7 @@ allFiles.forEach(file => {
         if (lang === 'danish' || lang === 'dutch' || lang === 'afrikaans' || lang === 'italian') {
             analysis.sampleData[lang] = {
                 structure: hasCategory && hasItems ? 'category' : hasName ? 'direct' : 'unknown',
-                firstItem: firstItem,
+                firstItem,
                 appsLength: apps.length
             };
         }
@@ -275,4 +275,4 @@ fs.writeFileSync(reportPath, JSON.stringify({
 }, null, 2));
 
 console.log(`\n\n📊 Detailed report saved to: ${reportPath}`);
-console.log('\n' + '='.repeat(80));
+console.log(`\n${  '='.repeat(80)}`);

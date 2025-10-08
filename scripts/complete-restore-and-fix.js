@@ -85,8 +85,8 @@ languageFiles.forEach(file => {
             // Type A: Has nested resources object
             // Find the end of the resources object
             let braceCount = 0;
-            let resourcesStart = content.indexOf('resources');
-            let startIdx = content.indexOf('{', resourcesStart);
+            const resourcesStart = content.indexOf('resources');
+            const startIdx = content.indexOf('{', resourcesStart);
             let endIdx = startIdx;
 
             braceCount = 1;
@@ -165,7 +165,7 @@ languageFiles.forEach(file => {
 console.log('\n🔍 FINAL VALIDATION...\n');
 
 let validFiles = 0;
-let invalidFiles = [];
+const invalidFiles = [];
 
 languageFiles.forEach(file => {
     const filePath = path.join(jsDir, file);
@@ -181,7 +181,7 @@ languageFiles.forEach(file => {
         ];
 
         let isValid = true;
-        let issues = [];
+        const issues = [];
 
         syntaxChecks.forEach(check => {
             if (check.pattern.test(content)) {
@@ -208,7 +208,7 @@ const report = {
     restoredFromBackup: restoredCount,
     appsAdded: fixedCount,
     alreadyHadApps: alreadyHasApps,
-    validFiles: validFiles,
+    validFiles,
     invalidFiles: invalidFiles.length,
     details: results
 };
@@ -217,7 +217,7 @@ const reportPath = path.join(__dirname, '..', 'complete_restoration_report.json'
 fs.writeFileSync(reportPath, JSON.stringify(report, null, 2), 'utf8');
 
 // Summary
-console.log('\n' + '='.repeat(60));
+console.log(`\n${  '='.repeat(60)}`);
 console.log('COMPLETE RESTORATION SUMMARY');
 console.log('='.repeat(60));
 console.log(`📦 Restored from backup: ${restoredCount} files`);

@@ -120,7 +120,7 @@ try {
 const reportPath = path.join(__dirname, '..', 'display_logic_fix_report.json');
 fs.writeFileSync(reportPath, JSON.stringify(fixes, null, 2), 'utf8');
 
-console.log('\n' + '='.repeat(60));
+console.log(`\n${  '='.repeat(60)}`);
 console.log('DISPLAY LOGIC FIX SUMMARY');
 console.log('='.repeat(60));
 
@@ -141,4 +141,4 @@ console.log('\n💡 NEXT STEPS:');
 console.log('1. Clear browser cache (Ctrl+Shift+Delete)');
 console.log('2. Hard refresh the page (Ctrl+Shift+R)');
 console.log('3. The undefined display should now be fixed!');
-console.log('\n📄 Report saved to: ' + reportPath);
+console.log(`\n📄 Report saved to: ${  reportPath}`);

@@ -1,8 +1,8 @@
-// Swahili Language Resources Data
-(function(global) {
-    'use strict';
+// ===================================
+// Swahili Language Resources - Comprehensive Data
+// ===================================
 
-    const swahiliData = {
+const swahiliResources = {
         name: 'Swahili',
         nativeName: 'Kiswahili',
         code: 'sw',
@@ -360,13 +360,6 @@
     };
 
     // Register Swahili data globally
-    if (typeof languageData !== 'undefined') {
-        languageData.swahili = swahiliData;
-    } else {
-        global.languageData = { swahili: swahiliData };
-    }
-
-})(window);
 // ES6 Module Export
 export { swahiliResources };
 export default swahiliResources;

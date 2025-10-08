@@ -90,7 +90,7 @@ filesToFix.forEach(file => {
 
             fixedCount++;
             fixedFiles.push({
-                file: file,
+                file,
                 language: languageName
             });
 

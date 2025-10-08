@@ -162,7 +162,7 @@ if (afterClear === null) {
 }
 
 // Summary
-console.log('\n' + '=' .repeat(60));
+console.log(`\n${  '=' .repeat(60)}`);
 console.log('📊 TEST SUMMARY:');
 console.log('=' .repeat(60));
 

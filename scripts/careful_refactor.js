@@ -221,7 +221,7 @@ class CarefulRefactor {
     }
 
     // Summary
-    console.log('\n' + '='.repeat(50));
+    console.log(`\n${  '='.repeat(50)}`);
     console.log(`📊 Refactor Summary:`);
     console.log(`   Total !important: ${analysis.importantDeclarations.length}`);
     console.log(`   Can auto-fix: ${changes.length}`);
@@ -300,7 +300,7 @@ class CarefulRefactor {
       }
     }
 
-    console.log('\n' + '='.repeat(50));
+    console.log(`\n${  '='.repeat(50)}`);
     console.log(`Test Results: ${passed} passed, ${failed} failed`);
 
     this.testResults = results;
@@ -523,7 +523,7 @@ async function main() {
   console.log('\n🧪 Running refactor in TEST MODE first...');
   const testRun = await refactor.safeCSSRefactor(true);
 
-  console.log('\n' + '='.repeat(60));
+  console.log(`\n${  '='.repeat(60)}`);
   console.log('📊 ANALYSIS COMPLETE');
   console.log('='.repeat(60));
   console.log('\nNext steps:');

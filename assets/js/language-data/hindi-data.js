@@ -1,8 +1,8 @@
-// Hindi Language Resources Data
-(function(global) {
-    'use strict';
+// ===================================
+// Hindi Language Resources - Comprehensive Data
+// ===================================
 
-    const hindiData = {
+const hindiResources = {
         name: 'Hindi',
         nativeName: 'हिन्दी',
         code: 'hi',
@@ -570,13 +570,6 @@
     };
 
     // Register Hindi data globally
-    if (typeof languageData !== 'undefined') {
-        languageData.hindi = hindiData;
-    } else {
-        global.languageData = { hindi: hindiData };
-    }
-
-})(window);
 // ES6 Module Export
 export { hindiResources };
 export default hindiResources;

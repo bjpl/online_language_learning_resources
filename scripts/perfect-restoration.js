@@ -62,9 +62,9 @@ files.forEach(file => {
                 // Insert before the closing brace of resources
                 insertionPoint = content.lastIndexOf(resourcesMatch[0]);
                 const indent = resourcesMatch[1] || '\n    ';
-                content = content.slice(0, insertionPoint) +
-                         `,${indent}    apps: []` +
-                         content.slice(insertionPoint);
+                content = `${content.slice(0, insertionPoint) 
+                         },${indent}    apps: []${ 
+                         content.slice(insertionPoint)}`;
                 insertionType = 'nested resources';
             }
         }
@@ -89,9 +89,9 @@ files.forEach(file => {
         if (insertionPoint === -1) {
             const lastSemicolon = content.lastIndexOf('};');
             if (lastSemicolon !== -1) {
-                content = content.slice(0, lastSemicolon) +
-                         ',\n    apps: []\n};' +
-                         content.slice(lastSemicolon + 2);
+                content = `${content.slice(0, lastSemicolon) 
+                         },\n    apps: []\n};${ 
+                         content.slice(lastSemicolon + 2)}`;
                 insertionType = 'fallback';
             }
         }

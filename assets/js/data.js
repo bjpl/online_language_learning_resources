@@ -334,7 +334,8 @@ const methodologies = {
     }
 };
 
-// Export for use in main.js
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = { languageData, resourceTypes, methodologies };
-}
+// Export for use in main.js (ES6 modules used instead of CommonJS)
+// Legacy CommonJS export - commented out for ES6 module compatibility
+// if (typeof module !== 'undefined' && module.exports) {
+//     module.exports = { languageData, resourceTypes, methodologies };
+// }

@@ -7,7 +7,7 @@ console.log('=== TESTING RESOURCES AGGREGATION FIX ===\n');
 
 // Create a sandbox with mock DOM
 const sandbox = {
-    console: console,
+    console,
     window: {},
     document: {
         getElementById: () => null,

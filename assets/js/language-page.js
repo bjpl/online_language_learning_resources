@@ -276,7 +276,7 @@
 
     // Handle filter click
     function handleFilterClick(e) {
-        const filter = e.target.dataset.filter;
+        const {filter} = e.target.dataset;
 
         // Update active state
         document.querySelectorAll('.filter-tab').forEach(tab => {

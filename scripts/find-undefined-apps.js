@@ -42,7 +42,7 @@ languageFiles.forEach(file => {
 
             // Check for various issues
             let hasIssues = false;
-            let issueDetails = [];
+            const issueDetails = [];
 
             // Check for empty apps array
             if (appsContent.trim() === '') {
@@ -79,7 +79,7 @@ languageFiles.forEach(file => {
             if (hasIssues) {
                 filesWithUndefined.push(file);
                 undefinedDetails.push({
-                    file: file,
+                    file,
                     language: languageName,
                     issues: issueDetails,
                     snippet: appsContent.substring(0, 200) + (appsContent.length > 200 ? '...' : '')
@@ -91,7 +91,7 @@ languageFiles.forEach(file => {
         if (!content.includes('apps:')) {
             filesWithUndefined.push(file);
             undefinedDetails.push({
-                file: file,
+                file,
                 language: languageName,
                 issues: ['No apps section found'],
                 snippet: 'N/A'
@@ -119,7 +119,7 @@ if (filesWithUndefined.length === 0) {
         });
         if (detail.snippet !== 'N/A') {
             console.log('Snippet:');
-            console.log('  ' + detail.snippet.replace(/\n/g, '\n  '));
+            console.log(`  ${  detail.snippet.replace(/\n/g, '\n  ')}`);
         }
     });
 }

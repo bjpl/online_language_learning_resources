@@ -54,7 +54,7 @@ languageFiles.forEach(file => {
 
     try {
         // Read the file content
-        let content = fs.readFileSync(filePath, 'utf8');
+        const content = fs.readFileSync(filePath, 'utf8');
 
         // Try to find the resources object with different naming patterns
         // e.g., spanishResources, frenchResources, etc.
@@ -79,7 +79,7 @@ languageFiles.forEach(file => {
         // Parse the object (using eval in a safe context)
         let resourcesData;
         try {
-            eval('resourcesData = ' + match[1]);
+            eval(`resourcesData = ${  match[1]}`);
         } catch (e) {
             console.log(`Error parsing ${file}: ${e.message}`);
             return;
@@ -128,7 +128,7 @@ languageFiles.forEach(file => {
 
                             urlMap.get(normalizedUrl).push({
                                 language: languageName,
-                                section: section,
+                                section,
                                 originalUrl: url,
                                 name: resource.name || resource.title || 'N/A'
                             });
@@ -172,14 +172,14 @@ sortedDuplicates.forEach(([normalizedUrl, occurrences]) => {
             return field || '';
         };
 
-        csvContent += [
+        csvContent += `${[
             escapeCsvField(normalizedUrl),
             escapeCsvField(occurrence.originalUrl),
             escapeCsvField(occurrence.language),
             escapeCsvField(occurrence.section),
             escapeCsvField(occurrence.name),
             occurrences.length
-        ].join(',') + '\n';
+        ].join(',')  }\n`;
     });
 });
 
@@ -202,7 +202,7 @@ sortedDuplicates.slice(0, 10).forEach(([url, occurrences], index) => {
     summaryContent += `${index + 1}. ${url}\n`;
     summaryContent += `   Appears ${occurrences.length} times across: `;
     const languages = [...new Set(occurrences.map(o => o.language))];
-    summaryContent += languages.join(', ') + '\n\n';
+    summaryContent += `${languages.join(', ')  }\n\n`;
 });
 
 const summaryPath = path.join(__dirname, '..', 'duplicate_urls_summary.txt');

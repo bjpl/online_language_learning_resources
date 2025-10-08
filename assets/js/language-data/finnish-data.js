@@ -1,8 +1,8 @@
-// Finnish Language Learning Resources Data
-(function(global) {
-    'use strict';
+// ===================================
+// Finnish Language Resources - Comprehensive Data
+// ===================================
 
-    const finnishData = {
+const finnishResources = {
         name: "Finnish",
         nativeName: "Suomi",
         code: 'fi',
@@ -363,14 +363,6 @@
         }
     };
 
-    // Register Finnish data globally
-    if (typeof languageData !== 'undefined') {
-        languageData.finnish = finnishData;
-    } else {
-        global.languageData = { finnish: finnishData };
-    }
-
-})(window);
 // ES6 Module Export
 export { finnishResources };
 export default finnishResources;

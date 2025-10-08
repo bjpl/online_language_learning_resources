@@ -1,8 +1,8 @@
-// Swedish Language Resources Data
-(function(global) {
-    'use strict';
+// ===================================
+// Swedish Language Resources - Comprehensive Data
+// ===================================
 
-    const swedishData = {
+const swedishResources = {
         name: 'Swedish',
         nativeName: 'Svenska',
         code: 'sv',
@@ -420,13 +420,6 @@
     };
 
     // Register Swedish data globally
-    if (typeof languageData !== 'undefined') {
-        languageData.swedish = swedishData;
-    } else {
-        global.languageData = { swedish: swedishData };
-    }
-
-})(window);
 // ES6 Module Export
 export { swedishResources };
 export default swedishResources;

@@ -12,7 +12,7 @@ console.log('=' .repeat(60));
 
 // Create sandbox to simulate browser environment
 const sandbox = {
-    console: console,
+    console,
     window: {},
     document: {
         getElementById: () => ({
@@ -166,11 +166,11 @@ console.log('\n📋 Sample Resources (first 5):');
 allResources.slice(0, 5).forEach((r, i) => {
     console.log(`\n${i + 1}. ${r._langFlag} ${r._langName} - ${r.name}`);
     console.log(`   Type: ${r._type}, Free: ${r.free ? 'Yes' : 'No'}`);
-    console.log(`   URL: ${r.url ? r.url.substring(0, 50) + '...' : 'No URL'}`);
+    console.log(`   URL: ${r.url ? `${r.url.substring(0, 50)  }...` : 'No URL'}`);
 });
 
 // Final summary
-console.log('\n' + '=' .repeat(60));
+console.log(`\n${  '=' .repeat(60)}`);
 console.log('📊 FINAL SUMMARY:');
 console.log('=' .repeat(60));
 
@@ -187,4 +187,4 @@ if (undefinedResources.length === 0) {
     console.log('\n⚠️  Please fix undefined resources before using review tool.');
 }
 
-console.log('\n' + '=' .repeat(60));
+console.log(`\n${  '=' .repeat(60)}`);

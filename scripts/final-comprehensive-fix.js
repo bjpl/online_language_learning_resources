@@ -10,7 +10,7 @@ const languageFiles = fs.readdirSync(jsDir)
     .filter(file => file.endsWith('-data.js') && !file.includes('backup'));
 
 console.log('🔧 FINAL COMPREHENSIVE FIX\n');
-console.log('=' . repeat(60) + '\n');
+console.log(`${'=' . repeat(60)  }\n`);
 
 let fixedCount = 0;
 let alreadyCorrect = 0;
@@ -151,11 +151,11 @@ languageFiles.forEach(file => {
 });
 
 // Final validation
-console.log('\n' + '='.repeat(60));
+console.log(`\n${  '='.repeat(60)}`);
 console.log('VALIDATION RESULTS\n');
 
 let validCount = 0;
-let invalidFiles = [];
+const invalidFiles = [];
 
 languageFiles.forEach(file => {
     const filePath = path.join(jsDir, file);

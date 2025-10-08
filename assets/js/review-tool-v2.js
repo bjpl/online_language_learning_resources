@@ -41,7 +41,7 @@
     window.addEventListener('DOMContentLoaded', init);
 
     async function init() {
-        console.log('Initializing Ultra Fast Review Tool...');
+        console.warn('Initializing Ultra Fast Review Tool...');
 
         // Setup preload frames
         for (let i = 1; i <= CONFIG.preloadCount; i++) {
@@ -130,7 +130,7 @@
             });
         });
 
-        console.log(`Loaded ${state.resources.length} resources`);
+        console.warn(`Loaded ${state.resources.length} resources`);
 
         // Optionally shuffle for variety
         // state.resources.sort(() => Math.random() - 0.5);
@@ -412,7 +412,7 @@
         autoSaveInterval = setInterval(() => {
             if (state.isDirty) {
                 saveProgress();
-                console.log('Auto-saved at', new Date().toLocaleTimeString());
+                console.warn('Auto-saved at', new Date().toLocaleTimeString());
             }
         }, CONFIG.autoSaveInterval);
     }
@@ -612,7 +612,7 @@
         const total = state.resources.length;
         const percent = (reviewed / total) * 100;
 
-        document.getElementById('progress-bar').style.width = percent + '%';
+        document.getElementById('progress-bar').style.width = `${percent  }%`;
     }
 
     // Update stats

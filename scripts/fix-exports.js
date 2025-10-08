@@ -1,76 +1,93 @@
-const fs = require('fs');
-const path = require('path');
+#!/usr/bin/env node
+// ===================================
+// Fix Export Naming Issues in Language Data Files
+// ===================================
 
-// List of files that need fixing (from the error messages)
-const filesToFix = [
-    'cebuano-data.js',
-    'croatian-data.js',
-    'dari-data.js',
-    'gujarati-data.js',
-    'hausa-data.js',
-    'hmong-data.js',
-    'hungarian-data.js',
-    'inuktitut-data.js',
-    'irish-data.js',
-    'kannada-data.js',
-    'lao-data.js',
-    'mongolian-data.js',
-    'navajo-data.js',
-    'nepali-data.js',
-    'pashto-data.js',
-    'punjabi-data.js',
-    'quechua-data.js',
-    'sign-language-data.js',
-    'slovak-data.js',
-    'telugu-data.js',
-    'ukrainian-data.js',
-    'urdu-data.js',
-    'welsh-data.js',
-    'yoruba-data.js'
-];
+import { readFileSync, writeFileSync, readdirSync } from 'fs';
+import { join, basename } from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
-const assetsJsDir = path.join(__dirname, '..', 'assets', 'js');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
-console.log('Fixing export statements in language files...\n');
+const languageDir = join(__dirname, '..', 'assets', 'js');
+const languageFiles = readdirSync(languageDir)
+  .filter(f => f.endsWith('-data.js'))
+  .sort();
 
-filesToFix.forEach(filename => {
-    const filePath = path.join(assetsJsDir, filename);
+let filesFixed = 0;
+let errors = 0;
 
-    if (!fs.existsSync(filePath)) {
-        console.log(`  ⚠ File not found: ${filename}`);
-        return;
+console.log(`🔧 Fixing exports in ${languageFiles.length} language data files...\n`);
+
+for (const file of languageFiles) {
+  const filePath = join(languageDir, file);
+  const code = basename(file, '-data.js');
+
+  try {
+    let content = readFileSync(filePath, 'utf-8');
+
+    // Find the variable name from the const declaration
+    // Pattern: const xxxData = { or const xxxResources = {
+    const constMatch = content.match(/const\s+(\w+(?:Data|Resources))\s*=/);
+
+    if (!constMatch) {
+      console.warn(`⚠️  ${file}: Could not find variable declaration`);
+      errors++;
+      continue;
     }
 
-    try {
-        let content = fs.readFileSync(filePath, 'utf8');
+    const varName = constMatch[1];
 
-        // Extract the variable name from the export statement
-        const exportMatch = content.match(/export default (\w+Resources);/);
+    // Check if exports already exist and are correct
+    const hasNamedExport = content.includes(`export { ${varName} }`);
+    const hasDefaultExport = content.includes(`export default ${varName}`);
 
-        if (!exportMatch) {
-            console.log(`  ⚠ No export statement found in ${filename}`);
-            return;
-        }
-
-        const varName = exportMatch[1];
-
-        // Get the language key (e.g., 'cebuano' from 'cebuanoResources')
-        const langKey = varName.replace('Resources', '').toLowerCase();
-
-        // Replace ES6 export with traditional assignment
-        const newExport = `
-if (typeof languageData !== 'undefined') {
-    languageData.${langKey} = ${varName};
-}`;
-
-        content = content.replace(/export default \w+Resources;/, newExport.trim());
-
-        fs.writeFileSync(filePath, content, 'utf8');
-        console.log(`  ✓ Fixed ${filename} (${langKey})`);
-
-    } catch (error) {
-        console.log(`  ✗ Error fixing ${filename}: ${error.message}`);
+    if (hasNamedExport && hasDefaultExport) {
+      console.log(`✅ ${file}: Exports already correct (${varName})`);
+      continue;
     }
-});
 
-console.log('\n✓ Export fix complete!');
+    // Find and replace incorrect export statements
+    let modified = false;
+
+    // Fix named export
+    const namedExportPattern = /export\s*\{\s*[^}]+\s*\}/;
+    if (namedExportPattern.test(content)) {
+      content = content.replace(namedExportPattern, `export { ${varName} }`);
+      modified = true;
+    } else if (!hasNamedExport) {
+      // Add named export if it doesn't exist
+      content += `\nexport { ${varName} };\n`;
+      modified = true;
+    }
+
+    // Fix default export
+    const defaultExportPattern = /export\s+default\s+\w+/;
+    if (defaultExportPattern.test(content)) {
+      content = content.replace(defaultExportPattern, `export default ${varName}`);
+      modified = true;
+    } else if (!hasDefaultExport) {
+      // Add default export if it doesn't exist
+      content += `export default ${varName};\n`;
+      modified = true;
+    }
+
+    if (modified) {
+      writeFileSync(filePath, content, 'utf-8');
+      console.log(`✅ ${file}: Fixed exports → ${varName}`);
+      filesFixed++;
+    }
+  } catch (error) {
+    console.error(`❌ ${file}: Error - ${error.message}`);
+    errors++;
+  }
+}
+
+console.log(`\n📊 Summary:`);
+console.log(`   Fixed: ${filesFixed} files`);
+console.log(`   Errors: ${errors} files`);
+console.log(`   Total: ${languageFiles.length} files\n`);
+
+process.exit(errors > 0 ? 1 : 0);
