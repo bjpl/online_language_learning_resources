@@ -178,7 +178,28 @@
 
 # Project-Specific Documentation
 
-**IMPORTANT**: This file (CLAUDE.md) is auto-loaded by Claude Code and contains the universal mandatory directives above. For detailed project-specific information, refer to the following documentation files:
+## ⚠️ CRITICAL: Session Initialization Protocol
+
+**MANDATORY READING ORDER FOR ALL AGENTS:**
+
+1. ✅ **CLAUDE.md** (This file) - Auto-loaded by Claude Code
+   - Contains all 25 mandatory directives
+   - You are reading this now
+
+2. 🔴 **IMMEDIATELY READ**: `CLAUDE-PROJECT.md`
+   - **REQUIRED**: Read this file at the START of EVERY session
+   - **BEFORE**: Starting any task or answering any question
+   - **PURPOSE**: Essential project context, tech stack, file structure
+   - **ACTION**: Use the Read tool to read CLAUDE-PROJECT.md now
+
+3. 📖 **READ AS NEEDED**: Specific documentation for your task
+   - `docs/ARCHITECTURE.md` - For design decisions
+   - `docs/DEVELOPMENT.md` - For coding/workflow tasks
+   - `docs/DEPLOYMENT.md` - For deployment tasks
+
+**WHY THIS MATTERS**: Claude Code only auto-loads CLAUDE.md. The other files contain critical project-specific context that you must explicitly read. Skipping CLAUDE-PROJECT.md will result in uninformed decisions.
+
+---
 
 ## Documentation Structure
 
@@ -196,42 +217,59 @@ Project Configuration & Details:
 
 ---
 
-## Quick Reference
+## Task-Based Reading Guide
 
-For agents working on this project, read these files for context:
+**When to Read Each File**:
 
-### Essential Context (Read First)
-- **`CLAUDE-PROJECT.md`** - Project overview, tech stack, file structure
-  - Technology choices (Vite, ESLint, Prettier)
-  - Project structure and organization rules
-  - Performance targets and current status
-  - Known limitations and roadmap
+| Your Task | Required Reading | Optional Reading |
+|-----------|------------------|------------------|
+| **Session start** | `CLAUDE-PROJECT.md` (ALWAYS) | — |
+| **New feature** | `docs/DEVELOPMENT.md` | `docs/ARCHITECTURE.md` |
+| **Bug fix** | `docs/DEVELOPMENT.md` (debugging section) | — |
+| **Architecture decision** | `docs/ARCHITECTURE.md` | `docs/DEVELOPMENT.md` |
+| **Deploying** | `docs/DEPLOYMENT.md` | `docs/BUILD_SYSTEM_GUIDE.md` |
+| **Code review** | `docs/DEVELOPMENT.md` (style guide) | — |
+| **Performance optimization** | `docs/ARCHITECTURE.md` (performance) | `docs/BUILD_SYSTEM_GUIDE.md` |
 
-### Technical Details (As Needed)
-- **`docs/ARCHITECTURE.md`** - Architecture decisions and design patterns
-  - System architecture diagrams
-  - Data flow and module hierarchy
-  - Performance architecture
-  - Technology decision log with trade-offs
+### File Contents Summary
 
-- **`docs/DEVELOPMENT.md`** - Development workflow and standards
-  - Development environment setup
-  - Coding style guidelines (JS, CSS, HTML)
-  - Git workflow and commit standards
-  - Testing procedures
-  - Debugging techniques
+**`CLAUDE-PROJECT.md`** (450 lines) - **READ FIRST EVERY SESSION**
+- Project overview, tech stack, file structure
+- Quick start commands
+- Performance targets
+- Security guidelines
+- Roadmap and known limitations
 
-- **`docs/DEPLOYMENT.md`** - Deployment procedures
-  - Pre-deployment checklist
-  - Deployment methods (manual + automated)
-  - Environment configuration
-  - Rollback procedures
-  - Performance monitoring
+**`docs/ARCHITECTURE.md`** (506 lines)
+- System architecture diagrams
+- Component hierarchy and patterns
+- Data flow and caching strategy
+- Technology decision log with trade-offs
+- Scalability considerations
 
-### Additional Resources
-- **`docs/BUILD_SYSTEM_GUIDE.md`** - Complete build system implementation guide
-- **`README.md`** - Public-facing project documentation
-- **`daily_reports/*.md`** - Historical development logs
+**`docs/DEVELOPMENT.md`** (754 lines)
+- Development environment setup
+- Coding style guidelines (JS, CSS, HTML)
+- npm scripts reference
+- Git workflow and commit standards
+- Testing procedures
+- Debugging techniques and troubleshooting
+
+**`docs/DEPLOYMENT.md`** (514 lines)
+- Pre-deployment checklist
+- Deployment procedures (manual + automated)
+- Environment configuration
+- Rollback and disaster recovery
+- Performance monitoring
+
+**`docs/BUILD_SYSTEM_GUIDE.md`** (Existing)
+- Build system implementation details
+- HTML integration steps (pending work)
+- Performance benchmarks
+
+**`README.md`** (Existing)
+- Public-facing documentation
+- User-oriented project information
 
 ---
 
