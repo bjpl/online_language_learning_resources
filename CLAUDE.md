@@ -170,6 +170,16 @@
 → Document intentional shortcuts and their trade-offs
 → Prevent debt from compounding unchecked
 
+[MANDATORY-26] PROJECT CONTEXT INITIALIZATION
+→ **AT THE START OF EVERY NEW SESSION**: Read CLAUDE-PROJECT.md using the Read tool
+→ **BEFORE ANY USER INTERACTION**: Load essential project context first
+→ **NON-NEGOTIABLE**: This is mandatory, not optional
+→ **WHAT TO READ**: Full CLAUDE-PROJECT.md file (complete file, not partial)
+→ **WHY**: Contains tech stack, file structure, build system, performance targets, roadmap
+→ **FAILURE CONSEQUENCE**: Uninformed decisions violating project standards
+→ **THEN**: Read additional files (ARCHITECTURE.md, DEVELOPMENT.md, etc.) as tasks require
+→ **ACTION NOW**: If you haven't already, use Read tool on CLAUDE-PROJECT.md immediately
+
 ════════════════════════════════════════════════════════
     END INSTRUCTIONS - COMPLIANCE REQUIRED
 ════════════════════════════════════════════════════════
