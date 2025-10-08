@@ -186,11 +186,207 @@
 
 ---
 
-# Project-Specific Documentation
+# 🚨 CRITICAL PROJECT CONTEXT (Inline Summary)
 
-## ⚠️ CRITICAL: Session Initialization Protocol
+**READ THIS SECTION BEFORE DOING ANYTHING**
 
-**MANDATORY READING ORDER FOR ALL AGENTS:**
+## Essential Project Information
+
+**Project**: Language Learning Hub - 65+ language resource directory
+**Tech Stack**: Vite 7.1.9 + ESLint 9.37 + Prettier 3.6 (NO frameworks)
+**Language**: Pure HTML/CSS/JavaScript ES6 modules
+**Deployment**: GitHub Pages (static hosting)
+**Current Status**: ✅ Build system complete, 🚧 HTML integration pending
+
+### Critical Commands You'll Use
+```bash
+npm install          # First time setup
+npm run dev          # Development (localhost:3000)
+npm run build        # Production build
+npm run lint:fix     # Fix code issues
+npm run format       # Format code
+```
+
+### Absolute File Organization Rules
+```
+⛔ NEVER SAVE TO ROOT DIRECTORY:
+   - Test files (test-*.html, debug-*.html) → /tests
+   - Reports (*_report.json, *.csv) → /docs/development-notes
+   - Markdown notes → /docs
+   - Any temporary/debug files → appropriate subdirectory
+
+✅ PRODUCTION FILES ALLOWED IN ROOT:
+   - index.html, language.html, resources.html, about.html
+   - CLAUDE.md, CLAUDE-PROJECT.md, README.md
+   - package.json, vite.config.js, eslint.config.js
+   - .gitignore, .prettierrc.json
+```
+
+### Performance Targets (Must Meet)
+- Initial load: <200ms (currently ~10,000ms without lazy loading)
+- Bundle size: <50KB initial (currently ~850KB)
+- Use lazy loading for language data (67 modules)
+
+### Current Architecture
+- 67 language data files as ES6 modules (export/import)
+- Dynamic import system built (language-loader.js)
+- Loading UI system built (loading-ui.js)
+- **Pending**: Wire lazy loader to HTML files
+
+### Build System Facts
+- Bundler: Vite (NOT Webpack)
+- Code splitting: Each language = separate chunk
+- Minification: Terser (removes console.log in production)
+- Entry points: 4 HTML files (index, language, resources, about)
+
+---
+
+# 📖 Detailed Documentation References
+
+## ⚡ Keyword Triggers → Required Reading
+
+**When you see these keywords in user requests, read the corresponding file FIRST:**
+
+| Keywords in Request | Read This File | Why |
+|---------------------|----------------|-----|
+| **build**, **vite**, **bundle**, **optimization** | `docs/BUILD_SYSTEM_GUIDE.md` | Build system details |
+| **architecture**, **design**, **pattern**, **trade-off** | `docs/ARCHITECTURE.md` | Technical design decisions |
+| **deploy**, **release**, **publish**, **production** | `docs/DEPLOYMENT.md` | Deployment procedures |
+| **commit**, **git**, **workflow**, **style guide** | `docs/DEVELOPMENT.md` | Development standards |
+| **performance**, **slow**, **optimize**, **speed** | `docs/ARCHITECTURE.md` (performance section) | Performance architecture |
+| **test**, **testing**, **quality**, **lint** | `docs/DEVELOPMENT.md` (testing section) | Testing guidelines |
+| **structure**, **organization**, **files**, **directories** | `CLAUDE-PROJECT.md` (structure section) | File organization |
+
+## 📋 Condensed File Summaries
+
+### CLAUDE-PROJECT.md (450 lines) - **READ AT SESSION START**
+**Summary**: Complete project configuration reference
+- Tech stack: Vite 7.1.9, ESLint, Prettier, pure JS (no frameworks)
+- Project structure: Root = production files only, tests in /tests
+- npm scripts: dev, build, preview, lint, format
+- Performance targets: <200ms load, <50KB bundle
+- Security: No secrets in repo, sanitize inputs, env vars
+- Status: Build system ✅, HTML integration pending 🚧
+- Roadmap: Lazy loading integration → search → more languages
+
+**When to Read**: Every new session start (MANDATORY-26)
+
+### docs/ARCHITECTURE.md (506 lines)
+**Summary**: Technical design and architectural decisions
+- System diagrams: Static site with client-side lazy loading
+- Components: LanguageLoader (singleton), LoadingUI (singleton), main.js (module)
+- Data flow: Static files → Dynamic import → Cache (Map) → DOM
+- Patterns: Module, Singleton, Factory, Observer, Cache-Aside
+- Decisions: Vanilla JS (not React), Vite (not Webpack), lazy loading, GitHub Pages
+- Performance: Manual chunking, 67 separate language bundles
+- Security: Input sanitization, HTTPS, dependency audits
+
+**When to Read**:
+- Making architectural decisions
+- Understanding system design
+- Performance optimization
+- Technology choice questions
+
+### docs/DEVELOPMENT.md (754 lines)
+**Summary**: Development workflow and coding standards
+- Setup: Node 20.19+, npm install, npm run dev
+- Scripts: dev (port 3000), build, preview (port 4173), lint, format
+- Code style: Module pattern, async/await, ES6 modules, JSDoc for public APIs
+- File naming: kebab-case for all files
+- Import style: Relative paths with .js extension required
+- Git commits: Conventional commits (type: subject)
+- Testing: Manual currently, automated planned (Jest/Vitest)
+- Debugging: Chrome DevTools, console groups, network tab
+
+**When to Read**:
+- Writing code (style guidelines)
+- Git workflow questions
+- Testing procedures
+- Debugging issues
+
+### docs/DEPLOYMENT.md (514 lines)
+**Summary**: Deployment procedures and monitoring
+- Platform: GitHub Pages (free static hosting)
+- Process: npm run build → git push → auto-deploy
+- Pre-deploy: Lint, format, build test, manual testing
+- Base path: /online_language_learning_resources/ (must match repo name)
+- Rollback: git revert or git reset, force push
+- Future: GitHub Actions for automated CI/CD
+- Monitoring: Lighthouse scores, Web Vitals (planned)
+
+**When to Read**:
+- Deploying to production
+- Build/deployment issues
+- Rollback scenarios
+- Setting up CI/CD
+
+### docs/BUILD_SYSTEM_GUIDE.md (450 lines - Existing)
+**Summary**: Build system implementation guide
+- What's complete: Vite config, ESLint, Prettier, lazy loading infrastructure
+- What remains: HTML integration (remove 67 script tags, wire lazy loader)
+- Performance impact: 98% faster load projected
+- Integration steps: Detailed instructions for HTML changes
+- Troubleshooting: Common build issues and solutions
+
+**When to Read**:
+- Build configuration questions
+- HTML integration work
+- Vite-specific issues
+- Performance optimization
+
+---
+
+## 🎯 Common Task → Documentation Map
+
+**For quick reference, match your task to the documentation:**
+
+### Code Changes
+```
+Task: "Add a new feature"
+→ Read: docs/DEVELOPMENT.md (coding standards)
+→ Check: docs/ARCHITECTURE.md (design patterns to use)
+→ Verify: npm run lint && npm run build
+```
+
+### Bug Fixes
+```
+Task: "Fix this error/bug"
+→ Read: docs/DEVELOPMENT.md (debugging techniques)
+→ Check: Browser console, Network tab
+→ Verify: npm run lint:fix && npm run build
+```
+
+### Performance Work
+```
+Task: "Make it faster" / "Optimize"
+→ Read: docs/ARCHITECTURE.md (performance section)
+→ Read: docs/BUILD_SYSTEM_GUIDE.md (optimization strategies)
+→ Profile: Chrome DevTools Performance tab BEFORE changes
+→ Verify: Lighthouse score after changes
+```
+
+### Deployment
+```
+Task: "Deploy" / "Push to production"
+→ Read: docs/DEPLOYMENT.md (complete checklist)
+→ Verify: npm run build succeeds
+→ Test: npm run preview
+→ Deploy: git push origin main
+```
+
+### File Organization
+```
+Task: "Where should I save this file?"
+→ Check: Inline rules above (NEVER save test/debug to root)
+→ Read: CLAUDE-PROJECT.md (file structure)
+→ Rule: Production files in root, dev files in subdirectories
+```
+
+---
+
+# Additional Documentation References
+
+## Session Initialization (MANDATORY-26 Compliance)
 
 1. ✅ **CLAUDE.md** (This file) - Auto-loaded by Claude Code
    - Contains all 25 mandatory directives
@@ -211,79 +407,27 @@
 
 ---
 
-## Documentation Structure
+**At session start**: Read CLAUDE-PROJECT.md per MANDATORY-26
 
+**Documentation hierarchy**:
 ```
 CLAUDE.md (This File)
-  ├── Universal agent directives (25 mandatory)
-  └── References to project-specific docs (below)
+  ├── 26 Universal mandatory directives
+  ├── Critical project context (inline above)
+  ├── Keyword triggers for reading specific docs
+  └── Condensed summaries of all documentation
 
-Project Configuration & Details:
-  ├── CLAUDE-PROJECT.md      → Project configuration, tech stack, quick reference
-  ├── docs/ARCHITECTURE.md   → Technical design, patterns, trade-offs
-  ├── docs/DEVELOPMENT.md    → Development workflow, coding standards
-  └── docs/DEPLOYMENT.md     → Deployment procedures, monitoring
+Reference Documentation (Read when triggered):
+  ├── CLAUDE-PROJECT.md (450 lines) - Session start
+  ├── docs/ARCHITECTURE.md (506 lines) - Design decisions
+  ├── docs/DEVELOPMENT.md (754 lines) - Coding/workflow
+  ├── docs/DEPLOYMENT.md (514 lines) - Deployment
+  └── docs/BUILD_SYSTEM_GUIDE.md (450 lines) - Build system
 ```
 
 ---
 
-## Task-Based Reading Guide
-
-**When to Read Each File**:
-
-| Your Task | Required Reading | Optional Reading |
-|-----------|------------------|------------------|
-| **Session start** | `CLAUDE-PROJECT.md` (ALWAYS) | — |
-| **New feature** | `docs/DEVELOPMENT.md` | `docs/ARCHITECTURE.md` |
-| **Bug fix** | `docs/DEVELOPMENT.md` (debugging section) | — |
-| **Architecture decision** | `docs/ARCHITECTURE.md` | `docs/DEVELOPMENT.md` |
-| **Deploying** | `docs/DEPLOYMENT.md` | `docs/BUILD_SYSTEM_GUIDE.md` |
-| **Code review** | `docs/DEVELOPMENT.md` (style guide) | — |
-| **Performance optimization** | `docs/ARCHITECTURE.md` (performance) | `docs/BUILD_SYSTEM_GUIDE.md` |
-
-### File Contents Summary
-
-**`CLAUDE-PROJECT.md`** (450 lines) - **READ FIRST EVERY SESSION**
-- Project overview, tech stack, file structure
-- Quick start commands
-- Performance targets
-- Security guidelines
-- Roadmap and known limitations
-
-**`docs/ARCHITECTURE.md`** (506 lines)
-- System architecture diagrams
-- Component hierarchy and patterns
-- Data flow and caching strategy
-- Technology decision log with trade-offs
-- Scalability considerations
-
-**`docs/DEVELOPMENT.md`** (754 lines)
-- Development environment setup
-- Coding style guidelines (JS, CSS, HTML)
-- npm scripts reference
-- Git workflow and commit standards
-- Testing procedures
-- Debugging techniques and troubleshooting
-
-**`docs/DEPLOYMENT.md`** (514 lines)
-- Pre-deployment checklist
-- Deployment procedures (manual + automated)
-- Environment configuration
-- Rollback and disaster recovery
-- Performance monitoring
-
-**`docs/BUILD_SYSTEM_GUIDE.md`** (Existing)
-- Build system implementation details
-- HTML integration steps (pending work)
-- Performance benchmarks
-
-**`README.md`** (Existing)
-- Public-facing documentation
-- User-oriented project information
-
----
-
-## Critical Rules Summary (From Mandatory Directives)
+## Critical Rules Summary (Most Important Directives)
 
 **File Organization** (MANDATORY-11):
 - ⛔ **Never** save test/debug/report files to root directory
