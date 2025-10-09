@@ -42,6 +42,9 @@ docs/development-notes/
 coverage/
 .nyc_output/
 
+# Backup directories (historical snapshots)
+backups/
+
 # Package manager lock files (optional - some teams commit these)
 # Uncomment if you want to ignore lock files:
 # package-lock.json
