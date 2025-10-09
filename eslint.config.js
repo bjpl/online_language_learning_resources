@@ -17,21 +17,72 @@ export default [
       ecmaVersion: 2022,
       sourceType: 'module',
       globals: {
-        // Browser globals
+        // Browser globals - Window & Document
         window: 'readonly',
         document: 'readonly',
         console: 'readonly',
         localStorage: 'readonly',
+        sessionStorage: 'readonly',
         navigator: 'readonly',
+        location: 'readonly',
+        history: 'readonly',
+
+        // Browser APIs
         fetch: 'readonly',
         URL: 'readonly',
+        URLSearchParams: 'readonly',
+        Headers: 'readonly',
+        Request: 'readonly',
+        Response: 'readonly',
+
+        // Timers & Animation
         setTimeout: 'readonly',
         setInterval: 'readonly',
         clearTimeout: 'readonly',
         clearInterval: 'readonly',
+        requestAnimationFrame: 'readonly',
+        cancelAnimationFrame: 'readonly',
+
+        // Performance & Monitoring
+        performance: 'readonly',
+        PerformanceObserver: 'readonly',
+
+        // Observers
         MutationObserver: 'readonly',
         IntersectionObserver: 'readonly',
+        ResizeObserver: 'readonly',
+
+        // Events
+        Event: 'readonly',
         CustomEvent: 'readonly',
+        EventTarget: 'readonly',
+
+        // DOM Elements
+        Element: 'readonly',
+        HTMLElement: 'readonly',
+        HTMLImageElement: 'readonly',
+        HTMLAnchorElement: 'readonly',
+        HTMLFormElement: 'readonly',
+        HTMLInputElement: 'readonly',
+        NodeList: 'readonly',
+
+        // User Interaction
+        alert: 'readonly',
+        confirm: 'readonly',
+        prompt: 'readonly',
+
+        // Data Structures
+        Map: 'readonly',
+        Set: 'readonly',
+        WeakMap: 'readonly',
+        WeakSet: 'readonly',
+
+        // File APIs
+        Blob: 'readonly',
+        File: 'readonly',
+        FileReader: 'readonly',
+        FileList: 'readonly',
+        FormData: 'readonly',
 
         // Custom globals (from your language data files)
         languageData: 'writable',
@@ -98,8 +149,12 @@ export default [
       'build/**',
       'coverage/**',
       'tests/**',
+      'scripts/**',
+      'backups/**',
       'docs/development-notes/**',
       '*.config.js',
+      'vite.config.js',
+      'eslint.config.js',
     ],
   },
 

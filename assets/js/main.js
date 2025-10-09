@@ -11,6 +11,7 @@ import {
 } from './language-data/language-metadata.js';
 import { languageLoader } from './language-loader.js';
 import { loadingUI } from './loading-ui.js';
+import { countAllResources } from './resource-counter.js';
 
 const LanguageHub = (function() {
     'use strict';
@@ -149,7 +150,7 @@ const LanguageHub = (function() {
     }
 
     // Render language cards
-    function renderLanguages(showAll = true) {
+    function renderLanguages(_showAll = true) {
         // Get lightweight metadata for all languages
         const languages = getLanguageMetadata();
 
@@ -341,82 +342,22 @@ const LanguageHub = (function() {
     }
 
     // Update resource counts on homepage cards
+    // REFACTORED: Extracted complex counting logic to resource-counter.js module
+    // WHY: DRY principle - eliminate 70 lines of repetitive code
+    // COMPLEXITY: Reduced from 20 to <5 (ESLint warning resolved)
     function updateResourceCounts() {
         // Check if we're on the homepage
         const resourceCountElements = document.querySelectorAll('.resource-count[data-type]');
-        if (resourceCountElements.length === 0) return;
+        if (resourceCountElements.length === 0) {
+            return;
+        }
 
-        // Initialize resource counts
-        const resourceCounts = {
-            courses: 0,
-            apps: 0,
-            books: 0,
-            audio: 0,
-            practice: 0
-        };
-
-        // Count resources from all languages
-        const languages = Object.keys(languageData);
-
-        languages.forEach(langKey => {
-            if (typeof languageData !== 'undefined' && languageData[langKey]) {
-                const lang = languageData[langKey];
-                if (!lang.resources) return;
-
-                // Count courses
-                if (lang.resources.courses && Array.isArray(lang.resources.courses)) {
-                    lang.resources.courses.forEach(category => {
-                        if (category.items && Array.isArray(category.items)) {
-                            resourceCounts.courses += category.items.length;
-                        }
-                    });
-                }
-
-                // Count apps
-                if ((lang.resources?.apps || lang.apps) && Array.isArray(lang.resources?.apps || lang.apps)) {
-                    const appsArray = lang.resources?.apps || lang.apps;
-                    appsArray.forEach(category => {
-                        if (category.items && Array.isArray(category.items)) {
-                            resourceCounts.apps += category.items.length;
-                        } else if (category.name) {
-                            // Direct app item without nested structure
-                            resourceCounts.apps += 1;
-                        }
-                    });
-                }
-
-                // Count books
-                if (lang.resources.books && Array.isArray(lang.resources.books)) {
-                    lang.resources.books.forEach(category => {
-                        if (category.items && Array.isArray(category.items)) {
-                            resourceCounts.books += category.items.length;
-                        }
-                    });
-                }
-
-                // Count audio
-                if (lang.resources.audio && Array.isArray(lang.resources.audio)) {
-                    lang.resources.audio.forEach(category => {
-                        if (category.items && Array.isArray(category.items)) {
-                            resourceCounts.audio += category.items.length;
-                        }
-                    });
-                }
-
-                // Count practice
-                if (lang.resources.practice && Array.isArray(lang.resources.practice)) {
-                    lang.resources.practice.forEach(category => {
-                        if (category.items && Array.isArray(category.items)) {
-                            resourceCounts.practice += category.items.length;
-                        }
-                    });
-                }
-            }
-        });
+        // Use helper module to count all resources (pure function, tested)
+        const resourceCounts = countAllResources(languageData);
 
         // Update the DOM with counts
-        resourceCountElements.forEach(element => {
-            const {type} = element.dataset;
+        resourceCountElements.forEach((element) => {
+            const { type } = element.dataset;
             if (resourceCounts[type] !== undefined) {
                 element.textContent = `(${resourceCounts[type]})`;
             }
@@ -437,13 +378,14 @@ const LanguageHub = (function() {
     }
 
     // Utility: Throttle function for performance
-    function throttle(func, limit) {
+    // Kept for future use (e.g., scroll events optimization)
+    function _throttle(func, limit) {
         let inThrottle;
         return function(...args) {
             if (!inThrottle) {
                 func.apply(this, args);
                 inThrottle = true;
-                setTimeout(() => inThrottle = false, limit);
+                setTimeout(() => (inThrottle = false), limit);
             }
         };
     }
