@@ -108,7 +108,8 @@ Application Layer
 ├── main.js (Module Pattern)
 │   ├── Element caching
 │   ├── Event binding
-│   └── UI coordination
+│   ├── UI coordination
+│   └── Imports resource-counter module
 │
 ├── language-loader.js (Singleton)
 │   ├── Language map (67 languages)
@@ -116,19 +117,32 @@ Application Layer
 │   ├── Loading states (Map)
 │   └── Dynamic import() logic
 │
-└── loading-ui.js (Singleton)
-    ├── Overlay spinners
-    ├── Inline spinners
-    ├── Toast notifications
-    └── Self-contained styles
+├── loading-ui.js (Singleton)
+│   ├── Overlay spinners
+│   ├── Inline spinners
+│   ├── Toast notifications
+│   └── Self-contained styles
+│
+└── resource-counter.js (Pure Functions) **NEW v2.1.0**
+    ├── countResourcesByType()
+    ├── countLanguageResources()
+    ├── countAllResources()
+    └── isValidLanguageObject()
 
 Data Layer
 └── Language Data Modules (×67)
-    ├── data-simple.js (global init)
+    ├── language-metadata.js (lightweight metadata)
     └── *-data.js (individual languages)
         ├── Resources by category
         ├── Metadata (name, flag, speakers)
         └── ES6 exports
+
+Testing Layer **NEW v2.1.0**
+└── Test Suite (Vitest)
+    ├── tests/setup.js (global configuration)
+    └── tests/unit/
+        ├── language-loader.test.js (23 tests)
+        └── resource-counter.test.js (27 tests)
 ```
 
 ### Design Patterns Used
@@ -501,6 +515,61 @@ Application State:
 
 ---
 
-**Document Version**: 1.0.0
-**Last Review**: 2025-10-07
-**Next Review**: 2025-11-07 (or when major changes occur)
+---
+
+## Testing Architecture **NEW v2.1.0**
+
+### Testing Stack
+
+```
+Vitest 3.2.4 (Test Runner)
+├── happy-dom (Browser Environment)
+├── @vitest/ui (Interactive Debugging)
+└── Coverage (v8 Provider)
+
+Test Structure:
+├── tests/setup.js (Global Configuration)
+│   ├── Mock browser globals
+│   ├── Helper functions
+│   └── Setup/teardown logic
+│
+└── tests/unit/ (Unit Tests)
+    ├── language-loader.test.js (23 tests)
+    │   ├── Constructor & initialization
+    │   ├── Caching behavior
+    │   ├── Loading state management
+    │   ├── Batch preloading
+    │   └── Edge cases (concurrent loads, errors)
+    │
+    └── resource-counter.test.js (27 tests)
+        ├── countResourcesByType() (13 tests)
+        ├── countLanguageResources() (6 tests)
+        ├── countAllResources() (5 tests)
+        └── isValidLanguageObject() (3 tests)
+```
+
+### Testing Patterns
+
+**Mock Strategy**:
+```javascript
+// Using vi.spyOn() to mock dynamic imports
+const mockData = { name: 'Dutch', resources: {} };
+vi.spyOn(loader, '_importLanguageModule').mockResolvedValue(mockData);
+```
+
+**Test Organization**:
+- **Arrange**: Set up test data and mocks
+- **Act**: Execute the function being tested
+- **Assert**: Verify expected behavior
+
+**Coverage Goals**:
+- Core business logic: 80%+ coverage
+- Public APIs: 100% coverage
+- Error handling: All paths tested
+- Edge cases: Comprehensive coverage
+
+---
+
+**Document Version**: 2.0.0
+**Last Review**: 2025-10-08
+**Next Review**: 2025-11-08 (or when major changes occur)

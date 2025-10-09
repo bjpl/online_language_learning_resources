@@ -107,13 +107,19 @@ git push origin main
 | `npm run format` | Format all files | Prettier format |
 | `npm run format:check` | Check formatting | No file modifications |
 
+### Testing Commands (NEW v2.1.0)
+| Command | Purpose | Notes |
+|---------|---------|-------|
+| `npm run test` | Run automated test suite | 50 tests, ~3s execution |
+| `npm run test:watch` | Test watch mode | Development workflow |
+| `npm run test:ui` | Interactive test UI | Visual test debugging |
+| `npm run test:coverage` | Coverage report | HTML + JSON reports |
+
 ### Future Commands (Planned)
 | Command | Purpose | Status |
 |---------|---------|--------|
-| `npm test` | Run unit tests | 🔜 Planned |
-| `npm run test:watch` | Test watch mode | 🔜 Planned |
-| `npm run test:coverage` | Coverage report | 🔜 Planned |
-| `npm run e2e` | E2E tests | 🔜 Planned |
+| `npm run e2e` | E2E tests (Playwright) | 🔜 Planned |
+| `npm run test:integration` | Integration tests | 🔜 Planned |
 
 ---
 
@@ -404,28 +410,73 @@ SEO: 90+
 - Total Initial: <50KB gzipped
 - Time to Interactive: <2s on 3G
 
-### Future: Automated Testing
+### Automated Testing (Implemented v2.1.0)
 
-**Unit Tests** (Planned):
+**Current Test Suite**: 50 unit tests with 100% pass rate
+
+**Testing Stack**:
+- **Vitest 3.2.4**: Vite-native test runner
+- **happy-dom**: Lightweight browser environment simulation
+- **@vitest/ui**: Interactive test debugging interface
+
+**Test Structure**:
+```
+tests/
+├── setup.js                        # Global test configuration
+└── unit/                           # Unit tests
+    ├── language-loader.test.js     # 23 tests (caching, loading, state)
+    └── resource-counter.test.js    # 27 tests (counting, validation)
+```
+
+**Running Tests**:
+```bash
+npm run test          # Run all tests (3-5s)
+npm run test:watch    # Watch mode for TDD
+npm run test:ui       # Interactive browser UI
+npm run test:coverage # Generate coverage reports
+```
+
+**Example Test** (language-loader.test.js):
 ```javascript
-// Example: language-loader.test.js
-import { LanguageLoader } from './language-loader.js';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { LanguageLoader } from '../../assets/js/language-loader.js';
 
 describe('LanguageLoader', () => {
-  test('caches loaded languages', async () => {
-    const loader = new LanguageLoader();
-    await loader.loadLanguage('dutch');
-    expect(loader.isLoaded('dutch')).toBe(true);
+  let loader;
+
+  beforeEach(() => {
+    loader = new LanguageLoader();
   });
 
-  test('reuses cached data', async () => {
-    const loader = new LanguageLoader();
-    const data1 = await loader.loadLanguage('dutch');
-    const data2 = await loader.loadLanguage('dutch');
-    expect(data1).toBe(data2); // Same reference
+  it('should cache loaded languages', async () => {
+    const mockData = { name: 'Dutch', resources: {} };
+    vi.spyOn(loader, '_importLanguageModule').mockResolvedValue(mockData);
+
+    await loader.loadLanguage('dutch');
+
+    expect(loader.isLoaded('dutch')).toBe(true);
+    expect(loader.cache.get('dutch')).toEqual(mockData);
+  });
+
+  it('should return cached data on subsequent calls', async () => {
+    const mockData = { name: 'Dutch' };
+    const importSpy = vi.spyOn(loader, '_importLanguageModule')
+      .mockResolvedValue(mockData);
+
+    await loader.loadLanguage('dutch');
+    await loader.loadLanguage('dutch'); // Second call
+
+    expect(importSpy).toHaveBeenCalledTimes(1); // Only called once
   });
 });
 ```
+
+**Test Coverage**:
+- LanguageLoader: Constructor, caching, loading states, edge cases
+- ResourceCounter: Counting logic, apps special case, validation
+- Future: LoadingUI, integration tests, E2E tests
+
+See `docs/TESTING.md` for comprehensive testing guide.
 
 ---
 
@@ -749,6 +800,69 @@ For significant decisions, document in `docs/ARCHITECTURE.md`:
 
 ---
 
-**Document Version**: 1.0.0
-**Last Updated**: 2025-10-07
+---
+
+## Testing Workflow (NEW v2.1.0)
+
+### Test-Driven Development
+
+**TDD Cycle**:
+```
+1. Red: Write failing test
+   ├── Create test file in tests/unit/
+   ├── Write test for desired behavior
+   └── Run: npm run test (should fail)
+
+2. Green: Make test pass
+   ├── Implement minimum code to pass
+   ├── Run: npm run test (should pass)
+   └── Verify functionality
+
+3. Refactor: Improve code
+   ├── Simplify, optimize, clean up
+   ├── Run: npm run test (should still pass)
+   └── Commit with passing tests
+```
+
+**Example TDD Session**:
+```bash
+# 1. Create test file
+touch tests/unit/my-feature.test.js
+
+# 2. Write test, run tests in watch mode
+npm run test:watch
+
+# 3. Implement feature iteratively
+# 4. See tests pass in real-time
+# 5. Refactor with confidence (tests prevent regressions)
+```
+
+### Running Tests During Development
+
+**Watch Mode** (Recommended):
+```bash
+npm run test:watch
+# Tests re-run automatically on file changes
+# Fast feedback loop
+```
+
+**Interactive UI Mode**:
+```bash
+npm run test:ui
+# Opens browser with visual test interface
+# Click to run specific tests
+# See detailed results and coverage
+```
+
+**Before Committing**:
+```bash
+npm run test        # All tests must pass
+npm run lint        # No lint errors
+npm run build       # Build must succeed
+```
+
+---
+
+**Document Version**: 2.0.0
+**Last Updated**: 2025-10-08
 **Maintained By**: Project contributors
