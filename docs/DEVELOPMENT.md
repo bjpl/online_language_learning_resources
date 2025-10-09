@@ -863,6 +863,79 @@ npm run build       # Build must succeed
 
 ---
 
-**Document Version**: 2.0.0
+---
+
+## Mobile Development (NEW v2.2.0)
+
+### Mobile Testing Workflow
+
+**DevTools Device Emulation**:
+```bash
+# 1. Start dev server
+npm run dev
+
+# 2. Open Chrome DevTools (F12)
+# 3. Toggle Device Toolbar (Ctrl+Shift+M)
+# 4. Select device:
+#    - iPhone 12 Pro (390x844)
+#    - Pixel 5 (393x851)
+#    - iPad Pro (1024x1366)
+
+# 5. Test:
+- Rotate device (portrait/landscape)
+- Tap all interactive elements (48x48px minimum)
+- Check console for errors
+- Verify responsive breakpoints (375, 480, 768, 1024)
+```
+
+**Real Device Testing** (Recommended):
+```bash
+# Get local IP
+ipconfig  # Windows
+ifconfig  # Mac/Linux
+
+# Access from phone on same network:
+http://192.168.x.x:3000
+```
+
+### Mobile-Specific Code
+
+**Check Mobile Styles**:
+```css
+/* assets/css/mobile-optimizations.css */
+- Safe area insets (iPhone notch)
+- 48x48px touch targets (WCAG AAA)
+- Reduced motion support
+- iOS/Android specific fixes
+```
+
+**Mobile Utilities**:
+```css
+.mobile-only { display: block; }  /* Show only on mobile */
+.desktop-only { display: none; }  /* Hide on mobile */
+```
+
+### Mobile Accessibility Testing
+
+**Reduced Motion**:
+1. Enable: Settings → Accessibility → Motion → Reduce Motion (iOS)
+2. Check: All animations should stop
+3. Verify: Functionality still works
+
+**Touch Targets**:
+1. Use finger (not mouse) to tap elements
+2. All should be easy to tap (48x48px minimum)
+3. No accidental taps on adjacent elements
+
+**Form Inputs**:
+1. Tap search input on iPhone
+2. Should NOT zoom in
+3. Keyboard should appear smoothly
+
+See `docs/MOBILE_OPTIMIZATION.md` for comprehensive mobile guide.
+
+---
+
+**Document Version**: 2.1.0
 **Last Updated**: 2025-10-08
 **Maintained By**: Project contributors

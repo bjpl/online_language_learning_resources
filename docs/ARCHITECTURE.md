@@ -1,9 +1,9 @@
 # Architecture Documentation
 
 **Project**: Language Learning Hub
-**Last Updated**: 2025-10-07
-**Version**: 2.0.0
-**Status**: Production Build System Complete
+**Last Updated**: 2025-10-08
+**Version**: 2.2.0
+**Status**: Production Build System + Testing + Mobile Optimization Complete
 
 ---
 
@@ -570,6 +570,87 @@ vi.spyOn(loader, '_importLanguageModule').mockResolvedValue(mockData);
 
 ---
 
-**Document Version**: 2.0.0
+---
+
+## Mobile Architecture **NEW v2.2.0**
+
+### Mobile-First CSS Strategy
+
+```
+CSS Cascade Order:
+1. main.css (base styles, fluid typography)
+2. components.css (UI components)
+3. page-specific.css (language.css, resources.css, about.css)
+4. modern-ui-clean.css (UI enhancements)
+5. mobile-optimizations.css (573 lines, 30 categories) ← NEW
+
+Why Last in Cascade:
+- Mobile rules override desktop defaults
+- Specific mobile media queries take precedence
+- Additive approach (doesn't break existing styles)
+```
+
+### Mobile Optimization Categories (30 Total)
+
+**Accessibility** (WCAG 2.1):
+- Touch targets: 48x48px minimum (AAA level)
+- Reduced motion: prefers-reduced-motion support
+- High contrast: prefers-contrast support
+- Focus visible: Clear keyboard navigation
+
+**Device-Specific**:
+- Safe area insets: env(safe-area-inset-*) for notched devices
+- iOS fixes: Input zoom prevention, momentum scrolling
+- Android fixes: Custom tap highlights
+- Tablet optimization: 2-column layouts
+- Foldable devices: Surface Duo, Galaxy Fold support
+
+**Performance**:
+- GPU acceleration: transform: translateZ(0)
+- Faster transitions: 150ms vs 300ms
+- Reduced animations: Battery efficient
+- content-visibility: Browser optimization hints
+
+**UX Enhancements**:
+- Touch interactions: Active states, no hover
+- Landscape mode: Optimized for horizontal
+- Loading states: Mobile-sized spinners
+- Typography: 16px inputs (no iOS zoom)
+- Safe spacing: Respects notches and system UI
+
+### Responsive Breakpoint Strategy
+
+```
+Mobile Breakpoints:
+├── 375px  (Small phones - iPhone SE)
+├── 480px  (Standard phones)
+├── 768px  (Large phones, small tablets)
+├── 1024px (Tablets, small laptops)
+└── 1440px (Large desktops)
+
+Special Media Queries:
+├── orientation: landscape (horizontal mode)
+├── prefers-reduced-motion (accessibility)
+├── prefers-contrast: high (accessibility)
+├── prefers-color-scheme: dark (future)
+└── max-height: 500px (landscape phones)
+```
+
+### Viewport Configuration
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+                                                                       ^^^^^^^^^^^^^^^^^^^
+                                                                       iPhone X+ notch support
+```
+
+**Why `viewport-fit=cover`**:
+- Allows content to extend into safe areas
+- CSS controls padding with env() variables
+- Proper notch handling on iPhone X/11/12/13/14/15
+
+---
+
+**Document Version**: 2.1.0
 **Last Review**: 2025-10-08
 **Next Review**: 2025-11-08 (or when major changes occur)

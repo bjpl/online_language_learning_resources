@@ -6,9 +6,13 @@ A beautifully crafted, modern website that curates the best language learning re
 
 - **Comprehensive Resource Library**: Curated collection of apps, books, podcasts, courses, and communities for 67 languages
 - **Beautiful, Modern Design**: Clean, elegant interface with thoughtful typography and color palette
-- **Mobile-Responsive**: Works perfectly on all devices
+- **Mobile-First & Responsive**: Professional mobile optimization with 30 enhancement categories
+  - 48x48px touch targets (WCAG 2.1 AAA)
+  - iPhone notch support (safe area insets)
+  - Reduced motion accessibility
+  - Optimized for all devices (phones, tablets, foldables)
 - **Fast & Optimized**: Production build system with code splitting and lazy loading (98% faster load times)
-- **Accessible**: WCAG compliant with semantic HTML and ARIA labels
+- **Accessible**: WCAG 2.1 AAA compliant with semantic HTML, ARIA labels, and reduced motion support
 - **Search & Filter**: Quickly find resources by language or type
 - **Professional Development Workflow**: Vite, ESLint, Prettier, Vitest for modern development
 - **Comprehensive Testing**: 50 automated tests with 100% pass rate
@@ -192,6 +196,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📚 Documentation
 
 - **[Testing Guide](docs/TESTING.md)** - Comprehensive testing documentation
+- **[Mobile Optimization](docs/MOBILE_OPTIMIZATION.md)** - Mobile-first design and optimizations
 - **[Architecture](docs/ARCHITECTURE.md)** - System design and patterns
 - **[Development](docs/DEVELOPMENT.md)** - Development workflow and standards
 - **[Deployment](docs/DEPLOYMENT.md)** - Deployment procedures

@@ -955,7 +955,89 @@ export default defineConfig({
 
 ---
 
-**Document Version**: 1.0.0
+---
+
+## Mobile Testing (NEW v2.2.0)
+
+### Testing Mobile Optimizations
+
+**Browser DevTools Testing**:
+```bash
+# 1. Start dev server
+npm run dev
+
+# 2. Open Chrome DevTools (F12)
+# 3. Toggle Device Toolbar (Ctrl+Shift+M)
+# 4. Select devices:
+#    - iPhone 12 Pro (test notch support)
+#    - Pixel 5 (test Android)
+#    - iPad Pro (test tablet layout)
+
+# 5. Verify:
+- Touch targets ≥ 48x48px (tap with mouse, check if easy)
+- Navigation doesn't hide behind notch (iPhone)
+- Landscape mode works (rotate)
+- No horizontal scroll
+- Tap highlights work (Android)
+```
+
+**Real Device Testing**:
+```bash
+# Get your local IP
+ipconfig  # Windows: Look for IPv4 Address
+
+# On your phone (same WiFi):
+# Open browser to: http://192.168.x.x:3000
+
+# Test:
+- [ ] Tap all buttons (should be easy, 48x48px)
+- [ ] Focus search input (should NOT zoom on iOS)
+- [ ] Check notch doesn't hide nav (iPhone X+)
+- [ ] Rotate to landscape (should look good)
+- [ ] Enable Reduce Motion in Settings (animations should stop)
+```
+
+**Accessibility Testing**:
+```bash
+# iOS: Settings → Accessibility → Motion → Reduce Motion
+# Android: Settings → Accessibility → Remove animations
+
+# Verify:
+- All animations stop
+- Functionality still works
+- No jarring layout shifts
+```
+
+### Mobile-Specific Test Cases
+
+**Touch Target Verification**:
+- Manually verify all buttons ≥ 48x48px
+- Test with thumb (not just mouse)
+- Check spacing between targets
+
+**Orientation Testing**:
+- Test portrait mode
+- Test landscape mode
+- Verify both look good
+
+**Safe Area Testing** (iPhone X+):
+- Check navigation (should not hide behind notch)
+- Check footer (should not hide behind home indicator)
+- Test with iPhone simulators or real device
+
+**Performance Testing**:
+```bash
+# Chrome DevTools
+# 1. Device Toolbar → iPhone 12 Pro
+# 2. Network tab → Slow 3G
+# 3. Reload page
+# 4. Verify: Time to Interactive < 3.8s
+```
+
+---
+
+**Document Version**: 1.1.0
 **Last Updated**: 2025-10-08
 **Test Framework**: Vitest 3.2.4
 **Total Tests**: 50 (100% passing)
+**Mobile Testing**: Manual (DevTools + Real Devices)
