@@ -1,0 +1,796 @@
+/* ===================================
+   Mobile Optimizations
+   Professional mobile-first enhancements
+   =================================== */
+
+/* ===================================
+   1. Safe Area Insets (iPhone X+, Notched Devices)
+   =================================== */
+
+:root {
+    /* Safe area variables for notched devices */
+    --safe-area-top: env(safe-area-inset-top, 0px);
+    --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+    --safe-area-left: env(safe-area-inset-left, 0px);
+    --safe-area-right: env(safe-area-inset-right, 0px);
+}
+
+/* Fixed navigation respects safe areas */
+.nav {
+    padding-top: var(--safe-area-top);
+    padding-left: var(--safe-area-left);
+    padding-right: var(--safe-area-right);
+}
+
+/* Fixed elements at bottom respect safe areas */
+.back-to-top {
+    bottom: calc(24px + var(--safe-area-bottom));
+    right: calc(24px + var(--safe-area-right));
+}
+
+/* ===================================
+   2. Touch Target Optimization (48x48px Minimum)
+   =================================== */
+
+/* WCAG 2.1 Success Criterion 2.5.5: Target Size (Level AAA) */
+/* Minimum touch target: 48x48px */
+
+@media (max-width: 768px) {
+    /* Navigation links */
+    .nav-link {
+        padding: 12px 16px;  /* Ensures 48px height */
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Mobile nav toggle - already 48x48px but ensure */
+    .nav-toggle {
+        min-width: 48px;
+        min-height: 48px;
+        padding: 12px;
+    }
+
+    /* Search button */
+    .search-button {
+        min-width: 48px;
+        min-height: 48px;
+        padding: 12px;
+    }
+
+    /* Language pills */
+    .pill {
+        padding: 12px 20px;  /* Ensures 48px height */
+        min-height: 48px;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    /* Resource cards - entire card is tappable */
+    .resource-card {
+        min-height: 48px;  /* Whole card is tap target */
+    }
+
+    /* Language cards - entire card is tappable */
+    .language-card {
+        min-height: 120px;  /* Ensures adequate tap area */
+    }
+
+    /* Back to top button - already 44px, increase to 48px */
+    .back-to-top {
+        width: 48px;
+        height: 48px;
+    }
+
+    /* Footer links */
+    .footer-links a {
+        padding: 8px 0;
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* ===================================
+   3. Reduced Motion Support (Accessibility)
+   =================================== */
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    /* Disable animations */
+    .hero-content,
+    .fade-in,
+    .slide-in-left,
+    .slide-in-right,
+    .float,
+    .bounce {
+        animation: none !important;
+    }
+}
+
+/* ===================================
+   4. Mobile Typography Enhancements
+   =================================== */
+
+@media (max-width: 480px) {
+    /* Slightly larger body text for easier reading on phones */
+    :root {
+        --fs-body: 1rem;  /* Minimum 16px to prevent zoom on iOS */
+    }
+
+    /* Ensure input fonts are at least 16px (prevents iOS zoom) */
+    input,
+    textarea,
+    select {
+        font-size: 16px !important;
+    }
+
+    /* Comfortable reading on small screens */
+    .hero-description,
+    .section-description,
+    .resource-description {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    /* Prevent text from being too large */
+    .hero-main {
+        font-size: clamp(2rem, 10vw, 3rem);
+    }
+}
+
+/* ===================================
+   5. Horizontal Scroll Prevention
+   =================================== */
+
+/* Ensure nothing causes horizontal scroll */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Images respect container */
+img,
+video,
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Prevent code blocks from causing overflow */
+pre,
+code {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* ===================================
+   6. Mobile-Specific Spacing
+   =================================== */
+
+@media (max-width: 768px) {
+    /* Reduce vertical spacing on mobile (conserve screen space) */
+    .section {
+        padding: var(--space-xl) 0;  /* Reduced from 3xl */
+    }
+
+    .section-header {
+        margin-bottom: var(--space-xl);  /* Reduced from 3xl */
+    }
+
+    /* Tighter container padding on mobile */
+    :root {
+        --container-padding: 1rem;  /* Min padding on mobile */
+    }
+
+    /* Hero takes less vertical space on mobile */
+    .hero {
+        min-height: 100svh;  /* Use svh (small viewport height) if supported */
+        padding: var(--space-xl) var(--container-padding);
+    }
+}
+
+/* Very small phones */
+@media (max-width: 375px) {
+    :root {
+        --space-xl: 2rem;   /* Slightly reduce spacing */
+        --space-3xl: 3rem;
+    }
+}
+
+/* ===================================
+   7. Touch-Friendly Interactions
+   =================================== */
+
+@media (max-width: 768px) {
+    /* Larger tap areas for interactive elements */
+    .language-link,
+    .resource-link {
+        padding: 12px 16px;
+        margin: -12px -16px;  /* Negative margin expands hit area */
+    }
+
+    /* Card hover states don't apply on touch (use :active instead) */
+    .language-card:hover,
+    .resource-card:hover {
+        transform: none;
+    }
+
+    /* Active state for touch feedback */
+    .language-card:active,
+    .resource-card:active {
+        transform: scale(0.98);
+        transition: transform 0.1s;
+    }
+
+    /* Button active states */
+    .btn:active,
+    .pill:active,
+    .search-button:active {
+        transform: scale(0.95);
+    }
+
+    /* Disable hover effects that don't work well on touch */
+    .nav-link::after {
+        display: none;  /* Underline animation confusing on touch */
+    }
+}
+
+/* ===================================
+   8. Mobile Loading UI Enhancements
+   =================================== */
+
+@media (max-width: 768px) {
+    /* Loading overlay takes full screen on mobile */
+    .loading-overlay {
+        padding: 20px;
+    }
+
+    /* Spinner sizing for mobile */
+    .loading-spinner {
+        width: 48px;
+        height: 48px;
+    }
+
+    /* Toast notifications positioned safely */
+    .toast {
+        bottom: calc(16px + var(--safe-area-bottom));
+        left: var(--safe-area-left);
+        right: var(--safe-area-right);
+        margin: 0 16px;
+        max-width: calc(100% - 32px);
+    }
+}
+
+/* ===================================
+   9. Mobile Navigation Enhancements
+   =================================== */
+
+@media (max-width: 768px) {
+    /* Full-height mobile menu */
+    .nav-menu {
+        max-height: calc(100vh - 60px);  /* Account for nav height */
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Larger, easier to tap menu items */
+    .nav-menu li {
+        border-bottom: 1px solid var(--color-gray-100);
+    }
+
+    .nav-menu li:last-child {
+        border-bottom: none;
+    }
+
+    /* Menu animations optimized for mobile */
+    .nav-menu.active {
+        animation: slideDown 0.3s ease-out;
+    }
+
+    @keyframes slideDown {
+        from {
+            transform: translateY(-20px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+}
+
+/* ===================================
+   10. Mobile Grid Optimizations
+   =================================== */
+
+@media (max-width: 480px) {
+    /* Language grid: Full width cards with good spacing */
+    .languages-grid {
+        gap: 1.5rem;
+    }
+
+    /* Resource categories: Stack vertically with tighter spacing */
+    .resource-categories {
+        gap: 1.5rem;
+    }
+
+    /* Language card: Optimize for thumb reach */
+    .language-card {
+        padding: 1.5rem;
+    }
+
+    /* Resource card: Compact but readable */
+    .resource-card {
+        padding: 1.5rem;
+    }
+}
+
+/* ===================================
+   11. Performance: Reduce Animations on Mobile
+   =================================== */
+
+@media (max-width: 768px) {
+    /* Simpler, faster animations on mobile */
+    .language-card,
+    .resource-card,
+    .btn {
+        transition-duration: 150ms;  /* Faster than 300ms */
+    }
+
+    /* Disable complex animations that drain battery */
+    .hero-pattern,
+    .logo-icon {
+        animation: none;
+    }
+
+    /* Keep essential animations only */
+    .scroll-indicator {
+        animation-duration: 1.5s;  /* Slower, less frequent */
+    }
+}
+
+/* ===================================
+   12. Landscape Mobile Orientation
+   =================================== */
+
+@media (max-width: 768px) and (orientation: landscape) {
+    /* Reduce hero height in landscape */
+    .hero {
+        min-height: auto;
+        padding: var(--space-lg) var(--container-padding);
+    }
+
+    /* Hide scroll indicator in landscape (limited height) */
+    .scroll-indicator {
+        display: none;
+    }
+
+    /* Compact navigation in landscape */
+    .nav-container {
+        padding: 0.5rem var(--container-padding);
+    }
+}
+
+/* ===================================
+   13. iOS-Specific Fixes
+   =================================== */
+
+/* Fix iOS Safari button styling */
+button,
+input[type="submit"],
+input[type="button"] {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: var(--radius-md);
+}
+
+/* Fix iOS Safari input zoom */
+input[type="text"],
+input[type="search"],
+textarea {
+    font-size: 16px;  /* Prevents zoom on focus */
+}
+
+/* Smooth scrolling momentum on iOS */
+.nav-menu,
+.filter-tabs {
+    -webkit-overflow-scrolling: touch;
+}
+
+/* ===================================
+   14. Android-Specific Fixes
+   =================================== */
+
+/* Fix tap highlight color on Android */
+* {
+    -webkit-tap-highlight-color: rgba(91, 78, 140, 0.1);
+    tap-highlight-color: rgba(91, 78, 140, 0.1);
+}
+
+/* Remove default blue highlight */
+a,
+button {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}
+
+/* Restore custom highlight on tap */
+a:active,
+button:active {
+    background-color: rgba(91, 78, 140, 0.05);
+}
+
+/* ===================================
+   15. Mobile-First Loading States
+   =================================== */
+
+@media (max-width: 768px) {
+    /* Loading messages: larger, centered */
+    .loading-message {
+        font-size: 1.125rem;
+        text-align: center;
+    }
+
+    /* Error messages: more prominent on mobile */
+    .error-message {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+/* ===================================
+   16. Print Media Query (Bonus)
+   =================================== */
+
+@media print {
+    /* Optimize for mobile print (rare but considerate) */
+    .nav,
+    .nav-toggle,
+    .search-button,
+    .back-to-top,
+    .loading-overlay {
+        display: none !important;
+    }
+
+    /* Ensure content is readable when printed from mobile */
+    body {
+        font-size: 12pt;
+    }
+
+    .language-card,
+    .resource-card {
+        page-break-inside: avoid;
+    }
+}
+
+/* ===================================
+   17. Accessibility: High Contrast Mode
+   =================================== */
+
+@media (prefers-contrast: high) {
+    :root {
+        --color-primary: #3a2d5c;  /* Darker for better contrast */
+        --color-dark: #000000;
+        --color-gray-700: #3a3a3a;
+    }
+
+    /* Ensure minimum contrast ratios */
+    .nav-link,
+    .pill,
+    .resource-link {
+        border: 2px solid currentColor;
+    }
+}
+
+/* ===================================
+   18. Dark Mode Support (Future-Ready)
+   =================================== */
+
+@media (prefers-color-scheme: dark) {
+    /* Prepare for dark mode (can be enabled later) */
+    /* Currently commented out, but structure ready */
+
+    /*
+    :root {
+        --color-dark: #F0EEF2;
+        --color-off-white: #1A1625;
+        --color-white: #2D2838;
+        --color-gray-100: #3F3A4B;
+    }
+    */
+}
+
+/* ===================================
+   19. Performance: GPU Acceleration
+   =================================== */
+
+/* Force GPU acceleration for smooth animations on mobile */
+.language-card,
+.resource-card,
+.nav-menu,
+.back-to-top {
+    will-change: transform;
+    transform: translateZ(0);  /* Creates new layer */
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+/* Remove will-change after animation completes (memory optimization) */
+@media (max-width: 768px) {
+    .language-card:not(:hover):not(:active),
+    .resource-card:not(:hover):not(:active) {
+        will-change: auto;
+    }
+}
+
+/* ===================================
+   20. Mobile Font Loading Optimization
+   =================================== */
+
+/* Font loading strategy for mobile (reduce layout shift) */
+@media (max-width: 768px) {
+    /* System font fallback while custom fonts load */
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                     system-ui, sans-serif;
+    }
+
+    /* Apply custom fonts after load */
+    .fonts-loaded body {
+        font-family: var(--font-body);
+    }
+
+    .fonts-loaded h1,
+    .fonts-loaded h2,
+    .fonts-loaded h3 {
+        font-family: var(--font-display);
+    }
+}
+
+/* ===================================
+   21. Mobile-Specific Utilities
+   =================================== */
+
+/* Show only on mobile */
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-only {
+        display: block;
+    }
+}
+
+/* Hide on mobile */
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+/* Prevent text selection on interactive elements (mobile UX) */
+@media (max-width: 768px) {
+    .language-card,
+    .resource-card,
+    .pill,
+    button {
+        -webkit-user-select: none;
+        user-select: none;
+    }
+}
+
+/* ===================================
+   22. Mobile Search Optimization
+   =================================== */
+
+@media (max-width: 768px) {
+    .quick-search {
+        max-width: 100%;  /* Full width on mobile */
+        border-radius: var(--radius-lg);  /* Slightly less rounded */
+    }
+
+    .search-input {
+        font-size: 16px;  /* Prevent iOS zoom */
+        padding: 14px var(--space-md);
+    }
+
+    /* Search button: larger tap target */
+    .search-button {
+        padding: 14px 20px;
+    }
+}
+
+/* ===================================
+   23. Mobile Hero Section Optimization
+   =================================== */
+
+@media (max-width: 768px) {
+    /* Hero content: better mobile proportions */
+    .hero-content {
+        padding: 0 var(--space-sm);
+    }
+
+    .hero-title {
+        margin-bottom: var(--space-md);
+    }
+
+    .hero-description {
+        font-size: 1.125rem;
+        margin-bottom: var(--space-lg);
+    }
+
+    /* Pills: better wrapping on small screens */
+    .popular-languages {
+        flex-direction: column;
+        gap: var(--space-xs);
+    }
+
+    .language-pills {
+        width: 100%;
+    }
+}
+
+/* ===================================
+   24. Mobile Card Interaction Improvements
+   =================================== */
+
+@media (max-width: 768px) {
+    /* Language cards: better touch feedback */
+    .language-card {
+        transition: background-color 0.15s, transform 0.15s;
+    }
+
+    .language-card:active {
+        background-color: var(--color-gray-100);
+    }
+
+    /* Remove ::before animation on mobile (simpler is better) */
+    .language-card::before,
+    .resource-card::before {
+        display: none;
+    }
+
+    /* Stats: stack vertically on very small screens */
+    @media (max-width: 375px) {
+        .language-stats {
+            flex-direction: column;
+            gap: var(--space-xs);
+        }
+    }
+}
+
+/* ===================================
+   25. Mobile Footer Optimization
+   =================================== */
+
+@media (max-width: 768px) {
+    .footer {
+        padding: var(--space-xl) 0 calc(var(--space-lg) + var(--safe-area-bottom));
+    }
+
+    .footer-content {
+        gap: var(--space-lg);  /* Tighter spacing */
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ===================================
+   26. Mobile Performance: Critical CSS Pattern
+   =================================== */
+
+/* Above-the-fold content loads first on mobile */
+@media (max-width: 768px) {
+    /* Prioritize hero and navigation */
+    .nav,
+    .hero,
+    .languages-section {
+        /* Already optimized */
+    }
+
+    /* Lazy load below-fold sections (future enhancement) */
+    .quote-section,
+    .footer {
+        content-visibility: auto;  /* Browser optimization hint */
+    }
+}
+
+/* ===================================
+   27. Mobile Landscape Mode
+   =================================== */
+
+@media (max-width: 768px) and (orientation: landscape) and (max-height: 500px) {
+    /* Very compact layout for landscape mobile */
+    .nav-container {
+        padding: 0.5rem var(--container-padding);
+    }
+
+    .hero {
+        min-height: auto;
+        padding: var(--space-lg) var(--container-padding);
+    }
+
+    .hero-title {
+        font-size: clamp(1.5rem, 5vw, 2.5rem);
+    }
+
+    .section {
+        padding: var(--space-lg) 0;
+    }
+}
+
+/* ===================================
+   28. Tablet Optimization (iPad, etc.)
+   =================================== */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Tablet-specific optimizations */
+    .languages-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-xl);
+    }
+
+    .resource-categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Touch targets still important on tablets */
+    .nav-link {
+        min-height: 44px;
+        padding: 10px 16px;
+    }
+}
+
+/* ===================================
+   29. Foldable/Dual-Screen Devices
+   =================================== */
+
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+    /* Surface Duo, Galaxy Fold in portrait */
+    .container {
+        max-width: 900px;
+    }
+
+    .languages-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ===================================
+   30. Mobile Browser Chrome Handling
+   =================================== */
+
+/* Use dvh (dynamic viewport height) units if supported */
+@supports (height: 100dvh) {
+    .hero {
+        min-height: 100dvh;  /* Accounts for browser chrome hiding/showing */
+    }
+}
+
+/* Fallback to svh (small viewport height) */
+@supports (height: 100svh) and (not (height: 100dvh)) {
+    .hero {
+        min-height: 100svh;
+    }
+}
