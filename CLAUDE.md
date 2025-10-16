@@ -1,480 +1,352 @@
-═══════════════════════════════════════════════════════
-    AGENT OPERATING INSTRUCTIONS
-    ALL DIRECTIVES ARE MANDATORY - STRICT COMPLIANCE
-═══════════════════════════════════════════════════════
+# Claude Code Configuration - SPARC Development Environment
 
-╔═══════════════════════════════════════════════════════╗
-║ ⚠️  CRITICAL: SWARM ORCHESTRATION ARCHITECTURE  ⚠️     ║
-║                                                       ║
-║ MANDATORY COORDINATION PATTERN:                      ║
-║ → Topology Setup: Use Claude Flow's MCP (Model       ║
-║   Context Protocol) coordination for establishing    ║
-║   agent topology and communication patterns          ║
-║ → Agent Execution: Use Task tool for actual agent    ║
-║   execution, following guidelines in CLAUDE.md       ║
-║ → Separation of Concerns: ALWAYS distinguish between ║
-║   orchestration layer (Flow/MCP) and execution       ║
-║   layer (Task tool)                                  ║
-║                                                       ║
-║ This pattern must be followed for ALL multi-agent    ║
-║ coordination and swarm operations without exception. ║
-╚═══════════════════════════════════════════════════════╝
+## 🚨 CRITICAL: CONCURRENT EXECUTION & FILE MANAGEMENT
 
-[MANDATORY-1] COMMUNICATION & TRANSPARENCY
-→ Explain every action in detail as you perform it
-→ Include: what you're doing, why, expected outcomes, context, and rationale
-→ Maximize thought exposure: make reasoning visible and understandable
+**ABSOLUTE RULES**:
+1. ALL operations MUST be concurrent/parallel in a single message
+2. **NEVER save working files, text/mds and tests to the root folder**
+3. ALWAYS organize files in appropriate subdirectories
+4. **USE CLAUDE CODE'S TASK TOOL** for spawning agents concurrently, not just MCP
 
-[MANDATORY-2] PROFESSIONAL COMMUNICATION STYLE
-→ Avoid sycophancy: Don't over-praise, over-agree, or use excessive enthusiasm
-→ Maintain neutral, professional tone: Be direct, clear, and objective
-→ Give honest assessments: Point out potential issues, trade-offs, and concerns
-→ Don't over-apologize: Acknowledge errors once, then move forward with solutions
-→ Challenge when appropriate: Question assumptions and suggest alternatives constructively
-→ Skip unnecessary pleasantries: Get to the point efficiently
-→ Be appropriately critical: Identify flaws, risks, and weaknesses without sugar-coating
-→ Avoid hedging excessively: State things directly unless genuinely uncertain
-→ No false validation: Don't agree with problematic ideas just to be agreeable
-→ Professional candor over politeness: Prioritize clarity and usefulness over niceties
+### ⚡ GOLDEN RULE: "1 MESSAGE = ALL RELATED OPERATIONS"
 
-[MANDATORY-3] VERSION CONTROL & DOCUMENTATION
-→ Commit frequently to local and remote repositories
-→ Write clear, meaningful commit messages for all changes
+**MANDATORY PATTERNS:**
+- **TodoWrite**: ALWAYS batch ALL todos in ONE call (5-10+ todos minimum)
+- **Task tool (Claude Code)**: ALWAYS spawn ALL agents in ONE message with full instructions
+- **File operations**: ALWAYS batch ALL reads/writes/edits in ONE message
+- **Bash commands**: ALWAYS batch ALL terminal operations in ONE message
+- **Memory operations**: ALWAYS batch ALL memory store/retrieve in ONE message
 
-[MANDATORY-4] TARGET AUDIENCE & SCOPE
-→ Primary user: Individual use (requestor)
-→ Future scope: Multi-user, public open-source or paid offering
-→ Current priority: Build meaningful, functional features first
+### 🎯 CRITICAL: Claude Code Task Tool for Agent Execution
 
-[MANDATORY-5] CLARIFICATION PROTOCOL
-→ Stop and ask questions when:
-  • Instructions unclear or ambiguous
-  • Uncertain about requirements or approach
-  • Insufficient information for intelligent decisions
-  • Multiple valid paths exist
+**Claude Code's Task tool is the PRIMARY way to spawn agents:**
+```javascript
+// ✅ CORRECT: Use Claude Code's Task tool for parallel agent execution
+[Single Message]:
+  Task("Research agent", "Analyze requirements and patterns...", "researcher")
+  Task("Coder agent", "Implement core features...", "coder")
+  Task("Tester agent", "Create comprehensive tests...", "tester")
+  Task("Reviewer agent", "Review code quality...", "reviewer")
+  Task("Architect agent", "Design system architecture...", "system-architect")
+```
 
-[MANDATORY-6] SWARM ORCHESTRATION APPROACH
-→ Topology setup: Use Claude Flow's MCP (Model Context Protocol) coordination for establishing agent topology and communication patterns
-→ Agent execution: Use Task tool for actual agent execution, following guidelines specified in CLAUDE.md
-→ Separation of concerns: Distinguish between orchestration layer (Flow/MCP) and execution layer (Task tool)
+**MCP tools are ONLY for coordination setup:**
+- `mcp__claude-flow__swarm_init` - Initialize coordination topology
+- `mcp__claude-flow__agent_spawn` - Define agent types for coordination
+- `mcp__claude-flow__task_orchestrate` - Orchestrate high-level workflows
 
-[MANDATORY-7] ERROR HANDLING & RESILIENCE
-→ Implement graceful error handling with clear error messages
-→ Log errors with context for debugging
-→ Validate inputs and outputs at boundaries
-→ Provide fallback strategies when operations fail
-→ Never fail silently; always surface issues appropriately
+### 📁 File Organization Rules
 
-[MANDATORY-8] TESTING & QUALITY ASSURANCE
-→ Write tests for critical functionality before considering work complete
-→ Verify changes work as expected before committing
-→ Document test cases and edge cases considered
-→ Run existing tests to ensure no regressions
+**NEVER save to root folder. Use these directories:**
+- `/src` - Source code files
+- `/tests` - Test files
+- `/docs` - Documentation and markdown files
+- `/config` - Configuration files
+- `/scripts` - Utility scripts
+- `/examples` - Example code
 
-[MANDATORY-9] SECURITY & PRIVACY
-→ Never commit secrets, API keys, or sensitive credentials
-→ Use environment variables for configuration
-→ Sanitize user inputs to prevent injection attacks
-→ Consider data privacy implications for future multi-user scenarios
-→ Follow principle of least privilege
+## Project Overview
 
-[MANDATORY-10] ARCHITECTURE & DESIGN
-→ Favor simple, readable solutions over clever complexity
-→ Design for modularity and reusability from the start
-→ Document architectural decisions and trade-offs
-→ Consider future extensibility without over-engineering
-→ Apply SOLID principles and appropriate design patterns
+This project uses SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) methodology with Claude-Flow orchestration for systematic Test-Driven Development.
 
-[MANDATORY-11] INCREMENTAL DELIVERY
-→ Break large tasks into small, deployable increments
-→ Deliver working functionality frequently (daily if possible)
-→ Each commit should leave the system in a working state
-→ Prioritize MVP features over perfect implementations
-→ Iterate based on feedback and learnings
+## SPARC Commands
 
-[MANDATORY-12] DOCUMENTATION STANDARDS
-→ Update README.md as features are added
-→ Document "why" decisions were made, not just "what"
-→ Include setup instructions, dependencies, and usage examples
-→ Maintain API documentation for all public interfaces
-→ Document known limitations and future considerations
+### Core Commands
+- `npx claude-flow sparc modes` - List available modes
+- `npx claude-flow sparc run <mode> "<task>"` - Execute specific mode
+- `npx claude-flow sparc tdd "<feature>"` - Run complete TDD workflow
+- `npx claude-flow sparc info <mode>` - Get mode details
 
-[MANDATORY-13] DEPENDENCY MANAGEMENT
-→ Minimize external dependencies; evaluate necessity
-→ Pin dependency versions for reproducibility
-→ Document why each major dependency was chosen
-→ Regularly review and update dependencies for security
+### Batchtools Commands
+- `npx claude-flow sparc batch <modes> "<task>"` - Parallel execution
+- `npx claude-flow sparc pipeline "<task>"` - Full pipeline processing
+- `npx claude-flow sparc concurrent <mode> "<tasks-file>"` - Multi-task processing
 
-[MANDATORY-14] PERFORMANCE AWARENESS
-→ Profile before optimizing; avoid premature optimization
-→ Consider scalability implications of design choices
-→ Document performance characteristics and bottlenecks
-→ Optimize for readability first, performance second (unless critical)
+### Build Commands
+- `npm run build` - Build project
+- `npm run test` - Run tests
+- `npm run lint` - Linting
+- `npm run typecheck` - Type checking
 
-[MANDATORY-15] STATE MANAGEMENT
-→ Make state transitions explicit and traceable
-→ Validate state consistency at critical points
-→ Consider idempotency for operations that might retry
-→ Document state machine behavior where applicable
+## SPARC Workflow Phases
 
-[MANDATORY-16] CONTINUOUS LEARNING & IMPROVEMENT
-→ Document what worked and what didn't after completing tasks
-→ Identify patterns in errors and user requests
-→ Suggest process improvements based on observed inefficiencies
-→ Build reusable solutions from recurring problems
-→ Maintain a decision log for complex choices
+1. **Specification** - Requirements analysis (`sparc run spec-pseudocode`)
+2. **Pseudocode** - Algorithm design (`sparc run spec-pseudocode`)
+3. **Architecture** - System design (`sparc run architect`)
+4. **Refinement** - TDD implementation (`sparc tdd`)
+5. **Completion** - Integration (`sparc run integration`)
 
-[MANDATORY-17] OBSERVABILITY & MONITORING
-→ Log key operations with appropriate detail levels
-→ Track performance metrics for critical operations
-→ Implement health checks for system components
-→ Make system state inspectable at any time
-→ Alert on anomalies or degraded performance
+## Code Style & Best Practices
 
-[MANDATORY-18] RESOURCE OPTIMIZATION
-→ Track API calls, token usage, and computational costs
-→ Implement caching strategies where appropriate
-→ Avoid redundant operations and API calls
-→ Consider rate limits and quota constraints
-→ Optimize for cost-effectiveness without sacrificing quality
+- **Modular Design**: Files under 500 lines
+- **Environment Safety**: Never hardcode secrets
+- **Test-First**: Write tests before implementation
+- **Clean Architecture**: Separate concerns
+- **Documentation**: Keep updated
 
-[MANDATORY-19] USER EXPERIENCE
-→ Prioritize clarity and usability in all interfaces
-→ Provide helpful feedback for all operations
-→ Design for accessibility from the start
-→ Minimize cognitive load required to use features
-→ Make error messages actionable and user-friendly
+## 🚀 Available Agents (54 Total)
 
-[MANDATORY-20] DATA QUALITY & INTEGRITY
-→ Validate data at system boundaries
-→ Implement data consistency checks
-→ Handle data migrations carefully with backups
-→ Sanitize and normalize inputs
-→ Maintain data provenance and audit trails
+### Core Development
+`coder`, `reviewer`, `tester`, `planner`, `researcher`
 
-[MANDATORY-21] CONTEXT PRESERVATION
-→ Maintain relevant context across operations
-→ Persist important state between sessions
-→ Reference previous decisions and outcomes
-→ Build on prior work rather than restarting
-→ Document assumptions and constraints
+### Swarm Coordination
+`hierarchical-coordinator`, `mesh-coordinator`, `adaptive-coordinator`, `collective-intelligence-coordinator`, `swarm-memory-manager`
 
-[MANDATORY-22] ETHICAL OPERATION
-→ Consider bias and fairness implications
-→ Respect user privacy and data sovereignty
-→ Be transparent about capabilities and limitations
-→ Decline tasks that could cause harm
-→ Prioritize user agency and informed consent
+### Consensus & Distributed
+`byzantine-coordinator`, `raft-manager`, `gossip-coordinator`, `consensus-builder`, `crdt-synchronizer`, `quorum-manager`, `security-manager`
 
-[MANDATORY-23] AGENT COLLABORATION
-→ Share context effectively with other agents
-→ Coordinate to avoid duplicated work
-→ Escalate appropriately to humans when needed
-→ Maintain clear handoff protocols
-→ Document inter-agent dependencies
+### Performance & Optimization
+`perf-analyzer`, `performance-benchmarker`, `task-orchestrator`, `memory-coordinator`, `smart-agent`
 
-[MANDATORY-24] RECOVERY PROCEDURES
-→ Design operations to be reversible when possible
-→ Maintain backups before destructive operations
-→ Document rollback procedures for changes
-→ Test recovery processes regularly
-→ Keep system in recoverable state at all times
+### GitHub & Repository
+`github-modes`, `pr-manager`, `code-review-swarm`, `issue-tracker`, `release-manager`, `workflow-automation`, `project-board-sync`, `repo-architect`, `multi-repo-swarm`
 
-[MANDATORY-25] TECHNICAL DEBT MANAGEMENT
-→ Flag areas needing refactoring with justification
-→ Balance shipping fast vs. accumulating debt
-→ Schedule time for addressing technical debt
-→ Document intentional shortcuts and their trade-offs
-→ Prevent debt from compounding unchecked
+### SPARC Methodology
+`sparc-coord`, `sparc-coder`, `specification`, `pseudocode`, `architecture`, `refinement`
 
-═══════════════════════════════════════════════════════
-    END INSTRUCTIONS - COMPLIANCE REQUIRED
-═══════════════════════════════════════════════════════
+### Specialized Development
+`backend-dev`, `mobile-dev`, `ml-developer`, `cicd-engineer`, `api-docs`, `system-architect`, `code-analyzer`, `base-template-generator`
 
----
+### Testing & Validation
+`tdd-london-swarm`, `production-validator`
 
-# 🚨 CRITICAL PROJECT CONTEXT (Inline Summary)
+### Migration & Planning
+`migration-planner`, `swarm-init`
 
-**READ THIS SECTION BEFORE DOING ANYTHING**
+## 🎯 Claude Code vs MCP Tools
 
-## Essential Project Information
+### Claude Code Handles ALL EXECUTION:
+- **Task tool**: Spawn and run agents concurrently for actual work
+- File operations (Read, Write, Edit, MultiEdit, Glob, Grep)
+- Code generation and programming
+- Bash commands and system operations
+- Implementation work
+- Project navigation and analysis
+- TodoWrite and task management
+- Git operations
+- Package management
+- Testing and debugging
 
-**Project**: Language Learning Hub - 65+ language resource directory
-**Tech Stack**: Vite 7.1.9 + ESLint 9.37 + Prettier 3.6 (NO frameworks)
-**Language**: Pure HTML/CSS/JavaScript ES6 modules
-**Deployment**: GitHub Pages (static hosting)
-**Current Status**: ✅ Build system complete, 🚧 HTML integration pending
+### MCP Tools ONLY COORDINATE:
+- Swarm initialization (topology setup)
+- Agent type definitions (coordination patterns)
+- Task orchestration (high-level planning)
+- Memory management
+- Neural features
+- Performance tracking
+- GitHub integration
 
-### Critical Commands You'll Use
+**KEY**: MCP coordinates the strategy, Claude Code's Task tool executes with real agents.
+
+## 🚀 Quick Setup
+
 ```bash
-npm install          # First time setup
-npm run dev          # Development (localhost:3000)
-npm run build        # Production build
-npm run lint:fix     # Fix code issues
-npm run format       # Format code
+# Add MCP servers (Claude Flow required, others optional)
+claude mcp add claude-flow npx claude-flow@alpha mcp start
+claude mcp add ruv-swarm npx ruv-swarm mcp start  # Optional: Enhanced coordination
+claude mcp add flow-nexus npx flow-nexus@latest mcp start  # Optional: Cloud features
 ```
 
-### Absolute File Organization Rules
-```
-⛔ NEVER SAVE TO ROOT DIRECTORY:
-   - Test files (test-*.html, debug-*.html) → /tests
-   - Reports (*_report.json, *.csv) → /docs/development-notes
-   - Markdown notes → /docs
-   - Any temporary/debug files → appropriate subdirectory
+## MCP Tool Categories
 
-✅ PRODUCTION FILES ALLOWED IN ROOT:
-   - index.html, language.html, resources.html, about.html
-   - CLAUDE.md, CLAUDE-PROJECT.md, README.md
-   - package.json, vite.config.js, eslint.config.js
-   - .gitignore, .prettierrc.json
-```
+### Coordination
+`swarm_init`, `agent_spawn`, `task_orchestrate`
 
-### Performance Targets (Must Meet)
-- Initial load: <200ms (currently ~10,000ms without lazy loading)
-- Bundle size: <50KB initial (currently ~850KB)
-- Use lazy loading for language data (67 modules)
+### Monitoring
+`swarm_status`, `agent_list`, `agent_metrics`, `task_status`, `task_results`
 
-### Current Architecture
-- 67 language data files as ES6 modules (export/import)
-- Dynamic import system built (language-loader.js)
-- Loading UI system built (loading-ui.js)
-- **Pending**: Wire lazy loader to HTML files
+### Memory & Neural
+`memory_usage`, `neural_status`, `neural_train`, `neural_patterns`
 
-### Build System Facts
-- Bundler: Vite (NOT Webpack)
-- Code splitting: Each language = separate chunk
-- Minification: Terser (removes console.log in production)
-- Entry points: 4 HTML files (index, language, resources, about)
+### GitHub Integration
+`github_swarm`, `repo_analyze`, `pr_enhance`, `issue_triage`, `code_review`
 
----
+### System
+`benchmark_run`, `features_detect`, `swarm_monitor`
 
-# 📖 Detailed Documentation References
+### Flow-Nexus MCP Tools (Optional Advanced Features)
+Flow-Nexus extends MCP capabilities with 70+ cloud-based orchestration tools:
 
-## ⚡ Keyword Triggers → Required Reading
+**Key MCP Tool Categories:**
+- **Swarm & Agents**: `swarm_init`, `swarm_scale`, `agent_spawn`, `task_orchestrate`
+- **Sandboxes**: `sandbox_create`, `sandbox_execute`, `sandbox_upload` (cloud execution)
+- **Templates**: `template_list`, `template_deploy` (pre-built project templates)
+- **Neural AI**: `neural_train`, `neural_patterns`, `seraphina_chat` (AI assistant)
+- **GitHub**: `github_repo_analyze`, `github_pr_manage` (repository management)
+- **Real-time**: `execution_stream_subscribe`, `realtime_subscribe` (live monitoring)
+- **Storage**: `storage_upload`, `storage_list` (cloud file management)
 
-**When you see these keywords in user requests, read the corresponding file FIRST:**
+**Authentication Required:**
+- Register: `mcp__flow-nexus__user_register` or `npx flow-nexus@latest register`
+- Login: `mcp__flow-nexus__user_login` or `npx flow-nexus@latest login`
+- Access 70+ specialized MCP tools for advanced orchestration
 
-| Keywords in Request | Read This File | Why |
-|---------------------|----------------|-----|
-| **build**, **vite**, **bundle**, **optimization** | `docs/BUILD_SYSTEM_GUIDE.md` | Build system details |
-| **architecture**, **design**, **pattern**, **trade-off** | `docs/ARCHITECTURE.md` | Technical design decisions |
-| **deploy**, **release**, **publish**, **production** | `docs/DEPLOYMENT.md` | Deployment procedures |
-| **commit**, **git**, **workflow**, **style guide** | `docs/DEVELOPMENT.md` | Development standards |
-| **performance**, **slow**, **optimize**, **speed** | `docs/ARCHITECTURE.md` (performance section) | Performance architecture |
-| **test**, **testing**, **quality**, **lint** | `docs/DEVELOPMENT.md` (testing section) | Testing guidelines |
-| **structure**, **organization**, **files**, **directories** | `CLAUDE-PROJECT.md` (structure section) | File organization |
+## 🚀 Agent Execution Flow with Claude Code
 
-## 📋 Condensed File Summaries
+### The Correct Pattern:
 
-### CLAUDE-PROJECT.md (450 lines) - **READ AT SESSION START**
-**Summary**: Complete project configuration reference
-- Tech stack: Vite 7.1.9, ESLint, Prettier, pure JS (no frameworks)
-- Project structure: Root = production files only, tests in /tests
-- npm scripts: dev, build, preview, lint, format
-- Performance targets: <200ms load, <50KB bundle
-- Security: No secrets in repo, sanitize inputs, env vars
-- Status: Build system ✅, HTML integration pending 🚧
-- Roadmap: Lazy loading integration → search → more languages
+1. **Optional**: Use MCP tools to set up coordination topology
+2. **REQUIRED**: Use Claude Code's Task tool to spawn agents that do actual work
+3. **REQUIRED**: Each agent runs hooks for coordination
+4. **REQUIRED**: Batch all operations in single messages
 
-**When to Read**: Every new session start (MANDATORY-26)
+### Example Full-Stack Development:
 
-### docs/ARCHITECTURE.md (506 lines)
-**Summary**: Technical design and architectural decisions
-- System diagrams: Static site with client-side lazy loading
-- Components: LanguageLoader (singleton), LoadingUI (singleton), main.js (module)
-- Data flow: Static files → Dynamic import → Cache (Map) → DOM
-- Patterns: Module, Singleton, Factory, Observer, Cache-Aside
-- Decisions: Vanilla JS (not React), Vite (not Webpack), lazy loading, GitHub Pages
-- Performance: Manual chunking, 67 separate language bundles
-- Security: Input sanitization, HTTPS, dependency audits
-
-**When to Read**:
-- Making architectural decisions
-- Understanding system design
-- Performance optimization
-- Technology choice questions
-
-### docs/DEVELOPMENT.md (754 lines)
-**Summary**: Development workflow and coding standards
-- Setup: Node 20.19+, npm install, npm run dev
-- Scripts: dev (port 3000), build, preview (port 4173), lint, format
-- Code style: Module pattern, async/await, ES6 modules, JSDoc for public APIs
-- File naming: kebab-case for all files
-- Import style: Relative paths with .js extension required
-- Git commits: Conventional commits (type: subject)
-- Testing: Manual currently, automated planned (Jest/Vitest)
-- Debugging: Chrome DevTools, console groups, network tab
-
-**When to Read**:
-- Writing code (style guidelines)
-- Git workflow questions
-- Testing procedures
-- Debugging issues
-
-### docs/DEPLOYMENT.md (514 lines)
-**Summary**: Deployment procedures and monitoring
-- Platform: GitHub Pages (free static hosting)
-- Process: npm run build → git push → auto-deploy
-- Pre-deploy: Lint, format, build test, manual testing
-- Base path: /online_language_learning_resources/ (must match repo name)
-- Rollback: git revert or git reset, force push
-- Future: GitHub Actions for automated CI/CD
-- Monitoring: Lighthouse scores, Web Vitals (planned)
-
-**When to Read**:
-- Deploying to production
-- Build/deployment issues
-- Rollback scenarios
-- Setting up CI/CD
-
-### docs/BUILD_SYSTEM_GUIDE.md (450 lines - Existing)
-**Summary**: Build system implementation guide
-- What's complete: Vite config, ESLint, Prettier, lazy loading infrastructure
-- What remains: HTML integration (remove 67 script tags, wire lazy loader)
-- Performance impact: 98% faster load projected
-- Integration steps: Detailed instructions for HTML changes
-- Troubleshooting: Common build issues and solutions
-
-**When to Read**:
-- Build configuration questions
-- HTML integration work
-- Vite-specific issues
-- Performance optimization
-
----
-
-## 🎯 Common Task → Documentation Map
-
-**For quick reference, match your task to the documentation:**
-
-### Code Changes
-```
-Task: "Add a new feature"
-→ Read: docs/DEVELOPMENT.md (coding standards)
-→ Check: docs/ARCHITECTURE.md (design patterns to use)
-→ Verify: npm run lint && npm run build
+```javascript
+// Single message with all agent spawning via Claude Code's Task tool
+[Parallel Agent Execution]:
+  Task("Backend Developer", "Build REST API with Express. Use hooks for coordination.", "backend-dev")
+  Task("Frontend Developer", "Create React UI. Coordinate with backend via memory.", "coder")
+  Task("Database Architect", "Design PostgreSQL schema. Store schema in memory.", "code-analyzer")
+  Task("Test Engineer", "Write Jest tests. Check memory for API contracts.", "tester")
+  Task("DevOps Engineer", "Setup Docker and CI/CD. Document in memory.", "cicd-engineer")
+  Task("Security Auditor", "Review authentication. Report findings via hooks.", "reviewer")
+  
+  // All todos batched together
+  TodoWrite { todos: [...8-10 todos...] }
+  
+  // All file operations together
+  Write "backend/server.js"
+  Write "frontend/App.jsx"
+  Write "database/schema.sql"
 ```
 
-### Bug Fixes
-```
-Task: "Fix this error/bug"
-→ Read: docs/DEVELOPMENT.md (debugging techniques)
-→ Check: Browser console, Network tab
-→ Verify: npm run lint:fix && npm run build
-```
+## 📋 Agent Coordination Protocol
 
-### Performance Work
-```
-Task: "Make it faster" / "Optimize"
-→ Read: docs/ARCHITECTURE.md (performance section)
-→ Read: docs/BUILD_SYSTEM_GUIDE.md (optimization strategies)
-→ Profile: Chrome DevTools Performance tab BEFORE changes
-→ Verify: Lighthouse score after changes
-```
+### Every Agent Spawned via Task Tool MUST:
 
-### Deployment
-```
-Task: "Deploy" / "Push to production"
-→ Read: docs/DEPLOYMENT.md (complete checklist)
-→ Verify: npm run build succeeds
-→ Test: npm run preview
-→ Deploy: git push origin main
-```
-
-### File Organization
-```
-Task: "Where should I save this file?"
-→ Check: Inline rules above (NEVER save test/debug to root)
-→ Read: CLAUDE-PROJECT.md (file structure)
-→ Rule: Production files in root, dev files in subdirectories
-```
-
----
-
-# Additional Documentation References
-
-## Session Initialization (MANDATORY-26 Compliance)
-
-1. ✅ **CLAUDE.md** (This file) - Auto-loaded by Claude Code
-   - Contains all 25 mandatory directives
-   - You are reading this now
-
-2. 🔴 **IMMEDIATELY READ**: `CLAUDE-PROJECT.md`
-   - **REQUIRED**: Read this file at the START of EVERY session
-   - **BEFORE**: Starting any task or answering any question
-   - **PURPOSE**: Essential project context, tech stack, file structure
-   - **ACTION**: Use the Read tool to read CLAUDE-PROJECT.md now
-
-3. 📖 **READ AS NEEDED**: Specific documentation for your task
-   - `docs/ARCHITECTURE.md` - For design decisions
-   - `docs/DEVELOPMENT.md` - For coding/workflow tasks
-   - `docs/DEPLOYMENT.md` - For deployment tasks
-
-**WHY THIS MATTERS**: Claude Code only auto-loads CLAUDE.md. The other files contain critical project-specific context that you must explicitly read. Skipping CLAUDE-PROJECT.md will result in uninformed decisions.
-
----
-
-**At session start**: Read CLAUDE-PROJECT.md per MANDATORY-26
-
-**Documentation hierarchy**:
-```
-CLAUDE.md (This File)
-  ├── 26 Universal mandatory directives
-  ├── Critical project context (inline above)
-  ├── Keyword triggers for reading specific docs
-  └── Condensed summaries of all documentation
-
-Reference Documentation (Read when triggered):
-  ├── CLAUDE-PROJECT.md (450 lines) - Session start
-  ├── docs/ARCHITECTURE.md (506 lines) - Design decisions
-  ├── docs/DEVELOPMENT.md (754 lines) - Coding/workflow
-  ├── docs/DEPLOYMENT.md (514 lines) - Deployment
-  └── docs/BUILD_SYSTEM_GUIDE.md (450 lines) - Build system
-```
-
----
-
-## Critical Rules Summary (Most Important Directives)
-
-**File Organization** (MANDATORY-11):
-- ⛔ **Never** save test/debug/report files to root directory
-- ✅ Tests → `/tests`
-- ✅ Reports → `/docs/development-notes`
-- ✅ Documentation → `/docs`
-
-**Commit Standards** (MANDATORY-3):
-- Commit frequently
-- Use conventional commit format: `type: subject`
-- Include footer: `🤖 Generated with [Claude Code]...`
-
-**Code Quality** (MANDATORY-8, MANDATORY-10):
-- Run `npm run lint` before committing
-- Run `npm run format` for consistency
-- Verify `npm run build` succeeds
-- Test changes in browser
-
-**Performance** (MANDATORY-14):
-- Target: <200ms initial load, <50KB initial bundle
-- Use lazy loading for language data
-- Profile before optimizing
-
----
-
-## Project Status
-
-**Version**: 2.0.0 (Production Build System)
-**Last Updated**: 2025-10-07
-**Status**: ✅ Build System Complete, 🚧 HTML Integration Pending
-
-**Quick Start**:
+**1️⃣ BEFORE Work:**
 ```bash
-npm install
-npm run dev      # http://localhost:3000
+npx claude-flow@alpha hooks pre-task --description "[task]"
+npx claude-flow@alpha hooks session-restore --session-id "swarm-[id]"
 ```
 
-For complete details, see `CLAUDE-PROJECT.md`.
+**2️⃣ DURING Work:**
+```bash
+npx claude-flow@alpha hooks post-edit --file "[file]" --memory-key "swarm/[agent]/[step]"
+npx claude-flow@alpha hooks notify --message "[what was done]"
+```
+
+**3️⃣ AFTER Work:**
+```bash
+npx claude-flow@alpha hooks post-task --task-id "[task]"
+npx claude-flow@alpha hooks session-end --export-metrics true
+```
+
+## 🎯 Concurrent Execution Examples
+
+### ✅ CORRECT WORKFLOW: MCP Coordinates, Claude Code Executes
+
+```javascript
+// Step 1: MCP tools set up coordination (optional, for complex tasks)
+[Single Message - Coordination Setup]:
+  mcp__claude-flow__swarm_init { topology: "mesh", maxAgents: 6 }
+  mcp__claude-flow__agent_spawn { type: "researcher" }
+  mcp__claude-flow__agent_spawn { type: "coder" }
+  mcp__claude-flow__agent_spawn { type: "tester" }
+
+// Step 2: Claude Code Task tool spawns ACTUAL agents that do the work
+[Single Message - Parallel Agent Execution]:
+  // Claude Code's Task tool spawns real agents concurrently
+  Task("Research agent", "Analyze API requirements and best practices. Check memory for prior decisions.", "researcher")
+  Task("Coder agent", "Implement REST endpoints with authentication. Coordinate via hooks.", "coder")
+  Task("Database agent", "Design and implement database schema. Store decisions in memory.", "code-analyzer")
+  Task("Tester agent", "Create comprehensive test suite with 90% coverage.", "tester")
+  Task("Reviewer agent", "Review code quality and security. Document findings.", "reviewer")
+  
+  // Batch ALL todos in ONE call
+  TodoWrite { todos: [
+    {id: "1", content: "Research API patterns", status: "in_progress", priority: "high"},
+    {id: "2", content: "Design database schema", status: "in_progress", priority: "high"},
+    {id: "3", content: "Implement authentication", status: "pending", priority: "high"},
+    {id: "4", content: "Build REST endpoints", status: "pending", priority: "high"},
+    {id: "5", content: "Write unit tests", status: "pending", priority: "medium"},
+    {id: "6", content: "Integration tests", status: "pending", priority: "medium"},
+    {id: "7", content: "API documentation", status: "pending", priority: "low"},
+    {id: "8", content: "Performance optimization", status: "pending", priority: "low"}
+  ]}
+  
+  // Parallel file operations
+  Bash "mkdir -p app/{src,tests,docs,config}"
+  Write "app/package.json"
+  Write "app/src/server.js"
+  Write "app/tests/server.test.js"
+  Write "app/docs/API.md"
+```
+
+### ❌ WRONG (Multiple Messages):
+```javascript
+Message 1: mcp__claude-flow__swarm_init
+Message 2: Task("agent 1")
+Message 3: TodoWrite { todos: [single todo] }
+Message 4: Write "file.js"
+// This breaks parallel coordination!
+```
+
+## Performance Benefits
+
+- **84.8% SWE-Bench solve rate**
+- **32.3% token reduction**
+- **2.8-4.4x speed improvement**
+- **27+ neural models**
+
+## Hooks Integration
+
+### Pre-Operation
+- Auto-assign agents by file type
+- Validate commands for safety
+- Prepare resources automatically
+- Optimize topology by complexity
+- Cache searches
+
+### Post-Operation
+- Auto-format code
+- Train neural patterns
+- Update memory
+- Analyze performance
+- Track token usage
+
+### Session Management
+- Generate summaries
+- Persist state
+- Track metrics
+- Restore context
+- Export workflows
+
+## Advanced Features (v2.0.0)
+
+- 🚀 Automatic Topology Selection
+- ⚡ Parallel Execution (2.8-4.4x speed)
+- 🧠 Neural Training
+- 📊 Bottleneck Analysis
+- 🤖 Smart Auto-Spawning
+- 🛡️ Self-Healing Workflows
+- 💾 Cross-Session Memory
+- 🔗 GitHub Integration
+
+## Integration Tips
+
+1. Start with basic swarm init
+2. Scale agents gradually
+3. Use memory for context
+4. Monitor progress regularly
+5. Train patterns from success
+6. Enable hooks automation
+7. Use GitHub tools first
+
+## Support
+
+- Documentation: https://github.com/ruvnet/claude-flow
+- Issues: https://github.com/ruvnet/claude-flow/issues
+- Flow-Nexus Platform: https://flow-nexus.ruv.io (registration required for cloud features)
 
 ---
 
-**Document Version**: 1.1.0
-**Directives Version**: 1.1 (25 directives)
+Remember: **Claude Flow coordinates, Claude Code creates!**
+
+# important-instruction-reminders
+Do what has been asked; nothing more, nothing less.
+NEVER create files unless they're absolutely necessary for achieving your goal.
+ALWAYS prefer editing an existing file to creating a new one.
+NEVER proactively create documentation files (*.md) or README files. Only create documentation files if explicitly requested by the User.
+Never save working files, text/mds and tests to the root folder.
