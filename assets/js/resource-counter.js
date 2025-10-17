@@ -172,3 +172,95 @@ export function isValidLanguageObject(languageObj) {
     (languageObj.resources || languageObj.apps)
   );
 }
+
+/**
+ * Load resource counts from pre-generated JSON file
+ *
+ * @returns {Promise<Object>} - Resource counts object or empty counts on error
+ *
+ * @example
+ * const counts = await loadResourceCounts();
+ * console.log(counts.totalCounts); // { courses: 794, apps: 862, ... }
+ */
+export async function loadResourceCounts() {
+  const emptyCounts = {
+    totalCounts: {
+      courses: 0,
+      apps: 0,
+      books: 0,
+      audio: 0,
+      practice: 0,
+    },
+    languageCounts: {},
+    languageCount: 0,
+  };
+
+  try {
+    const response = await fetch('/assets/data/resource-counts.json');
+
+    if (!response.ok) {
+      console.warn('Resource counts file not found, using empty counts');
+      return emptyCounts;
+    }
+
+    const data = await response.json();
+
+    // Validate data structure
+    if (!data.totalCounts || typeof data.totalCounts !== 'object') {
+      console.warn('Invalid resource counts data structure');
+      return emptyCounts;
+    }
+
+    return data;
+  } catch (error) {
+    console.error('Error loading resource counts:', error);
+    return emptyCounts;
+  }
+}
+
+/**
+ * Get resource counts with automatic fallback handling
+ *
+ * @param {Object} languageDataObj - Optional languageData for fallback counting
+ * @returns {Promise<Object>} - Total counts object
+ *
+ * @example
+ * // Try to load from file, fall back to counting if needed
+ * const counts = await getResourceCountsWithFallback(window.languageData);
+ * console.log(counts); // { courses: 794, apps: 862, books: 921, ... }
+ */
+export async function getResourceCountsWithFallback(languageDataObj) {
+  try {
+    // First, try to load from pre-generated file
+    const data = await loadResourceCounts();
+
+    if (data.totalCounts && Object.values(data.totalCounts).some(count => count > 0)) {
+      return data.totalCounts;
+    }
+
+    // Fallback: Count from provided languageData
+    if (languageDataObj) {
+      console.log('Using fallback: counting from languageData object');
+      return countAllResources(languageDataObj);
+    }
+
+    // Final fallback: Return empty counts
+    return data.totalCounts;
+  } catch (error) {
+    console.error('Error getting resource counts:', error);
+
+    // Attempt fallback counting
+    if (languageDataObj) {
+      return countAllResources(languageDataObj);
+    }
+
+    // Return empty counts as last resort
+    return {
+      courses: 0,
+      apps: 0,
+      books: 0,
+      audio: 0,
+      practice: 0,
+    };
+  }
+}

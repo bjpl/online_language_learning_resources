@@ -9,11 +9,46 @@
     const urlParams = new URLSearchParams(window.location.search);
     const langParam = urlParams.get('lang') || 'dutch';
 
-    // Get language data
-    const language = languageData[langParam] || languageData.dutch;
+    // Store language data reference
+    let language = null;
+    let isDataLoaded = false;
+
+    // Listen for language data loaded event (from lazy loading)
+    window.addEventListener('languageDataLoaded', (event) => {
+        console.warn('[LanguagePage] Language data loaded event received:', event.detail);
+
+        if (event.detail.lang === langParam) {
+            language = event.detail.data;
+            isDataLoaded = true;
+            init();
+        }
+    });
+
+    // Listen for language data error event
+    window.addEventListener('languageDataError', (event) => {
+        console.error('[LanguagePage] Language data error event received:', event.detail);
+
+        if (event.detail.lang === langParam) {
+            showErrorState();
+        }
+    });
+
+    // Fallback: Check if data is already available (backwards compatibility)
+    if (typeof window.languageData === 'object' && window.languageData[langParam]) {
+        console.warn('[LanguagePage] Using pre-loaded language data');
+        language = window.languageData[langParam];
+        isDataLoaded = true;
+    }
 
     // Initialize page
     function init() {
+        if (!language) {
+            console.error('[LanguagePage] Cannot initialize - language data not available');
+            showErrorState();
+            return;
+        }
+
+        console.warn('[LanguagePage] Initializing with language:', langParam);
         updateHeroSection();
         renderResources();
         bindEvents();
@@ -294,10 +329,40 @@
         });
     }
 
-    // Initialize when DOM is ready
+    // Show error state when language fails to load
+    function showErrorState() {
+        const container = document.getElementById('resources-container');
+        if (container) {
+            container.innerHTML = `
+                <div style="text-align: center; padding: 4rem 2rem; color: #5E5869;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">⚠️</div>
+                    <h2 style="margin-bottom: 0.5rem; color: #1A1625;">Unable to Load Resources</h2>
+                    <p>The language resources for <strong>${langParam}</strong> could not be loaded.</p>
+                    <p style="margin-top: 1rem;">
+                        <a href="index.html" style="color: #5B4E8C; text-decoration: underline;">
+                            Return to home page
+                        </a>
+                    </p>
+                </div>
+            `;
+        }
+
+        // Update hero with default values
+        document.getElementById('breadcrumb-language').textContent = langParam;
+        document.getElementById('language-title').textContent = 'Language Resources';
+        document.title = `${langParam} Resources - Language Learning Hub`;
+    }
+
+    // Initialize when DOM is ready (only if data is already loaded)
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener('DOMContentLoaded', () => {
+            if (isDataLoaded) {
+                init();
+            }
+        });
     } else {
-        init();
+        if (isDataLoaded) {
+            init();
+        }
     }
 })();

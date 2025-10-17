@@ -14,7 +14,14 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "vitest run tests/e2e",
+    "test:performance": "vitest run tests/performance",
+    "test:all": "npm run test:unit && npm run test:integration && npm run test:e2e && npm run test:performance",
+    "test:ci": "vitest run --coverage --reporter=verbose",
+    "typecheck": "echo 'Type checking not configured - using JSDoc comments for type safety'"
   },
   "keywords": [
     "language-learning",

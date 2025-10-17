@@ -75,7 +75,16 @@
 
             <!-- Resources Grid -->
             <div id="resources-container" class="resources-grid-detailed">
-                <!-- Resources will be dynamically inserted here -->
+                <!-- Loading state shown by default -->
+                <div id="initial-loading" style="text-align: center; padding: 4rem 2rem; color: #8E8896;">
+                    <div class="spinner" style="width: 48px; height: 48px; border: 4px solid rgba(91, 78, 140, 0.1); border-top-color: #5B4E8C; border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 1rem;"></div>
+                    <p style="margin: 0; font-size: 0.875rem;">Loading resources...</p>
+                </div>
+                <style>
+                    @keyframes spin {
+                        to { transform: rotate(360deg); }
+                    }
+                </style>
             </div>
         </div>
     </section>
@@ -108,33 +117,53 @@
 
       // Get language from URL
       const params = new URLSearchParams(window.location.search);
-      const lang = params.get('lang');
+      const lang = params.get('lang') || 'dutch';
 
-      if (lang) {
-        // Show loading overlay
-        const loaderId = loadingUI.showOverlay(`Loading ${lang} resources...`);
+      console.warn(`[LanguageHTML] Starting load for language: ${lang}`);
 
-        // Load language data dynamically
-        languageLoader.loadLanguage(lang)
-          .then(data => {
-            // Store in global for backwards compatibility with language-page.js
-            window.languageData = window.languageData || {};
-            window.languageData[lang] = data;
-
-            // Trigger custom event for language-page.js to render
-            const event = new CustomEvent('languageDataLoaded', {
-              detail: { lang, data }
-            });
-            window.dispatchEvent(event);
-
-            loadingUI.hideOverlay(loaderId);
-          })
-          .catch(error => {
-            loadingUI.showError(`Failed to load ${lang}: ${error.message}`);
-            loadingUI.hideOverlay(loaderId);
-            console.error('Language loading error:', error);
-          });
+      // Remove initial loading state helper
+      function removeInitialLoader() {
+        const initialLoader = document.getElementById('initial-loading');
+        if (initialLoader) {
+          initialLoader.remove();
+        }
       }
+
+      // Load language data dynamically
+      languageLoader.loadLanguage(lang)
+        .then(data => {
+          console.warn(`[LanguageHTML] Successfully loaded ${lang}:`, data);
+
+          // Store in global for backwards compatibility with language-page.js
+          window.languageData = window.languageData || {};
+          window.languageData[lang] = data;
+
+          // Remove initial loading indicator
+          removeInitialLoader();
+
+          // Trigger custom event for language-page.js to render
+          const event = new CustomEvent('languageDataLoaded', {
+            detail: { lang, data }
+          });
+          window.dispatchEvent(event);
+
+          console.warn(`[LanguageHTML] Event dispatched for ${lang}`);
+        })
+        .catch(error => {
+          console.error(`[LanguageHTML] Failed to load ${lang}:`, error);
+
+          // Remove initial loading indicator
+          removeInitialLoader();
+
+          // Show error message
+          loadingUI.showError(`Failed to load ${lang} resources. Please try again.`);
+
+          // Dispatch error event for language-page.js
+          const errorEvent = new CustomEvent('languageDataError', {
+            detail: { lang, error: error.message }
+          });
+          window.dispatchEvent(errorEvent);
+        });
     </script>
     <script type="module" src="/assets/js/modern-ui-clean.js"></script>
     <script type="module" src="/assets/js/language-page.js"></script>
