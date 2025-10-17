@@ -622,8 +622,8 @@ const greekResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.greek = greekResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.greek = greekResources;
 }
 
 // ES6 Module Export

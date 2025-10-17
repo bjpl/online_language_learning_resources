@@ -559,8 +559,8 @@ const navajoResources = {
     apps: []
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.navajo = navajoResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.navajo = navajoResources;
 }
 
 // ES6 Module Export

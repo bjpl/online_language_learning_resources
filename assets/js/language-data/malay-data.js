@@ -509,8 +509,8 @@ const malayResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.malay = malayResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.malay = malayResources;
 }
 
 // ES6 Module Export

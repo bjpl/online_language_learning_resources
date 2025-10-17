@@ -455,8 +455,8 @@ const koreanResources = {
 };
 
 // Backwards compatibility - add to global languageData if it exists
-if (typeof languageData !== 'undefined') {
-    languageData.korean = koreanResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.korean = koreanResources;
 }
 
 

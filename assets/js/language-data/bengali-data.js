@@ -583,8 +583,8 @@ const bengaliResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.bengali = bengaliResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.bengali = bengaliResources;
 }
 
 // ES6 Module Export

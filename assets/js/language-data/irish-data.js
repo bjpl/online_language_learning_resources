@@ -561,8 +561,8 @@ const irishResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.irish = irishResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.irish = irishResources;
 }
 
 // ES6 Module Export

@@ -893,8 +893,8 @@ const hmongResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.hmong = hmongResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.hmong = hmongResources;
 }
 
 // ES6 Module Export

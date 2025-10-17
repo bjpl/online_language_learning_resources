@@ -525,8 +525,8 @@ const estonianResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.estonian = estonianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.estonian = estonianResources;
 }
 
 // ES6 Module Export

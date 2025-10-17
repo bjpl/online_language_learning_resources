@@ -429,8 +429,8 @@ const italianResources = {
 };
 
 // Backwards compatibility - add to global languageData if it exists
-if (typeof languageData !== 'undefined') {
-    languageData.italian = italianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.italian = italianResources;
 }
 
 

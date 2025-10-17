@@ -536,8 +536,8 @@ const tamilResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.tamil = tamilResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.tamil = tamilResources;
 }
 
 // ES6 Module Export

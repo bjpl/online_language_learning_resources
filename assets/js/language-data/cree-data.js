@@ -433,8 +433,8 @@ const creeResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.cree = creeResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.cree = creeResources;
 }
 
 // ES6 Module Export

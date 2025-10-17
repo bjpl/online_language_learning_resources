@@ -987,8 +987,8 @@ const urduResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.urdu = urduResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.urdu = urduResources;
 }
 
 // ES6 Module Export

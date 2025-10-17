@@ -112,8 +112,8 @@ const czechResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.czech = czechResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.czech = czechResources;
 }
 
 // ES6 Module Export

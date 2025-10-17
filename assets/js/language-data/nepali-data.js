@@ -718,8 +718,8 @@ const nepaliResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.nepali = nepaliResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.nepali = nepaliResources;
 }
 
 // ES6 Module Export

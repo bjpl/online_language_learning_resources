@@ -1095,8 +1095,8 @@ const punjabiResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.punjabi = punjabiResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.punjabi = punjabiResources;
 }
 
 // ES6 Module Export

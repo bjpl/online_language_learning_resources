@@ -706,8 +706,8 @@ const burmeseResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.burmese = burmeseResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.burmese = burmeseResources;
 }
 
 // ES6 Module Export

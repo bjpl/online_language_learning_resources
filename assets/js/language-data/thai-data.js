@@ -507,8 +507,8 @@ const thaiResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.thai = thaiResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.thai = thaiResources;
 }
 
 // ES6 Module Export

@@ -716,8 +716,8 @@ const dariResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.dari = dariResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.dari = dariResources;
 }
 
 // ES6 Module Export

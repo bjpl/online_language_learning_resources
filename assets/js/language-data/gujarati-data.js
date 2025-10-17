@@ -849,8 +849,8 @@ const gujaratiResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.gujarati = gujaratiResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.gujarati = gujaratiResources;
 }
 
 // ES6 Module Export

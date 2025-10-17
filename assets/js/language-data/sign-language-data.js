@@ -558,8 +558,8 @@ const signLanguageResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.signlanguage = signLanguageResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.signlanguage = signLanguageResources;
 }
 
 // ES6 Module Export

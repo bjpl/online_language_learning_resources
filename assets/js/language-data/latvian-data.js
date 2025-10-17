@@ -522,8 +522,8 @@ const latvianResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.latvian = latvianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.latvian = latvianResources;
 }
 
 // ES6 Module Export

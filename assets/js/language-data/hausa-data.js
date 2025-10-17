@@ -735,8 +735,8 @@ const hausaResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.hausa = hausaResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.hausa = hausaResources;
 }
 
 // ES6 Module Export

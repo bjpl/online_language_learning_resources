@@ -461,8 +461,8 @@ const guaraniResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.guarani = guaraniResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.guarani = guaraniResources;
 }
 
 // ES6 Module Export

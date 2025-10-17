@@ -810,8 +810,8 @@ const yorubaResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.yoruba = yorubaResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.yoruba = yorubaResources;
 }
 
 // ES6 Module Export

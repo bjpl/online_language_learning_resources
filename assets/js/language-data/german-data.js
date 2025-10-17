@@ -431,8 +431,8 @@ const germanResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.german = germanResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.german = germanResources;
 }
 
 // ES6 Module Export

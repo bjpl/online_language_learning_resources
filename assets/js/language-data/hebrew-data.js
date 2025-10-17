@@ -119,8 +119,8 @@ const hebrewResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.hebrew = hebrewResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.hebrew = hebrewResources;
 }
 
 // ES6 Module Export

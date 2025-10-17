@@ -583,8 +583,8 @@ const spanishResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.spanish = spanishResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.spanish = spanishResources;
 }
 
 // ES6 Module Export

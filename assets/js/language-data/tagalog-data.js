@@ -440,8 +440,8 @@ const tagalogResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.tagalog = tagalogResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.tagalog = tagalogResources;
 }
 
 // ES6 Module Export

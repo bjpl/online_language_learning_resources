@@ -795,8 +795,8 @@ const croatianResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.croatian = croatianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.croatian = croatianResources;
 }
 
 // ES6 Module Export

@@ -574,8 +574,8 @@ const quechuaResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.quechua = quechuaResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.quechua = quechuaResources;
 }
 
 // ES6 Module Export

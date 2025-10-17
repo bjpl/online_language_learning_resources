@@ -285,8 +285,8 @@ const dutchResources = {
 };
 
 // Add Dutch to the main language data if it exists
-if (typeof languageData !== 'undefined') {
-    languageData.dutch = dutchResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.dutch = dutchResources;
 }
 
 // ES6 Module Export  

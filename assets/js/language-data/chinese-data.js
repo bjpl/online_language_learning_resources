@@ -885,8 +885,8 @@ const chineseResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.chinese = chineseResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.chinese = chineseResources;
 }
 
 // ES6 Module Export

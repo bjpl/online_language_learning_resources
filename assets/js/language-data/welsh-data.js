@@ -753,8 +753,8 @@ const welshResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.welsh = welshResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.welsh = welshResources;
 }
 
 // ES6 Module Export

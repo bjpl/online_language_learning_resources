@@ -424,8 +424,8 @@ const wolofResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.wolof = wolofResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.wolof = wolofResources;
 }
 
 // ES6 Module Export

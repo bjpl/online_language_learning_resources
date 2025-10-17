@@ -361,8 +361,8 @@ const indonesianResources = {
 };
 
 // Backwards compatibility - add to global languageData if it exists
-if (typeof languageData !== 'undefined') {
-    languageData.indonesian = indonesianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.indonesian = indonesianResources;
 }
 
 

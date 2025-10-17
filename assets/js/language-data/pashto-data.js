@@ -1121,8 +1121,8 @@ const pashtoResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.pashto = pashtoResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.pashto = pashtoResources;
 }
 
 // ES6 Module Export

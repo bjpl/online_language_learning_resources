@@ -512,8 +512,8 @@ const bulgarianResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.bulgarian = bulgarianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.bulgarian = bulgarianResources;
 }
 
 // ES6 Module Export

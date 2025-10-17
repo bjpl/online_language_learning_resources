@@ -664,8 +664,8 @@ const ukrainianResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.ukrainian = ukrainianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.ukrainian = ukrainianResources;
 }
 
 // ES6 Module Export

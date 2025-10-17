@@ -527,8 +527,8 @@ const romanianResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.romanian = romanianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.romanian = romanianResources;
 }
 
 // ES6 Module Export

@@ -696,8 +696,8 @@ const laoResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.lao = laoResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.lao = laoResources;
 }
 
 // ES6 Module Export

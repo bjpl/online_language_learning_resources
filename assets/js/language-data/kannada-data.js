@@ -679,8 +679,8 @@ const kannadaResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.kannada = kannadaResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.kannada = kannadaResources;
 }
 
 // ES6 Module Export

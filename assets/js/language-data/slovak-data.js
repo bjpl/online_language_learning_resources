@@ -431,8 +431,8 @@ const slovakResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.slovak = slovakResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.slovak = slovakResources;
 }
 
 // ES6 Module Export

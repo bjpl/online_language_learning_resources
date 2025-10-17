@@ -429,8 +429,8 @@ const afrikaansResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.afrikaans = afrikaansResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.afrikaans = afrikaansResources;
 }
 
 // ES6 Module Export

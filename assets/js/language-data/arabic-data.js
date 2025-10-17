@@ -522,8 +522,8 @@ const arabicResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.arabic = arabicResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.arabic = arabicResources;
 }
 
 // ES6 Module Export

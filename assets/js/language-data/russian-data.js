@@ -686,8 +686,8 @@ const russianResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.russian = russianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.russian = russianResources;
 }
 
 // ES6 Module Export

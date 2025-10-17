@@ -461,8 +461,8 @@ const nahuatlResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.nahuatl = nahuatlResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.nahuatl = nahuatlResources;
 }
 
 // ES6 Module Export

@@ -292,8 +292,8 @@ const portugueseResources = {
 };
 
 // Add Portuguese to the main language data if it exists
-if (typeof languageData !== 'undefined') {
-    languageData.portuguese = portugueseResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.portuguese = portugueseResources;
 }
 
 // ES6 Module Export

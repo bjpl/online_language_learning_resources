@@ -742,8 +742,8 @@ const cebuanoResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.cebuano = cebuanoResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.cebuano = cebuanoResources;
 }
 
 // ES6 Module Export

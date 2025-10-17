@@ -799,8 +799,8 @@ const inuktitutResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.inuktitut = inuktitutResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.inuktitut = inuktitutResources;
 }
 
 // ES6 Module Export

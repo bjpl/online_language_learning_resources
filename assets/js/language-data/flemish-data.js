@@ -372,8 +372,8 @@ const flemishResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.flemish = flemishResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.flemish = flemishResources;
 }
 
 // ES6 Module Export

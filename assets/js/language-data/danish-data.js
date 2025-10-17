@@ -603,8 +603,8 @@ const danishResources = {
 };
 
 // Add Danish to the main language data if it exists
-if (typeof languageData !== 'undefined') {
-    languageData.danish = danishResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.danish = danishResources;
 }
 
 // ES6 Module Export

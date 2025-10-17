@@ -624,8 +624,8 @@ const serbianResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.serbian = serbianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.serbian = serbianResources;
 }
 
 // ES6 Module Export

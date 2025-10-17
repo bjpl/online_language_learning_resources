@@ -578,8 +578,8 @@ const marathiResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.marathi = marathiResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.marathi = marathiResources;
 }
 
 // ES6 Module Export

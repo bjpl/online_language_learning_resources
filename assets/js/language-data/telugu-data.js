@@ -842,8 +842,8 @@ const teluguResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.telugu = teluguResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.telugu = teluguResources;
 }
 
 // ES6 Module Export

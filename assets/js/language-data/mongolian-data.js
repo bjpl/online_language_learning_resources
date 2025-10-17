@@ -658,8 +658,8 @@ const mongolianResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.mongolian = mongolianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.mongolian = mongolianResources;
 }
 
 // ES6 Module Export

@@ -527,8 +527,8 @@ const frenchResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.french = frenchResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.french = frenchResources;
 }
 
 // ES6 Module Export

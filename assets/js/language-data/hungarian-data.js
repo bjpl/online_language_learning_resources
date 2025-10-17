@@ -764,8 +764,8 @@ const hungarianResources = {
     ]
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.hungarian = hungarianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.hungarian = hungarianResources;
 }
 
 // ES6 Module Export

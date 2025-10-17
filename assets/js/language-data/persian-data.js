@@ -683,8 +683,8 @@ const persianResources = {
     }
 };
 
-if (typeof languageData !== 'undefined') {
-    languageData.persian = persianResources;
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.persian = persianResources;
 }
 
 // ES6 Module Export
