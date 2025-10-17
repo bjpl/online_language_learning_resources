@@ -87,13 +87,13 @@
     // Load all resources from language data
     async function loadAllResources() {
         // Need to load language data files first
-        if (typeof languageData === 'undefined') {
+        if (typeof window.languageData === 'undefined') {
             console.error('Language data not loaded!');
             return;
         }
 
-        Object.keys(languageData).forEach(langKey => {
-            const lang = languageData[langKey];
+        Object.keys(window.languageData).forEach(langKey => {
+            const lang = window.languageData[langKey];
             if (!lang) return;
 
             // Process all resource types
