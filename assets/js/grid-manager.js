@@ -64,7 +64,7 @@
 
         // Get configuration for a specific language count
         getConfigForCount(count) {
-            for (const [key, config] of Object.entries(this.gridConfigs)) {
+            for (const config of Object.values(this.gridConfigs)) {
                 if (count >= config.min && count <= config.max) {
                     return config;
                 }
@@ -158,7 +158,7 @@
         },
 
         // Future feature: Group languages by region
-        groupLanguagesByRegion(languages) {
+        groupLanguagesByRegion() {
             const regions = {
                 'European': ['dutch', 'danish', 'italian', 'swedish', 'finnish', 'polish'],
                 'Asian': ['korean', 'japanese', 'hindi', 'indonesian', 'vietnamese'],

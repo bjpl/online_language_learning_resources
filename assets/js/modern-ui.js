@@ -202,13 +202,15 @@
 
             switch(e.key) {
                 case '/':
-                    e.preventDefault();
-                    const searchBox = document.querySelector('.search-box');
-                    if (searchBox) {
-                        searchBox.focus();
-                        searchBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    {
+                        e.preventDefault();
+                        const searchBox = document.querySelector('.search-box');
+                        if (searchBox) {
+                            searchBox.focus();
+                            searchBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }
+                        break;
                     }
-                    break;
 
                 case '?':
                     e.preventDefault();

@@ -549,42 +549,6 @@
         input.click();
     };
 
-    // Decision making
-    window.decide = function(decision) {
-        const resource = state.resources[state.currentIndex];
-        if (!resource) return;
-
-        // Save decision
-        state.decisions[resource._id] = {
-            decision,
-            checks: state.checks[resource._id] || {},
-            timestamp: Date.now()
-        };
-
-        // Update stats
-        state.stats[decision]++;
-        updateStats();
-
-        // Mark as dirty for auto-save
-        state.isDirty = true;
-
-        // Mark queue item
-        updateQueue();
-
-        // Auto advance
-        if (CONFIG.autoAdvance) {
-            setTimeout(() => nextResource(), CONFIG.advanceDelay);
-        }
-    };
-
-    // Manual save
-    window.manualSave = function() {
-        updateSaveIndicator('saving');
-        if (saveProgress()) {
-            showToast('Progress saved successfully!', 'success');
-        }
-    };
-
     // Toggle checks
     window.toggleCheck = function(type) {
         const resource = state.resources[state.currentIndex];
@@ -677,6 +641,42 @@
             ?.classList.toggle('selected');
     }
 
+    // Decision making
+    window.decide = function(decision) {
+        const resource = state.resources[state.currentIndex];
+        if (!resource) return;
+
+        // Save decision
+        state.decisions[resource._id] = {
+            decision,
+            checks: state.checks[resource._id] || {},
+            timestamp: Date.now()
+        };
+
+        // Update stats
+        state.stats[decision]++;
+        updateStats();
+
+        // Mark as dirty for auto-save
+        state.isDirty = true;
+
+        // Mark queue item
+        updateQueue();
+
+        // Auto advance
+        if (CONFIG.autoAdvance) {
+            setTimeout(() => nextResource(), CONFIG.advanceDelay);
+        }
+    };
+
+    // Manual save
+    window.manualSave = function() {
+        updateSaveIndicator('saving');
+        if (saveProgress()) {
+            showToast('Progress saved successfully!', 'success');
+        }
+    };
+
     // Keyboard shortcuts
     function setupKeyboardShortcuts() {
         document.addEventListener('keydown', (e) => {
@@ -686,29 +686,29 @@
             // Ctrl/Cmd + S for manual save
             if ((e.ctrlKey || e.metaKey) && e.key === 's') {
                 e.preventDefault();
-                manualSave();
+                window.manualSave();
                 return;
             }
 
             switch(e.key.toLowerCase()) {
-                case 'k': decide('keep'); break;
-                case 'd': decide('delete'); break;
-                case 'e': decide('edit'); break;
+                case 'k': window.decide('keep'); break;
+                case 'd': window.decide('delete'); break;
+                case 'e': window.decide('edit'); break;
                 case 's':
                     if (!e.ctrlKey && !e.metaKey) {
-                        decide('skip');
+                        window.decide('skip');
                     }
                     break;
-                case 'arrowleft': previousResource(); break;
-                case 'arrowright': nextResource(); break;
+                case 'arrowleft': window.previousResource(); break;
+                case 'arrowright': window.nextResource(); break;
                 case ' ':
                     e.preventDefault();
-                    openInNewTab();
+                    window.openInNewTab();
                     break;
-                case '1': toggleCheck('valid'); break;
-                case '2': toggleCheck('relevant'); break;
-                case '3': toggleCheck('free'); break;
-                case 'b': toggleBatchMode(); break;
+                case '1': window.toggleCheck('valid'); break;
+                case '2': window.toggleCheck('relevant'); break;
+                case '3': window.toggleCheck('free'); break;
+                case 'b': window.toggleBatchMode(); break;
             }
         });
     }
@@ -723,7 +723,7 @@
 
     window.toggleBatchMode = function() {
         state.batchMode = !state.batchMode;
-        switchPreviewMode(state.batchMode ? 'batch' : 'iframe');
+        window.switchPreviewMode(state.batchMode ? 'batch' : 'iframe');
     };
 
     window.exportResults = function() {

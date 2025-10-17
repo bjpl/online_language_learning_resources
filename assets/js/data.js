@@ -6,7 +6,7 @@
 // WHY: Separating data from presentation allows non-technical updates
 
 // Main language data - only includes languages with comprehensive resources
-const languageData = {
+const _languageData = {
     // Note: Only displaying languages with comprehensive resource collections
     // Additional languages (Spanish, French, Japanese, etc.) will be added as content is developed
 
@@ -273,7 +273,7 @@ const languageData = {
 };
 
 // Resource type descriptions for better UX
-const resourceTypes = {
+const _resourceTypes = {
     apps: {
         icon: "📱",
         title: "Mobile Apps & Websites",
@@ -307,7 +307,7 @@ const resourceTypes = {
 };
 
 // Learning methodology information
-const methodologies = {
+const _methodologies = {
     spaced_repetition: {
         name: "Spaced Repetition System (SRS)",
         description: "Review material at increasing intervals to maximize long-term retention",

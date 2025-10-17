@@ -16,7 +16,7 @@ const allResources = {
 let currentLanguageFilter = 'all';
 let currentTypeFilter = 'all';
 let currentView = 'grid';
-let languageData = {}; // Will be populated by loader
+const languageData = {}; // Will be populated by loader
 
 // Initialize
 async function init() {
