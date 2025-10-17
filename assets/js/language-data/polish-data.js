@@ -420,6 +420,3 @@ const polishResources = {
     };
 
     // Register Polish data globally
-// ES6 Module Export
-export { polishResources };
-export default polishResources;

@@ -515,6 +515,3 @@ const bulgarianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.bulgarian = bulgarianResources;
 }
-// ES6 Module Export
-export { bulgarianResources };
-export default bulgarianResources;

@@ -420,6 +420,3 @@ const swedishResources = {
     };
 
     // Register Swedish data globally
-// ES6 Module Export
-export { swedishResources };
-export default swedishResources;

@@ -528,6 +528,3 @@ const estonianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.estonian = estonianResources;
 }
-// ES6 Module Export
-export { estonianResources };
-export default estonianResources;

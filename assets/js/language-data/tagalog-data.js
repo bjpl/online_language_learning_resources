@@ -443,6 +443,3 @@ const tagalogResources = {
 if (typeof languageData !== 'undefined') {
     languageData.tagalog = tagalogResources;
 }
-// ES6 Module Export
-export { tagalogResources };
-export default tagalogResources;

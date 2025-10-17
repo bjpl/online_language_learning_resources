@@ -530,6 +530,3 @@ const frenchResources = {
 if (typeof languageData !== 'undefined') {
     languageData.french = frenchResources;
 }
-// ES6 Module Export
-export { frenchResources };
-export default frenchResources;

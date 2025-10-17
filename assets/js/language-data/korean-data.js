@@ -459,6 +459,3 @@ if (typeof languageData !== 'undefined') {
     languageData.korean = koreanResources;
 }
 
-// ES6 Module Export
-export { koreanResources };
-export default koreanResources;

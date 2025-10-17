@@ -990,6 +990,3 @@ const urduResources = {
 if (typeof languageData !== 'undefined') {
     languageData.urdu = urduResources;
 }
-// ES6 Module Export
-export { urduResources };
-export default urduResources;

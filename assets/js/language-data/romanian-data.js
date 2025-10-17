@@ -530,6 +530,3 @@ const romanianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.romanian = romanianResources;
 }
-// ES6 Module Export
-export { romanianResources };
-export default romanianResources;

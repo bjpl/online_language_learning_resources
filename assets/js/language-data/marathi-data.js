@@ -581,6 +581,3 @@ const marathiResources = {
 if (typeof languageData !== 'undefined') {
     languageData.marathi = marathiResources;
 }
-// ES6 Module Export
-export { marathiResources };
-export default marathiResources;

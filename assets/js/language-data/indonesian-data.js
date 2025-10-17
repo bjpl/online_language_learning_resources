@@ -365,6 +365,3 @@ if (typeof languageData !== 'undefined') {
     languageData.indonesian = indonesianResources;
 }
 
-// ES6 Module Export
-export { indonesianResources };
-export default indonesianResources;

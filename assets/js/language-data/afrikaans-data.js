@@ -432,6 +432,3 @@ const afrikaansResources = {
 if (typeof languageData !== 'undefined') {
     languageData.afrikaans = afrikaansResources;
 }
-// ES6 Module Export
-export { afrikaansResources };
-export default afrikaansResources;

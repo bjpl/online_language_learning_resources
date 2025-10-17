@@ -1124,6 +1124,3 @@ const pashtoResources = {
 if (typeof languageData !== 'undefined') {
     languageData.pashto = pashtoResources;
 }
-// ES6 Module Export
-export { pashtoResources };
-export default pashtoResources;

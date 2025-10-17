@@ -464,6 +464,3 @@ const guaraniResources = {
 if (typeof languageData !== 'undefined') {
     languageData.guarani = guaraniResources;
 }
-// ES6 Module Export
-export { guaraniResources };
-export default guaraniResources;

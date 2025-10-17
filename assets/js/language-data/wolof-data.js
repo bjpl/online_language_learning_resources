@@ -427,6 +427,3 @@ const wolofResources = {
 if (typeof languageData !== 'undefined') {
     languageData.wolof = wolofResources;
 }
-// ES6 Module Export
-export { wolofResources };
-export default wolofResources;

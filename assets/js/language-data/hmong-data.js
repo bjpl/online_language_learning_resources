@@ -896,6 +896,3 @@ const hmongResources = {
 if (typeof languageData !== 'undefined') {
     languageData.hmong = hmongResources;
 }
-// ES6 Module Export
-export { hmongResources };
-export default hmongResources;

@@ -586,6 +586,3 @@ const bengaliResources = {
 if (typeof languageData !== 'undefined') {
     languageData.bengali = bengaliResources;
 }
-// ES6 Module Export
-export { bengaliResources };
-export default bengaliResources;

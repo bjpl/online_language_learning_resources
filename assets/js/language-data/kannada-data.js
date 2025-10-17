@@ -682,6 +682,3 @@ const kannadaResources = {
 if (typeof languageData !== 'undefined') {
     languageData.kannada = kannadaResources;
 }
-// ES6 Module Export
-export { kannadaResources };
-export default kannadaResources;

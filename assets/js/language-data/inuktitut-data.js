@@ -802,6 +802,3 @@ const inuktitutResources = {
 if (typeof languageData !== 'undefined') {
     languageData.inuktitut = inuktitutResources;
 }
-// ES6 Module Export
-export { inuktitutResources };
-export default inuktitutResources;

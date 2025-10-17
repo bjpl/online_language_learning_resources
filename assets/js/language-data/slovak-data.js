@@ -434,6 +434,3 @@ const slovakResources = {
 if (typeof languageData !== 'undefined') {
     languageData.slovak = slovakResources;
 }
-// ES6 Module Export
-export { slovakResources };
-export default slovakResources;

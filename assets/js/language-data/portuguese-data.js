@@ -295,6 +295,3 @@ const portugueseResources = {
 if (typeof languageData !== 'undefined') {
     languageData.portuguese = portugueseResources;
 }
-// ES6 Module Export
-export { portugueseResources };
-export default portugueseResources;

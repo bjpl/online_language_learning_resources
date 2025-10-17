@@ -625,6 +625,3 @@ const greekResources = {
 if (typeof languageData !== 'undefined') {
     languageData.greek = greekResources;
 }
-// ES6 Module Export
-export { greekResources };
-export default greekResources;

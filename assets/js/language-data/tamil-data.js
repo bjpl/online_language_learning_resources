@@ -539,6 +539,3 @@ const tamilResources = {
 if (typeof languageData !== 'undefined') {
     languageData.tamil = tamilResources;
 }
-// ES6 Module Export
-export { tamilResources };
-export default tamilResources;

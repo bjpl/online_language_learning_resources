@@ -606,6 +606,3 @@ const danishResources = {
 if (typeof languageData !== 'undefined') {
     languageData.danish = danishResources;
 }
-// ES6 Module Export
-export { danishResources };
-export default danishResources;

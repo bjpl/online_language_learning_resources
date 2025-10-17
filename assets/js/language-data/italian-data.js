@@ -433,6 +433,3 @@ if (typeof languageData !== 'undefined') {
     languageData.italian = italianResources;
 }
 
-// ES6 Module Export
-export { italianResources };
-export default italianResources;

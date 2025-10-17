@@ -756,6 +756,3 @@ const welshResources = {
 if (typeof languageData !== 'undefined') {
     languageData.welsh = welshResources;
 }
-// ES6 Module Export
-export { welshResources };
-export default welshResources;
