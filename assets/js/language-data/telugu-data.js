@@ -845,3 +845,7 @@ const teluguResources = {
 if (typeof languageData !== 'undefined') {
     languageData.telugu = teluguResources;
 }
+
+// ES6 Module Export
+export { teluguResources };
+export default teluguResources;

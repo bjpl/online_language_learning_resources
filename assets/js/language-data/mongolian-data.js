@@ -661,3 +661,7 @@ const mongolianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.mongolian = mongolianResources;
 }
+
+// ES6 Module Export
+export { mongolianResources };
+export default mongolianResources;

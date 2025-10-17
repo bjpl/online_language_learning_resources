@@ -586,3 +586,7 @@ const spanishResources = {
 if (typeof languageData !== 'undefined') {
     languageData.spanish = spanishResources;
 }
+
+// ES6 Module Export
+export { spanishResources };
+export default spanishResources;

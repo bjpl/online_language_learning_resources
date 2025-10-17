@@ -577,3 +577,7 @@ const quechuaResources = {
 if (typeof languageData !== 'undefined') {
     languageData.quechua = quechuaResources;
 }
+
+// ES6 Module Export
+export { quechuaResources };
+export default quechuaResources;

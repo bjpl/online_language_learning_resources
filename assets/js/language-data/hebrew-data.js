@@ -122,3 +122,7 @@ const hebrewResources = {
 if (typeof languageData !== 'undefined') {
     languageData.hebrew = hebrewResources;
 }
+
+// ES6 Module Export
+export { hebrewResources };
+export default hebrewResources;

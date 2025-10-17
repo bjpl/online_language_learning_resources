@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Test Export Compatibility</title></head>
+<body>
+    <h1>Testing if exports work in regular scripts...</h1>
+    <div id="result"></div>
+
+    <script src="../assets/js/data-simple.js"></script>
+    <script src="../assets/js/language-data/dutch-data.js"></script>
+    <script>
+        const result = document.getElementById('result');
+        if (typeof languageData !== 'undefined' && languageData.dutch) {
+            result.innerHTML = '<p style="color:green">SUCCESS! languageData.dutch loaded: ' + languageData.dutch.name + '</p>';
+        } else {
+            result.innerHTML = '<p style="color:red">FAILED! languageData not populated</p>';
+        }
+    </script>
+</body>
+</html>

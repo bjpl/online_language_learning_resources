@@ -377,3 +377,7 @@ const japaneseResources = {
     };
 
     // Register Japanese data globally
+
+// ES6 Module Export
+export { japaneseResources };
+export default japaneseResources;

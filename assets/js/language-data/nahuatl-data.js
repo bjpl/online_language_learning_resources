@@ -464,3 +464,7 @@ const nahuatlResources = {
 if (typeof languageData !== 'undefined') {
     languageData.nahuatl = nahuatlResources;
 }
+
+// ES6 Module Export
+export { nahuatlResources };
+export default nahuatlResources;

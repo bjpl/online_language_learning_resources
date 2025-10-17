@@ -504,3 +504,7 @@ const lithuanianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.lithuanian = lithuanianResources;
 }
+
+// ES6 Module Export
+export { lithuanianResources };
+export default lithuanianResources;

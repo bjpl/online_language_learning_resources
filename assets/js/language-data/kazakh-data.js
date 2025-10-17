@@ -525,3 +525,7 @@ const kazakhResources = {
 if (typeof languageData !== 'undefined') {
     languageData.kazakh = kazakhResources;
 }
+
+// ES6 Module Export
+export { kazakhResources };
+export default kazakhResources;

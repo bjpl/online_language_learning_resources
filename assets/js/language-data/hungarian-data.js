@@ -767,3 +767,7 @@ const hungarianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.hungarian = hungarianResources;
 }
+
+// ES6 Module Export
+export { hungarianResources };
+export default hungarianResources;

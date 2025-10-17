@@ -888,3 +888,7 @@ const chineseResources = {
 if (typeof languageData !== 'undefined') {
     languageData.chinese = chineseResources;
 }
+
+// ES6 Module Export
+export { chineseResources };
+export default chineseResources;

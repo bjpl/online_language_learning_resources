@@ -699,3 +699,7 @@ const laoResources = {
 if (typeof languageData !== 'undefined') {
     languageData.lao = laoResources;
 }
+
+// ES6 Module Export
+export { laoResources };
+export default laoResources;

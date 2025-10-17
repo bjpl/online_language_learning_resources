@@ -512,3 +512,7 @@ const malayResources = {
 if (typeof languageData !== 'undefined') {
     languageData.malay = malayResources;
 }
+
+// ES6 Module Export
+export { malayResources };
+export default malayResources;

@@ -719,3 +719,7 @@ const dariResources = {
 if (typeof languageData !== 'undefined') {
     languageData.dari = dariResources;
 }
+
+// ES6 Module Export
+export { dariResources };
+export default dariResources;

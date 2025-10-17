@@ -375,3 +375,7 @@ const flemishResources = {
 if (typeof languageData !== 'undefined') {
     languageData.flemish = flemishResources;
 }
+
+// ES6 Module Export
+export { flemishResources };
+export default flemishResources;

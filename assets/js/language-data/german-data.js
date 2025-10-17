@@ -434,3 +434,7 @@ const germanResources = {
 if (typeof languageData !== 'undefined') {
     languageData.german = germanResources;
 }
+
+// ES6 Module Export
+export { germanResources };
+export default germanResources;

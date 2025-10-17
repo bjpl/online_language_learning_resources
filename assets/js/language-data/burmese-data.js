@@ -709,3 +709,7 @@ const burmeseResources = {
 if (typeof languageData !== 'undefined') {
     languageData.burmese = burmeseResources;
 }
+
+// ES6 Module Export
+export { burmeseResources };
+export default burmeseResources;

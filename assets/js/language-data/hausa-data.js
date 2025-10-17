@@ -738,3 +738,7 @@ const hausaResources = {
 if (typeof languageData !== 'undefined') {
     languageData.hausa = hausaResources;
 }
+
+// ES6 Module Export
+export { hausaResources };
+export default hausaResources;

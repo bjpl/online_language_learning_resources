@@ -745,3 +745,7 @@ const cebuanoResources = {
 if (typeof languageData !== 'undefined') {
     languageData.cebuano = cebuanoResources;
 }
+
+// ES6 Module Export
+export { cebuanoResources };
+export default cebuanoResources;

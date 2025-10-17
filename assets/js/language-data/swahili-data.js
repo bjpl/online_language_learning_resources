@@ -360,3 +360,7 @@ const swahiliResources = {
     };
 
     // Register Swahili data globally
+
+// ES6 Module Export
+export { swahiliResources };
+export default swahiliResources;

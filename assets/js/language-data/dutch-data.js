@@ -288,3 +288,7 @@ const dutchResources = {
 if (typeof languageData !== 'undefined') {
     languageData.dutch = dutchResources;
 }
+
+// ES6 Module Export  
+export { dutchResources };
+export default dutchResources;

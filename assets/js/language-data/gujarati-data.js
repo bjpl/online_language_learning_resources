@@ -852,3 +852,7 @@ const gujaratiResources = {
 if (typeof languageData !== 'undefined') {
     languageData.gujarati = gujaratiResources;
 }
+
+// ES6 Module Export
+export { gujaratiResources };
+export default gujaratiResources;

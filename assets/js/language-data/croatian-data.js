@@ -798,3 +798,7 @@ const croatianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.croatian = croatianResources;
 }
+
+// ES6 Module Export
+export { croatianResources };
+export default croatianResources;

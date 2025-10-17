@@ -525,3 +525,7 @@ const latvianResources = {
 if (typeof languageData !== 'undefined') {
     languageData.latvian = latvianResources;
 }
+
+// ES6 Module Export
+export { latvianResources };
+export default latvianResources;

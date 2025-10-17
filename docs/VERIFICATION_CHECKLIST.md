@@ -1,7 +1,8 @@
-# Design System Implementation - Verification Checklist
+# Comprehensive Verification Checklist
 
-**Date**: 2025-09-27
-**Status**: ✅ ALL VERIFIED & COMPLETE
+**Last Updated**: 2025-10-16
+**Previous Verification**: 2025-09-27 (Design System)
+**Current Status**: ⚠️ PARTIALLY COMPLETE - Stabilization Needed
 
 ---
 
@@ -255,7 +256,7 @@ cc0e4c3 - feat: Create unified components.css library from style guide
 
 ---
 
-## ✅ Final Verification
+## ✅ Design System Verification (Sept 2025 - COMPLETE)
 
 ### Critical Checks
 - ✅ All HTML files import components.css
@@ -266,6 +267,168 @@ cc0e4c3 - feat: Create unified components.css library from style guide
 - ✅ Documentation is complete and accurate
 - ✅ Changes committed to git
 - ✅ Backwards compatibility preserved
+
+---
+
+## ⚠️ Stabilization Verification (Oct 2025 - IN PROGRESS)
+
+### P0 - Critical Fixes (Required Before Production)
+- [ ] **Portuguese Apps Restored**
+  - [ ] Apps array contains > 0 items
+  - [ ] Apps display correctly on language page
+  - [ ] No console errors
+  - [ ] Resource count updates
+  - **Validation**: `language.html?lang=portuguese` shows apps
+
+- [ ] **Redundant Aggregation Files Removed**
+  - [ ] `data.js` moved to archive or deleted
+  - [ ] `data-simple.js` moved to archive or deleted
+  - [ ] No imports reference these files (grep verification)
+  - [ ] All pages load without 404 errors
+  - **Validation**: `grep -r "data\.js\|data-simple\.js" assets/js/*.js` returns nothing
+
+### P1 - High Priority (Required This Sprint)
+- [ ] **CSS Consolidation Complete**
+  - [ ] CSS files reduced from 10 to 4
+  - [ ] `base.css` exists (variables + reset + typography)
+  - [ ] Redundant files archived (`modern-ui.css`, `language-filters-scalable.css`)
+  - [ ] All HTML imports updated
+  - [ ] Visual regression tests passed on all pages
+  - **Validation**: Only 4 CSS files in `assets/css/`
+
+- [ ] **!important Declarations Eliminated**
+  - [ ] `grep -r "!important" assets/css/*.css` returns 0 results
+  - [ ] All active states work correctly
+  - [ ] Filter buttons highlight properly
+  - [ ] Mobile touch states functional
+  - **Validation**: Specificity audit shows clean cascade
+
+- [ ] **Pre-Commit Validation Implemented**
+  - [ ] `scripts/validate-language-data.js` exists
+  - [ ] Husky pre-commit hook installed
+  - [ ] Validation catches empty arrays
+  - [ ] Validation catches undefined values
+  - [ ] Documentation updated
+  - **Validation**: Attempt commit with empty array, hook blocks it
+
+### P2 - Medium Priority (Next Sprint)
+- [ ] **CI/CD Resource Counting**
+  - [ ] GitHub Action created (`.github/workflows/update-resource-counts.yml`)
+  - [ ] `scripts/generate-resource-counts.js` exists
+  - [ ] Workflow runs successfully on data changes
+  - [ ] `resource-counts.json` auto-updates
+  - [ ] `LANGUAGE_STATUS_REPORT.md` auto-updates
+  - **Validation**: Make data change, verify auto-update
+
+- [ ] **Mobile CSS Integration** (Optional Enhancement)
+  - [ ] Mobile styles integrated into base components
+  - [ ] Separate `mobile-optimizations.css` archived
+  - [ ] All device tests passed
+  - [ ] WCAG 2.1 AAA maintained
+  - **Validation**: Test on iOS/Android devices
+
+### Functional Verification (Always Required)
+- [ ] **Language Loading**
+  - [ ] All 67 languages load correctly
+  - [ ] No console errors
+  - [ ] Lazy loading works (network tab shows on-demand loading)
+  - [ ] Cache prevents duplicate loads
+  - **Validation**: Open language page, check network tab
+
+- [ ] **Resource Display**
+  - [ ] All resource types display (courses, apps, books, audio, practice)
+  - [ ] Filters work correctly
+  - [ ] Search functions properly
+  - [ ] Sorting options work
+  - **Validation**: Test on `resources.html`
+
+- [ ] **Mobile Experience**
+  - [ ] Touch targets >= 48x48px
+  - [ ] Safe area insets respected (iPhone X+ notches)
+  - [ ] No horizontal scroll on small screens
+  - [ ] Landscape mode optimized
+  - **Validation**: Chrome DevTools mobile emulation
+
+- [ ] **Performance Metrics**
+  - [ ] First Contentful Paint (FCP) < 0.6s
+  - [ ] Largest Contentful Paint (LCP) < 1.0s
+  - [ ] Time to Interactive (TTI) < 1.0s
+  - [ ] Bundle size < 20KB (gzipped)
+  - **Validation**: Lighthouse report > 95 score
+
+### Testing Verification
+- [ ] **Unit Tests**
+  - [ ] All 50 tests passing (`npm test`)
+  - [ ] Coverage >= 80% on core logic
+  - [ ] No flaky tests
+  - **Validation**: `npm test` returns 0 failures
+
+- [ ] **Integration Tests** (Manual)
+  - [ ] Homepage loads all language cards
+  - [ ] Language page displays selected language
+  - [ ] Resources page filters work
+  - [ ] About page renders correctly
+  - **Validation**: Test checklist below
+
+### Browser Compatibility Verification
+- [ ] **Desktop Browsers**
+  - [ ] Chrome (latest)
+  - [ ] Firefox (latest)
+  - [ ] Safari (if available)
+  - [ ] Edge (latest)
+  - **Validation**: Test all critical user flows
+
+- [ ] **Mobile Browsers**
+  - [ ] Chrome Mobile (DevTools emulation)
+  - [ ] Safari Mobile (DevTools emulation)
+  - [ ] Actual device testing (if possible)
+  - **Validation**: Touch interactions work correctly
+
+### Security Verification (MANDATORY-9)
+- [ ] **Input Sanitization**
+  - [ ] Search input sanitized
+  - [ ] URL parameters validated
+  - [ ] No XSS vulnerabilities
+  - **Validation**: Attempt XSS payloads, verify blocked
+
+- [ ] **Dependency Security**
+  - [ ] `npm audit` returns 0 high/critical vulnerabilities
+  - [ ] Dependencies up to date
+  - [ ] No known CVEs
+  - **Validation**: `npm audit` output clean
+
+- [ ] **Build Security**
+  - [ ] No secrets in repository
+  - [ ] `.gitignore` configured correctly
+  - [ ] Environment variables used for sensitive data
+  - **Validation**: `git log` shows no committed secrets
+
+### Documentation Verification
+- [ ] **Technical Docs Updated**
+  - [ ] `TECH_DEBT_ASSESSMENT.md` reflects current state
+  - [ ] `ARCHITECTURE.md` updated with latest changes
+  - [ ] `RESOLUTION_PLAN.md` has refined approach
+  - [ ] Incident report created in `docs/ad_hoc_reports/`
+  - **Validation**: Docs match actual implementation
+
+- [ ] **Runbook Created**
+  - [ ] Stabilization runbook exists and is complete
+  - [ ] Rollback procedures documented
+  - [ ] Success criteria defined
+  - **Validation**: Follow runbook, verify steps work
+
+### Git Verification
+- [ ] **Commits Clean**
+  - [ ] Meaningful commit messages
+  - [ ] Related changes grouped
+  - [ ] No WIP commits in main branch
+  - **Validation**: `git log --oneline` is readable
+
+- [ ] **Branches Managed**
+  - [ ] Feature branch for stabilization work
+  - [ ] Backup branch created before changes
+  - [ ] Clean merge strategy documented
+  - **Validation**: Branch structure clear in `git log --graph`
 
 ### Documentation Accessibility
 - ✅ STYLE_GUIDE.md is complete and readable

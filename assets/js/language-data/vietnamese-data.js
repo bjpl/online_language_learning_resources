@@ -354,3 +354,7 @@ const vietnameseResources = {
     };
 
     // Register Vietnamese data globally
+
+// ES6 Module Export
+export { vietnameseResources };
+export default vietnameseResources;

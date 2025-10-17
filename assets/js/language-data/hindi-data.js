@@ -570,3 +570,7 @@ const hindiResources = {
     };
 
     // Register Hindi data globally
+
+// ES6 Module Export
+export { hindiResources };
+export default hindiResources;
