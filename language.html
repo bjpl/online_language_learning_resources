@@ -112,8 +112,8 @@
 
     <!-- Scripts - ES6 Modules with Lazy Loading -->
     <script type="module">
-      import { languageLoader } from '/assets/js/language-loader.js';
-      import { loadingUI } from '/assets/js/loading-ui.js';
+      import { languageLoader } from './assets/js/language-loader.js';
+      import { loadingUI } from './assets/js/loading-ui.js';
 
       // Get language from URL
       const params = new URLSearchParams(window.location.search);
@@ -165,7 +165,7 @@
           window.dispatchEvent(errorEvent);
         });
     </script>
-    <script type="module" src="assets/js/modern-ui-clean.js"></script>
-    <script type="module" src="assets/js/language-page.js"></script>
+    <script type="module" src="./assets/js/modern-ui-clean.js"></script>
+    <script type="module" src="./assets/js/language-page.js"></script>
 </body>
 </html>
