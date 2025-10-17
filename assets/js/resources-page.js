@@ -2,24 +2,28 @@
 // Resources Page - Aggregation & Display
 // ===================================
 
-(function() {
-    'use strict';
+import { languageLoader } from './language-loader.js';
 
-    // State
-    const allResources = {
-        courses: [],
-        apps: [],
-        books: [],
-        audio: [],
-        practice: []
-    };
+// State
+const allResources = {
+    courses: [],
+    apps: [],
+    books: [],
+    audio: [],
+    practice: []
+};
 
-    let currentLanguageFilter = 'all';
-    let currentTypeFilter = 'all';
-    let currentView = 'grid';
+let currentLanguageFilter = 'all';
+let currentTypeFilter = 'all';
+let currentView = 'grid';
+let languageData = {}; // Will be populated by loader
 
-    // Initialize
-    function init() {
+// Initialize
+async function init() {
+    try {
+        // Load all language metadata first
+        await loadAllLanguages();
+
         populateLanguageDropdown();
         aggregateResources();
         displayStatistics();
@@ -42,10 +46,57 @@
         renderAllResources();
         bindEventHandlers();
         initCollapsibleSections();
+    } catch (error) {
+        console.error('[ResourcesPage] Initialization error:', error);
+        showLoadingError();
     }
+}
 
-    // Populate language dropdown with all available languages
-    function populateLanguageDropdown() {
+// Load all languages
+async function loadAllLanguages() {
+    try {
+        // Get list of all available languages
+        const availableLanguages = languageLoader.getAvailableLanguages();
+
+        // Load all languages in parallel
+        const loadPromises = availableLanguages.map(langCode =>
+            languageLoader.loadLanguage(langCode)
+        );
+
+        const results = await Promise.allSettled(loadPromises);
+
+        // Build languageData object from successful loads
+        results.forEach((result, index) => {
+            if (result.status === 'fulfilled' && result.value) {
+                const langCode = availableLanguages[index];
+                languageData[langCode] = result.value;
+            }
+        });
+
+        console.log(`[ResourcesPage] Loaded ${Object.keys(languageData).length} languages`);
+    } catch (error) {
+        console.error('[ResourcesPage] Error loading languages:', error);
+        throw error;
+    }
+}
+
+// Show loading error
+function showLoadingError() {
+    const container = document.querySelector('.resources-container');
+    if (container) {
+        container.innerHTML = `
+            <div class="error-state">
+                <div class="error-icon">⚠️</div>
+                <h2>Error Loading Resources</h2>
+                <p>Unable to load language data. Please refresh the page to try again.</p>
+                <button onclick="window.location.reload()" class="btn-primary">Refresh Page</button>
+            </div>
+        `;
+    }
+}
+
+// Populate language dropdown with all available languages
+function populateLanguageDropdown() {
         const select = document.getElementById('language-select');
         if (!select || !languageData) return;
 
@@ -425,14 +476,13 @@
         }
     }
 
-    // Initialize when DOM is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', () => {
-            init();
-            initLanguageFilterLayout();
-        });
-    } else {
+// Initialize when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
         init();
         initLanguageFilterLayout();
-    }
-})();
+    });
+} else {
+    init();
+    initLanguageFilterLayout();
+}
