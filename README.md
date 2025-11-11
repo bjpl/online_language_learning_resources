@@ -2,6 +2,15 @@
 
 A beautifully crafted, modern website that curates the best language learning resources from around the web. Built with passion for polyglots and language enthusiasts worldwide.
 
+## 📊 Current Status
+
+**Version:** 2.1.0 (Production Ready)
+**Live Site:** [https://bjpl.github.io/online_language_learning_resources/](https://bjpl.github.io/online_language_learning_resources/)
+**Build System:** Vite 7.1, Vanilla JavaScript, Tailwind CSS
+**Testing:** 73 automated tests - 100% pass rate
+**Accessibility:** WCAG 2.1 AAA compliant
+**Deployment:** GitHub Pages with automated CI/CD
+
 ## 🌟 Features
 
 - **Comprehensive Resource Library**: Curated collection of apps, books, podcasts, courses, and communities for 67 languages
@@ -14,8 +23,8 @@ A beautifully crafted, modern website that curates the best language learning re
 - **Fast & Optimized**: Production build system with code splitting and lazy loading (98% faster load times)
 - **Accessible**: WCAG 2.1 AAA compliant with semantic HTML, ARIA labels, and reduced motion support
 - **Search & Filter**: Quickly find resources by language or type
-- **Professional Development Workflow**: Vite, ESLint, Prettier, Vitest for modern development
-- **Comprehensive Testing**: 50 automated tests with 100% pass rate
+- **Professional Development Workflow**: Vite 7.1, ESLint, Prettier, Vitest for modern development
+- **Comprehensive Testing**: 73 automated tests with 100% pass rate (3 test suites)
 - **High Code Quality**: Zero ESLint errors, professional code standards
 
 ## 🗣️ Currently Featured Languages
@@ -78,8 +87,8 @@ npx http-server
 - **`npm run build`** - Build optimized production bundle
 - **`npm run preview`** - Preview production build locally
 
-**Testing** (NEW in v2.1.0):
-- **`npm run test`** - Run automated test suite (50 tests)
+**Testing**:
+- **`npm run test`** - Run automated test suite (73 tests, 100% pass rate)
 - **`npm run test:watch`** - Run tests in watch mode
 - **`npm run test:ui`** - Interactive test UI
 - **`npm run test:coverage`** - Generate coverage reports
@@ -145,14 +154,14 @@ online_language_learning_resources/
 
 This project includes comprehensive automated testing:
 
-- **50 unit tests** covering core functionality
+- **73 unit tests** across 3 test suites covering core functionality
 - **100% pass rate** with continuous integration
-- **Vitest** test framework (fast, Vite-native)
-- **happy-dom** for browser environment simulation
+- **Vitest 3.2** test framework (fast, Vite-native)
+- **happy-dom 19.0** for browser environment simulation
 
 Run tests:
 ```bash
-npm run test          # Run all tests
+npm run test          # Run all tests (73 tests)
 npm run test:watch    # Watch mode for development
 npm run test:ui       # Interactive UI
 npm run test:coverage # Coverage reports
