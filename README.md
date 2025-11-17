@@ -32,64 +32,106 @@ Live site: https://bjpl.github.io/online_language_learning_resources/
 - Comprehensive testing with 73 automated tests and 100% pass rate
 - Progressive Web App capabilities for enhanced user experience
 
-## Installation
+## Live Demo
 
-### Prerequisites
+**Deployed Application:** [View Live Demo](https://bjpl.github.io/online_language_learning_resources/)
 
+This project demonstrates **modern web development** with Vite 7.1, vanilla JavaScript, and Tailwind CSS. The implementation showcases a curated language learning resource platform with WCAG 2.1 AAA accessibility compliance, comprehensive testing infrastructure, and Progressive Web App capabilities.
+
+**Key Technologies:**
+- Vite 7.1 for fast build tooling and development
+- Vanilla JavaScript with modern ES modules
+- Tailwind CSS for responsive design
+- Vitest 3.2 for comprehensive testing (73 tests)
+- Progressive Web App (PWA) support
+
+**Implementation Highlights:**
+- Curated resource library for 67 languages
+- Mobile-first responsive design with professional optimization
+- WCAG 2.1 AAA accessibility compliance
+- Full-text search and filtering by language/resource type
+- Production build system with code splitting and lazy loading
+- 73 automated tests with 100% pass rate
+
+## Exploring the Code
+
+The project structure demonstrates **modern vanilla JavaScript architecture**:
+
+```
+online_language_learning_resources/
+├── index.html                   # Homepage
+├── language.html                # Language-specific resource page
+├── assets/
+│   ├── css/                     # Stylesheets
+│   │   ├── main.css             # Main styles
+│   │   ├── components.css       # UI components
+│   │   └── language.css         # Language page styles
+│   └── js/                      # JavaScript modules
+│       ├── main.js              # Main application logic
+│       ├── language-loader.js   # Dynamic language loading
+│       └── language-data/       # Language data modules
+├── tests/                       # Vitest test files (73 tests)
+├── vite.config.js               # Vite bundler configuration
+└── vitest.config.js             # Vitest test configuration
+```
+
+**For Technical Review:**
+
+Those interested in the implementation details can explore:
+- `assets/js/` directory for vanilla JavaScript implementation
+- `tests/` directory for comprehensive test suite (73 tests)
+- `vite.config.js` for production build configuration
+- `assets/css/` directory for Tailwind CSS customization
+- `docs/` directory for architecture documentation
+
+**Local Development** _(Optional for developers)_
+
+<details>
+<summary>Click to expand setup instructions</summary>
+
+**Prerequisites:**
 - Node.js 18 or higher
 - npm or yarn package manager
 
-### Setup
+**Setup:**
 
-Clone the repository:
 ```bash
+# Clone repository
 git clone https://github.com/bjpl/online_language_learning_resources.git
 cd online_language_learning_resources
-```
 
-Install dependencies:
-```bash
+# Install dependencies
 npm install
-```
 
-Start the development server:
-```bash
+# Start development server
 npm run dev
 ```
 
 Access the application at `http://localhost:3000`
 
-## Usage
+**Usage:**
 
-### Development Server
-
-Run the development server with hot module replacement:
+Development server with hot module replacement:
 ```bash
 npm run dev
 ```
 
-### Production Build
-
-Create an optimized production build:
+Create optimized production build:
 ```bash
 npm run build
 ```
 
-Preview the production build:
+Preview production build:
 ```bash
 npm run preview
 ```
 
-### Static File Server
-
-Alternative method using a simple file server:
+Run tests:
 ```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx http-server
+npm run test
 ```
+
+</details>
 
 ## Project Structure
 
