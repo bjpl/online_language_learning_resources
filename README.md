@@ -1,77 +1,88 @@
-# Language Learning Hub 🌍
+# Language Learning Hub
 
-A beautifully crafted, modern website that curates the best language learning resources from around the web. Built with passion for polyglots and language enthusiasts worldwide.
+A comprehensive website curating language learning resources from around the web for polyglots and language enthusiasts.
 
-## 📊 Current Status
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Development](#development)
+- [Testing](#testing)
+- [Design](#design)
+- [Contributing](#contributing)
+- [License](#license)
 
-**Version:** 2.1.0 (Production Ready)
-**Live Site:** [https://bjpl.github.io/online_language_learning_resources/](https://bjpl.github.io/online_language_learning_resources/)
-**Build System:** Vite 7.1, Vanilla JavaScript, Tailwind CSS
-**Testing:** 73 automated tests - 100% pass rate
-**Accessibility:** WCAG 2.1 AAA compliant
-**Deployment:** GitHub Pages with automated CI/CD
+## Overview
 
-## 🌟 Features
+Language Learning Hub is a modern, accessible website that provides a curated collection of language learning resources including apps, books, podcasts, courses, and communities. The platform currently features comprehensive collections for Dutch, Danish, and Portuguese, with additional languages in active development.
 
-- **Comprehensive Resource Library**: Curated collection of apps, books, podcasts, courses, and communities for 67 languages
-- **Beautiful, Modern Design**: Clean, elegant interface with thoughtful typography and color palette
-- **Mobile-First & Responsive**: Professional mobile optimization with 30 enhancement categories
-  - 48x48px touch targets (WCAG 2.1 AAA)
-  - iPhone notch support (safe area insets)
-  - Reduced motion accessibility
-  - Optimized for all devices (phones, tablets, foldables)
-- **Fast & Optimized**: Production build system with code splitting and lazy loading (98% faster load times)
-- **Accessible**: WCAG 2.1 AAA compliant with semantic HTML, ARIA labels, and reduced motion support
-- **Search & Filter**: Quickly find resources by language or type
-- **Professional Development Workflow**: Vite 7.1, ESLint, Prettier, Vitest for modern development
-- **Comprehensive Testing**: 73 automated tests with 100% pass rate (3 test suites)
-- **High Code Quality**: Zero ESLint errors, professional code standards
+Built with Vite 7.1, vanilla JavaScript, and Tailwind CSS, the site delivers a fast, responsive experience with WCAG 2.1 AAA accessibility compliance. The platform includes 73 automated tests ensuring reliability and code quality.
 
-## 🗣️ Currently Featured Languages
+Live site: https://bjpl.github.io/online_language_learning_resources/
 
-We've curated comprehensive resource collections for:
+## Features
 
-- **Dutch (Nederlands)** 🇳🇱 - 100+ free resources covering both Dutch and Flemish variants
-- **Danish (Dansk)** 🇩🇰 - 100+ resources including government programs and Nordic materials
-- **Portuguese (Português)** 🇵🇹🇧🇷 - 150+ resources for both European (PT-PT) and Brazilian (PT-BR) variants
+- Curated resource library covering apps, books, podcasts, courses, and communities for 67 languages
+- Mobile-first responsive design with professional optimization for all device types
+- WCAG 2.1 AAA accessibility compliance with semantic HTML and ARIA labels
+- Production build system with code splitting and lazy loading for optimized performance
+- Full-text search and filtering capabilities by language and resource type
+- Comprehensive testing with 73 automated tests and 100% pass rate
+- Progressive Web App capabilities for enhanced user experience
 
-### Coming Soon
-We're actively building comprehensive collections for:
-- Spanish (Español) 🇪🇸
-- French (Français) 🇫🇷
-- German (Deutsch) 🇩🇪
-- Italian (Italiano) 🇮🇹
-- And more!
+## Installation
 
-## 🚀 Live Site
+### Prerequisites
 
-Visit the live site: [https://bjpl.github.io/online_language_learning_resources/](https://bjpl.github.io/online_language_learning_resources/)
+- Node.js 18 or higher
+- npm or yarn package manager
 
-## 💻 Local Development
+### Setup
 
-### Quick Start (Development Server)
-
-1. Clone the repository:
+Clone the repository:
 ```bash
 git clone https://github.com/bjpl/online_language_learning_resources.git
 cd online_language_learning_resources
 ```
 
-2. Install dependencies:
+Install dependencies:
 ```bash
 npm install
 ```
 
-3. Start the development server:
+Start the development server:
 ```bash
 npm run dev
 ```
 
-4. Open your browser to `http://localhost:3000`
+Access the application at `http://localhost:3000`
 
-### Alternative: Static File Server
+## Usage
 
-If you prefer not to use the build system:
+### Development Server
+
+Run the development server with hot module replacement:
+```bash
+npm run dev
+```
+
+### Production Build
+
+Create an optimized production build:
+```bash
+npm run build
+```
+
+Preview the production build:
+```bash
+npm run preview
+```
+
+### Static File Server
+
+Alternative method using a simple file server:
 ```bash
 # Using Python
 python -m http.server 8000
@@ -80,26 +91,7 @@ python -m http.server 8000
 npx http-server
 ```
 
-### Available Scripts
-
-**Development**:
-- **`npm run dev`** - Start development server with hot module replacement
-- **`npm run build`** - Build optimized production bundle
-- **`npm run preview`** - Preview production build locally
-
-**Testing**:
-- **`npm run test`** - Run automated test suite (73 tests, 100% pass rate)
-- **`npm run test:watch`** - Run tests in watch mode
-- **`npm run test:ui`** - Interactive test UI
-- **`npm run test:coverage`** - Generate coverage reports
-
-**Code Quality**:
-- **`npm run lint`** - Check code quality with ESLint
-- **`npm run lint:fix`** - Auto-fix ESLint issues
-- **`npm run format`** - Format code with Prettier
-- **`npm run format:check`** - Check code formatting
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 online_language_learning_resources/
@@ -115,102 +107,106 @@ online_language_learning_resources/
 │   └── js/                      # JavaScript modules
 │       ├── main.js              # Main application logic
 │       ├── language-loader.js   # Dynamic language loading
-│       ├── loading-ui.js        # Loading states & spinners
+│       ├── loading-ui.js        # Loading states and spinners
 │       ├── resource-counter.js  # Resource counting utilities
-│       ├── language-data/       # 67 language data modules
-│       │   ├── language-metadata.js  # Lightweight language metadata
-│       │   └── *-data.js        # Full language resource data
+│       ├── language-data/       # Language data modules
+│       │   ├── language-metadata.js  # Language metadata
+│       │   └── *-data.js        # Language resource data
 │       └── grid-manager.js      # Grid layout management
-├── tests/                       # Test files (Vitest)
-│   ├── unit/                    # Unit tests (50 tests)
+├── tests/                       # Vitest test files
+│   ├── unit/                    # Unit tests
 │   └── setup.js                 # Test configuration
 ├── docs/                        # Documentation
 │   ├── TESTING.md               # Testing guide
-│   ├── ARCHITECTURE.md          # Architecture decisions
+│   ├── ARCHITECTURE.md          # Architecture documentation
 │   ├── DEVELOPMENT.md           # Development workflow
 │   ├── DEPLOYMENT.md            # Deployment procedures
-│   ├── BUILD_SYSTEM_GUIDE.md    # Build system details
-│   └── development-notes/       # Development artifacts
-├── scripts/                     # Build and utility scripts
+│   └── BUILD_SYSTEM_GUIDE.md    # Build system details
 ├── vite.config.js               # Vite bundler configuration
 ├── vitest.config.js             # Vitest test configuration
 ├── eslint.config.js             # ESLint configuration
 ├── .prettierrc.json             # Prettier configuration
-├── package.json                 # npm dependencies and scripts
-├── CLAUDE.md                    # AI agent instructions
-├── CLAUDE-PROJECT.md            # Project configuration
-└── README.md                    # This file
+└── package.json                 # npm dependencies and scripts
 ```
 
-## 🎨 Design Philosophy
+## Development
 
-- **Content-First**: Resources are the star, design supports discoverability
-- **Thoughtful Typography**: Crimson Text for headlines, Inter for body text
-- **Meaningful Color Palette**: Deep purple (wisdom), golden (achievement), teal (growth)
-- **Organic Layouts**: Asymmetry and breathing room for a handcrafted feel
-- **Micro-interactions**: Subtle animations that feel intentional
+### Code Quality Scripts
 
-## 🧪 Testing
-
-This project includes comprehensive automated testing:
-
-- **73 unit tests** across 3 test suites covering core functionality
-- **100% pass rate** with continuous integration
-- **Vitest 3.2** test framework (fast, Vite-native)
-- **happy-dom 19.0** for browser environment simulation
-
-Run tests:
+Check code quality with ESLint:
 ```bash
-npm run test          # Run all tests (73 tests)
-npm run test:watch    # Watch mode for development
-npm run test:ui       # Interactive UI
-npm run test:coverage # Coverage reports
+npm run lint
 ```
 
-See `docs/TESTING.md` for detailed testing guide.
+Auto-fix ESLint issues:
+```bash
+npm run lint:fix
+```
 
----
+Format code with Prettier:
+```bash
+npm run format
+```
 
-## 🤝 Contributing
+Check code formatting:
+```bash
+npm run format:check
+```
 
-Contributions are welcome! If you have a great language learning resource to add:
+### Adding Resources
+
+Resources are managed in language-specific data files located in `assets/js/language-data/`. Each resource should include a name, URL, description, level designation, pricing status, and special features.
+
+## Testing
+
+The project includes comprehensive automated testing using Vitest 3.2 with happy-dom for browser environment simulation.
+
+### Running Tests
+
+Execute all tests:
+```bash
+npm run test
+```
+
+Run tests in watch mode:
+```bash
+npm run test:watch
+```
+
+Interactive test UI:
+```bash
+npm run test:ui
+```
+
+Generate coverage reports:
+```bash
+npm run test:coverage
+```
+
+The test suite includes 73 unit tests across 3 test suites, maintaining a 100% pass rate with continuous integration.
+
+## Design
+
+### Design Philosophy
+
+The platform employs a content-first approach with thoughtful typography using Crimson Text for headlines and Inter for body text. The color palette features deep purple for wisdom, golden for achievement, and teal for growth. Layouts utilize organic asymmetry with intentional micro-interactions for an engaging user experience.
+
+### Mobile Optimization
+
+The site features 30 enhancement categories for mobile devices, including 48x48px touch targets for WCAG 2.1 AAA compliance, iPhone notch support with safe area insets, reduced motion accessibility, and optimization for phones, tablets, and foldable devices.
+
+## Contributing
+
+Contributions are welcome. To add resources:
 
 1. Fork the repository
-2. Add your resource to the appropriate language file in `assets/js/language-data/`
+2. Add resources to the appropriate language file in `assets/js/language-data/`
 3. Run tests: `npm run test`
 4. Verify build: `npm run build`
-5. Submit a pull request with a description of the resource
+5. Submit a pull request with a description of the additions
 
-### Resource Guidelines
+Resource submissions should include the resource name, URL, brief description, level designation, pricing status, and notable features.
 
-When adding resources, please include:
-- Resource name and URL
-- Brief description (1-2 sentences)
-- Level (Beginner, Intermediate, Advanced, All levels)
-- Whether it's free or paid
-- Any special features
+## License
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- Font families from Google Fonts
-- Inspiration from the language learning community
-- All the amazing resource creators who make language learning accessible
-
----
-
-## 📚 Documentation
-
-- **[Testing Guide](docs/TESTING.md)** - Comprehensive testing documentation
-- **[Mobile Optimization](docs/MOBILE_OPTIMIZATION.md)** - Mobile-first design and optimizations
-- **[Architecture](docs/ARCHITECTURE.md)** - System design and patterns
-- **[Development](docs/DEVELOPMENT.md)** - Development workflow and standards
-- **[Deployment](docs/DEPLOYMENT.md)** - Deployment procedures
-- **[Build System](docs/BUILD_SYSTEM_GUIDE.md)** - Build configuration details
-
----
-
-Built with ❤️ for language learners everywhere
+This project is available under the MIT License. See LICENSE file for details.
