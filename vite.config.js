@@ -119,6 +119,10 @@ export default defineConfig({
     port: 3000,
     open: true, // Auto-open browser
     host: true, // Listen on all addresses
+    // Allow serving files from tests directory for review tool
+    fs: {
+      allow: ['..', '.', 'tests', 'assets'],
+    },
   },
 
   // Preview server (for testing production builds)
