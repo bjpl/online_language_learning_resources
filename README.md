@@ -24,7 +24,7 @@ Live site: https://bjpl.github.io/online_language_learning_resources/
 
 ## Features
 
-- Curated resource library covering apps, books, podcasts, courses, and communities for 67 languages
+- Curated resource library covering apps, books, podcasts, courses, and communities for 68 languages
 - Mobile-first responsive design with professional optimization for all device types
 - WCAG 2.1 AAA accessibility compliance with semantic HTML and ARIA labels
 - Production build system with code splitting and lazy loading for optimized performance
@@ -46,7 +46,7 @@ This project demonstrates **modern web development** with Vite 7.1, vanilla Java
 - Progressive Web App (PWA) support
 
 **Implementation Highlights:**
-- Curated resource library for 67 languages
+- Curated resource library for 68 languages
 - Mobile-first responsive design with professional optimization
 - WCAG 2.1 AAA accessibility compliance
 - Full-text search and filtering by language/resource type
