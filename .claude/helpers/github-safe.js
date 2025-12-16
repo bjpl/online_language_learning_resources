@@ -3,14 +3,11 @@
 /**
  * Safe GitHub CLI Helper
  * Prevents timeout issues when using gh commands with special characters
- *
+ * 
  * Usage:
  *   ./github-safe.js issue comment 123 "Message with `backticks`"
  *   ./github-safe.js pr create --title "Title" --body "Complex body"
  */
-
-/* eslint-env node */
-/* global process */
 
 import { execSync } from 'child_process';
 import { writeFileSync, unlinkSync } from 'fs';
@@ -21,7 +18,6 @@ import { randomBytes } from 'crypto';
 const args = process.argv.slice(2);
 
 if (args.length < 2) {
-  /* eslint-disable no-console */
   console.log(`
 Safe GitHub CLI Helper
 
@@ -33,11 +29,10 @@ Usage:
 
 This helper prevents timeout issues with special characters like:
 - Backticks in code examples
-- Command substitution $(...)
+- Command substitution \$(...)
 - Directory paths
 - Special shell characters
 `);
-  /* eslint-enable no-console */
   process.exit(1);
 }
 
@@ -80,16 +75,16 @@ if ((command === 'issue' || command === 'pr') &&
         newArgs[bodyIndex] = '--body-file';
         newArgs[bodyIndex + 1] = tmpFile;
       }
-
+      
       // Execute safely
       const ghCommand = `gh ${command} ${subcommand} ${newArgs.join(' ')}`;
-      console.warn(`Executing: ${ghCommand}`);
-
-      execSync(ghCommand, {
+      console.log(`Executing: ${ghCommand}`);
+      
+      const result = execSync(ghCommand, { 
         stdio: 'inherit',
         timeout: 30000 // 30 second timeout
       });
-
+      
     } catch (error) {
       console.error('Error:', error.message);
       process.exit(1);
@@ -97,7 +92,7 @@ if ((command === 'issue' || command === 'pr') &&
       // Clean up
       try {
         unlinkSync(tmpFile);
-      } catch {
+      } catch (e) {
         // Ignore cleanup errors
       }
     }
