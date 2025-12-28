@@ -370,8 +370,6 @@ const LanguageHub = (function() {
                     element.textContent = `(${resourceCounts[type]})`;
                 }
             });
-
-            console.log('Resource counts loaded:', resourceCounts);
         } catch (error) {
             console.warn('Could not load resource counts, using fallback:', error.message);
 

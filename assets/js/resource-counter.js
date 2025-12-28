@@ -240,7 +240,6 @@ export async function getResourceCountsWithFallback(languageDataObj) {
 
     // Fallback: Count from provided languageData
     if (languageDataObj) {
-      console.log('Using fallback: counting from languageData object');
       return countAllResources(languageDataObj);
     }
 

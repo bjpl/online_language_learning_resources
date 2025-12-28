@@ -58,8 +58,6 @@ async function loadAllLanguages() {
         // Get list of all available languages from languageMap
         const availableLanguages = Object.keys(languageLoader.languageMap);
 
-        console.log(`[ResourcesPage] Loading ${availableLanguages.length} languages...`);
-
         // Load all languages in parallel
         const loadPromises = availableLanguages.map(langCode =>
             languageLoader.loadLanguage(langCode)
@@ -74,8 +72,6 @@ async function loadAllLanguages() {
                 languageData[langCode] = result.value;
             }
         });
-
-        console.log(`[ResourcesPage] Loaded ${Object.keys(languageData).length} languages successfully`);
     } catch (error) {
         console.error('[ResourcesPage] Error loading languages:', error);
         throw error;
