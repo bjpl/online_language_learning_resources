@@ -824,3 +824,191 @@
   white-space: nowrap;
   border-width: 0;
 }
+
+/* ===================================
+   ACCESSIBILITY ENHANCEMENTS
+   =================================== */
+
+/* Skip Links */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  font-weight: var(--fw-semibold);
+  z-index: 10000;
+  transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+  top: var(--space-sm);
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Enhanced Focus-Visible Styles - WCAG 2.1 AA Compliant */
+*:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Specific focus styles for different elements */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px rgba(91, 78, 140, 0.15);
+}
+
+/* Input focus - more subtle */
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(91, 78, 140, 0.2);
+}
+
+/* Card focus states */
+.card:focus-visible,
+.language-card:focus-visible,
+.resource-card:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg), 0 0 0 6px rgba(91, 78, 140, 0.1);
+}
+
+/* ===================================
+   SIGNATURE CARD HOVER INTERACTION
+   Language Hub Signature Effect
+   =================================== */
+
+/* Signature hover glow effect */
+.language-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.language-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(91, 78, 140, 0.03) 0%,
+    rgba(232, 176, 75, 0.03) 50%,
+    rgba(74, 139, 140, 0.03) 100%
+  );
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.language-card:hover::before {
+  opacity: 1;
+}
+
+/* Accent border animation on hover */
+.language-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary) 0%,
+    var(--color-accent) 50%,
+    var(--color-secondary) 100%
+  );
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-base);
+}
+
+.language-card:hover::after {
+  transform: scaleX(1);
+}
+
+/* Enhanced resource card interaction */
+.resource-card {
+  position: relative;
+}
+
+.resource-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--color-primary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-base);
+}
+
+.resource-card:hover::after {
+  transform: scaleX(1);
+}
+
+/* Interactive pill/tag enhancement */
+.pill,
+.language-pills a {
+  position: relative;
+  overflow: hidden;
+}
+
+.pill::before,
+.language-pills a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.pill:hover::before,
+.language-pills a:hover::before {
+  left: 100%;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .language-card::before,
+  .language-card::after,
+  .resource-card::after,
+  .pill::before,
+  .language-pills a::before {
+    transition: none;
+  }
+
+  .skip-link {
+    transition: none;
+  }
+
+  *:focus-visible {
+    transition: none;
+  }
+}

@@ -1,0 +1,11 @@
+# Robots.txt for Language Learning Hub
+# https://bjpl.github.io/online_language_learning_resources/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://bjpl.github.io/online_language_learning_resources/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

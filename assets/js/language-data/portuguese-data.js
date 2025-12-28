@@ -229,6 +229,93 @@ const portugueseResources = {
         ],
 
         apps: [
+            {
+                category: "Language Learning Apps",
+                items: [
+                    {
+                        name: "Duolingo Portuguese",
+                        url: "https://www.duolingo.com/course/pt/en/Learn-Portuguese",
+                        level: "Beginner-Intermediate",
+                        features: ["Gamified learning", "Both PT-BR and PT-PT", "Free with premium option"],
+                        free: true
+                    },
+                    {
+                        name: "Babbel Portuguese",
+                        url: "https://www.babbel.com/learn-portuguese",
+                        level: "Beginner-Intermediate",
+                        features: ["Conversation-focused", "Speech recognition", "Offline mode"],
+                        free: false
+                    },
+                    {
+                        name: "Memrise Portuguese",
+                        url: "https://www.memrise.com/courses/portuguese/",
+                        level: "All levels",
+                        features: ["Native speaker videos", "Spaced repetition", "User-created courses"],
+                        free: true
+                    },
+                    {
+                        name: "Drops Portuguese",
+                        url: "https://languagedrops.com/language/learn-portuguese",
+                        level: "Beginner-Intermediate",
+                        features: ["Visual learning", "5-minute sessions", "Vocabulary focused"],
+                        free: true
+                    },
+                    {
+                        name: "Pimsleur Portuguese",
+                        url: "https://www.pimsleur.com/learn-portuguese",
+                        level: "Beginner-Intermediate",
+                        features: ["Audio-based", "Both variants available", "30-minute lessons"],
+                        free: false
+                    },
+                    {
+                        name: "Busuu Portuguese",
+                        url: "https://www.busuu.com/en/course/learn-portuguese-online",
+                        level: "Beginner-Intermediate",
+                        features: ["Native feedback", "Grammar units", "Conversation practice"],
+                        free: true
+                    },
+                    {
+                        name: "Mango Languages",
+                        url: "https://mangolanguages.com/available-languages/learn-portuguese/",
+                        level: "Beginner-Intermediate",
+                        features: ["Cultural notes", "Both variants", "Library access available"],
+                        free: false
+                    },
+                    {
+                        name: "HelloTalk",
+                        url: "https://www.hellotalk.com/",
+                        level: "All levels",
+                        features: ["Language exchange", "Native speakers", "Text/voice/video chat"],
+                        free: true
+                    }
+                ]
+            },
+            {
+                category: "Flashcard and Vocabulary Apps",
+                items: [
+                    {
+                        name: "Anki Portuguese Decks",
+                        url: "https://ankiweb.net/shared/decks/portuguese",
+                        level: "All levels",
+                        features: ["Spaced repetition", "Community decks", "Highly customizable"],
+                        free: true
+                    },
+                    {
+                        name: "Quizlet Portuguese",
+                        url: "https://quizlet.com/subject/portuguese/",
+                        level: "All levels",
+                        features: ["Flashcard sets", "Games", "Study modes"],
+                        free: true
+                    },
+                    {
+                        name: "Clozemaster Portuguese",
+                        url: "https://www.clozemaster.com/languages/por",
+                        level: "Intermediate-Advanced",
+                        features: ["Context-based learning", "Gamified", "Mass exposure"],
+                        free: true
+                    }
+                ]
+            }
         ],
 
         practice: [

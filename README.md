@@ -16,9 +16,9 @@ A comprehensive website curating language learning resources from around the web
 
 ## Overview
 
-Language Learning Hub is a modern, accessible website that provides a curated collection of language learning resources including apps, books, podcasts, courses, and communities. The platform currently features comprehensive collections for Dutch, Danish, and Portuguese, with additional languages in active development.
+Language Learning Hub is a modern, accessible website that provides a curated collection of language learning resources including apps, books, podcasts, courses, and communities. The platform features comprehensive collections spanning **68 languages worldwide**, from widely-studied languages like Spanish, French, Chinese, and German to indigenous languages like Cree, Navajo, and Quechua.
 
-Built with Vite 7.1, vanilla JavaScript, and Tailwind CSS, the site delivers a fast, responsive experience with WCAG 2.1 AAA accessibility compliance. The platform includes 73 automated tests ensuring reliability and code quality.
+Built with Vite 7.1, vanilla JavaScript, and Tailwind CSS, the site delivers a fast, responsive experience with WCAG 2.1 AA accessibility compliance and mobile-first responsive design. The platform includes 73 automated tests ensuring reliability and code quality.
 
 Live site: https://bjpl.github.io/online_language_learning_resources/
 
@@ -26,7 +26,7 @@ Live site: https://bjpl.github.io/online_language_learning_resources/
 
 - Curated resource library covering apps, books, podcasts, courses, and communities for 68 languages
 - Mobile-first responsive design with professional optimization for all device types
-- WCAG 2.1 AAA accessibility compliance with semantic HTML and ARIA labels
+- WCAG 2.1 AA accessibility compliance with semantic HTML and ARIA labels
 - Production build system with code splitting and lazy loading for optimized performance
 - Full-text search and filtering capabilities by language and resource type
 - Comprehensive testing with 73 automated tests and 100% pass rate
@@ -36,7 +36,7 @@ Live site: https://bjpl.github.io/online_language_learning_resources/
 
 **Deployed Application:** [View Live Demo](https://bjpl.github.io/online_language_learning_resources/)
 
-This project demonstrates **modern web development** with Vite 7.1, vanilla JavaScript, and Tailwind CSS. The implementation showcases a curated language learning resource platform with WCAG 2.1 AAA accessibility compliance, comprehensive testing infrastructure, and Progressive Web App capabilities.
+This project demonstrates **modern web development** with Vite 7.1, vanilla JavaScript, and Tailwind CSS. The implementation showcases a curated language learning resource platform with WCAG 2.1 AA accessibility compliance, comprehensive testing infrastructure, and Progressive Web App capabilities.
 
 **Key Technologies:**
 - Vite 7.1 for fast build tooling and development
@@ -48,7 +48,7 @@ This project demonstrates **modern web development** with Vite 7.1, vanilla Java
 **Implementation Highlights:**
 - Curated resource library for 68 languages
 - Mobile-first responsive design with professional optimization
-- WCAG 2.1 AAA accessibility compliance
+- WCAG 2.1 AA accessibility compliance
 - Full-text search and filtering by language/resource type
 - Production build system with code splitting and lazy loading
 - 73 automated tests with 100% pass rate
@@ -235,7 +235,7 @@ The platform employs a content-first approach with thoughtful typography using C
 
 ### Mobile Optimization
 
-The site features 30 enhancement categories for mobile devices, including 48x48px touch targets for WCAG 2.1 AAA compliance, iPhone notch support with safe area insets, reduced motion accessibility, and optimization for phones, tablets, and foldable devices.
+The site features 30 enhancement categories for mobile devices, including 48x48px touch targets for accessibility compliance, iPhone notch support with safe area insets, reduced motion accessibility, and optimization for phones, tablets, and foldable devices.
 
 ## Contributing
 

@@ -19,6 +19,13 @@
     <link rel="stylesheet" href="assets/css/mobile-optimizations.css">
 </head>
 <body>
+    <!-- Skip Links for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#resources-container" class="skip-link">Skip to resources</a>
+
+    <!-- Live Region for Dynamic Updates -->
+    <div id="live-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
     <!-- Navigation -->
     <nav class="nav" role="navigation">
         <div class="nav-container">
@@ -61,6 +68,7 @@
     </header>
 
     <!-- Resource Categories -->
+    <main id="main-content">
     <section class="section resources-detailed">
         <div class="container">
             <!-- Filter Tabs -->
@@ -88,6 +96,7 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">

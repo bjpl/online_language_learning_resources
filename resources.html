@@ -21,6 +21,13 @@
     <link rel="stylesheet" href="assets/css/mobile-optimizations.css">
 </head>
 <body>
+    <!-- Skip Links for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#courses-section" class="skip-link">Skip to resources</a>
+
+    <!-- Live Region for Dynamic Updates -->
+    <div id="live-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
     <!-- Navigation -->
     <nav class="nav" role="navigation">
         <div class="nav-container">
@@ -137,6 +144,7 @@
     </section>
 
     <!-- Resources by Type -->
+    <main id="main-content">
     <section class="resources-by-type">
         <div class="container">
             <!-- Courses Section -->
@@ -200,6 +208,7 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">

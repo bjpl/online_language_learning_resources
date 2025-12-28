@@ -29,8 +29,13 @@ export default defineConfig({
       ],
     },
 
-    // Test file patterns
-    include: ['tests/unit/**/*.{test,spec}.{js,mjs,cjs}'],
+    // Test file patterns - include all test directories
+    include: [
+      'tests/unit/**/*.{test,spec}.{js,mjs,cjs}',
+      'tests/integration/**/*.{test,spec}.{js,mjs,cjs}',
+      'tests/e2e/**/*.{test,spec}.{js,mjs,cjs}',
+      'tests/performance/**/*.{test,spec}.{js,mjs,cjs}',
+    ],
 
     // Setup files (run before tests)
     setupFiles: ['./tests/setup.js'],

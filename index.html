@@ -30,6 +30,13 @@
     <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 </head>
 <body>
+    <!-- Skip Links for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#languages" class="skip-link">Skip to languages</a>
+
+    <!-- Live Region for Dynamic Updates -->
+    <div id="live-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
     <!-- Navigation -->
     <nav class="nav" role="navigation" aria-label="Main navigation">
         <div class="nav-container">
@@ -107,6 +114,7 @@
     </header>
 
     <!-- Featured Languages Section -->
+    <main id="main-content">
     <section id="languages" class="section languages-section">
         <div class="container">
             <header class="section-header">
@@ -192,7 +200,9 @@
         </div>
     </section>
 
-<!-- Quote Section -->
+</main>
+
+    <!-- Quote Section -->
     <section class="quote-section">
         <div class="container">
             <blockquote class="featured-quote">
