@@ -364,7 +364,8 @@ const LanguageHub = (function() {
 
         try {
             // Load pre-generated resource counts from JSON
-            const response = await fetch('/assets/data/resource-counts.json');
+            // Use relative path to work with GitHub Pages base URL
+            const response = await fetch('./assets/data/resource-counts.json');
 
             if (!response.ok) {
                 throw new Error(`Failed to load resource counts: ${response.status}`);
