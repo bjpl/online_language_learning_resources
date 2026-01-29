@@ -77,7 +77,10 @@ const LanguageHub = (function() {
 
         // Search functionality
         if (elements.searchInput) {
-            elements.searchInput.addEventListener('input', debounce(handleSearch, 300));
+            elements.searchInput.addEventListener('input', (e) => {
+                const value = e.target.value;
+                debouncedSearch(value);
+            });
             elements.searchInput.addEventListener('keypress', handleSearchKeypress);
         }
 
@@ -245,8 +248,8 @@ const LanguageHub = (function() {
     }
 
     // Handle search
-    function handleSearch(e) {
-        state.searchTerm = e.target.value;
+    function handleSearch(searchValue) {
+        state.searchTerm = searchValue;
         renderLanguages(state.allLanguagesVisible || state.searchTerm !== '');
 
         // Scroll to languages section if searching
@@ -254,6 +257,9 @@ const LanguageHub = (function() {
             document.getElementById('languages').scrollIntoView({ behavior: 'smooth' });
         }
     }
+
+    // Debounced search function
+    const debouncedSearch = debounce(handleSearch, 300);
 
     // Handle search keypress (Enter key)
     function handleSearchKeypress(e) {
@@ -264,6 +270,10 @@ const LanguageHub = (function() {
 
     // Execute search
     function executeSearch() {
+        // Read current value from input
+        if (elements.searchInput) {
+            state.searchTerm = elements.searchInput.value;
+        }
         if (state.searchTerm) {
             renderLanguages(true);
             document.getElementById('languages').scrollIntoView({ behavior: 'smooth' });
