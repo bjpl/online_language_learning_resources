@@ -18,7 +18,8 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { execFileSync } from 'child_process';
-import { ROOT, RESULTS_DIR, dataFileFor, importLanguageFile } from './lib/load-data.mjs';
+import { createHash } from 'crypto';
+import { ROOT, RESULTS_DIR, DECISIONS_FILE, dataFileFor, importLanguageFile } from './lib/load-data.mjs';
 import { parseDataFile, findResources, stringValue, removeElementEdit, encodeString, applyEdit } from './lib/js-source.mjs';
 import { flattenLanguage } from '../../tools/review/lib/resources.js';
 
@@ -101,9 +102,11 @@ async function verify(langKey, newSrc, expected) {
 async function main() {
   const args = process.argv.slice(2);
   const write = args.includes('--write');
-  const file = args.find(a => !a.startsWith('--'));
-  if (!file) {
-    console.error('Usage: npm run review:apply -- <review-decisions.json> [--write]');
+  // Defaults to the file the review tool saves into the repo as you work
+  const file = args.find(a => !a.startsWith('--')) || DECISIONS_FILE;
+  if (!fs.existsSync(file)) {
+    console.error(`No decisions file at ${path.relative(process.cwd(), file)}.`);
+    console.error('Usage: npm run review:apply [-- <review-decisions.json>] [--write]');
     process.exit(1);
   }
   const payload = JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -112,7 +115,14 @@ async function main() {
     process.exit(1);
   }
 
-  const actionable = payload.decisions.filter(d => d.decision === 'delete' || d.decision === 'edit');
+  // Rows the tool marked as already applied (status: 'applied') are skipped quietly
+  const alreadyApplied = payload.decisions.filter(d => d.status === 'applied').length;
+  const actionable = payload.decisions.filter(
+    d => (d.decision === 'delete' || d.decision === 'edit') && d.status !== 'applied',
+  );
+  if (alreadyApplied) {
+    console.warn(`${alreadyApplied} decisions were already applied earlier; skipping them.`);
+  }
   const byLang = new Map();
   for (const d of actionable) {
     byLang.set(d.language, [...(byLang.get(d.language) || []), d]);
@@ -121,6 +131,7 @@ async function main() {
 
   const notFound = [];
   const manualEdits = [];
+  const done = []; // decisions applied in files that were written
   let changedFiles = 0;
   let failed = false;
 
@@ -136,6 +147,7 @@ async function main() {
     let deleted = 0;
     const urlsPresent = [];
     const lines = [];
+    const handled = [];
 
     for (const d of decisions) {
       if (d.decision === 'delete') {
@@ -143,11 +155,13 @@ async function main() {
         if (out === null) { notFound.push(d); continue; }
         src = out;
         deleted++;
+        handled.push(d);
         lines.push(`  - delete  ${d.name}  (${d.url || 'no url'})${d.notes ? `  - ${d.notes}` : ''}`);
       } else {
         const res = editResource(src, d);
         if (res === null) { notFound.push(d); continue; }
         src = res.src;
+        handled.push(d);
         if (d.newUrl) { urlsPresent.push(d.newUrl); }
         if (res.applied.length) { lines.push(`  ~ edit    ${d.name}: ${res.applied.join(', ')}`); }
         if (res.manual.length) {
@@ -157,7 +171,9 @@ async function main() {
       }
     }
     if (src === original) {
+      // Nothing to change in the file (e.g. note-only edits, recorded below)
       if (lines.length) { console.warn(`${langKey}\n${lines.join('\n')}\n`); }
+      done.push(...handled);
       continue;
     }
 
@@ -173,6 +189,7 @@ async function main() {
     if (write) {
       fs.writeFileSync(dataFile, src);
       changedFiles++;
+      done.push(...handled);
     }
   }
 
@@ -184,11 +201,27 @@ async function main() {
 
   if (manualEdits.length && write) {
     const out = path.join(RESULTS_DIR, 'manual-edits.md');
-    const body = manualEdits
-      .map(d => `- [ ] **${d.language}** / ${d.type} / ${d.name}\n  - ${d.url}\n${d.todo.map(t => `  - ${t}`).join('\n')}`)
-      .join('\n');
-    fs.appendFileSync(out, `\n## From ${path.basename(file)} (${new Date().toISOString().slice(0, 10)})\n\n${body}\n`);
-    console.warn(`${manualEdits.length} edits need a human - listed in ${path.relative(ROOT, out)}`);
+    const existing = fs.existsSync(out) ? fs.readFileSync(out, 'utf8') : '';
+    // Each to-do carries a marker so re-running apply never adds it twice
+    const marker = d => `<!-- review:${createHash('sha1').update([d.language, d.type, d.name, ...d.todo].join('|')).digest('hex').slice(0, 12)} -->`;
+    const fresh = manualEdits.filter(d => !existing.includes(marker(d)));
+    if (fresh.length) {
+      const body = fresh
+        .map(d => `- [ ] **${d.language}** / ${d.type} / ${d.name} ${marker(d)}\n  - ${d.url}\n${d.todo.map(t => `  - ${t}`).join('\n')}`)
+        .join('\n');
+      fs.appendFileSync(out, `\n## ${new Date().toISOString().slice(0, 10)}\n\n${body}\n`);
+    }
+    console.warn(`${manualEdits.length} edits need a human (${fresh.length} new) - listed in ${path.relative(ROOT, out)}`);
+  }
+
+  // Record what was applied in the decisions file itself, so the review tool and
+  // later runs know for certain (the tool keeps these marks when it saves)
+  if (write && done.length) {
+    for (const d of done) { d.status = 'applied'; }
+    const tmp = `${file}.tmp`;
+    fs.writeFileSync(tmp, `${JSON.stringify(payload, null, 1)}\n`);
+    fs.renameSync(tmp, file);
+    console.warn(`Marked ${done.length} decisions as applied in ${path.relative(process.cwd(), file)}.`);
   }
 
   if (write && changedFiles) {

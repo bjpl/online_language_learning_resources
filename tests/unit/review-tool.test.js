@@ -10,6 +10,7 @@ import {
   assess,
   buildExport,
   mergeDecisions,
+  reconcileDecisions,
 } from '../../tools/review/lib/resources.js';
 import { classify, compareUrls, isEmbeddable } from '../../scripts/review/lib/link-classify.mjs';
 import { checkUrl } from '../../scripts/review/lib/link-fetch.mjs';
@@ -95,6 +96,79 @@ describe('review model', () => {
     expect(mergeDecisions(older, exported).merged[resources[1].id].decision).toBe('edit');
     const newer = { [resources[1].id]: { decision: 'delete', decidedAt: 99 } };
     expect(mergeDecisions(newer, exported).merged[resources[1].id].decision).toBe('delete');
+  });
+});
+
+describe('reconciling decisions after they are applied', () => {
+  const before = assignIds(flattenLanguage('testish', lang));
+  const [alpha, beta, alpha2, store] = before;
+  const meta = r => ({ name: r.name, url: r.url, language: r.language, type: r.type });
+  const decisions = {
+    [store.id]: { decision: 'delete', ...meta(store), decidedAt: 1 },
+    [beta.id]: { decision: 'edit', newUrl: 'https://beta.example/new', notes: 'moved', ...meta(beta), decidedAt: 2 },
+    [alpha.id]: { decision: 'keep', ...meta(alpha), decidedAt: 3 },
+  };
+  // The data after apply: Store deleted, Beta's URL replaced
+  const afterLang = structuredClone(lang);
+  afterLang.resources.courses[0].items[1].url = 'https://beta.example/new';
+  afterLang.resources.apps = [];
+  const after = assignIds(flattenLanguage('testish', afterLang));
+  const newBeta = after.find(r => r.name === 'Beta');
+
+  it('carries applied edits to the new id and marks deletes applied', () => {
+    const { decisions: out, migrated, applied } = reconcileDecisions(after, decisions);
+    expect(migrated).toBe(1);
+    expect(applied).toBe(1);
+    expect(out[newBeta.id]).toMatchObject({ decision: 'edit', url: 'https://beta.example/new', newUrl: undefined, notes: 'moved' });
+    expect(out[beta.id]).toBeUndefined();
+    expect(out[store.id].appliedAt).toBeDefined();
+    expect(out[alpha.id]).toBe(decisions[alpha.id]);
+  });
+
+  it('exports applied rows as applied, and import keeps that', () => {
+    const exported = buildExport(after, reconcileDecisions(after, decisions).decisions);
+    const statuses = Object.fromEntries(exported.decisions.map(d => [d.name, d.status]));
+    expect(statuses).toEqual({ Store: 'applied', Beta: 'applied', Alpha: undefined });
+    const { merged } = mergeDecisions({}, exported);
+    expect(reconcileDecisions(after, merged).applied).toBe(0);
+    expect(buildExport(after, merged).decisions.filter(d => d.status === 'applied')).toHaveLength(2);
+  });
+
+  it('picks up "applied" marks written by apply-decisions when merging', () => {
+    const fileRow = { id: store.id, decision: 'delete', ...meta(store), decidedAt: 1, status: 'applied' };
+    const { merged } = mergeDecisions({ [store.id]: decisions[store.id] }, { decisions: [fileRow] });
+    expect(merged[store.id].appliedAt).toBe(1);
+  });
+
+  it('carries an edit over even when apply already marked it applied', () => {
+    const marked = { [beta.id]: { ...decisions[beta.id], appliedAt: 2 } };
+    const { decisions: out, migrated } = reconcileDecisions(after, marked);
+    expect(migrated).toBe(1);
+    expect(out[newBeta.id]).toMatchObject({ decision: 'edit', url: 'https://beta.example/new' });
+  });
+
+  it('leaves the surviving copy of an exact duplicate undecided after its twin is deleted', () => {
+    // alpha and alpha2 are identical; deleting one leaves the other with alpha's id
+    const dupLang = structuredClone(lang);
+    dupLang.resources.courses[0].items.splice(2, 1);
+    const afterDup = assignIds(flattenLanguage('testish', dupLang));
+    expect(afterDup[0].id).toBe(alpha.id);
+    expect(alpha2.id).toBe(`${alpha.id}::2`);
+    const applied = { [alpha.id]: { decision: 'delete', ...meta(alpha), decidedAt: 4, appliedAt: 4 } };
+    expect(reconcileDecisions(afterDup, applied).decisions[alpha.id]).toBeUndefined();
+  });
+
+  it('marks a cost-only edit applied once the data matches', () => {
+    const d = { [beta.id]: { decision: 'edit', free: true, decidedAt: 5 } };
+    expect(buildExport(before, reconcileDecisions(before, d).decisions).decisions[0].status).toBeUndefined();
+    const flipped = before.map(r => (r.id === beta.id ? { ...r, free: true } : r));
+    expect(buildExport(flipped, reconcileDecisions(flipped, d).decisions).decisions[0].status).toBe('applied');
+  });
+
+  it('reports a decision as missing when its resource changed by hand', () => {
+    const changed = after.filter(r => r.name !== 'Alpha');
+    const { decisions: out } = reconcileDecisions(changed, { [alpha.id]: decisions[alpha.id] });
+    expect(buildExport(changed, out).decisions[0].status).toBe('missing');
   });
 });
 

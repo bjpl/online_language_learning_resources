@@ -9,6 +9,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT = path.resolve(here, '../../..');
 export const DATA_DIR = path.join(ROOT, 'assets/js/language-data');
 export const RESULTS_DIR = path.join(ROOT, 'review_results');
+export const DECISIONS_FILE = path.join(RESULTS_DIR, 'decisions', 'review-decisions.json');
 
 export const languageMap = new LanguageLoader().languageMap;
 
