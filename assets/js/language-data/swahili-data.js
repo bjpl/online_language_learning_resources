@@ -359,7 +359,11 @@ const swahiliResources = {
         }
     };
 
-    // Register Swahili data globally
+
+// Add Swahili to the main language data if it exists
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.swahili = swahiliResources;
+}
 
 // ES6 Module Export
 export { swahiliResources };

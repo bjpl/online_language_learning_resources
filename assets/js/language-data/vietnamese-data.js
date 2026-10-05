@@ -353,7 +353,11 @@ const vietnameseResources = {
         }
     };
 
-    // Register Vietnamese data globally
+
+// Add Vietnamese to the main language data if it exists
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.vietnamese = vietnameseResources;
+}
 
 // ES6 Module Export
 export { vietnameseResources };

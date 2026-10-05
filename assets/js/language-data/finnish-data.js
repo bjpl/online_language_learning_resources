@@ -364,6 +364,11 @@ const finnishResources = {
     };
 
 
+// Add Finnish to the main language data if it exists
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.finnish = finnishResources;
+}
+
 // ES6 Module Export
 export { finnishResources };
 export default finnishResources;

@@ -569,7 +569,11 @@ const hindiResources = {
         }
     };
 
-    // Register Hindi data globally
+
+// Add Hindi to the main language data if it exists
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.hindi = hindiResources;
+}
 
 // ES6 Module Export
 export { hindiResources };

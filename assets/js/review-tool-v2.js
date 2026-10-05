@@ -646,10 +646,21 @@
         const resource = state.resources[state.currentIndex];
         if (!resource) return;
 
-        // Save decision
+        // Changing an earlier decision shouldn't double-count it
+        const previous = state.decisions[resource._id];
+        if (previous && state.stats[previous.decision] > 0) {
+            state.stats[previous.decision]--;
+        }
+
+        // Save decision with enough identity to act on it outside the tool
         state.decisions[resource._id] = {
             decision,
             checks: state.checks[resource._id] || {},
+            name: resource.name,
+            url: resource.url,
+            language: resource._language,
+            type: resource._type,
+            category: resource._category,
             timestamp: Date.now()
         };
 
