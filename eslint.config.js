@@ -145,6 +145,8 @@ export default [
   {
     ignores: [
       'node_modules/**',
+      '.claude/**',
+      '.claude-flow/**',
       'dist/**',
       'build/**',
       'coverage/**',

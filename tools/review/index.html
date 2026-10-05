@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Review</title>
+    <link rel="stylesheet" href="review.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">Resource Review</div>
+        <div class="progress-wrap" title="Decided / total resources">
+            <div class="progress"><div class="progress-bar" id="progress-bar"></div></div>
+            <span id="progress-text">Loading…</span>
+        </div>
+        <div class="stats" id="stats"></div>
+        <div class="pace" id="pace"></div>
+        <div class="top-actions">
+            <button id="btn-export" title="Download your decisions (Ctrl+S)">Export</button>
+            <button id="btn-import" title="Load an exported decisions file">Import</button>
+            <input type="file" id="import-file" accept="application/json,.json" hidden>
+            <button id="btn-help" title="Keyboard shortcuts (?)">?</button>
+        </div>
+    </header>
+
+    <div class="banners" id="banners"></div>
+
+    <main class="layout">
+        <aside class="sidebar">
+            <div class="filters">
+                <label>Language <select id="f-lang"></select></label>
+                <label>Type <select id="f-type"></select></label>
+                <label>Show
+                    <select id="f-status">
+                        <option value="undecided">Not yet decided</option>
+                        <option value="attention">Needs attention (undecided)</option>
+                        <option value="all">Everything</option>
+                        <option value="keep">Decided: keep</option>
+                        <option value="delete">Decided: delete</option>
+                        <option value="edit">Decided: edit</option>
+                        <option value="skip">Decided: skip</option>
+                    </select>
+                </label>
+                <label>Link check
+                    <select id="f-link">
+                        <option value="any">Any result</option>
+                        <option value="dead">Dead</option>
+                        <option value="redirect-home">Redirects to homepage</option>
+                        <option value="redirect">Moved</option>
+                        <option value="error">Server error</option>
+                        <option value="timeout">Timed out</option>
+                        <option value="blocked">Bot-protected</option>
+                        <option value="ok">OK</option>
+                        <option value="unchecked">Not checked</option>
+                        <option value="invalid">Not a link</option>
+                    </select>
+                </label>
+                <label>Order
+                    <select id="f-order">
+                        <option value="attention">Problems first</option>
+                        <option value="data">As on the site</option>
+                    </select>
+                </label>
+                <input type="search" id="f-search" placeholder="Search name or URL  ( / )" autocomplete="off">
+            </div>
+            <div class="view-summary" id="view-summary"></div>
+            <ol class="queue" id="queue"></ol>
+        </aside>
+
+        <section class="detail">
+            <article class="card" id="card"><p class="muted">Loading resources…</p></article>
+
+            <div class="decide" id="decide">
+                <div class="decision-buttons">
+                    <button data-decision="keep" class="btn-keep">Keep <kbd>K</kbd></button>
+                    <button data-decision="delete" class="btn-delete">Delete <kbd>D</kbd></button>
+                    <button data-decision="edit" class="btn-edit">Edit <kbd>E</kbd></button>
+                    <button data-decision="skip" class="btn-skip">Skip <kbd>S</kbd></button>
+                </div>
+                <label class="field"><span>New URL <kbd>U</kbd> accepts a suggestion</span>
+                    <input type="url" id="d-url" placeholder="Leave empty to keep the current URL" autocomplete="off">
+                </label>
+                <button class="suggestion" id="d-suggest" hidden></button>
+                <div class="field free-toggle">
+                    <span>Cost <kbd>F</kbd></span>
+                    <button data-free="true">Free</button>
+                    <button data-free="false">Paid / freemium</button>
+                </div>
+                <label class="field"><span>Notes <kbd>N</kbd></span>
+                    <textarea id="d-notes" rows="2" placeholder="Why, or what should change. Enter saves and moves on; Shift+Enter for a new line."></textarea>
+                </label>
+                <p class="hint" id="d-hint"></p>
+            </div>
+        </section>
+
+        <section class="preview">
+            <div class="preview-bar">
+                <span id="preview-url" class="preview-url"></span>
+                <button id="btn-open" title="Open in a new tab (Space)">Open <kbd>Space</kbd></button>
+                <button id="btn-companion" title="Open every resource in one reusable window (W)">Companion window <kbd>W</kbd></button>
+                <button id="btn-preview" title="Turn the embedded preview on or off (P)">Preview <kbd>P</kbd></button>
+            </div>
+            <div class="frames">
+                <iframe class="frame" title="Resource preview" sandbox="allow-scripts allow-same-origin allow-forms allow-popups" referrerpolicy="no-referrer"></iframe>
+                <iframe class="frame" title="Next resource (preloading)" sandbox="allow-scripts allow-same-origin allow-forms allow-popups" referrerpolicy="no-referrer" hidden></iframe>
+                <div class="preview-note" id="preview-note" hidden></div>
+            </div>
+        </section>
+    </main>
+
+    <dialog id="help">
+        <h2>Keyboard shortcuts</h2>
+        <div class="help-grid">
+            <div><kbd>K</kbd> Keep</div>
+            <div><kbd>D</kbd> Delete</div>
+            <div><kbd>E</kbd> Edit (then type notes, <kbd>Enter</kbd> saves)</div>
+            <div><kbd>S</kbd> Skip for now</div>
+            <div><kbd>U</kbd> Use the suggested URL</div>
+            <div><kbd>F</kbd> Flip free / paid</div>
+            <div><kbd>A</kbd> Same decision as this URL elsewhere</div>
+            <div><kbd>N</kbd> Write a note</div>
+            <div><kbd>Z</kbd> Undo last decision</div>
+            <div><kbd>←</kbd> <kbd>→</kbd> Previous / next</div>
+            <div><kbd>J</kbd> Next undecided</div>
+            <div><kbd>Space</kbd> Open in a new tab</div>
+            <div><kbd>W</kbd> Companion window on / off</div>
+            <div><kbd>P</kbd> Embedded preview on / off</div>
+            <div><kbd>/</kbd> Search</div>
+            <div><kbd>Ctrl</kbd>+<kbd>S</kbd> Export decisions</div>
+        </div>
+        <p class="muted">Changing the URL or cost turns Keep into Edit automatically. Decisions save in this browser as you go; export regularly and apply with <code>npm run review:apply</code>.</p>
+        <form method="dialog"><button>Close</button></form>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script type="module" src="review.js"></script>
+</body>
+</html>

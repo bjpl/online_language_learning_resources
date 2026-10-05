@@ -23,7 +23,7 @@ export default defineConfig({
         'scripts/**',
         'backups/**',
         '*.config.js',
-        'assets/js/review-tool*.js', // Exclude dev tools
+        'tools/**', // Review tool (dev only)
         'assets/js/data.js', // Large data file
         'assets/js/data-simple.js',
       ],

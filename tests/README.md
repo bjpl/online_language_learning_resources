@@ -371,7 +371,7 @@ open coverage/index.html
 - `tests/`
 - `scripts/`
 - `*.config.js`
-- Development tools (`review-tool*.js`)
+- Development tools (`tools/review/`)
 - Large data files (`data.js`, `data-simple.js`)
 
 ## Troubleshooting
