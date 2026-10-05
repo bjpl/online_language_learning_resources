@@ -231,6 +231,8 @@ export function buildExport(resources, decisions) {
       notes: d.notes || undefined,
       reason: d.reason || undefined,
       decidedAt: d.decidedAt,
+      // Set when the decision no longer matches the data: already applied, or the entry changed
+      status: d.appliedAt || d.editAppliedAt ? 'applied' : r ? undefined : 'missing',
     });
   }
   const counts = Object.fromEntries(DECISIONS.map(k => [k, rows.filter(r => r.decision === k).length]));
@@ -253,6 +255,11 @@ export function mergeDecisions(existing, imported) {
       continue;
     }
     const current = merged[row.id];
+    // Same decision, now known to be applied (apply-decisions marks rows it applied)
+    if (current && row.status === 'applied' && row.decidedAt === current.decidedAt && !current.appliedAt) {
+      merged[row.id] = { ...current, appliedAt: row.decidedAt };
+      continue;
+    }
     if (!current || (row.decidedAt || 0) > (current.decidedAt || 0)) {
       merged[row.id] = {
         decision: row.decision,
@@ -266,9 +273,55 @@ export function mergeDecisions(existing, imported) {
         language: row.language,
         type: row.type,
         category: row.category,
+        appliedAt: row.status === 'applied' ? row.decidedAt : undefined,
       };
       added++;
     }
   }
   return { merged, added };
+}
+
+/**
+ * Line saved decisions up with the current data after decisions were applied.
+ * - An edit whose new URL is now in the data moves to that resource's new id,
+ *   so it still shows as decided.
+ * - A decision whose resource is gone (a delete, or an edit that was applied)
+ *   is marked applied and no longer counts as pending.
+ * Returns { decisions, migrated, applied }.
+ */
+export function reconcileDecisions(resources, decisions) {
+  const byId = new Map(resources.map(r => [r.id, r]));
+  const out = {};
+  let migrated = 0;
+  let applied = 0;
+  for (const [id, d] of Object.entries(decisions)) {
+    const r = byId.get(id);
+    if (d.appliedAt && d.decision === 'delete' && r) {
+      // The deleted entry had an exact duplicate, which now has this id: it is undecided
+      continue;
+    }
+    if (d.editAppliedAt || (d.appliedAt && !(d.newUrl && !r))) {
+      out[id] = d;
+      continue;
+    }
+    if (r) {
+      // A cost-only edit keeps the same id; once the data matches, it has been applied
+      const costApplied = d.decision === 'edit' && !d.newUrl && typeof d.free === 'boolean' && r.free === d.free;
+      out[id] = costApplied ? { ...d, free: undefined, editAppliedAt: Date.now() } : d;
+      continue;
+    }
+    const moved =
+      d.newUrl &&
+      resources.find(r => r.language === d.language && r.type === d.type && r.name === d.name && r.url === d.newUrl);
+    if (moved && !decisions[moved.id] && !out[moved.id]) {
+      out[moved.id] = { ...d, url: moved.url, newUrl: undefined, free: undefined, editAppliedAt: Date.now() };
+      migrated++;
+    } else if (d.decision === 'delete' || moved || d.appliedAt) {
+      out[id] = { ...d, appliedAt: d.appliedAt || Date.now() };
+      applied++;
+    } else {
+      out[id] = d;
+    }
+  }
+  return { decisions: out, migrated, applied };
 }

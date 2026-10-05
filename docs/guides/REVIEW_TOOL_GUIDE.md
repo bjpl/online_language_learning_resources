@@ -9,9 +9,9 @@ the judgment calls, with shortcuts for each decision.
 ```bash
 npm run review:check-links   # 1. once, ~10-20 min: check every URL
 npm run review               # 2. open http://localhost:8080/tools/review/ and review
-                             # 3. export decisions (Ctrl+S) as you go
-npm run review:apply -- ~/Downloads/review-decisions-….json          # 4. dry run
-npm run review:apply -- ~/Downloads/review-decisions-….json --write  #    then apply
+                             # 3. decisions save into the repo as you go; commit them now and then
+npm run review:apply         # 4. dry run
+npm run review:apply -- --write   #    then apply
 git diff                     # 5. check, then commit
 ```
 
@@ -78,18 +78,33 @@ set to *Dead* or *Redirects to homepage*, a button marks them all as Delete in o
 
 ### 3. Saving
 
-Decisions save in the browser as you go and survive reloads. Export regularly: the
-exported file is your backup and the input for step 4. **Import** merges an export
-back in (the newest decision wins), e.g. to continue on another computer.
+Every decision is saved, about a second later, to
+`review_results/decisions/review-decisions.json`. The top bar shows "Saved to repo"
+with the time. **Commit that file now and then**: it is your review, and git
+history versions it. The tool also keeps a copy in the browser, and on load merges the
+two (the newest decision wins). So a different port or browser, or cleared browser
+data, loses nothing.
+
+As a further safety net, the first save each day also goes to
+`review_results/decisions/daily/` (not committed).
+
+If the top bar says "Saved in this browser only", the tool wasn't started with
+`npm run review`. Restart it that way, or press **Ctrl+S** to download a copy.
+**Import** merges a downloaded copy back in.
+
+If port 8080 is busy, the review server is probably already running; just open the
+address it printed.
 
 ### 4. Apply
 
-`npm run review:apply -- <export.json>` prints what would change: deletions,
-URL and cost fixes, and anything not found (already applied, or the data changed).
-Add `--write` to apply it. Each edited file is re-imported to prove it still loads
+`npm run review:apply` (or `-- <file.json>` for a downloaded copy) prints what would change: deletions,
+URL and cost fixes, and anything not found (the data changed since the review).
+Add `--write` to apply it. Applied decisions are marked as applied in the decisions
+file, so running it again only picks up new decisions, and the tool keeps showing
+them as decided (an edited URL keeps its decision). Each edited file is re-imported to prove it still loads
 and has exactly the expected number of resources before it is written, and the
 homepage resource counts are regenerated. Edits that need a human (notes without a
-URL or cost change) are listed in `review_results/manual-edits.md`.
+URL or cost change) are listed in `review_results/manual-edits.md`, each only once.
 
 ## Files
 
@@ -99,6 +114,7 @@ URL or cost change) are listed in `review_results/manual-edits.md`.
 | `tools/review/lib/resources.js` | Shared resource model and signals |
 | `scripts/review/check-links.mjs` | Link checker |
 | `scripts/review/apply-decisions.mjs` | Applies exported decisions |
+| `review_results/decisions/review-decisions.json` | Your decisions (saved as you work; commit it) |
 | `review_results/link-check.json` | Link check results |
 | `review_results/deduplicated/unique_removals.json`, `url_replacements.json` | 2025 review, shown as hints |
 

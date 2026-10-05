@@ -91,3 +91,7 @@ coordination/orchestration/*
 claude-flow
 # Removed Windows wrapper files per user request
 hive-mind-prompt-*.txt
+
+# Review tool: local daily snapshots of decisions (the main file is committed)
+review_results/decisions/daily/
+review_results/decisions/*.tmp

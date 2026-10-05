@@ -88,6 +88,10 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); ou
 .stat.skip::before { color: var(--skip); }
 .pace { color: var(--muted); font-size: 13px; margin-left: auto; white-space: nowrap; }
 .top-actions { display: flex; gap: 6px; }
+.save-status { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.save-status.ok::before { content: '✓ '; color: var(--keep); }
+.save-status.warn { color: var(--edit); }
+.save-status.error { color: var(--delete); font-weight: 600; }
 
 .banners:empty { display: none; }
 .banner {

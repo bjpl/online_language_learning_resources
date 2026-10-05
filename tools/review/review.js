@@ -16,11 +16,14 @@ import {
   isHttpUrl,
   buildExport,
   mergeDecisions,
+  reconcileDecisions,
 } from './lib/resources.js';
 
 const STORAGE_KEY = 'resourceReview.v4';
 const DATA_ROOT = '../../assets/js/language-data/';
 const RESULTS_ROOT = '../../review_results/';
+const DISK_ENDPOINT = '/__review/decisions';
+const DISK_SAVE_DELAY = 1000;
 const QUEUE_AHEAD = 80;
 const QUEUE_BEHIND = 4;
 
@@ -41,6 +44,8 @@ const state = {
   session: { started: Date.now(), times: [] },
   exportedCount: 0,
   lastExportAt: null,
+  // Saving into the repo through the local server (npm run review)
+  disk: { available: false, saving: false, savedAt: null, error: null, timer: null },
 };
 
 const $ = id => document.getElementById(id);
@@ -66,7 +71,10 @@ function load() {
   return null;
 }
 
-function save() {
+function save(decisionsChanged = false) {
+  if (decisionsChanged) {
+    scheduleDiskSave();
+  }
   try {
     localStorage.setItem(
       STORAGE_KEY,
@@ -83,6 +91,75 @@ function save() {
     toast('Could not save progress in this browser - export now to be safe');
     console.error(e);
   }
+}
+
+// The repo file (review_results/decisions/review-decisions.json) is the durable
+// copy; browser storage is a fast local cache. Both are merged on load.
+async function loadFromDisk() {
+  try {
+    const res = await fetch(DISK_ENDPOINT, { cache: 'no-store' });
+    const isJson = (res.headers.get('content-type') || '').includes('application/json');
+    state.disk.available = res.ok || (res.status === 404 && isJson);
+    return res.ok ? await res.json() : null;
+  } catch {
+    state.disk.available = false;
+    return null;
+  }
+}
+
+function scheduleDiskSave() {
+  if (!state.disk.available) {
+    return;
+  }
+  clearTimeout(state.disk.timer);
+  state.disk.timer = setTimeout(saveToDisk, DISK_SAVE_DELAY);
+  renderSaveStatus();
+}
+
+async function saveToDisk() {
+  state.disk.timer = null;
+  state.disk.saving = true;
+  renderSaveStatus();
+  try {
+    const res = await fetch(DISK_ENDPOINT, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(buildExport(state.resources, state.decisions)),
+    });
+    if (!res.ok) {
+      throw new Error((await res.json().catch(() => ({}))).error || `HTTP ${res.status}`);
+    }
+    state.disk.savedAt = Date.now();
+    state.disk.error = null;
+  } catch (e) {
+    state.disk.error = e.message;
+    console.error('Saving decisions to the repo failed', e);
+  } finally {
+    state.disk.saving = false;
+    renderSaveStatus();
+  }
+}
+
+function renderSaveStatus() {
+  const el = $('save-status');
+  const { disk } = state;
+  let text = 'Saved in this browser only';
+  let cls = 'warn';
+  if (disk.available) {
+    if (disk.error) {
+      text = `Not saved to repo: ${disk.error}`;
+      cls = 'error';
+    } else if (disk.saving || disk.timer) {
+      text = 'Saving…';
+      cls = '';
+    } else {
+      text = disk.savedAt ? `Saved to repo ${new Date(disk.savedAt).toLocaleTimeString()}` : 'Saving to repo';
+      cls = 'ok';
+    }
+  }
+  el.textContent = text;
+  el.className = `save-status ${cls}`;
+  el.title = disk.available ? 'review_results/decisions/review-decisions.json - commit it now and then' : 'Start the tool with npm run review to save decisions into the repo';
 }
 
 // ---------- data loading ----------
@@ -202,7 +279,7 @@ function decide(decision, { advance = true, reason } = {}) {
   };
   state.undo.push({ id: r.id, prev });
   state.session.times.push(Date.now());
-  save();
+  save(true);
   if (advance) {
     next({ undecidedOnly: true });
   } else {
@@ -222,7 +299,7 @@ function undo() {
     delete state.decisions[last.id];
   }
   state.session.times.pop();
-  save();
+  save(true);
   const at = state.view.findIndex(r => r.id === last.id);
   if (at >= 0) {
     go(at);
@@ -389,14 +466,16 @@ function renderTop() {
 }
 
 function renderBanners() {
+  renderSaveStatus();
   const out = [];
   if (!state.linkCheck) {
     out.push('Links haven\'t been checked yet. Run <code>npm run review:check-links</code> (about 10-20 minutes), then reload. It flags dead links and redirects and spots sites that can\'t be previewed here.');
   }
-  const total = Object.keys(state.decisions).length;
-  const unexported = total - state.exportedCount;
-  if (unexported >= 50) {
-    out.push(`${unexported} decisions haven't been exported yet. They're saved in this browser, but press <kbd>Ctrl</kbd>+<kbd>S</kbd> to keep a copy.`);
+  if (!state.disk.available) {
+    const unexported = Object.keys(state.decisions).length - state.exportedCount;
+    out.push(`Decisions are only being saved in this browser. Start the tool with <code>npm run review</code> to save them into the repo automatically${unexported > 0 ? `, or press <kbd>Ctrl</kbd>+<kbd>S</kbd> to download a copy (${unexported} not yet exported)` : ''}.`);
+  } else if (state.disk.error) {
+    out.push(`Saving to the repo failed (${esc(state.disk.error)}). Your decisions are still in this browser; is <code>npm run review</code> still running? Press <kbd>Ctrl</kbd>+<kbd>S</kbd> to download a copy.`);
   }
   $('banners').innerHTML = out.map(m => `<div class="banner">${m}</div>`).join('');
 }
@@ -577,7 +656,7 @@ function bulkDelete(list) {
       name: r.name, url: r.url, language: r.language, type: r.type, category: r.category,
     };
   }
-  save();
+  save(true);
   render();
   toast(`Marked ${list.length} as Delete`);
 }
@@ -620,7 +699,7 @@ async function importDecisions(file) {
     }
     const { merged, added } = mergeDecisions(state.decisions, data);
     state.decisions = merged;
-    save();
+    save(true);
     rebuildView(current()?.id);
     render();
     showPreview();
@@ -788,6 +867,18 @@ async function init() {
     console.error(e);
     $('card').innerHTML = `<h1>Couldn't load the language data</h1><p class="muted">${esc(e.message)}</p><p class="muted">Start the tool with <code>npm run review</code> rather than opening the file directly.</p>`;
     return;
+  }
+  const disk = await loadFromDisk();
+  const before = Object.keys(state.decisions).length;
+  if (disk) {
+    state.decisions = mergeDecisions(state.decisions, disk).merged;
+  }
+  const { decisions, migrated, applied } = reconcileDecisions(state.resources, state.decisions);
+  state.decisions = decisions;
+  const changed = migrated || applied || Object.keys(state.decisions).length !== before;
+  save(Boolean(changed || (disk === null && before > 0)));
+  if (migrated || applied) {
+    toast(`Found ${migrated + applied} applied decisions in the data${migrated ? ` (${migrated} edits carried over)` : ''}`);
   }
   rebuildView(resumeId);
   render();
