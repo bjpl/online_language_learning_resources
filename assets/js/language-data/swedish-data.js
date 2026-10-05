@@ -419,7 +419,11 @@ const swedishResources = {
         }
     };
 
-    // Register Swedish data globally
+
+// Add Swedish to the main language data if it exists
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.swedish = swedishResources;
+}
 
 // ES6 Module Export
 export { swedishResources };

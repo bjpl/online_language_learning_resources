@@ -376,7 +376,11 @@ const japaneseResources = {
         }
     };
 
-    // Register Japanese data globally
+
+// Add Japanese to the main language data if it exists
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.japanese = japaneseResources;
+}
 
 // ES6 Module Export
 export { japaneseResources };

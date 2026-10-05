@@ -419,7 +419,11 @@ const polishResources = {
         }
     };
 
-    // Register Polish data globally
+
+// Add Polish to the main language data if it exists
+if (typeof window !== 'undefined' && window.languageData) {
+    window.languageData.polish = polishResources;
+}
 
 // ES6 Module Export
 export { polishResources };
