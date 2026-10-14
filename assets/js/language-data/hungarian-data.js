@@ -86,6 +86,17 @@ const hungarianResources = {
                         "features": [
                             "A1"
                         ]
+                    },
+                    {
+                        "name": "SziaMed",
+                        "url": "https://sziamed.com/",
+                        "free": true,
+                        "level": "Not independently assessed",
+                        "features": [
+                            "FREE for everyone",
+                            "Everyday and medical Hungarian",
+                            "Listening, vocabulary, and synthetic voices"
+                        ]
                     }
                 ]
             }
