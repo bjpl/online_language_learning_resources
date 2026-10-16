@@ -392,6 +392,13 @@ const frenchResources = {
                         level: "All levels",
                         features: ["Grammar checker", "Multi-platform", "Free version", "Browser extension"],
                         free: true
+                    },
+                    {
+                        name: "Cubbbix French Level Quiz",
+                        url: "https://cubbbix.com/french-quiz",
+                        level: "A1-C2",
+                        features: ["Free CEFR level test", "Instant results with gap analysis", "Optional verifiable certificate"],
+                        free: true
                     }
                 ]
             }

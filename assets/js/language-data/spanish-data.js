@@ -439,6 +439,13 @@ const spanishResources = {
                         level: "All levels",
                         features: ["Complete verb conjugations", "All tenses and moods", "Completely free"],
                         free: true
+                    },
+                    {
+                        name: "Cubbbix Spanish Level Quiz",
+                        url: "https://cubbbix.com/spanish-quiz",
+                        level: "A1-C2",
+                        features: ["Free CEFR level test", "Instant results with gap analysis", "Optional verifiable certificate"],
+                        free: true
                     }
                 ]
             }

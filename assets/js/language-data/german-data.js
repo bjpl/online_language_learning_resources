@@ -327,6 +327,13 @@ const germanResources = {
                         level: "All levels",
                         features: ["IPA transcription converter", "Free", "Converts text to phonetic notation"],
                         free: true
+                    },
+                    {
+                        name: "Cubbbix German Level Quiz",
+                        url: "https://cubbbix.com/german-quiz",
+                        level: "A1-C2",
+                        features: ["Free CEFR level test", "Instant results with gap analysis", "Optional verifiable certificate"],
+                        free: true
                     }
                 ]
             }

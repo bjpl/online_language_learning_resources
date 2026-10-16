@@ -826,6 +826,13 @@ const chineseResources = {
                         features: ["Official vocabulary lists", "HSK 2.0 and 3.0", "Both standards", "Downloadable resources"],
                         free: true,
                         level: "HSK 2.0 and 3.0"
+                    },
+                    {
+                        name: "Cubbbix Chinese Level Quiz",
+                        url: "https://cubbbix.com/chinese-quiz",
+                        level: "A1-C2",
+                        features: ["Free CEFR level test", "Instant results with gap analysis", "Optional verifiable certificate"],
+                        free: true
                     }
                 ]
             },

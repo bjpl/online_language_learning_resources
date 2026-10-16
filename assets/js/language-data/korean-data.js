@@ -441,6 +441,13 @@ const koreanResources = {
                         level: "All levels",
                         features: ["Official rankings", "Difficulty levels", "Excel format"]
                     },
+                    {
+                        name: "Cubbbix Korean Level Quiz",
+                        url: "https://cubbbix.com/korean-quiz",
+                        level: "A1-C2",
+                        features: ["Free CEFR level test", "Instant results with gap analysis", "Optional verifiable certificate"],
+                        free: true
+                    },
                 ]
             }
         ]
