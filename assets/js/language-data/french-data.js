@@ -366,6 +366,14 @@ const frenchResources = {
                         free: true
                     },
                     {
+                        name: "Parle French Vowel Trainer",
+                        url: "https://getparle.app/french-vowel-trainer/",
+                        description: "Compare French vowel sounds, then identify a contrast in a short listening round.",
+                        level: "A0-A2",
+                        features: ["14 vowel references", "IPA and mouth cues", "Six-question listening rounds", "No microphone required"],
+                        free: true
+                    },
+                    {
                         name: "WordReference",
                         url: "https://www.wordreference.com/",
                         level: "All levels",
